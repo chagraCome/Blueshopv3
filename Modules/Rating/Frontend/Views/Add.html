@@ -1,0 +1,14 @@
+<script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/rating/jquery.rating.pack.js"></script>
+<link href="Amhsoft/Ressources/Javascripts/JQuery/rating/jquery.rating.css" rel="stylesheet" type="text/css" />
+{if $message}
+<div class="alert_box r_corners color_red error m_bottom_10">
+    <i class="fa fa-meh-o"></i><p>{$message}</p>
+</div>
+{/if}
+<div class="descr">
+    <h2 class="tt_uppercase color_dark m_bottom_30"><i class="fa fa-comments"></i>&nbsp;{'Comment and Rating'|tr}</h2>
+    <div class="descr" style=" background-color: rgb(249, 249, 249); ">
+        <h2><i class="fa fa-comment"></i>&nbsp;{'Add comment'|tr}</h2></br>
+        {$widget->Render()}
+    </div>
+</div>

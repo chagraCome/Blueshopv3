@@ -1,0 +1,13 @@
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+  <ul id='tab'>
+    <li><a class="current" href='#'>{'Local Bakup'|tr}</a></li>
+    <li><a href='admin.php?module=backup&page=remote'>{'Remote Backup'|tr}</a></li>
+  </ul>
+  <div class="panel">
+    {$form->Render()}
+  </div>
+</fieldset>

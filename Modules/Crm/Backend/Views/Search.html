@@ -1,0 +1,27 @@
+<fieldset>
+    <legend>{'Information'|tr}</legend>
+    <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+    <legend>
+        <span class="add"><a href="admin.php?module=crm&page=account-add">{'Add new Account'|tr}</a></span> 
+    </legend>
+    <div class="panel">
+        <fieldset>
+            <legend>Search</legend>
+            <form name="searhform" method="get" action="admin.php">
+                <input type="hidden" name="module" value="crm" />
+                 <input type="hidden" name="page" value="search" />
+                 <input type="text" name="key" style="height: 32px; width: 300px" placeholder="Search keyword, Press engter" />
+            </form>
+        </fieldset>
+        
+        <h2>Account List</h2>
+        {$accountgrid->Render()}
+        <br />
+        <h2>Contact List</h2>
+        {$contactgrid->Render()}
+        <h2>Email Template List</h2>
+        {$emailtemplategrid->Render()}
+    </div>
+</fieldset>

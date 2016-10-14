@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ar" dir="ltr">
+    <head>
+        <title>Blueshop 2015 v. 1.0 - Administrator Panel</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link href="Amhsoft/Ressources/Javascripts/JQuery/themes/ui-lightness/jquery-ui-1.8.13.custom.css" rel="stylesheet" type="text/css"/>
+        {foreach $css_files as $css_file}
+        <link href="{$css_file}" rel="stylesheet" type="text/css" />
+        {/foreach}
+        {if $current_lang == 'ar'}
+        <link href="{$skin_path}/stylesheet_ar.css" rel="stylesheet" type="text/css" />
+        {else}
+        <link href="{$skin_path}/stylesheet_en.css" rel="stylesheet" type="text/css" />
+        {/if}
+        <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/jquery-1.6.1.js"></script>
+        <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/ui/jquery-ui-1.8.13.custom.js"></script>
+        <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/jquery.cookies.js"></script>
+        <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/jquery.timepicker.js"></script>
+
+        {*<script type="text/javascript" src="Amhsoft/Ressources/Javascripts/tinymce/tiny_mce.js"></script>*}
+        <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/ckeditor/ckeditor.js"></script>
+        <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/ckeditor/adapters/jquery.js"></script>
+        <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/common_{$current_lang}.js"></script>
+
+        {foreach $js_files as $js_file}
+        <script type="text/javascript" src="{$js_file}"></script>
+        {/foreach}
+        <script type="text/javascript">
+             $(function() {
+                var cookieName = 'admin.accordion';
+                var cookieNameBar = 'admin.bar';
+
+               // var cookieNameBarValue = $.cookies.get(cookieNameBar);
+               var cookieNameBarValue = 0;
+
+                if (cookieNameBarValue == 1) {
+                    $('#sidebar').show();
+                    //$('#main').css('margin', 'auto');
+                    //$('#main').css('width', '98%');
+
+                } else {
+                    $('#sidebar').hide();
+                    // $('#main').css('margin', 'auto');
+                    //$('#main').css('width', '98%');
+
+                }
+                $('#main').css('margin', 'auto');
+                $('#main').css('min-width', '1260px');
+                $('#menu_left_right').accordion({
+                    autoHeight: false,
+                    active: (0),
+                    change: function(e, ui) {
+                        //$.cookies.set(cookieName, $(this).find('h3').index(ui.newHeader[0]));
+                        //$( this ).find( 'h3' ).css('background', 'url(images/tab-btm-inactive-right-bg.gif) no-repeat left center');
+                    }
+                });
+                var h = $('.panel').height();
+                $('#Bar').height(h + 200);
+
+                $('#Bar').click(function() {
+
+                    if (cookieNameBarValue == 1) {
+                       // $.cookies.set(cookieNameBar, 0);
+                        $('#sidebar').toggle('hide');
+                    } else {
+                        $('#sidebar').toggle('show');
+                       // $.cookies.set(cookieNameBar, 1);
+                    }
+                    $('#main').css('margin', 'auto');
+
+                })
+
+            });
+        </script>
+    </head>
+    <body>
+        <header id="header">
+            <hgroup>
+                <h1 class="site_title"><a href="admin.php">{'Control Panel'|tr}</a></h1>
+                <h2 class="section_title">{'Blueshop'|tr}</h2>
+            </hgroup>
+        </header>
+        <!-- begin menu_top -->
+        <section id="secondary_bar">
+            <div class="user">
+                <p>{'Welcome'|tr} {$loggedusername}</p>
+            </div>
+            <div class="breadcrumbs_container">
+                <div class="core_menu_top">
+                    <div id="menuh">
+                        <ul>
+                            <li><a href="admin.php">{'Home'|tr}</a></li>
+                        </ul>
+                        {foreach $multimenu as $label => $main}
+
+                        {if count($main) == 1}
+                        <ul>
+                            <li><a href="#">{$label|tr}</a>
+                                <ul>
+                                    {foreach $main as $sublabel => $sub}
+                                    {foreach $sub->GetItems() as $subitem}
+                                    {$subitem->Render()}
+                                    {/foreach}
+                                    {/foreach}
+                                </ul>
+                            </li>
+                        </ul>
+                        {else}
+                        <ul>
+                            <li><a href="#">{$label|tr}</a>
+                                <ul>
+                                    {foreach $main as $sublabel => $sub}
+                                    <li><a href="#">{$sublabel|tr}</a>
+                                        <ul>
+                                            {foreach $sub->GetItems() as $subitem}
+                                            {$subitem->Render()}
+                                            {/foreach}
+                                        </ul>
+                                    </li>
+                                    {/foreach}
+                                </ul>
+                            </li>
+                        </ul>
+                        {/if}
+                        {/foreach}
+                        <ul>
+                            <li><a class="preview" href="index.php" target="_blank">{'Preview'|tr}</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="admin.php?module=user&amp;page=user-logout">{'Logout'|tr}</a></li>
+                        </ul>
+                        <ul class="last">
+                            <li>
+                                <a href="#"><img src="Design/Backend/Pro/setting.png" width="24" style="margin:6px 0" align="left" />&nbsp;{'Setting'|tr}</a>
+
+                                <ul >
+                                    <li><a href="#">{'Language'|tr}</a>
+                                        <ul>
+                                            {foreach from=$available_lang item=ln key=name} 
+                                            <li><a href="admin.php?lang={$ln|lower}"> {$name}</a></li>
+                                            {/foreach}
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">{'Currency'|tr}</a>
+                                        <ul>
+                                            {foreach $available_currencies as $cur} 
+                                            <li><a href="admin.php?currency={$cur|upper}"> {$cur}</a></li>
+                                            {/foreach}
+                                        </ul>
+                                    </li>
+                                    <li><a href="admin.php?module=user&page=user-profile">{'My Profile'|tr}</a></li>
+                                    <li><a href="admin.php?module=user&page=user-logout">{'Logout'|tr}</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <div style="clear: both"></div>
+        <!-- end menu_top -->
+
+        <div id="maincontainer" style="width: 100%">
+            <section  id="main" class="section_column" >{if $content_page}{include file=$content_page}{/if}</section>
+        </div>
+        <div id="footer">Copyright &copy; 2006-{Amhsoft_Version::getCopyrightYear()} AMHSOFT - Version: {Amhsoft_Version::getVersion()}-{Amhsoft_Version::getBuild()}</div>
+    </body>
+</html>

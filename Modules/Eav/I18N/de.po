@@ -1,0 +1,364 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cms\n"
+"POT-Creation-Date: 2013-10-07 10:20+0100\n"
+"PO-Revision-Date: 2013-10-07 10:30+0100\n"
+"Last-Translator: Amir Cherif <amir.cherif@amhsoft.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../key_words_html.php:3 ../key_words_html.php:7 ../key_words_html.php:11
+#: ../key_words_html.php:15 ../key_words_html.php:18 ../key_words_html.php:34
+#: ../key_words_html.php:41 ../key_words_html.php:45 ../key_words_html.php:56
+msgid "Information"
+msgstr "Informationen"
+
+#: ../key_words_html.php:4 ../key_words_html.php:46
+msgid "Add new Entity Set"
+msgstr "Neues Entity Set hinzufügen"
+
+#: ../key_words_html.php:5 ../key_words_html.php:13
+msgid "List Entity Attributes"
+msgstr "Entity Eigentschaften auflisten"
+
+#: ../key_words_html.php:8
+msgid "Add new Entity Attributes"
+msgstr "Neue Entity Eigenschaften hinzufügen"
+
+#: ../key_words_html.php:9 ../key_words_html.php:16
+msgid "List Entity Sets"
+msgstr "Entity Set auflisten"
+
+#: ../key_words_html.php:12
+msgid "Add new Entity Attribute"
+msgstr "Neue Entity Eigenschaften hinzufügen"
+
+#: ../key_words_html.php:19
+msgid "Design Settings"
+msgstr "Design Einstellungen"
+
+#: ../key_words_html.php:20
+msgid "Boxes and Banners"
+msgstr "Blöcke und Banner"
+
+#: ../key_words_html.php:21
+msgid "Unsed Elements"
+msgstr "Unbenutzte Elemente"
+
+#: ../key_words_html.php:22
+msgid "Header"
+msgstr "Header"
+
+#: ../key_words_html.php:23 ../key_words_html.php:24 ../key_words_html.php:28
+#: ../key_words_html.php:29 ../key_words_html.php:30 ../key_words_html.php:32
+msgid "edit"
+msgstr "Ändern"
+
+#: ../key_words_html.php:25
+msgid "Left"
+msgstr "Links"
+
+#: ../key_words_html.php:26
+msgid "Center"
+msgstr "Mitte"
+
+#: ../key_words_html.php:27
+msgid "Right"
+msgstr "Rechts"
+
+#: ../key_words_html.php:31
+msgid "Footer"
+msgstr "Footer"
+
+#: ../key_words_html.php:35 ../key_words_html.php:36
+#: ../Grids/Set/DataGridView.php:47
+msgid "Manage Attributes"
+msgstr "Eigenschaften verwalten"
+
+#: ../key_words_html.php:37
+msgid "Unsed Attributes"
+msgstr "Benutzte Eigenschaften"
+
+#: ../key_words_html.php:38
+msgid "Attributes"
+msgstr "Eigenschaften"
+
+#: ../key_words_html.php:39
+msgid "General Attributes"
+msgstr "Allgemeine Eigenschaften"
+
+#: ../key_words_html.php:42
+msgid "Add new Entity Attribute Set"
+msgstr "Neues  Entity Eigenschaften Set hinzufügen"
+
+#: ../key_words_html.php:43 ../key_words_html.php:47
+msgid "List Entity Set"
+msgstr "Entity Set auflisten"
+
+#: ../key_words_html.php:48
+msgid "View Name"
+msgstr "Ansichtname"
+
+#: ../key_words_html.php:49 ../key_words_html.php:53 ../key_words_html.php:60
+#: ../key_words_html.php:61 ../Grids/Attribute/DataGridView.php:43
+#: ../Grids/Set/DataGridView.php:42
+msgid "Delete"
+msgstr "Löschen"
+
+#: ../key_words_html.php:50
+msgid "General Informations"
+msgstr "Allgemeine Informationen"
+
+#: ../key_words_html.php:51
+msgid "Prices"
+msgstr "Preise"
+
+#: ../key_words_html.php:52
+msgid "Description"
+msgstr "Beschreibungen"
+
+#: ../key_words_html.php:54
+msgid "Save Views"
+msgstr "Ansicht speichern"
+
+#: ../key_words_html.php:57
+msgid "Add new Product attributes"
+msgstr "Neue Produkteigenschaften hinzufügen"
+
+#: ../key_words_html.php:58
+msgid "List Product attributes"
+msgstr "Produkteigenschaften auflisten"
+
+#: ../key_words_html.php:59
+msgid "Attribute Value"
+msgstr "Eigenschafswert"
+
+#: ../key_words_html.php:62 ../Forms/Attribute/Form.php:95
+#: ../Forms/Set/Form.php:37
+msgid "Save"
+msgstr "Speichern"
+
+#: ../key_words_html.php:64 ../key_words_html.php:107
+#: ../Frontend/key_words_html.php:2 ../Frontend/key_words_html.php:13
+msgid "Summe"
+msgstr "Summe"
+
+#: ../key_words_html.php:65 ../key_words_html.php:108
+#: ../Frontend/key_words_html.php:3 ../Frontend/key_words_html.php:14
+msgid "Continue"
+msgstr "Fortfahren"
+
+#: ../key_words_html.php:66 ../key_words_html.php:109
+#: ../Frontend/key_words_html.php:4 ../Frontend/key_words_html.php:15
+msgid "Buy Now"
+msgstr "Jetzt Kaufen"
+
+#: ../key_words_html.php:68 ../key_words_html.php:69 ../key_words_html.php:70
+#: ../key_words_html.php:71 ../key_words_html.php:72 ../key_words_html.php:73
+#: ../key_words_html.php:74 ../key_words_html.php:75
+#: ../Frontend/key_words_html.php:5 ../Frontend/key_words_html.php:6
+#: ../Frontend/key_words_html.php:7 ../Frontend/key_words_html.php:8
+#: ../Frontend/key_words_html.php:9 ../Frontend/key_words_html.php:10
+#: ../Frontend/key_words_html.php:11 ../Frontend/key_words_html.php:12
+msgid "Add to Cart"
+msgstr "zum Einkaufswagen hinzufügen"
+
+#: ../key_words_html.php:77
+msgid "Car number"
+msgstr "Autonummer"
+
+#: ../key_words_html.php:78
+msgid "Category"
+msgstr "Kategorie"
+
+#: ../key_words_html.php:79
+msgid "Price"
+msgstr "Preis"
+
+#: ../key_words_html.php:80
+msgid "Sold"
+msgstr "Verkauft"
+
+#: ../key_words_html.php:81
+msgid "Print"
+msgstr "Drücken"
+
+#: ../key_words_html.php:82
+msgid "Send to friend"
+msgstr "Zu einem Freund senden"
+
+#: ../key_words_html.php:83
+msgid "Delete bookmark"
+msgstr "Lesezeichen löschen"
+
+#: ../key_words_html.php:84
+msgid "Add bookmark"
+msgstr "Lesezeichen hinzufügen"
+
+#: ../key_words_html.php:85
+msgid "Add to Facebook"
+msgstr "Zu Facebook hinzufügen"
+
+#: ../key_words_html.php:86
+msgid "Add to Twitter"
+msgstr "Zu Twitter hinzufügen"
+
+#: ../key_words_html.php:87
+msgid "car thumb"
+msgstr "Auto Vorschau"
+
+#: ../key_words_html.php:88
+msgid "Owner Informations"
+msgstr "Besitzer Informationen"
+
+#: ../key_words_html.php:89 ../Forms/Attribute/Form.php:58
+#: ../Forms/Set/Form.php:33 ../Grids/Attribute/DataGridView.php:35
+#: ../Grids/Set/DataGridView.php:36 ../Panels/Set/Panel.php:39
+msgid "Name"
+msgstr "Name"
+
+#: ../key_words_html.php:90
+msgid "Mobile"
+msgstr "Handynr"
+
+#: ../key_words_html.php:91
+msgid "Telephone"
+msgstr "Telefon"
+
+#: ../key_words_html.php:92
+msgid "Email"
+msgstr "Email"
+
+#: ../key_words_html.php:93
+msgid "Product Information"
+msgstr "Produktinformationen"
+
+#: ../key_words_html.php:94
+msgid "Related Products"
+msgstr "Angebundene Produkte"
+
+#: ../key_words_html.php:99
+msgid "Products per page"
+msgstr "Produkte pro Seite"
+
+#: ../key_words_html.php:100
+msgid "Sort by"
+msgstr "Sotieren nach"
+
+#: ../key_words_html.php:101
+msgid "Price Ascending"
+msgstr "Preis Aufsteigend"
+
+#: ../key_words_html.php:102
+msgid "Price Descending"
+msgstr "Preis Absteigend"
+
+#: ../key_words_html.php:103
+msgid "Result"
+msgstr "Ergebnis"
+
+#: ../key_words_html.php:104
+msgid "from"
+msgstr "Von"
+
+#: ../key_words_html.php:105
+msgid "No Products available"
+msgstr "Keine Produkte verfügbar"
+
+#: ../Backend/Controllers/Attributes/Add.php:35
+msgid "Create new Entity Attribute"
+msgstr "Neue Entity Eigenschaft erstellen"
+
+#: ../Backend/Controllers/Attributes/Add.php:49
+#: ../Backend/Controllers/Attributes/Modify.php:63
+#: ../Backend/Controllers/Attributeset/Add.php:57
+#: ../Backend/Controllers/Attributeset/Modify.php:91
+msgid "Please check inputs."
+msgstr "Bitte Eingaben überprüfen"
+
+#: ../Backend/Controllers/Attributes/Add.php:59
+msgid "Entity Attribute was successully added"
+msgstr "Entity Eigenschaft wurde erfolgreich hinzugefügt"
+
+#: ../Backend/Controllers/Attributes/List.php:42
+msgid "List products attributes"
+msgstr "Produkteigenschaften auflisten"
+
+#: ../Backend/Controllers/Attributes/Modify.php:35
+msgid "Edit Product Attribute"
+msgstr "Produkteigenschaften ändern"
+
+#: ../Backend/Controllers/Attributeset/Add.php:44
+msgid "Create new Product Set"
+msgstr "Neues Produkt Set erstellen"
+
+#: ../Backend/Controllers/Attributeset/Detail.php:43
+msgid "Product Set Details"
+msgstr "Details über Produkt Set"
+
+#: ../Backend/Controllers/Attributeset/List.php:43
+msgid "List Products Sets"
+msgstr "Produkt Sets auflisten"
+
+#: ../Backend/Controllers/Attributeset/Modify.php:42
+msgid "Edit Entity Set"
+msgstr "Entity Set ändern"
+
+#: ../Backend/Controllers/Attributesource/Modify.php:35
+msgid "Manage Attribute Values"
+msgstr "Eigenschaftswerte verwalten"
+
+#: ../Forms/Attribute/Form.php:64 ../Grids/Attribute/DataGridView.php:34
+msgid "Label"
+msgstr "Etikett"
+
+#: ../Forms/Attribute/Form.php:72
+msgid "Error Message"
+msgstr "Fehlermeldung"
+
+#: ../Forms/Attribute/Form.php:76
+msgid "Default Value"
+msgstr "Standart Wert"
+
+#: ../Forms/Attribute/Form.php:80
+msgid "Validator"
+msgstr "Prüfer"
+
+#: ../Forms/Attribute/Form.php:87 ../Grids/Attribute/DataGridView.php:36
+msgid "Required"
+msgstr "Benötigt"
+
+#: ../Forms/Attribute/Form.php:88
+msgid "Searchable"
+msgstr "Suchbar"
+
+#: ../Forms/Attribute/Form.php:90
+msgid "Entity Attribute type BackEnd"
+msgstr "Entity Eigenschaftstyp im BackEnd"
+
+#: ../Forms/Set/Form.php:40
+msgid "Entity Set Name"
+msgstr "Entity Set Name"
+
+#: ../Forms/Set/Form.php:44
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../Grids/Attribute/DataGridView.php:38 ../Grids/Set/DataGridView.php:38
+msgid "Edit"
+msgstr "Ändern"
+
+#: ../Grids/Attribute/DataGridView.php:49
+msgid "Manage Options"
+msgstr "Optionen verwalten"
+
+#: ../Panels/Set/Panel.php:37
+msgid "Product Set Information"
+msgstr "Informationen über Produkt Set "

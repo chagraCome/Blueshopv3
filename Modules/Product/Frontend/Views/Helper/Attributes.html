@@ -1,0 +1,24 @@
+{foreach $product->getEntitySet()->getViews() as $view}
+<br />
+<div class="core_content">
+    <table width="100%">
+        <tr>
+            <td>
+                <h3 class="active attributes" >{$view->getName()} </h3>
+                <div class="core_content_container">
+                    <div class="div_content">
+                        <table  class="search_table tableborder" style="padding: 3px; border: none; margin-top: 10px; width: 100%">
+                            {foreach $view->getAttributes() as $key => $attribute}
+                            <tr {if $key == 0 || ($key % 2) == 0} class="silver_odd" {/if}>
+                                <td style="width: 30%">{$attribute->getLabel()}: </td>
+                                <td>{$attribute->getFrontEndComponent($product)}</td>
+                            </tr>
+                            {/foreach}
+                        </table>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+{/foreach}

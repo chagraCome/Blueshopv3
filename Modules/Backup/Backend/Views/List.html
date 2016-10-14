@@ -1,0 +1,16 @@
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+  <legend>
+    <span class="add"><a href="admin.php?module=backup&page=local">{'Generate new Backup'|tr}</a></span> 
+  </legend>
+  <ul id='tab'>
+    <li><a class="current" href='#'>{'Local Bakups'|tr}</a></li>
+    <li><a href='admin.php?module=backup&page=remotelist'>{'Remote Backups'|tr}</a></li>
+  </ul>
+  <div class="panel">
+    {$grid->Render()}
+  </div>
+</fieldset>

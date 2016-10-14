@@ -1,0 +1,42 @@
+<div class="core_content" style="min-height: 38px;">
+   <h1>{'Account'|tr}<a href="index.php?module=cart&page=checkout-account" class="cart_edit"><img src="Design/Frontend/Souldrops/Layout/Default/images/modify-icon.png"/></a></h1>
+</div>
+<br />
+<div class="core_content" style="min-height: 38px;">
+   <h1>{'Invoice'|tr} & {'Shipping Address'|tr}<a href="index.php?module=cart&page=checkout-address"  class="cart_edit"><img src="Design/Frontend/Souldrops/Layout/Default/images/modify-icon.png"/></a></h1>
+</div>
+<br />
+<div class="core_content" style="min-height: 38px;">
+   <h1>{'Shipping Method'|tr}<a href="index.php?module=cart&page=checkout-shipping" class="cart_edit"><img src="Design/Frontend/Souldrops/Layout/Default/images/modify-icon.png"/></a></h1>
+</div>
+<br />
+<div class="core_content" style="min-height: 38px">
+    {if $error_message}<div style=" border: 1px solid #FFE7A1; background-color: #ffc; padding: 6px; font-weight: bold">{$error_message}</div>{/if}
+   <h1>{'Payment Method'|tr}</h1>
+    <div style="padding: 10px">
+        <form name="payment_form" action="" method="post">
+            {foreach $payments as $payment}
+            <div class="payment_row" style="margin-bottom: 20px; padding: 10px 0">
+                <div class="payment-name"><label><input type="radio" name="payment_id" value="{$payment->getId()}" {if $selectedpayment == $payment->getId()}checked="checked"{/if} />&nbsp;{$payment->getName()}</label><span style="float: right"></span></div>
+                <div class="payment-description">
+                    <table style="width: 100%">
+                        <tr>
+                            <td>{$payment->getDescription()|htmlspecialchars_decode}</td>
+                            {if $payment->hasLogo()}
+                            <td style="width: 150px">{if $payment->getLogoSrc()}<img src="{$payment->getLogoSrc()}" style="max-height: 100px; max-width: 150px" />{/if}</td>
+                            {/if}
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <hr style="border: 1px solid #e8e8e8" />
+            {/foreach}
+            <br />
+            <input class="Button continue" type="submit" name="continue" value="{'Continue'|tr}" />
+        </form>
+    </div>
+</div>
+<br />
+<div class="core_content" style="min-height: 38px">
+   <h1>{'Preview Order'|tr}</h1>
+</div>

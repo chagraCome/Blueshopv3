@@ -1,0 +1,55 @@
+{page name="zeroprice" title='Sales Order for included domain'|tr border=1}
+
+
+<table  class="grid">
+    <tr>
+        <th>{'Product Number'|tr}</th>
+        <th>{'Product Name'|tr}</th>
+        <th>{'Product Description'|tr}</th>
+        <th>{'Unit Price'|tr}</th>
+        <th>{'Quantity'|tr}</th>
+        <th>{'Sub Total'|tr}</th>
+    </tr>
+    {foreach $saleorder->getItems() as $item}
+    <tr>
+        <td>{$item->product_number}</td>
+        <td>{$item->item_name}</td>
+        <td style="max-width: 200px; padding: 0 10px 10px 10px">{$item->item_description|nl2br}</td>
+        <td>{$item->unit_price|price}</td>
+        <td>{$item->quantity}</td>
+        <td>{$item->sub_total|price}</td>
+    </tr>
+    {/foreach}
+
+    <tr>
+        <td colspan="4"></td>
+        <td style="border-bottom: 2px solid gray">{'Sub Total'|tr}</td>
+        <td style="border-bottom: 2px solid gray">{'0'}</td>
+    </tr>
+    <tr>
+        <td colspan="4"></td>
+        <td>{'Shipping Cost'|tr}</td>
+        <td>{$saleorder->shipping_cost|price}</td>
+    </tr>
+    {if $saleorder->calculateHandlingFee() neq 0}<tr>
+        <td colspan="4"></td>
+        <td>{'Handling Fee'|tr}</td>
+        <td>{$saleorder->calculateHandlingFee()|price}</td>
+    </tr>{/if}
+    {if $saleorder->total_discount neq 0}<tr>
+        <td colspan="4"></td>
+        <td>{'Discount'|tr}</td>
+        <td>{$saleorder->total_discount|price}</td>
+    </tr>{/if}
+    <tr>
+        <td colspan="4"></td>
+        <td style="border-top: 4px solid gray"><strong>{'Total'|tr}</strong></td>
+        <td style="border-top: 4px solid gray"><strong>{'0'}</strong></td>
+    </tr>
+
+
+</table>
+
+{/page}
+<br />
+

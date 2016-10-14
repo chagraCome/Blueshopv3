@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 " lang="fr"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8 ie7" lang="fr"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9 ie8" lang="fr"> <![endif]-->
+<!--[if gt IE 8]> <html class="no-js ie9" lang="fr"> <![endif]-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+    <head>
+        <title>{$product->getTitle()}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />		
+        <meta name="generator" content="Blueshop" />
+        <base href="{$appconfig->appurl}/" />
+        <meta name="robots" content="index,follow" />
+        <link rel="shortcut icon" href="{$skin_path}/images/icon.png">
+            <script src="{$skin_path}/js/jquery-2.1.0.min.js"></script>
+            <script src="{$skin_path}/js/jquery-ui.min.js"></script>
+            <script src="{$skin_path}/js/jquery-migrate-1.2.1.min.js"></script>
+            <script src="{$skin_path}/js/retina.js"></script>
+            <script src="{$skin_path}/js/elevatezoom.min.js"></script>
+            <script src="{$skin_path}/js/waypoints.min.js"></script>
+            <script src="{$skin_path}/js/jquery.tweet.min.js"></script>
+            <script src="{$skin_path}/js/owl.carousel.min.js"></script>
+            <script src="{$skin_path}/js/jquery.custom-scrollbar.js"></script>
+            <script src="{$skin_path}/js/jquery.fancybox-1.3.4.js"></script>
+            <script src="{$skin_path}/js/styleswitcher.js"></script>
+            <script src="{$skin_path}/js/colorpicker.js"></script>
+            <script src="{$skin_path}/js/scripts.js"></script>
+
+
+            <link href="{$skin_path}/style.css" rel="stylesheet" type="text/css" />
+            {if $current_lang == 'ar'}
+            <link href="{$skin_path}/style.ar.css" rel="stylesheet" type="text/css" />
+            {/if}
+
+            {foreach $css_files as $css_file}
+            <link href="{$appconfig->appurl}/{$css_file}" rel="stylesheet" type="text/css" />
+            {/foreach}
+            {foreach $js_files as $js_file}
+            <script type="text/javascript" src="{$appconfig->appurl}/{$js_file}"></script>
+            {/foreach}
+            <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+            <![endif]-->
+            <meta property="og:title" content="{$product->getTitle()}" />
+            <meta property="og:url" content="{$product->getUrl()}" />
+            <meta property="og:type" content="product" />
+            <meta property="og:site_name" content="{'Mtjaar'|tr}" />
+            <meta property="og:description" content="" />
+            <meta property="og:email" content="" />
+            <meta property="og:phone_number" content="" />
+            <meta property="og:street-address" content="" />
+            <meta property="og:locality" content="" />
+            <meta property="og:country-name" content="" />
+            <meta property="og:postal-code" content="" />
+            <meta property="og:image" content="{$product->getFirstBig()}" />
+
+    </head>
+
+    <body id="product" class="home2 responsive product product-9 product-neque-porro-quisquam category-19 category-dresses hide-left-column hide-right-column content_only lang_fr off-canvas" style="background-color: #FFF;>
+          <div id="outer">
+          <div id="outer-canvas" style="background-color: white;padding: 17px 17px 17px 17px;min-height: 630px;">
+            <div class="row" itemscope itemtype="http://schema.org/Product">
+                <!-- left infos-->  
+                <div class="pb-left-column col-sm-5 col-md-5 col-lg-5">
+                    <!-- product img-->
+                    <div id="image-block">
+                        {if $product->isOffered()}
+                        {if $product->getPercentSaveAmount() > 0}
+                        <span class="hot_stripe"><img src="{$skin_path}/images/sale_product.png" alt=""></span>        {/if}
+                        {elseif  $product->is_new}
+                        <span class="hot_stripe"><img src="{$skin_path}/images/hot_product.png" alt=""></span>
+                        {/if}
+                        <span id="view_full_size">
+
+                            <img id="bigpic" itemprop="image" src="{$product->getFirstBig()}" title="{$product->getTitle()}" alt="{$product->getTitle()}" />
+                        </span>
+                    </div><br/>
+                    <!-- thumbnails -->
+                    <div id="views_block" class="clearfix ">					  
+                        <div class="relative qv_carousel_wrap m_bottom_20">
+                            <button class="button_type_11 t_align_c f_size_ex_large bg_cs_hover r_corners d_inline_middle bg_tr tr_all_hover qv_btn_prev">
+                                <i class="fa fa-angle-left "></i>
+                            </button>
+                            <ul class="qv_carousel d_inline_middle">
+                                {foreach $product->images as $key => $img}
+                                <li data-src="{$img->getThumb()}"><img src="{$img->getThumb()}" alt=""></li>
+                                {/foreach}
+                            </ul>
+                            <button class="button_type_11 t_align_c f_size_ex_large bg_cs_hover r_corners d_inline_middle bg_tr tr_all_hover qv_btn_next">
+                                <i class="fa fa-angle-right "></i>
+                            </button>
+                        </div>
+                        <br/><br/>
+
+                    </div> <!-- end views-block -->
+                    <!-- end thumbnails -->				
+
+                </div> <!-- end pb-left-column -->
+                <!-- end left infos-->
+                <!-- pb-right-column-->
+                <div class="pb-right-column col-sm-7 col-md-7 col-lg-7">			
+                    <h2 itemprop="name">{$product->getTitle()}</h2>
+                    <div class="other-info">
+                        <table class="description_table m_bottom_10">
+                            <tr>
+                                <td><b>{'Product Number'|tr}:</b></td>
+                                <td>{$product->getNumber()|default:'N/A'}</td>
+                            </tr>
+                            <tr>
+                                <td><b>{'Category'|tr}:</b></td>
+                                <td>{$product->getCategory()|default:'N/A'}</td>
+                            </tr>
+                            <tr>
+                                <td><b>{'Availability'|tr}:</b></td>
+                                <td>{if $product->getQuantity() > 0}<span class="color_green">{'In stock'|tr} </span>  {else} <span class="color_red"> {'Not available'|tr} </span>  {/if}{$product->getQuantity()|default:'0'} {'item(s)'|tr}</td>
+                            </tr>
+                            {if $product->getEntitySet()->getGeneralAttributes()}
+                            {foreach $product->getEntitySet()->getGeneralAttributes() as $attribute}
+                            <tr>
+                                <td><b>{$attribute->getLabel()}:</b></td>
+                                <td>{$attribute->getFrontEndComponent($product)}</td>
+                            </tr>
+                            {/foreach}
+                            {/if}
+                        </table>
+                        {if $attrs}
+                        <table class="description_table">
+
+                            <tr>
+
+                                <td class="product-option-attributes" style="min-width: 307px;line-height: initial;">
+                                    <p>{$attrs}</p>
+                                </td>
+
+                            </tr>
+
+
+                        </table>
+                        {/if}
+                    </div>	
+                    <div class="product-description">         	 	
+                        {$product->short_description|truncate:200}
+
+                    </div>
+                    <br/>
+                    <div class="product-description">         	 	
+                        <figcaption>
+                            <a class="product-btn cart-button" href="index.php?module=product&page=detail&id={$product->getId()}&event=cart&qnt=1" title="{'Add to cart'|tr}" target="_blank"><span>{'Add to cart'|tr}</span></a>
+                            {*  <a class="add_to_whishlist product-btn"  href="index.php?module=product&amp;page=whishlist&amp;id={$item->id}" title="{'Add to Wishlist'|tr}" target="_blank"><i class="fa fa-check"></i><i class="fa fa-heart-o"></i><i class="fa fa-circle-o-notch fa-spin"></i></a>
+                            <a class="add_to_compare product-btn"  title="{'Add to Compare'|tr}" target="_blank"><i class="fa fa-check"></i><i class="fa fa-copy"></i><i class="fa fa-circle-o-notch fa-spin"></i></a> *}
+                        </figcaption>
+                    </div>
+                    <br/>
+                    <div class="social-icons">
+                        <a href="http://twitter.com/share?url=http://{$smarty.server.HTTP_HOST|escape:'url'}{$smarty.server.REQUEST_URI|escape:'url'}"  target="_blank">
+                            <button type="button" data-type="twitter" class="btn-social btn-twitter social-sharing">
+                                <span class="fa fa-twitter">
+
+                                </span>				
+                            </button>
+                        </a>
+                        <a href="http://www.facebook.com/share.php?u=http://{$smarty.server.HTTP_HOST|escape:'url'}{$smarty.server.REQUEST_URI|escape:'url'}" target="_blank">
+                            <button data-type="facebook" type="button" class="btn-social btn-facebook social-sharing">
+                                <span class="fa fa-facebook"></span>				
+                            </button>
+                        </a>
+
+                    </div>
+                </div> <!-- end pb-right-column-->
+            </div> <!-- end primary_block -->
+
+            <div id="more_info_block ">	
+                <h2 class="tt_uppercase color_dark m_bottom_30">&nbsp;&nbsp;</h2>		
+                <h2 class="tt_uppercase color_dark m_bottom_30">{'Description'|tr}</h2>
+
+                <p>    {$product->getDescription()}</p>
+            </div>
+        </div>
+    </body>
+</html>
+

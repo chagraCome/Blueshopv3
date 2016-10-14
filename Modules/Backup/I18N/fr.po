@@ -1,0 +1,273 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Backup Module\n"
+"POT-Creation-Date: 2014-04-26 09:44+0100\n"
+"PO-Revision-Date: 2014-04-26 11:51+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../key_words_html.php:3 ../key_words_html.php:8 ../key_words_html.php:12
+#: ../key_words_html.php:16 ../key_words_html.php:21 ../key_words_html.php:23
+#: ../key_words_html.php:27 ../key_words_html.php:30 ../key_words_html.php:35
+#: ../key_words_html.php:39 ../key_words_html.php:44 ../key_words_html.php:48
+#: ../key_words_html.php:50 ../key_words_html.php:54
+msgid "Information"
+msgstr "Informations"
+
+#: ../key_words_html.php:4 ../key_words_html.php:17 ../key_words_html.php:24
+#: ../key_words_html.php:31 ../key_words_html.php:40 ../key_words_html.php:45
+msgid "Generate new Backup"
+msgstr "Générer un nouveau sauvegarde"
+
+#: ../key_words_html.php:5 ../key_words_html.php:18 ../key_words_html.php:32
+#: ../key_words_html.php:41
+msgid "Local Bakups"
+msgstr "Sauvegarde Locales"
+
+#: ../key_words_html.php:6 ../key_words_html.php:19 ../key_words_html.php:33
+#: ../key_words_html.php:42 ../key_words_html.php:55 ../Backend/Boot.php:51
+msgid "Remote Backups"
+msgstr "Sauvegardes à distance"
+
+#: ../key_words_html.php:9 ../key_words_html.php:13 ../key_words_html.php:36
+#: ../key_words_html.php:51
+msgid "Local Bakup"
+msgstr "Sauvegarde Locale"
+
+#: ../key_words_html.php:10 ../key_words_html.php:14 ../key_words_html.php:37
+#: ../key_words_html.php:52
+msgid "Remote Backup"
+msgstr "Sauvegardes à distance"
+
+#: ../key_words_html.php:25 ../key_words_html.php:46 ../Backend/Boot.php:36
+msgid "Manage Backups"
+msgstr "Gérer les sauvegardes"
+
+#: ../key_words_html.php:28
+msgid "hostname is missing"
+msgstr "Nom d'hôte est absent"
+
+#: ../Backend/Boot.php:34
+msgid "Backup Manager"
+msgstr "Gérer les sauvegardes"
+
+#: ../Backend/Boot.php:35
+msgid "Generate Backup"
+msgstr "Générer un sauvegarde"
+
+#: ../Backend/Boot.php:37 ../Backend/Boot.php:55
+#: ../Backend/Controllers/Upload.php:27
+msgid "Upload Backup"
+msgstr "Télécharger sauvegarde"
+
+#: ../Backend/Boot.php:38
+msgid "Manage Backup Setting"
+msgstr "Gérer Paramètre de sauvegarde"
+
+#: ../Backend/Boot.php:46
+msgid "Backup Module"
+msgstr "Module de Sauvegarde"
+
+#: ../Backend/Boot.php:47
+msgid "Delete Backup"
+msgstr "Supprimer la sauvegarde"
+
+#: ../Backend/Boot.php:48
+msgid "Download Backup"
+msgstr "Télécharger les sauvgardes"
+
+#: ../Backend/Boot.php:49 ../Backend/Controllers/List.php:32
+#: ../Backend/Controllers/Remotelist.php:33
+msgid "List Backups"
+msgstr "Liste des sauvegardes"
+
+#: ../Backend/Boot.php:50
+msgid "Local Backups"
+msgstr "Sauvegardes locales"
+
+#: ../Backend/Boot.php:52
+msgid "List Remote Backups"
+msgstr "Liste des sauvegardes distante"
+
+#: ../Backend/Boot.php:53 ../Backend/Controllers/Restore.php:40
+msgid "Restore Backup"
+msgstr "Restaurer la sauvegarde"
+
+#: ../Backend/Boot.php:54
+msgid "Setting Backup"
+msgstr "Paramètre de sauvegarde"
+
+#: ../Backend/Controllers/Local.php:28
+msgid "Generate Local Backup"
+msgstr "Générer les sauvgardes locales"
+
+#: ../Backend/Controllers/Remote.php:29
+msgid "Generate Remote Backup"
+msgstr "Générer les saovgardes distante"
+
+#: ../Backend/Controllers/Remote.php:52
+msgid "Logged to FTP Server Successfully"
+msgstr "Connecté au serveur FTP avec succès"
+
+#: ../Backend/Controllers/Remote.php:64
+msgid "Backup was successully done!"
+msgstr "Sauvegarde a été effectuée avec succès!"
+
+#: ../Backend/Controllers/Remote.php:72
+msgid "Cannot connect to ftp host"
+msgstr "Impossible de se connecter à l'hôte ftp"
+
+#: ../Backend/Controllers/Remote.php:79
+msgid "Please Verify Input"
+msgstr "S'il vous plaît vérifier les entrées"
+
+#: ../Backend/Controllers/Restore.php:51
+msgid "Zip Archive is not valid backup"
+msgstr "Le fichier Zip n'est pas valide"
+
+#: ../Backend/Controllers/Setting.php:27 ../Backend/Controllers/Setting.php:42
+msgid "Backup Settings"
+msgstr "Paramètres de sauvegarde"
+
+#: ../Backend/Controllers/Setting.php:44
+msgid "Backup Local Path"
+msgstr "Chemin d'accès local"
+
+#: ../Backend/Controllers/Setting.php:48
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: ../Backend/Controllers/Setting.php:58
+msgid "Data was successfully saved"
+msgstr "Les données ont été sauvegardées avec succès"
+
+#: ../Backend/Controllers/Upload.php:46
+msgid "Please check inputs"
+msgstr "S'il vous plaît vérifier les entrées"
+
+#: ../Forms/Local/Form.php:42 ../Forms/Remote/Form.php:47
+msgid "File Name"
+msgstr "Nom de fichier"
+
+#: ../Forms/Local/Form.php:47 ../Forms/Remote/Form.php:52
+#: ../Forms/Restore/Form.php:40
+msgid "Select Modules"
+msgstr "Sélectionnez  Modules"
+
+#: ../Forms/Local/Form.php:54 ../Forms/Remote/Form.php:59
+msgid "Backup Type"
+msgstr "Type de Sauvgarde"
+
+#: ../Forms/Local/Form.php:57 ../Forms/Remote/Form.php:62
+msgid "Backup database and media"
+msgstr "Sauvgarder les medias et la base des donnees"
+
+#: ../Forms/Local/Form.php:58 ../Forms/Remote/Form.php:63
+msgid "Backup media only"
+msgstr "Sauvgarder Seulement les medias"
+
+#: ../Forms/Local/Form.php:59 ../Forms/Remote/Form.php:64
+msgid "Backup database only"
+msgstr "Sauvgarder Seulement la base des donnees"
+
+#: ../Forms/Local/Form.php:62 ../Forms/Remote/Form.php:88
+msgid "Generate"
+msgstr "Générer"
+
+#: ../Forms/Local/Form.php:64 ../Forms/Remote/Form.php:90
+#: ../Forms/Restore/Form.php:55 ../Forms/Upload/Form.php:43
+msgid "General Informations"
+msgstr "Informations générales"
+
+#: ../Forms/Local/Form.php:69 ../Forms/Remote/Form.php:102
+#: ../Forms/Restore/Form.php:59 ../Forms/Upload/Form.php:46
+msgid "Action"
+msgstr "Action"
+
+#: ../Forms/Remote/Form.php:68
+msgid "Host Name"
+msgstr "Nom de la hote"
+
+#: ../Forms/Remote/Form.php:72
+msgid "User Name"
+msgstr "Nom d'utilisateur"
+
+#: ../Forms/Remote/Form.php:76
+msgid "Password"
+msgstr "Mot de passe"
+
+#: ../Forms/Remote/Form.php:80
+msgid "Port"
+msgstr "Port"
+
+#: ../Forms/Remote/Form.php:84
+msgid "Path"
+msgstr "Chemin d'accès"
+
+#: ../Forms/Remote/Form.php:95
+msgid "Ftp Informations"
+msgstr "Informations sur le serveur FTP"
+
+#: ../Forms/Restore/Form.php:45
+msgid "Restore Type"
+msgstr "Type de restauration"
+
+#: ../Forms/Restore/Form.php:48
+msgid "Restore database and media"
+msgstr "Restaurer les media et la base des donnees"
+
+#: ../Forms/Restore/Form.php:49
+msgid "Restore media only"
+msgstr "Restaurer Seulement les media"
+
+#: ../Forms/Restore/Form.php:50
+msgid "Restore database only"
+msgstr "Restaurer Seulement la base ds donnees"
+
+#: ../Forms/Restore/Form.php:53 ../Grids/DataGridView.php:39
+#: ../Grids/Remote/DataGridView.php:40
+msgid "Restore"
+msgstr "Restaurer"
+
+#: ../Forms/Upload/Form.php:39
+msgid "Select Backup to upload"
+msgstr "Sélectionner la sauvegarde pour l'uploader"
+
+#: ../Forms/Upload/Form.php:41
+msgid "Upload"
+msgstr "Télécharger"
+
+#: ../Grids/DataGridView.php:35 ../Grids/Remote/DataGridView.php:36
+msgid "Backup Name"
+msgstr "Nom de  sauvegarde"
+
+#: ../Grids/DataGridView.php:36 ../Grids/Remote/DataGridView.php:37
+msgid "Filesize"
+msgstr "Taille du fichier"
+
+#: ../Grids/DataGridView.php:37 ../Grids/Remote/DataGridView.php:38
+msgid "Date"
+msgstr "Date"
+
+#: ../Grids/DataGridView.php:43 ../Grids/Remote/DataGridView.php:44
+msgid "Download"
+msgstr "Télécharger"
+
+#: ../Grids/DataGridView.php:47 ../Grids/Remote/DataGridView.php:48
+msgid "Delete"
+msgstr "Supprimer"
+
+#~ msgid "Remote Backup List"
+#~ msgstr "قائمة النسخ الاحتياطية عن بعد"
+
+#, fuzzy
+#~ msgid "User"
+#~ msgstr "اسم المستخدم"

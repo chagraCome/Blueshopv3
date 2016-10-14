@@ -1,0 +1,36 @@
+<div id="login_popup">
+    <section>
+        <button><i></i></button>
+        <h3>{'Log In'|tr}</h3>
+        <form id="loginpopup_form" name="loginpopup_form" method="POST" action="index.php?module=crm&page=intern-shop-loginpopup" class="form-area">
+            <ul>
+                <li>
+                    <label for="username" class="">{'Email'|tr}</label><br>
+                    <input type="text" name="email" id="email">
+
+                </li>
+                <li>
+                    <label for="password">{'Password'|tr}</label><br>
+                    <input type="password" name="password" id="password">
+
+                </li>
+                <li>
+                    <input type="checkbox" id="checkbox_10"><label for="checkbox_10">{'Remember me'|tr}</label>
+                </li>
+                <input type="hidden" name="sec_nekot" value="{Amhsoft_Common::CsrfGenrateToken('loginpopup_form')}"/>
+                <li>
+                    <button name="loginpop" type="submit">{'Log In'|tr}</button>
+                    <div>
+                        <a href="index.php?module=crm&amp;page=intern-shop-forgotpassword">{'Forgot your password?'|tr}</a><br>
+
+                    </div>
+                </li>
+            </ul>
+        </form>
+        <footer>
+            <h3>{'New Customer?'|tr}</h3>
+            <a href="index.php?module=crm&page=intern-shop-register" role="button">{'Create an Account'|tr}</a>
+        </footer>
+    </section>
+</div>
+<button><i></i></button>

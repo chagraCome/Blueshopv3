@@ -1,0 +1,96 @@
+<footer>
+		<div class="footer-top-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4 col-lg-3 col-md-3">
+						<div class="single-footer-menu">
+							<div class="footer-title">
+								<h2>Company Info</h2>
+							</div>
+							<div class="footer-menu">
+								<ul>
+									<li><a href="#">{'About'|tr}</a>
+									<h3 class="color_light_2 m_bottom_20">{'About'|tr}</h3>
+                    <p>{'Address'|tr}&nbsp;:&nbsp;{$shop->adress} <br/> {'Tel'|tr}&nbsp;:&nbsp;<span>{$shop->tel}</span></p>
+                    
+									</li>
+					
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					 {include file='menu_footer.tpl.html'}
+					<div class="col-sm-4 col-lg-3 col-md-3">
+						<div class="single-footer-menu">
+							<div class="footer-title">
+								<h2>Follow Us</h2>
+							</div>
+							<div class="social-icon">
+								<ul>
+										{if $shop->facebookAccount}
+									<li>
+									<a href="{$shop->facebookAccount}"><i class="fa fa-facebook"></i></a></li>
+										{/if}
+										{if $shop->twitterAccount}
+									<li><a href="{$shop->twitterAccount}"><i class="fa fa-twitter"></i></a></li>
+										{/if}
+										{if $shop->instagramAccount}
+									<li><a href="{$shop->instagramAccount}"><i class="fa fa-instagram"></i></a></li>
+										{/if}
+										{if $shop->youtubeAccount}
+									<li><a href="{$shop->youtubeAccount}"><i class="fa fa-youtube"></i></a></li>
+										{/if}
+										{if $shop->googleplusAccount}
+								    <li><a href="mailto:{$shop->email}"><i class="fa fa-envelope-o"></i></a></li>
+										{/if}
+								</ul>
+							</div>
+							<div class="news-letter">
+								<h3>{'Newsletter'|tr}</h3>
+								<form action="index.php?module=newsletter&amp;page=addtonewsletter" method="post">
+									<input name="module" value="product" type="hidden">
+									<input type="hidden" name="sec_nekot" value="{Amhsoft_Common::CsrfGenrateToken('newsletter_form')}"/>
+									<input name="page" value="list" type="hidden">
+									<input id="newsletter-input" type="email" placeholder="{'Your email address'|tr}" class="m_bottom_20 r_corners f_size_medium full_width"  required  name="newsletter_email">
+									<button type="submit" name="submitNewsletter">{'Subscribe'|tr}</button>
+							   
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottum-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<div class="footer-bottum">
+							<div class="footer-payment">
+								{foreach $payment_methods as $payment}
+										{if $payment->getFooterLogo()}
+                                                                                <a href="#"><img src="{$payment->getFooterLogo()}" class="icon_payement"></a>
+										{/if}
+								{/foreach}  
+								
+							</div>
+							
+							<div class="copyright">
+                                                                <p>
+                                                                    <span> <span>&copy;</span>&nbsp;{Amhsoft_Version::getCopyrightYear()}&nbsp;</span>
+                                                                    <span>&nbsp;{Amhsoft_Version::getLicenceDomain()}&nbsp;</span>. All Rights Reserved - Powered By {Amhsoft_Version::getVersion()}</p>
+
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- FOOTER-AREA-END -->
+	{if $debugbarRenderer}
+{$debugbarRenderer->renderHead()}
+{$debugbarRenderer->render()}
+{/if}

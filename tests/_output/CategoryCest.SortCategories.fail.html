@@ -1,0 +1,649 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ar" dir="ltr">
+    <head>
+        <title>Blueshop 2015 v. 1.0 - Administrator Panel</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link href="Amhsoft/Ressources/Javascripts/JQuery/themes/ui-lightness/jquery-ui-1.8.13.custom.css" rel="stylesheet" type="text/css"/>
+                        <link href="Design/Backend/Pro/Layout/Default/stylesheet_en.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/jquery-1.6.1.js"></script>
+        <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/ui/jquery-ui-1.8.13.custom.js"></script>
+        <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/jquery.cookies.js"></script>
+        <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/jquery.timepicker.js"></script>
+
+        
+        <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/ckeditor/ckeditor.js"></script>
+        <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/ckeditor/adapters/jquery.js"></script>
+        <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/common_en.js"></script>
+
+                <script type="text/javascript" src="Modules/Product/Backend/Views/_Javascripts/jquery.mjs.nestedSortable.js"></script>
+                <script type="text/javascript">
+             $(function() {
+                var cookieName = 'admin.accordion';
+                var cookieNameBar = 'admin.bar';
+
+               // var cookieNameBarValue = $.cookies.get(cookieNameBar);
+               var cookieNameBarValue = 0;
+
+                if (cookieNameBarValue == 1) {
+                    $('#sidebar').show();
+                    //$('#main').css('margin', 'auto');
+                    //$('#main').css('width', '98%');
+
+                } else {
+                    $('#sidebar').hide();
+                    // $('#main').css('margin', 'auto');
+                    //$('#main').css('width', '98%');
+
+                }
+                $('#main').css('margin', 'auto');
+                $('#main').css('min-width', '1260px');
+                $('#menu_left_right').accordion({
+                    autoHeight: false,
+                    active: (0),
+                    change: function(e, ui) {
+                        //$.cookies.set(cookieName, $(this).find('h3').index(ui.newHeader[0]));
+                        //$( this ).find( 'h3' ).css('background', 'url(images/tab-btm-inactive-right-bg.gif) no-repeat left center');
+                    }
+                });
+                var h = $('.panel').height();
+                $('#Bar').height(h + 200);
+
+                $('#Bar').click(function() {
+
+                    if (cookieNameBarValue == 1) {
+                       // $.cookies.set(cookieNameBar, 0);
+                        $('#sidebar').toggle('hide');
+                    } else {
+                        $('#sidebar').toggle('show');
+                       // $.cookies.set(cookieNameBar, 1);
+                    }
+                    $('#main').css('margin', 'auto');
+
+                })
+
+            });
+        </script>
+    </head>
+    <body>
+        <header id="header">
+            <hgroup>
+                <h1 class="site_title"><a href="admin.php">Control Panel</a></h1>
+                <h2 class="section_title">Blueshop</h2>
+            </hgroup>
+        </header>
+        <!-- begin menu_top -->
+        <section id="secondary_bar">
+            <div class="user">
+                <p>Welcome admin</p>
+            </div>
+            <div class="breadcrumbs_container">
+                <div class="core_menu_top">
+                    <div id="menuh">
+                        <ul>
+                            <li><a href="admin.php">Home</a></li>
+                        </ul>
+                        
+                                                <ul>
+                            <li><a href="#">Online Store</a>
+                                <ul>
+                                                                        <li><a href="#">Inventory</a>
+                                        <ul>
+                                                                                        <li><a class="menuitem" href="admin.php?module=product&page=category-list">Manage Categories</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=product&page=category-add">Add a Category</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=product&page=product-list">Manage Products</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=product&page=product-modify-multi-list">Group Edit</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=product&page=product-prepare">Add a new Product</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=product&page=manufacturer-list">Manage Manufactures</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=eav&page=attributeset-list&entity=1">Manage Product Sets</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=eav&page=attributes-list&entity=1">Manage Product Attributes</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=product&page=setting">Products Settings</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=rating&page=list">Manage Rating Comments</a></li>
+
+                                                                                    </ul>
+                                    </li>
+                                                                        <li><a href="#">Payment</a>
+                                        <ul>
+                                                                                        <li><a class="menuitem" href="admin.php?module=payment&page=payment-list">List Payment Methods</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=payment&page=payment-add">Add Payment Method</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=paypal&page=settings">Manage Paypal Settings</a></li>
+
+                                                                                    </ul>
+                                    </li>
+                                                                        <li><a href="#">Shipping</a>
+                                        <ul>
+                                                                                        <li><a class="menuitem" href="admin.php?module=shipping&page=shipping-list">List Shipping Methods</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=shipping&page=shipping-add">Add Shipping Method</a></li>
+
+                                                                                    </ul>
+                                    </li>
+                                                                        <li><a href="#">Coupon</a>
+                                        <ul>
+                                                                                        <li><a class="menuitem" href="admin.php?module=coupon&page=list">Manage Coupons</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=coupon&page=statistics">Statistics</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=coupon&page=setting">Manage Settings</a></li>
+
+                                                                                    </ul>
+                                    </li>
+                                                                    </ul>
+                            </li>
+                        </ul>
+                                                
+                                                <ul>
+                            <li><a href="#">Sales Management</a>
+                                <ul>
+                                                                        <li><a href="#">CRM</a>
+                                        <ul>
+                                                                                        <li><a class="menuitem" href="admin.php?module=crm&page=account-list">Manage Accounts</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=crm&page=contact-list">Manage Contacts</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=crm&page=group-account">Manage Groups</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=crm&page=source-account">Manage Sources</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=eav&page=attributeset-detail&entity=3&id=11">Manage Account Set</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=eav&page=attributes-list&entity=3">Manage Account Attributes</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=crm&page=accountsetting">Settings</a></li>
+
+                                                                                    </ul>
+                                    </li>
+                                                                        <li><a href="#">Sales Order</a>
+                                        <ul>
+                                                                                        <li><a class="menuitem" href="admin.php?module=saleorder&page=saleorder-list&event=today">Today Sales Order</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=saleorder&page=saleorder-list&event=accepted">Accepted Sales Order</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=saleorder&page=saleorder-list&event=open">Open Sales Order</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=saleorder&page=saleorder-list&event=created">Created Sales Order</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=saleorder&page=saleorder-list">Manage Sales Order</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=saleorder&page=saleorder-add">Add a new Sales Order</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=saleorder&page=comment-list">Sales Order Comments</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=saleorder&page=setting">Settings</a></li>
+
+                                                                                    </ul>
+                                    </li>
+                                                                    </ul>
+                            </li>
+                        </ul>
+                                                
+                                                <ul>
+                            <li><a href="#">Cms</a>
+                                <ul>
+                                                                        <li><a href="#">Content Management</a>
+                                        <ul>
+                                                                                        <li><a class="menuitem" href="admin.php?module=cms&page=setting">Home page design</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=cms&page=box-preadd">Add Block</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=cms&page=box-list">Manage Blocks</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=cms&page=page-preadd">Add Page</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=cms&page=page-list">Manage Pages</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=cms&page=menu-add">Add Menu Point</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=cms&page=menu-list">Manage Menu Points</a></li>
+
+                                                                                    </ul>
+                                    </li>
+                                                                        <li><a href="#">Banner</a>
+                                        <ul>
+                                                                                        <li><a class="menuitem" href="admin.php?module=banner&page=list">List Banners</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=banner&page=add">Add new Banner</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=banner&page=setting">Manage Banner Setting</a></li>
+
+                                                                                    </ul>
+                                    </li>
+                                                                    </ul>
+                            </li>
+                        </ul>
+                                                
+                                                <ul>
+                            <li><a href="#">Administration</a>
+                                <ul>
+                                                                                                            <li><a class="menuitem" href="admin.php?module=user&page=role-list">Manage Roles</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=user&page=user-list">Manage Users</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=user&page=user-add">Add new User</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=user&page=group-list">Manage Groups</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=user&page=department-list">Manage Departments</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=user&page=user-changepassword">Change Password</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=user&page=user-profile">My Profile</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=default&page=portlet-list">Setup Dashboard</a></li>
+
+                                                                                                        </ul>
+                            </li>
+                        </ul>
+                                                
+                                                <ul>
+                            <li><a href="#">System</a>
+                                <ul>
+                                                                        <li><a href="#">Setting</a>
+                                        <ul>
+                                                                                        <li><a class="menuitem" href="admin.php?module=cart&page=setting">Shopping cart</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=default&page=portlet-list">Dashboard</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=installer&page=list">Module Management</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=setting&page=general">General</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=setting&page=currency-list">Manage Currencies</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=setting&page=template-email-list">Manage Email Templates</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=webmail&page=setting-list">Manage Server Settings</a></li>
+
+                                                                                    </ul>
+                                    </li>
+                                                                        <li><a href="#">Backup Manager</a>
+                                        <ul>
+                                                                                        <li><a class="menuitem" href="admin.php?module=backup&page=local">Generate Backup</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=backup&page=list">Manage Backups</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=backup&page=upload">Upload Backup</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=backup&page=setting">Manage Backup Setting</a></li>
+
+                                                                                    </ul>
+                                    </li>
+                                                                    </ul>
+                            </li>
+                        </ul>
+                                                
+                                                <ul>
+                            <li><a href="#">Newsletter</a>
+                                <ul>
+                                                                                                            <li><a class="menuitem" href="admin.php?module=newsletter&page=template-list">Templates</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=newsletter&page=emails-groups-list">Groups</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=newsletter&page=emails-list">E-mails</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=newsletter&page=import">Import</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=newsletter&page=sendemails">Send E-mails</a></li>
+
+                                                                                                        </ul>
+                            </li>
+                        </ul>
+                                                                        <ul>
+                            <li><a class="preview" href="index.php" target="_blank">Preview</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="admin.php?module=user&amp;page=user-logout">Logout</a></li>
+                        </ul>
+                        <ul class="last">
+                            <li>
+                                <a href="#"><img src="Design/Backend/Pro/setting.png" width="24" style="margin:6px 0" align="left" />&nbsp;Setting</a>
+
+                                <ul >
+                                    <li><a href="#">Language</a>
+                                        <ul>
+                                             
+                                            <li><a href="admin.php?lang=en"> English</a></li>
+                                             
+                                            <li><a href="admin.php?lang=ar"> عربي</a></li>
+                                                                                    </ul>
+                                    </li>
+                                    <li><a href="#">Currency</a>
+                                        <ul>
+                                             
+                                            <li><a href="admin.php?currency=BHD"> BHD</a></li>
+                                             
+                                            <li><a href="admin.php?currency=SAR"> SAR</a></li>
+                                             
+                                            <li><a href="admin.php?currency=EUR"> EUR</a></li>
+                                             
+                                            <li><a href="admin.php?currency=TND"> TND</a></li>
+                                             
+                                            <li><a href="admin.php?currency=QAR"> QAR</a></li>
+                                             
+                                            <li><a href="admin.php?currency=LBP"> LBP</a></li>
+                                             
+                                            <li><a href="admin.php?currency=LYD"> LYD</a></li>
+                                             
+                                            <li><a href="admin.php?currency=SDG"> SDG</a></li>
+                                             
+                                            <li><a href="admin.php?currency=SYP"> SYP</a></li>
+                                             
+                                            <li><a href="admin.php?currency=KWD"> KWD</a></li>
+                                             
+                                            <li><a href="admin.php?currency=IQD"> IQD</a></li>
+                                             
+                                            <li><a href="admin.php?currency=DZD"> DZD</a></li>
+                                             
+                                            <li><a href="admin.php?currency=EGP"> EGP</a></li>
+                                             
+                                            <li><a href="admin.php?currency=JOD"> JOD</a></li>
+                                             
+                                            <li><a href="admin.php?currency=MAD"> MAD</a></li>
+                                             
+                                            <li><a href="admin.php?currency=OMR"> OMR</a></li>
+                                             
+                                            <li><a href="admin.php?currency=AED"> AED</a></li>
+                                             
+                                            <li><a href="admin.php?currency=YER"> YER</a></li>
+                                             
+                                            <li><a href="admin.php?currency=MRO"> MRO</a></li>
+                                             
+                                            <li><a href="admin.php?currency=ILS"> ILS</a></li>
+                                             
+                                            <li><a href="admin.php?currency=USD"> USD</a></li>
+                                                                                    </ul>
+                                    </li>
+                                    <li><a href="admin.php?module=user&page=user-profile">My Profile</a></li>
+                                    <li><a href="admin.php?module=user&page=user-logout">Logout</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <div style="clear: both"></div>
+        <!-- end menu_top -->
+
+        <div id="maincontainer" style="width: 100%">
+            <section  id="main" class="section_column" ><style>
+  .placeholder {
+    outline: 1px dashed #4183C4;
+    /*-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: -1px;*/
+  }
+
+  .mjs-nestedSortable-error {
+    background: #fbe3e4;
+    border-color: transparent;
+  }
+
+  ol {
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+  }
+
+  ol.sortable, ol.sortable ol {
+    margin: 0 0 0 25px;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  ol.sortable {
+    margin: 4em 0;
+  }
+
+  .sortable li {
+    margin: 5px 0 0 0;
+    padding: 0;
+  }
+
+  .sortable li div  {
+    border: 1px solid #d4d4d4;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border-color: #D4D4D4 #D4D4D4 #BCBCBC;
+    padding: 6px;
+    margin: 0;
+    cursor: move;
+    background: #f6f6f6;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed));
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: -o-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: -ms-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );
+  }
+
+  .sortable li.mjs-nestedSortable-branch div {
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #f0ece9 100%);
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#f0ece9 100%);
+
+  }
+
+  .sortable li.mjs-nestedSortable-leaf div {
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #bcccbc 100%);
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#bcccbc 100%);
+
+  }
+
+  li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
+    border-color: #999;
+    background: #fafafa;
+  }
+
+  .disclose {
+    cursor: pointer;
+    width: 10px;
+    display: none;
+  }
+
+  .sortable li.mjs-nestedSortable-collapsed > ol {
+    display: none;
+  }
+
+  .sortable li.mjs-nestedSortable-branch > div > .disclose {
+    display: inline-block;
+  }
+
+  .sortable li.mjs-nestedSortable-collapsed > div > .disclose > span:before {
+    content: '+ ';
+  }
+
+  .sortable li.mjs-nestedSortable-expanded > div > .disclose > span:before {
+    content: '- ';
+  }
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size: 1.2em;
+    font-weight: normal;
+    font-style: italic;
+    margin-top: .2em;
+    margin-bottom: 1.5em;
+  }
+
+  h3 {
+    font-size: 1em;
+    margin: 1em 0 .3em;;
+  }
+
+  p, ol, ul, pre, form {
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  dl {
+    margin: 0;
+  }
+
+  dd {
+    margin: 0;
+    padding: 0 0 0 1.5em;
+  }
+
+  code {
+    background: #e5e5e5;
+  }
+
+  input {
+    vertical-align: text-bottom;
+  }
+
+  .notice {
+    color: #c33;
+  }
+
+</style>
+
+
+<script>
+
+  $(document).ready(function() {
+
+    $('ol.sortable').nestedSortable({
+      forcePlaceholderSize: true,
+      handle: 'div',
+      helper: 'clone',
+      items: 'li',
+      opacity: .6,
+      placeholder: 'placeholder',
+      revert: 250,
+      tabSize: 25,
+      tolerance: 'pointer',
+      toleranceElement: '> div',
+      maxLevels: 8,
+      isTree: true,
+      expandOnHover: 700,
+      startCollapsed: true
+    });
+
+    $('.disclose').on('click', function() {
+      $(this).closest('li').toggleClass('mjs-nestedSortable-collapsed').toggleClass('mjs-nestedSortable-expanded');
+    })
+
+
+
+    $('#toArray').click(function(e) {
+      arraied = $('ol.sortable').nestedSortable('toArray', {startDepthCount: 0});
+      var json = JSON.stringify(arraied ); 
+      $.ajax({
+        type: "POST",
+        url: 'admin.php?module=product&page=category-sort&event=resort',
+        dataType: "json",
+        data: {'json_data': json}
+      });
+      arraied = dump(arraied);
+      //(typeof($('#toArrayOutput')[0].textContent) != 'undefined') ?
+       // $('#toArrayOutput')[0].textContent = arraied : $('#toArrayOutput')[0].innerText = arraied;
+    })
+
+  });
+
+      function dump(arr, level) {
+          var dumped_text = "";
+          if (!level)
+              level = 0;
+  
+          //The padding given at the beginning of the line.
+          var level_padding = "";
+          for (var j = 0; j < level + 1; j++)
+              level_padding += "    ";
+  
+          if (typeof(arr) == 'object') { //Array/Hashes/Objects
+              for (var item in arr) {
+                  var value = arr[item];
+  
+                  if (typeof(value) == 'object') { //If it is an array,
+                      dumped_text += level_padding + "'" + item + "' ...\n";
+                      dumped_text += dump(value, level + 1);
+                  } else {
+                      dumped_text += level_padding + "'" + item + "' => \"" + value + "\"\n";
+                  }
+              }
+          } else { //Strings/Chars/Numbers etc.
+              dumped_text = "===>" + arr + "<===(" + typeof(arr) + ")";
+          }
+          return dumped_text;
+      }
+
+</script>
+
+
+
+
+
+<fieldset>
+  <legend>Information</legend>
+  <div class="panelInfo">Sort Categories</div>
+</fieldset>
+<fieldset>
+  <legend>
+    <span class="add"><a href="admin.php?module=product&page=category-add">Add new Category</a></span> | 
+    <span class="list"><a href="admin.php?module=product&page=category-list">List Categories</a></span> 
+  </legend>
+  <ul id='tab'>
+    <li><a href='admin.php?module=product&page=category-list'>Category List</a></li>
+    <li><a class='current' href='#'>Sort Categories</a></li>
+  </ul>
+  <div class="panel">
+    <section id="demo">
+      <!--            <ol class="sortable">
+                      <li id="list_1"><div><span class="disclose"><span></span></span>Item 1</div>
+                          <ol>
+                              <li id="list_2"><div><span class="disclose"><span></span></span>Sub Item 1.1</div>
+                                  <ol>
+                                      <li id="list_3"><div><span class="disclose"><span></span></span>Sub Item 1.2</div>
+                                  </ol>
+                          </ol>
+                      <li id="list_4"><div><span class="disclose"><span></span></span>Item 2</div>
+                      <li id="list_5"><div><span class="disclose"><span></span></span>Item 3</div>
+                          <ol>
+                              <li id="list_6" class="mjs-nestedSortable-no-nesting"><div><span class="disclose"><span></span></span>Sub Item 3.1 (no nesting)</div>
+                              <li id="list_7"><div><span class="disclose"><span></span></span>Sub Item 3.2</div>
+                                  <ol>
+                                      <li id="list_8"><div><span class="disclose"><span></span></span>Sub Item 3.2.1</div>
+                                  </ol>
+                          </ol>
+                      <li id="list_9"><div><span class="disclose"><span></span></span>Item 4</div>
+                      <li id="list_10"><div><span class="disclose"><span></span></span>Item 5</div>
+                  </ol>-->
+      <ol class="sortable"><li id="list_12"><div><span class="disclose"><span></span></span>Laptop</div></li>
+<li id="list_11"><div><span class="disclose"><span></span></span>PC / Desktop</div></li>
+<li id="list_14"><div><span class="disclose"><span></span></span>Camcorder</div></li>
+</ol>
+
+    </section> <!-- END #demo -->
+    <p>
+      <input type="submit" name="toArray" id="toArray" value="Save" class="ButtonSave" />
+    <pre id="toArrayOutput"></pre>
+
+    <p>
+  </div>
+</fieldset></section>
+        </div>
+        <div id="footer">Copyright &copy; 2006-2016 AMHSOFT - Version: Blueshop 3.0-1.0.5</div>
+    </body>
+</html>

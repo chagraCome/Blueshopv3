@@ -1,0 +1,45 @@
+{$breadcrumb}
+<div class="page_content_offset">
+    <div class="container">
+        <div class="row clearfix">
+            <section>
+                <h2 class="tt_uppercase color_dark m_bottom_30">{'Manage Addresses'|tr}</h2>
+                <table class="table_type_6 responsive_table full_width r_corners wrapper shadow bg_light_color_1 m_bottom_30 t_align_l">
+                    <thead>
+                        <tr class="f_size_large">
+                            <th>{'Person Name'|tr}</th>
+                            <th>{'Country'|tr}</th>
+                            <th>{'Street'|tr}</th>
+                            <th>{'Edit'|tr}</th>
+                            <th>{'Delete'|tr}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {foreach from=$adress item=list_adress}
+                        <tr>                     
+                            <td data-title="{'Person Name'|tr}">{$list_adress->getName()}</td>
+                            <td data-title="{'Country'|tr}">{$list_adress->getStreet()}</td>
+                            <td data-title="{'Street'|tr}">{$list_adress->getCountry()}</td>
+                            <td data-title="{'Edit'|tr}">
+                                <a href="index.php?module=crm&page=intern-shop-address-modify&amp;id={$list_adress->getId()}"><i class="fa fa-pencil-square-o"></i>&nbsp;{'Edit'|tr}</a>
+                            </td>
+                            <td data-title="{'Delete'|tr}">
+                                <a href="index.php?module=crm&amp;page=intern-shop-address-delete&amp;id={$list_adress->getId()}"><i class="fa fa-trash-o"></i>&nbsp;{'Delete'|tr}</a>
+                            </td>
+                        </tr>
+                        {foreachelse}
+                        <tr>
+                            <td colspan="6">
+                                <p>{'No Adrress found'|tr}</p>
+                            </td>
+                        </tr>
+                        {/foreach}
+                    </tbody>
+                </table>
+            </section>
+        </div>
+        <div class="amh-container panel-div">
+            <a class="Button green" href="index.php?module=crm&page=intern-shop-address-add">{'Add new Address'|tr}</a> &nbsp; &nbsp;
+        </div>
+    </div>
+</div>

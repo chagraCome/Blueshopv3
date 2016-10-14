@@ -1,0 +1,156 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cms\n"
+"POT-Creation-Date: 2013-10-10 11:41+0100\n"
+"PO-Revision-Date: 2013-10-10 11:42+0100\n"
+"Last-Translator: Amir Cherif <amir.cherif@amhsoft.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../key_words_html.php:3 ../key_words_html.php:14
+msgid "Information"
+msgstr "Informationen"
+
+#: ../key_words_html.php:4 ../key_words_html.php:15
+msgid "Control Panel"
+msgstr "Kunden Kontrolpanel"
+
+#: ../key_words_html.php:5 ../key_words_html.php:6
+msgid "Welcome"
+msgstr "Willkommen"
+
+#: ../key_words_html.php:7
+msgid "Last Login time"
+msgstr "Letzer Login"
+
+#: ../key_words_html.php:8
+msgid "Last Login host"
+msgstr "Letzer Anmeldungshost"
+
+#: ../key_words_html.php:9
+msgid "You have"
+msgstr "Sie haben"
+
+#: ../key_words_html.php:10
+msgid "Messages"
+msgstr "Nachrichten"
+
+#: ../key_words_html.php:19
+#, fuzzy
+msgid "About Motorssouq"
+msgstr "Über uns"
+
+#: ../key_words_html.php:20
+msgid "Back"
+msgstr "Zurück"
+
+#: ../key_words_html.php:22
+msgid "About"
+msgstr "Über"
+
+#: ../Backend/Boot.php:12
+#, fuzzy
+msgid "Setting"
+msgstr "Einstellungen"
+
+#: ../Backend/Boot.php:13 ../Backend/Controllers/Portlet/List.php:153
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: ../Backend/Controllers/Index.php:14
+msgid "Welcome to control panel"
+msgstr "Willkommen zur Kontrolpanel"
+
+#: ../Backend/Controllers/Index.php:23
+#, fuzzy
+msgid "Test"
+msgstr "Test Modus"
+
+#: ../Backend/Controllers/Index.php:30
+msgid "Price Range"
+msgstr "Preisspanne"
+
+#: ../Backend/Controllers/Nopermission.php:25
+msgid "You are not allowed to access this page!"
+msgstr "Sie sind nicht berechtigt, diese Seite zu betreten!"
+
+#: ../Backend/Controllers/Notfound.php:25
+msgid "requested page not found!"
+msgstr "Angeforderte Seite wurde nicht gefunden!"
+
+#: ../Backend/Controllers/Portlet/List.php:52
+msgid "List Portlets"
+msgstr "Alle Blöcke auflisten"
+
+#: ../Backend/Controllers/Portlet/List.php:67
+#: ../Backend/Controllers/Portlet/List.php:69
+msgid "Local"
+msgstr "Ort"
+
+#: ../Backend/Controllers/Portlet/List.php:82
+msgid "Save"
+msgstr "Speichern"
+
+#: ../Backend/Controllers/Portlet/List.php:90
+msgid "Locale Info"
+msgstr "Ortinformationen"
+
+#: ../Backend/Controllers/Portlet/List.php:94
+msgid "Country"
+msgstr "Land"
+
+#: ../Backend/Controllers/Portlet/List.php:95
+msgid "Country ISO"
+msgstr "Land ISO"
+
+#: ../Backend/Controllers/Portlet/List.php:96
+#, fuzzy
+msgid "Time Zone"
+msgstr "Zeitzone"
+
+#: ../Backend/Controllers/Portlet/List.php:97
+#, fuzzy
+msgid "Currency"
+msgstr "Währung"
+
+#: ../Backend/Controllers/Portlet/List.php:98
+#, fuzzy
+msgid "Currency Symbol"
+msgstr "Währungssymbol"
+
+#: ../Backend/Controllers/Portlet/List.php:99
+msgid "Currency Cent"
+msgstr "Währung Cent"
+
+#: ../Backend/Controllers/Portlet/List.php:100
+msgid "Double Comma"
+msgstr "Doppelkomma"
+
+#: ../Backend/Controllers/Portlet/List.php:101
+msgid "Thousand Sep"
+msgstr "Tausender-Trennzeichen"
+
+#: ../Backend/Controllers/Portlet/List.php:102
+msgid "Decimal Sep"
+msgstr "Dezimaltrennzeichen"
+
+#: ../Frontend/Controllers/Index.php:22
+msgid "Shop is offline now please back later"
+msgstr "Webshop ist offlinebitte besuchen Sie uns später nochmal. Danke"
+
+#: ../Grids/Portlet/DataGridView.php:33
+#, fuzzy
+msgid "Name"
+msgstr "Name"
+
+#: ../Grids/Portlet/DataGridView.php:36
+#, fuzzy
+msgid "Online"
+msgstr "Online"

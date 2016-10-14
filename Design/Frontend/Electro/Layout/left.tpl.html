@@ -1,0 +1,46 @@
+{foreach $leftblocks as $block}
+{$block->Render()}
+{/foreach}
+{*foreach $left_boxes as $boxe}
+{if $boxe->position == 1}
+
+{if $boxe->typ eq 1}
+{include file=$boxe->tpl}
+
+{elseif $boxe->typ == 2}
+{if $boxe->border==1}
+{box name=$boxe->id title=$boxe->name}
+<div style="padding: 10px">{$boxe->tpl}</div>
+{/box}
+{else}
+{$boxe->tpl}
+{/if}
+
+
+{elseif $boxe->typ == 3}
+{if $boxe->border==1}
+{box name=$boxe->id title=$boxe->name}
+{if $boxe->link > 0}
+<div style="text-align: center;"><a href="index.php?module=cms&amp;page=page&amp;id={$boxe->link}"><img align="middle" src="{$boxe->tpl}" border="0" alt="{$boxe->banner_alt_text}" /></a></div>
+{else}
+<div style="text-align: center;"><img align="middle" src="{$boxe->tpl}" border="0" alt="{$boxe->banner_alt_text}" /></div>
+{/if}
+{/box}
+{else}
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    {if $boxe->link > 0}
+    <td style="text-align: center"><a href="index.php?module=cms&amp;page=page&amp;id={$boxe->link}"><img src="{$boxe->tpl}" border="0" alt="{$boxe->banner_alt_text}" /></a></td>
+    {else}
+    <td style="text-align: center"><img src="{$boxe->tpl}" border="0" alt="{$boxe->banner_alt_text}" /></td>
+    {/if}
+  </tr>
+</table>
+{/if}
+
+{/if}
+{/if}
+{/foreach*}
+
+

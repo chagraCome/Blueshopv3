@@ -1,0 +1,52 @@
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+  <legend>
+    <span class="add"><a href="admin.php?module=eav&page=attributeset-add&entity={$smarty.get.entity}">{'Add new Entity Set'|tr}</a></span> | 
+    <span class="list"><a href="admin.php?module=eav&page=attributeset-list&entity={$smarty.get.entity}">{'List Entity Set'|tr}</a></span> 
+  </legend>
+  <div class="panel">
+    {$form->Render()}
+    <fieldset style="panel">
+      <legend>{'Manage Set Views'|tr}</legend>
+      <form name="attribtue_set_view_form" method="post" action="">
+        <table class="grid">
+          <tr>
+            <th>{'View Name'|tr}</th>
+            <th>{'Delete'|tr}</th>
+          </tr>
+          {if $smarty.get.entity == 1}
+          <tr>
+            <td><input name="static_view" value="{'General Informations'|tr}" disabled="disabled" /></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><input name="static_view" value="{'Prices'|tr}" disabled="disabled" /></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><input name="static_view" value="{'Description'|tr}" disabled="disabled" /></td>
+            <td>&nbsp;</td>
+          </tr>
+          {/if}
+          {foreach $views as $view}
+          <tr>
+            <td><input name="views[{$view->getId()}]" value="{$view->getName()}" /></td>
+            <td><a class="delete" href="admin.php?module=eav&page=attributeset-modify&event=deleteview&entity={$smarty.get.entity}&view_id={$view->getId()}&id={$smarty.get.id}">{'Delete'|tr}</a></td>
+          </tr>
+          {/foreach}
+          <tr>
+            <td><input name="views[new]" value="" /></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="submit" name="save_views" class="ButtonSave" value="{'Save Views'|tr}" /> </td>
+          </tr>
+        </table>
+      </form>
+    </fieldset>
+    
+  </div>
+</fieldset>

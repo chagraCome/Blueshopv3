@@ -1,0 +1,356 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Workflow\n"
+"POT-Creation-Date: 2016-02-10 14:18+0100\n"
+"PO-Revision-Date: 2016-02-10 14:50+0100\n"
+"Last-Translator: Montasser Smida <smida.montasser@gmail.com>\n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../Backend/Boot.php:23
+msgid "Workflow"
+msgstr "سير العمل"
+
+#: ../Backend/Boot.php:24
+msgid "Manage Workflows"
+msgstr "إدارة سير العمل"
+
+#: ../Backend/Boot.php:25 ../Backend/Boot.php:34 ../I18N/key_words_html.php:8
+#: ../I18N/key_words_html.php:15 ../I18N/key_words_html.php:19
+#: key_words_html.php:8 key_words_html.php:15 key_words_html.php:19
+msgid "Add new Workflow"
+msgstr "اضافة سير عمل جديد"
+
+#: ../Backend/Boot.php:32
+msgid "Workflow Module"
+msgstr " وحدة سير العمل"
+
+#: ../Backend/Boot.php:33
+msgid "List all Workflow"
+msgstr "قائمة سير العمل"
+
+#: ../Backend/Boot.php:35
+msgid "Modify Workflow"
+msgstr "تعديل سير العمل"
+
+#: ../Backend/Boot.php:36
+msgid "Show Workflow Informations "
+msgstr "مشاهدة معلومات سير العمل "
+
+#: ../Backend/Boot.php:37
+msgid "Delete Workflow"
+msgstr "حذف سير العمل"
+
+#: ../Backend/Boot.php:38
+msgid "Set Workflow Online"
+msgstr "تعيين سير العمل مفعل"
+
+#: ../Backend/Boot.php:39
+msgid "Set Workflow Offline"
+msgstr "تعيين سير العمل معطل"
+
+#: ../Backend/Boot.php:41
+msgid "Add new Workflow Action"
+msgstr "إضافة إجراء سير عمل"
+
+#: ../Backend/Boot.php:42
+msgid "Modify Workflow Action"
+msgstr "تعديل إجراء سير عمل"
+
+#: ../Backend/Boot.php:43
+msgid "Show Workflow Action Informations "
+msgstr "مشاهدة معلومات إجراء سيرعمل "
+
+#: ../Backend/Boot.php:44
+msgid "Delete Workflow Action"
+msgstr "حذف إجراء سير عمل"
+
+#: ../Backend/Boot.php:46
+msgid "Add new Workflow Condition"
+msgstr "إضافة شرط سير عمل"
+
+#: ../Backend/Boot.php:47
+msgid "Modify Workflow Condition"
+msgstr "تعديل شرط سيرعمل "
+
+#: ../Backend/Boot.php:48
+msgid "Show Workflow Condition Informations "
+msgstr "مشاهدة معلومات سير العمل"
+
+#: ../Backend/Boot.php:49
+msgid "Delete Workflow Condition"
+msgstr "حذف شرط سير عمل "
+
+#: ../Backend/Boot.php:50
+msgid "Set Workflow Condition Online"
+msgstr "تعيين شرط  سيرعمل مفعل"
+
+#: ../Backend/Boot.php:51
+msgid "Set Workflow Condition Offline"
+msgstr "تعيين شرط  سيرعمل معطل"
+
+#: ../Backend/Controllers/Action/Add.php:30
+#: ../Backend/Controllers/Action/Mail/Add.php:34
+msgid "Create new Workflow Action"
+msgstr "اضافة حدث الى سير العمل"
+
+#: ../Backend/Controllers/Action/Add.php:43
+#: ../Backend/Controllers/Action/Mail/Add.php:48
+#: ../Backend/Controllers/Action/Mail/Modify.php:55
+#: ../Backend/Controllers/Action/Modify.php:53
+#: ../Backend/Controllers/Action/Sms/Add.php:44
+#: ../Backend/Controllers/Action/Sms/Modify.php:52
+#: ../Backend/Controllers/Condition/Add.php:48
+#: ../Backend/Controllers/Condition/Modify.php:52
+#: ../Backend/Controllers/Workflow/Add.php:43
+#: ../Backend/Controllers/Workflow/Modify.php:53
+msgid "Please check inputs."
+msgstr "الرجاء التثبت من المدخلات"
+
+#: ../Backend/Controllers/Action/Mail/Modify.php:28
+msgid "Edit Workflow Mail Action"
+msgstr "تعديل سير عمل البريد الإلكتروني"
+
+#: ../Backend/Controllers/Action/Modify.php:28
+msgid "Edit Workflow Action"
+msgstr "التعديل على حدث سير العمل"
+
+#: ../Backend/Controllers/Action/Sms/Add.php:30
+msgid "Create new Workflow Sms Action"
+msgstr "إضافة سير عمل الرسائل القصيرة"
+
+#: ../Backend/Controllers/Action/Sms/Modify.php:28
+msgid "Edit Workflow Sms Action"
+msgstr "تعديل سيرعمل الرسائل القصيرة"
+
+#: ../Backend/Controllers/Condition/Add.php:34
+msgid "Create new Workflow Condition"
+msgstr "اضافة شرط سير العمل"
+
+#: ../Backend/Controllers/Condition/Modify.php:28
+msgid "Edit Workflow Condition"
+msgstr "التعديل على شرط سير العمل"
+
+#: ../Backend/Controllers/Workflow/Add.php:29
+msgid "Create new Workflow"
+msgstr "اضافة سير عمل جديد"
+
+#: ../Backend/Controllers/Workflow/Details.php:40 ../Panels/Panel.php:27
+msgid "Workflow Details"
+msgstr "تفاصيل سير العمل"
+
+#: ../Backend/Controllers/Workflow/Details.php:51
+msgid "WorkFlow Condition"
+msgstr "شرط سير الحدث"
+
+#: ../Backend/Controllers/Workflow/Details.php:55
+msgid "Add new Condition"
+msgstr "اضافة شرط جديد"
+
+#: ../Backend/Controllers/Workflow/Details.php:64
+msgid "WorkFlow Mail Action"
+msgstr "سير عمل البريد الإلكتروني"
+
+#: ../Backend/Controllers/Workflow/Details.php:67
+msgid "Add new Mail Action"
+msgstr "إضافة إجراء بريد إلكتروني جديد"
+
+#: ../Backend/Controllers/Workflow/Details.php:76
+msgid "WorkFlow Sms Action"
+msgstr "سير عمل الرسائل القصيرة"
+
+#: ../Backend/Controllers/Workflow/Details.php:79
+msgid "Add new Sms Action"
+msgstr "إضافة إجراء SMS جديد"
+
+#: ../Backend/Controllers/Workflow/List.php:28
+msgid "Action successfuly executed"
+msgstr "تم الحفظ بنجاح"
+
+#: ../Backend/Controllers/Workflow/List.php:30
+msgid "Cannot Execute Action"
+msgstr "لم يتم تنفيذ العملية المرادة"
+
+#: ../Backend/Controllers/Workflow/List.php:37 ../I18N/key_words_html.php:12
+#: ../I18N/key_words_html.php:20 key_words_html.php:12 key_words_html.php:20
+msgid "List Workflows"
+msgstr "قائمة سير العمل"
+
+#: ../Backend/Controllers/Workflow/Modify.php:28
+msgid "Edit Workflow"
+msgstr "التعديل على سير العمل"
+
+#: ../Forms/Action/Mail/Form.php:47
+msgid "To"
+msgstr "إلى"
+
+#: ../Forms/Action/Mail/Form.php:53 ../Forms/Action/Mail/Form.php:71
+#: ../Forms/Action/Mail/Form.php:78 ../Forms/Action/Sms/Form.php:52
+#: ../Forms/Condition/Form.php:40
+msgid "Variables"
+msgstr "المتغيرات"
+
+#: ../Forms/Action/Mail/Form.php:58 ../Forms/Action/Sms/Form.php:43
+#: ../Grids/Action/Mail/DataGridView.php:27
+#: ../Grids/Action/Sms/DataGridView.php:27
+msgid "From"
+msgstr "من"
+
+#: ../Forms/Action/Mail/Form.php:66
+msgid "Bcc"
+msgstr "نسخة مخفية"
+
+#: ../Forms/Action/Mail/Form.php:75 ../Grids/Action/Mail/DataGridView.php:30
+msgid "Subject"
+msgstr "الموضوع"
+
+#: ../Forms/Action/Mail/Form.php:81 ../Forms/Action/Sms/Form.php:58
+msgid "Content"
+msgstr "المحتوى"
+
+#: ../Forms/Action/Mail/Form.php:84 ../Forms/Action/Sms/Form.php:62
+#: ../Forms/Condition/Form.php:52 ../Forms/Form.php:56
+msgid "Active"
+msgstr "مفعل"
+
+#: ../Forms/Action/Mail/Form.php:86 ../Forms/Action/Sms/Form.php:64
+#: ../Forms/Condition/Form.php:54 ../Forms/Form.php:58
+msgid "Save"
+msgstr "حفط"
+
+#: ../Forms/Action/Sms/Form.php:49 ../Grids/Action/Sms/DataGridView.php:29
+msgid "Phone"
+msgstr "الهاتف"
+
+#: ../Forms/Condition/Form.php:43 ../Grids/Condition/DataGridView.php:31
+msgid "Condition Right"
+msgstr "الشرط المقابل"
+
+#: ../Forms/Condition/Form.php:47 ../Grids/Condition/DataGridView.php:33
+msgid "Condition Operator"
+msgstr "العملية"
+
+#: ../Forms/Condition/Form.php:86
+msgid "Equals"
+msgstr "يساوي"
+
+#: ../Forms/Condition/Form.php:87
+msgid "Not Equal"
+msgstr "غير متساوي"
+
+#: ../Forms/Condition/Form.php:88
+msgid "Contains"
+msgstr "يحتوي على"
+
+#: ../Forms/Condition/Form.php:89
+msgid "Not Contains"
+msgstr "لا يحتوي"
+
+#: ../Forms/Condition/Form.php:90
+msgid "Greater Than"
+msgstr "أكبر من"
+
+#: ../Forms/Condition/Form.php:91
+msgid "Less Than"
+msgstr "أقل من"
+
+#: ../Forms/Condition/Form.php:92
+msgid "Greater or Equal Than"
+msgstr "أكبر من أو يساوي"
+
+#: ../Forms/Condition/Form.php:93
+msgid "Less or Equal Than"
+msgstr "أقل من أو يساوي"
+
+#: ../Forms/Condition/Form.php:94
+msgid "Start With"
+msgstr "يبدأ مع"
+
+#: ../Forms/Condition/Form.php:95
+msgid "End With"
+msgstr "ينتهي مع"
+
+#: ../Forms/Form.php:39 ../Grids/DataGridView.php:35 ../Panels/Panel.php:36
+msgid "Model Name"
+msgstr "اسم النموذج"
+
+#: ../Forms/Form.php:49 ../Grids/DataGridView.php:32 ../Panels/Panel.php:32
+msgid "Event Name"
+msgstr "اسم الحدث"
+
+#: ../Forms/Form.php:53
+msgid "Workflow Name"
+msgstr "اسم سير العمل"
+
+#: ../Grids/Action/DataGridView.php:28 ../Grids/DataGridView.php:28
+#: ../Panels/Panel.php:31
+msgid "Name"
+msgstr "الاسم"
+
+#: ../Grids/Action/DataGridView.php:29
+msgid "Type"
+msgstr "النوع"
+
+#: ../Grids/Action/DataGridView.php:31 ../Grids/Action/Mail/DataGridView.php:32
+#: ../Grids/Action/Sms/DataGridView.php:31
+#: ../Grids/Condition/DataGridView.php:35 ../Grids/DataGridView.php:38
+#: ../Panels/Panel.php:37
+msgid "State"
+msgstr "الحالة"
+
+#: ../Grids/Action/DataGridView.php:35 ../Grids/Action/Mail/DataGridView.php:36
+#: ../Grids/Action/Sms/DataGridView.php:35
+#: ../Grids/Condition/DataGridView.php:38 ../Grids/DataGridView.php:41
+msgid "Edit"
+msgstr "التعديل"
+
+#: ../Grids/Action/DataGridView.php:40 ../Grids/Action/Mail/DataGridView.php:42
+#: ../Grids/Action/Sms/DataGridView.php:41
+#: ../Grids/Condition/DataGridView.php:42 ../Grids/DataGridView.php:46
+msgid "Delete"
+msgstr "حذف"
+
+#: ../Grids/Condition/DataGridView.php:29
+msgid "Condition left"
+msgstr "الشرط الايمن"
+
+#: ../I18N/key_words_html.php:7 ../I18N/key_words_html.php:11
+#: ../I18N/key_words_html.php:14 ../I18N/key_words_html.php:18
+#: key_words_html.php:7 key_words_html.php:11 key_words_html.php:14
+#: key_words_html.php:18
+msgid "Information"
+msgstr "معلومات"
+
+#: ../I18N/key_words_html.php:9 ../I18N/key_words_html.php:16
+#: key_words_html.php:9 key_words_html.php:16
+msgid "List Workflow"
+msgstr "قائمة سير العمل"
+
+#~ msgid "WorkFlow Action"
+#~ msgstr "حدث سير العمل"
+
+#~ msgid "Add new Action"
+#~ msgstr "اضافة حدث جديد"
+
+#~ msgid "Mail Template"
+#~ msgstr "قالب الايميل"
+
+#~ msgid "SMS Template"
+#~ msgstr "قالب الرسالة القصيرة"
+
+#~ msgid "Facebook Template"
+#~ msgstr "قالب الفيسبوك"
+
+#~ msgid "Plugin File"
+#~ msgstr "قالب البلاقين"
+
+#~ msgid "Condition Left"
+#~ msgstr "الشرط الايمن"

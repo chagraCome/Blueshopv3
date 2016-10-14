@@ -1,0 +1,50 @@
+<fieldset>
+<legend>{'Information'|tr}</legend>
+<div class="{$class}">{$message}</div>
+</fieldset>
+
+<fieldset>
+<!-- begin content -->
+
+<div class="panel">
+{fieldset name="upload" title='Upload Modules'|tr}
+<form action="" method="post" enctype="multipart/form-data">
+<table cellspacing="1" class="grid">
+<tr>
+	<td>{'Zip File'|tr}:</td>
+	<td><input type="file" name="upmodule" id="upmodule" /><input type="submit" name="execute" value="{'Execute'|tr}" class="ButtonSave" /> </td>	
+</tr>
+</table>
+</form>
+{/fieldset}
+{fieldset name="installer" title='List modules'|tr}
+<table cellspacing="1" class="grid">
+<tr>
+	<th>{'Module'|tr}</th>
+	<th>{'Vesion'|tr}</th>
+	<th>{'Build Date'|tr}</th>
+	<th>{'State'|tr}</th>
+	<th>{'Actions'|tr}</th>
+</tr>
+{foreach $data as $module}
+<tr>
+	<td>{$module.title|default:$module.name|tr}</td>
+	<td>{$module.version}</td>
+	<td>{$module.build_date}</td>
+	<td>{if $module.state eq 1}<img src="Amhsoft/Ressources/Icons/checked.gif" alt="{'checked'|tr}" />{elseif $module.state eq 2}<img src="Amhsoft/Ressources/Icons/install.png" alt="{'Install'|tr}" />{else}<img src="Amhsoft/Ressources/Icons/exclamation.gif" alt="{'Exclamation'|tr}" />{/if}</td>
+	<td>
+	{if $module.state eq 1 || $module.status eq 1}
+	{'Lastversion'|tr}
+	{elseif $module.state eq  0}
+	<a href="admin.php?module=installer&amp;page=details&amp;package={$module.class}&amp;_event=update">{'Update'|tr}</a>
+	{else}
+	<a href="admin.php?module=installer&amp;page=details&amp;package={$module.class}&amp;_event=install">{'Install'|tr}</a>
+	{/if}
+	</td>
+</tr>
+{/foreach}
+</table>
+{/fieldset}
+
+
+</fieldset>

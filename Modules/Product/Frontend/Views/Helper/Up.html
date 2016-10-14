@@ -1,0 +1,9 @@
+{if $upProducts}
+<h2 class="tt_uppercase color_dark m_bottom_30">{'Similar Products'|tr}</h2>
+<section class="products_container category_grid clearfix m_bottom_15">
+    {foreach $upProducts as $upProduct}
+    {include file='Modules/Product/Frontend/Views/Item.html' item=$upProduct}
+    {/foreach}
+</section>
+<div style="clear: both;"></div>
+{/if}

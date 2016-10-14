@@ -1,0 +1,96 @@
+<!--markup footer-->
+<footer id="footer">
+    <div class="footer_top_part">
+        <div class="container">
+            <div class="row clearfix">
+                <div class="col-lg-3 col-md-3 col-sm-3 m_xs_bottom_30">
+                    <h3 class="color_light_2 m_bottom_20">{'About'|tr}</h3>
+                    <p class="m_bottom_25">{'Address'|tr}&nbsp;:&nbsp;{$shop->adress} <br/> {'Tel'|tr}&nbsp;:&nbsp;<span dir="ltr" style="direction: ltr">{$shop->tel}</span></p>
+                    <!--social icons-->
+                    <ul class="clearfix horizontal_list social_icons">
+                        {if $shop->facebookAccount}
+                        <li class="facebook m_bottom_5 relative">
+                            <span class="tooltip tr_all_hover r_corners color_dark f_size_small">{'Facebook'|tr}</span>
+                            <a href="{$shop->facebookAccount}" target="_blank" class="r_corners t_align_c tr_delay_hover f_size_ex_large">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        {/if}
+                        {if $shop->twitterAccount}
+                        <li class="twitter m_left_5 m_bottom_5 relative">
+                            <span class="tooltip tr_all_hover r_corners color_dark f_size_small">{'Twitter'|tr}</span>
+                            <a href="{$shop->twitterAccount}" target="_blank" class="r_corners f_size_ex_large t_align_c tr_delay_hover">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        {/if}
+                        {if $shop->instagramAccount}
+                        <li class="instagram m_left_5 m_bottom_5 relative">
+                            <span class="tooltip tr_all_hover r_corners color_dark f_size_small">{'Instagram'|tr}</span>
+                            <a href="{$shop->instagramAccount}" target="_blank" class="r_corners f_size_ex_large t_align_c tr_delay_hover">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        {/if}
+                        {if $shop->youtubeAccount}
+                        <li class="youtube m_left_5 m_bottom_5 relative">
+                            <span class="tooltip tr_all_hover r_corners color_dark f_size_small">{'Youtube'|tr}</span>
+                            <a href="{$shop->youtubeAccount}" target="_blank" class="r_corners f_size_ex_large t_align_c tr_delay_hover">
+                                <i class="fa fa-youtube-play"></i>
+                            </a>
+                        </li>
+                        {/if}
+                        {if $shop->googleplusAccount}
+                        <li class="google_plus m_left_5 m_bottom_5 relative">
+                            <span class="tooltip tr_all_hover r_corners color_dark f_size_small">{'Google +'|tr}</span>
+                            <a href="{$shop->googleplusAccount}" target="_blank" class="r_corners f_size_ex_large t_align_c tr_delay_hover">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </li>
+                        {/if}
+                        {if $shop->email}
+                        <li class="envelope m_left_5 m_bottom_5 relative">
+                            <span class="tooltip tr_all_hover r_corners color_dark f_size_small">{'Contact Us'|tr}</span>
+                            <a href="mailto:{$shop->email}" class="r_corners f_size_ex_large t_align_c tr_delay_hover">
+                                <i class="fa fa-envelope-o"></i>
+                            </a>
+                        </li>
+                        {/if}
+                    </ul>
+                </div>
+                {include file='menu_footer.tpl.html'}
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <h3 class="color_light_2 m_bottom_20">{'Newsletter'|tr}</h3>
+                    <p class="f_size_medium m_bottom_15">{'Sign up to our newsletter and get exclusive deals you wont find anywhere else straight to your inbox!'|tr}</p>
+                    <form name="newsletter_form" method="post" action="index.php?module=newsletter&amp;page=addtonewsletter" id="newsletterForm" role="form" class="form-inline">
+                        <input name="module" value="product" type="hidden">
+                        <input type="hidden" name="sec_nekot" value="{Amhsoft_Common::CsrfGenrateToken('newsletter_form')}"/>
+                        <input name="page" value="list" type="hidden">
+                        <input id="newsletter-input" type="email" placeholder="{'Your email address'|tr}" class="m_bottom_20 r_corners f_size_medium full_width"  required  name="newsletter_email">
+                        <button type="submit" class="button_type_8 r_corners bg_scheme_color color_light tr_all_hover"  name="submitNewsletter">{'Subscribe'|tr}</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--copyright part-->
+    <div class="footer_bottom_part">
+        <div class="container clearfix t_mxs_align_c">
+            <p class="f_left f_mxs_none m_mxs_bottom_10">
+                <span dir="ltr" style="float: left;"> <span dir="ltr" style="float: left;">&copy;</span>&nbsp;{Amhsoft_Version::getCopyrightYear()}&nbsp;</span>
+                <span class="color_light">&nbsp;{Amhsoft_Version::getLicenceDomain()}&nbsp;</span>. All Rights Reserved - Powered By {Amhsoft_Version::getVersion()}</p>
+
+            <ul class="f_right horizontal_list clearfix f_mxs_none d_mxs_inline_b">
+                {foreach $payment_methods as $payment}
+                {if $payment->getFooterLogo()}
+                <li><img src="{$payment->getFooterLogo()}" alt="" class="icon_payement"></li>
+                {/if}
+                {/foreach}    
+            </ul>
+        </div>
+    </div>
+</footer>
+{if $debugbarRenderer}
+{$debugbarRenderer->renderHead()}
+{$debugbarRenderer->render()}
+{/if}

@@ -1,0 +1,16 @@
+<fieldset>
+    <legend>{'Information'|tr}</legend>
+    <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+<legend>
+	<span class="add"><a href="admin.php?module=cms&page=page-preadd">{'Add new Page'|tr}</a></span> | 
+	<span class="list"><a href="admin.php?module=cms&page=page-list">{'List Pages'|tr}</a></span> 
+</legend>
+<div class="panel">
+    {$form->Render()}
+</div>
+</fieldset>
+<script>
+CKEDITOR.config.contentsCss = '{$shop->appurl}/Design/Frontend/{Amhsoft_System::getLayout()}/Layout/Default/style.css';
+</script>

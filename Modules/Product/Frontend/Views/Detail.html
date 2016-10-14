@@ -1,0 +1,261 @@
+<link href="{$skin_path}/js/jquery/plugins/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="{$skin_path}/js/global.js"></script>
+<script type="text/javascript" src="{$skin_path}/js/autoload/10-bootstrap.min.js"></script>
+<script type="text/javascript" src="{$skin_path}/js/autoload/15-jquery.uniform-modified.js"></script>
+<script type="text/javascript" src="{$skin_path}/js/jquery/plugins/fancybox/jquery.fancybox.js"></script>
+<script src="{$skin_path}/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/rating/jquery.rating.pack.js"></script>
+<link href="Amhsoft/Ressources/Javascripts/JQuery/rating/jquery.rating.css" rel="stylesheet" type="text/css" />
+<script src="{$skin_path}/js/SpryTabbedPanels.js" type="text/javascript"></script>
+{if $current_lang == 'en'}
+<script src="{$skin_path}/js/elevatezoom.min.js"></script>
+{/if}
+{if $current_lang == 'ar'}
+<script src="{$skin_path}/js/elevatezoom_ar.min.js"></script>
+{/if}
+<section class="breadcrumbs">
+    <div class="container">
+        <ul class="horizontal_list clearfix bc_list f_size_medium">
+            <li>  <a href="index.php" class="default_t_color"><i class="fa fa-home"></i>&nbsp;{'Home'|tr}</a></li>
+            {foreach $product->getPathRoot() as $root}  
+            <li><a href="{$root.link}" class="default_t_color">&nbsp; {if $current_lang == 'ar'}<i class="fa fa-angle-double-left "></i>{else}<i class="fa fa-angle-double-right "></i>{/if}&nbsp;&nbsp;{$root.name|truncate:300:"..."}</a> </li>
+            {/foreach}
+        </ul>
+    </div>
+</section>
+<br/>
+<section>
+    {if $cart_message} 
+    <div class="alert_box r_corners color_red error m_bottom_10">
+        <i class="fa fa-meh-o"></i><p>{$cart_message}</p>
+    </div>
+    {/if}
+</section>
+<br/>
+<div class="row clearfix">
+    <!--left content column-->
+    <section class="col-lg-9 col-md-9 col-sm-9 m_xs_bottom_30">
+        <div class="clearfix m_bottom_30 t_xs_align_c">
+            <div class="photoframe type_2 shadow r_corners f_left f_sm_none d_xs_inline_b product_single_preview relative m_right_30 m_bottom_5 m_sm_bottom_20 m_xs_right_0 w_mxs_full">
+
+                {if $product->isOffered()}
+                {if $product->getPercentSaveAmount() > 0}
+                <span class="hot_stripe"><img src="{$skin_path}/images/sale_product.png" alt=""></span>       
+                {/if}
+                {elseif  $product->is_new}
+                <span class="hot_stripe"><img src="{$skin_path}/images/hot_product.png" alt=""></span>
+                {/if}
+                <div class="relative d_inline_b m_bottom_10 qv_preview d_xs_block">
+                    <img id="zoom_image" src="{$product->getFirstBig()|default:'media/noimage.jpg'}" data-zoom-image="{$product->getFirstBig()|default:'media/noimage.jpg'}" class="tr_all_hover" alt="">
+                    <a href="{$product->getFirstBig()|default:'media/noimage.jpg'}" class="d_block button_type_5 r_corners tr_all_hover box_s_none color_light p_hr_0">
+                        <i class="fa fa-expand"></i>
+                    </a>
+                </div>
+                <!--carousel-->
+
+                <div class="relative qv_carousel_wrap">
+                    <button class="button_type_11 bg_light_color_1 t_align_c f_size_ex_large bg_cs_hover r_corners d_inline_middle bg_tr tr_all_hover qv_btn_single_prev">
+                        <i class="fa fa-angle-left "></i>
+                    </button>
+                    <ul class="qv_carousel_single d_inline_middle">
+                        {if count($product->images) > 0}
+                        {foreach $product->images as $key => $img}
+                        <a href="#" data-image="{$img->getThumb()}" data-zoom-image="{$img->getThumb()}">
+                            <img src="{$img->getThumb()}" alt="" style="width: 100px;height: 100px;">
+                        </a>
+                        {/foreach}
+                        {/if}
+                    </ul>
+                    <button class="button_type_11 bg_light_color_1 t_align_c f_size_ex_large bg_cs_hover r_corners d_inline_middle bg_tr tr_all_hover qv_btn_single_next">
+                        <i class="fa fa-angle-right "></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="p_top_10 t_xs_align_l">
+                <!--description-->
+                <h2 class="color_dark fw_medium m_bottom_10">{$product->getTitle()|truncate:110:"..."}</h2>
+                <hr class="m_bottom_10 divider_type_3">
+                <table class="description_table m_bottom_10">
+                    <tr>
+                        <td>{'Product Number'|tr}:</td>
+                        <td>{$product->getNumber()|default:'N/A'}</td>
+                    </tr>
+                    <tr>
+                        <td>{'Category'|tr}:</td>
+                        <td>{$product->getCategory()|default:'N/A'}</td>
+                    </tr>
+                    <tr>
+                        <td>{'Availability'|tr}:</td>
+                        <td>{if $product->getQuantity() > 0}<span class="color_green">{'In stock'|tr} </span>  {else} <span class="color_red"> {'Not available'|tr} </span>  {/if}{$product->getQuantity()|default:'0'} {'item(s)'|tr}</td>
+                    </tr>
+                    {if $product->getEntitySet()->getGeneralAttributes()}
+                    {foreach $product->getEntitySet()->getGeneralAttributes() as $attribute}
+                    <tr>
+                        <td>{$attribute->getLabel()}:</td>
+                        <td>{$attribute->getFrontEndComponent($product)}</td>
+                    </tr>
+                    {/foreach}
+                    {/if}
+                </table>
+                {if $attrs}
+                <table class="description_table">
+
+                    <tr>
+
+                        <td class="product-option-attributes" style="min-width: 307px;line-height: initial;">
+                            <p>{$attrs}</p>
+                        </td>
+
+                    </tr>
+
+
+                </table>
+                {/if}
+
+                <div class="m_bottom_15" style="margin-top: 13px;">
+                    <span class="v_align_b f_size_big m_left_5 scheme_color fw_medium">{'Price'|tr}: {$product->getSalePrice()|price}</span><br/> 
+                    {if $product->isOffered()}
+                    <span class="price_offer"> {$product->getPrice()|price}</span><br /><span class="product_price_big_date">{'From'|tr} {$product->getSpecialPriceDateFrom()} {'To'|tr} {$product->getSpecialPriceDateTo()}</span>     
+                    {/if}
+                </div>
+                <table class="description_table type_2 m_bottom_15">
+                    <tr>
+                        <td class="v_align_m">{'Quantity'|tr}:</td>
+                        <td class="v_align_m">
+                            <div class="clearfix quantity r_corners d_inline_middle f_size_medium color_dark">
+                                <form name="shoppingcart" method="get" action="index.php" >
+                                    <input type="hidden" name="module" value="product" />
+                                    <input type="hidden" name="page" value="detail" />
+                                    <input type="hidden" name="id" value="{$product->getId()}" />
+                                    <input type="hidden" name="event" value="cart" />
+                                    <button  type="button" name="down" class="bg_tr d_block f_left" data-direction="down">-</button>
+                                    <input type="text" name="qnt" id="quantity_wanted"  value="1"  class="f_left"/>
+                                    <button type="button" name="up" class="bg_tr d_block f_left" data-direction="up">+</button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="d_ib_offset_0 m_bottom_20">
+                    <button  type="submit" name="addtocart" id="add_to_cart" class="button_type_12 r_corners bg_scheme_color color_light tr_delay_hover d_inline_b f_size_large">
+                        <span>{'Add to cart'|tr}</span>
+                    </button>
+                    </form>
+                    <a style="color: inherit;" href="index.php?module=product&amp;page=whishlist&amp;id={$product->id}">
+                        <button class="button_type_12 bg_light_color_2 tr_delay_hover d_inline_b r_corners color_dark m_left_5 p_hr_0">
+                            <span class="tooltip tr_all_hover r_corners color_dark f_size_small">{'Wishlist'|tr}</span><i class="fa fa-heart-o f_size_big"></i>
+                        </button>
+                    </a>
+                    <a style="color: inherit;" href="index.php?module=product&page=compare&id={$product->id}">
+                        <button class="button_type_12 bg_light_color_2 tr_delay_hover d_inline_b r_corners color_dark m_left_5 p_hr_0">            
+                            <span class="tooltip tr_all_hover r_corners color_dark f_size_small">{'Compare'|tr}</span>
+                            <i class="fa fa-files-o f_size_big"></i>
+                        </button>
+                    </a>
+                </div>
+
+                {if $product->hasPriceTable()}
+                <p>&nbsp;</p>
+                <table  class="product_table_price">
+                    <tr class="silver_odd">
+                        <th>{'Quantity'|tr}</th>
+                        <th>{'Unit Price'|tr}</th>
+                        <th>{'Save'|tr}</th>
+                    </tr>
+                    {foreach $product->getPriceTable() as $rate}
+                    <tr>
+                        <td>{$rate->table_quantity}</td>
+                        <td>{$rate->table_price|price}</td>
+                        <td><strong>{ceil(100-$rate->table_price/$product->getSalePrice()*100)} %</strong></td>
+                    </tr>  
+                    {/foreach}
+                </table>
+                {/if}
+
+
+
+                <div class="d_inline_middle m_left_5 addthis_widget_container">
+                    <!-- AddThis Button BEGIN -->
+                    <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+                        <ul class="menu_horiz_list">
+                            {if $bookmark == 1}<li><a href="index.php?module=product&amp;page=detail&amp;event=bookmark&amp;id={$product->id}"><i class="fa fa-bookmark"></i>&nbsp;{'Delete bookmark'|tr}</a></li>
+                            {else}<li><a href="index.php?module=product&amp;page=whishlist&amp;id={$product->id}" ><i class="fa fa-bookmark"></i> &nbsp;{'Add bookmark'|tr}</a></li>{/if}
+                            <li ><a href="javascript:popup('index.php?module=product&amp;page=detail&amp;event=print&amp;id={$product->id}', 860, 640);"  ><i class="fa fa-print"></i>&nbsp;{'Print'|tr}</a></li>
+                            <li><a href="index.php?module=product&amp;page=sendtofriend&amp;id={$product->id}" ><i class="fa fa-send"></i>&nbsp;{'Send to friend'|tr}</a></li>
+                            <li><a href="http://www.facebook.com/share.php?u=http://{$smarty.server.HTTP_HOST|escape:'url'}{$smarty.server.REQUEST_URI|escape:'url'}" target="_blank"><i class="fa fa-facebook"></i>&nbsp;{'Add to Facebook'|tr}</a></li>
+                            <li><a href="http://twitter.com/share?url=http://{$smarty.server.HTTP_HOST|escape:'url'}{$smarty.server.REQUEST_URI|escape:'url'}"  target="_blank"><i class="fa fa-twitter"></i>&nbsp;{'Add to Twitter'|tr}</a></li>
+                        </ul>
+                    </div>
+                    <!-- AddThis Button END -->
+                </div>
+            </div>
+        </div>
+        <!--tabs-->
+
+        <div id="TabbedPanels1" class="TabbedPanels m_bottom_45">
+            <ul class="TabbedPanelsTabGroup">
+                <li class="TabbedPanelsTab" tabindex="0">{'Description'|tr}</li>
+                <li class="TabbedPanelsTab" tabindex="0">{'Comment and Rating'|tr}</li>
+            </ul>
+            <div class="TabbedPanelsContentGroup">
+                <div class="TabbedPanelsContent">
+                    <h2 class="tt_uppercase color_dark m_bottom_30">{'Description'|tr}</h2>
+
+                    {if $product->getDescription()}
+                    <p>{$product->getDescription()}</p>
+                    {/if}
+                </div>
+                <div class="TabbedPanelsContent">
+                    <h2 class="tt_uppercase color_dark m_bottom_30">{'Comment and Rating'|tr}</h2>
+                    {Modules_Rating_Frontend_Boot::getRating('Product_Product_Model', $product->id,'Modules/Rating/Frontend/Views/Helpers/Rating.html') nocache}
+                </div>
+            </div>
+        </div>
+        {include file='Modules/Product/Frontend/Views/Helper/Related.html'}
+        {include file='Modules/Product/Frontend/Views/Helper/Grouped.html'}
+    </section>
+    <!--right column-->
+    <aside class="col-lg-3 col-md-3 col-sm-3">
+        <!--widgets-->
+        <figure class="widget shadow r_corners wrapper m_bottom_30">
+            <figcaption>
+                <h3 class="color_light">{'Categories'|tr}</h3>
+            </figcaption>
+            <div class="widget_content">
+                <!--Categories list-->
+                <ul class="categories_list">
+                    {foreach Modules_Product_Frontend_Boot::getCategories() as $data}
+                    <li class="">
+                        <a href="{$data.url}" class="f_size_large color_dark d_block relative">
+                            <b>{$data.category}</b>
+                            <span class="bg_light_color_1 r_corners f_right color_dark talign_c"></span>
+                        </a>
+                        <!--second level-->
+                        <ul class="d_none">
+                            {foreach $data.child as $childs}
+                            <li class="active">
+                                <a href="{$childs->getUrl()}" class="d_block f_size_large color_dark relative">
+                                    {$childs->getName()}{if $child && $child->hasChildrens()}<span class="bg_light_color_1 r_corners f_right color_dark talign_c"></span>{/if}
+                                </a>
+                            </li>
+                            {/foreach}
+                        </ul>
+                    </li>
+                    {/foreach}
+                </ul>
+            </div>
+        </figure>
+        {if $filter_attributes}
+        <figure class="widget shadow r_corners wrapper m_bottom_30">
+            <figcaption>
+                <h3 class="color_light">{'Filter'|tr}</h3>
+            </figcaption>
+            <div class="widget_content">
+                <!--filter form-->
+                {$filter_attributes}
+            </div>
+        </figure>
+        {/if}
+    </aside>
+</div>

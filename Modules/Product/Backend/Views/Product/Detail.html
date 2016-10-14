@@ -1,0 +1,90 @@
+<fieldset>
+    <legend>{'Information'|tr}</legend>
+    <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+    <legend>
+        <span class="edit"><a href="admin.php?module=product&page=product-modify&id={$smarty.get.id}">{'Edit Product'|tr}</a></span> | 
+        <span class="list"><a href="admin.php?module=product&page=product-list">{'List Products'|tr}</a></span> 
+    </legend>
+    <div class="panel">
+        {$panel->Render()}
+        {if $product->hasPriceTable()}
+        <fieldset>
+            <legend>{'Table Prices'|tr}</legend>
+            
+            <table>
+        <tr>
+          <td colspan="2" style="margin: 10px 0 0 0; padding:0">
+            <table border="1" style="margin: 10px 0; width: 100%">
+              <tr class="silver_odd">
+                <th>{'Quantity'|tr}</th>
+                <th>{'Unit Price'|tr}</th>
+                <th>{'Save'|tr}</th>
+              </tr>
+              {foreach $product->getPriceTable() as $rate}
+              <tr>
+                <td>{$rate->table_quantity}</td>
+                <td>{$rate->table_price} BD</td>
+                <td><strong>{100-$rate->table_price/$product->getSalePrice()*100} %</strong></td>
+              </tr>  
+              {/foreach}
+            </table>
+          </td><tr>
+            </table>
+          
+        </fieldset>
+        {/if}
+        <!-- general attributes begin -->
+        <fieldset>
+            <legend>{'Product Information'|tr}</legend>
+            {if $product->getEntitySet()->getGeneralAttributes()}
+            <table>
+                {foreach $product->getEntitySet()->getGeneralAttributes() as $key => $attribute}
+                <tr>
+                    <td style="width: 180px">{$attribute->getLabel()}: </td>
+                    <td>{$attribute->getFrontEndComponent($product)}</td>
+                </tr>
+                {/foreach}
+            </table>
+            {/if}
+            <br/>
+        </fieldset>
+        <!-- general attributes end -->
+
+
+
+        {foreach $product->getEntitySet()->getViews() as $view}
+        <fieldset>
+            <legend>{$view->getName()}</legend>
+            <table>
+
+                {foreach $view->getAttributes() as $key => $attribute}
+                <tr>
+                    <td style="width: 180px">{$attribute->getLabel()}: </td>
+                    <td>{$attribute->getFrontEndComponent($product)}</td>
+                </tr>
+                {/foreach}
+            </table>
+        </fieldset>   
+        {/foreach}
+
+
+
+        {if $product->isGrouped()}
+        <fieldset>
+            <legend>{'Grouped Products'|tr}</legend>
+            {$panel_related->Render()}
+        </fieldset>
+        {/if}
+        <fieldset>
+            <legend>{'Product Images'|tr}</legend>
+            {$images_grid->Render()}
+        </fieldset>
+        <fieldset>
+            <legend>{'Product Documents'|tr}</legend>
+            {$documents_grid->Render()}
+        </fieldset>
+
+    </div>
+</fieldset>

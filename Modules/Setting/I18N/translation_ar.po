@@ -1,0 +1,259 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cms module\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-22 12:55+0100\n"
+"PO-Revision-Date: 2011-06-22 12:56+0100\n"
+"Last-Translator: Amir Cherif <amir.cherif@amhsoft.com>\n"
+"Language-Team:  <amir.cherif@amhsoft.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: SAUDI ARABIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: backend/menu.inc.php:18
+#: backend/menu.inc.php:19
+#: backend/menu.inc.php:20
+msgid "Settings"
+msgstr "اعدادات"
+
+#: backend/menu.inc.php:18
+#: backend/translation_en.remove.php:18
+#, fuzzy
+msgid "General"
+msgstr "اعدادات عامة"
+
+#: backend/menu.inc.php:19
+#: backend/translation_en.remove.php:15
+#, fuzzy
+msgid "E-Mail templates"
+msgstr "البريد الالكتروني"
+
+#: backend/menu.inc.php:20
+#: backend/translation_en.remove.php:13
+#, fuzzy
+msgid "E-Mail server"
+msgstr "البريد الالكتروني"
+
+#: backend/translation_en.remove.php:4
+msgid "(Very important for search engine)"
+msgstr "(مهم جدا لمحركات البحث)"
+
+#: backend/translation_en.remove.php:5
+msgid "Address"
+msgstr "العنوان"
+
+#: backend/translation_en.remove.php:6
+msgid "Alternative logo text"
+msgstr "نص تعويض الشعار"
+
+#: backend/translation_en.remove.php:7
+msgid "Article/product columns"
+msgstr ""
+
+#: backend/translation_en.remove.php:8
+#, fuzzy
+msgid "Car design"
+msgstr "طريقة عرض المركبات"
+
+#: backend/translation_en.remove.php:9
+msgid "Cars per page"
+msgstr "عدد المركبات في الصفحة الواحدة"
+
+#: backend/translation_en.remove.php:10
+msgid "Delete"
+msgstr "حذف"
+
+#: backend/translation_en.remove.php:11
+msgid "E-Mail address"
+msgstr "البريد الالكتروني"
+
+#: backend/translation_en.remove.php:12
+msgid "E-Mail content"
+msgstr "محتوى الرسالة"
+
+#: backend/translation_en.remove.php:14
+#: backend/controllers/emailSettings.class.php:25
+#, fuzzy
+msgid "E-Mail server settings"
+msgstr "إعدادات البريد الالكتروني"
+
+#: backend/translation_en.remove.php:16
+#: backend/controllers/emails.class.php:49
+#, fuzzy
+msgid "E-Mail templates settings"
+msgstr "إعدادات البريد الالكتروني"
+
+#: backend/translation_en.remove.php:17
+msgid "Fax"
+msgstr "الفاكس"
+
+#: backend/translation_en.remove.php:19
+msgid "General information"
+msgstr "معلومات عامة"
+
+#: backend/translation_en.remove.php:20
+msgid "General settings"
+msgstr "اعدادات عامة"
+
+#: backend/translation_en.remove.php:21
+msgid "Information"
+msgstr "اعلام"
+
+#: backend/translation_en.remove.php:22
+msgid "Logo"
+msgstr "الشعار"
+
+#: backend/translation_en.remove.php:23
+msgid "Logo Height"
+msgstr "ارتفاع الشعار"
+
+#: backend/translation_en.remove.php:24
+msgid "Logo Width"
+msgstr "عرض الشعار"
+
+#: backend/translation_en.remove.php:25
+msgid "Main currency"
+msgstr "العملة الرئيسية"
+
+#: backend/translation_en.remove.php:26
+msgid "Mobile"
+msgstr "الجوّال"
+
+#: backend/translation_en.remove.php:27
+msgid "Multi columns"
+msgstr ""
+
+#: backend/translation_en.remove.php:28
+msgid "Offer E-Mail settings"
+msgstr "اعدادات رسالة العروض"
+
+#: backend/translation_en.remove.php:29
+msgid "One column"
+msgstr ""
+
+#: backend/translation_en.remove.php:30
+msgid "Order E-Mail settings"
+msgstr "اعدادات رسائل الطلبات"
+
+#: backend/translation_en.remove.php:31
+msgid "Other settings"
+msgstr "اعدادات اخرى"
+
+#: backend/translation_en.remove.php:32
+msgid "Password"
+msgstr ""
+
+#: backend/translation_en.remove.php:33
+msgid "Reservation Auto Responder"
+msgstr "الرسالة التي يتم إرسالها عند الحجز"
+
+#: backend/translation_en.remove.php:34
+msgid "RSS"
+msgstr "ار اس اس"
+
+#: backend/translation_en.remove.php:35
+msgid "Save"
+msgstr "حفظ"
+
+#: backend/translation_en.remove.php:36
+msgid "Save data"
+msgstr "حفظ البيانات"
+
+#: backend/translation_en.remove.php:37
+msgid "Server"
+msgstr ""
+
+#: backend/translation_en.remove.php:38
+msgid "Setup the main currency"
+msgstr "اعداد العملة الرئيسية"
+
+#: backend/translation_en.remove.php:39
+msgid "shop logo"
+msgstr "شعار"
+
+#: backend/translation_en.remove.php:40
+#, fuzzy
+msgid "SMTP server settings"
+msgstr "اعدادات عامة"
+
+#: backend/translation_en.remove.php:41
+msgid "Subject"
+msgstr "الموضوع"
+
+#: backend/translation_en.remove.php:42
+msgid "Telephone"
+msgstr "الهاتف"
+
+#: backend/translation_en.remove.php:43
+msgid "Tracking number E-Mail settings"
+msgstr "إعدادات رسالة رقم التتبّع"
+
+#: backend/translation_en.remove.php:44
+msgid "URL friendly"
+msgstr "صديق لمحركات البحث"
+
+#: backend/translation_en.remove.php:45
+#, fuzzy
+msgid "Username"
+msgstr "اسم الموقع"
+
+#: backend/translation_en.remove.php:46
+#, fuzzy
+msgid "Vehicle"
+msgstr "اعدادات المركبات"
+
+#: backend/translation_en.remove.php:47
+msgid "Vehicle settings"
+msgstr "اعدادات المركبات"
+
+#: backend/translation_en.remove.php:48
+msgid "Website description"
+msgstr "وصف الموقع"
+
+#: backend/translation_en.remove.php:49
+msgid "Website keywords"
+msgstr "كلمات / مفاتيح الموقع"
+
+#: backend/translation_en.remove.php:50
+msgid "Website name"
+msgstr "اسم الموقع"
+
+#: backend/translation_en.remove.php:51
+msgid "Website owner"
+msgstr "صاحب الموقع"
+
+#: backend/controllers/emails.class.php:92
+#, fuzzy
+msgid "Please check your inputs, data cannot be saved."
+msgstr "الرجاء التحقق من المدخلات, لم نتمكن من حفظ المعلومات"
+
+#: backend/controllers/general.class.php:31
+msgid "General Settings"
+msgstr "اعدادات عامة"
+
+#: backend/controllers/general.class.php:41
+#: backend/controllers/emailSettings.class.php:35
+msgid "Data saved successfully."
+msgstr "تم حفظ المعلومات بنجاح"
+
+#~ msgid "Car settings"
+#~ msgstr "اعدادات المركبات"
+
+#~ msgid "Article rows"
+#~ msgstr "عدد الصفوف"
+
+#~ msgid "One row"
+#~ msgstr "صف واحد"
+
+#~ msgid "Email Settings"
+#~ msgstr "اعدادات البريد الالكتروني"
+
+#~ msgid "Order Settings"
+#~ msgstr "اعدادات الطلبية"

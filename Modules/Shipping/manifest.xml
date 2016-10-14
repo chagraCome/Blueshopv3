@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- /**
+* NOTICE OF LICENSE
+*
+* This source file is part of AmhsoftFrameWork
+* AmhsoftFrameWork is a commercial software
+*
+* $Id: manifest.xml 446 2016-02-19 13:41:32Z imen.amhsoft $
+* $Revision: 446 $
+* $LastChangedDate: 2016-02-19 14:41:32 +0100 (ven., 19 févr. 2016) $
+* $LastChangedBy: imen.amhsoft $
+* @package    Shipping
+* @copyright  2005-2014 (c) AMHSOFT e.K. (Web & Software Solutions) Germany (http://www.amhsoft.com)
+* @license    AMHSOFT FrameWork is a commercial software
+* @author     AMHSOFT Dev Team
+* @created    18.11.2010 - 12:58:41
+* @encoding   UTF-8
+*/-->
+<module>
+  <name>Shipping</name>
+  <businessname>Shipping Methods</businessname>	
+  <version>1.7.0</version>
+  <build>22</build>
+  <builddate>2013/12/06 15:30</builddate>
+  <description>Shipping Module: Setup and Configurate the Shipping Methods</description>
+  <updates>
+    <update>
+      <version>1.8.0</version>
+      <build>1</build>
+      <builddate>2014-01-30 12:38:39</builddate>
+      <description></description>
+    </update>
+  </updates>
+</module>

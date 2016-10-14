@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "http://amhsoft.com/pm/form.dtd">
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<form name="customerform" method="post">
+  <panel label="lOGIN NFORMATIONS" name="login">
+    <widget name="username" label="Username" required="1" type="Amhsoft_Input_Control" />
+    <widget name="password" label="Password" required="1" type="Amhsoft_Input_Control" />
+  </panel>  
+  <panel name="infopanel" label="Customer Information">
+    <widget name="firstname" label="First Name" required="1" type="Amhsoft_Input_Control" />
+    <widget name="lastname" label="Last Name" required="1" type="Amhsoft_Input_Control" />
+  </panel>
+  <panel name="contact" label="Contact Information">
+    <widget name="street" label="Street" required="1" type="Amhsoft_Input_Control" />
+    <widget name="zip" label="Zip Code" required="0" type="Amhsoft_Input_Control" />
+    <widget name="country" label="Country" required="0" type="Amhsoft_Input_Control" />
+  </panel>
+</form>

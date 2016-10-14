@@ -1,0 +1,50 @@
+{if $error_message}<div class="error_message">{$error_message}</div>{/if}</br>
+<div class="core_content" style="min-height: 38px;">
+    <h2 class="tt_uppercase color_dark m_bottom_30">{'Account'|tr}<a href="index.php?module=cart&page=checkout-account" class="cart_edit"><i class="fa fa-edit"></i>&nbsp;{'Edit'|tr}</a></h2>
+</div>
+<br />
+<div class="core_content" style="min-height: 38px;">
+    <h2 class="tt_uppercase color_dark m_bottom_30">{'Invoice'|tr} & {'Shipping Address'|tr}<a href="index.php?module=cart&page=checkout-address"  class="cart_edit"><i class="fa fa-edit"></i>&nbsp;{'Edit'|tr}</a></h1>
+</div>
+<br />
+<div class="core_content" style="min-height: 38px;">
+    <h2 class="tt_uppercase color_dark m_bottom_30">{'Shipping Method'|tr}<a href="index.php?module=cart&page=checkout-shipping" class="cart_edit"><i class="fa fa-edit"></i>&nbsp;{'Edit'|tr}</a></h2>
+</div>
+<br />
+<div class="amh-container">
+    <form name="payment_form" action="" method="post">
+        <div class="amh-container payment_container">
+            <h2 class="tt_uppercase color_dark m_bottom_30">{'Payment Method'|tr}</h2>
+            <div class="bs_inner_offsets bg_light_color_3 shadow r_corners m_bottom_45">
+                {foreach $payments as $payment}
+                <figure class="block_select clearfix relative">
+                    <input type="radio" value="{$payment->getId()}" {if $selectedpayment == $payment->getId()}checked="checked"{/if} name="payment_id" class="d_none">
+                    <img src="{$payment->getLogoSrc()|default:'media/noimage.jpg'}" alt="" class="f_left m_right_20 f_mxs_none m_mxs_bottom_10" style="max-width: 100px;max-height: 100px;">
+                    <figcaption class="d_table d_sm_block">
+                        <div class="d_table_cell d_sm_block p_sm_right_0 p_right_45 m_mxs_bottom_5">
+                            <h5 class="color_dark fw_medium m_bottom_15 m_sm_bottom_5">{$payment->getName()}</h5>
+                            <p> {$payment->getDescription()|htmlspecialchars_decode}</p>
+                        </div>
+                        <div class="d_table_cell d_sm_block discount">
+                            <h5 class="color_dark fw_medium m_bottom_15 m_sm_bottom_0">{'Handling Fees'|tr}</h5>
+                            <p class="color_dark">{$payment->getHandlingFeeAsAmount()|price}</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <hr class="m_bottom_20">
+                {foreachelse}
+                <div class="alert_box r_corners warning m_bottom_10">
+                    <i class="fa fa-exclamation-circle"></i><p>{'No payment method available for your country'|tr}</p>
+                </div>
+                {/foreach}
+            </div>
+        </div>
+        <br />
+        <input class="Button continue" type="submit" name="continue" value="{'Continue'|tr}" />
+    </form>
+
+</div>
+<br />
+<div class="core_content" style="min-height: 47px;margin-top: 15px;">
+    <h2 class="tt_uppercase color_dark m_bottom_30">{'Preview Order'|tr}</h2>
+</div>

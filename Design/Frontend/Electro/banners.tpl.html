@@ -1,0 +1,6 @@
+<div style="{if $banner_height} height:{$banner_height}px;{/if} {if $banner_width} width: {$banner_width}px;{/if} margin-bottom: 36px;" class="camera_wrap m_bottom_0" >
+    {foreach $main_banners as $banner}
+    <div data-src="{$banner->absolutepath}" data-custom-thumb="{$banner->absolutepath}">
+    </div>
+    {/foreach}
+</div>

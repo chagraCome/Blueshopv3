@@ -1,0 +1,68 @@
+{if $cart->isEmpty()}
+<div class="amh-container">
+    <h1>{'Shopping Cart'|tr}</h1>
+    <p class="amh-text-center"> {'Shoppingcart is empty'|tr}</p>
+</div>
+{else}
+<div class="core_content">
+    {if $shopping_cart_message}
+    <div class="success_message">{$shopping_cart_message}</div>
+    {/if}
+    <form name="shopping_cart_from" method="post" action="">
+        <table border="0" width="100%"  cellpadding="10" class="grid shipping-cart-table">
+            <tr>
+                <th class="amh-only-desktop">{'Image'|tr}</th>
+                <th>{'Product'|tr}</th>
+                <th>{'Price'|tr}</th>
+                <th>{'Quantity'|tr}</th>
+                <th class="amh-only-desktop">{'Sub Total'|tr}</th>
+                <th></th>
+            </tr>
+            {foreach $cart->getProducts() as $product}
+            <tr>
+                <td class="amh-only-desktop"><img src="{$product->getFirstThumb()}" height="120" /></td>
+                <td style="width:40%">{$product->getTitle()} <br /><div class="amh-only-desktop"> {$product->getShortDesc()}</div><div class="amh-only-mobile"><img src="{$product->getFirstThumb()}" height="80" /></div></td>
+                <td>{$product->getUnitPrice()|price}</td>
+                <td><input type="text" name="qnt[]" value="{$product->quantity_in_cart}" size="1" /></td>
+                <td class="amh-only-desktop">{$product->getSubTotal()|price}</td>
+                <td><a class="delete" href="index.php?module=cart&page=delete&id={$product->getId()}"><i class="fa fa-remove"></i> {'Delete'|tr}</a></td>
+            </tr>
+            {if $product->isGrouped()}
+            {foreach $product->getGroupedProducts() as $gproduct}
+            <tr style="border-bottom: 1px solid gray; padding: 5px">
+                <td><img style="margin: 5px"  width="100px" src="{$gproduct->getFirstThumb()}" /></td>
+                <td>{$gproduct->getTitle()}<br />{$gproduct->getAttributeLabeledValuesAsString()|nl2br}</td>
+                <td>{$gproduct->getUnitPrice()|price}</td>
+                <td>{$product->quantity_in_cart}</td>
+                <td>{0|price}</td>
+                <td></td>
+            </tr>
+            {/foreach}
+            {/if}
+            {/foreach}
+        </table>
+        <div class="amh-container amh-text-right product-detail-price">{'Sub Total'|tr}: <strong class="forecolor">{$cart->getSubTotal()|price}</strong>
+            {if $cart->coupon && $cart->coupon->state_id == 1}
+            <div class="amh-container amh-text-right">
+                <div class="amh-right">{$cart->coupon->getSummary()}</div>
+                <div class="amh-right">{'Coupon Discount'|tr}: {$cart->getCouponCodeDiscount()|price}</div>
+            </div>
+            {/if}
+            <div class="amh-container" style="margin-top: 20px">
+                <div class="amh-left amh-left-rp ">&nbsp;<input class="Button continue" type="submit" value="{'Continue Shopping'|tr}" name="continue"></div>
+                <div class="amh-left amh-left-rp ">&nbsp;<input class="Button update" type="submit" value="{'Update'|tr}" name="update"></div>
+                <div class="amh-right amh-right-rp ">&nbsp;<input class="Button checkout" type="submit" value="{'Checkout Now'|tr}" name="checkout"></div>
+            </div>
+
+           
+    </form>
+    <div class="amh-container">
+        {include file='Design/Frontend/Mudmoon/Modules/Product/Frontend/Views/Helper/Cross.html'}
+    </div>
+    
+    <div class="amh-container">
+        {include file='Design/Frontend/Mudmoon/Modules/Product/Frontend/Views/Helper/Up.html'}
+    </div>
+
+</div>
+{/if}

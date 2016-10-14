@@ -1,0 +1,35 @@
+
+{$breadcrumb}
+<br/>
+<div class="amh-container">
+    <h2 class="tt_uppercase color_dark m_bottom_30">{'Comment Details'|tr}</h2>
+    <p>
+        <i class="fa fa-user"></i>&nbsp;{'Author Name'|tr}: {$comment->author_name}<br />
+        <i class="fa fa-calendar"></i>&nbsp;{'Posted on'|tr}: {$comment->getLocaleInsertAt()}<br />
+        {'Message'|tr}: {$comment->comment}
+    </p>
+</div>
+<div class="amh-container">
+    <h2 class="tt_uppercase color_dark m_bottom_30">{'Replays'|tr}</h2>
+    {foreach $replays as $replay}
+    <div class="amh-container amh-row">
+        <i class="fa fa-user"></i>&nbsp;{'Author Name'|tr}: {$replay->author_name}<br />
+        <i class="fa fa-calendar"></i>&nbsp;{'Posted on'|tr}: {$replay->getLocaleInsertAt()}<br />
+        {$replay->comment}
+    </div>
+    {/foreach}
+</div>
+<div class="amh-container">
+    {foreach $replays as $replay}
+    <div class="amh-container amh-row">
+        <i class="fa fa-user"></i>&nbsp;{'Author Name'|tr}: {$replay->author_name}<br />
+        <i class="fa fa-calendar"></i>&nbsp;{'Posted on'|tr}: {$replay->getLocaleInsertAt()}<br />
+        {$replay->comment}
+    </div>
+     {/foreach}
+</div>
+<div class="amh-container">
+    <h2 class="tt_uppercase color_dark m_bottom_30">{'Add new Replay'|tr}</h2>
+    {$form->Render()}
+</div>
+    

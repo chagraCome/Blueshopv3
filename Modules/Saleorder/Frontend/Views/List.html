@@ -1,0 +1,52 @@
+{$breadcrumb}
+<div class="page_content_offset">
+    <div class="container">
+        <div class="row clearfix">
+            <section>
+                <h2 class="tt_uppercase color_dark m_bottom_30">{'Orders List'|tr}</h2>
+                <table class="table_type_6 responsive_table full_width r_corners wrapper shadow bg_light_color_1 m_bottom_30 t_align_l">
+                    <thead>
+                        <tr class="f_size_large">
+                            <th>{'Order Number'|tr}</th>
+                            <th>{'Order Date'|tr}</th>
+                            <th>{'Order Status'|tr}</th>
+                            <th>{'Total'|tr}</th>
+                            <th>{'Details'|tr}</th>
+                            <th>{'Print'|tr}</th>
+                            <th>{'Cancel'|tr}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {foreach from=$salesorders item=saleorder}
+                        <tr>
+                            <td data-title="{'Order Number'|tr}">
+                                <a href="index.php?module=saleorder&page=details&id={$saleorder->getId()}" class="color_dark">{$saleorder->getNumber()}</a>
+                            </td>
+                            <td data-title="{'Order Date'|tr}">{$saleorder->getLocaleInsertAt()|default:'N/A'}</td>
+                            <td data-title="{'Order Status'|tr}">{$saleorder->saleorderstate}</td>
+                            <td data-title="{'Total'|tr}"><span class="f_size_large fw_medium scheme_color">{$saleorder->total_price|price}</span></td>
+                            <td data-title="{'Details'|tr}">
+                                <a href="index.php?module=saleorder&page=details&id={$saleorder->getId()}"><i class="fa fa-file"></i>&nbsp;{'Details'|tr}</a>
+                            </td>
+                            <td data-title="{'Print'|tr}">
+                                <a href="javascript:popup('index.php?module=saleorder&page=details&id={$saleorder->getId()}&event=print', 800,600)"><i class="fa fa-print"></i>&nbsp;{'Print'|tr}</a>
+                            </td>
+                            <td data-title="{'Cancel'|tr}">
+                                {if $saleorder->showFrontendLinks()}
+                                <a href="index.php?module=saleorder&page=cancel&id={$saleorder->getId()}"><i class="fa fa-remove"></i>&nbsp;{'Cancel'|tr}</a>
+                                {/if}
+                            </td>
+                        </tr>
+                        {foreachelse}
+                        <tr>
+                            <td colspan="6">
+                                <p>{'No Sales Order found'|tr}</p>
+                            </td>
+                        </tr>
+                        {/foreach}
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+</div>

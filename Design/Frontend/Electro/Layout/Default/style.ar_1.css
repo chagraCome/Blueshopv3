@@ -1,0 +1,322 @@
+*{
+ font-family: 'Tahoma';
+  font-style: normal;
+
+}
+body{
+    direction: rtl;
+}
+.sp-wrap {
+    float: right;
+}
+.top_arrow:before {
+    left: 16px;
+    right: initial;
+}
+.sub_menu_wrap:before {
+    right: 16px;
+    left: auto;
+}
+.m_left_5 {
+    margin-right: 5px;
+}
+.owl-carousel .owl-wrapper-outer {
+    direction: ltr;
+}
+.t_align_r {
+    text-align: left;
+}
+.horizontal_list > * {
+    float: right;
+}
+.horizontal_list > *:first-child {
+    margin-right: 0;
+}
+.t_align_l {
+    text-align: right;
+}
+.m_right_10 {
+    margin-left: 10px;
+}
+.text_center {
+    margin-left: 0;
+    margin-right: 35px;
+}
+.count {
+    left: 8px;
+    right: initial;
+}
+.camera_wrap .camera_pag .camera_pag_ul li {
+    text-align: right;
+}
+.camera_wrap .camera_pag .camera_pag_ul li {
+    margin-left: 0px;
+    float: right;
+    margin-right: 10px;
+}
+.f_left {
+    float: right;
+}
+.f_right {
+    float: left;
+}
+.vertical_list li a i[class^="fa "] {
+    left: 0;
+    right: inherit;
+}
+.shopping_cart {
+    left: 0;
+    right: initial;
+}
+.close_search_form {
+    left: 15px;
+    right: initial;
+}
+.sub_menu_wrap {
+    right: 0;
+    left: initial;
+}
+.camera_target {
+    text-align: right;
+}
+.users_nav li {
+    margin-right: 8px;
+}
+.users_nav li:before, .l_width_divider li:before {
+    margin: 6px 0px 0px 8px;
+}
+.sub_menu li a {
+    padding: 7.7px 0 0 20px;
+}
+.c_info_list .contact_e {
+    padding-right: 20px;
+    padding-left: initial;
+}
+.pull-left {
+    float: right;
+}
+.dropdown_list > li img {
+    margin-left: 6px;
+    margin-right: initial;
+}
+h2 {
+    font-size: 1.5em;
+}
+.product_item{
+    float: right;
+}
+.owl-carousel .owl-item {
+}
+@media only screen and (max-width: 767px){
+    .responsive_table td[colspan] {
+        padding-right: 15px !important;
+        padding-left: inherit !important;
+
+    }
+    .responsive_table td{
+
+        padding-right:50% !important;
+        padding-left: inherit !important;
+
+    }
+    .responsive_table td:before {
+        left: inherit;
+        right: 9px;
+    }
+    .responsive_table td:not([colspan]):after {
+        right: 47%;
+        left: inherit;
+    }
+    .f_xs_none {
+        float: none;
+    }
+    .dropdown_list:not(.type_2):before {
+        left: auto;
+        right: 10px;
+    }
+    .t_xs_align_c, .related_projects .owl-item {
+        text-align: center;
+    }
+}
+@media (min-width: 1200px){
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        float: right;
+    }
+}
+@media only screen and (max-width: 480px){
+    .t_mxs_align_c {
+        text-align: center;
+    }
+    .f_mxs_none {
+        float: none;
+    }
+}
+@media (min-width: 768px){
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: right;
+    }}
+.layout_switch_1, .layout_switch_2 {
+    float: left;
+}
+.m_right_30 {
+    margin-left: 30px;
+    margin-right: initial;
+}
+fieldset legend .close_fieldset {
+    left: 0;
+    right: initial;
+}
+.categories_list a > span {
+    left: 0;
+    right: initial;
+}
+table tr td {
+    text-align: right;
+}
+.combi_item{
+    float: right;
+}
+td, th {
+    text-align: right;
+}
+.qv_preview [class*="button_type_"] {
+    left: 10px;
+    right: initial;
+}
+
+.amh-left{
+    float:right !important;
+}
+.amh-right{
+    float:left !important;
+}
+
+.amh-text-right{
+    text-align: left !important;
+}
+
+.amh-text-left{
+    text-align: right !important;
+}
+.amh-text-center {
+    text-align: center !important;
+}
+.product-big-img-container{
+    padding-left: 10px;
+}
+td, th {
+    text-align: right;
+}
+.grid th{ padding: 3px 2px; text-align: right; font-size: 12px;}
+
+.sp-wrap {
+    margin: 0 0px 0px 0;
+}
+.sp-thumbs {
+    text-align: right;
+}
+ul.filter_ul li a img {
+    margin-left: 9px;
+}
+.amh-1_5 {
+    float: right;
+}
+
+.responsive_table thead tr{
+    left:9999px;
+
+}
+.scrollwidth{
+
+    left:9999px;
+
+}
+.cart_edit {
+    float: left;
+}
+ul.menu_horiz_list li {
+    float: right;
+}
+.star-rating-control{
+    float: right
+}
+ul#pagination li {
+    float: right;
+}
+.social-icons{
+    float: right;
+}
+@media only screen and (min-width: 768px){
+
+    .main_menu > li:nth-last-child(1) .sub_menu_wrap,
+    .main_menu > li:nth-last-child(2) .sub_menu_wrap,
+    .main_menu > li:nth-last-child(3) .sub_menu_wrap{
+        left: auto;
+        right: 0; 
+    }
+
+    .main_menu > li:nth-last-child(1) .sub_menu_wrap::before,
+    .main_menu > li:nth-last-child(2) .sub_menu_wrap::before,
+    .main_menu > li:nth-last-child(3) .sub_menu_wrap::before{
+        left: auto;
+        right: 16px;*
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .t_xs_align_l {
+        text-align: right;
+    }
+}
+
+@media (max-width: 790px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), not all, not all, not all, only screen and (max-width: 1024px) and (min-resolution: 192dpi), only screen and (max-width: 1024px) and (min-resolution: 2dppx){
+    .amh-text-left-rp {
+        text-align: right !important;
+    }
+    .product_table_price {
+        width: 100%;
+    }
+}
+.product_item .photoframe.type_2 figcaption {
+    padding: 0px 0px 3px 8px;
+}
+.product-btn.cart-button > span {
+    background: url("images/cart.png") no-repeat scroll right 8px;
+    background-size: 13px 15px;
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: inherit;
+}
+
+.checkout{
+    margin-left:30px;
+}
+.product-btn {
+    margin-right: 0px;
+    margin-left: inherit;
+}
+.m_right_5 {
+    margin-left: 5px;
+}
+.block_select:before {
+    right: 0;
+}
+.block_select {
+    padding-right: 32px;
+}
+[class*="alert_box"] i[class^="fa "] {
+    right: 20px;
+    left:inherit;
+}
+[class*="alert_box"] {
+    padding: 25px 65px 25px 20px;
+}
+
+[class*="horizontal_list"].bc_list i[class^="fa fa-angle-double-right "] {
+    transform: rotate(180deg);
+
+}
+[class*="table_type_"] tr:first-child th:first-child, [class*="table_type_"] tr td:first-child {
+    border-right: none;
+    border-left: 1px solid #ecf0f1;
+}

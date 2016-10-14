@@ -1,0 +1,45 @@
+<script type="text/javascript" src="js/tinymce/plugins/tinybrowser/tb_tinymce.js.php"></script>
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}" id="message">{$message}</div>
+</fieldset>
+<fieldset>
+  <legend>
+    <!-- begin action --><span class="add"><a href="admin.php?module=cms&page=box-preadd">{'Add new Block'|tr}</a></span><!-- end action -->
+  </legend>
+     <div class="panel">
+    {fieldset name="box_list" title='List Blocks'|tr}
+    <table cellpadding="3" cellspacing="1" id="grid" class="grid">
+      <tr>
+        <th width="15">#</th>
+        <th>{'Block Name'|tr}</th>
+        <th>{'Block Type'|tr}</th>
+        <th width="90">{'Edit'|tr}</th>
+        <th width="90">{'State'|tr}</th>
+        <th width="90">{'Delete'|tr}</th>
+      </tr>
+	{foreach from=$boxen key=index item=box}
+      <tr>
+        <td>{$index+1}</td>
+        <td><a href="admin.php?module=cms&page=box-modify&id={$box->id}">{$box->name}</a></td>
+         <td>{if $box->file != null}{'File'|tr}: {$box->file} {else} {'Text'|tr}/Html{/if}</td>
+        <td style="width: 60px"><a href="admin.php?module=cms&page=box-modify&id={$box->id}" class="edit">{'Edit'|tr}</a></td>
+        <td style="width: 60px">
+            {if $box->online == 1}
+              <a href="admin.php?module=cms&amp;page=box-offline&amp;id={$box->id}"><img src="{$skin_path}/images/online.png" alt="{'Online'|tr}" />{'Online'|tr}</a>
+              {else}
+              <a href="admin.php?module=cms&amp;page=box-online&amp;id={$box->id}"><img src="{$skin_path}/images/offline.png" alt="{'Offline'|tr}" />{'Offline'|tr}</a>
+              {/if}
+        </td>
+        <td style="width: 60px">
+            {*if $box->file == null*}
+            <a href="admin.php?module=cms&amp;page=box-delete&amp;id={$box->id}" onclick="return confirmDelete()"><img src="{$skin_path}/images/cross.gif" alt="{'Delete'|tr}" />{'Delete'|tr}</a>
+              {*/if*}
+        </td>
+      </tr>
+	{/foreach}
+    </table>
+    {/fieldset}
+    <!-- end content -->
+  </div>
+</fieldset>

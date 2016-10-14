@@ -1,0 +1,1081 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Saleorder Module\n"
+"POT-Creation-Date: 2014-04-16 16:51+0100\n"
+"PO-Revision-Date: 2014-04-16 16:51+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t;tr\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../Backend/Boot.php:37 ../Forms/Updatestate/Form.php:38
+msgid "Sales Order"
+msgstr "طلبات الشراء"
+
+#: ../Backend/Boot.php:38
+msgid "Today Sales Order"
+msgstr "طلبات الشراء اليوم"
+
+#: ../Backend/Boot.php:39
+msgid "Accepted Sales Order"
+msgstr "طلبات الشراء المقبولة"
+
+#: ../Backend/Boot.php:40
+msgid "Open Sales Order"
+msgstr "طلبات الشراء المفتوحة"
+
+#: ../Backend/Boot.php:41
+msgid "Created Sales Order"
+msgstr "طلبات الشراء المُنشأة"
+
+#: ../Backend/Boot.php:42
+msgid "Manage Sales Order"
+msgstr "ادارة طلبات الشراء"
+
+#: ../Backend/Boot.php:43
+msgid "Add a new Sales Order"
+msgstr "اضافة طلب شراء جديد"
+
+#: ../Backend/Boot.php:44 ../Backend/Controllers/Saleorder/Details.php:450
+#: ../key_words_html.php:99
+msgid "Sales Order Comments"
+msgstr "تعليقات طلب الشراء"
+
+#: ../Backend/Boot.php:45
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: ../Backend/Boot.php:49
+msgid "Sales Order Module"
+msgstr "إدارة طلبات الشراء"
+
+#: ../Backend/Boot.php:50
+msgid "List Sales Order Comment"
+msgstr "قائمة تعليقات طلب الشراء"
+
+#: ../Backend/Boot.php:51
+msgid "Add Sales Order Document"
+msgstr "اضافة وثيقة إلى طلب الشراء"
+
+#: ../Backend/Boot.php:52
+msgid "Delete Sales Order Document"
+msgstr "حذف وثيقة من طلب الشراء"
+
+#: ../Backend/Boot.php:53
+msgid "Details Sales Order Document"
+msgstr "تفاصيل وثيقة طلب الشراء"
+
+#: ../Backend/Boot.php:54
+msgid "Generate Sales Order Document"
+msgstr "توليد وثيقة طلب الشراء"
+
+#: ../Backend/Boot.php:55
+msgid "Add Sales Order Item"
+msgstr "إضافة عنصر إلى طلب الشراء"
+
+#: ../Backend/Boot.php:56
+msgid "Delet Sales Order Item"
+msgstr "حذف عنصر من طلب الشراء"
+
+#: ../Backend/Boot.php:57
+msgid "List Sales Order Item"
+msgstr "قائمة عناصر طلب الشراء"
+
+#: ../Backend/Boot.php:58
+msgid "Modify Sales Order Item"
+msgstr "التعديل على عناصر طلب الشراء"
+
+#: ../Backend/Boot.php:59
+msgid "Add Sales Order "
+msgstr "إضافة طلب شراء جديد"
+
+#: ../Backend/Boot.php:60
+msgid "Delete Sales Order "
+msgstr "حذف طلب شراء "
+
+#: ../Backend/Boot.php:61
+msgid "Details Sales Order "
+msgstr "تفاصيل طلب الشراء"
+
+#: ../Backend/Boot.php:62
+msgid "List Sales Order "
+msgstr "قائمة طلبات الشراء"
+
+#: ../Backend/Boot.php:63
+msgid "Modify Sales Order "
+msgstr "التعديل على طلب الشراء"
+
+#: ../Backend/Boot.php:64
+#, fuzzy
+msgid "Update Sales Order State"
+msgstr "تحديث حالة طلب الشراء"
+
+#: ../Backend/Boot.php:65
+msgid "Add Sales Order State"
+msgstr "اضافة حالة طلب الشراء"
+
+#: ../Backend/Boot.php:66
+msgid "Delete Sales Order State"
+msgstr "حذف حالة  طلب الشراء"
+
+#: ../Backend/Boot.php:67
+msgid "List Sales Order State"
+msgstr "قائمة حالات طلب الشراء"
+
+#: ../Backend/Boot.php:68
+msgid "Modify Sales Order State"
+msgstr "تعديل  حالة طلب الشراء"
+
+#: ../Backend/Boot.php:69
+msgid "Quicklist Sales Order"
+msgstr "قائمة طلبات الشراء السريعة "
+
+#: ../Backend/Boot.php:70
+msgid "Setting Sales Order "
+msgstr "إعدادات طلبات الشراء"
+
+#: ../Backend/Boot.php:93
+msgid "Item"
+msgstr "عنصر"
+
+#: ../Backend/Boot.php:93 ../key_words_html.php:71 ../key_words_html.php:118
+msgid "Date Time"
+msgstr "التاريخ"
+
+#: ../Backend/Boot.php:93
+msgid "Link"
+msgstr "الرابط"
+
+#: ../Backend/Boot.php:95 ../key_words_html.php:109 ../key_words_html.php:112
+msgid "Details"
+msgstr "التفاصيل"
+
+#: ../Backend/Controllers/Comment/List.php:41
+msgid "Go To Sales Order"
+msgstr "الذهاب الى طلب الشراء"
+
+#: ../Backend/Controllers/Comment/List.php:51
+msgid "List all comments"
+msgstr "قائمة جميع التعليقات"
+
+#: ../Backend/Controllers/Document/Add.php:37
+msgid "Add a new Document"
+msgstr "اضافة وثيقة جديدة"
+
+#: ../Backend/Controllers/Document/Add.php:72
+#: ../Backend/Controllers/Item/Add.php:60
+#: ../Backend/Controllers/Item/Modify.php:115
+#: ../Backend/Controllers/Saleorder/Add.php:95
+#: ../Backend/Controllers/Saleorder/Modify.php:101
+#: ../Backend/Controllers/Saleorder/Updatestate.php:94
+#: ../Backend/Controllers/State/Add.php:49
+#: ../Backend/Controllers/State/Modify.php:60
+#: ../Frontend/Controllers/Comment/Add.php:88
+msgid "Please check inputs."
+msgstr "الرجاء التاكد من المدخلات"
+
+#: ../Backend/Controllers/Document/Detail.php:42
+msgid "Document Details"
+msgstr "تفاصيل الوثيقة"
+
+#: ../Backend/Controllers/Document/Generate.php:33
+msgid "Generate a pdf document"
+msgstr "توليد PDF"
+
+#: ../Backend/Controllers/Item/Add.php:41
+msgid "Create new Sales Order Item"
+msgstr "اضافة منتج الى طلب الشراء"
+
+#: ../Backend/Controllers/Item/Add.php:69
+msgid "Sales Order Item was successully added"
+msgstr "تم اضافة المنتج الى طلب الشراء بنجاح"
+
+#: ../Backend/Controllers/Item/List.php:36
+msgid "List Sales Orders Items"
+msgstr "قائمة منتجات طلب الشراء"
+
+#: ../Backend/Controllers/Item/Modify.php:32
+msgid "Edit Sales Order Item"
+msgstr "التعديل على منتجات طلب الشراء"
+
+#: ../Backend/Controllers/Saleorder/Add.php:45
+msgid "Create new Sales Order"
+msgstr "اضافة طلب شراء جديد"
+
+#: ../Backend/Controllers/Saleorder/Add.php:105
+msgid "Sales Order was successully added"
+msgstr "تم اضافة طلب الشراء بنجاح"
+
+#: ../Backend/Controllers/Saleorder/Details.php:50
+msgid "Modify State"
+msgstr "تعديل الحالة"
+
+#: ../Backend/Controllers/Saleorder/Details.php:51
+msgid "Sales Order Details"
+msgstr "تفاصيل طلب الشراء"
+
+#: ../Backend/Controllers/Saleorder/Details.php:58
+msgid "Related Invoices"
+msgstr "الفواتير  المتعلقة"
+
+#: ../Backend/Controllers/Saleorder/Details.php:61
+#: ../Backend/Controllers/Saleorder/Details.php:118
+msgid "Unassign"
+msgstr "إلغاء"
+
+#: ../Backend/Controllers/Saleorder/Details.php:73
+msgid "Link Invoice"
+msgstr "ربط الفاتورة"
+
+#: ../Backend/Controllers/Saleorder/Details.php:114
+msgid "Related Quotation"
+msgstr "عروض الأسعار  المتعلقة"
+
+#: ../Backend/Controllers/Saleorder/Details.php:137
+msgid "Link Quotation"
+msgstr "ربط عرض الاسعار"
+
+#: ../Backend/Controllers/Saleorder/Details.php:176
+msgid "Related Tasks"
+msgstr "المهام المتعلقة"
+
+#: ../Backend/Controllers/Saleorder/Details.php:184
+msgid "Add New Task"
+msgstr "اضافة مهمة جديدة"
+
+#: ../Backend/Controllers/Saleorder/Details.php:197
+msgid "Related Tasks History"
+msgstr "سجل المهام ذات الصلة"
+
+#: ../Backend/Controllers/Saleorder/Details.php:234
+msgid "Related Processes"
+msgstr "العمليات المتصلة"
+
+#: ../Backend/Controllers/Saleorder/Details.php:235
+msgid "Create Process"
+msgstr "انشاء عملية"
+
+#: ../Backend/Controllers/Saleorder/Details.php:262
+msgid ""
+"Cannot convert sales order to invoice, please change state to accepted before"
+msgstr ""
+"لا يمكن تحويل طلب الشراء الى فاتورة, يجب اولا تحويل حالة طلب الشراء الى تم "
+"القبول"
+
+#: ../Backend/Controllers/Saleorder/Details.php:281
+#: ../Backend/Controllers/Saleorder/Details.php:285
+msgid "Modify"
+msgstr "تعديل"
+
+#: ../Backend/Controllers/Saleorder/Details.php:387 ../key_words_html.php:80
+#: ../key_words_html.php:125
+msgid "Sales Order Items"
+msgstr "قائمة منتجات طلب الشراء"
+
+#: ../Backend/Controllers/Saleorder/Details.php:391
+msgid "Add Product"
+msgstr "اضافة منتج"
+
+#: ../Backend/Controllers/Saleorder/Details.php:396
+msgid "Add Custom Item"
+msgstr "اضافة منتج خاص"
+
+#: ../Backend/Controllers/Saleorder/Details.php:415
+#: ../Grids/Item/DataGridView.php:35 ../key_words_html.php:86
+#: ../key_words_html.php:87 ../key_words_html.php:131
+#: ../key_words_html.php:132
+msgid "Sub Total"
+msgstr "المجموع الجزئي"
+
+#: ../Backend/Controllers/Saleorder/Details.php:416 ../Forms/Form.php:110
+#: ../Forms/Item/Form.php:77 ../Grids/Item/DataGridView.php:34
+#: ../Panels/Panel.php:119 ../key_words_html.php:72 ../key_words_html.php:90
+#: ../key_words_html.php:119 ../key_words_html.php:135
+msgid "Discount"
+msgstr "التخفيض"
+
+#: ../Backend/Controllers/Saleorder/Details.php:417 ../key_words_html.php:88
+#: ../key_words_html.php:133
+msgid "Shipping Cost"
+msgstr "تكلفة الشحن"
+
+#: ../Backend/Controllers/Saleorder/Details.php:418 ../key_words_html.php:89
+#: ../key_words_html.php:134
+msgid "Handling Fee"
+msgstr "رسوم التحويل"
+
+#: ../Backend/Controllers/Saleorder/Details.php:419 ../Panels/Panel.php:106
+msgid "Grand Total"
+msgstr "المجموع النهائي"
+
+#: ../Backend/Controllers/Saleorder/Details.php:426 ../key_words_html.php:94
+msgid "Sales Order Documents"
+msgstr "وثائق طلب الشراء"
+
+#: ../Backend/Controllers/Saleorder/Details.php:434
+msgid "Add Document"
+msgstr "اضافة وثيقة"
+
+#: ../Backend/Controllers/Saleorder/Details.php:437
+msgid "Generate PDF"
+msgstr "توليد PDF"
+
+#: ../Backend/Controllers/Saleorder/Details.php:457
+#: ../Frontend/Controllers/Comment/Add.php:64 ../key_words_html.php:59
+#: ../key_words_html.php:102
+msgid "Add new Comment"
+msgstr "اضافة تعليق جديد"
+
+#: ../Backend/Controllers/Saleorder/Details.php:478
+msgid "Related Emails"
+msgstr "الرسائل البريدية المتعلقة"
+
+#: ../Backend/Controllers/Saleorder/Details.php:481
+msgid "Add New Email"
+msgstr "اضافة رسالة بريدية جديدة"
+
+#: ../Backend/Controllers/Saleorder/List.php:39 ../key_words_html.php:19
+#: ../key_words_html.php:24 ../key_words_html.php:34 ../key_words_html.php:39
+#: ../key_words_html.php:43 ../key_words_html.php:47 ../key_words_html.php:51
+#: ../key_words_html.php:55
+msgid "List Sales Orders"
+msgstr "قائمة طلبات الشراء "
+
+#: ../Backend/Controllers/Saleorder/Modify.php:34 ../key_words_html.php:22
+msgid "Edit Sales Order"
+msgstr "تعديل طلب الشراء"
+
+#: ../Backend/Controllers/Saleorder/Quicklist.php:42
+#, fuzzy
+msgid "List saleorder"
+msgstr "قائمة طلبات الشراء"
+
+#: ../Backend/Controllers/Saleorder/Quicklist.php:57
+#: ../Forms/Document/Form.php:45 ../Forms/State/Form.php:32
+#: ../Grids/DataGridView.php:29 ../Grids/State/DataGridView.php:30
+#: ../key_words_html.php:95
+msgid "Name"
+msgstr "الاسم"
+
+#: ../Backend/Controllers/Saleorder/Quicklist.php:60
+#: ../Grids/DataGridView.php:32 ../key_words_html.php:70
+#: ../key_words_html.php:105 ../key_words_html.php:117
+msgid "Number"
+msgstr "الرقم"
+
+#: ../Backend/Controllers/Saleorder/Quicklist.php:61
+#: ../Grids/DataGridView.php:33 ../key_words_html.php:73
+#: ../key_words_html.php:120
+msgid "Total Price"
+msgstr "المجموع الكلي"
+
+#: ../Backend/Controllers/Saleorder/Quicklist.php:63
+#: ../Backend/Controllers/Saleorder/Quicklist.php:84
+#: ../Grids/DataGridView.php:35 ../Grids/DataGridView.php:82
+#: ../key_words_html.php:108
+msgid "State"
+msgstr "الحالة"
+
+#: ../Backend/Controllers/Saleorder/Quicklist.php:66
+#: ../Grids/DataGridView.php:46 ../Panels/Panel.php:117
+msgid "Created Time"
+msgstr "تاريخ الاضافة"
+
+#: ../Backend/Controllers/Saleorder/Updatestate.php:35
+msgid "Update Sales Order state"
+msgstr "تحديث حالة طلب الشراء"
+
+#: ../Backend/Controllers/Setting.php:29
+msgid "Sales Order Settings"
+msgstr "اعدادات طلبات الشراء"
+
+#: ../Backend/Controllers/Setting.php:33 ../Forms/Updatestate/Form.php:40
+#: ../Panels/Panel.php:120
+msgid "Sales Order State"
+msgstr "حالة طلب الشراء"
+
+#: ../Backend/Controllers/Setting.php:42
+msgid "Record Numbering"
+msgstr "الترقيم التسلسلي "
+
+#: ../Backend/Controllers/Setting.php:43
+msgid "Prefix"
+msgstr "الحروف"
+
+#: ../Backend/Controllers/Setting.php:44
+msgid "Like: SO"
+msgstr "مثل: SO"
+
+#: ../Backend/Controllers/Setting.php:50
+msgid "Start Record"
+msgstr "الترقيم يبدأ من"
+
+#: ../Backend/Controllers/Setting.php:55 ../Backend/Controllers/Setting.php:80
+#: ../Backend/Controllers/Setting.php:130 ../Forms/Comment/Form.php:50
+#: ../Forms/Document/Form.php:59 ../Forms/Form.php:129
+#: ../Forms/Item/Form.php:87 ../Forms/State/Form.php:36
+#: ../Forms/Updatestate/Form.php:79
+msgid "Save"
+msgstr "حفظ"
+
+#: ../Backend/Controllers/Setting.php:68
+msgid "Manage Notifications Emails"
+msgstr "ادارة الايميلات"
+
+#: ../Backend/Controllers/Setting.php:73
+#, fuzzy
+msgid "Use this email to send notifications"
+msgstr "إستعمل هذا العنوان لإرسال إشعرات عروض الأسعار"
+
+#: ../Backend/Controllers/Setting.php:88
+msgid "Sales Order Notification Settings"
+msgstr "اعدادات اشعارات طلبات الشراء"
+
+#: ../Backend/Controllers/Setting.php:104
+#, fuzzy
+msgid "Sales Order Prints Settings"
+msgstr "اعدادات طلبات الشراء"
+
+#: ../Backend/Controllers/Setting.php:128
+msgid "Action"
+msgstr ""
+
+#: ../Backend/Controllers/Setting.php:146
+#: ../Backend/Controllers/Setting.php:170
+msgid "Data was successfully saved"
+msgstr "تم حفظ المعلومات بنجاح"
+
+#: ../Backend/Controllers/State/Add.php:33
+msgid "Create new Sales Order State"
+msgstr "اضافة حالة جديدة خاصة بطلب الشراء"
+
+#: ../Backend/Controllers/State/List.php:36
+msgid "List Sales Orders States"
+msgstr "قائمة حالة طلبات الشراء"
+
+#: ../Backend/Controllers/State/Modify.php:32
+msgid "Edit Sales Order State"
+msgstr "التعديل على حالة طلب الشراء"
+
+#: ../Forms/Cancel/Form.php:33 ../Panels/Comment/Panel.php:42
+#: ../key_words_html.php:64 ../key_words_html.php:67
+msgid "Message"
+msgstr "رسالة"
+
+#: ../Forms/Cancel/Form.php:37
+msgid "Security Code"
+msgstr "كود الحماية"
+
+#: ../Forms/Cancel/Form.php:41
+msgid "Submit"
+msgstr "ارسل"
+
+#: ../Forms/Comment/Form.php:46
+msgid "Comment"
+msgstr "التعليق"
+
+#: ../Forms/Comment/Form.php:49
+msgid "Is Public"
+msgstr "عمومي"
+
+#: ../Forms/Document/Form.php:49
+msgid "Document"
+msgstr "الوثيقة"
+
+#: ../Forms/Document/Form.php:49
+msgid "Image"
+msgstr "الصرة"
+
+#: ../Forms/Document/Form.php:49
+msgid "Zip File"
+msgstr "ملف مضغوط"
+
+#: ../Forms/Document/Form.php:49
+msgid "Software"
+msgstr "برنامج"
+
+#: ../Forms/Document/Form.php:51
+msgid "Type"
+msgstr "النوع"
+
+#: ../Forms/Document/Form.php:57 ../Grids/Document/DataGridView.php:51
+#: ../Panels/Comment/Panel.php:34
+msgid "Public"
+msgstr "عمومي"
+
+#: ../Forms/Document/Form.php:63
+msgid "File to upload"
+msgstr " رفع الملف"
+
+#: ../Forms/Form.php:84 ../Forms/Updatestate/Form.php:62
+#: ../Forms/Updatestate/Form.php:64 ../Panels/Panel.php:104
+msgid "Subject"
+msgstr "الموضوع"
+
+#: ../Forms/Form.php:89
+msgid "Sales Order No."
+msgstr "رقم طلب الشراء"
+
+#: ../Forms/Form.php:93 ../Panels/Panel.php:163 ../Panels/Panel.php:164
+msgid "Payment Log"
+msgstr "سجل الدفع"
+
+#: ../Forms/Form.php:96 ../Grids/DataGridView.php:43 ../Panels/Panel.php:108
+msgid "Assigned To"
+msgstr "موجه ل"
+
+#: ../Forms/Form.php:100 ../Grids/DataGridView.php:88
+msgid "Account"
+msgstr "حساب"
+
+#: ../Forms/Form.php:105 ../Panels/Panel.php:114
+msgid "Shipping Method"
+msgstr "طريقة الشحن"
+
+#: ../Forms/Form.php:112
+#, php-format
+msgid "Like 30% or 30 (Fixed or percent)"
+msgstr "مثل 30% أو 30 (الثابتة أو النسبة المئوية)"
+
+#: ../Forms/Form.php:114 ../Panels/Panel.php:115
+msgid "Due Date"
+msgstr "تاريخ الاستحقاق"
+
+#: ../Forms/Form.php:117
+msgid "Descrtiption"
+msgstr "الوصف"
+
+#: ../Forms/Form.php:120 ../Grids/DataGridView.php:45 ../Panels/Panel.php:113
+msgid "Payment Method"
+msgstr "طريقة الدفع"
+
+#: ../Forms/Form.php:126 ../Panels/Panel.php:155 ../Panels/Panel.php:156
+msgid "Policy"
+msgstr "الشروط"
+
+#: ../Forms/Form.php:131
+msgid "General Informations"
+msgstr "معلومات عامة"
+
+#: ../Forms/Form.php:139
+msgid "Descriptions"
+msgstr "الوصف"
+
+#: ../Forms/Form.php:142
+msgid "Discount Informations"
+msgstr "معلومات التخفيض"
+
+#: ../Forms/Item/Form.php:58 ../Grids/Item/DataGridView.php:29
+msgid "Item No"
+msgstr "رقم المنتج"
+
+#: ../Forms/Item/Form.php:63 ../Grids/Item/DataGridView.php:30
+#: ../Panels/Item/Panel.php:59
+msgid "Item Name"
+msgstr "اسم المنتج"
+
+#: ../Forms/Item/Form.php:69 ../Panels/Item/Panel.php:60
+msgid "Item Description"
+msgstr "وصف المنتج"
+
+#: ../Forms/Item/Form.php:72 ../Panels/Item/Panel.php:61
+msgid "Price"
+msgstr "السعر"
+
+#: ../Forms/Item/Form.php:79
+msgid "20 "
+msgstr "20"
+
+#: ../Forms/Item/Form.php:81 ../Grids/Item/DataGridView.php:31
+#: ../Panels/Item/Panel.php:62 ../key_words_html.php:85
+#: ../key_words_html.php:130
+msgid "Quantity"
+msgstr "الكمية"
+
+#: ../Forms/Updatestate/Form.php:46
+msgid "Select from template"
+msgstr "اختر قالب"
+
+#: ../Forms/Updatestate/Form.php:61
+msgid "Email Content"
+msgstr "محتوي الرسالة "
+
+#: ../Forms/Updatestate/Form.php:70
+msgid "Content"
+msgstr "المحتوى"
+
+#: ../Forms/Updatestate/Form.php:74
+msgid "Notifications"
+msgstr "الإشعارات"
+
+#: ../Forms/Updatestate/Form.php:75
+msgid "Notify Customer"
+msgstr "اشعار العميل"
+
+#: ../Forms/Updatestate/Form.php:78
+msgid "Navigation"
+msgstr "التصفح"
+
+#: ../Frontend/Controllers/Cancel.php:66
+msgid "Your saleorder was successfully canceled"
+msgstr "تم الغاء طلب الشراء بنجاح"
+
+#: ../Frontend/Controllers/Cancel.php:68
+msgid "Please verify input"
+msgstr "يرجى التحقق من المدخلات"
+
+#: ../Grids/Comment/DataGridView.php:27 ../Panels/Comment/Panel.php:30
+#: ../key_words_html.php:62 ../key_words_html.php:65
+msgid "Author Name"
+msgstr "اسم الكاتب"
+
+#: ../Grids/Comment/DataGridView.php:33 ../Panels/Comment/Panel.php:31
+msgid "Insert Date"
+msgstr "تاريخ الإنشاء "
+
+#: ../Grids/Comment/DataGridView.php:34 ../Panels/Comment/Panel.php:32
+msgid "Account Seen"
+msgstr "شاهده صاحب الحساب"
+
+#: ../Grids/Comment/DataGridView.php:35 ../Panels/Comment/Panel.php:33
+msgid "Admin Seen"
+msgstr "شاهده المدير"
+
+#: ../Grids/Comment/DataGridView.php:36 ../Grids/DataGridView.php:48
+#: ../Grids/Document/DataGridView.php:54 ../Grids/Item/DataGridView.php:36
+#: ../Grids/State/DataGridView.php:31
+msgid "Edit"
+msgstr "تعديل"
+
+#: ../Grids/Comment/DataGridView.php:40 ../Grids/DataGridView.php:54
+#: ../Grids/Document/DataGridView.php:60 ../Grids/Item/DataGridView.php:42
+#: ../Grids/State/DataGridView.php:34
+msgid "Delete"
+msgstr "حذف"
+
+#: ../Grids/DataGridView.php:38 ../Panels/Panel.php:112
+msgid "Creator Name"
+msgstr "اسم المٌنشِئ"
+
+#: ../Grids/DataGridView.php:40 ../Panels/Panel.php:109
+msgid "Related To"
+msgstr "متصل ب"
+
+#: ../Grids/DataGridView.php:96
+msgid "User"
+msgstr "المستخدم"
+
+#: ../Grids/DataGridView.php:110 ../Panels/Panel.php:116
+msgid "Payment"
+msgstr "الدفع"
+
+#: ../Grids/Document/DataGridView.php:37
+msgid "Document Name"
+msgstr "اسم الوثيقة"
+
+#: ../Grids/Document/DataGridView.php:42
+msgid "Mail"
+msgstr "ارسل"
+
+#: ../Grids/Document/DataGridView.php:49
+msgid "Document Type"
+msgstr "نوع الوثيقة"
+
+#: ../Grids/Item/DataGridView.php:32 ../Panels/Panel.php:149
+#: ../Panels/Panel.php:150
+msgid "Description"
+msgstr "الوصف"
+
+#: ../Grids/Item/DataGridView.php:33 ../key_words_html.php:84
+#: ../key_words_html.php:129
+msgid "Unit Price"
+msgstr "سعر الوحدة"
+
+#: ../Models/Document/Model.php:214
+msgid "file cannote be uploaded"
+msgstr "لا يمكن رفع الملف"
+
+#: ../Models/Model.php:776
+#, php-format
+msgid "Online Order %s"
+msgstr "طلب شراء عبر الانترنت %s"
+
+#: ../Models/Model.php:918
+msgid "Your sales order was paid"
+msgstr "طلب الشراء الخاص بك تم دفعه"
+
+#: ../Models/Model.php:919
+msgid "Your Sales order was paid"
+msgstr "طلب الشراء الخاص بك تم دفعه"
+
+#: ../Models/Model.php:947
+msgid "Your sales order was canceled"
+msgstr "طلب الشراء الخاص بك تم الغاؤه"
+
+#: ../Models/Model.php:948
+msgid "Your Sales order was canceled"
+msgstr "طلب الشراء الخاص بك تم الغاؤه"
+
+#: ../Models/Model.php:960
+msgid "Your sales order was not paid"
+msgstr "طلب الشراء الخاص بك لم يتم دفعه"
+
+#: ../Models/Model.php:961
+msgid "Your Sales order was not paid"
+msgstr "طلب الشراء الخاص بك لم يتم دفعه"
+
+#: ../Models/Notification/Model.php:34 ../Models/Notification/Model.php:60
+#, fuzzy
+msgid "Comment On"
+msgstr "التعليق"
+
+#: ../Models/Notification/Model.php:34 ../Models/Notification/Model.php:60
+#, fuzzy
+msgid "Saleorder"
+msgstr "طلبات الشراء"
+
+#: ../Models/Notification/Model.php:34 ../Models/Notification/Model.php:60
+msgid "No"
+msgstr "لا"
+
+#: ../Panels/Comment/Panel.php:27
+msgid "Sales Order Comment Information"
+msgstr "معلومات التعليق الخاص بطلب الشراء"
+
+#: ../Panels/Comment/Panel.php:41
+msgid "Comment Messgae"
+msgstr "تفاصيل التعليق"
+
+#: ../Panels/Item/Panel.php:57
+msgid "Sales Order Item Information"
+msgstr "معلومات المنتج الخاص بطلب الشراء"
+
+#: ../Panels/Item/Panel.php:63
+msgid "Related Item"
+msgstr "المنتجات المتعلقة "
+
+#: ../Panels/Item/Panel.php:64
+msgid "Related Sales Order"
+msgstr "طلبات الشراء المتعلقة"
+
+#: ../Panels/Item/Panel.php:65
+msgid "Related project"
+msgstr "المشاريع المتعلقة"
+
+#: ../Panels/Panel.php:90 ../key_words_html.php:79 ../key_words_html.php:124
+msgid "Shipping Address"
+msgstr "عنوان الشحن"
+
+#: ../Panels/Panel.php:92 ../key_words_html.php:78 ../key_words_html.php:123
+msgid "Invoice Address"
+msgstr "عنوان الفاتورة"
+
+#: ../Panels/Panel.php:101
+msgid "Sales Order Information"
+msgstr "معلومات طلب الشراء"
+
+#: ../Panels/Panel.php:105
+msgid "Sales Order No"
+msgstr "رقم طلب الشراء"
+
+#: ../Panels/Panel.php:107
+msgid "Sales Order Discount Type"
+msgstr "نوع التخفيض على الطلب"
+
+#: ../Panels/Panel.php:111
+msgid "Account name"
+msgstr "اسم صاحب الحساب"
+
+#: ../Panels/Panel.php:118
+msgid "Modified Time"
+msgstr "تاريخ التعديل"
+
+#: ../Panels/Panel.php:121
+msgid "Change State"
+msgstr "تغيير الحالة"
+
+#: ../key_words_html.php:3 ../key_words_html.php:7 ../key_words_html.php:12
+#: ../key_words_html.php:18 ../key_words_html.php:21 ../key_words_html.php:29
+#: ../key_words_html.php:32 ../key_words_html.php:37 ../key_words_html.php:41
+#: ../key_words_html.php:45 ../key_words_html.php:49 ../key_words_html.php:53
+msgid "Information"
+msgstr "معلومات "
+
+#: ../key_words_html.php:4
+#, fuzzy
+msgid "List Sales Order comments"
+msgstr "قائمة تعليقات طلب الشراء"
+
+#: ../key_words_html.php:8
+msgid "Add a new Quotation"
+msgstr "اضافة عرض اسعار جديد"
+
+#: ../key_words_html.php:9
+msgid "List Quotations"
+msgstr "قائمة عروض الاسعار"
+
+#: ../key_words_html.php:13
+msgid "Add Item"
+msgstr "اضافة منتج"
+
+#: ../key_words_html.php:23 ../key_words_html.php:30 ../key_words_html.php:33
+#: ../key_words_html.php:38 ../key_words_html.php:42 ../key_words_html.php:46
+#: ../key_words_html.php:50 ../key_words_html.php:54
+msgid "Add new Sales Order"
+msgstr "اضافة طلب شراء جديد"
+
+#: ../key_words_html.php:25
+msgid "Convert To Invoice"
+msgstr "تحويل الى فاتورة"
+
+#: ../key_words_html.php:26 ../key_words_html.php:111
+#: ../key_words_html.php:114
+msgid "Cancel"
+msgstr "الغاء"
+
+#: ../key_words_html.php:27
+msgid "Ok"
+msgstr ""
+
+#: ../key_words_html.php:57
+msgid "Cancel Sales Order"
+msgstr "الغاء طلب الشراء"
+
+#: ../key_words_html.php:61
+msgid "Comment Details"
+msgstr "تفاصيل التعليق"
+
+#: ../key_words_html.php:63 ../key_words_html.php:66
+msgid "Posted on"
+msgstr "تاريخ الاضافة"
+
+#: ../key_words_html.php:68
+msgid "Add new Replay"
+msgstr "اضافة رد جديد"
+
+#: ../key_words_html.php:74 ../key_words_html.php:92
+msgid "Pay Now"
+msgstr "إدفع الآن "
+
+#: ../key_words_html.php:75 ../key_words_html.php:121
+msgid "Payment Method Name"
+msgstr "اسم طريقة الدفع"
+
+#: ../key_words_html.php:76 ../key_words_html.php:122
+msgid "Shipping Method Name"
+msgstr "اسم طريقة الشحن"
+
+#: ../key_words_html.php:77 ../key_words_html.php:110
+#: ../key_words_html.php:113
+msgid "Print"
+msgstr "طباعة"
+
+#: ../key_words_html.php:81 ../key_words_html.php:126
+msgid "Product Number"
+msgstr "رقم المنتج"
+
+#: ../key_words_html.php:82 ../key_words_html.php:127
+msgid "Product Name"
+msgstr "اسم المنتج"
+
+#: ../key_words_html.php:83 ../key_words_html.php:128
+msgid "Product Description"
+msgstr "وصف المنتج"
+
+#: ../key_words_html.php:91 ../key_words_html.php:136
+msgid "Total"
+msgstr "المجموع"
+
+#: ../key_words_html.php:93
+msgid "Confirm Payment"
+msgstr "تأكيد الدفع"
+
+#: ../key_words_html.php:96 ../key_words_html.php:97
+msgid "Download"
+msgstr "تحميل"
+
+#: ../key_words_html.php:98
+msgid "No document found"
+msgstr "لا توجد وثيقة "
+
+#: ../key_words_html.php:100
+#, fuzzy
+msgid "Date"
+msgstr "التاريخ"
+
+#: ../key_words_html.php:101
+msgid "No comment found"
+msgstr "لا توجد تعليقات"
+
+#: ../key_words_html.php:103
+msgid "Back to Sales Order"
+msgstr "الرجوع الى طلب الشراء"
+
+#: ../key_words_html.php:106
+msgid "Grand Total Amount"
+msgstr "المجموع النهائي"
+
+#: ../key_words_html.php:107
+msgid "DateTime"
+msgstr "التاريخ"
+
+#: ../key_words_html.php:115
+msgid "No Sales Order found"
+msgstr "لا توجد طلبات شراء"
+
+#: ../key_words_html.php:138
+msgid "We have received your confirm payment"
+msgstr "لقد تم إستلام  تأكيد الدفع"
+
+#: ../key_words_html.php:139
+#, fuzzy
+msgid "Back to Sales Order List"
+msgstr "الرجوع الى طلب الشراء"
+
+#~ msgid "Add new Sales Order State"
+#~ msgstr "اضافة حالة جديدة خاصة بطلب الشراء"
+
+#~ msgid "Map Sales Order States"
+#~ msgstr "حدد حالات طلب الشراء"
+
+#~ msgid "Created State"
+#~ msgstr "حالة تم الانشاء"
+
+#~ msgid "Send State"
+#~ msgstr "حالة تم الارسال"
+
+#~ msgid "Accepted State"
+#~ msgstr "حالة تم القبول"
+
+#~ msgid "Canceled State"
+#~ msgstr "حالة تم الالغاء"
+
+#~ msgid "Paid State"
+#~ msgstr "حالة تم الدفع"
+
+#~ msgid "Shipped State"
+#~ msgstr "حالة تم الشحن"
+
+#~ msgid "Closed State"
+#~ msgstr "حالة تم الانتهاء"
+
+#, fuzzy
+#~ msgid "Saleorder Email Notifications From"
+#~ msgstr "   الاشعارات البريدية الخاصة بطلبات الشراء من"
+
+#~ msgid "Template Noftification for admin when Created Sales Order"
+#~ msgstr "قالب إشعار المدير عند إنشاء طلب شراء"
+
+#~ msgid "Template Noftification for customer when Created Sales Order"
+#~ msgstr "قالب إشعار العميل  عند إنشاء طلب شراء"
+
+#~ msgid "Template Noftification for Canceled Sales Order"
+#~ msgstr "قالب الاشعار لطلبات الشراء التي تم الغاؤها"
+
+#~ msgid "Template Noftification for Paid Sales Order"
+#~ msgstr "قالب الاشعار لطلبات الشراء التي تم دفعها"
+
+#~ msgid "Template Noftification for Accepted Sales Order"
+#~ msgstr "قالب الاشعار لطلبات الشراء التي تم قبولها"
+
+#~ msgid "Template Noftification When Customer submit a comment"
+#~ msgstr "قالب اشعار المدير عند اضافة العميل لتعليق"
+
+#~ msgid "Template Noftification When Admin submit a comment"
+#~ msgstr "قالب اشعار العميل عند اضافة المدير لتعليق"
+
+#~ msgid "Print Template for Sales Order"
+#~ msgstr "قالب الطباعة الخاص بلطلبات الشراء"
+
+#~ msgid "Sales Order Policy"
+#~ msgstr "شروط  طلبات الشراء"
+
+#~ msgid "Default Policy"
+#~ msgstr " شروط طلبات الشراء الافتراضية"
+
+#~ msgid "Template"
+#~ msgstr "القالب"
+
+#~ msgid "Contact"
+#~ msgstr "جهة الإتصال"
+
+#~ msgid "Add new Request"
+#~ msgstr "اضافة طلب جديد"
+
+#~ msgid "List Requests"
+#~ msgstr "قائمة الطلبات"
+
+#~ msgid "Your Confirm Payment was submitted"
+#~ msgstr "تم إرسال  تأكيد  الدفع"
+
+#~ msgid "Review Sale Order"
+#~ msgstr "مراجعة طلبات الشراء "
+
+#, fuzzy
+#~ msgid "Choose Your Payment Method"
+#~ msgstr "اختيار طريقة الدفع"
+
+#, fuzzy
+#~ msgid "Create new Sales Order Discount Type"
+#~ msgstr "اضافة نوع تخفيض جديد"
+
+#, fuzzy
+#~ msgid "Sales Order Discount Type was successully added"
+#~ msgstr "تم اضافة نوع التخفيض بنجاح"
+
+#~ msgid "Edit Sale order discount type"
+#~ msgstr "التعديل على نوع التخفيض"
+
+#~ msgid "Max Mount"
+#~ msgstr "السعر الاقصى"
+
+#~ msgid "Module Name"
+#~ msgstr "اسم الموديول"
+
+#~ msgid "Online"
+#~ msgstr "تفعيل"
+
+#~ msgid "Charge"
+#~ msgstr "شحن"
+
+#~ msgid "Payment Information"
+#~ msgstr "معلومات طريقة الدفع"
+
+#~ msgid "Payment Description"
+#~ msgstr "وصف طريقة الدفع"
+
+#~ msgid "Add new Sale Order"
+#~ msgstr "اضافة طلب  شراء جديد"
+
+#~ msgid "Items List"
+#~ msgstr "قائمة المنتجات"
+
+#~ msgid "Sale Order Discount Type"
+#~ msgstr "نوع التخفيض"
+
+#~ msgid "Add new Discount Type"
+#~ msgstr "اضافة نوع تخفيض جديد"
+
+#~ msgid "State of In Accepted Sale Order"
+#~ msgstr "حالة الطلبية الموافق عليها"
+
+#~ msgid "State of Open Sales Order"
+#~ msgstr "حالة الطلبات المفتوحة"
+
+#~ msgid "Project was successully added"
+#~ msgstr "تم اضافة المشروع بنجاح"
+
+#~ msgid "Person"
+#~ msgstr "الشخص"
+
+#~ msgid "payment"
+#~ msgstr "الدفع"
+
+#~ msgid "Sales Order Description"
+#~ msgstr "وصف طلب الشراء"

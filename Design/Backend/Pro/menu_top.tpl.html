@@ -1,0 +1,16 @@
+<div id="vista_toolbar">
+    <ul>
+        <li><a href="admin.php"><span><img align="left" src="{$skin_path}/images/nav_home.gif" alt="add new" />{'Home'|tr}</span></a></li>
+        <li><a href="admin.php?module=setting&amp;page=general"><span><img align="left" src="{$skin_path}/images/install.png" alt="Settings" />{'Settings'|tr}</span></a></li>
+        <li><a href="index.php" target="_blank"><span><img align="left" src="{$skin_path}/images/vorschau.gif" alt="Preview" />{'Preview'|tr}</span></a></li>
+        <li><a href="admin.php?module=user&amp;page=user-logout"><span><img align="left" src="{$skin_path}/images/nav_logout.gif" alt="Logout" />{'Logout'|tr}</span></a></li>
+        <li class="right"><div style="float: left;"><label for="lang" style="margin-left: 5px;">{'Choose your Language'|tr}</label>
+                <select style="width: 100px" id="lang" name="lang" onchange="window.location.href='admin.php?lang='+this.value+'&redirect='+escape(window.location.href)">
+                    {foreach from=$available_lang item=ln key=name} 
+                    <option value="{$ln|lower}" {if $current_lang == $ln}selected="selected"{/if}>{$name}</option>
+                    {/foreach}
+                </select>
+            </div></li>
+        <li><a class="right" href="#"{if $help_page != "#"} onclick="PopUp('{$help_page}', 600, 600)"{/if}><span><img align="left" src="{$skin_path}/images/sos.gif" alt="help" />{'Help'|tr}</span></a></li>
+    </ul>
+</div>

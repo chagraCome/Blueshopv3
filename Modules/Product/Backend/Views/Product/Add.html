@@ -1,0 +1,31 @@
+<link rel="stylesheet" media="screen" type="text/css" href="Amhsoft/Ressources/Javascripts/ColorLabel/colorpicker.css" />
+<script type="text/javascript" src="Amhsoft/Ressources/Javascripts/ColorLabel/colorpicker.js"></script>
+<fieldset>
+    <legend>{'Information'|tr}</legend>
+    <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+    <legend>
+        <span class="add"><a href="admin.php?module=product&page=product-prepare">{'Add new Product'|tr}</a></span> | 
+        <span class="list"><a href="admin.php?module=product&page=product-list">{'List Products'|tr}</a></span> 
+    </legend>
+    <ul id='tab'>
+        <li><a class='current' href='#'>{'General information'|tr}</a></li>
+        {if $product->isGrouped()}
+        <li><a href='#'>{'Grouped Products'|tr}</a></li>
+        {/if}
+        <li><a href='#' >{'Prices'|tr}</a></li>
+        <li><a  href='#' >{'Images & Documents'|tr}</a></li>
+        {if !$product->isService()}
+        <li><a  href='#'>{'Shipping Options'|tr}</a></li>
+        {/if}
+        <li><a href='#'>{'Marketing'|tr}</a></li>
+
+        {if !$product->isGrouped() && $product->entity_set_id}
+        <li><a href='#'>{'Configuration'|tr}</a></li>
+        {/if}
+    </ul>
+    <div class="panel">
+        {$form->Render()}
+    </div>
+</fieldset>

@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Paytabs\n"
+"POT-Creation-Date: 2015-02-05 14:17+0100\n"
+"PO-Revision-Date: 2015-02-05 14:18+0100\n"
+"Last-Translator: \n"
+"Language-Team: AMHSOFT\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-KeywordsList: _t;|tr;gettext\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../Backend/Boot.php:23 ../Backend/Controllers/Settings.php:27
+msgid "Manage Paytabs Settings"
+msgstr "ادارة اعدادت الباي تابس"
+
+#: ../Backend/Controllers/Settings.php:26
+msgid "Paytabs Settings"
+msgstr "اعدادات باي تابس"
+
+#: ../Backend/Controllers/Settings.php:43
+msgid "Merchant ID"
+msgstr "حساب التاجر"
+
+#: ../Backend/Controllers/Settings.php:49
+msgid "Merchant Password"
+msgstr "كلمة مرور حساب التاجر"
+
+#: ../Backend/Controllers/Settings.php:54
+msgid "Currency"
+msgstr "العملة"
+
+#: ../Backend/Controllers/Settings.php:61
+msgid "Language"
+msgstr "اللغة"
+
+#: ../Backend/Controllers/Settings.php:64
+msgid "Arabic"
+msgstr "العربية"
+
+#: ../Backend/Controllers/Settings.php:65
+msgid "English"
+msgstr "الانجليزية"
+
+#: ../Backend/Controllers/Settings.php:71
+msgid "Save"
+msgstr "حفظ"
+
+#: ../Backend/Controllers/Settings.php:85
+msgid "Data was successfully saved"
+msgstr "تم حفظ الاعدادات بنجاح"
+
+#: ../Backend/Controllers/Settings.php:87
+msgid "Please check inputs."
+msgstr "الرجاء التحقق من المدخلات"
+
+#: ../Frontend/Controllers/Confirm.php:80
+msgid "Sales order was Paid"
+msgstr "عملية الدفع تمت بنجاح"
+
+#: ../Frontend/Controllers/Confirm.php:84
+#: ../Frontend/Controllers/Confirm.php:90
+msgid "Sales order was not paid"
+msgstr "عملية الدفع لم تتم"
+
+#: ../Frontend/Controllers/Confirm.php:87
+#: ../Frontend/Controllers/Confirm.php:93
+msgid "Your Sales Order was not paid"
+msgstr "عملية الدفع لم تتم"
+
+#: ../key_words_html.php:3
+msgid "Information"
+msgstr "معلومات"
+
+#: ../key_words_html.php:4
+msgid "List Payment Methods"
+msgstr "قائمة وسائل الدفع"
+
+#: ../key_words_html.php:5
+msgid "Add new Payment Methods"
+msgstr "اضافة وسيلة دفع جديدة"

@@ -1,0 +1,13 @@
+<fieldset>
+    <legend>{'Information'|tr}</legend>
+    <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+    <legend>
+        <span class="edit"><a href="admin.php?module=payment&page=payment-modify&id={$smarty.get.id}">{'Edit Payment Method Image'|tr}</a></span> | 
+        <span class="list"><a href="admin.php?module=payment&page=payment-list">{'List Payment Method Image'|tr}</a></span> 
+    </legend>
+    <div class="panel">
+        {$panel->Render()}
+    </div>
+</fieldset>

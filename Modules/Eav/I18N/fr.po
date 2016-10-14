@@ -1,0 +1,1240 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Eav\n"
+"POT-Creation-Date: 2014-03-25 16:48+0100\n"
+"PO-Revision-Date: 2014-04-16 18:08+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../key_words_html.php:3 ../key_words_html.php:4 ../key_words_html.php:5
+#: ../key_words_html.php:6 ../key_words_html.php:7 ../key_words_html.php:8
+#: ../key_words_html.php:9 ../key_words_html.php:10
+#: ../Frontend/key_words_html.php:5 ../Frontend/key_words_html.php:6
+#: ../Frontend/key_words_html.php:7 ../Frontend/key_words_html.php:8
+#: ../Frontend/key_words_html.php:9 ../Frontend/key_words_html.php:10
+#: ../Frontend/key_words_html.php:11 ../Frontend/key_words_html.php:12
+msgid "Add to Cart"
+msgstr "Ajouter au panier"
+
+#: ../key_words_html.php:12 ../key_words_html.php:16
+#: ../Frontend/key_words_html.php:2 ../Frontend/key_words_html.php:13
+msgid "Summe"
+msgstr "Total"
+
+#: ../key_words_html.php:13 ../key_words_html.php:17
+#: ../Frontend/key_words_html.php:3 ../Frontend/key_words_html.php:14
+msgid "Continue"
+msgstr "continuer"
+
+#: ../key_words_html.php:14 ../key_words_html.php:18
+#: ../Frontend/key_words_html.php:4 ../Frontend/key_words_html.php:15
+msgid "Buy Now"
+msgstr "Acheter maintenant"
+
+#: ../key_words_html.php:21
+msgid "Car number"
+msgstr "Numero de voiture"
+
+#: ../key_words_html.php:22
+msgid "Category"
+msgstr "Categorie"
+
+#: ../key_words_html.php:23
+msgid "Price"
+msgstr "Prix"
+
+#: ../key_words_html.php:24
+msgid "Sold"
+msgstr "vendu"
+
+#: ../key_words_html.php:25
+msgid "Print"
+msgstr "Imprimer"
+
+#: ../key_words_html.php:26
+msgid "Send to friend"
+msgstr "Envoyer à un ami"
+
+#: ../key_words_html.php:27
+msgid "Delete bookmark"
+msgstr "supprimer le favori"
+
+#: ../key_words_html.php:28
+msgid "Add bookmark"
+msgstr "Ajouter aux favoris"
+
+#: ../key_words_html.php:29
+msgid "Add to Facebook"
+msgstr "Partager sur Facebook"
+
+#: ../key_words_html.php:30
+msgid "Add to Twitter"
+msgstr "Partager sur Twitter"
+
+#: ../key_words_html.php:31
+msgid "car thumb"
+msgstr "Image du voiture"
+
+#: ../key_words_html.php:32
+msgid "Owner Informations"
+msgstr "Informations de propriétaire"
+
+#: ../key_words_html.php:33 ../Forms/Attribute/Form.php:63
+#: ../Forms/Set/Form.php:40 ../Grids/Attribute/DataGridView.php:43
+#: ../Grids/Set/DataGridView.php:43 ../Panels/Set/Panel.php:40
+msgid "Name"
+msgstr "Nom"
+
+#: ../key_words_html.php:34
+msgid "Mobile"
+msgstr "Mobile"
+
+#: ../key_words_html.php:35
+msgid "Telephone"
+msgstr "téléphone"
+
+#: ../key_words_html.php:36
+msgid "Email"
+msgstr "Email"
+
+#: ../key_words_html.php:37
+msgid "Product Information"
+msgstr "Informations sur le produit"
+
+#: ../key_words_html.php:38
+msgid "Related Products"
+msgstr "produits liés"
+
+#: ../key_words_html.php:41
+msgid "Products per page"
+msgstr "Produit ar page"
+
+#: ../key_words_html.php:42
+msgid "Sort by"
+msgstr "Trié par"
+
+#: ../key_words_html.php:43
+msgid "Price Ascending"
+msgstr "Prix ​​Ascendant"
+
+#: ../key_words_html.php:44
+msgid "Price Descending"
+msgstr "Prix ​​décroissant"
+
+#: ../key_words_html.php:45
+msgid "Result"
+msgstr "Résultat"
+
+#: ../key_words_html.php:46
+msgid "from"
+msgstr "de la part de"
+
+#: ../key_words_html.php:47
+msgid "No Products available"
+msgstr "Pas de produits disponibles"
+
+#: ../key_words_html.php:50 ../key_words_html.php:58 ../key_words_html.php:69
+#: ../key_words_html.php:76 ../key_words_html.php:92 ../key_words_html.php:96
+#: ../key_words_html.php:99 ../key_words_html.php:103
+#: ../key_words_html.php:107
+msgid "Information"
+msgstr "Informations"
+
+#: ../key_words_html.php:51
+msgid "Add new Product attributes"
+msgstr "Ajouter des nouveaux attributs du produit"
+
+#: ../key_words_html.php:52
+msgid "List Product attributes"
+msgstr "Liste  attributs du produit"
+
+#: ../key_words_html.php:53
+msgid "Attribute Value"
+msgstr "Valeur de l'Attribut"
+
+#: ../key_words_html.php:54 ../key_words_html.php:55 ../key_words_html.php:62
+#: ../key_words_html.php:66 ../Grids/Attribute/DataGridView.php:49
+#: ../Grids/Set/DataGridView.php:48
+msgid "Delete"
+msgstr "Effacer"
+
+#: ../key_words_html.php:56 ../Forms/Attribute/Form.php:85
+#: ../Forms/Set/Form.php:44
+msgid "Save"
+msgstr "Sauver"
+
+#: ../key_words_html.php:59 ../key_words_html.php:108
+msgid "Add new Entity Set"
+msgstr "Ajouter une nouvelle Ensemble entité "
+
+#: ../key_words_html.php:60 ../key_words_html.php:94
+msgid "List Entity Set"
+msgstr "Liste Ensemble entité "
+
+#: ../key_words_html.php:61
+msgid "View Name"
+msgstr "Nom de la vue"
+
+#: ../key_words_html.php:63
+msgid "General Informations"
+msgstr "Informations générales"
+
+#: ../key_words_html.php:64
+msgid "Prices"
+msgstr "Prix"
+
+#: ../key_words_html.php:65
+msgid "Description"
+msgstr "Description"
+
+#: ../key_words_html.php:67
+msgid "Save Views"
+msgstr "Enregistrer Vues"
+
+#: ../key_words_html.php:70 ../key_words_html.php:71
+#: ../Grids/Set/DataGridView.php:53
+msgid "Manage Attributes"
+msgstr "Gérer les attributs"
+
+#: ../key_words_html.php:72
+msgid "Unsed Attributes"
+msgstr "Attributs inutilisés"
+
+#: ../key_words_html.php:73
+msgid "Attributes"
+msgstr "Attributs"
+
+#: ../key_words_html.php:74
+msgid "General Attributes"
+msgstr "Attributs généraux"
+
+#: ../key_words_html.php:77
+msgid "Design Settings"
+msgstr "Paramètres de design"
+
+#: ../key_words_html.php:78
+msgid "Boxes and Banners"
+msgstr "Boîtes et bannières"
+
+#: ../key_words_html.php:79
+msgid "Unsed Elements"
+msgstr "éléments inutilisés"
+
+#: ../key_words_html.php:80
+msgid "Header"
+msgstr " tête du page"
+
+#: ../key_words_html.php:81 ../key_words_html.php:82 ../key_words_html.php:86
+#: ../key_words_html.php:87 ../key_words_html.php:88 ../key_words_html.php:90
+msgid "edit"
+msgstr "Modifier"
+
+#: ../key_words_html.php:83
+msgid "Left"
+msgstr "gauche"
+
+#: ../key_words_html.php:84
+msgid "Center"
+msgstr "Centre"
+
+#: ../key_words_html.php:85
+msgid "Right"
+msgstr "Droite"
+
+#: ../key_words_html.php:89
+msgid "Footer"
+msgstr " bas de page"
+
+#: ../key_words_html.php:93
+msgid "Add new Entity Attribute Set"
+msgstr "Ajouter un nouvel attribut de l'entité"
+
+#: ../key_words_html.php:97 ../key_words_html.php:105
+msgid "List Entity Sets"
+msgstr " Liste Ensembles d' Entités"
+
+#: ../key_words_html.php:100
+msgid "Add new Entity Attribute"
+msgstr "Ajouter un nouvel attribut Entité"
+
+#: ../key_words_html.php:101 ../key_words_html.php:109
+msgid "List Entity Attributes"
+msgstr " Liste Attributs des Entités"
+
+#: ../key_words_html.php:104
+msgid "Add new Entity Attributes"
+msgstr "Ajouter un nouvel attribut Entité"
+
+#: ../key_words_html.php:110
+msgid "Entity Attribute Value Management"
+msgstr "Gérer les Attribut d'entité"
+
+#: ../Backend/Boot.php:52
+msgid "Eav Module"
+msgstr "Module Eav"
+
+#: ../Backend/Boot.php:53
+msgid "Add Attribute"
+msgstr "Ajouter un attribut"
+
+#: ../Backend/Boot.php:54
+msgid "Delete Attribute"
+msgstr "Effacer attribut"
+
+#: ../Backend/Boot.php:55
+msgid "List Attribute"
+msgstr "Liste des attributs"
+
+#: ../Backend/Boot.php:56
+msgid "Modify Attribute"
+msgstr "Modifier Attribute"
+
+#: ../Backend/Boot.php:57
+msgid "Add Attribute Set"
+msgstr "Ajouter Ensemble des Attribute"
+
+#: ../Backend/Boot.php:58
+msgid "Delete Attribute Set"
+msgstr "Effacer Ensemble des attribute"
+
+#: ../Backend/Boot.php:59
+msgid "Details Attribute Set"
+msgstr "Detaile des ensembles des attributes"
+
+#: ../Backend/Boot.php:60
+msgid "List Attribute Set"
+msgstr "Liste ensemble d'attributs"
+
+#: ../Backend/Boot.php:61
+msgid "Modify Attribute Set"
+msgstr "Modifier Ensembles des attributes"
+
+#: ../Backend/Boot.php:62
+msgid "Delete Attribute Source"
+msgstr "Effacer Ensemble des attribues"
+
+#: ../Backend/Boot.php:63
+msgid "Modify Attribute Source"
+msgstr "Modifier Ensembles des attributes"
+
+#: ../Backend/Controllers/Attributes/Add.php:33
+msgid "Create new Entity Attribute"
+msgstr "Créer un nouveau attribut Entité"
+
+#: ../Backend/Controllers/Attributes/Add.php:50
+#: ../Backend/Controllers/Attributes/Modify.php:62
+#: ../Backend/Controllers/Attributeset/Add.php:56
+#: ../Backend/Controllers/Attributeset/Modify.php:92
+msgid "Please check inputs."
+msgstr "S'il vous plaît vérifier les entrées."
+
+#: ../Backend/Controllers/Attributes/Add.php:60
+msgid "Entity Attribute was successully added"
+msgstr "Attribut d'entité a été ajouté avec succès"
+
+#: ../Backend/Controllers/Attributes/List.php:38
+msgid "List products attributes"
+msgstr "Liste attributes des produits"
+
+#: ../Backend/Controllers/Attributes/Modify.php:33
+msgid "Edit Product Attribute"
+msgstr "Modifier Attributes des produit"
+
+#: ../Backend/Controllers/Attributeset/Add.php:40
+msgid "Create new Product Set"
+msgstr "Créer une nouvelle gamme de produits"
+
+#: ../Backend/Controllers/Attributeset/Detail.php:38
+msgid "Product Set Details"
+msgstr "Detaile ensemble de produit"
+
+#: ../Backend/Controllers/Attributeset/List.php:42
+msgid "List Products Sets"
+msgstr "Liste des ensembles des produits"
+
+#: ../Backend/Controllers/Attributeset/Modify.php:39
+msgid "Edit Entity Set"
+msgstr "Modifier ensemble entité"
+
+#: ../Backend/Controllers/Attributesource/Modify.php:33
+msgid "Manage Attribute Values"
+msgstr "Gérer Valeur des attribute"
+
+#: ../Forms/Attribute/Form.php:68 ../Grids/Attribute/DataGridView.php:42
+msgid "Label"
+msgstr "étiquette"
+
+#: ../Forms/Attribute/Form.php:72
+msgid "Error Message"
+msgstr "Message d'erreur"
+
+#: ../Forms/Attribute/Form.php:75
+msgid "Default Value"
+msgstr "Valeur par défaut"
+
+#: ../Forms/Attribute/Form.php:78
+msgid "Validator"
+msgstr "Validateur"
+
+#: ../Forms/Attribute/Form.php:80 ../Grids/Attribute/DataGridView.php:44
+msgid "Required"
+msgstr "requis"
+
+#: ../Forms/Attribute/Form.php:81
+msgid "Searchable"
+msgstr "Recherchable"
+
+#: ../Forms/Attribute/Form.php:82
+msgid "Entity Attribute type BackEnd"
+msgstr "Type entité Attribut du BackEnd"
+
+#: ../Forms/Set/Form.php:46
+msgid "Entity Set Name"
+msgstr "Nom d'Ensemble d'entité"
+
+#: ../Forms/Set/Form.php:49
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../Grids/Attribute/DataGridView.php:45 ../Grids/Set/DataGridView.php:44
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../Grids/Attribute/DataGridView.php:54
+msgid "Manage Options"
+msgstr "Gérer les option"
+
+#: ../Panels/Set/Panel.php:38
+msgid "Product Set Information"
+msgstr "information d'ensemble des produits"
+
+#~ msgid "ListBox"
+#~ msgstr "قائمة منسدلة "
+
+#~ msgid "Modify Account"
+#~ msgstr "تعديل حسابي"
+
+#~ msgid "Change Password"
+#~ msgstr "تغيير كلمة المرور"
+
+#~ msgid "Edit Contact"
+#~ msgstr "تعديل جهة اتصال"
+
+#~ msgid "Contact Us"
+#~ msgstr "اتصل بنا"
+
+#~ msgid "Contact Form submited"
+#~ msgstr "تم اعتماد طلبكم"
+
+#~ msgid "Back to home"
+#~ msgstr "الرجوع الى الرئيسية"
+
+#~ msgid "Welcome to Motorssouq"
+#~ msgstr "مرحبا بكم في موتورز سوق"
+
+#~ msgid "Quick links"
+#~ msgstr "روابط سريعة"
+
+#~ msgid "To reset your password click here"
+#~ msgstr "لطلب كلمة مرور جديدة يرجى الضغط هنا"
+
+#~ msgid "Login to your Panel"
+#~ msgstr "الدخول على لوحة التحكم"
+
+#~ msgid "Reset Password"
+#~ msgstr "طلب كلمة مرور جديدة"
+
+#~ msgid "Please enter your email"
+#~ msgstr "الرجاء ادخال البريد الالكتروني"
+
+#, fuzzy
+#~ msgid "Send"
+#~ msgstr " ارسال"
+
+#~ msgid "Reset Password Success"
+#~ msgstr "طلب كلمة مرور جديدة"
+
+#~ msgid "Customer Control Panel"
+#~ msgstr "لوحة تحكم العملاء"
+
+#~ msgid "My Data"
+#~ msgstr "معلوماتي"
+
+#~ msgid "My Cars"
+#~ msgstr "سيارتي"
+
+#~ msgid "Insert Car"
+#~ msgstr "اضافة سيارة"
+
+#~ msgid "My Bikes"
+#~ msgstr "دراجاتي"
+
+#~ msgid "Insert Bike"
+#~ msgstr "اضافة دراجة"
+
+#~ msgid "Add Vehicle Child"
+#~ msgstr "اضافة رقم سيارة"
+
+#~ msgid "List Vehicle Child"
+#~ msgstr "قائمة ارقام السيارات"
+
+#~ msgid "Request Car"
+#~ msgstr "طلب سيارة"
+
+#~ msgid "Logout"
+#~ msgstr "تسجيل الخروج"
+
+#~ msgid "Account Area"
+#~ msgstr "حسابي"
+
+#~ msgid "Change Password Success"
+#~ msgstr "تم تعديل كلمة المرور بنجاح"
+
+#~ msgid "Register new User"
+#~ msgstr "اضافة مستخدم جديد"
+
+#~ msgid "Dear visitor please verify inputs"
+#~ msgstr "الرجاء التاكد من المدخلات"
+
+#, fuzzy
+#~ msgid "List Accounts"
+#~ msgstr "تعديل الحساب"
+
+#~ msgid "Edit Account"
+#~ msgstr "تعديل الحساب"
+
+#, fuzzy
+#~ msgid "Add new Account"
+#~ msgstr "اضافة اتصال"
+
+#, fuzzy
+#~ msgid "List Groups"
+#~ msgstr "تعديل حسابي"
+
+#, fuzzy
+#~ msgid "Edit Account Group"
+#~ msgstr "تعديل الحساب"
+
+#, fuzzy
+#~ msgid "Add new Group"
+#~ msgstr "اضافة اتصال"
+
+#, fuzzy
+#~ msgid "List contacts"
+#~ msgstr "قائمة الاتصال"
+
+#, fuzzy
+#~ msgid "Edit contact"
+#~ msgstr "التعديل"
+
+#, fuzzy
+#~ msgid "Add new contact"
+#~ msgstr "اضافة اتصال"
+
+#, fuzzy
+#~ msgid "go to account"
+#~ msgstr "تعديل الحساب"
+
+#, fuzzy
+#~ msgid "Convert to account"
+#~ msgstr "اضافة حساب جديد"
+
+#, fuzzy
+#~ msgid "List contact Groups"
+#~ msgstr "قائمة الاتصال"
+
+#, fuzzy
+#~ msgid "List Leads"
+#~ msgstr "قائمة الاتصال"
+
+#, fuzzy
+#~ msgid "Add new Lead"
+#~ msgstr "اضافة اتصال"
+
+#, fuzzy
+#~ msgid "List Lead Groups"
+#~ msgstr "تعديل الحساب"
+
+#, fuzzy
+#~ msgid "Add new Lead Group"
+#~ msgstr "اضافة اتصال"
+
+#, fuzzy
+#~ msgid "Mail Server Settings"
+#~ msgstr "اعدادات"
+
+#, fuzzy
+#~ msgid "My Account"
+#~ msgstr "تعديل حسابي"
+
+#, fuzzy
+#~ msgid "Account Information"
+#~ msgstr "حفظ معلومات الاتصال"
+
+#~ msgid "Settings"
+#~ msgstr "الاعدادات"
+
+#, fuzzy
+#~ msgid "Contact Shop Owner"
+#~ msgstr "صفحة الاتصال"
+
+#, fuzzy
+#~ msgid "Add Plate"
+#~ msgstr "اضافة مشروع"
+
+#, fuzzy
+#~ msgid "List Plates"
+#~ msgstr "قائمة الاتصال"
+
+#, fuzzy
+#~ msgid "Account Activation"
+#~ msgstr "حسابي"
+
+#, fuzzy
+#~ msgid "My Control Panel"
+#~ msgstr "لوحة تحكم العملاء"
+
+#~ msgid "Profile"
+#~ msgstr "حساب"
+
+#, fuzzy
+#~ msgid "Contact Shop owner"
+#~ msgstr "صفحة الاتصال"
+
+#, fuzzy
+#~ msgid "Date"
+#~ msgstr "تارريخ الارسال"
+
+#~ msgid "State"
+#~ msgstr "الحالة"
+
+#, fuzzy
+#~ msgid "Details"
+#~ msgstr "التفاصيل"
+
+#, fuzzy
+#~ msgid "Invoice Number"
+#~ msgstr "رقم الفاتورة "
+
+#, fuzzy
+#~ msgid "Register Account"
+#~ msgstr "اضافة حساب جديد"
+
+#, fuzzy
+#~ msgid "Enter your email address"
+#~ msgstr "الرجاء ادخال البريد الالكتروني"
+
+#, fuzzy
+#~ msgid "Open a new account"
+#~ msgstr "فتح حساب جديد"
+
+#, fuzzy
+#~ msgid "Contact request was saved"
+#~ msgstr "تفاصيل الاتصال"
+
+#~ msgid "CRM"
+#~ msgstr "إدارة علاقات العملاء"
+
+#, fuzzy
+#~ msgid "Manage Account Groups"
+#~ msgstr "ادارة الحسابات"
+
+#~ msgid "Manage Contacts"
+#~ msgstr "ادارة الاتصال"
+
+#, fuzzy
+#~ msgid "Manage Contacts Group"
+#~ msgstr "ادارة الاتصال"
+
+#, fuzzy
+#~ msgid "Manage Leads Group"
+#~ msgstr "ادارة المجموعات"
+
+#, fuzzy
+#~ msgid "Set Crm Settings"
+#~ msgstr "اعدادات"
+
+#, fuzzy
+#~ msgid "List all Accounts"
+#~ msgstr "تعديل الحساب"
+
+#, fuzzy
+#~ msgid "Show Account Information"
+#~ msgstr "حفظ معلومات الاتصال"
+
+#, fuzzy
+#~ msgid "Delete Accoount"
+#~ msgstr "اضافة حساب جديد"
+
+#, fuzzy
+#~ msgid "List all Contacts"
+#~ msgstr "قائمة الاتصال"
+
+#, fuzzy
+#~ msgid "Show Contacts Quicklist"
+#~ msgstr "اتصل بنا"
+
+#, fuzzy
+#~ msgid "Show Contact Information"
+#~ msgstr "حفظ معلومات الاتصال"
+
+#, fuzzy
+#~ msgid "Modify Contact"
+#~ msgstr "التعديل"
+
+#, fuzzy
+#~ msgid "Show Lead Information"
+#~ msgstr "معلومات عامة"
+
+#, fuzzy
+#~ msgid "Delete Lead"
+#~ msgstr "حذف"
+
+#, fuzzy
+#~ msgid "Modify Group"
+#~ msgstr "تعديل حسابي"
+
+#, fuzzy
+#~ msgid "Delete Group"
+#~ msgstr "حذف"
+
+#, fuzzy
+#~ msgid "Add new Message"
+#~ msgstr "رسالة"
+
+#, fuzzy
+#~ msgid "Modify Message"
+#~ msgstr "رسالة"
+
+#, fuzzy
+#~ msgid "Delete Message"
+#~ msgstr "رسالة"
+
+#~ msgid "CRM Settings"
+#~ msgstr "اعدادات"
+
+#, fuzzy
+#~ msgid "Send Sms On Password Changed"
+#~ msgstr "تم تغيير كلمة المرور بنجاح"
+
+#, fuzzy
+#~ msgid "Registration Notification"
+#~ msgstr "معلومات التسجيل"
+
+#, fuzzy
+#~ msgid "Forgot Password Notification"
+#~ msgstr "نسيت كلمة المرور"
+
+#, fuzzy
+#~ msgid "Password Changed Notification"
+#~ msgstr "كلمة المرور غير متطابقة"
+
+#, fuzzy
+#~ msgid "Add Account"
+#~ msgstr "اضافة اتصال"
+
+#~ msgid "Account Details"
+#~ msgstr "معلومات الحساب"
+
+#, fuzzy
+#~ msgid "Add New Task"
+#~ msgstr "اضافة مهمة"
+
+#, fuzzy
+#~ msgid "Related Emails"
+#~ msgstr "اضافة بريد الكتروني"
+
+#, fuzzy
+#~ msgid "Add New Email"
+#~ msgstr "اضافة بريد الكتروني"
+
+#, fuzzy
+#~ msgid "Account was successufully assigned to this account"
+#~ msgstr "تم اضافة حسابكم بنجاح"
+
+#, fuzzy
+#~ msgid "Add New Contact"
+#~ msgstr "اضافة اتصال"
+
+#, fuzzy
+#~ msgid "Address Book"
+#~ msgstr "العنوان"
+
+#~ msgid "Street"
+#~ msgstr "الشارع"
+
+#~ msgid "City"
+#~ msgstr "المدينة"
+
+#~ msgid "Country"
+#~ msgstr "المنطقة"
+
+#, fuzzy
+#~ msgid "Add New Address"
+#~ msgstr "رسالة"
+
+#, fuzzy
+#~ msgid "Add Address"
+#~ msgstr "اضافة عنوان"
+
+#, fuzzy
+#~ msgid "Please check your inputs"
+#~ msgstr "الرجاء التثبت من المدخلات"
+
+#, fuzzy
+#~ msgid "Create new Leads Group"
+#~ msgstr "اضافة"
+
+#, fuzzy
+#~ msgid "lead group was successully added"
+#~ msgstr "تم الاضافة بنجاح"
+
+#~ msgid "Manage Groups"
+#~ msgstr "ادارة المجموعات"
+
+#, fuzzy
+#~ msgid "user Group Details"
+#~ msgstr "معلومات الحساب"
+
+#, fuzzy
+#~ msgid "Users"
+#~ msgstr "مستخدم"
+
+#, fuzzy
+#~ msgid "Add new User"
+#~ msgstr "اضافة اتصال"
+
+#, fuzzy
+#~ msgid "Accounts"
+#~ msgstr "حسابي"
+
+#, fuzzy
+#~ msgid "Action successfuly executed"
+#~ msgstr "تم اضافة حسابكم بنجاح"
+
+#, fuzzy
+#~ msgid "List Account Groups"
+#~ msgstr "تعديل الحساب"
+
+#, fuzzy
+#~ msgid "Edit Group"
+#~ msgstr "تعديل حسابي"
+
+#, fuzzy
+#~ msgid "Create new Inbox"
+#~ msgstr "اضافة"
+
+#, fuzzy
+#~ msgid "Inbox was successully added"
+#~ msgstr "تم الاضافة بنجاح"
+
+#, fuzzy
+#~ msgid "Lead was successully added"
+#~ msgstr "تم الاضافة بنجاح"
+
+#, fuzzy
+#~ msgid "Add contact"
+#~ msgstr "اضافة اتصال"
+
+#, fuzzy
+#~ msgid "contact Details"
+#~ msgstr "تفاصيل الاتصال"
+
+#, fuzzy
+#~ msgid "Manage contacts"
+#~ msgstr "ادارة الاتصال"
+
+#~ msgid "Phone"
+#~ msgstr "الهاتف"
+
+#, fuzzy
+#~ msgid "Edit contact group"
+#~ msgstr "التعديل"
+
+#, fuzzy
+#~ msgid "Account Group"
+#~ msgstr "حسابي"
+
+#~ msgid "Fullname"
+#~ msgstr "الاسم الكامل"
+
+#~ msgid "Password"
+#~ msgstr "كلمة المرور"
+
+#~ msgid "Telefon"
+#~ msgstr "الهاتف"
+
+#~ msgid "E-mail"
+#~ msgstr "الريد الالكتروني"
+
+#~ msgid "E-mail2"
+#~ msgstr "البريد الالكتروني 2"
+
+#~ msgid "Country "
+#~ msgstr "المنطقة"
+
+#~ msgid "Province"
+#~ msgstr "المحافظة"
+
+#~ msgid "ZipCode"
+#~ msgstr "الترقيم البريدي"
+
+#, fuzzy
+#~ msgid "Send Password"
+#~ msgstr "كلمة المرور القديمة"
+
+#, fuzzy
+#~ msgid "Can Login"
+#~ msgstr "تسجيل الدخول"
+
+#, fuzzy
+#~ msgid "Address Informations"
+#~ msgstr "معلومات الشخص"
+
+#~ msgid "Email Adress"
+#~ msgstr "البريد الالكتروني"
+
+#~ msgid "Security Code"
+#~ msgstr "رمز الحماية"
+
+#~ msgid "Contact Name"
+#~ msgstr "اسم الاتصال"
+
+#~ msgid "Re-Password"
+#~ msgstr "اعادة كتابة كلمة المرور"
+
+#~ msgid "Register Now!"
+#~ msgstr "سجل الان"
+
+#~ msgid "Registration Informations"
+#~ msgstr "معلومات التسجيل"
+
+#~ msgid "Why Registration"
+#~ msgstr "لماذا التسجيل"
+
+#~ msgid "Advertise"
+#~ msgstr "اعلن"
+
+#~ msgid "Passwords are not identicals"
+#~ msgstr "كلمة المرور غير متطابقة"
+
+#, fuzzy
+#~ msgid "Forgot Password?"
+#~ msgstr "نسيت كلمة المرور"
+
+#~ msgid "Login"
+#~ msgstr "تسجيل الدخول"
+
+#~ msgid "Save Contact Informations!"
+#~ msgstr "حفظ معلومات الاتصال"
+
+#, fuzzy
+#~ msgid "Person Name"
+#~ msgstr "سخص"
+
+#, fuzzy
+#~ msgid "Zip Code/PBOX"
+#~ msgstr "الترقيم البريدي"
+
+#, fuzzy
+#~ msgid "Payment Date Time"
+#~ msgstr "تاريخ الاضافة"
+
+#, fuzzy
+#~ msgid "Save!"
+#~ msgstr "حفظ"
+
+#~ msgid "Company"
+#~ msgstr "الشركة"
+
+#, fuzzy
+#~ msgid "Account"
+#~ msgstr "حسابي"
+
+#~ msgid "Assigned To Group"
+#~ msgstr "توجيه الى مجموعة"
+
+#~ msgid "Notice"
+#~ msgstr "اعلام"
+
+#~ msgid "Message"
+#~ msgstr "رسالة"
+
+#~ msgid "Submit"
+#~ msgstr "حفظ"
+
+#~ msgid "Contact Form"
+#~ msgstr "صفحة الاتصال"
+
+#, fuzzy
+#~ msgid "Your Personal Details"
+#~ msgstr "معلومات الحساب"
+
+#, fuzzy
+#~ msgid "Your Password"
+#~ msgstr "نسيت كلمة المرور"
+
+#, fuzzy
+#~ msgid "Register Now"
+#~ msgstr "سجل الان"
+
+#~ msgid "Subject"
+#~ msgstr "الموضوع"
+
+#~ msgid "To"
+#~ msgstr "الى"
+
+#~ msgid "Message Content"
+#~ msgstr "محتوى الرسالة"
+
+#, fuzzy
+#~ msgid "Company Name"
+#~ msgstr "الشركة"
+
+#, fuzzy
+#~ msgid "Best Call Time"
+#~ msgstr "تاريخ الاضافة"
+
+#, fuzzy
+#~ msgid "Company Url"
+#~ msgstr "الشركة"
+
+#, fuzzy
+#~ msgid "Person Informations"
+#~ msgstr "معلومات الشخص"
+
+#, fuzzy
+#~ msgid "Company Informations"
+#~ msgstr "معلومات الشخص"
+
+#, fuzzy
+#~ msgid "Messages"
+#~ msgstr "رسالة"
+
+#~ msgid "New Password"
+#~ msgstr "كلمة المرور الجديدة"
+
+#, fuzzy
+#~ msgid "Re Password"
+#~ msgstr "اعادة كتابة كلمة المرور"
+
+#~ msgid "Contact Details"
+#~ msgstr "تفاصيل الاتصال"
+
+#~ msgid "Tickets"
+#~ msgstr "التذاكر"
+
+#~ msgid "Add Ticket"
+#~ msgstr "اضافة تذكرة جديدة"
+
+#~ msgid "Projects"
+#~ msgstr "المشاريع"
+
+#~ msgid "Add Project"
+#~ msgstr "اضافة مشروع"
+
+#~ msgid "Tasks"
+#~ msgstr "المهام"
+
+#~ msgid "Hosting"
+#~ msgstr "الاستضافة"
+
+#~ msgid "Mail Inbox Panel"
+#~ msgstr "البريد الوارد"
+
+#~ msgid "Add Email"
+#~ msgstr "اضافة بريد الكتروني"
+
+#~ msgid "Requested Account not found"
+#~ msgstr "الحساب المطلوب غير موجود"
+
+#~ msgid "You are successufly registred please login to start your work !"
+#~ msgstr "لقد تمت عملية التسجيل بنجاح , يرجى تسجيل الدخول لبدأ العمل"
+
+#~ msgid "Login or password incorrect!"
+#~ msgstr "كلمة المرور غير صحيحة"
+
+#~ msgid "Quick Services"
+#~ msgstr "خدمات سريعة"
+
+#~ msgid "Forgot Your Password?"
+#~ msgstr "نسيت كلمة المرور"
+
+#~ msgid "open a new Account"
+#~ msgstr "فتح حساب جديد"
+
+#~ msgid "Your account in Motors Souq will"
+#~ msgstr "حسابكم في الموتورز سوق يمكنكم"
+
+#~ msgid "1. Allow you to manage your Motors and Motors requests."
+#~ msgstr " ادارة مركباتك والطلبات"
+
+#~ msgid "2. View comments on your cars."
+#~ msgstr "مشاهدة تعليقات الزوار على مركباتك"
+
+#~ msgid "3. Receive instant notifications about new updates and activities."
+#~ msgstr " تلقي إشعارات فورية حول الأنشطة والتحديثات الجديدة ."
+
+#~ msgid "4. Add cars."
+#~ msgstr "اضافة سيارة"
+
+#~ msgid "5. Add Motor Bikes."
+#~ msgstr " اضافة دراجة نارية"
+
+#~ msgid "6. Receive latest news and hot deals."
+#~ msgstr " تلقي آخر الأخبار والعروض الحصرية."
+
+#~ msgid "7. Life stats for your ads."
+#~ msgstr "احصائيات مباشرة لإعلاناتك"
+
+#~ msgid "Don't want to register? add your motor in less than 60 seconds!!"
+#~ msgstr "لا تريد التسجيل؟ يمكنك اضافة دراجتك او سيارتك في أقل من 60 ثانية!"
+
+#~ msgid "Once you submit your post in Motors Souq"
+#~ msgstr "بمجرد تأكيد مشاركتك في موترز سوق"
+
+#~ msgid "1. Your Motor will be sent to your car make seekers & dealers."
+#~ msgstr "1. سيتم ارسالة سياراتك الى الباحثين عن السيارات وتجار السيارات"
+
+#~ msgid "2. Your Motor ad will posted in all Motors Souq media channels."
+#~ msgstr ""
+#~ "2. سيتم نشر اعلانك في جميع شبكات التسويق الإلكتروني الخاصة بموتورز سوق"
+
+#~ msgid "3. Your Motor ad will be posted to over 100,000 visitor to the site."
+#~ msgstr "3. سوف يتم نشر إعلانك لأكثر من 100،000 زائر للموقع."
+
+#~ msgid "Dont mis the high Opportunities to sell your motor in 24 hours."
+#~ msgstr "لا تدع الفرصة تفوتك في بيع مركبتك خلال 24 ساعة!"
+
+#~ msgid "Old Password"
+#~ msgstr "كلمة المرور القديمة"
+
+#~ msgid "Password was changed !"
+#~ msgstr "تم تغيير كلمة المرور بنجاح"
+
+#~ msgid "Old Password not correct !"
+#~ msgstr "كلمة المرور القديمة غير صحيحة"
+
+#, fuzzy
+#~ msgid "Please Enter a valid email"
+#~ msgstr "الرجاء ادخال البريد الالكتروني"
+
+#, fuzzy
+#~ msgid "Your Password Was Changed"
+#~ msgstr "تم تغيير كلمة المرور بنجاح"
+
+#, fuzzy
+#~ msgid "Password not identical"
+#~ msgstr "كلمة المرور غير متطابقة"
+
+#, fuzzy
+#~ msgid "Add new Address"
+#~ msgstr "رسالة"
+
+#, fuzzy
+#~ msgid "Modify Address"
+#~ msgstr "رسالة"
+
+#~ msgid "Contact us"
+#~ msgstr "اتصل بنا"
+
+#~ msgid "About us"
+#~ msgstr "من نحن"
+
+#, fuzzy
+#~ msgid "Request Contact"
+#~ msgstr "طلب سيارة"
+
+#, fuzzy
+#~ msgid "Request Demo"
+#~ msgstr "طلب سيارة"
+
+#, fuzzy
+#~ msgid "Register Date"
+#~ msgstr "تاريخ التسجيل"
+
+#~ msgid "Last Name"
+#~ msgstr "الاسم الاخير"
+
+#~ msgid "Create Date"
+#~ msgstr "تاريخ الاضافة"
+
+#~ msgid "User"
+#~ msgstr "المستخدم"
+
+#~ msgid "Person Information"
+#~ msgstr "معلومات الشخص"
+
+#~ msgid "Email 2"
+#~ msgstr "البريد الالكتروني 2"
+
+#, fuzzy
+#~ msgid "Zip Code"
+#~ msgstr "الترقيم البريدي"
+
+#, fuzzy
+#~ msgid "contact Information"
+#~ msgstr "حفظ معلومات الاتصال"
+
+#~ msgid "Company "
+#~ msgstr "الشركة"
+
+#~ msgid "Date of Birth"
+#~ msgstr "تاريخ الميلاد"
+
+#~ msgid "Create Date Time"
+#~ msgstr "تاريخ الاضافة"
+
+#~ msgid "Update Date Time"
+#~ msgstr "تاريخ التعديل"
+
+#, fuzzy
+#~ msgid "Lead Information"
+#~ msgstr "معلومات عامة"
+
+#~ msgid "Fax"
+#~ msgstr "الفاكس"
+
+#~ msgid "General Information"
+#~ msgstr "معلومات عامة"
+
+#~ msgid "Create Date "
+#~ msgstr "تاريخ الاضافة"
+
+#~ msgid "Send Date"
+#~ msgstr "تاريخ الارسال"
+
+#~ msgid "Person"
+#~ msgstr "الشخص"
+
+#~ msgid "Paragraph content"
+#~ msgstr "محتوى الفقرة"
+
+#~ msgid "Search Person"
+#~ msgstr "البحث عن شخصية"
+
+#, fuzzy
+#~ msgid "Contact was successully added"
+#~ msgstr "تم اضافة حسابكم بنجاح"
+
+#~ msgid "Date of birth"
+#~ msgstr "تاريخ الولادة"
+
+#, fuzzy
+#~ msgid "Motorssouq will send new password to the email entred above"
+#~ msgstr ""
+#~ "سيقوم موتورز سوق بارسال كلمة مرور جديدة للبريد الالكتروني الذي قمتم "
+#~ "بادخاله "
+
+#~ msgid "Edit project"
+#~ msgstr "التعديل على المشروع"

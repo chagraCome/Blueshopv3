@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<!ELEMENT form (panel)*>
+<!ELEMENT panel (widget)+>
+<!ELEMENT widget (datasource)*>
+<!ATTLIST widget name NMTOKEN #REQUIRED>
+<!ATTLIST widget label CDATA #REQUIRED>
+<!ATTLIST widget size CDATA #IMPLIED>
+<!ATTLIST widget width CDATA #IMPLIED>
+<!ATTLIST widget id CDATA #IMPLIED>
+<!ATTLIST widget maxlength CDATA #IMPLIED>
+<!ATTLIST widget value CDATA #IMPLIED>
+<!ATTLIST widget maxlength CDATA #IMPLIED>
+<!ATTLIST widget ltr CDATA #IMPLIED>
+<!ATTLIST widget javascript CDATA #IMPLIED>
+<!ATTLIST widget dockstyle CDATA #IMPLIED>
+<!ATTLIST widget tooltip CDATA #IMPLIED>
+<!ATTLIST widget type (Amhsoft_Input_Control|Amhsoft_ListBox_Control|Amhsoft_Label_Control|Amhsoft_TextArea_Control|Amhsoft_YesNo_ListBox_Control|Amhsoft_Button_Submit_Control|Amhsoft_FileInput_Control|Amhsoft_ImageControl_Control|Amhsoft_CheckBox_Control|Amhsoft_ColorLabel_Control|Amhsoft_RadioBox_Control|Amhsoft_Password_Control|Amhsoft_Html_Control|Amhsoft_DirectoryInput_Control|Amhsoft_ComplexListBox_Control|Amhsoft_CaptchaControl_Control|Amhsoft_TreeViewControl_Control|Amhsoft_TextLabel_Control|Amhsoft_Rating_Control) #REQUIRED>
+<!ATTLIST widget class CDATA #REQUIRED>
+<!ATTLIST form name NMTOKEN #REQUIRED>
+<!ATTLIST panel name NMTOKEN #REQUIRED>
+<!ATTLIST panel label CDATA #REQUIRED>
+<!ATTLIST form method (post|get) #REQUIRED>
+<!ATTLIST widget required (0|1) #IMPLIED>
+<!ATTLIST datasource id CDATA #REQUIRED>
+<!ATTLIST datasource text CDATA #REQUIRED>
+

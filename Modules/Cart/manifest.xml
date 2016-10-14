@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module>
+  <name>Cart</name>
+  <businessname>Cart</businessname>
+  <version>1.0.0</version>
+  <build>1</build>
+  <builddate>2013-02-16 10:51:23</builddate>
+  <description>Shopping Cart Module: Manage Shopping Cart</description>
+  <dependecy>
+    <module min-version="1.0">Payment</module>
+  </dependecy>
+</module>

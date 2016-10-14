@@ -1,0 +1,135 @@
+{if $error_message}<div class="error_message">{$error_message}</div>{/if}
+<div class="amh-container">
+    <h1 class="amh-text-left-rp">{'Account'|tr}<a href="index.php?module=cart&page=checkout-account" class="cart_edit"><i class="fa fa-edit"></i> {'Modify'|tr}</a></h1>
+    <div class="amh-container">
+        {'Name'|tr}: {$cart->getAccount()->getName()}<br />
+        {'E-Mail'|tr}: {$cart->getAccount()->getEmail()}<br />
+        {'Tel'|tr}: {$cart->getAccount()->getMobile()}
+    </div>
+</div>
+
+<div class="amh-container">
+    <h1 class="amh-text-left-rp">{'Invoice'|tr} & {'Shipping Address'|tr}<a href="index.php?module=cart&page=checkout-address" class="cart_edit"><i class="fa fa-edit"></i> {'Modify'|tr}</a></h1>
+    <div class="amh-container">
+        <div class="amh-1_2 amh-left">
+            <h2>{'Invoice Address'|tr}:</h2>
+            <p>
+                {'Name'|tr}: {$cart->getInvoiceAddress()->getName()}<br />
+                {$cart->getInvoiceAddress()->getStreet()}<br />
+                {$cart->getInvoiceAddress()->getZipCode()}-{$cart->getInvoiceAddress()->getCity()}<br />
+                {$cart->getInvoiceAddress()->getProvince()}<br />
+                {$cart->getInvoiceAddress()->getCountry()}
+            </p>
+        </div>
+        <div class="amh-1_2 amh-right">
+            <h2>{'Shipping Address'|tr}:</h2>
+            <p>
+                {'Name'|tr}: {$cart->getShippingAddress()->getName()}<br />
+                {$cart->getShippingAddress()->getStreet()}<br />
+                {$cart->getShippingAddress()->getZipCode()}-{$cart->getShippingAddress()->getCity()}<br />
+                {$cart->getShippingAddress()->getProvince()}<br />
+                {$cart->getShippingAddress()->getCountry()}</p>
+        </div>
+
+    </div>
+
+</div>
+<div class="amh-container">
+    <h1 class="amh-text-left-rp">{'Shipping Method'|tr}<a href="index.php?module=cart&page=checkout-shipping" class="cart_edit"><i class="fa fa-edit"></i> {'Modify'|tr}</a></h1>
+    <p>
+        {if $cart->getShippingMethod()}
+        {$cart->getShippingMethod()->getTitle()}
+        <br />
+        {$cart->getShippingMethod()->getDescription()}
+        <br />
+        {$cart->getShippingMethod()->shippingType->getName()}
+        <br />{'Shipping Cost'|tr}: {$cart->getShippingMethod()->shipping_cost|price}
+        {/if}
+    </p>
+</div>
+<div class="amh-container">
+    <h1 class="amh-text-left-rp">{'Payment Method'|tr}<a href="index.php?module=cart&page=checkout-payment" class="cart_edit"><i class="fa fa-edit"></i> {'Modify'|tr}</a></h1>
+    <p>
+        {$cart->getPaymentMethod()->getName()}
+        <br />
+        {$cart->getPaymentMethod()->getDescription()}
+    </p>
+</div>
+<div class="amh-container">
+    <h1 class="amh-text-left-rp">{'Preview Order'|tr}</h1>
+
+    <table border="0" width="100%"  cellpadding="10" class="grid preview-grid">
+        <tr>
+            <th class="amh-only-desktop">#</th>
+            <th>{'Product'|tr}</th>
+            <th class="amh-only-desktop">{'Unit Price'|tr}</th>
+            <th>{'Quantity'|tr}</th>
+            <th class="amh-only-desktop">{'Sub Total'|tr}</th>
+			<th class="amh-only-mobile">{'Total'|tr}</th>
+        </tr>
+        {foreach $cart->getProducts() as $product}
+        <tr>
+            <td class="amh-only-desktop"><img class="imgwid" src="{$product->getFirstThumb()}" /></td>
+            <td>{$product->getTitle()}<div class="amh-only-mobile"><img style="max-width: 30%" src="{$product->getFirstThumb()}" /></div></td>
+            <td class="amh-only-desktop" >{$product->getUnitPrice()|price}</td>
+            <td>{$product->quantity_in_cart}</td>
+            <td>{$product->getSubTotal()|price}</td>
+        </tr>
+        {if $product->isGrouped()}
+        {foreach $product->getGroupedProducts() as $gproduct}
+        <tr style="border-bottom: 1px solid gray; padding: 5px">
+            <td><img style="margin: 5px"  width="100px" src="{$gproduct->getFirstThumb()}" /></td>
+            <td>{$gproduct->getTitle()}<br />{$gproduct->getAttributeLabeledValuesAsString()|nl2br}</td>
+            <td>{$gproduct->getUnitPrice()|price}</td>
+            <td>{$product->quantity_in_cart}</td>
+            <td>{0|price}</td>
+            <td></td>
+        </tr>
+        {/foreach}
+        {/if}
+        {/foreach}
+    </table>
+    <div class="amh-container amh-text-right">
+        <div class="amh-container amh-row">
+            <div class="amh-5_6 amh-left amh-left-rp amh-text-right">{'Sub Total'|tr}:</div>
+            <div class="amh-1_6 amh-right amh-right-rp amh-text-right">{$cart->getSubTotal()|price}</div>
+        </div>
+        <div class="amh-container amh-row">
+            <div class="amh-5_6 amh-left amh-left-rp amh-text-right">{'Shipping Cost'|tr}:</div>
+            <div class="amh-1_6 amh-right amh-right-rp amh-text-right">{$cart->getShippingcost()|price}</div>
+        </div>
+        {if $cart->getHandlingFee()}  
+        <div class="amh-container amh-row">
+            <div class="amh-5_6 amh-left amh-left-rp amh-text-right">{'Handling Fee'|tr}:</div>
+            <div class="amh-1_6 amh-right amh-right-rp amh-text-right">{$cart->getHandlingFee()|price}</div>
+        </div>
+        {/if}
+        <div class="amh-container amh-row">
+            <div class="amh-5_6 amh-left amh-left-rp amh-text-right">{'Total'|tr}:</div>
+            <div class="amh-1_6 amh-right amh-right-rp amh-text-right">{$cart->getTotal()|price}</div>
+        </div>
+        {if $cart->hasCoupon()}
+        <div class="amh-container amh-row">
+            <div class="amh-5_6 amh-left amh-left-rp amh-text-right">{$cart->coupon->getSummary()}</div>
+            <div class="amh-1_6 amh-right amh-right-rp amh-text-right">{$cart->getCouponCodeDiscount()|price}</div>
+        </div>
+        {/if}
+        <div class="amh-container amh-row">
+            <div class="amh-5_6 amh-left amh-left-rp amh-text-right">{'Grand Total'|tr}:</div>
+            <div class="amh-1_6 amh-right amh-right-rp amh-text-right">{$cart->getGrandTotal()|price}</div>
+        </div>
+    </div>
+
+
+    <form name="checkoutform" method="post">
+        <div class="amh-container">
+            <p>
+                {'Note'|tr}: <br /><textarea name="comment" id="comment" rows="5" style="width: 100%">{$cart->getComment()}</textarea>
+            </p>
+        </div>
+        <div class="amh-container panel-div">
+            <input class="Button submit" type="submit" name="submit" value="{'Submit Order'|tr}" />
+        </div>
+        
+    </form>
+</div>

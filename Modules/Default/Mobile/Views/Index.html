@@ -1,0 +1,21 @@
+<div id="homepage" data-role="view" data-title="Motorsouq">
+    <div class="head" style="background: white; border-bottom: 4px solid #BA0000"><img src="http://motorssouq.com/Motorssouq/Resources/motors_souq_logo.png" /></div>
+    <header data-role="header">
+        <div data-role="navbar">Motorssouq
+            <a data-align="right" data-icon="info" data-role="button" href="{$shop->appurl}/mobile.php?module=default&page=about" data-transition="slide">{'About'|tr}</a>
+        </div>
+    </header>
+    <ul data-role="listview" data-style="inset" data-type="group">
+        <li>
+            <ul>
+                <li data-icon="search"><a href="{$shop->appurl}/mobile.php?module=vehicle&page=search">Search Vehicle</a></li>
+                <li data-icon="action"><a href="{$shop->appurl}/mobile.php?module=vehicle&page=list" data-transition="slide" data-rel="external">Latest Added Vehicles</a></li>
+                <li data-icon="compose"><a href="#">Insert Vehicle</a></li>
+                <li data-icon="mostrecent"><a href="#">List Vehicle Requests</a></li>
+                <li data-icon="compose"><a href="#">Insert Vehicle Request</a></li>
+                <li data-icon="info"><a href="{$shop->appurl}/mobile.php?module=default&page=about">About Motorssouq</a></li>
+                <li data-icon="share"><a href="#">Contact Us</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>

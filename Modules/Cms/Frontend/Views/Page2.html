@@ -1,0 +1,213 @@
+{page name="cmspage"}
+{$page->getContent()}
+{/page}
+ {if $admin_logged_in}
+
+
+<script type="text/javascript" src="Amhsoft/Ressources/Javascripts/ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="Amhsoft/Ressources/Javascripts/ckeditor/adapters/jquery.js"></script>
+
+<script>
+
+
+  {literal}
+  CKEDITOR.on('instanceCreated', function(event) {
+    var editor = event.editor,
+            element = editor.element;
+
+    // Customize editors for headers and tag list.
+    // These editors don't need features like smileys, templates, iframes etc.
+    if (element.is('h1', 'h2', 'h3') || element.getAttribute('id') == 'taglist') {
+      // Customize the editor configurations on "configLoaded" event,
+      // which is fired after the configuration file loading and
+      // execution. This makes it possible to change the
+      // configurations before the editor initialization takes place.
+      editor.on('configLoaded', function() {
+
+        // Remove unnecessary plugins to make the editor simpler.
+        editor.config.removePlugins = 'colorbutton,find,flash,font,' +
+                'forms,iframe,image,newpage,removeformat,' +
+                'smiley,specialchar,stylescombo,templates';
+
+        // Rearrange the layout of the toolbar.
+        editor.config.toolbarGroups = [
+          {name: 'editing', groups: ['basicstyles', 'links']},
+          {name: 'undo'},
+          {name: 'clipboard', groups: ['selection', 'clipboard']},
+          {name: 'about'}
+        ];
+      });
+    }
+  });
+
+  {/literal}
+
+
+    $(function() {
+      makeContentTitleEditable();
+
+
+      $('div.core_content_container').click(makeContentEditable);
+      //makeContentEditable();
+      makeBoxTitleEditable();
+      makeBoxContentEditable();
+    });
+
+
+
+    function makeBoxTitleEditable() {
+      $('h3.blocktitle').each(function(index) {
+        if ($(this).attr('data-id') > 0) {
+          $(this).attr('contenteditable', 'true');
+        }
+      });
+      $('h3.blocktitle[contenteditable=true]').each(function(index) {
+
+        $(this).blur(function() {
+          var id = $(this).attr('data-id');
+
+          $.ajax({
+            url: 'admin.php?module=cms&page=box-modify&id=' + id,
+            global: false,
+            type: "POST",
+            dataType: "text json",
+            data: {
+              name: $(this).html(),
+              submit: 'submit'
+            },
+            success: function(result) {
+              console.log(result);
+            }
+          });
+        })
+      });
+    }
+
+
+    function makeBoxContentEditable() {
+
+
+      $('div.blockcontent').each(function(index) {
+        if ($(this).attr('data-id') > 0) {
+          $(this).attr('contenteditable', 'true');
+        }
+      });
+
+
+
+
+      $('div.blockcontent[contenteditable=true]').each(function(index) {
+        var el = $(this).get(0);
+        CKEDITOR.disableAutoInline = true;
+        $(this).focus(function(e) {
+          makeOneBoxEditable($('div.blockcontent[contenteditable=true]').get(index));
+        });
+
+
+      });
+    }
+
+
+    function makeOneBoxEditable(el) {
+
+//      for (var instanceName in CKEDITOR.instances) {
+//        if (CKEDITOR.instances[instanceName]) {
+//          CKEDITOR.remove(CKEDITOR.instances[instanceName]);
+//        }
+//      }
+
+
+      CKEDITOR.inline(el, {
+        on: {
+          focus: function(event) {
+            olddata = event.editor.getData();
+          },
+          blur: function(event) {
+
+            var params = {
+              submit: 'submit',
+              html: event.editor.getData(),
+            };
+
+            if (olddata != params.html) {
+              var id = el.getAttribute('data-id');
+              $.ajax({
+                url: 'admin.php?module=cms&page=box-modify&id=' + id,
+                global: false,
+                type: "POST",
+                dataType: "text json",
+                data: params,
+                success: function(result) {
+                  console.log(result);
+                }
+              });
+            }
+
+          }
+        }
+      });
+
+    }
+
+    function makeContentTitleEditable() {
+      $('h1.core_content_title').attr('contenteditable', 'true');
+      oldtitleValue = $('h1.core_content_title').html();
+      $('h1.core_content_title').blur(function() {
+        if (oldtitleValue != $(this).html) {
+          $.ajax({
+            url: 'admin.php?module=cms&page=page-modify&id={$page->id}',
+            global: false,
+            type: "POST",
+            dataType: "text json",
+            data: {
+              title: $(this).html(),
+              submit: 'submit'
+            },
+            success: function(result) {
+              console.log(result);
+            }
+          });
+        }
+      });
+    }
+
+    function makeContentEditable() {
+
+      CKEDITOR.disableAutoInline = true;
+
+      var olddata = null;
+      var el = $('div.core_content_container');
+      el.attr('contenteditable', 'true');
+      CKEDITOR.inline(el.get(0), {
+        on: {
+          focus: function(event) {
+            olddata = event.editor.getData();
+          },
+          blur: function(event) {
+
+            var params = {
+              submit: 'submit',
+              content: event.editor.getData(),
+            };
+
+            if (olddata != params.content) {
+              $.ajax({
+                url: 'admin.php?module=cms&page=page-modify&id={$page->id}',
+                global: false,
+                type: "POST",
+                dataType: "text json",
+                data: params,
+                success: function(result) {
+                  console.log(result);
+                }
+              });
+            }
+
+          }
+        }
+      });
+
+    }
+
+</script>
+{/if}

@@ -1,0 +1,79 @@
+{literal}
+<script>
+    $(function () {
+        $(document).ready(function () {
+            $("#shippingpanel").hide();
+            $('#use_other_shipping_address').change(function () {
+                if ($(this).is(":checked")) {
+
+                    $("#shippingpanel").show();
+                } else {
+
+                    $("#shippingpanel").hide();
+                }
+            });
+
+            $(function () {
+                $('.invAd').click(function () {
+                    if ($('#use_other_shipping_address').is(':checked') === false) {
+                        window.location.href = 'index.php?module=cart&page=checkout-quickpay&setupshippingaddress=1&type=i&aid=' + $(this).attr('value');
+                    }
+                });
+            });
+
+            $(function () {
+                $('.cAd').click(function () {
+                    if ($('#use_other_shipping_address').is(':checked')) {
+                        window.location.href = 'index.php?module=cart&page=checkout-quickpay&setupshippingaddress=1&type=s&aid=' + $(this).attr('value');
+                    }
+                });
+            });
+
+        });
+
+
+
+
+
+    });
+</script>
+{/literal}
+<div class="core_content" style="min-height: 38px;">
+<h2 class="tt_uppercase color_dark m_bottom_30">{'Account'|tr}<a href="index.php?module=crm&page=intern-shop-account" class="cart_edit"><i class="fa fa-edit"></i>&nbsp;{'Edit'|tr}</a></h2>
+</div>
+<br />
+<div class="core_content" style="min-height: 38px">
+    {if $error_message}<div class="error_message">{$error_message}</div>{/if}
+
+<h2 class="tt_uppercase color_dark m_bottom_30">{'Invoice'|tr} & {'Shipping Address'|tr}<a href="index.php?module=crm&page=intern-shop-address-add" class="cart_edit"><i class="fa fa-plus-square-o"></i>&nbsp;{'Add new Address'|tr}</a></h2>
+<form id="address_form" name="address_form" method="post" action="">
+{$widget->Render()}
+</form>
+</div>
+<script>
+<div class="core_content" style="min-height: 38px;">
+<h3 class="active">{'Account'|tr}<a href="index.php?module=cart&page=checkout-account" class="cart_edit">&nbsp;{'Edit'|tr}</a></h3>
+</div>
+<br />
+<div class="core_content" style="min-height: 38px">
+{if $error_message}<div style=" border: 1px solid #FFE7A1; background-color: #ffc; padding: 6px; font-weight: bold">{$error_message}</div>{/if}
+<h3 class="active">{'Invoice'|tr} & {'Shipping Address'|tr}</h3>
+<form name="address_form" method="post" action="">
+{$widget->Render()}
+</form>
+</div>
+
+<br />
+<div class="core_content" style="min-height: 38px;">
+    <h2>{'Shipping Method'|tr}</h2>
+</div>
+<br />
+<div class="core_content" style="min-height: 38px;">
+    <h2>{'Payment Method'|tr}</h2>
+</div>
+<br />
+<div class="core_content" style="min-height: 38px;">
+    <h2>{'Preview Order'|tr}</h2>
+</div>
+        
+</script>

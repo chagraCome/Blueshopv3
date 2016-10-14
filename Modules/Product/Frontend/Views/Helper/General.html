@@ -1,0 +1,21 @@
+{if $product->getEntitySet()->getGeneralAttributes()}
+<div class="core_content">
+    <h3 class="active attributes" >{'Product Information'|tr}</h3>
+    <div class="core_content_container">
+        <table width="100%">
+            <tr>
+                <td>
+                    <table  class="search_table tableborder">
+                        {foreach $product->getEntitySet()->getGeneralAttributes() as $key => $attribute}
+                        <tr {if $key == 0 || ($key % 2) == 0} class="silver_odd" {/if}>
+                            <td>{$attribute->getLabel()}: </td>
+                            <td>{$attribute->getFrontEndComponent($product)}</td>
+                        </tr>
+                        {/foreach}
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+{/if}

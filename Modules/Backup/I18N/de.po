@@ -1,0 +1,221 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Backup Module\n"
+"POT-Creation-Date: 2013-10-10 10:38+0100\n"
+"PO-Revision-Date: 2013-10-10 10:45+0100\n"
+"Last-Translator: Amir Cherif <amir.cherif@amhsoft.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../key_words_html.php:3 ../key_words_html.php:8 ../key_words_html.php:12
+#: ../key_words_html.php:16 ../key_words_html.php:21 ../key_words_html.php:23
+#: ../key_words_html.php:27
+msgid "Information"
+msgstr "Informationen"
+
+#: ../key_words_html.php:4 ../key_words_html.php:17 ../key_words_html.php:24
+msgid "Generate new Backup"
+msgstr "Neues Backup generieren"
+
+#: ../key_words_html.php:5 ../key_words_html.php:18
+msgid "Local Bakups"
+msgstr "Lokales Backup"
+
+#: ../key_words_html.php:6 ../key_words_html.php:19
+msgid "Remote Backups"
+msgstr "Backup-Remote"
+
+#: ../key_words_html.php:9 ../key_words_html.php:13
+msgid "Local Bakup"
+msgstr "Locales Backup"
+
+#: ../key_words_html.php:10 ../key_words_html.php:14
+msgid "Remote Backup"
+msgstr "Backup-Remote"
+
+#: ../key_words_html.php:25 ../Backend/Boot.php:22
+msgid "Manage Backups"
+msgstr "Backups verwalten"
+
+#: ../Backend/Boot.php:20
+msgid "Backup Manager"
+msgstr "Backup"
+
+#: ../Backend/Boot.php:21
+msgid "Generate Backup"
+msgstr "Backup generieren"
+
+#: ../Backend/Boot.php:23
+msgid "Upload Backup"
+msgstr "Backup hochladen"
+
+#: ../Backend/Boot.php:24
+msgid "Manage Backup Setting"
+msgstr "Backupseinstellungen verwalten"
+
+#: ../Backend/Controllers/List.php:34 ../Backend/Controllers/Remotelist.php:35
+msgid "List Backups"
+msgstr "Backups auflisten"
+
+#: ../Backend/Controllers/Local.php:30
+msgid "Generate Local Backup"
+msgstr "Internes Backup generieren"
+
+#: ../Backend/Controllers/Local.php:51 ../Backend/Controllers/Remote.php:67
+msgid "Backup was successully done!"
+msgstr "Aktion erfolgreich ausgeführt"
+
+#: ../Backend/Controllers/Remote.php:31
+msgid "Generate Remote Backup"
+msgstr "Externes Backup generieren"
+
+#: ../Backend/Controllers/Remote.php:51
+msgid "Logged to FTP Server Successfully"
+msgstr "Die Verbindung zur FTP-Host wurde hergestellt"
+
+#: ../Backend/Controllers/Remote.php:77
+msgid "Cannot connect to ftp host"
+msgstr "Die Verbindung zur FTP-Host kann nicht hergestellt werden"
+
+#: ../Backend/Controllers/Remote.php:84
+msgid "Please Verify Input"
+msgstr "Bitte Eingaben verifizieren"
+
+#: ../Backend/Controllers/Restore.php:41
+msgid "Restore Backup"
+msgstr "Backup wiederherstellen"
+
+#: ../Backend/Controllers/Restore.php:48
+msgid "Zip Archive is not valid backup"
+msgstr "Zip-Archive ist kein gültiges Backup"
+
+#: ../Backend/Controllers/Restore.php:63
+msgid "Data was successfully restored"
+msgstr "Daten wurden erfolgreich wiederhergestellt"
+
+#: ../Backend/Controllers/Setting.php:24 ../Backend/Controllers/Setting.php:35
+msgid "Backup Settings"
+msgstr "Backupeinstellungen"
+
+#: ../Backend/Controllers/Setting.php:38
+msgid "Backup Local Path"
+msgstr "Pfad der Backup"
+
+#: ../Forms/Local/Form.php:34 ../Forms/Remote/Form.php:39
+msgid "File Name"
+msgstr "Dateiname"
+
+#: ../Forms/Local/Form.php:40 ../Forms/Remote/Form.php:45
+#: ../Forms/Restore/Form.php:32
+msgid "Select Modules"
+msgstr "Ausgewählte Module"
+
+#: ../Forms/Local/Form.php:49 ../Forms/Remote/Form.php:53
+msgid "Backup Type"
+msgstr "Backuptyp"
+
+#: ../Forms/Local/Form.php:54 ../Forms/Remote/Form.php:58
+msgid "Backup database and media"
+msgstr "Datenbank und Media sichern"
+
+#: ../Forms/Local/Form.php:55 ../Forms/Remote/Form.php:59
+msgid "Backup media only"
+msgstr "Nur Media sichern"
+
+#: ../Forms/Local/Form.php:56 ../Forms/Remote/Form.php:60
+msgid "Backup database only"
+msgstr "Nur Datenbank sichern"
+
+#: ../Forms/Local/Form.php:61 ../Forms/Remote/Form.php:92
+msgid "Generate"
+msgstr "Generieren"
+
+#: ../Forms/Local/Form.php:65 ../Forms/Remote/Form.php:96
+#: ../Forms/Restore/Form.php:53 ../Forms/Upload/Form.php:38
+msgid "General Informations"
+msgstr "Allgemeine Informationen"
+
+#: ../Forms/Local/Form.php:73 ../Forms/Remote/Form.php:112
+#: ../Forms/Restore/Form.php:60 ../Forms/Upload/Form.php:44
+msgid "Action"
+msgstr "Aktion"
+
+#: ../Forms/Remote/Form.php:65
+msgid "Host Name"
+msgstr "Hastname"
+
+#: ../Forms/Remote/Form.php:70
+msgid "User Name"
+msgstr "Benutzername"
+
+#: ../Forms/Remote/Form.php:75
+msgid "Password"
+msgstr "Passwort"
+
+#: ../Forms/Remote/Form.php:80
+msgid "Port"
+msgstr "Port"
+
+#: ../Forms/Remote/Form.php:85
+msgid "Path"
+msgstr "Pfad"
+
+#: ../Forms/Remote/Form.php:103
+msgid "Ftp Informations"
+msgstr "FTP-Informationen"
+
+#: ../Forms/Restore/Form.php:39
+msgid "Restore Type"
+msgstr "Art der Wiederherstellung"
+
+#: ../Forms/Restore/Form.php:43
+msgid "Restore database and media"
+msgstr "Datenbank und Media wiederherstellen"
+
+#: ../Forms/Restore/Form.php:44
+msgid "Restore media only"
+msgstr "Nur Media wiederherstellen"
+
+#: ../Forms/Restore/Form.php:45
+msgid "Restore database only"
+msgstr "Nur Datenbank wiederherstellen"
+
+#: ../Forms/Restore/Form.php:49 ../Grids/DataGridView.php:42
+#: ../Grids/Remote/DataGridView.php:42
+msgid "Restore"
+msgstr "Wiederherstellen"
+
+#: ../Forms/Upload/Form.php:31
+msgid "Select Backup to upload"
+msgstr "Backup zum Hochladen auswählen"
+
+#: ../Forms/Upload/Form.php:34
+msgid "Upload"
+msgstr "Hochladen"
+
+#: ../Grids/DataGridView.php:35 ../Grids/Remote/DataGridView.php:35
+msgid "Backup Name"
+msgstr "Backupname"
+
+#: ../Grids/DataGridView.php:37 ../Grids/Remote/DataGridView.php:37
+msgid "Filesize"
+msgstr "Dateigröße"
+
+#: ../Grids/DataGridView.php:39 ../Grids/Remote/DataGridView.php:39
+msgid "Date"
+msgstr "Datum"
+
+#: ../Grids/DataGridView.php:48 ../Grids/Remote/DataGridView.php:48
+msgid "Download"
+msgstr "Runterladen"
+
+#: ../Grids/DataGridView.php:54 ../Grids/Remote/DataGridView.php:54
+msgid "Delete"
+msgstr "Löschen"

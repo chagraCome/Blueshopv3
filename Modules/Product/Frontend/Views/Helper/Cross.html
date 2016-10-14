@@ -1,0 +1,8 @@
+{if $crossProducts}
+<h2 class="tt_uppercase color_dark m_bottom_30">{'Selected products'|tr}</h2>
+<section class="products_container category_grid clearfix m_bottom_15">
+    {foreach $crossProducts as $item}
+    {include file='Modules/Product/Frontend/Views/Item.html'}
+    {/foreach}
+</section>
+{/if}

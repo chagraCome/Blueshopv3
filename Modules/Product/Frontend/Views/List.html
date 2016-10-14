@@ -1,0 +1,128 @@
+<div class="row clearfix">
+    <!--left content column-->
+    <section class="col-lg-9 col-md-9 col-sm-9">
+        {if $category_name}
+        <h2 class="tt_uppercase color_dark m_bottom_25">
+            {$category_name}
+        </h2>
+        {/if}
+        {if $category_banner}
+        <img class="r_corners m_bottom_40" src="{$category_banner}" alt="" style="
+    width: 100%;
+    max-height: 400px;
+">
+        {/if}
+        <!--categories nav-->
+        <nav class="m_bottom_40 amh-only-desktop">
+            <ul class="horizontal_list clearfix categories_nav_list m_xs_right_0 t_mxs_align_c">
+               {foreach Modules_Product_Frontend_Boot::getMainCategories() as $categories}
+                <li class="m_right_15 f_mxs_none w_mxs_auto d_mxs_inline_b m_mxs_bottom_20">
+                    <a href="{$categories->getUrl()}" class="d_block photoframe tr_all_hover shadow color_dark r_corners">
+                        <span class="d_block wrapper">
+                            <img class="tr_all_long_hover" src="{$categories->getLogoSrc()|default:'media/noimage.jpg'}"   style="width: 100px;height: 100px;"/>
+                        </span>
+                       {$categories->getName()}
+                    </a>
+                </li>
+                {/foreach}
+            </ul>
+        </nav>
+        <!--sort-->
+        <div class="row clearfix m_bottom_10">
+            <div class="col-lg-12 col-md-8 col-sm-12 m_sm_bottom_10">
+                <div class="toolbar amh-only-desktop ">
+                    <form name="list_form" method="get" action="index.php" style="display:inline;">
+                        <label for="products_per_page">{'Products per page'|tr}</label>
+                        <select name="products_per_page" id="products_per_page" onchange="javascript:window.location.href = '{$product_per_page_url}&products_per_page=' + this.value;">
+                            <option value="9" {if $products_per_page == 9} selected="selected" {/if}>9</option>
+                            <option value="12" {if $products_per_page == 12} selected="selected" {/if}>12</option>
+                            <option value="16" {if $products_per_page == 16} selected="selected" {/if}>16</option>
+                            <option value="20" {if $products_per_page == 20} selected="selected" {/if}>20</option>
+                            <option value="30" {if $products_per_page == 30} selected="selected" {/if}>30</option>
+                            <option value="50" {if $products_per_page == 50} selected="selected" {/if}>50</option>
+                            <option value="100" {if $products_per_page == 100} selected="selected" {/if}>100</option>
+                        </select>
+                        <label for="sort_by">{'Sort by'|tr}</label>
+                        <select name="sort_by" id="sort_by" onchange="javascript:window.location.href = '{$sort_url}&sort_by=' + this.value;">
+                            <option value="">{'Please select'|tr}</option>  
+                            <option value="priceasc"{if $sort_by == 'priceasc'} selected="selected"{/if}>{'Price Ascending'|tr}</option>
+                            <option value="pricedesc"{if $sort_by == 'pricedesc'} selected="selected"{/if}>{'Price Descending'|tr}</option>
+                        </select>
+                        <span></span>
+                    </form>
+                    <span class="item_count">{'Result'|tr}:  <script type="text/javascript"> document.write($("#products_per_page option:selected").text());</script>  {'from'|tr}  {$total_result}</span>
+                    <a style="margin-top:7px;" class="layout_switch_1{if $layout == 2} current{/if}" title="{'Show one product per line.'|tr}" href="{$layout_url}&layout=2"></a>
+                    <a style="margin-top:7px;" class="layout_switch_2{if $layout == 1} current{/if}" title="{'Show multi products per line.'|tr}"  href="{$layout_url}&layout=1"></a>
+                </div>
+            </div>
+        </div>
+        <!--products-->
+        {if $total_result == 0}
+        <p>{'No Products available'|tr}.</p>
+        {else}
+        {assign var='counter' value=0}
+        {if $layout == 1 || $layout=='grid'}
+        <section class="products_container category_grid clearfix m_bottom_15">
+            {while $item =  $items->fetch()}
+            {include file='Modules/Product/Frontend/Views/Item.html'}
+            {/while}
+        </section>
+        {else}
+        <section class="products_container list_type clearfix m_bottom_5 m_left_0 m_right_0">
+            {while $item =  $items->fetch()}
+            {include file='Modules/Product/Frontend/Views/ItemList.html' counter=$counter++}
+            {/while}
+        </section>
+        {/if}
+        {/if}
+        <hr class="m_bottom_10 divider_type_3">
+        <div class="row clearfix m_bottom_15 m_xs_bottom_30">
+            <div class="col-lg-5 col-md-5 col-sm-4 t_align_r t_xs_align_l">
+                {$pager}
+            </div>
+        </div>
+    </section>
+    <!--right column-->
+    <aside class="col-lg-3 col-md-3 col-sm-3">
+        <!--widgets-->
+        <figure class="widget shadow r_corners wrapper m_bottom_30">
+            <figcaption>
+                <h3 class="color_light">{'Categories'|tr}</h3>
+            </figcaption>
+            <div class="widget_content">
+                <!--Categories list-->
+                <ul class="categories_list">
+                    {foreach Modules_Product_Frontend_Boot::getCategories() as $data}
+                    <li class="">
+                        <a href="{$data.url}" class="f_size_large color_dark d_block relative">
+                            <b>{$data.category}</b>
+                            <span class="bg_light_color_1 r_corners f_right color_dark talign_c"></span>
+                        </a>
+                        <!--second level-->
+                       <ul class="d_none">
+                            {foreach $data.child as $childs}
+                            <li class="active">
+                                <a href="{$childs->getUrl()}" class="d_block f_size_large color_dark relative">
+                                    {$childs->getName()}{if $child && $child->hasChildrens()}<span class="bg_light_color_1 r_corners f_right color_dark talign_c"></span>{/if}
+                                </a>
+                            </li>
+                            {/foreach}
+                        </ul>
+                    </li>
+                    {/foreach}
+                </ul>
+            </div>
+        </figure>
+        {if $filter_attributes}
+        <figure class="widget shadow r_corners wrapper m_bottom_30 amh-only-desktop">
+            <figcaption>
+                <h3 class="color_light">{'Filter'|tr}</h3>
+            </figcaption>
+            <div class="widget_content">
+                <!--filter form-->
+                {$filter_attributes}
+            </div>
+        </figure>
+        {/if}
+    </aside>
+</div>

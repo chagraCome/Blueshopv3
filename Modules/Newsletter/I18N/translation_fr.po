@@ -1,0 +1,396 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: newsletter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-02 11:05+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar_SA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _t;tr\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: key_words_html.php:3 key_words_html.php:16 key_words_html.php:28
+#: key_words_html.php:41 key_words_html.php:48 ../key_words_html.php:3
+#: ../key_words_html.php:16 ../key_words_html.php:28 ../key_words_html.php:41
+#: ../key_words_html.php:48 ../Backend/Boot.php:26
+#: ../I18N/key_words_html.php:3 ../I18N/key_words_html.php:16
+#: ../I18N/key_words_html.php:28 ../I18N/key_words_html.php:41
+#: ../I18N/key_words_html.php:48
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: key_words_html.php:4 key_words_html.php:9 key_words_html.php:17
+#: key_words_html.php:29 key_words_html.php:42 ../key_words_html.php:4
+#: ../key_words_html.php:9 ../key_words_html.php:17 ../key_words_html.php:29
+#: ../key_words_html.php:42 ../Backend/Boot.php:28
+#: ../I18N/key_words_html.php:4 ../I18N/key_words_html.php:9
+#: ../I18N/key_words_html.php:17 ../I18N/key_words_html.php:29
+#: ../I18N/key_words_html.php:42
+msgid "Groups"
+msgstr "Groupes"
+
+#: key_words_html.php:5 key_words_html.php:34 key_words_html.php:44
+#: ../key_words_html.php:5 ../key_words_html.php:34 ../key_words_html.php:44
+#: ../Forms/Emails/Form.php:47 ../Grids/Emails/DataGridView.php:45
+#: ../Grids/Emails/DataGridView.php:75 ../I18N/key_words_html.php:5
+#: ../I18N/key_words_html.php:34 ../I18N/key_words_html.php:44
+msgid "Group"
+msgstr "Groupe"
+
+#: key_words_html.php:6 ../key_words_html.php:6 ../I18N/key_words_html.php:6
+msgid "State"
+msgstr "Etat"
+
+#: key_words_html.php:7 key_words_html.php:21 key_words_html.php:39
+#: key_words_html.php:53 ../key_words_html.php:7 ../key_words_html.php:21
+#: ../key_words_html.php:39 ../key_words_html.php:53
+#: ../I18N/key_words_html.php:7 ../I18N/key_words_html.php:21
+#: ../I18N/key_words_html.php:39 ../I18N/key_words_html.php:53
+msgid "save"
+msgstr "Sauvegarder"
+
+#: key_words_html.php:8 ../key_words_html.php:8 ../I18N/key_words_html.php:8
+msgid "Select Group"
+msgstr "Sélectionnez Un Groupe"
+
+#: key_words_html.php:10 key_words_html.php:24 key_words_html.php:56
+#: ../key_words_html.php:10 ../key_words_html.php:24 ../key_words_html.php:56
+#: ../I18N/key_words_html.php:10 ../I18N/key_words_html.php:24
+#: ../I18N/key_words_html.php:56
+msgid "Settings"
+msgstr "Paramètres"
+
+#: key_words_html.php:11 key_words_html.php:25 key_words_html.php:57
+#: ../key_words_html.php:11 ../key_words_html.php:25 ../key_words_html.php:57
+#: ../Grids/Emails/DataGridView.php:54
+#: ../Grids/Emails/Groups/DataGridView.php:46
+#: ../Grids/Template/DataGridView.php:44 ../I18N/key_words_html.php:11
+#: ../I18N/key_words_html.php:25 ../I18N/key_words_html.php:57
+msgid "Edit"
+msgstr "Modifier"
+
+#: key_words_html.php:12 key_words_html.php:26 key_words_html.php:58
+#: ../key_words_html.php:12 ../key_words_html.php:26 ../key_words_html.php:58
+#: ../Grids/Emails/DataGridView.php:60
+#: ../Grids/Emails/Groups/DataGridView.php:50
+#: ../Grids/Template/DataGridView.php:50 ../I18N/key_words_html.php:12
+#: ../I18N/key_words_html.php:26 ../I18N/key_words_html.php:58
+msgid "Delete"
+msgstr "Supprimer"
+
+#: key_words_html.php:13 ../key_words_html.php:13
+#: ../Grids/Emails/DataGridView.php:49 ../I18N/key_words_html.php:13
+msgid "Online"
+msgstr "En ligne"
+
+#: key_words_html.php:14 ../key_words_html.php:14
+#: ../I18N/key_words_html.php:14
+msgid "Offline"
+msgstr "Hors ligne"
+
+#: key_words_html.php:18 ../key_words_html.php:18
+#: ../Forms/Emails/Groups/Form.php:40
+#: ../Grids/Emails/Groups/DataGridView.php:40 ../I18N/key_words_html.php:18
+msgid "Name"
+msgstr "Nom"
+
+#: key_words_html.php:19 ../key_words_html.php:19
+#: ../Forms/Emails/Groups/Form.php:45 ../I18N/key_words_html.php:19
+msgid "Description"
+msgstr "Description"
+
+#: key_words_html.php:20 key_words_html.php:38 key_words_html.php:45
+#: key_words_html.php:52 ../key_words_html.php:20 ../key_words_html.php:38
+#: ../key_words_html.php:45 ../key_words_html.php:52
+#: ../Forms/Emails/Form.php:53 ../Forms/Emails/Groups/Form.php:49
+#: ../Forms/Template/Form.php:51 ../I18N/key_words_html.php:20
+#: ../I18N/key_words_html.php:38 ../I18N/key_words_html.php:45
+#: ../I18N/key_words_html.php:52
+msgid "Navigation"
+msgstr "Navigation"
+
+#: key_words_html.php:22 ../key_words_html.php:22
+#: ../I18N/key_words_html.php:22
+msgid "List groups"
+msgstr "Liste des Groupes"
+
+#: key_words_html.php:23 ../key_words_html.php:23
+#: ../I18N/key_words_html.php:23
+msgid "Group name"
+msgstr "Nom du groupe"
+
+#: key_words_html.php:30 ../key_words_html.php:30 ../Backend/Boot.php:30
+#: ../Backend/Boot.php:57 ../Backend/Controllers/Import.php:52
+#: ../I18N/key_words_html.php:30
+msgid "Import"
+msgstr "Importer"
+
+#: key_words_html.php:31 ../key_words_html.php:31
+#: ../I18N/key_words_html.php:31
+msgid "Select file"
+msgstr "Sélectionnez un fichier"
+
+#: key_words_html.php:32 ../key_words_html.php:32
+#: ../I18N/key_words_html.php:32
+msgid "The content of the file should look like this"
+msgstr "Le contenu du fichier devrait ressembler à ceci"
+
+#: key_words_html.php:33 ../key_words_html.php:33
+#: ../I18N/key_words_html.php:33
+msgid "Personal Name"
+msgstr "Nom"
+
+#: key_words_html.php:35 ../key_words_html.php:35
+#: ../I18N/key_words_html.php:35
+msgid "Import type"
+msgstr "Type d'importation"
+
+#: key_words_html.php:36 ../key_words_html.php:36
+#: ../I18N/key_words_html.php:36
+msgid "update"
+msgstr "Mettre à jour"
+
+#: key_words_html.php:37 ../key_words_html.php:37
+#: ../I18N/key_words_html.php:37
+msgid "delete"
+msgstr "Supprimer"
+
+#: key_words_html.php:43 ../key_words_html.php:43
+#: ../I18N/key_words_html.php:43
+msgid "Template"
+msgstr "Template"
+
+#: key_words_html.php:46 ../key_words_html.php:46
+#: ../I18N/key_words_html.php:46
+msgid "send newsletter"
+msgstr "Envoyer la newsletter"
+
+#: key_words_html.php:49 ../key_words_html.php:49 ../Backend/Boot.php:27
+#: ../I18N/key_words_html.php:49
+msgid "Templates"
+msgstr "Templates"
+
+#: key_words_html.php:50 ../key_words_html.php:50
+#: ../Forms/Template/Form.php:39 ../Grids/Template/DataGridView.php:40
+#: ../I18N/key_words_html.php:50
+msgid "Title"
+msgstr "Titre"
+
+#: key_words_html.php:51 ../key_words_html.php:51
+#: ../Forms/Template/Form.php:43 ../I18N/key_words_html.php:51
+msgid "Content"
+msgstr "Contenue"
+
+#: key_words_html.php:54 ../key_words_html.php:54
+#: ../I18N/key_words_html.php:54
+msgid "List templates"
+msgstr "Liste des Temlates"
+
+#: key_words_html.php:55 ../key_words_html.php:55
+#: ../I18N/key_words_html.php:55
+msgid "Template title"
+msgstr "Nom du template"
+
+#: key_words_html.php:60 ../key_words_html.php:60
+#: ../I18N/key_words_html.php:60
+msgid "Newsletter Subscription"
+msgstr "Abonnement du Newsletter"
+
+#: key_words_html.php:61 ../key_words_html.php:61
+#: ../I18N/key_words_html.php:61
+msgid "Back"
+msgstr "Retour"
+
+#: key_words_html.php:62 ../I18N/key_words_html.php:62
+msgid "Faild to add email to newsletter!"
+msgstr "Impossible d'ajouter e-mail à la newsletter!"
+
+#: ../key_words_html.php:62
+msgid "Add / Edit E-Mail"
+msgstr "Ajouter /Modifier E-Mail"
+
+#: ../key_words_html.php:63 ../Grids/Emails/DataGridView.php:41
+msgid "E-Mail address"
+msgstr "Adresse e-mail"
+
+#: ../key_words_html.php:64
+msgid "List E-Mails"
+msgstr "Liste des Emails"
+
+#: ../Backend/Boot.php:29
+msgid "E-mails"
+msgstr "E-mails"
+
+#: ../Backend/Boot.php:31
+msgid "Send E-mails"
+msgstr "Envoyer e-mail"
+
+#: ../Backend/Boot.php:50
+msgid "Newsletter Module"
+msgstr "Module Newsletter"
+
+#: ../Backend/Boot.php:51
+msgid "Manage Templates"
+msgstr "Gérer les Templates"
+
+#: ../Backend/Boot.php:52
+msgid "Manage groups"
+msgstr "Gérer les groupes"
+
+#: ../Backend/Boot.php:53
+msgid "Add group"
+msgstr "Ajouter Groupe "
+
+#: ../Backend/Boot.php:54
+msgid "Edit group"
+msgstr "Modifier le groupe"
+
+#: ../Backend/Boot.php:55
+msgid "Delete group"
+msgstr "Supprimer le groupe"
+
+#: ../Backend/Boot.php:56
+msgid "Manage Emails"
+msgstr "Gérer les email"
+
+#: ../Backend/Boot.php:58
+msgid "Sendemails"
+msgstr "Envoyer  e-mail"
+
+#: ../Backend/Controllers/Import.php:84
+msgid "Invalid File Format!"
+msgstr "Format de fichier incorrect!"
+
+#: ../Backend/Controllers/Import.php:105
+msgid "Import saved"
+msgstr "Importation sauver"
+
+#: ../Backend/Controllers/Import.php:112
+msgid "Import not saved"
+msgstr "Importation non sauver"
+
+#: ../Backend/Controllers/Sendemails.php:53
+msgid "Send E-Mails"
+msgstr "Envoyer des e-mails"
+
+#: ../Backend/Controllers/Sendemails.php:98
+msgid "E-Mails sent"
+msgstr "E-mails envoyés"
+
+#: ../Backend/Controllers/Sendemails.php:105
+msgid "Error by sending E-Mails"
+msgstr "Erreur en envoyant des e-mails"
+
+#: ../Backend/Controllers/Emails/Add.php:34
+msgid "Add Email"
+msgstr "Ajouter Email"
+
+#: ../Backend/Controllers/Emails/Add.php:51
+#: ../Backend/Controllers/Emails/Modify.php:60
+#: ../Backend/Controllers/Emails/Groups/Add.php:49
+#: ../Backend/Controllers/Emails/Groups/Modify.php:60
+#: ../Backend/Controllers/Template/Add.php:49
+#: ../Backend/Controllers/Template/Modify.php:60
+msgid "Please check inputs."
+msgstr "S'il vous plaît vérifier les entrées."
+
+#: ../Backend/Controllers/Emails/List.php:37
+msgid "List Email"
+msgstr "Liste des Email"
+
+#: ../Backend/Controllers/Emails/Modify.php:33
+msgid "Modify Email"
+msgstr "Modifier Email"
+
+#: ../Backend/Controllers/Emails/Groups/Add.php:33
+msgid "Add Email Group"
+msgstr "Ajouter Groupe d'Email "
+
+#: ../Backend/Controllers/Emails/Groups/List.php:37
+msgid "List Email Groups"
+msgstr "Liste des Groupe d'email"
+
+#: ../Backend/Controllers/Emails/Groups/Modify.php:33
+msgid "Modify Email Group"
+msgstr "Modifier Groupe Email "
+
+#: ../Backend/Controllers/Template/Add.php:33
+msgid "Add NewsLetter Template"
+msgstr "Ajouter une template "
+
+#: ../Backend/Controllers/Template/List.php:37
+msgid "List Newsletter Template"
+msgstr "Liste des templates"
+
+#: ../Backend/Controllers/Template/Modify.php:33
+msgid "Modify Newsletter template"
+msgstr "Modifier template"
+
+#: ../Forms/Emails/Form.php:40 ../Forms/Emails/Groups/Form.php:39
+msgid "General Informations"
+msgstr "Informations générales"
+
+#: ../Forms/Emails/Form.php:41
+msgid "Email"
+msgstr "Email"
+
+#: ../Forms/Emails/Form.php:54 ../Forms/Emails/Groups/Form.php:50
+#: ../Forms/Template/Form.php:46
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: ../Forms/Template/Form.php:48
+msgid "NewsLetter Template Information"
+msgstr "Information sur Template"
+
+#: ../Frontend/Controllers/Addtonewsletter.php:45
+#: ../Frontend/Controllers/Addtonewsletter.php:58
+#: ../Frontend/Controllers/Addtonewsletter.php:86
+msgid "Please Enter a valid email"
+msgstr "S'il vous plaît entrer une adresse email valide"
+
+#: ../Frontend/Controllers/Addtonewsletter.php:54
+msgid "Following email is already registered in the newsletter system."
+msgstr "Email est déjà enregistrée dans le système de newsletter."
+
+#: ../Frontend/Controllers/Addtonewsletter.php:80
+msgid ""
+"The following E-Mail-Address has been successfully added to our newsletter"
+msgstr ""
+"L'adresse e-mail ci-dessous a été ajouté avec succès à notre newsletter"
+
+#: ../Grids/Emails/Groups/DataGridView.php:43
+msgid "Desciption"
+msgstr "Desciption"
+
+#~ msgid "E-Mails"
+#~ msgstr "E-Mails"
+
+#~ msgid "E-Mail not saved"
+#~ msgstr "E-Mail pas enregistré"
+
+#~ msgid "Data deleted successfully."
+#~ msgstr "Les données supprimées avec succès."
+
+#~ msgid "Data set enabled, successfully."
+#~ msgstr "Ensemble de données activée, avec succès."
+
+#~ msgid "Data set disabled, successfully."
+#~ msgstr "Ensemble de données désactivée, avec succès."
+
+#~ msgid "E-Mail groups"
+#~ msgstr "Groupes des Email"
+
+#~ msgid "E-Mail group not saved"
+#~ msgstr "Groupe E-Mail pas enregistré"
+
+#~ msgid "Templates not saved"
+#~ msgstr "Modèles non enregistrés"

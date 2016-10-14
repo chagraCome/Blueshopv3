@@ -1,0 +1,58 @@
+<fieldset>
+  <legend>{'Newsletter'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+
+<fieldset>
+  <legend>
+    <!-- begin action -->
+    <span class="list"><a href="admin.php?module=newsletter&amp;page=groups">{'Groups'|tr}</a></span>
+    <span class="list"><a href="admin.php?module=newsletter&amp;page=emails">{'List Emails'|tr}</a></span>
+    <!-- end action -->
+  </legend>
+  <form name="step1" action="" method="post" style="display:inline">
+    <div class="panel">
+      {fieldset name="step1_send_emails" title='Send E-Mails'|tr}
+      <table>
+        <tr>
+          <td>{'Template'|tr}</td>
+          <td><select name="newsletter_templates_id" id="newsletter_templates_id">
+              {foreach $templates as $template}
+              <option value="{$template->id}">{$template->title}</option>
+              {/foreach}
+            </select></td>
+        </tr>
+        <tr>
+          <td>{'Group'|tr}</td>
+          <td><select name="newsletter_email_groups_id" id="newsletter_email_groups_id">
+              {foreach $groups as $group}
+              <option value="{$group->id}">{$group->name}</option>
+              {/foreach}
+            </select></td>
+        </tr>
+	<tr>
+          <td>{'Outgoing Email'|tr}</td>
+          <td><select name="outgoing_id" id="newsletter_outgoing_id">
+              {foreach $outgoing as $out}
+              <option value="{$out->id}">{$out->email}</option>
+              {/foreach}
+            </select></td>
+        </tr>
+      </table>
+      {/fieldset}
+      {fieldset name="page_navigation" title='Navigation'|tr}
+      <table width="100%">
+        <tr>
+	  {if $current_lang == 'ar'}
+	  <td align="right"><input name="save" type="submit" id="save" class="ButtonSave" value="{'send newsletter'|tr}" /></td>
+          {/if}
+	  {if $current_lang != 'ar'}
+          <td align="left"><input name="save" type="submit" id="save" class="ButtonSave" value="{'send newsletter'|tr}" /></td>
+          {/if}
+          <td align="right"></td>
+        </tr>
+      </table>
+      {/fieldset}
+    </div>
+  </form>
+</fieldset>

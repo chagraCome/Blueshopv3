@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module>
+    <name>Payment</name>
+    <businessname>Payment Management Module</businessname>
+    <version>1.0</version>
+    <build>1</build>
+    <builddate>2013-02-15 08:52:14</builddate>
+    <description>Payment Module: Manage and SetUp Payment Methods</description>
+    <updates>
+        <update>
+            <version>1.2</version>
+            <build>1</build>
+            <builddate>2014-01-30 12:38:39</builddate>
+            <description>Fix sortid issue</description>
+        </update>
+        <update>
+            <version>1.3</version>
+            <build>1</build>
+            <builddate>2014-11-12 12:38:39</builddate>
+            <description>Add Multilanguage</description>
+        </update>
+
+    </updates>    
+</module>

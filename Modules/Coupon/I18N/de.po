@@ -1,0 +1,459 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Coupon\n"
+"POT-Creation-Date: 2014-03-17 13:17+0100\n"
+"PO-Revision-Date: 2014-03-17 13:19+0100\n"
+"Last-Translator: Amir Cherif <amir.cherif@amhsoft.com>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../Backend/Boot.php:29
+msgid "Coupon"
+msgstr "Gutschein"
+
+#: ../Backend/Boot.php:30
+msgid "Manage Coupons"
+msgstr "Gutscheine verwalten"
+
+#: ../Backend/Boot.php:31
+msgid "Statistics"
+msgstr "Statistiken"
+
+#: ../Backend/Boot.php:32
+msgid "Manage Settings"
+msgstr "Einstellungen verwalten"
+
+#: ../Backend/Boot.php:36 ../key_words_html.php:53
+#, fuzzy
+msgid "Coupon Module"
+msgstr "Gutscheincode"
+
+#: ../Backend/Boot.php:37
+#, fuzzy
+msgid "List all Coupon"
+msgstr "Alle Gutschein auflisten"
+
+#: ../Backend/Boot.php:38 ../Backend/Controllers/.php:30
+#: ../Backend/Controllers/Add.php:30 ../key_words_html.php:10
+#: ../key_words_html.php:14 ../key_words_html.php:19 ../key_words_html.php:23
+#: ../key_words_html.php:26 ../key_words_html.php:30 ../key_words_html.php:38
+#: ../key_words_html.php:42 ../key_words_html.php:47 ../key_words_html.php:51
+msgid "Add new Coupon"
+msgstr "Neuen Gutscheine hinzufügen"
+
+#: ../Backend/Boot.php:39
+#, fuzzy
+msgid "Show Coupon Information"
+msgstr "Gutschein Informationen"
+
+#: ../Backend/Boot.php:40 ../Backend/Controllers/Modify.php:29
+msgid "Modify Coupon"
+msgstr "Gutscheinändern"
+
+#: ../Backend/Boot.php:41
+#, fuzzy
+msgid "Delete Coupon"
+msgstr "Gratis Gutscheine"
+
+#: ../Backend/Boot.php:42
+msgid "Set Coupon Offline"
+msgstr "Stellen Sie Offline-Coupon"
+
+#: ../Backend/Boot.php:43
+#, fuzzy
+msgid "Set Coupon Online"
+msgstr "Gutscheincode editieren"
+
+#: ../Backend/Controllers/.php:46 ../Backend/Controllers/Add.php:46
+#: ../Backend/Controllers/Code/Add.php:55
+#: ../Backend/Controllers/Code/Modify.php:71
+#: ../Backend/Controllers/Modify.php:54
+msgid "Please check inputs."
+msgstr "Bitte Eingaben überprüfen"
+
+#: ../Backend/Controllers/Code/Add.php:35
+msgid "Add new Coupon Code"
+msgstr "Neuen Gutscheincode hinzufügen"
+
+#: ../Backend/Controllers/Code/Detail.php:42
+#: ../Backend/Controllers/Detail.php:50
+msgid "Coupon Details"
+msgstr "GutscheinDetails"
+
+#: ../Backend/Controllers/Code/Detail.php:44
+msgid "Coupon Code Details"
+msgstr "Gutscheincode Details"
+
+#: ../Backend/Controllers/Code/Detail.php:57 ../Forms/Setting/Form.php:62
+msgid "Coupon Template"
+msgstr "GutscheinVorlage"
+
+#: ../Backend/Controllers/Code/Detail.php:61
+msgid "Send Email"
+msgstr "Email senden"
+
+#: ../Backend/Controllers/Code/Detail.php:69
+msgid "Coupon Informations"
+msgstr "Gutschein Informationen"
+
+#: ../Backend/Controllers/Code/Detail.php:83
+msgid "Related Sales Order"
+msgstr "Angebundene Bestellung"
+
+#: ../Backend/Controllers/Code/Generate.php:29
+#: ../Backend/Controllers/Detail.php:77
+msgid "Generate Coupon Codes"
+msgstr "Gutscheincode generieren"
+
+#: ../Backend/Controllers/Code/Generate.php:30
+msgid "Generations Informations"
+msgstr "Allgemeine Informationen"
+
+#: ../Backend/Controllers/Code/Generate.php:40
+msgid "Check number of code must be number"
+msgstr "Anreise Anzahl der Code muss numerisch sein"
+
+#: ../Backend/Controllers/Code/Generate.php:45
+#, fuzzy
+msgid "Check number of code"
+msgstr "Nummer der Codes"
+
+#: ../Backend/Controllers/Code/Generate.php:53
+msgid "Number of codes"
+msgstr "Nummer der Codes"
+
+#: ../Backend/Controllers/Code/Generate.php:59 ../Forms/Code/Form.php:47
+msgid "Expire Date"
+msgstr "Ablaufdatum"
+
+#: ../Backend/Controllers/Code/Generate.php:63
+msgid "Generate"
+msgstr "Generieren"
+
+#: ../Backend/Controllers/Code/Generate.php:76
+msgid "Please Check inputs"
+msgstr "Bitte Eingaben überprüfen"
+
+#: ../Backend/Controllers/Code/Modify.php:29
+msgid "Edit Coupon Code"
+msgstr "Gutscheincode editieren"
+
+#: ../Backend/Controllers/Detail.php:48
+msgid "General Informations"
+msgstr "Allgemeine Informationen"
+
+#: ../Backend/Controllers/Detail.php:58
+msgid "Coupon Codes"
+msgstr "Gutscheincode"
+
+#: ../Backend/Controllers/Detail.php:74
+msgid "Add New Coupon Code"
+msgstr "Neuen Gutscheincode hinzufügen"
+
+#: ../Backend/Controllers/Detail.php:80
+msgid "Download As Csv"
+msgstr "Als .Csv Dateil runterladen"
+
+#: ../Backend/Controllers/Detail.php:83
+msgid "Import From Csv"
+msgstr "Import aus CSV"
+
+#: ../Backend/Controllers/Import/Csv.php:36
+msgid "Import Codes from Csv file"
+msgstr "Import Codes von CSV-Datei "
+
+#: ../Backend/Controllers/Import/Csv.php:58
+msgid "Failed to load file"
+msgstr "Datei konnte nicht geladen werden"
+
+#: ../Backend/Controllers/Import/Csv.php:99
+msgid "Failed to upload codes"
+msgstr "Fehler beim laden Codes"
+
+#: ../Backend/Controllers/List.php:41
+msgid "List All Coupons"
+msgstr "Alle Gutschein auflisten"
+
+#: ../Backend/Controllers/Setting.php:29
+msgid "Coupon Settings"
+msgstr "Gutschein Einstellungen"
+
+#: ../Backend/Controllers/Setting.php:30
+msgid "Manage Coupon Settings"
+msgstr "Gutschein Einstellungen verwalten"
+
+#: ../Backend/Controllers/Setting.php:51
+msgid "Please Check Inputs"
+msgstr "Bitte Eingaben überprüfen"
+
+#: ../Backend/Controllers/Statistics.php:27
+#: ../Backend/Controllers/Statistics.php:29
+msgid "Coupon Statistics"
+msgstr "Gutschein Statistiken"
+
+#: ../Backend/Controllers/Statistics.php:45
+msgid "Expired Coupons"
+msgstr "Abgelaufene Gutscheine"
+
+#: ../Backend/Controllers/Statistics.php:46
+#: ../Backend/Controllers/Statistics.php:57
+#: ../Backend/Controllers/Statistics.php:67
+msgid "Count"
+msgstr "Anzahl"
+
+#: ../Backend/Controllers/Statistics.php:48
+msgid "Expired Code"
+msgstr "Abgelaufener Code"
+
+#: ../Backend/Controllers/Statistics.php:56
+msgid "Used Coupons"
+msgstr "Benutzte Gutscheine"
+
+#: ../Backend/Controllers/Statistics.php:66
+msgid "Free Coupons"
+msgstr "Gratis Gutscheine"
+
+#: ../Backend/Controllers/Statistics.php:76
+msgid "Total Coupons Amounts"
+msgstr "Gesamte Gutscheinbeträge"
+
+#: ../Backend/Controllers/Statistics.php:77
+msgid "Total Amount"
+msgstr "Gesamter Betrag"
+
+#: ../Backend/Controllers/Statistics.php:86
+msgid "Total Used Coupons Amounts"
+msgstr "Gesamte benutzte Gutscheinbeträgeeträge"
+
+#: ../Backend/Controllers/Statistics.php:87
+msgid "Total Used Amount"
+msgstr "Gesamter benutzter Betrag"
+
+#: ../Backend/Controllers/Statistics.php:96
+msgid "Total Expired Coupons Amounts"
+msgstr "Gesamte abgelaufene  Gutscheinbeträge"
+
+#: ../Backend/Controllers/Statistics.php:97
+msgid "Total Expired Amount"
+msgstr "Gesamter abgelaufener Betrag"
+
+#: ../Backend/Controllers/Statistics.php:106
+msgid "Total Free Coupons Amounts"
+msgstr "Gesamte gratis Gutscheinbeträge"
+
+#: ../Backend/Controllers/Statistics.php:107
+msgid "Total Free Amount"
+msgstr "Gesamter gratis Betrag"
+
+#: ../Forms/Code/Form.php:33
+#, fuzzy
+msgid "Coupon code"
+msgstr "Gutscheincode"
+
+#: ../Forms/Code/Form.php:35 ../Forms/Import/Form.php:27
+#: ../Grids/Code/DataGridView.php:37 ../Panels/Code/Panel.php:35
+#: ../Panels/Code/Panel.php:36
+msgid "Code"
+msgstr "Code"
+
+#: ../Forms/Code/Form.php:41 ../Grids/Code/DataGridView.php:53
+msgid "State"
+msgstr "Status"
+
+#: ../Forms/Code/Form.php:52 ../Forms/Form.php:60 ../Forms/Setting/Form.php:75
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../Forms/Code/Form.php:53 ../Forms/Form.php:61 ../Forms/Setting/Form.php:67
+msgid "Save"
+msgstr "Speichern"
+
+#: ../Forms/Form.php:37
+#, fuzzy
+msgid "Add Coupon"
+msgstr "Neuen Gutscheine hinzufügen"
+
+#: ../Forms/Form.php:38 ../Grids/DataGridView.php:38 ../Panels/Panel.php:57
+msgid "Name"
+msgstr "Name"
+
+#: ../Forms/Form.php:42 ../Grids/DataGridView.php:43 ../Panels/Panel.php:58
+msgid "Type"
+msgstr "Typ"
+
+#: ../Forms/Form.php:47 ../Grids/DataGridView.php:48 ../Panels/Panel.php:59
+msgid "Amount"
+msgstr "Betrag"
+
+#: ../Forms/Form.php:50 ../Panels/Panel.php:60
+msgid "Percent"
+msgstr "Prozent"
+
+#: ../Forms/Form.php:53
+msgid "Minum Shopping Cart Amount"
+msgstr "Min. Betrag für Einkaufswagen"
+
+#: ../Forms/Form.php:56 ../Panels/Panel.php:62
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: ../Forms/Form.php:58 ../Panels/Panel.php:63
+msgid "Physical"
+msgstr "Physisch"
+
+#: ../Forms/Import/Form.php:27
+msgid "Notice :Csv Must be Like :  "
+msgstr "Hinweis: CSV muss wie sein:"
+
+#: ../Forms/Import/Form.php:27
+#, fuzzy
+msgid "Expiration Date"
+msgstr "Ablaufdatum"
+
+#: ../Forms/Import/Form.php:29
+msgid "File to upload"
+msgstr "Datei hochladen"
+
+#: ../Forms/Import/Form.php:29
+#, fuzzy
+msgid "Upload Csv"
+msgstr "Als .Csv Dateil runterladen"
+
+#: ../Forms/Import/Form.php:35
+msgid "Upload"
+msgstr "Laden"
+
+#: ../Forms/Setting/Form.php:39
+msgid "Number of code blocks"
+msgstr "Nummer von Code Blöcken"
+
+#: ../Forms/Setting/Form.php:44
+msgid "Number of Caracter per block"
+msgstr "Nummer von Buchstaben pro Block"
+
+#: ../Forms/Setting/Form.php:49
+msgid "Block Separator"
+msgstr "Block Seperator"
+
+#: ../Forms/Setting/Form.php:51
+msgid "You can add block Separator like : - , * , + , / , ."
+msgstr "Sie können Block Seperator hinzufügen wie zb.  : - , * , + , / , ."
+
+#: ../Forms/Setting/Form.php:55
+msgid "Generate Code Using this Caracters"
+msgstr "Code generieren und diese Buchstaben benutzen"
+
+#: ../Forms/Verify/Form.php:33
+msgid "Promotion Code"
+msgstr "Gutscheincode"
+
+#: ../Forms/Verify/Form.php:37
+msgid "Security Code"
+msgstr "Sicherheitscode"
+
+#: ../Forms/Verify/Form.php:40
+msgid "Checkout Now"
+msgstr "Jetzt auschecken"
+
+#: ../Forms/Verify/Form.php:43
+msgid "Back"
+msgstr "Zurück"
+
+#: ../Frontend/Controllers/Verify.php:39
+msgid "Please check your inputs"
+msgstr "Bitte Eingaben überprüfen"
+
+#: ../Frontend/Controllers/Verify.php:55 ../Frontend/Controllers/Verify.php:60
+msgid "Promotion Code was expired on :"
+msgstr "Gutscheincode ist abgelaufen am:"
+
+#: ../Frontend/Controllers/Verify.php:66
+msgid "Invalid Promtion Code"
+msgstr "Falscher Gutscheincode "
+
+#: ../Grids/Code/DataGridView.php:43 ../Grids/DataGridView.php:53
+#: ../Panels/Code/Panel.php:37 ../Panels/Panel.php:65
+msgid "Insert Date"
+msgstr "Eingefügt am"
+
+#: ../Grids/Code/DataGridView.php:48
+msgid "Expire Date"
+msgstr "Läuft ab am"
+
+#: ../Grids/Code/DataGridView.php:58 ../Grids/DataGridView.php:68
+msgid "Edit"
+msgstr "Editieren"
+
+#: ../Grids/Code/DataGridView.php:63 ../Grids/DataGridView.php:76
+#: ../Models/Import/Code/Model.php:38
+msgid "Delete"
+msgstr "Löschen"
+
+#: ../Grids/DataGridView.php:58 ../Panels/Panel.php:64
+msgid "Created By"
+msgstr "Erstellt von"
+
+#: ../Grids/DataGridView.php:63
+msgid "Codes"
+msgstr "Codes"
+
+#: ../Grids/DataGridView.php:73
+msgid "Online"
+msgstr "Online"
+
+#: ../Models/Code/Model.php:186
+msgid "Free Shipping"
+msgstr "Kostenlose Lieferung"
+
+#: ../Models/Code/Model.php:187
+msgid "Min Shopping Cart Amount"
+msgstr "Min. Betrag für Einkaufswagen"
+
+#: ../Panels/Code/Panel.php:38
+msgid "Expire Date"
+msgstr "Läuft ab am"
+
+#: ../Panels/Panel.php:61
+msgid "Minimum Shopping Cart Amount"
+msgstr "Min. Betrag für Einkaufswagen"
+
+#: ../Panels/Panel.php:66
+msgid "Update Date"
+msgstr "Aktualisiert am"
+
+#: ../key_words_html.php:3
+msgid "Verify Coupon Promotion Code"
+msgstr "Gutscheincode  verifizieren"
+
+#: ../key_words_html.php:5 ../key_words_html.php:9 ../key_words_html.php:13
+#: ../key_words_html.php:18 ../key_words_html.php:22 ../key_words_html.php:25
+#: ../key_words_html.php:29 ../key_words_html.php:33 ../key_words_html.php:37
+#: ../key_words_html.php:41 ../key_words_html.php:46 ../key_words_html.php:50
+msgid "Information"
+msgstr "Informationen"
+
+#: ../key_words_html.php:6 ../key_words_html.php:34
+msgid "Add new Request"
+msgstr "Neue Anfrage hinzufügen"
+
+#: ../key_words_html.php:7 ../key_words_html.php:35
+msgid "List Requests"
+msgstr "Alle Anfragen auflisten"
+
+#: ../key_words_html.php:11 ../key_words_html.php:15 ../key_words_html.php:20
+#: ../key_words_html.php:27 ../key_words_html.php:31 ../key_words_html.php:39
+#: ../key_words_html.php:43 ../key_words_html.php:48 ../key_words_html.php:52
+msgid "List Coupons"
+msgstr "Alle Gutscheine auflisten"
+
+#: ../key_words_html.php:16 ../key_words_html.php:44
+msgid "Edit Coupon"
+msgstr "Gutschein editieren"

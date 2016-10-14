@@ -1,0 +1,16 @@
+<div class="core_content" >
+    <h1>{'Your Messages'|tr}</h1> 
+    <div style="margin: 30px;">
+        <table border="1" cellspacing="10">
+            {foreach $messages as $message}
+            <tr>
+                <td>{$message->getSubject()}</td>
+                <td>{$message->getAuthor_name()}</td>
+                <td>{$message->getComment()}</td>
+            </tr>
+            {foreachelse}
+            {'You have 0 messages'|tr}
+            {/foreach}
+        </table>
+    </div>
+</div>

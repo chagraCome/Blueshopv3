@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: modules\n"
+"POT-Creation-Date: 2013-10-08 12:14+0100\n"
+"PO-Revision-Date: 2013-10-08 12:17+0100\n"
+"Last-Translator: Amir Cherif <amir.cherif@amhsoft.com>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../key_words_html.php:3
+msgid "Information"
+msgstr "Information"
+
+#: ../key_words_html.php:6
+msgid "Comment and Rating"
+msgstr "Kommentar & Bewertung"
+
+#: ../key_words_html.php:7
+msgid "Quality"
+msgstr "Qualität"
+
+#: ../Backend/Boot.php:12
+msgid "Rating"
+msgstr "Bewertung"
+
+#: ../Backend/Boot.php:13
+msgid "Manage Rating Comments"
+msgstr "Bewertungskommentare verwalten"
+
+#: ../Backend/Controllers/Details.php:42
+#, fuzzy
+msgid "Project Details"
+msgstr "Projektinformationen"
+
+
+#: ../Forms/Form.php:40
+msgid "Rate Quality"
+msgstr "Bewertungsqualität"
+
+#: ../Forms/Form.php:45 ../Panels/Panel.php:36
+msgid "Name"
+msgstr "Name"
+
+#: ../Forms/Form.php:51 ../Panels/Panel.php:38
+msgid "Comment"
+msgstr "Kommentar"
+
+#: ../Forms/Form.php:55
+msgid "Security Code"
+msgstr "Sicherheitscode"
+
+#: ../Forms/Form.php:58
+msgid "Rate Now"
+msgstr "Jetzt Bewerten"
+
+#: ../Frontend/Controllers/Add.php:30
+msgid "Add new Rating"
+msgstr "Neue Bewertung hinzufügen"
+
+#: ../Frontend/Controllers/Add.php:47
+msgid "Please check inputs."
+msgstr "Bitte Eingaben überprüfen."
+
+#: ../Grids/DataGridView.php:35
+msgid "Visitor Name"
+msgstr "Besuchername"
+
+#: ../Grids/DataGridView.php:42
+msgid "Rate Date Time"
+msgstr "Datum"
+
+#: ../Grids/DataGridView.php:47
+msgid "Ip Address"
+msgstr "IP Adresse"
+
+#: ../Grids/DataGridView.php:53 ../Models/Model.php:175 ../Panels/Panel.php:37
+msgid "Rate"
+msgstr "Bewerten"
+
+#: ../Grids/DataGridView.php:58
+msgid "Online"
+msgstr "Online"
+
+#: ../Grids/DataGridView.php:63
+msgid "Delete"
+msgstr "Löschen"
+
+#: ../Panels/Panel.php:33
+#, fuzzy
+msgid "General Information"
+msgstr "Allgemeine Informationen"
+
+#: ../Panels/Panel.php:39
+#, fuzzy
+msgid "IP"
+msgstr "IP Adresse"

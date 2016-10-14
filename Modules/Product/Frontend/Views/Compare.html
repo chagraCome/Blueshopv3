@@ -1,0 +1,83 @@
+{$breadcrumb}
+<h2 class="tt_uppercase color_dark m_bottom_30" style="margin-top: 25px;">{'Compare Products'|tr}</h2>
+{if count($data_products) > 0}
+<!--compare products table-->
+<table class="table_type_2 responsive_table type_2 full_width r_corners wraper shadow t_align_l m_bottom_30">
+    <tbody>
+        <tr>
+            <!--titles for td-->
+            <th class="f_size_large d_xs_none">{'Product'|tr}</th>
+            {foreach $data_products as $dprod}
+            <td data-title="{$dprod.title}">
+                <a href="{$dprod.product_url}"><img class="m_bottom_10" src="{$dprod.image}" alt="" style="max-height: 100px;"></a><br>
+                <a href="{$dprod.product_url}" class="title fw_medium d_inline_b f_size_ex_large color_dark m_bottom_5">{$dprod.title|truncate:40:"..."}</a><br>
+                <a href="{$dprod.category_url}" class="default_t_color">{$dprod.category}</a>
+            </td>
+            {/foreach}
+        </tr>
+        <tr>
+            <!--price-->
+            <td class="f_size_large d_xs_none">{'Price'|tr}</td>
+            {foreach $data_prices as $pprice}
+            <td data-title="{'Price'|tr}">
+                <span class="fw_medium f_size_large scheme_color">{$pprice.price|price}</span>
+            </td>
+            {/foreach}
+        </tr>
+        <tr>
+            <!--description-->
+            <td class="f_size_large d_xs_none">{'Short Description'|tr}</td>
+            {foreach $data_descriptions as $ddesc}
+            <td data-title="{'Description'|tr}">
+                <p>{$ddesc.description|default:'N/A'}</p>
+            </td>
+            {/foreach}
+        </tr>
+        <tr>
+            <!--description-->
+            <td class="f_size_large d_xs_none">{'Manufacturer'|tr}</td>
+            {foreach $data_manufacturers as $pman}
+            <td data-title="{'Manufacturer'|tr}">
+                <p class="color_dark">{$pman.name|default:'N/A'}</p>
+            </td>
+            {/foreach}
+        </tr>
+        <tr>
+            <td class="f_size_large d_xs_none">{'Availability'|tr}</td>
+            {foreach $data_quantities as $pqnt}
+            <td data-title="{'Availability'|tr}">
+                <p>{if $pqnt.qnt > 0}{'in stock'|tr} {$pqnt.qnt} {'item'|tr} {else} {'Out of tock'|tr}{/if}</p>
+            </td>
+            {/foreach}
+        </tr>
+        {foreach $data_attributes as $attr}
+        <tr>
+            <td class="f_size_large d_xs_none">{$attr}</td>
+            {foreach $data_attributes_values[$attr] as $val}
+            <td data-title={$attr}>
+                <p>{$val}</p>
+            </td>
+            {/foreach}
+        </tr>
+        {/foreach}
+        <tr>
+            <!--action-->
+            <td class="f_size_large d_xs_none">{'Action'|tr}</td>
+            {foreach $data_products as $d}
+            <td data-title="{'Action'|tr}">
+                <a href="index.php?module=product&page=detail&id={$dprod.product_id}&event=cart&qnt=1" class="button_type_4 bg_scheme_color r_corners tr_all_hover color_light mw_0 m_bottom_10">{'Add to Cart'|tr}</a><br>
+                <br/>
+                <a href="index.php?module=product&amp;page=whishlist&amp;id={$d.product_id}" class="color_dark d_inline_b m_bottom_5"><i class="fa fa-heart-o m_right_5 f_size_large"></i>{'Add to Wishlist'|tr}</a><br>
+                <a href="index.php?module=product&amp;page=compare&amp;event=delete&amp;id={$d.product_id}" class="color_dark d_inline_b"><i class="fa fa-times m_right_5"></i>{'Remove'|tr}</a>
+            </td>
+            {/foreach }
+        </tr>
+    </tbody>
+</table>
+{else}
+<div class="alert_box r_corners info m_bottom_10">
+    <i class="fa fa-info-circle"></i><p>{'No product found to compare'|tr}</p>
+</div>
+{/if}
+<hr class="m_bottom_15 divider_type_3">
+<a href="index.php" role="button" class="d_inline_b bg_light_color_2 color_dark tr_all_hover button_type_4 r_corners"><i class="fa fa-reply m_left_5 m_right_10 f_size_large"></i>{'Back to: Shop home'|tr}</a>

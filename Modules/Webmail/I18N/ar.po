@@ -1,0 +1,418 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: webmail\n"
+"POT-Creation-Date: 2014-03-19 16:33+0100\n"
+"PO-Revision-Date: 2014-03-19 16:33+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: ../key_words_html.php:3 ../key_words_html.php:7 ../key_words_html.php:10
+#: ../key_words_html.php:14 ../key_words_html.php:17 ../key_words_html.php:21
+#: ../key_words_html.php:25 ../key_words_html.php:29
+msgid "Information"
+msgstr "معلومات"
+
+#: ../key_words_html.php:4 ../key_words_html.php:8 ../key_words_html.php:12
+#: ../key_words_html.php:15 ../key_words_html.php:19 ../Backend/Boot.php:48
+msgid "List Emails"
+msgstr "قائمة الرسائل البريدية"
+
+#: ../key_words_html.php:5
+msgid "Scan Emails"
+msgstr "فحص رسائل البريد الالكتروني"
+
+#: ../key_words_html.php:11
+msgid "Add new Email"
+msgstr "اضافة رسالة بريدية جديدة"
+
+#: ../key_words_html.php:18
+msgid "Add Emails"
+msgstr "اضافة رسالة بريدية"
+
+#: ../key_words_html.php:22 ../key_words_html.php:31
+msgid "List Email Accounts"
+msgstr "قائمة الحسابات البريدية"
+
+#: ../key_words_html.php:23 ../key_words_html.php:27 ../key_words_html.php:32
+msgid "Add Email Account"
+msgstr "اضافة حساب بريدي"
+
+#: ../key_words_html.php:26 ../key_words_html.php:34
+msgid "Mail Inbox"
+msgstr "صندوق البريد الالكتروني"
+
+#: ../key_words_html.php:33 ../Backend/Controllers/Inbox/Email/List.php:73
+#: ../Models/Setting/Model.php:306 ../Models/Setting/Model.php:316
+#: ../Models/Setting/Model.php:334 ../Models/Setting/Model.php:344
+msgid "No Server Settings found"
+msgstr "اعدادت الخادم مفقودة"
+
+#: ../key_words_html.php:35
+msgid "List Email Account"
+msgstr "قائمة الحسابات البريدية"
+
+#: ../Backend/Boot.php:31
+msgid "Webmail"
+msgstr "البريد الالكتروني"
+
+#: ../Backend/Boot.php:37
+msgid "Manage Server Settings"
+msgstr "إدارة إعدادات الخادم"
+
+#: ../Backend/Boot.php:45
+msgid "Webmail Module"
+msgstr "إدارة البريد الالكتروني"
+
+#: ../Backend/Boot.php:46 ../Backend/Controllers/Email/Add.php:46
+msgid "Add Email"
+msgstr "اضافة بريد الكتروني"
+
+#: ../Backend/Boot.php:47
+msgid "Delete Email"
+msgstr "حذف بريد الكتروني"
+
+#: ../Backend/Boot.php:49 ../Backend/Controllers/Email/Modify.php:34
+msgid "Modify Email"
+msgstr "تعديل البريد الإلكتروني"
+
+#: ../Backend/Boot.php:50
+msgid "List Emails Inbox"
+msgstr "قائمة الإيميلات الواردة"
+
+#: ../Backend/Boot.php:51
+msgid "Read Emails Inbox"
+msgstr "قراءة الإيميلات الواردة"
+
+#: ../Backend/Boot.php:52
+msgid "Add Webmail Setting"
+msgstr "اضافة صندوق بريد جديد"
+
+#: ../Backend/Boot.php:53
+msgid "Delete Webmail Setting"
+msgstr "حذف صندوق بريد"
+
+#: ../Backend/Boot.php:54
+msgid "List all Webmail Setting"
+msgstr "قائمة الصناديق البريدية"
+
+#: ../Backend/Boot.php:55
+msgid "Modify Webmail Setting"
+msgstr "تعديل الصندوق البريدي "
+
+#: ../Backend/Controllers/Email/Add.php:98
+#: ../Backend/Controllers/Email/Modify.php:117
+msgid "is not a valid email address"
+msgstr "البريد الالكتروني غير صحيح"
+
+#: ../Backend/Controllers/Email/Add.php:128
+#: ../Backend/Controllers/Email/Modify.php:150
+msgid "Email was successfully sent!"
+msgstr "تم إرسال البريد الإلكتروني بنجاح!"
+
+#: ../Backend/Controllers/Email/Add.php:168
+#: ../Backend/Controllers/Email/Modify.php:99
+#: ../Backend/Controllers/Setting/Add.php:59
+#: ../Backend/Controllers/Setting/Modify.php:69
+msgid "Please check inputs."
+msgstr "يرجى التحقق من المدخلات."
+
+#: ../Backend/Controllers/Email/List.php:37
+#, fuzzy
+msgid "List emails"
+msgstr "قائمة الرسائل البريدية"
+
+#: ../Backend/Controllers/Email/Modify.php:47 ../Forms/Email/Form.php:112
+#: ../Forms/Email/Form.php:116 ../Forms/Email/Form.php:118
+msgid "Attachement"
+msgstr "المرفقات"
+
+#: ../Backend/Controllers/Inbox/Email/List.php:30
+msgid "List Inbox Emails"
+msgstr "قائمة الرسائل البريدية"
+
+#: ../Backend/Controllers/Inbox/Email/List.php:32 ../Forms/Email/Form.php:81
+#: ../Grids/Email/DataGridView.php:44 ../Panels/Inbox/Email/Panel.php:41
+msgid "From"
+msgstr "مرسل من"
+
+#: ../Backend/Controllers/Inbox/Email/List.php:33 ../Forms/Email/Form.php:102
+#: ../Forms/Email/Form.php:104 ../Grids/Email/DataGridView.php:50
+#: ../Panels/Inbox/Email/Panel.php:42
+msgid "Subject"
+msgstr "الموضوع"
+
+#: ../Backend/Controllers/Inbox/Email/List.php:34
+#: ../Panels/Inbox/Email/Panel.php:43
+msgid "Date"
+msgstr "التاريخ"
+
+#: ../Backend/Controllers/Inbox/Email/List.php:36
+msgid "Assigned"
+msgstr "مُوجٌه"
+
+#: ../Backend/Controllers/Inbox/Email/List.php:40
+msgid "Open"
+msgstr "مفتوح"
+
+#: ../Backend/Controllers/Inbox/Email/List.php:90
+msgid "Email will be scanned"
+msgstr "سيتم فحص البريد الإلكتروني"
+
+#: ../Backend/Controllers/Inbox/Email/Read.php:42
+msgid "Read Email"
+msgstr "قراءة الرسالة الالكترونية"
+
+#: ../Backend/Controllers/Inbox/Email/Read.php:43
+msgid "Email Details"
+msgstr "تفاصيل البريد الإلكتروني"
+
+#: ../Backend/Controllers/Inbox/Email/Read.php:58
+msgid "Email was assigned to account"
+msgstr "البريد الالكتروني موجه  لحساب"
+
+#: ../Backend/Controllers/Inbox/Email/Read.php:70
+msgid "Email was assigned to contact"
+msgstr "البريد الالكتروني موجه الى  جهة اتصال"
+
+#: ../Backend/Controllers/Inbox/Email/Read.php:100
+msgid "Attachements"
+msgstr "مرفقات"
+
+#: ../Backend/Controllers/Setting/Add.php:33
+msgid "Add new Webmail account"
+msgstr "اضافة حساب بريد الكتروني جديد"
+
+#: ../Backend/Controllers/Setting/Add.php:84
+#: ../Backend/Controllers/Setting/Modify.php:87
+#: ../Models/Inbox/Email/Adapter.php:104
+msgid "Cannot establish connection to server: "
+msgstr "لا يمكن الاتصال بالخادم: "
+
+#: ../Backend/Controllers/Setting/List.php:37
+msgid "List of Webmail Acounts"
+msgstr "قائمة الحسابات الالكترونية"
+
+#: ../Backend/Controllers/Setting/Modify.php:33
+msgid "Modify Webmail Account"
+msgstr "تعديل الحساب البريدي"
+
+#: ../Forms/Email/Form.php:70
+msgid "Select from template"
+msgstr "اختر قالب"
+
+#: ../Forms/Email/Form.php:73
+msgid "Header"
+msgstr "رأس الرسالة الإلكترونية"
+
+#: ../Forms/Email/Form.php:87 ../Grids/Email/DataGridView.php:47
+msgid "To"
+msgstr "الى"
+
+#: ../Forms/Email/Form.php:92
+msgid "Cc"
+msgstr "إرسال نسخةإلى"
+
+#: ../Forms/Email/Form.php:96
+msgid "Bcc"
+msgstr "إرسال نسخة خفيةإلى"
+
+#: ../Forms/Email/Form.php:101
+msgid "Email Content"
+msgstr "محتوي الرسالة الإلكترونية"
+
+#: ../Forms/Email/Form.php:122
+msgid "Content"
+msgstr "المحتوى"
+
+#: ../Forms/Email/Form.php:127
+msgid "Action"
+msgstr "إختيار المهمة"
+
+#: ../Forms/Email/Form.php:129
+msgid "Save Email"
+msgstr "حفظ"
+
+#: ../Forms/Email/Form.php:132
+msgid "Send Email"
+msgstr "إرسال البريد الإلكتروني"
+
+#: ../Forms/Setting/Form.php:46 ../Grids/Setting/DataGridView.php:43
+msgid "Name"
+msgstr "الاسم"
+
+#: ../Forms/Setting/Form.php:49 ../Grids/Setting/DataGridView.php:46
+msgid "Email"
+msgstr "البريد الالكتروني"
+
+#: ../Forms/Setting/Form.php:52
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: ../Forms/Setting/Form.php:55 ../Grids/Setting/DataGridView.php:49
+#: ../Grids/Setting/DataGridView.php:78
+msgid "Type"
+msgstr "النوع"
+
+#: ../Forms/Setting/Form.php:60
+msgid "Server Type : Outgoing (Imap or Pop) , Incoming (SMTP)"
+msgstr "نوع الخادم: الصادر (IMAP أو POP)، الوارد (SMTP)"
+
+#: ../Forms/Setting/Form.php:61
+msgid "Host"
+msgstr "المضيف"
+
+#: ../Forms/Setting/Form.php:64
+msgid "Port"
+msgstr "المنفذ"
+
+#: ../Forms/Setting/Form.php:68
+msgid "Default port : 143"
+msgstr "المنفذ الافتراضي"
+
+#: ../Forms/Setting/Form.php:69
+msgid "Encryption"
+msgstr "التشفير"
+
+#: ../Forms/Setting/Form.php:72
+msgid "No Encryption"
+msgstr "بدون تشفير"
+
+#: ../Forms/Setting/Form.php:73
+msgid "SSL"
+msgstr "SSL"
+
+#: ../Forms/Setting/Form.php:74
+msgid "TLS"
+msgstr "TLS"
+
+#: ../Forms/Setting/Form.php:77
+msgid "Encryption : if you use ssl note to change port to 993"
+msgstr "التشفير: إذا كنت تستخدم SSL  يجب تغيير المنفذ إلى 993"
+
+#: ../Forms/Setting/Form.php:79
+msgid "Cert"
+msgstr "الشهادة"
+
+#: ../Forms/Setting/Form.php:81
+#, fuzzy
+msgid "Certificate : use 'validate-cert' if you have a valid Certificate"
+msgstr "شهادة: استخدام(التحقق من صحة شهادة) إذا كان لديك شهادة صالحة"
+
+#: ../Forms/Setting/Form.php:83
+msgid "Certificate is not valid"
+msgstr "الشهادة غير صالحة"
+
+#: ../Forms/Setting/Form.php:84
+msgid "Certificate is valid"
+msgstr "الشهادة صالحة"
+
+#: ../Forms/Setting/Form.php:89 ../Grids/Setting/DataGridView.php:52
+#: ../Grids/Setting/DataGridView.php:83
+msgid "Global"
+msgstr "عام"
+
+#: ../Forms/Setting/Form.php:90
+msgid "Signature"
+msgstr "التوقيع"
+
+#: ../Forms/Setting/Form.php:92
+msgid "Save"
+msgstr "حفظ"
+
+#: ../Forms/Setting/Form.php:94
+msgid "Authentication Information"
+msgstr "معلومات التحقق"
+
+#: ../Forms/Setting/Form.php:98
+msgid "Server Informations"
+msgstr "معلومات الخادم"
+
+#: ../Forms/Setting/Form.php:108
+msgid "Navigation"
+msgstr "التصفح"
+
+#: ../Grids/Email/DataGridView.php:53
+msgid "State"
+msgstr "الحالة"
+
+#: ../Grids/Email/DataGridView.php:56
+msgid "Create Date"
+msgstr "تاريخ الانشاء"
+
+#: ../Grids/Email/DataGridView.php:59
+msgid "Send Date"
+msgstr "تاريخ الارسال"
+
+#: ../Grids/Email/DataGridView.php:62 ../Grids/Setting/DataGridView.php:56
+msgid "Edit"
+msgstr "تعديل"
+
+#: ../Grids/Email/DataGridView.php:67 ../Grids/Setting/DataGridView.php:63
+msgid "Delete"
+msgstr "حذف"
+
+#: ../Grids/Setting/DataGridView.php:61
+msgid "Online"
+msgstr "مُفعٌل"
+
+#: ../Grids/Setting/DataGridView.php:79
+msgid "Incoming"
+msgstr "الوارد"
+
+#: ../Grids/Setting/DataGridView.php:79
+msgid "Outgoing"
+msgstr "الصادر"
+
+#: ../Models/Email/Model.php:277
+msgid "Sent"
+msgstr "تم الارسال"
+
+#: ../Models/Email/Model.php:280
+msgid "Draft"
+msgstr "مسودة"
+
+#: ../Models/Email/Model.php:283
+msgid "Failed"
+msgstr "فشل"
+
+#: ../Models/Email/Model.php:286
+msgid "Received"
+msgstr "تم الاستلام"
+
+#: ../Panels/Inbox/Email/Panel.php:44
+msgid "Body"
+msgstr "المحتوى"
+
+#: ../Panels/Inbox/Email/Panel.php:54
+msgid "Assign Email to Account"
+msgstr "توجيه البريد الالكتروني لحساب"
+
+#: ../Panels/Inbox/Email/Panel.php:58
+msgid "Assign Email to Contact"
+msgstr "توجيه البريد الالكتروني الى جهة الاتصال"
+
+#~ msgid "Email was successfully saved"
+#~ msgstr "تم حفظ البريد الإلكتروني بنجاح"
+
+#~ msgid "Email was successfully updated"
+#~ msgstr "تم تحديث البريد الإلكتروني بنجاح"
+
+#~ msgid "Account was successfully added"
+#~ msgstr "تم اضافة الحساب بنجاح"
+
+#~ msgid "Webmail Account was successfully modified"
+#~ msgstr "تم تعديل حساب البريد الالكتروني بنجاح"
+
+#, fuzzy
+#~ msgid "Validated Certificate"
+#~ msgstr "التحقق من صحة الشهاده"

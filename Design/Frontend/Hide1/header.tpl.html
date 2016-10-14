@@ -1,0 +1,150 @@
+<header class="header-area">
+    <!-- TOP-LINK START-->
+    <div class="top-link">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-6 col-md-6">
+                    <div class="top-link-left">
+                        <div class="call-us">{'Call us toll free'|tr}:<span>{$shop->tel}</span></div>
+                        <p> {if $loggedusername}
+                            {'Welcome'|tr}&nbsp;{$loggedusername}
+                            <a href="index.php?module=crm&page=intern-shop-logout"><b>{'Log Out'|tr}</b></a>
+                            {else}
+                            {'Welcome guest you can'|tr} <a href="index.php?module=crm&page=intern-shop-login"><b>{'Log In'|tr}</b></a>
+                            {'or'|tr} <a href="index.php?module=crm&page=intern-shop-register"><b>{'Create an Account'|tr}</b>{/if}</a> 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-6 col-md-6">
+                    <div class="top-link-right">
+                        <div class="righ-menu">
+                            <ul>
+                                <!--<li><a href="index.php?lang=en">English <i class="fa fa-caret-down"></i></a>
+                                        <ul>
+                                                <li class="active"><a href="#">English</a></li>
+                                                <li><a href="index.php?lang=ar">العربية</a></li>
+                                        </ul>
+                                </li>-->
+
+                                <!--language settings-->
+                                {if $current_lang == 'en'}
+                                <li>
+                                    <a href="index.php?lang=ar" >
+                                        العربية 
+                                    </a>
+                                </li>
+                                {/if}
+                                {if $current_lang == 'ar'}
+
+                                <li>
+                                    <a href="index.php?lang=en">
+                                        English
+                                    </a>
+                                </li>
+
+                                {/if}
+                            </ul>
+                        </div>
+                        <div class="righ-menu">
+                            <ul>
+                                <li><a href="JavaScript:void(0);" id="currency_button"> 
+                                         <span class="scheme_color">{$current_currency}</span> 
+                            <span class="d_mxs_none">
+                                <img src="{$current_currency_flag}" style="padding-right:5px; padding-left:5px; margin-top: 5px;">&nbsp;
+                            </span>
+                                       </a>
+                                    
+                                        <ul style="width:93px;">
+                            {foreach $locales as $local}
+                            <li>
+                                <a href="index.php?locale={$local.locale}" >
+                                    <img src="{$local.flag}" style="margin-top: 5px;">&nbsp;<span>{$local.symbol} </span>  
+                                </a>
+                            </li>
+                            {/foreach}
+                        </ul>
+                                        
+                                      
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TOP-LINK END-->
+    <!-- HEADER-CONTENT START-->
+    <div class="header-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-3 col-md-3">
+                    <div class="logo">
+                        {if $shop->shop_logo}
+                        <a href="index.php" class="logo m_xs_bottom_15 d_xs_inline_b">
+                            <img src="{$shop->shop_logo}" style="max-width: 230px;" >
+                        </a>
+                        {else}
+                        <a href="index.php" style="font-size: 18px; font-weight: bold;" class="logo m_xs_bottom_15 d_xs_inline_b">
+                            <h1>{if $current_lang == 'en'}{$shop->name_en}{else}{$shop->name_ar}{/if}</h1> 
+                        </a>
+                        {/if}
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 col-md-5">
+                    <div class="search-box">
+                        <form action="#" method="post">
+                            <div class="search-form">
+                                <input type="text" value="Search products..." onblur="{
+                                                                                    literal
+                                                                                }
+                                                                                if (this.value == '') {
+                                                                                    this.value = 'Search products...';
+                                                                                }" onfocus="if (this.value == 'Search products...') {
+                                                                                            this.value = '';
+                                                                                        }
+                                                                                        {
+                                                                                            /literal}">
+                                <button type="submit">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-3 col-md-4">
+                    <div class="user-menu">
+                        <ul>
+                            <li><a href="#"><img src="{$skin_path}/img/icon-user-white.png" alt=""></a>
+                                <span class="cart-position">2</span>
+                                <ul>
+                                    <li><a href="index.php?module=crm&page=intern-shop-home">{'My Account'|tr}</a></li>
+                                    <li><a href="index.php?module=saleorder&page=list">{'Checkout'|tr}</a></li>
+                                    <li><a href="index.php?module=crm&page=intern-shop-register">{'Log In'|tr}</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><img src="{$skin_path}/img/icon-cart-white.png" alt=""></a>
+
+                            </li>
+                            <li><a href="index.php?module=product&page=whishlist"><img src="{$skin_path}/img/icon-wishlist-white.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- HEADER-CONTENT END-->
+    <!-- MAIN-MENU-AREA-START -->
+
+
+
+    <!-- MAIN-MENU-AREA-END -->
+    <!-- MOBILE-MENU-AREA START -->
+
+
+    <!-- MOBILE-MENU-AREA END -->
+</header>
+{include file='menu_top.tpl.html'}
+
+

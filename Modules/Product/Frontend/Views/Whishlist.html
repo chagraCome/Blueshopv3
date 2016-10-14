@@ -1,0 +1,83 @@
+{$breadcrumb}
+
+<div class="page_content_offset">
+    <div class="container">
+        <div class="row clearfix">
+            <!--left content column-->
+            <section>
+                <h2 class="tt_uppercase color_dark m_bottom_20">{'My Wishlist'|tr}</h2>
+                <hr class="m_bottom_30 divider_type_3">
+                <!--wishlist table-->
+                {if $totalCount == 0 }
+                <div class="alert_box r_corners info m_bottom_10">
+                    <i class="fa fa-info-circle"></i><p>{'Your wishlist is empty'|tr}</p>
+                </div>
+                {else}
+                <table class="table_type_1 responsive_table full_width t_align_l r_corners wraper shadow bg_light_color_1 m_bottom_30">
+                    <thead>
+                        <tr class="f_size_large">
+                            <!--titles for td-->
+                            <th>{'Product Image'|tr}</th>
+                            <th>{'Product Name'|tr} &amp; {'Category'|tr}</th>
+                            <th>{'Price'|tr}</th>
+                            <th>{'Quantity'|tr}</th>
+                            <th>{'Action'|tr}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {foreach $Wproducts as $item}
+
+                        <tr id="prod-{$item->getId()}"> 
+                            <!--product image-->
+                            <td data-title="{'Product Image'|tr}"><a href="{$item->getUrl()}"><img src="{$item->getFirstThumb()|default:'media/noimage.jpg'}" alt=""></a></td>
+                            <!--product name and category-->
+                            <td data-title="{'Product Name'|tr}">
+                                <a href="{$item->getUrl()}" class="fw_medium d_inline_b f_size_ex_large color_dark m_bottom_5">{$item->getTitle()|truncate:60:"..."}</a><br>
+                                {if $item->getCategory()}<a href="#" class="default_t_color">{$item->getCategory()->getName()}</a>{/if}
+                            </td>
+                            <!--product price-->
+                            <td data-title="{'Price'|tr}">
+                                <span class="scheme_color fw_medium f_size_large">{$item->getSalePrice()|price}</span>
+                            </td>
+                            <!--quanity-->
+                            <td data-title="{'Quantity'|tr}">
+                                <div class="clearfix quantity r_corners d_inline_middle f_size_medium color_dark">
+                                    <button class="bg_tr d_block f_left" data-direction="down">-</button>
+                                    <input type="text" name="qnt" readonly="" id="qnt-{$item->getId()}" value="1" class="f_left">
+                                    <button class="bg_tr d_block f_left" data-direction="up">+</button>
+                                    <input type="hidden" name="id" value="{$item->getId()}">
+                                </div>
+                            </td>
+                            <!--add or remove buttons-->
+                            <td data-title="{'Action'|tr}">
+                                <a class="add_to_cart_from_whishlist button_type_4 bg_scheme_color r_corners tr_all_hover color_light mw_0 m_bottom_10" data-productid="{$item->getId()}">{'Add to Cart'|tr}</a><br>
+                                <a class="remove_from_whishlist color_dark" data-productid="{$item->getId()}"><i class="fa fa-times m_right_5"></i>{'Remove'|tr}</a>
+                            </td>
+                        </tr>
+                        {/foreach}
+
+
+                    </tbody>
+
+                </table>
+
+                <hr class="m_bottom_10 divider_type_3">
+
+                <div class="row clearfix m_bottom_40">
+
+                    <div class="col-lg-5 col-md-5 col-sm-5 t_align_r f_sx_none t_xs_align_l">
+
+                        <!--pagination-->
+                        {$pager}
+
+                    </div>
+
+                </div>
+                {/if}
+            </section>
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,8 @@
+<div class="text_center">
+<h2 class="tt_uppercase m_bottom_20 color_dark heading1 animate_ftr">{'New Products'|tr}</h2>
+<section class="products_container clearfix m_bottom_25 m_sm_bottom_15">
+    {while $new_product = $newproducts->fetch()}
+    {include file='Modules/Product/Frontend/Views/Item.html' item=$new_product}
+    {/while}
+</section>
+</div>

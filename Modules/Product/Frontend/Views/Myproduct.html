@@ -1,0 +1,31 @@
+<div class="productlistcontainer">
+  <table width="100%" style="clear: both">
+    <tr>
+     
+
+      <td style="width: 10px">&nbsp;</td>
+      
+      <td class="core_content" valign="top">
+        <div class="core_content_container">
+          {if $total_result == 0}
+          <div class="search_table tableborder" style="padding:15px; min-height: 70px">
+            <p>{'No Products available'|tr}.</p>
+          </div>
+          {else}
+          {while $item =  $items->fetch()}
+          {if $layout == 1 || $layout=='grid'}
+          {include file='Modules/Product/Frontend/Views/Item.html'}
+          {else}
+          {include file='Modules/Product/Frontend/Views/ItemList.html'}
+          {/if}
+          {/while}
+          {/if}
+          <div style="clear: both; height: 40px; padding: 10px 10px 0px 10px; text-align: center">{$pager}</div>
+
+        </div>
+
+      </td>
+
+    </tr>
+  </table>
+</div>

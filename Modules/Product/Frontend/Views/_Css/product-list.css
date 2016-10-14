@@ -1,0 +1,27 @@
+/* 
+    Document   : product-list
+    Created on : 02.10.2012, 10:26:02
+    Author     : cherif
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+ul.filter_ul{
+    padding: 10px;
+}
+
+ul.filter_ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+
+ul.filter_ul li a{
+    text-decoration: none;
+}
+
+ul.filter_ul li a img{
+    border: 0;
+    height: 12px;
+    margin: 0 10px 0 10px;
+}
+

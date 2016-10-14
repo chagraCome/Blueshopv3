@@ -1,0 +1,1 @@
+ALTER TABLE  `product` ADD  `purchasing_price` FLOAT( 15, 3 ) NULL DEFAULT NULL

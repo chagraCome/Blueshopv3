@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module>
+    <name>Rating</name>
+    <businessname>Rating</businessname>
+    <version>1.0</version>
+    <build>1</build>
+    <builddate>2012-12-05 12:03:31</builddate>
+    <description>Rating Module: Manage Product Rating</description>
+    <updates>
+        <update>
+            <version>1.0.1</version>
+            <build>2</build>
+            <builddate>2012-12-05 12:03:31</builddate>
+            <description>update1</description>
+        </update>
+         <update>
+            <version>1.0.2</version>
+            <build>3</build>
+            <builddate>2012-12-05 12:03:31</builddate>
+            <description>security fix</description>
+        </update>
+         <update>
+            <version>1.0.3</version>
+            <build>3</build>
+            <builddate>2012-12-05 12:03:31</builddate>
+            <description>security fix3</description>
+        </update>
+         <update>
+            <version>1.0.4</version>
+            <build>3</build>
+            <builddate>2012-12-05 12:03:31</builddate>
+            <description>security fix4</description>
+        </update>
+    </updates>
+</module>

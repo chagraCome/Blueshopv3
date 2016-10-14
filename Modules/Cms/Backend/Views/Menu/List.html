@@ -1,0 +1,13 @@
+<fieldset>
+    <legend>{'Information'|tr}</legend>
+    <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+    <legend>
+        <span class="add"><a href="admin.php?module=cms&page=menu-add{if $smarty.get.menuid}&menuid={$smarty.get.menuid}{/if}">{'Add new Menu Point'|tr}</a></span> | 
+        <span class="list"><a href="admin.php?module=cms&page=box-list">{'List Block'|tr}</a></span>
+    </legend>
+    <div class="panel">
+        {$grid->Render()}
+    </div>
+</fieldset>

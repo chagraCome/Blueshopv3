@@ -1,0 +1,149 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: modules\n"
+"POT-Creation-Date: 2014-05-12 10:45+0100\n"
+"PO-Revision-Date: 2014-05-12 10:51+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../key_words_html.php:3
+msgid "Comment and Rating"
+msgstr "التقييم و التعليقات"
+
+#: ../key_words_html.php:4
+msgid "Quality"
+msgstr "الجودة"
+
+#: ../key_words_html.php:7 ../key_words_html.php:9
+msgid "Information"
+msgstr "اعلام"
+
+#: ../key_words_html.php:10
+msgid "Comment: "
+msgstr "التعليق  :"
+
+#: ../key_words_html.php:11
+#, fuzzy
+msgid "Posted At: "
+msgstr "سجلت في  :"
+
+#: ../key_words_html.php:12
+msgid "Name: "
+msgstr "الاسم  :"
+
+#: ../Backend/Boot.php:27
+msgid "Manage Rating Comments"
+msgstr "ادارة تعليقات التقييم"
+
+#: ../Backend/Boot.php:50
+msgid "Rating Module"
+msgstr "إدارة التقييمات"
+
+#: ../Backend/Boot.php:51
+msgid "Delete Rating"
+msgstr "حذف تقييم "
+
+#: ../Backend/Boot.php:52
+msgid "Details Rating"
+msgstr "تفاصيل التقييم"
+
+#: ../Backend/Boot.php:53
+msgid "List all Rating"
+msgstr "قائمة  جميع التقييمات"
+
+#: ../Backend/Boot.php:54
+msgid "Offline Rating"
+msgstr "تعطيل تقييم"
+
+#: ../Backend/Boot.php:55
+msgid "Online Rating"
+msgstr "تفعيل تقييم"
+
+#: ../Backend/Controllers/Details.php:40
+msgid "Rating Details"
+msgstr "تفاصيل التقييم"
+
+#: ../Backend/Controllers/List.php:37
+msgid "List Ratings"
+msgstr "قائمة التقييمات"
+
+#: ../Forms/Form.php:46
+msgid "Rate Quality"
+msgstr "تقييم الجودة"
+
+#: ../Forms/Form.php:49 ../Panels/Panel.php:40
+msgid "Name"
+msgstr "الاسم"
+
+#: ../Forms/Form.php:54 ../Panels/Panel.php:42
+msgid "Comment"
+msgstr "التعليق"
+
+#: ../Forms/Form.php:59
+msgid "Security Code"
+msgstr "كود التحقق"
+
+#: ../Forms/Form.php:62
+msgid "Rate Now"
+msgstr "قيم الآن"
+
+#: ../Frontend/Controllers/Add.php:33
+msgid "Add new Rating"
+msgstr "اضافة تقييم جديد"
+
+#: ../Frontend/Controllers/Add.php:52
+msgid "Please check inputs."
+msgstr "يرجى التحقق من المدخلات"
+
+#: ../Grids/DataGridView.php:43
+msgid "Visitor Name"
+msgstr "اسم الزائر"
+
+#: ../Grids/DataGridView.php:47
+msgid "Rate Date Time"
+msgstr "تاريخ التقييم"
+
+#: ../Grids/DataGridView.php:50
+msgid "Ip Address"
+msgstr "عنوان الاي بي"
+
+#: ../Grids/DataGridView.php:53 ../Models/Model.php:179 ../Panels/Panel.php:41
+msgid "Rate"
+msgstr "التقييم"
+
+#: ../Grids/DataGridView.php:56 ../Models/Model.php:204
+msgid "Commented Product"
+msgstr "المنتج"
+
+#: ../Grids/DataGridView.php:60
+msgid "Status"
+msgstr "الحالة"
+
+#: ../Grids/DataGridView.php:64
+msgid "Delete"
+msgstr "حذف"
+
+#: ../Panels/Panel.php:38
+#, fuzzy
+msgid "General Information"
+msgstr "اعلام"
+
+#: ../Panels/Panel.php:43
+msgid "IP"
+msgstr "الاي بي"
+
+#: ../Panels/Panel.php:44
+msgid "Go to Product"
+msgstr " المنتج"
+
+#~ msgid "Rating"
+#~ msgstr "تقييم"

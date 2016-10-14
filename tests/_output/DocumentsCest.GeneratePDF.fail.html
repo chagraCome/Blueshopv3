@@ -1,0 +1,487 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ar" dir="ltr">
+    <head>
+        <title>Blueshop 2015 v. 1.0 - Administrator Panel</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link href="Amhsoft/Ressources/Javascripts/JQuery/themes/ui-lightness/jquery-ui-1.8.13.custom.css" rel="stylesheet" type="text/css"/>
+                        <link href="Design/Backend/Pro/Layout/Default/stylesheet_en.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/jquery-1.6.1.js"></script>
+        <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/ui/jquery-ui-1.8.13.custom.js"></script>
+        <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/jquery.cookies.js"></script>
+        <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/jquery.timepicker.js"></script>
+
+        
+        <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/ckeditor/ckeditor.js"></script>
+        <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/ckeditor/adapters/jquery.js"></script>
+        <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/common_en.js"></script>
+
+                <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/flot/jquery.flot.js"></script>
+                <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/flot/jquery.flot.categories.js"></script>
+                <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/flot/jquery.flot.pie.js"></script>
+                <script type="text/javascript">
+             $(function() {
+                var cookieName = 'admin.accordion';
+                var cookieNameBar = 'admin.bar';
+
+               // var cookieNameBarValue = $.cookies.get(cookieNameBar);
+               var cookieNameBarValue = 0;
+
+                if (cookieNameBarValue == 1) {
+                    $('#sidebar').show();
+                    //$('#main').css('margin', 'auto');
+                    //$('#main').css('width', '98%');
+
+                } else {
+                    $('#sidebar').hide();
+                    // $('#main').css('margin', 'auto');
+                    //$('#main').css('width', '98%');
+
+                }
+                $('#main').css('margin', 'auto');
+                $('#main').css('min-width', '1260px');
+                $('#menu_left_right').accordion({
+                    autoHeight: false,
+                    active: (0),
+                    change: function(e, ui) {
+                        //$.cookies.set(cookieName, $(this).find('h3').index(ui.newHeader[0]));
+                        //$( this ).find( 'h3' ).css('background', 'url(images/tab-btm-inactive-right-bg.gif) no-repeat left center');
+                    }
+                });
+                var h = $('.panel').height();
+                $('#Bar').height(h + 200);
+
+                $('#Bar').click(function() {
+
+                    if (cookieNameBarValue == 1) {
+                       // $.cookies.set(cookieNameBar, 0);
+                        $('#sidebar').toggle('hide');
+                    } else {
+                        $('#sidebar').toggle('show');
+                       // $.cookies.set(cookieNameBar, 1);
+                    }
+                    $('#main').css('margin', 'auto');
+
+                })
+
+            });
+        </script>
+    </head>
+    <body>
+        <header id="header">
+            <hgroup>
+                <h1 class="site_title"><a href="admin.php">Control Panel</a></h1>
+                <h2 class="section_title">Blueshop</h2>
+            </hgroup>
+        </header>
+        <!-- begin menu_top -->
+        <section id="secondary_bar">
+            <div class="user">
+                <p>Welcome admin</p>
+            </div>
+            <div class="breadcrumbs_container">
+                <div class="core_menu_top">
+                    <div id="menuh">
+                        <ul>
+                            <li><a href="admin.php">Home</a></li>
+                        </ul>
+                        
+                                                <ul>
+                            <li><a href="#">Online Store</a>
+                                <ul>
+                                                                        <li><a href="#">Inventory</a>
+                                        <ul>
+                                                                                        <li><a class="menuitem" href="admin.php?module=product&page=category-list">Manage Categories</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=product&page=category-add">Add a Category</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=product&page=product-list">Manage Products</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=product&page=product-modify-multi-list">Group Edit</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=product&page=product-prepare">Add a new Product</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=product&page=manufacturer-list">Manage Manufactures</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=eav&page=attributeset-list&entity=1">Manage Product Sets</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=eav&page=attributes-list&entity=1">Manage Product Attributes</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=product&page=setting">Products Settings</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=rating&page=list">Manage Rating Comments</a></li>
+
+                                                                                    </ul>
+                                    </li>
+                                                                        <li><a href="#">Payment</a>
+                                        <ul>
+                                                                                        <li><a class="menuitem" href="admin.php?module=payment&page=payment-list">List Payment Methods</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=payment&page=payment-add">Add Payment Method</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=paypal&page=settings">Manage Paypal Settings</a></li>
+
+                                                                                    </ul>
+                                    </li>
+                                                                        <li><a href="#">Shipping</a>
+                                        <ul>
+                                                                                        <li><a class="menuitem" href="admin.php?module=shipping&page=shipping-list">List Shipping Methods</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=shipping&page=shipping-add">Add Shipping Method</a></li>
+
+                                                                                    </ul>
+                                    </li>
+                                                                        <li><a href="#">Coupon</a>
+                                        <ul>
+                                                                                        <li><a class="menuitem" href="admin.php?module=coupon&page=list">Manage Coupons</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=coupon&page=statistics">Statistics</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=coupon&page=setting">Manage Settings</a></li>
+
+                                                                                    </ul>
+                                    </li>
+                                                                    </ul>
+                            </li>
+                        </ul>
+                                                
+                                                <ul>
+                            <li><a href="#">Sales Management</a>
+                                <ul>
+                                                                        <li><a href="#">CRM</a>
+                                        <ul>
+                                                                                        <li><a class="menuitem" href="admin.php?module=crm&page=account-list">Manage Accounts</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=crm&page=contact-list">Manage Contacts</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=crm&page=group-account">Manage Groups</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=crm&page=source-account">Manage Sources</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=eav&page=attributeset-detail&entity=3&id=11">Manage Account Set</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=eav&page=attributes-list&entity=3">Manage Account Attributes</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=crm&page=accountsetting">Settings</a></li>
+
+                                                                                    </ul>
+                                    </li>
+                                                                        <li><a href="#">Sales Order</a>
+                                        <ul>
+                                                                                        <li><a class="menuitem" href="admin.php?module=saleorder&page=saleorder-list&event=today">Today Sales Order</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=saleorder&page=saleorder-list&event=accepted">Accepted Sales Order</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=saleorder&page=saleorder-list&event=open">Open Sales Order</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=saleorder&page=saleorder-list&event=created">Created Sales Order</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=saleorder&page=saleorder-list">Manage Sales Order</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=saleorder&page=saleorder-add">Add a new Sales Order</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=saleorder&page=comment-list">Sales Order Comments</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=saleorder&page=setting">Settings</a></li>
+
+                                                                                    </ul>
+                                    </li>
+                                                                    </ul>
+                            </li>
+                        </ul>
+                                                
+                                                <ul>
+                            <li><a href="#">Cms</a>
+                                <ul>
+                                                                        <li><a href="#">Content Management</a>
+                                        <ul>
+                                                                                        <li><a class="menuitem" href="admin.php?module=cms&page=setting">Home page design</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=cms&page=box-preadd">Add Block</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=cms&page=box-list">Manage Blocks</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=cms&page=page-preadd">Add Page</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=cms&page=page-list">Manage Pages</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=cms&page=menu-add">Add Menu Point</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=cms&page=menu-list">Manage Menu Points</a></li>
+
+                                                                                    </ul>
+                                    </li>
+                                                                        <li><a href="#">Banner</a>
+                                        <ul>
+                                                                                        <li><a class="menuitem" href="admin.php?module=banner&page=list">List Banners</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=banner&page=add">Add new Banner</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=banner&page=setting">Manage Banner Setting</a></li>
+
+                                                                                    </ul>
+                                    </li>
+                                                                    </ul>
+                            </li>
+                        </ul>
+                                                
+                                                <ul>
+                            <li><a href="#">Administration</a>
+                                <ul>
+                                                                                                            <li><a class="menuitem" href="admin.php?module=user&page=role-list">Manage Roles</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=user&page=user-list">Manage Users</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=user&page=user-add">Add new User</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=user&page=group-list">Manage Groups</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=user&page=department-list">Manage Departments</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=user&page=user-changepassword">Change Password</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=user&page=user-profile">My Profile</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=default&page=portlet-list">Setup Dashboard</a></li>
+
+                                                                                                        </ul>
+                            </li>
+                        </ul>
+                                                
+                                                <ul>
+                            <li><a href="#">System</a>
+                                <ul>
+                                                                        <li><a href="#">Setting</a>
+                                        <ul>
+                                                                                        <li><a class="menuitem" href="admin.php?module=cart&page=setting">Shopping cart</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=default&page=portlet-list">Dashboard</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=installer&page=list">Module Management</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=setting&page=general">General</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=setting&page=currency-list">Manage Currencies</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=setting&page=template-email-list">Manage Email Templates</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=webmail&page=setting-list">Manage Server Settings</a></li>
+
+                                                                                    </ul>
+                                    </li>
+                                                                        <li><a href="#">Backup Manager</a>
+                                        <ul>
+                                                                                        <li><a class="menuitem" href="admin.php?module=backup&page=local">Generate Backup</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=backup&page=list">Manage Backups</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=backup&page=upload">Upload Backup</a></li>
+
+                                                                                        <li><a class="menuitem" href="admin.php?module=backup&page=setting">Manage Backup Setting</a></li>
+
+                                                                                    </ul>
+                                    </li>
+                                                                    </ul>
+                            </li>
+                        </ul>
+                                                
+                                                <ul>
+                            <li><a href="#">Newsletter</a>
+                                <ul>
+                                                                                                            <li><a class="menuitem" href="admin.php?module=newsletter&page=template-list">Templates</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=newsletter&page=emails-groups-list">Groups</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=newsletter&page=emails-list">E-mails</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=newsletter&page=import">Import</a></li>
+
+                                                                        <li><a class="menuitem" href="admin.php?module=newsletter&page=sendemails">Send E-mails</a></li>
+
+                                                                                                        </ul>
+                            </li>
+                        </ul>
+                                                                        <ul>
+                            <li><a class="preview" href="index.php" target="_blank">Preview</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="admin.php?module=user&amp;page=user-logout">Logout</a></li>
+                        </ul>
+                        <ul class="last">
+                            <li>
+                                <a href="#"><img src="Design/Backend/Pro/setting.png" width="24" style="margin:6px 0" align="left" />&nbsp;Setting</a>
+
+                                <ul >
+                                    <li><a href="#">Language</a>
+                                        <ul>
+                                             
+                                            <li><a href="admin.php?lang=en"> English</a></li>
+                                             
+                                            <li><a href="admin.php?lang=ar"> عربي</a></li>
+                                                                                    </ul>
+                                    </li>
+                                    <li><a href="#">Currency</a>
+                                        <ul>
+                                             
+                                            <li><a href="admin.php?currency=BHD"> BHD</a></li>
+                                             
+                                            <li><a href="admin.php?currency=SAR"> SAR</a></li>
+                                             
+                                            <li><a href="admin.php?currency=EUR"> EUR</a></li>
+                                             
+                                            <li><a href="admin.php?currency=TND"> TND</a></li>
+                                             
+                                            <li><a href="admin.php?currency=QAR"> QAR</a></li>
+                                             
+                                            <li><a href="admin.php?currency=LBP"> LBP</a></li>
+                                             
+                                            <li><a href="admin.php?currency=LYD"> LYD</a></li>
+                                             
+                                            <li><a href="admin.php?currency=SDG"> SDG</a></li>
+                                             
+                                            <li><a href="admin.php?currency=SYP"> SYP</a></li>
+                                             
+                                            <li><a href="admin.php?currency=KWD"> KWD</a></li>
+                                             
+                                            <li><a href="admin.php?currency=IQD"> IQD</a></li>
+                                             
+                                            <li><a href="admin.php?currency=DZD"> DZD</a></li>
+                                             
+                                            <li><a href="admin.php?currency=EGP"> EGP</a></li>
+                                             
+                                            <li><a href="admin.php?currency=JOD"> JOD</a></li>
+                                             
+                                            <li><a href="admin.php?currency=MAD"> MAD</a></li>
+                                             
+                                            <li><a href="admin.php?currency=OMR"> OMR</a></li>
+                                             
+                                            <li><a href="admin.php?currency=AED"> AED</a></li>
+                                             
+                                            <li><a href="admin.php?currency=YER"> YER</a></li>
+                                             
+                                            <li><a href="admin.php?currency=MRO"> MRO</a></li>
+                                             
+                                            <li><a href="admin.php?currency=ILS"> ILS</a></li>
+                                             
+                                            <li><a href="admin.php?currency=USD"> USD</a></li>
+                                                                                    </ul>
+                                    </li>
+                                    <li><a href="admin.php?module=user&page=user-profile">My Profile</a></li>
+                                    <li><a href="admin.php?module=user&page=user-logout">Logout</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <div style="clear: both"></div>
+        <!-- end menu_top -->
+
+        <div id="maincontainer" style="width: 100%">
+            <section  id="main" class="section_column" ><fieldset>
+  <legend>Information</legend>
+  <div class="panelInfo">Welcome to control panel</div>
+</fieldset>
+<fieldset class='withborder'><legend>Control Panel</legend>
+<div id="maincontainer">
+  <div class="panel" id="maincontent" style="min-height: 1060px">
+    <div   style="width: 100%;"> 
+      <div class="portlet" > 
+	<div class="portlet-header" style="cursor: pointer">Welcome</div> 
+	<div class="portlet-content" style="padding: 0.8em; min-height: 60px">Welcome  <br />Last Login time: 2016-04-22 13:43:52<br />Last Login host: Amhsoft-PC
+         <br />
+         Online Users: admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin, admin 
+	</div> 
+      </div> 
+    </div> 
+    <div class="column leftc" id="col1"> 
+            <div class="portlet" id="port_6"> 
+	<div class="portlet-header">Daily Revenue</div> 
+	<div class="portlet-content"><script type="text/javascript">
+
+  $(function() {
+
+    var data = [[1,0],[2,0],[3,0],[4,0],[5,0],[6,0],[7,0],[8,0],[9,0],[10,0],[11,0],[12,4947],[13,0],[14,97],[15,0],[16,97],[17,1000],[18,0],[19,0],[20,729],[21,729],[22,0],[23,0],[24,1099],[25,0],[26,0],[27,0],[28,3297],[29,0],[30,1795],[31,0]];
+
+    $.plot("#placeholder_daily", [data], {
+      series: {
+        bars: {
+          show: true,
+          barWidth: 0.6,
+          align: "center"
+        }
+      },
+      xaxis: {
+        mode: "categories",
+        tickLength: 0
+      }
+    });
+  });
+
+</script>
+<div id="placeholder_daily"  style="height: 190px"></div></div> 
+      </div> 
+          </div> 
+
+    <div class="column rightc" id="col3"> 
+            <div class="portlet" id="port_5"> 
+	<div class="portlet-header">Monthly Revenue</div> 
+	<div class="portlet-content"><script type="text/javascript">
+
+  $(function() {
+
+    var data = [[1,0],[2,449],[3,0],[4,4947],[5,0],[6,0],[7,0],[8,0],[9,0],[10,0],[11,0],[12,0]];
+
+    $.plot("#placeholder_monthly", [data], {
+      series: {
+        bars: {
+          show: true,
+          barWidth: 0.6,
+          align: "center"
+        }
+      },
+      xaxis: {
+        mode: "categories",
+        tickLength: 0
+      }
+    });
+  });
+
+</script>
+<div id="placeholder_monthly"  style="height: 190px"></div></div> 
+      </div> 
+          </div> 
+
+  </div>
+</div>
+</fieldset>
+
+<script>
+  //window.setInterval(refresh, 60000);
+  function refresh() {
+    $('#maincontainer').load('admin.php #maincontent');
+  }
+  $(function() {
+    $(".column").sortable({
+      connectWith: ['.column'],
+      stop: function() {
+	var left_data = $(".leftc").sortable("serialize");
+	//var  center_data = $(".centerc").sortable("serialize");
+	var right_data = $(".rightc").sortable("serialize");
+	$.post('admin.php?module=default&page=portlet-list&event=sort&pos=L', left_data);
+	$.post('admin.php?module=default&page=portlet-list&event=sort&pos=R', right_data);
+	//$.post('admin.php?module=default&page=portlet-list&event=sort&pos=C',center_data);
+      }
+    });
+  });
+
+</script>
+
+</section>
+        </div>
+        <div id="footer">Copyright &copy; 2006-2016 AMHSOFT - Version: Blueshop 3.0-1.0.5</div>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+
+          <fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+  <legend>
+    <span class="add"><a href="#">{'Add new Request'|tr}</a></span> | 
+    <span class="list"><a href="#">{'List Requests'|tr}</a></span> 
+  </legend>
+  <div class="panel">
+    {$widget->Render()}
+  </div>
+</fieldset>

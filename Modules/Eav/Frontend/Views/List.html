@@ -1,0 +1,58 @@
+<div id="container" style="background-color: white; margin-top: 20px">
+    <table width="100%">
+        <tr>
+            {if $filter_attributes}
+            <td width="200px" class="core_content">
+                {$filter_attributes}
+
+            </td>
+            <td style="width: 10px">&nbsp;</td>
+            {/if}
+            <td class="core_content">
+                <!--- begin toolbar -->
+                <div class="toolbar">
+                    <form name="list_form" method="get" action="index.php" style="display:inline;">
+                        <label for="products_per_page">{'Products per page'|tr}</label>
+                        <select name="products_per_page" id="products_per_page" onchange="javascript:window.location.href = '{$product_per_page_url}&products_per_page='+this.value;">
+                            <option value="9" {if $products_per_page == 9} selected="selected" {/if}>9</option>
+                            <option value="12" {if $products_per_page == 12} selected="selected" {/if}>12</option>
+                            <option value="20" {if $products_per_page == 20} selected="selected" {/if}>20</option>
+                            <option value="30" {if $products_per_page == 30} selected="selected" {/if}>30</option>
+                            <option value="50" {if $products_per_page == 50} selected="selected" {/if}>50</option>
+                            <option value="100" {if $products_per_page == 100} selected="selected" {/if}>100</option>
+                        </select>
+                        <label for="sort_by">{'Sort by'|tr}</label>
+                        <select name="sort_by" id="sort_by" onchange="javascript:window.location.href = '{$sort_url}&sort_by='+this.value;">
+                            <option value="priceasc"{if $sort_by == 'priceasc'} selected="selected"{/if}>{'Price Ascending'|tr}</option>
+                            <option value="pricedesc"{if $sort_by == 'pricedesc'} selected="selected"{/if}>{'Price Descending'|tr}</option>
+                        </select>
+                        <span></span>
+                    </form>
+                    <span class="item_count">{'Result'|tr}:  <script type="text/javascript"> document.write($("#products_per_page option:selected").text());</script>  {'from'|tr}  {$total_result}</span>
+                    <a class="layout_switch_1{if $layout == 1} current{/if}" title="{'Show one product per line.'|tr}" href="{$layout_url}&layout=2"></a>
+                    <a class="layout_switch_2{if $layout > 1} current{/if}" title="{'Show multi products per line.'|tr}"  href="{$layout_url}&layout=1"></a>
+                </div>
+                <!-- end toolbar -->
+                <div style="padding: 10px">
+                    {if $total_result == 0}
+                    <div class="search_table tableborder" style="padding:15px; min-height: 70px">
+                        <p>{'No Products available'|tr}.</p>
+                    </div>
+                    {/if}
+                    {while $item =  $items->fetch()}
+                    {if $layout == 1 || $layout=='grid'}
+                    {include file='Modules/Product/Frontend/Views/ItemList.html'}
+                    {else}
+                 
+                    {include file='Modules/Product/Frontend/Views/Item.html'}
+                    {/if}
+                    {/while}
+                    <div style="clear: both; background: #F0F0F0; height: 40px; padding: 10px 10px 0px 10px; text-align: center">{$pager}</div>
+
+                </div>
+
+            </td>
+
+        </tr>
+    </table>
+</div>

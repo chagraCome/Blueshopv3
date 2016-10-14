@@ -1,0 +1,57 @@
+
+DirectoryIndex index.htm index.html index.php 
+Options +FollowSymLinks
+
+
+<Files *.ini>
+	order deny,allow
+	deny from all
+</Files>
+
+<Files *.sql>
+	order deny,allow
+	deny from all
+</Files>
+
+<Files *.po>
+	order deny,allow
+	deny from all
+</Files>
+
+# Override PHP settings.
+
+# PHP 5, Apache 1 and 2.
+<IfModule mod_php5.c>
+  php_value magic_quotes_gpc                0
+  php_value register_globals                0
+  php_value session.auto_start              0
+  php_value mbstring.http_input             pass
+  php_value mbstring.http_output            pass
+  php_value mbstring.encoding_translation   0
+  php_value memory_limit                    256M
+</IfModule>
+
+# Various rewrite rules.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule (.*)/([0-9]+)-(.*).html$ index.php?module=product&page=detail&id=$2 [L]
+  RewriteRule cms-([0-9]+)-(.*)\.html$ index.php?module=cms&page=page&id=$1 [L]
+  RewriteRule content/([0-9]+)/(.*)$ index.php?module=cms&page=page&id=$1 [L]
+  RewriteRule (.*)/([0-9]+)/c/(.*)$ index.php?module=product&page=list&cat=$2&$3 [L]
+  RewriteRule notfound.html$ index.php?page=notfound [L]
+  
+</IfModule>
+
+# Custom error documents
+  #ErrorDocument 401 /err/401.php
+  #ErrorDocument 403 /err/403.php
+  #ErrorDocument 404 /err/404.php
+  #ErrorDocument 500 /err/500.php
+
+# $ .htaccess 28.04.2010 13:15 $
+
+
+
+
+

@@ -1,0 +1,34 @@
+{literal}
+<style>
+  .shipping-name {
+    font: bold italic x-large serif Arial ;
+    padding: 20px;
+
+  }
+  .shipping-description {
+    color: #000000;
+    font-family: "Segoe UI","Lucida Grande",Tahoma,Arial,sans-serif;
+    line-height: 1.6;
+    font-size: 11px;
+    padding-bottom: 15px;
+  }
+  hr {
+    color: red;
+    background-color: red;
+    height: 1px;
+    border: 0;
+  }
+</style>
+{/literal}
+<div class="core_content" style="min-height: 100px">
+<h3 class="active">{'Available Shipping Methods'|tr}</h3>
+<div class="core_content_container">
+{foreach $shippings as $shipping}
+<div class="shipping-name">{$shipping->getTitle()}</div>
+<div class="shipping-description">{$shipping->getDescription()}</div>
+<hr>
+{foreachelse}
+{'No shipping Methods Set'|tr}
+{/foreach}
+</div>
+</div>

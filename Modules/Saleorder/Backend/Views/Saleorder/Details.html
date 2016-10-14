@@ -1,0 +1,32 @@
+<fieldset>
+    <legend>{'Information'|tr}</legend>
+    <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+    <legend>
+        <span class="edit"><a href="admin.php?module=saleorder&page=saleorder-modify&id={$smarty.get.id}">{'Edit Sales Order'|tr}</a></span> | 
+        <span class="add"><a href="admin.php?module=saleorder&page=saleorder-add">{'Add new Sales Order'|tr}</a></span> | 
+        <span class="list"><a href="admin.php?module=saleorder&page=saleorder-list">{'List Sales Orders'|tr}</a></span> | 
+    </legend>
+    <div class="panel">
+        {$panel->Render()}
+    </div>
+</fieldset>
+{literal}
+<script>
+    $(document).ready(function() {
+    $('.editable').editable('admin.php?module=saleorder&page=saleorder-details&event=edit&id={/literal}{$smarty.get.id}{literal}', {
+    type: 'textarea',
+            rows: 10,
+            cancel: '{/literal}{'Cancel'|tr}{literal}',
+            id: 'elementid',
+            name: 'newvalue',
+            submit: '{/literal}{'Ok'|tr}{literal}',
+            data: function(value, settings) {
+            var retval = value.replace(/<br[\s\/]?>/gi, '');
+                    return retval;
+            }
+    });
+    });
+</script>
+{/literal}

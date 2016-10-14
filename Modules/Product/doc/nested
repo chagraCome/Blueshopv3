@@ -1,0 +1,20 @@
+
+Category: name, left, right
+
+add new category: 'Woman', left: 0, right: 1
+
+0 Woman 1
+
+
+------------------------------
+add new category: Woman Men
+
+'Men', left: 2, right: 3
+
+0 Woman 1   2 Man 3
+
+--------------------------------
+
+add new Cagory under woman
+
+'Clothes', left: 2 Right, 3,   Men: left:4 , right 5

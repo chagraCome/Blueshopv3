@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{$current_lang|default:'en'}">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+        <base href="{$appconfig->appurl}/" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        {if $current_lang == 'ar'}
+        <title>{$shop->name_ar|htmlspecialchars_decode} {$page_title|htmlspecialchars_decode}</title>
+        {else}
+        <title>{$shop->name_en|htmlspecialchars_decode} {$page_title|htmlspecialchars_decode}</title>
+        {/if}
+        {if $page_description}
+        <meta name="description" content="{$page_description|htmlspecialchars_decode}" />
+        {/if}
+        {if $page_keywords}
+        <meta name="keywords" content='{$page_keywords|htmlspecialchars_decode}' />
+        {/if}
+        <meta name="robots" content="index,follow,noodp" />
+        <meta name="googlebot" content="noodp" />
+        {if $shop->rss == 1}
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.html" />
+        {/if}
+        <link rel="shortcut icon" href="{$skin_path}/images/icon.png"/>
+        <link href="{$skin_path}/style.css" rel="stylesheet" type="text/css" />
+        <link href="{$skin_path}/amhsoft.base.css" rel="stylesheet" type="text/css" />
+        <link href="{$skin_path}/amhsoft.base.responsive.css" rel="stylesheet" type="text/css" />
+        {if $current_lang == 'ar'}
+        <link href="{$skin_path}/style.ar.css" rel="stylesheet" type="text/css" />
+        {/if}
+        {foreach $css_files as $css_file}
+        <link href="{$appconfig->appurl}/{$css_file}" rel="stylesheet" type="text/css" />
+        {/foreach}
+        {foreach $js_files as $js_file}
+        <script type="text/javascript" src="{$appconfig->appurl}/{$js_file}"></script>
+        {/foreach}
+        <script type="text/javascript" src="{$skin_path}/js/popup.js"></script> 
+        <script src="{$skin_path}/js/modernizr.js"></script>
+        <script src="{$skin_path}/js/jquery-2.1.0.min.js"></script>
+        <script src="{$skin_path}/js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="{$skin_path}/js/retina.js"></script>
+        <script src="{$skin_path}/js/camera.min.js"></script>
+        <script src="{$skin_path}/js/jquery.easing.1.3.js"></script>
+        <script src="{$skin_path}/js/styleswitcher.js"></script>
+        <script src="{$skin_path}/js/colorpicker.js"></script>
+        <script src="{$skin_path}/js/waypoints.min.js"></script>
+        <script src="{$skin_path}/js/jquery.isotope.min.js"></script>
+        <script src="{$skin_path}/js/owl.carousel.min.js"></script>
+        {*<script src="{$skin_path}/js/owl.carousel.minRTL.js"></script>*}
+
+        <script src="{$skin_path}/js/jquery.tweet.min.js"></script>
+        <script src="{$skin_path}/js/jquery.custom-scrollbar.js"></script>
+        <script src="{$skin_path}/js/scripts.js"></script>
+        <script src="{$skin_path}/js/common.js"></script>
+        <link href="{$skin_path}/js/jquery/plugins/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css" media="all" />
+        <script type="text/javascript" src="{$skin_path}/js/global.js"></script>
+        <script type="text/javascript" src="{$skin_path}/js/autoload/10-bootstrap.min.js"></script>
+        <script type="text/javascript" src="{$skin_path}/js/autoload/15-jquery.uniform-modified.js"></script>
+        <script type="text/javascript" src="{$skin_path}/js/jquery/plugins/fancybox/jquery.fancybox.js"></script>
+    </head>
+    {if $shop->disable_image eq 1}	
+    <body oncontextmenu="return false">
+        {else}	
+        <body>
+            {/if}
+            <div class="boxed_layout relative w_xs_auto">
+                {include file='header.tpl.html'}
+                {if !$smarty.get.page}		
+                {include file='banners.tpl.html'}
+                {/if}
+                <!--content-->
+                <div class="page_content_offset" style="min-height: 600px;">
+                    <div class="container">
+                        {if $applicationlayout == '1'}
+                        {include file='Layout/layout1.tpl.html'}
+                        {else if $applicationlayout == '2r'}
+                        {include file='Layout/layout2r.tpl.html'}
+                        {else if $applicationlayout == '2l'}
+                        {include file='Layout/layout2l.tpl.html'}
+                        {else if $applicationlayout == '3'}
+                        {include file='Layout/layout3.tpl.html'}
+                        {/if}
+                        <div>
+                            {foreach $bottomblocks as $block}
+                            {$block->Render()}
+                            {/foreach}
+                        </div>
+                    </div>
+                </div>
+                {include file='footer.tpl.html'}
+            </div>
+            {*literal}
+            <script type="text/javascript">
+                var _gaq = _gaq || [];
+                _gaq.push(['_setAccount', '{/literal}{$shop->google_analytic_code|htmlspecialchars_decode|unescape:"entity"}{literal}']);
+                _gaq.push(['_trackPageview']);
+
+                (function () {
+                    var ga = document.createElement('script');
+                    ga.type = 'text/javascript';
+                    ga.async = true;
+                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(ga, s);
+                })();
+
+            </script>
+            {/literal*}
+            <!--social widgets-->
+            {include file='social.tpl.html'}
+            <!--login popup-->
+            {include file='loginpopup.tpl.html'}
+
+            {literal}
+            <script type="text/javascript">
+                var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+            </script>
+
+            {/literal}
+        </body>
+
+</html>

@@ -1,0 +1,49 @@
+{foreach $rightblocks as $block}
+{$block->Render()}
+{/foreach}
+
+{*foreach $right_boxes as $boxe}
+
+{if $boxe->position == 2}
+
+{if $boxe->typ eq 1}
+
+{include file=$boxe->tpl}
+
+{elseif $boxe->typ == 2}
+
+{if $boxe->border==1}
+{box name=$boxe->id title=$boxe->name}
+{$boxe->tpl}
+{/box}
+{else}
+{$boxe->tpl}
+{/if}
+
+{elseif $boxe->typ == 3}
+{if $boxe->border==1}
+{box name=$boxe->id title=$boxe->name}
+{if $boxe->link > 0}
+{assign var="i" value=$boxe->link-1}
+<div style="text-align: center;"><a href="{url}index.php?module=cms&amp;page=page&amp;name={$cms_pages[$i].name}&amp;id={$cms_pages[$i].id}{/url}"><img align="middle" src="{$boxe->tpl}" border="0" /></a></div>
+{else}
+<div style="text-align: center;"><img align="middle" src="{$boxe->tpl}" border="0" alt="{$boxe->banner_alt_text}" /></div>
+{/if}
+{/box}
+{else}
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    {if $boxe->link > 0}
+    {assign var="i" value=$boxe->link-1}
+    <td style="text-align: center"><a href="{url}index.php?module=cms&amp;page=page&amp;name={$cms_pages[$i].name}&amp;id={$cms_pages[$i].id}{/url}"><img src="{$boxe->tpl}" border="0" /></a></td>
+    {else}
+    <td style="text-align: center"><img src="{$boxe->tpl}" border="0" /></td>
+    {/if}
+  </tr>
+</table>
+{/if}
+
+{/if}
+{/if}
+{/foreach*}

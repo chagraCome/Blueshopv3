@@ -1,0 +1,1226 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Product\n"
+"POT-Creation-Date: 2014-04-17 10:14+0100\n"
+"PO-Revision-Date: 2014-05-02 11:41+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _t;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../key_words_html.php:3 ../key_words_html.php:7 ../key_words_html.php:13
+#: ../key_words_html.php:17 ../key_words_html.php:24 ../key_words_html.php:26
+#: ../key_words_html.php:28 ../key_words_html.php:31 ../key_words_html.php:33
+#: ../key_words_html.php:37 ../key_words_html.php:41 ../key_words_html.php:44
+#: ../key_words_html.php:54 ../key_words_html.php:64 ../key_words_html.php:72
+#: ../key_words_html.php:84 ../key_words_html.php:97 ../key_words_html.php:104
+#: ../key_words_html.php:117 ../key_words_html.php:130
+#: ../key_words_html.php:134 ../key_words_html.php:144
+#: ../key_words_html.php:151 ../key_words_html.php:157
+#: ../key_words_html.php:161 ../key_words_html.php:174
+#: ../key_words_html.php:181 ../key_words_html.php:188
+msgid "Information"
+msgstr "Informations"
+
+#: ../key_words_html.php:4 ../key_words_html.php:34 ../key_words_html.php:45
+#: ../key_words_html.php:55 ../key_words_html.php:98 ../key_words_html.php:131
+#: ../key_words_html.php:135 ../key_words_html.php:145
+#: ../key_words_html.php:152 ../key_words_html.php:154
+#: ../key_words_html.php:158 ../key_words_html.php:175
+#: ../key_words_html.php:182 ../key_words_html.php:189
+#: ../Backend/Controllers/Product/Marketing.php:102
+#: ../Backend/Controllers/Product/Marketing.php:118
+#: ../Backend/Controllers/Product/Marketing.php:134
+#: ../Backend/Controllers/Product/Prepare.php:32
+msgid "Add new Product"
+msgstr "Ajouter un nouveau produit"
+
+#: ../key_words_html.php:5 ../key_words_html.php:15 ../key_words_html.php:19
+msgid "List Categories"
+msgstr "liste Catégories"
+
+#: ../key_words_html.php:8 ../key_words_html.php:14 ../key_words_html.php:18
+msgid "Add new Category"
+msgstr "Ajouter une nouvelle catégorie"
+
+#: ../key_words_html.php:9 ../key_words_html.php:39 ../key_words_html.php:46
+#: ../key_words_html.php:56 ../key_words_html.php:66 ../key_words_html.php:74
+#: ../key_words_html.php:86 ../key_words_html.php:99 ../key_words_html.php:106
+#: ../key_words_html.php:119 ../key_words_html.php:132
+#: ../key_words_html.php:136 ../key_words_html.php:146
+#: ../key_words_html.php:153 ../key_words_html.php:159
+#: ../key_words_html.php:163 ../key_words_html.php:176
+#: ../key_words_html.php:183 ../key_words_html.php:190
+msgid "List Products"
+msgstr "Liste des produits"
+
+#: ../key_words_html.php:10 ../key_words_html.php:20
+msgid "Category List"
+msgstr "liste Catégories"
+
+#: ../key_words_html.php:11 ../key_words_html.php:21
+#: ../Backend/Controllers/Category/Sort.php:28
+msgid "Sort Categories"
+msgstr "Trier les catégories"
+
+#: ../key_words_html.php:22 ../key_words_html.php:78 ../key_words_html.php:209
+#: ../key_words_html.php:279 ../Backend/Controllers/Setting.php:104
+#: ../Backend/Controllers/Setting.php:108
+#: ../Backend/Controllers/Setting.php:148
+#: ../Backend/Controllers/Price/Price.php:85
+#: ../Backend/Controllers/Product/Modify/Multi/List.php:95
+#: ../Forms/Category/Form.php:67 ../Forms/Comment/Form.php:65
+#: ../Forms/Document/Form.php:59 ../Forms/Image/Form.php:79
+#: ../Forms/Manufacturer/Form.php:63
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: ../key_words_html.php:29 ../Backend/Controllers/Product/Media.php:72
+msgid "Add new Image"
+msgstr "Ajouter une nouvelle image"
+
+#: ../key_words_html.php:35
+msgid "List All Manufacture"
+msgstr "Lister tous les Marques"
+
+#: ../key_words_html.php:38 ../key_words_html.php:42
+msgid "Add new manufacturer"
+msgstr "Ajouter une nouvelle marque"
+
+#: ../key_words_html.php:47 ../key_words_html.php:57 ../key_words_html.php:67
+#: ../key_words_html.php:87 ../key_words_html.php:107
+#: ../key_words_html.php:120 ../key_words_html.php:137
+#: ../key_words_html.php:164 ../key_words_html.php:270
+msgid "General information"
+msgstr "Informations générales"
+
+#: ../key_words_html.php:48 ../key_words_html.php:58 ../key_words_html.php:80
+#: ../key_words_html.php:88 ../key_words_html.php:108
+#: ../key_words_html.php:121 ../key_words_html.php:138
+#: ../key_words_html.php:165 ../Backend/Controllers/Product/Grouped.php:72
+msgid "Grouped Products"
+msgstr "Produits groupés"
+
+#: ../key_words_html.php:49 ../key_words_html.php:59 ../key_words_html.php:89
+#: ../key_words_html.php:109 ../key_words_html.php:122
+#: ../key_words_html.php:139 ../key_words_html.php:166
+#: ../Backend/Controllers/Price/Price.php:49 ../Forms/Price/Form.php:36
+msgid "Prices"
+msgstr "Prix"
+
+#: ../key_words_html.php:50 ../key_words_html.php:60 ../key_words_html.php:68
+#: ../key_words_html.php:90 ../key_words_html.php:110
+#: ../key_words_html.php:123 ../key_words_html.php:140
+#: ../key_words_html.php:167
+msgid "Shipping Options"
+msgstr "Options de  Livraison"
+
+#: ../key_words_html.php:51 ../key_words_html.php:61 ../key_words_html.php:69
+#: ../key_words_html.php:91 ../key_words_html.php:111
+#: ../key_words_html.php:124 ../key_words_html.php:141
+#: ../key_words_html.php:168
+msgid "Marketing"
+msgstr "Marketing"
+
+#: ../key_words_html.php:52 ../key_words_html.php:62 ../key_words_html.php:70
+#: ../key_words_html.php:92 ../key_words_html.php:112
+#: ../key_words_html.php:125 ../key_words_html.php:142
+#: ../key_words_html.php:169
+msgid "Configuration"
+msgstr "Configuration"
+
+#: ../key_words_html.php:65 ../key_words_html.php:73 ../key_words_html.php:85
+#: ../key_words_html.php:105 ../key_words_html.php:118
+#: ../key_words_html.php:162
+msgid "Edit Product"
+msgstr "Modifier le produit"
+
+#: ../key_words_html.php:75
+msgid "Table Prices"
+msgstr "Tableau des prix "
+
+#: ../key_words_html.php:76 ../key_words_html.php:207
+#: ../key_words_html.php:277 ../Backend/Controllers/Price/Price.php:67
+#: ../Backend/Controllers/Product/Quicklist.php:65 ../Forms/Price/Form.php:55
+#: ../Grids/Product/DataGridView.php:52
+#: ../Grids/Product/Multi/DataGridView.php:53 ../Panels/Product/Panel.php:76
+msgid "Quantity"
+msgstr "Quantité"
+
+#: ../key_words_html.php:77 ../key_words_html.php:208
+#: ../key_words_html.php:278
+msgid "Unit Price"
+msgstr "Prix unitaire"
+
+#: ../key_words_html.php:79 ../key_words_html.php:224
+#: ../Forms/Product/Form.php:106 ../Panels/Product/Panel.php:64
+msgid "Product Information"
+msgstr "Information  produit"
+
+#: ../key_words_html.php:81 ../Backend/Controllers/Product/Media.php:66
+msgid "Product Images"
+msgstr "Images du produit"
+
+#: ../key_words_html.php:82 ../key_words_html.php:222
+#: ../Backend/Controllers/Product/Media.php:94
+msgid "Product Documents"
+msgstr "Documents de produit"
+
+#: ../key_words_html.php:93 ../key_words_html.php:113
+#: ../key_words_html.php:126 ../key_words_html.php:170
+#: ../Backend/Controllers/Price/Price.php:84
+#: ../Backend/Controllers/Product/Configuration.php:134
+#: ../Forms/Category/Form.php:92 ../Forms/Document/Form.php:71
+#: ../Forms/Image/Form.php:91 ../Forms/Manufacturer/Form.php:66
+#: ../Forms/Price/Form.php:64 ../Forms/Product/Form.php:125
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../key_words_html.php:94 ../key_words_html.php:114
+#: ../key_words_html.php:127 ../key_words_html.php:171
+#: ../Forms/Price/Form.php:67
+msgid "Previous Step"
+msgstr "Etape précédente"
+
+#: ../key_words_html.php:95 ../key_words_html.php:115
+#: ../key_words_html.php:128 ../key_words_html.php:172
+#: ../Backend/Controllers/Product/Prepare.php:62 ../Forms/Price/Form.php:70
+#: ../Forms/Product/Form.php:104
+msgid "Next Step"
+msgstr "Etape suivante"
+
+#: ../key_words_html.php:100 ../key_words_html.php:147
+#: ../key_words_html.php:177 ../key_words_html.php:184
+msgid "List All Products"
+msgstr "Liste Tous les Produits"
+
+#: ../key_words_html.php:101 ../key_words_html.php:148
+#: ../key_words_html.php:178 ../key_words_html.php:185 ../Backend/Boot.php:80
+#: ../Backend/Controllers/Product/Offlineproduct.php:112
+msgid "List Offline Products"
+msgstr "Liste des produits hors ligne"
+
+#: ../key_words_html.php:102 ../key_words_html.php:149
+#: ../key_words_html.php:179 ../key_words_html.php:186 ../Backend/Boot.php:81
+#: ../Backend/Controllers/Product/Specialproduct.php:111
+msgid "List Special Products"
+msgstr "Liste des produits spéciaux"
+
+#: ../key_words_html.php:193
+msgid "Compare Products"
+msgstr "Comparer les produits"
+
+#: ../key_words_html.php:194 ../key_words_html.php:195
+#: ../key_words_html.php:196 ../key_words_html.php:197
+msgid "Add to Cart"
+msgstr "Ajouter au panier"
+
+#: ../key_words_html.php:199
+msgid "Home"
+msgstr "Accueil"
+
+#: ../key_words_html.php:200 ../key_words_html.php:243
+#: ../key_words_html.php:295 ../Backend/Controllers/Product/Quicklist.php:59
+msgid "Product Number"
+msgstr "Numéro de produit"
+
+#: ../key_words_html.php:201 ../Forms/Product/Form.php:87
+#: ../Grids/Product/DataGridView.php:84
+#: ../Grids/Product/Multi/DataGridView.php:49 ../Panels/Product/Panel.php:69
+msgid "Category"
+msgstr "Catégorie"
+
+#: ../key_words_html.php:202 ../key_words_html.php:244
+#: ../key_words_html.php:273 ../key_words_html.php:296
+msgid "Old Price"
+msgstr "Ancien prix"
+
+#: ../key_words_html.php:203 ../key_words_html.php:245
+#: ../key_words_html.php:274 ../key_words_html.php:297
+msgid "From"
+msgstr "Pour"
+
+#: ../key_words_html.php:204 ../key_words_html.php:246
+#: ../key_words_html.php:275 ../key_words_html.php:298
+msgid "To"
+msgstr "À"
+
+#: ../key_words_html.php:205 ../key_words_html.php:290
+msgid "SALE"
+msgstr "Vente"
+
+#: ../key_words_html.php:206 ../key_words_html.php:269
+#: ../key_words_html.php:276 ../Backend/Controllers/Price/Price.php:50
+#: ../Backend/Controllers/Price/Price.php:69
+#: ../Backend/Controllers/Product/Quicklist.php:67
+#: ../Filter/Attribute/Filter.php:351 ../Filter/Attribute/MultiFilter.php:433
+#: ../Filter/Attribute/Dantelamark/MultiFilter.php:431
+#: ../Filter/Attribute/Dav/MultiFilter.php:429 ../Forms/Price/Form.php:37
+#: ../Forms/Price/Form.php:57 ../Grids/Product/DataGridView.php:48
+#: ../Grids/Product/Multi/DataGridView.php:47 ../Panels/Product/Panel.php:68
+msgid "Price"
+msgstr "Prix"
+
+#: ../key_words_html.php:210
+msgid "Get Quotation"
+msgstr "Obtenir devis"
+
+#: ../key_words_html.php:211 ../key_words_html.php:240
+msgid "Buy Now"
+msgstr "Acheter"
+
+#: ../key_words_html.php:212
+msgid "Print"
+msgstr "Imprimer"
+
+#: ../key_words_html.php:213 ../key_words_html.php:281
+msgid "Send to friend"
+msgstr "Envoyer à un ami"
+
+#: ../key_words_html.php:214
+msgid "Delete bookmark"
+msgstr "supprimer le favori"
+
+#: ../key_words_html.php:215
+msgid "Add bookmark"
+msgstr "Ajouter aux favoris"
+
+#: ../key_words_html.php:216
+msgid "Add to Facebook"
+msgstr "Ajouter au Facebook"
+
+#: ../key_words_html.php:217
+msgid "Add to Twitter"
+msgstr "Ajouter au Twitter"
+
+#: ../key_words_html.php:220
+msgid "Selected products"
+msgstr "Produits sélectionnés"
+
+#: ../key_words_html.php:226
+msgid "Products included in the offer"
+msgstr "Les produits inclus dans l'offre"
+
+#: ../key_words_html.php:227
+msgid "Included in the offer"
+msgstr "Inclus dans l'offre"
+
+#: ../key_words_html.php:228
+msgid "Unit price"
+msgstr "Prix ​​unitaire"
+
+#: ../key_words_html.php:230
+msgid "image thumb"
+msgstr "image thumb"
+
+#: ../key_words_html.php:232
+msgid "May be also interessant"
+msgstr "Également  interessant"
+
+#: ../key_words_html.php:234
+msgid "Similar Products"
+msgstr "Produits similaires"
+
+#: ../key_words_html.php:236 ../key_words_html.php:238
+#: ../key_words_html.php:241 ../key_words_html.php:247
+#: ../key_words_html.php:299
+msgid "Details"
+msgstr "Détails"
+
+#: ../key_words_html.php:249 ../key_words_html.php:260
+#: ../Backend/Controllers/Setting.php:51
+msgid "Products per page"
+msgstr "Produits par page"
+
+#: ../key_words_html.php:250 ../key_words_html.php:261
+msgid "Sort by"
+msgstr "Trier par"
+
+#: ../key_words_html.php:251 ../key_words_html.php:262
+msgid "Please select"
+msgstr "S'il vous plaît sélectionner"
+
+#: ../key_words_html.php:252 ../key_words_html.php:263
+msgid "Price Ascending"
+msgstr "Prix croissant"
+
+#: ../key_words_html.php:253 ../key_words_html.php:264
+msgid "Price Descending"
+msgstr "Prix  décroissant"
+
+#: ../key_words_html.php:254 ../key_words_html.php:265
+msgid "Result"
+msgstr "Résultat"
+
+#: ../key_words_html.php:255 ../key_words_html.php:266
+msgid "from"
+msgstr "Pour"
+
+#: ../key_words_html.php:256 ../key_words_html.php:258
+#: ../key_words_html.php:267 ../key_words_html.php:294
+msgid "No Products available"
+msgstr "Pas de produits disponibles"
+
+#: ../key_words_html.php:271
+msgid "Product number"
+msgstr "Numéro de produit"
+
+#: ../key_words_html.php:272 ../Forms/Category/Form.php:65
+#: ../Forms/Manufacturer/Form.php:46 ../Forms/Manufacturer/Form.php:49
+msgid "Description"
+msgstr "Description"
+
+#: ../key_words_html.php:284
+msgid "Preview"
+msgstr "Visualiser "
+
+#: ../key_words_html.php:286
+msgid "Wish List"
+msgstr "Liste de favoris"
+
+#: ../key_words_html.php:287 ../Panels/Comment/Panel.php:59
+msgid "Product"
+msgstr "Produit"
+
+#: ../key_words_html.php:288
+msgid "Item price"
+msgstr "Prix"
+
+#: ../key_words_html.php:289
+msgid "Remove"
+msgstr "Supprimer"
+
+#: ../key_words_html.php:291
+msgid "Your wishlist is empty"
+msgstr "Votre Liste de favoris est vide"
+
+#: ../key_words_html.php:293
+msgid "List product need quotation"
+msgstr "liste de produit besoin de devis "
+
+#: ../key_words_html.php:300
+msgid "Request Quotation"
+msgstr "Demande de devis"
+
+#: ../key_words_html.php:301
+msgid "List Manufactures"
+msgstr "Liste des fabricants"
+
+#: ../Backend/Boot.php:34
+msgid "Inventory"
+msgstr "Stocks"
+
+#: ../Backend/Boot.php:36
+msgid "Manage Categories"
+msgstr "Gérer les catégories"
+
+#: ../Backend/Boot.php:37
+msgid "Add a Category"
+msgstr "Ajouter une catégorie"
+
+#: ../Backend/Boot.php:38
+msgid "Manage Products"
+msgstr "Gérer les produits"
+
+#: ../Backend/Boot.php:39 ../Backend/Boot.php:72
+msgid "Group Edit"
+msgstr "Modifier le groupe"
+
+#: ../Backend/Boot.php:40
+msgid "Add a new Product"
+msgstr "Ajouter un nouveau produit"
+
+#: ../Backend/Boot.php:41
+msgid "Manage Manufactures"
+msgstr "Gérer les fabricants"
+
+#: ../Backend/Boot.php:42
+msgid "Manage Product Sets"
+msgstr "Gérer Ensembles du produit"
+
+#: ../Backend/Boot.php:43
+msgid "Manage Product Attributes"
+msgstr "Gérer les attributs du produit"
+
+#: ../Backend/Boot.php:44
+msgid "Products Settings"
+msgstr "Paramètres des produits"
+
+#: ../Backend/Boot.php:52
+msgid "Product Module"
+msgstr "Product Module"
+
+#: ../Backend/Boot.php:53
+msgid "Add Product Category"
+msgstr "Ajouter une catégorie "
+
+#: ../Backend/Boot.php:54
+msgid "Delete Product Category"
+msgstr "Supprimer une catégorie "
+
+#: ../Backend/Boot.php:55
+msgid "List all Product Category"
+msgstr "Liste de tous Catégorie "
+
+#: ../Backend/Boot.php:56
+msgid "Modify Product Category"
+msgstr "Modifier une catégorie "
+
+#: ../Backend/Boot.php:57
+msgid "Offline Product Category"
+msgstr "Catégorie  Hors ligne"
+
+#: ../Backend/Boot.php:58
+msgid "Online Product Category"
+msgstr "Catégorie en ligne"
+
+#: ../Backend/Boot.php:59
+msgid "Sort Product Category"
+msgstr "Trier Catégorie"
+
+#: ../Backend/Boot.php:60
+msgid "Add Product Document"
+msgstr "Ajouter un document"
+
+#: ../Backend/Boot.php:61
+msgid "Delete Product Document"
+msgstr "Supprimer le document "
+
+#: ../Backend/Boot.php:62
+msgid "Detail Product Document"
+msgstr "Détal de  Document "
+
+#: ../Backend/Boot.php:63
+msgid "Add Product Image"
+msgstr "Ajouter une image de produit"
+
+#: ../Backend/Boot.php:64
+msgid "Delete Product Image"
+msgstr "Supprimer l'image "
+
+#: ../Backend/Boot.php:65
+msgid "List all Product Image"
+msgstr "Liste de tous l'image "
+
+#: ../Backend/Boot.php:66
+msgid "Modify Product Image"
+msgstr "Modifier l'image "
+
+#: ../Backend/Boot.php:67
+msgid "Modify Product Price"
+msgstr "Modifier le prix "
+
+#: ../Backend/Boot.php:68
+msgid "Product Price"
+msgstr " Prix du produit"
+
+#: ../Backend/Boot.php:69
+msgid "List  Products"
+msgstr "Liste des produits"
+
+#: ../Backend/Boot.php:70
+msgid "Delete Product"
+msgstr "Supprimer le produit"
+
+#: ../Backend/Boot.php:71
+msgid "Modify Product"
+msgstr "Modifier le produit"
+
+#: ../Backend/Boot.php:73 ../Backend/Controllers/Product/Detail.php:43
+msgid "Product Details"
+msgstr "Détails du produit"
+
+#: ../Backend/Boot.php:74
+msgid "Set Product Online"
+msgstr "Mettre le produit en ligne "
+
+#: ../Backend/Boot.php:75
+msgid "Set Product Offline"
+msgstr "Mettre le produit hors ligne"
+
+#: ../Backend/Boot.php:76
+msgid "Manage Product Media"
+msgstr "Gérer produit média"
+
+#: ../Backend/Boot.php:77
+msgid "Manage Grouped Product"
+msgstr "Gérer le produit regroupés"
+
+#: ../Backend/Boot.php:78
+msgid "Product Quicklist"
+msgstr "liste rapide de produit"
+
+#: ../Backend/Boot.php:79
+msgid "Marketing Product"
+msgstr "Marketing des produits"
+
+#: ../Backend/Boot.php:82
+msgid "Manage Product Configuration"
+msgstr "Gérer la configuration du produit"
+
+#: ../Backend/Boot.php:83
+msgid "Setting Product"
+msgstr "Paramétre de produit"
+
+#: ../Backend/Controllers/Setting.php:31
+msgid "Product Settings"
+msgstr "Setting Product"
+
+#: ../Backend/Controllers/Setting.php:48
+msgid "Product List Frontend"
+msgstr "Liste des produits Frontend"
+
+#: ../Backend/Controllers/Setting.php:56
+msgid "Display Title"
+msgstr "Affichage de titre"
+
+#: ../Backend/Controllers/Setting.php:59
+msgid "Display Price"
+msgstr "affichage de prix"
+
+#: ../Backend/Controllers/Setting.php:62
+msgid "Display Quantity"
+msgstr "Afficher Quantité"
+
+#: ../Backend/Controllers/Setting.php:65
+msgid "Display Mode"
+msgstr "Mode d'affichage"
+
+#: ../Backend/Controllers/Setting.php:72
+msgid "Product Image Settings"
+msgstr "Paramètres d'image "
+
+#: ../Backend/Controllers/Setting.php:74
+msgid "Image Width (Pixel)"
+msgstr "Largeur de l'image (Pixels)"
+
+#: ../Backend/Controllers/Setting.php:79
+msgid "Image Height (Pixel)"
+msgstr "Hauteur de l'image (Pixels)"
+
+#: ../Backend/Controllers/Setting.php:84
+msgid "Image Thumb Width (Pixel)"
+msgstr "Largeur de l'image Thumb (Pixels)"
+
+#: ../Backend/Controllers/Setting.php:89
+msgid "Image Thumb Height (Pixel)"
+msgstr "Hauteur de l'image Thumb (Pixels)"
+
+#: ../Backend/Controllers/Setting.php:96
+msgid "Shopping Cart & Stock Management"
+msgstr "Panier et gestion des stocks"
+
+#: ../Backend/Controllers/Setting.php:98
+msgid "Enable Auto Stock Management?"
+msgstr "Activer Auto gestion des stocks?"
+
+#: ../Backend/Controllers/Setting.php:101
+msgid "Display Products when Quantity is null?"
+msgstr "Afficher les produits Lorsque la quantité est nulle?"
+
+#: ../Backend/Controllers/Setting.php:118
+#: ../Backend/Controllers/Setting.php:127
+#: ../Backend/Controllers/Product/Shipping.php:58
+msgid "Data was successfully saved"
+msgstr "Les données ont été sauvegardées avec succès"
+
+#: ../Backend/Controllers/Setting.php:137
+msgid "Record Numbering"
+msgstr "Numérotation d'enregistrement"
+
+#: ../Backend/Controllers/Setting.php:138
+msgid "Prefix"
+msgstr "Préfixe"
+
+#: ../Backend/Controllers/Setting.php:139
+msgid "Like: PROD"
+msgstr "Comme: PROD"
+
+#: ../Backend/Controllers/Setting.php:144
+msgid "Start Record"
+msgstr "Lancer l'enregistrement"
+
+#: ../Backend/Controllers/Category/Add.php:28
+msgid "Add new product category"
+msgstr "Ajouter une nouvelle catégorie de produits"
+
+#: ../Backend/Controllers/Category/Add.php:49
+#: ../Backend/Controllers/Category/Modify.php:72
+#: ../Backend/Controllers/Document/Add.php:62
+#: ../Backend/Controllers/Image/Add.php:56
+#: ../Backend/Controllers/Image/Modify.php:63
+#: ../Backend/Controllers/Manufacturer/Add.php:47
+#: ../Backend/Controllers/Manufacturer/Modify.php:65
+#: ../Backend/Controllers/Price/Modify.php:69
+#: ../Backend/Controllers/Product/Add.php:81
+#: ../Backend/Controllers/Product/Modify.php:65
+msgid "Please check inputs."
+msgstr "S'il vous plaît vérifier les entrées."
+
+#: ../Backend/Controllers/Category/List.php:30
+msgid "List categories"
+msgstr "Liste des catégories"
+
+#: ../Backend/Controllers/Category/Modify.php:32
+msgid "Modify product category"
+msgstr "Modifier la catégorie de produit"
+
+#: ../Backend/Controllers/Document/Add.php:32
+msgid "Add a new Product Document"
+msgstr "Ajouter un nouveau document de produit"
+
+#: ../Backend/Controllers/Document/Add.php:60
+msgid "Document was successully added"
+msgstr "Document a été ajouté avec succès"
+
+#: ../Backend/Controllers/Document/Detail.php:37
+msgid "Document Details"
+msgstr "Détails du document"
+
+#: ../Backend/Controllers/Image/Add.php:33
+msgid "Add new Product Image"
+msgstr "Ajouter une nouvelle image de produit"
+
+#: ../Backend/Controllers/Image/List.php:36
+msgid "List Images"
+msgstr "Liste des images"
+
+#: ../Backend/Controllers/Image/Modify.php:33
+msgid "Edit Product Image"
+msgstr "Modifier l'image du produit"
+
+#: ../Backend/Controllers/Manufacturer/Add.php:30
+msgid "Add new Manufacturer"
+msgstr "Ajouter un nouveau fabricant"
+
+#: ../Backend/Controllers/Manufacturer/List.php:39
+msgid "List all manufacturers"
+msgstr "liste de tous les fabricants"
+
+#: ../Backend/Controllers/Manufacturer/Modify.php:29
+msgid "Modify Manufacturer"
+msgstr "Modifier Fabricant"
+
+#: ../Backend/Controllers/Price/Modify.php:42
+#: ../Backend/Controllers/Price/Price.php:42
+msgid "Product Prices"
+msgstr "Prix des  produits"
+
+#: ../Backend/Controllers/Price/Modify.php:48
+#: ../Backend/Controllers/Price/Price.php:71
+#: ../Backend/Controllers/Product/Detail.php:66
+#: ../Backend/Controllers/Product/Grouped.php:74
+#: ../Backend/Controllers/Product/List.php:59
+#: ../Backend/Controllers/Product/List.php:66
+#: ../Backend/Controllers/Product/Marketing.php:93
+#: ../Backend/Controllers/Product/Marketing.php:109
+#: ../Backend/Controllers/Product/Marketing.php:125
+#: ../Backend/Controllers/Product/Offlineproduct.php:60
+#: ../Backend/Controllers/Product/Offlineproduct.php:65
+#: ../Backend/Controllers/Product/Specialproduct.php:60
+#: ../Backend/Controllers/Product/Specialproduct.php:65
+#: ../Forms/Price/Form.php:59 ../Grids/Category/DataGridView.php:47
+#: ../Grids/Document/DataGridView.php:42 ../Grids/Image/DataGridView.php:49
+#: ../Grids/Manufacturer/DataGridView.php:51
+#: ../Grids/Product/DataGridView.php:61
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../Backend/Controllers/Price/Price.php:53 ../Forms/Price/Form.php:40
+#: ../Panels/Product/Panel.php:71
+msgid "Special Price"
+msgstr "Prix Spécial"
+
+#: ../Backend/Controllers/Price/Price.php:56 ../Forms/Price/Form.php:43
+msgid "Date From"
+msgstr "Date à partir de"
+
+#: ../Backend/Controllers/Price/Price.php:60 ../Forms/Price/Form.php:47
+msgid "Date To"
+msgstr "Jusqu'à la date"
+
+#: ../Backend/Controllers/Price/Price.php:64 ../Forms/Price/Form.php:51
+msgid "Table Price"
+msgstr "Tableau de Prix"
+
+#: ../Backend/Controllers/Product/Add.php:30
+msgid "Add new product"
+msgstr "Ajouter un nouveau produit"
+
+#: ../Backend/Controllers/Product/Configuration.php:40
+msgid "Product Configurations"
+msgstr "Configurations du produit"
+
+#: ../Backend/Controllers/Product/Configuration.php:97
+msgid "Configuration Attributes"
+msgstr "Attributs de configuration"
+
+#: ../Backend/Controllers/Product/Configuration.php:109
+msgid "Configurable Products"
+msgstr "Produits configurables"
+
+#: ../Backend/Controllers/Product/Configuration.php:135
+msgid "Save Configuration"
+msgstr "Sauvegarder la configuration"
+
+#: ../Backend/Controllers/Product/Grouped.php:47
+msgid "Manage Grouped Products"
+msgstr "Gérez les produits groupés"
+
+#: ../Backend/Controllers/Product/Grouped.php:82
+msgid "Select Product"
+msgstr "Sélectionner un produit"
+
+#: ../Backend/Controllers/Product/List.php:56
+#: ../Backend/Controllers/Product/Offlineproduct.php:56
+#: ../Backend/Controllers/Product/Specialproduct.php:56
+msgid "Duplication"
+msgstr "Répétition"
+
+#: ../Backend/Controllers/Product/List.php:57
+#: ../Backend/Controllers/Product/Offlineproduct.php:57
+#: ../Backend/Controllers/Product/Specialproduct.php:57
+msgid "Set Online"
+msgstr "Activé "
+
+#: ../Backend/Controllers/Product/List.php:58
+#: ../Backend/Controllers/Product/Offlineproduct.php:58
+#: ../Backend/Controllers/Product/Specialproduct.php:58
+msgid "Set Offline"
+msgstr "Désactivé"
+
+#: ../Backend/Controllers/Product/List.php:112
+#: ../Backend/Controllers/Report/Sales/Most.php:53
+msgid "List all products"
+msgstr "List de  tous les produits"
+
+#: ../Backend/Controllers/Product/Marketing.php:64
+#: ../Backend/Controllers/Product/Media.php:57
+msgid "Manage Media"
+msgstr "Gérer les médias"
+
+#: ../Backend/Controllers/Product/Marketing.php:91
+msgid "Related Products"
+msgstr "produits liés"
+
+#: ../Backend/Controllers/Product/Marketing.php:107
+msgid "Cross Selling"
+msgstr "Ventes croisées"
+
+#: ../Backend/Controllers/Product/Marketing.php:123
+msgid "Up Selling"
+msgstr " Vente incitative"
+
+#: ../Backend/Controllers/Product/Media.php:98
+msgid "Add new Document"
+msgstr "Ajouter un nouveau document"
+
+#: ../Backend/Controllers/Product/Modify.php:31
+msgid "Modify product"
+msgstr "Modifier le produit"
+
+#: ../Backend/Controllers/Product/Offlineproduct.php:59
+#: ../Backend/Controllers/Product/Specialproduct.php:59
+#: ../Grids/Category/DataGridView.php:43 ../Grids/Image/DataGridView.php:46
+#: ../Grids/Manufacturer/DataGridView.php:44
+#: ../Grids/Product/DataGridView.php:57
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../Backend/Controllers/Product/Prepare.php:44
+msgid "Product Type"
+msgstr "Type de produit"
+
+#: ../Backend/Controllers/Product/Prepare.php:46
+msgid "Simple Product"
+msgstr "Simple produit"
+
+#: ../Backend/Controllers/Product/Prepare.php:47
+msgid "Service Product"
+msgstr "Produit Service"
+
+#: ../Backend/Controllers/Product/Prepare.php:48
+msgid "Grouped Product"
+msgstr "Produit regroupés"
+
+#: ../Backend/Controllers/Product/Prepare.php:55
+msgid "Attribute Set"
+msgstr "Ensemble d'attribut "
+
+#: ../Backend/Controllers/Product/Prepare.php:57
+msgid "Default Attribute Set"
+msgstr "Ensemble d'attributs par défaut"
+
+#: ../Backend/Controllers/Product/Quicklist.php:55
+#: ../Forms/Document/Form.php:54 ../Grids/Image/DataGridView.php:37
+#: ../Grids/Product/DataGridView.php:37
+#: ../Grids/Product/Multi/DataGridView.php:37
+msgid "Image"
+msgstr "Image"
+
+#: ../Backend/Controllers/Product/Quicklist.php:62
+msgid "Product Name"
+msgstr "Nom du produit"
+
+#: ../Backend/Controllers/Product/Quicklist.php:146
+msgid "Select a product"
+msgstr "Sélectionner un produit"
+
+#: ../Backend/Controllers/Product/Recommended.php:30
+#: ../Backend/Controllers/Product/Recommended.php:60
+msgid "List Recommended products"
+msgstr "Liste des produits recommandés"
+
+#: ../Backend/Controllers/Product/Recommended.php:39
+msgid "Unassign"
+msgstr "Unassign"
+
+#: ../Backend/Controllers/Product/Recommended.php:47
+msgid "Add Product"
+msgstr "Ajouter un produit"
+
+#: ../Backend/Controllers/Product/Shipping.php:47
+msgid "Manage Shipping Options"
+msgstr "Gérer les options de Livraison"
+
+#: ../Backend/Controllers/Product/Shipping.php:78
+msgid "Allowed Shipping methods"
+msgstr "Méthode de livraison autorisés"
+
+#: ../Backend/Controllers/Product/Shipping.php:79
+msgid "Shipping Method"
+msgstr "Méthode  de livraison"
+
+#: ../Backend/Controllers/Product/Shipping.php:87
+msgid "Apply Changes"
+msgstr "Appliquer les modifications"
+
+#: ../Backend/Controllers/Product/Modify/Multi/List.php:39
+msgid "Modify all products"
+msgstr "Modifier tous les produits"
+
+#: ../Backend/Controllers/Product/Modify/Multi/List.php:83
+msgid "Failed to update product"
+msgstr "Échec de mettre a jour le produit"
+
+#: ../Backend/Controllers/Report/Sales/Most.php:43
+msgid "Sales Count"
+msgstr "Nombre de ventes"
+
+#: ../Forms/Category/Form.php:53 ../Forms/Document/Form.php:51
+#: ../Forms/Image/Form.php:60 ../Forms/Manufacturer/Form.php:36
+#: ../Forms/Sendtofreind/Form.php:53 ../Grids/Category/DataGridView.php:37
+#: ../Grids/Manufacturer/DataGridView.php:34 ../Panels/Category/Panel.php:52
+msgid "Name"
+msgstr "Nom"
+
+#: ../Forms/Category/Form.php:56
+msgid "Parent Category"
+msgstr "Catégorie parent"
+
+#: ../Forms/Category/Form.php:62 ../Grids/Category/DataGridView.php:39
+#: ../Panels/Category/Panel.php:54
+msgid "Sort Id"
+msgstr "Trier Id"
+
+#: ../Forms/Category/Form.php:64 ../Grids/Category/DataGridView.php:40
+#: ../Grids/Category/DataGridView.php:64 ../Grids/Product/DataGridView.php:93
+#: ../Panels/Category/Panel.php:55
+msgid "State"
+msgstr "statut"
+
+#: ../Forms/Category/Form.php:70
+msgid "Category Logo"
+msgstr "Catégorie de logo"
+
+#: ../Forms/Category/Form.php:74 ../Forms/Manufacturer/Form.php:53
+msgid "Logo"
+msgstr "Logo"
+
+#: ../Forms/Category/Form.php:76 ../Forms/Category/Form.php:78
+msgid "Category Banner"
+msgstr "Catégorie de bannière"
+
+#: ../Forms/Category/Form.php:83 ../Forms/Document/Form.php:65
+#: ../Forms/Image/Form.php:81 ../Forms/Manufacturer/Form.php:35
+msgid "General Informations"
+msgstr "Informations générales"
+
+#: ../Forms/Comment/Form.php:53 ../Forms/Sendtofreind/Form.php:73
+#: ../Panels/Comment/Panel.php:55
+msgid "Subject"
+msgstr "Sujet"
+
+#: ../Forms/Comment/Form.php:55 ../Panels/Comment/Panel.php:67
+msgid "Comment"
+msgstr "Commentaire"
+
+#: ../Forms/Comment/Form.php:57 ../Forms/Document/Form.php:58
+#: ../Forms/Image/Form.php:73 ../Grids/Image/DataGridView.php:43
+#: ../Panels/Comment/Panel.php:56
+msgid "Public"
+msgstr "Public"
+
+#: ../Forms/Comment/Form.php:58 ../Panels/Comment/Panel.php:57
+msgid "Author"
+msgstr "Auteur"
+
+#: ../Forms/Comment/Form.php:60 ../Grids/Image/DataGridView.php:45
+#: ../Panels/Comment/Panel.php:58
+msgid "Insert Date"
+msgstr "Date d'insertion"
+
+#: ../Forms/Comment/Form.php:62
+msgid "Product "
+msgstr "Produit"
+
+#: ../Forms/Document/Form.php:54
+msgid "Document"
+msgstr "Document"
+
+#: ../Forms/Document/Form.php:54
+msgid "Zip File"
+msgstr "Fichier ZIP"
+
+#: ../Forms/Document/Form.php:54
+msgid "Software"
+msgstr "logiciel"
+
+#: ../Forms/Document/Form.php:55 ../Grids/Image/DataGridView.php:41
+msgid "Type"
+msgstr "Type"
+
+#: ../Forms/Document/Form.php:61
+msgid "File to upload"
+msgstr "Fichier à télécharger"
+
+#: ../Forms/Image/Form.php:63
+msgid "Image to upload"
+msgstr "Image à télécharger"
+
+#: ../Forms/Image/Form.php:66
+msgid "Important for the search engines (image search)"
+msgstr "Important pour les moteurs de recherche (recherche d'image)"
+
+#: ../Forms/Image/Form.php:67
+msgid "Max Width (Pixel)"
+msgstr "Largeur Max (Pixels)"
+
+#: ../Forms/Image/Form.php:70
+msgid "Max Height (Pixel)"
+msgstr "Hauteur Max (Pixels)"
+
+#: ../Forms/Image/Form.php:74
+msgid "if not public, the image will not be appear in the frontend"
+msgstr "Si ne  pas publique, l'image ne​sera pas afficher dans l'interface"
+
+#: ../Forms/Image/Form.php:75
+msgid "Remote URL"
+msgstr "URL distant"
+
+#: ../Forms/Image/Form.php:78
+msgid "Note: by using remote url, the uploaded image will be ignored!"
+msgstr ""
+"Remarque: Lorsque en  utilisant l'URL à distance, l'image téléchargée sera "
+"ignorée!"
+
+#: ../Forms/Image/Form.php:86
+msgid "Size Informations"
+msgstr "Taille Informations"
+
+#: ../Forms/Manufacturer/Form.php:41
+msgid "Page"
+msgstr "Page"
+
+#: ../Forms/Manufacturer/Form.php:56
+msgid "Manufacturer Logo"
+msgstr "Logo du fabricant"
+
+#: ../Forms/Product/Form.php:77 ../Grids/Product/DataGridView.php:41
+#: ../Grids/Product/Multi/DataGridView.php:41 ../Panels/Product/Panel.php:66
+msgid "Title"
+msgstr "Titre"
+
+#: ../Forms/Product/Form.php:82 ../Grids/Product/DataGridView.php:44
+#: ../Grids/Product/Multi/DataGridView.php:44 ../Panels/Product/Panel.php:67
+msgid "Number"
+msgstr "Nombre"
+
+#: ../Forms/Product/Form.php:93
+msgid "Manufacturer"
+msgstr "Fabricant"
+
+#: ../Forms/Product/Form.php:98
+msgid "Mark as new Product"
+msgstr "Marquer comme nouveau produit"
+
+#: ../Forms/Product/Form.php:99
+msgid "Show In Home"
+msgstr "Afficher dans la Page d'accueil"
+
+#: ../Forms/Product/Form.php:102
+msgid "Short Description"
+msgstr "Description courte"
+
+#: ../Forms/Product/Form.php:113
+msgid "Stock Management"
+msgstr "Gestion des stocks"
+
+#: ../Forms/Product/Form.php:114
+msgid "Manage Stock for this Product"
+msgstr "Gérer le Stock pour ce produit"
+
+#: ../Forms/Product/Form.php:116
+msgid "Available Quantity"
+msgstr "Quantité disponible"
+
+#: ../Forms/Product/Form.php:122 ../Panels/Product/Panel.php:87
+msgid "Product Description"
+msgstr "Description du produit"
+
+#: ../Forms/Product/Form.php:157
+msgid "Attributes"
+msgstr "Attributs"
+
+#: ../Forms/Sendtofreind/Form.php:58
+msgid "Email"
+msgstr "Email"
+
+#: ../Forms/Sendtofreind/Form.php:63
+msgid "Your freinds name"
+msgstr "Le nom de votre ami"
+
+#: ../Forms/Sendtofreind/Form.php:68
+msgid "Your freinds email"
+msgstr "L'email de votre ami"
+
+#: ../Forms/Sendtofreind/Form.php:78
+msgid "Message"
+msgstr "Message"
+
+#: ../Forms/Sendtofreind/Form.php:80
+msgid "Send"
+msgstr "Envoyer"
+
+#: ../Frontend/Boot.php:143 ../Frontend/Controllers/List.php:80
+#: ../Frontend/Controllers/List.php:91
+#: ../Frontend/Controllers/Override1/List.php:88
+#: ../Frontend/Controllers/Override1/List.php:100
+#: ../Frontend/Controllers/Override1/Offer.php:41
+msgid "Categories"
+msgstr "Catégories"
+
+#: ../Frontend/Controllers/Sendtofriend.php:80
+msgid "Best Regards"
+msgstr "Cordialement"
+
+#: ../Grids/Category/DataGridView.php:38 ../Panels/Category/Panel.php:53
+msgid "Parent"
+msgstr "Parent"
+
+#: ../Grids/Document/DataGridView.php:35
+msgid "Document Name"
+msgstr "Nom du document"
+
+#: ../Grids/Document/DataGridView.php:37
+msgid "Document Type"
+msgstr "Type de document"
+
+#: ../Grids/Document/DataGridView.php:38
+msgid "Download"
+msgstr "Télécharger"
+
+#: ../Grids/Image/DataGridView.php:36
+msgid "Image Name"
+msgstr "Nom de l'image"
+
+#: ../Grids/Image/DataGridView.php:42
+msgid "Extension"
+msgstr "Extension"
+
+#: ../Grids/Image/DataGridView.php:44
+msgid "RemoteURL"
+msgstr "URL distant"
+
+#: ../Grids/Manufacturer/DataGridView.php:39
+msgid "Home Page"
+msgstr "Page d'Accueil"
+
+#: ../Grids/Product/DataGridView.php:46
+msgid "Product Category"
+msgstr "Catégorie de produit"
+
+#: ../Grids/Product/DataGridView.php:47
+msgid "User"
+msgstr "Utilisateur"
+
+#: ../Grids/Product/DataGridView.php:50
+msgid "Discount"
+msgstr "Réduction"
+
+#: ../Grids/Product/DataGridView.php:54
+msgid "Online"
+msgstr "En ligne"
+
+#: ../Models/Document/Model.php:233 ../Models/Image/Model.php:434
+msgid "file cannote be uploaded"
+msgstr "fichier ne peut être téléchargé"
+
+#: ../Models/Notification/Model.php:23
+msgid "Product Quantity Alert"
+msgstr "Alarme de la quantité de produit"
+
+#: ../Models/Product/Model.php:829 ../Models/Product/Model.php:859
+msgid "Product was deleted"
+msgstr "Le produit a été supprimé"
+
+#: ../Models/Product/Model.php:836 ../Models/Product/Model.php:866
+msgid "Given quantity must be greater than 0"
+msgstr "la quantité doit être supérieur à 0"
+
+#: ../Models/Product/Model.php:869
+#, php-format
+msgid "No enougth quantity for %s, max quantity is %s"
+msgstr "Aucune quantité suffisante pour %s, la quantité maximale est de %s"
+
+#: ../Panels/Category/Panel.php:50
+msgid "Product Category Information"
+msgstr "Informations de  Catégorie du produit"
+
+#: ../Panels/Category/Panel.php:60
+msgid "Product Category Description"
+msgstr "Description de la catégorie de produit"
+
+#: ../Panels/Category/Panel.php:62
+msgid "Description "
+msgstr "Description "
+
+#: ../Panels/Comment/Panel.php:53
+msgid "Product Comment Information"
+msgstr " Informations de commentaire"
+
+#: ../Panels/Comment/Panel.php:65
+msgid "Product Comment Description"
+msgstr "Description de commentaire  "
+
+#: ../Panels/Product/Panel.php:70
+msgid "Status"
+msgstr "Statut"
+
+#: ../Panels/Product/Panel.php:72
+msgid "Sepcial Price To"
+msgstr "Prix spécial pour"
+
+#: ../Panels/Product/Panel.php:73 ../Panels/Product/Panel.php:75
+msgid "Special Price From"
+msgstr "Prix​spécial à partir de"
+
+#: ../Panels/Product/Panel.php:74
+msgid "Manage Stock"
+msgstr "Gérer Stock"

@@ -1,0 +1,51 @@
+<div class="main-menu-area" id="sticker">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="main-menu">
+                    
+                    <nav role="navigation">
+                        <ul>
+                            {foreach Modules_Cms_Frontend_Boot::getMegaMenuContainer(1) as $parent}
+                            {if $parent->hasChildrens()}
+
+                            <li> <a href="{$parent->getLink()}" {if $parent->getTarget() == 'blank'}target="__blank"{/if}>
+                                    <b>{$parent->getTitle()}</b></a>
+                                <!--sub menu-->
+                                {if $parent->hasChildrens()}
+                                <div class="mega-menu">
+                                <div class="single-mega-menu">
+                                    {foreach $parent->getChildrens(1) as $child}
+                                    {if $child && $child->hasChildrens()}
+                                     
+                                    <b><h3 class="hedding-border"><a href="{$child->getLink()}" >{$child->getTitle()}</a></h3></b>
+                                            {foreach $child->getChildrens(1) as $subchild}
+                                            <a href="{$subchild->getLink()}" {if $subchild->getTarget() == 'blank'}target="__blank"{/if}><span>{$subchild->getTitle()}</span></a></h3>
+                                            
+                                           
+                                            {/foreach}
+                                    
+                                    {else}
+                                  
+                                        <b> <a href="{$child->getLink()}" {if $child->getTarget() == 'blank'}target="__blank"{/if} >{$child->getTitle()}</a></b>
+                                    
+                                    {/if}
+                                    {/foreach}
+
+                                </div>                                            </div> 
+
+                                {/if}
+                            </li>
+                            {else}
+                            <li><a href="{$parent->getLink()}" {if $parent->getTarget() == 'blank'}target="__blank"{/if}><b>{$parent->getTitle()}</b></a></li>
+                            {/if}
+                            {/foreach}							
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- MAIN-MENU-AREA-END -->

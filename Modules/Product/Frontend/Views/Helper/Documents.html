@@ -1,0 +1,21 @@
+{if $product->hasDocument()}
+<div class="core_content" style="padding: 10px; min-height: 30px">
+  <table width="100%">
+    <tr>
+      <td>
+        <h3 class="active attributes" >{'Product Documents'|tr}</h3>
+        <table  class="search_table tableborder" style="padding: 3px; border: none; margin-top: 10px; width: 100%">
+          <tr>
+            {foreach $product->getDocuments() as $document}
+            <td>
+              <img src="{$document->getIcon()}" alt="" style="max-width: 60px;max-height: 140px;"/><a href="index.php?module=product&page=document-download&id={$document->getHash()}">{$document->name}</a>
+            </td>
+            {/foreach}
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+  </table>
+</div>
+{/if}

@@ -1,0 +1,217 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Crm\n"
+"POT-Creation-Date: 2014-04-17 10:01+0100\n"
+"PO-Revision-Date: 2014-04-17 10:02+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../key_words_html.php:3 ../key_words_html.php:49
+msgid "Info"
+msgstr "Information"
+
+#: ../key_words_html.php:4 ../key_words_html.php:50 ../Backend/Boot.php:45
+msgid "List Modules"
+msgstr "Liste des Modules"
+
+#: ../key_words_html.php:5 ../key_words_html.php:51
+msgid "Package Information"
+msgstr "Information du paquet"
+
+#: ../key_words_html.php:6 ../key_words_html.php:52
+msgid "Module Name"
+msgstr "Nom du Module"
+
+#: ../key_words_html.php:7 ../key_words_html.php:53
+msgid "Module Version"
+msgstr "Version du Module"
+
+#: ../key_words_html.php:8 ../key_words_html.php:54
+msgid "Module Build Date"
+msgstr "Date de fabrication du module"
+
+#: ../key_words_html.php:9 ../key_words_html.php:55
+msgid "Module Description"
+msgstr "Description du Module"
+
+#: ../key_words_html.php:10 ../key_words_html.php:56
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../key_words_html.php:11 ../key_words_html.php:16 ../key_words_html.php:57
+#: ../key_words_html.php:62
+msgid "Execute"
+msgstr "Executer"
+
+#: ../key_words_html.php:13 ../key_words_html.php:59
+msgid "Information"
+msgstr "Information"
+
+#: ../key_words_html.php:14 ../key_words_html.php:60
+msgid "Upload Modules"
+msgstr "Télécharger les Modules"
+
+#: ../key_words_html.php:15 ../key_words_html.php:61
+msgid "Zip File"
+msgstr "Fichier Zip"
+
+#: ../key_words_html.php:17 ../key_words_html.php:63
+msgid "List modules"
+msgstr "Liste des Modules"
+
+#: ../key_words_html.php:18 ../key_words_html.php:64
+msgid "Module"
+msgstr "Module"
+
+#: ../key_words_html.php:19 ../key_words_html.php:65
+msgid "Vesion"
+msgstr "Version"
+
+#: ../key_words_html.php:20 ../key_words_html.php:66
+msgid "Build Date"
+msgstr "Date de fabrication"
+
+#: ../key_words_html.php:21 ../key_words_html.php:67
+msgid "State"
+msgstr "L'état"
+
+#: ../key_words_html.php:22 ../key_words_html.php:68
+msgid "Actions"
+msgstr "Action"
+
+#: ../key_words_html.php:23 ../key_words_html.php:69
+msgid "checked"
+msgstr "Vérifié"
+
+#: ../key_words_html.php:24 ../key_words_html.php:28 ../key_words_html.php:70
+#: ../key_words_html.php:74
+msgid "Install"
+msgstr "Installer"
+
+#: ../key_words_html.php:25 ../key_words_html.php:71
+msgid "Exclamation"
+msgstr "Details du Module"
+
+#: ../key_words_html.php:26 ../key_words_html.php:72
+msgid "Lastversion"
+msgstr "Dernière version"
+
+#: ../key_words_html.php:27 ../key_words_html.php:73
+msgid "Update"
+msgstr "Mise a jour"
+
+#: ../key_words_html.php:29
+msgid "Bpm"
+msgstr "Bpm"
+
+#: ../key_words_html.php:30
+msgid "Backup Module"
+msgstr "Module de sauvegarde"
+
+#: ../key_words_html.php:31
+msgid "Banner Module"
+msgstr "Bannière Module "
+
+#: ../key_words_html.php:32
+msgid "Cashu"
+msgstr "Cashu"
+
+#: ../key_words_html.php:33
+msgid "Advanced Content Management System"
+msgstr "Système de gestion de contenu avancée"
+
+#: ../key_words_html.php:34
+msgid "Comment Module"
+msgstr "Commentaire Module"
+
+#: ../key_words_html.php:35
+msgid "Customer Relationship Management"
+msgstr "Gestion de la Relation Client"
+
+#: ../key_words_html.php:36
+msgid "Default Module"
+msgstr "Module de défaut"
+
+#: ../key_words_html.php:37
+msgid "Doc"
+msgstr "Guide de l'utilisateur"
+
+#: ../key_words_html.php:38
+msgid "Packages Installer Module"
+msgstr "Installation Module"
+
+#: ../key_words_html.php:39
+msgid "Invoice Module"
+msgstr "Module de facture"
+
+#: ../key_words_html.php:40
+msgid "NewsLetter Module"
+msgstr "Module de NewsLetter"
+
+#: ../key_words_html.php:41
+msgid "Payment Management Module"
+msgstr "Module de gestion des paiements"
+
+#: ../key_words_html.php:42
+msgid "Paypal"
+msgstr "Paypal"
+
+#: ../key_words_html.php:43
+msgid "Inventory Module"
+msgstr "Module d'inventaire"
+
+#: ../key_words_html.php:44
+msgid "Sales Order Management Module"
+msgstr "Module de gestion du commande"
+
+#: ../key_words_html.php:45
+msgid "Settings Module"
+msgstr "Module Paramètres"
+
+#: ../key_words_html.php:46
+msgid "Backend User Management System"
+msgstr "Module utilisateur"
+
+#: ../key_words_html.php:47
+msgid "Webmail Module"
+msgstr "Module Webmail"
+
+#: ../Backend/Boot.php:36
+msgid "Module Management"
+msgstr "Gestion des modules"
+
+#: ../Backend/Boot.php:44
+msgid "Installer Module"
+msgstr "Installer le Module"
+
+#: ../Backend/Boot.php:46
+msgid "Show Module Information"
+msgstr "Afficher Informations sur le module"
+
+#: ../Backend/Controllers/Details.php:65
+msgid "Details of the Module "
+msgstr "Détails du module"
+
+#: ../Backend/Controllers/Details.php:68
+msgid "Manifest was not found"
+msgstr "Fichier Manifest non trouver"
+
+#: ../Backend/Controllers/List.php:32
+#, fuzzy
+msgid "Modules Management"
+msgstr "Gestion des modules"
+
+#: ../Backend/Controllers/List.php:44 ../Backend/Controllers/List.php:61
+msgid "Module was updated successfully."
+msgstr "Module a été mis à jour."
+
+#~ msgid "Setting"
+#~ msgstr "paramètre"

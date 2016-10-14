@@ -1,0 +1,62 @@
+<!--product item-->
+<div class="product_item full_width list_type hit m_left_0 m_right_0">
+    <figure class="r_corners photoframe tr_all_hover type_2 shadow relative clearfix">
+        <div  class="amh-container  animated flipInX">
+            <div class="d_block relative wrapper pp_wrap amh-1_3  amh-text-center-rp amh-left">
+                {if $item->isOffered()}
+                {if $item->getPercentSaveAmount() > 0}<span class="hot_stripe type_2"><img src="{$skin_path}/images/sale_product_type_2.png" alt="" style="width: auto;height: auto;"></span>{/if}
+                {elseif  $item->is_new}
+                <span class="hot_stripe type_2"><img src="{$skin_path}/images/hot_product_type_2.png" alt="" style="width: auto;height: auto;"></span>
+                {/if}
+                <a href="{$item->getUrl()}"> <img class="amh-full-width-rp" style="max-height: 250px;  max-width: 90%;  box-shadow: 0px 0px 0px #989898;" src="{$item->getFirstThumb()|default:'media/noimage.jpg'}" class="tr_all_hover" alt="{$item->getTitle()}"></a>
+                <span data-popup="{$item->getPreviewUrl()}" class="box_s_none button_type_5 color_light r_corners tr_all_hover d_xs_none">
+                    <a rel="{$item->getPreviewUrl()}" class="quick-view  hidden-xs" style="color: inherit;"> {'Quick View'|tr} </a>
+                </span>
+            </div>
+            <div class="amh-2_3 {if $counter % 2 == 0}amh-right{else}amh-left{/if}">
+                <h4 class="fw_medium margintop"><a href="{$item->getUrl()}" class="color_dark">{$item->getTitle()|truncate:55}</a></h4>
+                {if $item->getDescription()}
+                <div>{$item->getDescription()|strip_tags|truncate:300}</div>
+                {/if}
+                <br />
+                <div><p style="padding: 3px 0;"><strong>{'Product Number'|tr}: </strong>{$item->getNumber()|default:'N/A'}</p></div>
+                <div><p style="padding: 3px 0;"><strong>{'Category'|tr}:</strong> {$item->getCategory()|default:'N/A'} </p></div>
+                <div class="product-detail-price">{'Price'|tr}: {$item->getSalePrice()|price}</div>
+                {if $item->isOffered()}
+                <div class="product_price_big"><span class="price_offer"> {$item->getPrice()|price}</span><br /><span class="product_price_big_date">{'From'|tr} {$item->getSpecialPriceDateFrom()} {'To'|tr} {$item->getSpecialPriceDateTo()}</span></div>
+                {/if}
+                <div class="clearfix"><br /></div>
+                <div class="amh-container">
+                    <figcaption>       
+                        <!-- add to cart -->
+                        <a class="{if !$item->inCart()}ajax_add_to_cart_button {/if}product-btn cart-button" data-id-product="{$item->getId()}" title="{'Add to cart'|tr}">
+                            {if $item->inCart()}
+                            <i class="fa fa-check"></i>
+                            {else}
+                            <span>{'Add to cart'|tr}</span>
+                            <i class="fa fa-check" style='display:none'></i>
+                            {/if}
+                            <i class="fa fa-times" style='display:none'></i>
+                            <i class="fa fa-circle-o-notch fa-spin" style='display:none'></i>
+                        </a>
+                        <!-- add to whishlist -->
+                        <a class="{if !$item->inWhishlist()}add_to_whishlist ajax_add_to_whishlist_button{/if} product-btn"  data-id-product="{$item->getId()}" title="{'Add to Wishlist'|tr}">
+                            <i class="fa fa-check" style='display:none'></i>
+                            <i class="fa fa-heart-o"></i>
+                            <i class="fa fa-circle-o-notch fa-spin" style='display:none'></i>
+                        </a>
+                        <a class="{if !$item->inCompare()}add_to_compare  ajax_add_to_compare_button{/if} product-btn" data-id-product="{$item->getId()}" title="{'Add to Compare'|tr}">
+                            <i class="fa fa-check" style='display:none'></i>
+                            <i class="fa fa-copy"></i>
+                            <i class="fa fa-circle-o-notch fa-spin" style='display:none'></i>
+                        </a>
+                    </figcaption>
+                    {if $cart_message}
+                    <h1>{$cart_message}</h1>
+                    {/if}
+                </div>
+            </div>
+        </div>
+    </figure>
+</div>
+<!--product item-->

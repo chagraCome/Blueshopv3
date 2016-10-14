@@ -1,0 +1,27 @@
+
+
+    {nocache}
+    {if $ratingForm}
+
+    {foreach $ratings as $rating}
+
+    <table style="width: 98%;">
+        <tr><td><h3 class="active"><i class="fa fa-comment-o"></i>&nbsp;{'Comment'|tr}</h3></td></tr>
+        <tr><td>{$rating->getRateComponent()->Render()}</td></tr>
+        <tr><td><p><strong>{'Name'|tr}: </strong>{$rating->getName()}</p></td></tr>
+        <tr><td><p><strong>{'Comment'|tr}: </strong>{$rating->getComment()|nl2br}</p></td></tr>
+        <tr><td><p><strong>{'Posted'|tr}: </strong>{$rating->getRateDateTime()}</p></td></tr>
+        <br/>
+
+    </table>
+    <hr>
+    {/foreach}
+
+    <div>
+         <h5 class="fw_medium m_bottom_15"><i class="fa fa-comment"></i>&nbsp;{'Add comment'|tr}</h5><br/>
+        {$ratingForm->Render()}
+    </div>
+    <br />
+    {/if}
+    {/nocache}
+

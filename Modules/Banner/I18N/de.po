@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Banner Module\n"
+"POT-Creation-Date: 2015-08-24 16:03+0200\n"
+"PO-Revision-Date: 2015-08-24 16:04+0200\n"
+"Last-Translator: Amir Cherif <amir.cherif@amhsoft.com>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../Backend/Boot.php:34 ../Grids/DataGridView.php:37
+msgid "Banner"
+msgstr "Banner"
+
+#: ../Backend/Boot.php:35 ../Backend/Boot.php:46
+#: ../Backend/Controllers/List.php:41 ../key_words_html.php:12
+msgid "List Banners"
+msgstr "Bannerliste"
+
+#: ../Backend/Boot.php:36 ../Backend/Boot.php:47
+#: ../Backend/Controllers/Add.php:33 ../key_words_html.php:8
+#: ../key_words_html.php:11
+msgid "Add new Banner"
+msgstr "Neuen Banner hinzufügen"
+
+#: ../Backend/Boot.php:37
+msgid "Manage Banner Setting"
+msgstr "Bannereinstellungen verwalten"
+
+#: ../Backend/Boot.php:45
+msgid "Banner Module"
+msgstr ""
+
+#: ../Backend/Boot.php:48 ../Backend/Controllers/Modify.php:32
+msgid "Edit Banner"
+msgstr "Banner ändern"
+
+#: ../Backend/Boot.php:49
+msgid "Delete Banner"
+msgstr ""
+
+#: ../Backend/Boot.php:50 ../Backend/Controllers/Setting.php:27
+#: ../Backend/Controllers/Setting.php:42
+msgid "Banner Settings"
+msgstr "Bannereinstellungen"
+
+#: ../Backend/Controllers/Add.php:56 ../Backend/Controllers/Modify.php:62
+msgid "Please check inputs."
+msgstr "Bitte Eingaben überprüfen"
+
+#: ../Backend/Controllers/Setting.php:44
+msgid "Show Banner"
+msgstr "Banner zeigen"
+
+#: ../Backend/Controllers/Setting.php:46
+msgid "Banner Transition Effect"
+msgstr "Bannerübergangseffect"
+
+#: ../Backend/Controllers/Setting.php:51
+msgid "Banner Source"
+msgstr ""
+
+#: ../Backend/Controllers/Setting.php:56
+msgid "From Uploaded Banner"
+msgstr ""
+
+#: ../Backend/Controllers/Setting.php:60
+msgid "From Product images"
+msgstr ""
+
+#: ../Backend/Controllers/Setting.php:65
+msgid "Banner Width"
+msgstr ""
+
+#: ../Backend/Controllers/Setting.php:68
+msgid "Banner Height"
+msgstr ""
+
+#: ../Backend/Controllers/Setting.php:74 ../Forms/Form.php:65
+msgid "Save"
+msgstr "Speichern"
+
+#: ../Backend/Controllers/Setting.php:76 ../Forms/Form.php:75
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../Backend/Controllers/Setting.php:87
+msgid "Data was successfully saved"
+msgstr ""
+
+#: ../Forms/Form.php:56
+msgid "General Information"
+msgstr ""
+
+#: ../Forms/Form.php:57
+msgid "Name"
+msgstr "Name"
+
+#: ../Forms/Form.php:60
+msgid "Important for the search engines (Banner search)"
+msgstr "Wichtig für die Suchmachinen (Bannersuche)"
+
+#: ../Forms/Form.php:61
+msgid "Banner to upload"
+msgstr ""
+
+#: ../Forms/Form.php:67
+msgid "Url"
+msgstr "URL"
+
+#: ../Forms/Form.php:70
+msgid "General Informations"
+msgstr "Allgemeine Informationen"
+
+#: ../Grids/DataGridView.php:35
+msgid "Banner Name"
+msgstr "Bannername"
+
+#: ../Grids/DataGridView.php:42
+msgid "Type"
+msgstr "Typ"
+
+#: ../Grids/DataGridView.php:44
+msgid "Extension"
+msgstr "Erweitertung"
+
+#: ../Grids/DataGridView.php:46
+msgid "Insert At"
+msgstr "Eingefügt am"
+
+#: ../Grids/DataGridView.php:50
+msgid "State"
+msgstr ""
+
+#: ../Grids/DataGridView.php:55
+msgid "Edit"
+msgstr "Editieren"
+
+#: ../Grids/DataGridView.php:61
+msgid "Delete"
+msgstr "Löschen"
+
+#: ../Models/Model.php:274
+msgid "file cannote be uploaded"
+msgstr "Datei konnte nicht hochgeladen werden"
+
+#: ../key_words_html.php:5 ../key_words_html.php:7 ../key_words_html.php:10
+#: ../key_words_html.php:14
+msgid "Information"
+msgstr "Informationen"

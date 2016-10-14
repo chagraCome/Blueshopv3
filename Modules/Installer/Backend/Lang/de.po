@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: installer backend\n"
+"POT-Creation-Date: 2013-04-17 11:26+0100\n"
+"PO-Revision-Date: 2013-04-17 11:26+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: detsch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../Boot.php:26
+msgid "Setting"
+msgstr "Einstellungen"
+
+#: ../Boot.php:29
+msgid "Module Management"
+msgstr "Module Verwalten"
+
+#: ../Boot.php:34
+msgid "Installer Module"
+msgstr "Module Installieren"
+
+#: ../Boot.php:35
+msgid "List Modules"
+msgstr "Alle Module auflisten"
+
+#: ../Boot.php:36
+msgid "Show Module Information"
+msgstr "Module Informationen zeigen"
+
+#: ../Controllers/Details.php:50
+msgid "List details installed in the store."
+msgstr "Installierte Details zeigen"
+
+#: ../Controllers/List.php:15
+msgid "Modules Management"
+msgstr "Module verwalten"
+
+#: ../Controllers/List.php:31
+msgid "Details has been upldated successfully."
+msgstr "Details wurden erfolgreich aktualisiert"
+
+#: ../Controllers/List.php:36 ../Controllers/List.php:66
+msgid "manifest not found."
+msgstr "Offenbar nicht gefunden"
+
+#: ../Controllers/List.php:60
+msgid "Details has been installed successfully."
+msgstr "Details wurden erfolgreich installiert."

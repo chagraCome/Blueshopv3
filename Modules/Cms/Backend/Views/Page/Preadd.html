@@ -1,0 +1,160 @@
+{literal}
+<style>
+    .page_layout{width: 200px; height: 200px; border: 1px solid gray; float: left; margin: 0 0 10px 10px; background-color: white; cursor: pointer}
+    .page_layout table, .page_layout table td{border-color: gray; border-style: dashed; border-width: 1px}
+</style>
+{/literal}
+<fieldset>
+    <legend>{'Information'|tr}</legend>
+    <div class="{$class}">{$message}</div>
+</fieldset>
+
+<fieldset>
+    <legend>
+        <!-- begin action --><span class="add"><a href="admin.php?module=cms&amp;page=menu-add">{'Add new Menu Point'|tr}</a></span><!-- end action --> |
+        <!-- begin action --><span class="list"><a href="admin.php?module=cms&amp;page=page-list">{'List Pages'|tr}</a></span><!-- end action -->
+    </legend>
+    <form name="step1" action="" method="post" style="display:inline">
+        <div class="panel">
+            {fieldset name="step1_add_page" title='Choose your design'|tr}
+            <a href="admin.php?module=cms&page=page-add&layout=s">
+                <div class="page_layout">
+                    <table width="99%" border="0">
+                        <tr>
+                            <td style="height: 190px"></td>
+                        </tr>
+                    </table>
+                </div>
+            </a>
+            <a href="admin.php?module=cms&page=page-add&layout=2r">
+                <div class="page_layout">
+                    <table width="99%" border="1">
+                        <tr >
+                            <td style="height: 95px">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td style="height: 95px">&nbsp;</td>
+                        </tr>
+                    </table>
+                </div>
+            </a>
+              <a href="admin.php?module=cms&page=page-add&layout=2c">
+                <div class="page_layout">
+                    <table width="99%" border="1">
+                        <tr >
+                            <td style="height: 190px"></td>
+                            <td style="height: 190px"></td>
+                        </tr>
+                    </table>
+                </div>
+            </a>
+            <a href="admin.php?module=cms&page=page-add&layout=2r2ct">
+                <div class="page_layout">
+                    <table width="99%" border="1" >
+                        <tr >
+                            <td style="height: 95px">&nbsp;</td>
+                            <td style="height: 95px">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="height: 95px">&nbsp;</td>
+                        </tr>
+                    </table>
+                </div>
+            </a>
+                <a href="admin.php?module=cms&page=page-add&layout=2r2cb">
+                    <div class="page_layout">
+                        <table width="99%" border="1" >
+                            <tr>
+                                <td colspan="2" style="height: 95px">&nbsp;</td>
+                            </tr>
+                            <tr >
+                                <td style="height: 95px">&nbsp;</td>
+                                <td style="height: 95px">&nbsp;</td>
+                            </tr>
+                        </table>
+                    </div>
+                </a>
+                <a href="admin.php?module=cms&page=page-add&layout=2r2c">
+                    <div class="page_layout">
+                        <table width="99%" border="1" >
+                            <tr>
+                                <td style="height: 95px">&nbsp;</td>
+                                <td style="height: 95px">&nbsp;</td>
+                            </tr>
+                            <tr >
+                                <td style="height: 95px">&nbsp;</td>
+                                <td style="height: 95px">&nbsp;</td>
+                            </tr>
+                        </table>
+                    </div>
+                </a>
+                <a href="admin.php?module=cms&page=page-add&layout=3r">
+                    <div class="page_layout">
+                        <table width="99%" border="1" >
+                            <tr >
+                                <td style="height: 64px">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td style="height: 64px">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td style="height: 64px">&nbsp;</td>
+                            </tr>
+                        </table>
+                    </div>
+                </a>
+                <a href="admin.php?module=cms&page=page-add&layout=3r2ct">
+                    <div class="page_layout">
+                        <table width="99%" border="1" >
+                            <tr >
+                                <td style="height: 64px">&nbsp;</td>
+                                <td style="height: 64px">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="height: 64px">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"  style="height: 64px">&nbsp;</td>
+                            </tr>
+                        </table>
+                    </div>
+                </a>
+                <a href="admin.php?module=cms&page=page-add&layout=3r2cm">
+                    <div class="page_layout">
+                        <table width="99%" border="1" >
+
+                            <tr>
+                                <td colspan="2" style="height: 64px">&nbsp;</td>
+                            </tr>
+                            <tr >
+                                <td style="height: 64px">&nbsp;</td>
+                                <td style="height: 64px">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"  style="height: 64px">&nbsp;</td>
+                            </tr>
+                        </table>
+                    </div>
+                </a>
+                <a href="admin.php?module=cms&page=page-add&layout=3r2cb">
+                    <div class="page_layout">
+                        <table width="99%" border="1" >
+
+                            <tr>
+                                <td colspan="2" style="height: 64px">&nbsp;</td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2"  style="height: 64px">&nbsp;</td>
+                            </tr>
+                            <tr >
+                                <td style="height: 64px">&nbsp;</td>
+                                <td style="height: 64px">&nbsp;</td>
+                            </tr>
+                        </table>
+                    </div>
+                </a>
+                {/fieldset}
+        </div>
+    </form>
+</fieldset>

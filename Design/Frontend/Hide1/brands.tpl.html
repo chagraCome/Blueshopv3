@@ -1,0 +1,23 @@
+
+	<!-- PRODUCT-TAB-CAROSUL-AREA-END -->
+<!--product brands-->
+<div class="logo-brand-area">
+		<div class="container">
+			<div class="logo-brand-carosul-area">
+				<div class="row">
+					<div class="logo-brand-carosul">
+						{foreach Modules_Product_Frontend_Boot::getManufacturer() as $manufact}
+                                                <div class="col-lg-2 col-md-2">
+                                                  <a href="index.php?module=product&page=list&man_id={$manufact->getId()}" class="d_block t_align_c animate_fade" >
+                                                      <img src="{$manufact->getPictureSrc()|default:'media/noimage.jpg'}" alt="" style="width: 75%;height: 100px;">
+                                                  </a>
+                                                
+                                                </div>
+                                                {/foreach}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- LOGO-BRAND-AREA END-->
+   

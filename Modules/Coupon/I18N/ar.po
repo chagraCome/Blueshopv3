@@ -1,0 +1,565 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Coupon\n"
+"POT-Creation-Date: 2014-06-04 10:20+0100\n"
+"PO-Revision-Date: 2014-06-04 10:20+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../key_words_html.php:3
+msgid "Verify Coupon Promotion Code"
+msgstr "التحقق من رمز قسيمة ترويج"
+
+#: ../key_words_html.php:5 ../key_words_html.php:9 ../key_words_html.php:13
+#: ../key_words_html.php:18 ../key_words_html.php:22 ../key_words_html.php:25
+#: ../key_words_html.php:29 ../key_words_html.php:33 ../key_words_html.php:37
+#: ../key_words_html.php:41 ../key_words_html.php:46 ../key_words_html.php:50
+#: ../Panels/Code/Execute/Panel.php:19
+#, fuzzy
+msgid "Information"
+msgstr "اعلام"
+
+#: ../key_words_html.php:6 ../key_words_html.php:34
+msgid "Add new Request"
+msgstr "إضافة طلب جديد"
+
+#: ../key_words_html.php:7 ../key_words_html.php:35
+msgid "List Requests"
+msgstr "قائمة الطلبات"
+
+#: ../key_words_html.php:10 ../key_words_html.php:14 ../key_words_html.php:19
+#: ../key_words_html.php:23 ../key_words_html.php:26 ../key_words_html.php:30
+#: ../key_words_html.php:38 ../key_words_html.php:42 ../key_words_html.php:47
+#: ../key_words_html.php:51 ../Backend/Boot.php:37
+#: ../Backend/Controllers/.php:30 ../Backend/Controllers/Add.php:33
+msgid "Add new Coupon"
+msgstr "اضافة قسيمة تخفيض جديدة "
+
+#: ../key_words_html.php:11 ../key_words_html.php:15 ../key_words_html.php:20
+#: ../key_words_html.php:27 ../key_words_html.php:31 ../key_words_html.php:39
+#: ../key_words_html.php:43 ../key_words_html.php:48 ../key_words_html.php:52
+msgid "List Coupons"
+msgstr "قائمة قسائم  تخفيض"
+
+#: ../key_words_html.php:16 ../key_words_html.php:44
+msgid "Edit Coupon"
+msgstr "تعديل قسيمة"
+
+#: ../key_words_html.php:53 ../Backend/Boot.php:35
+msgid "Coupon Module"
+msgstr "إدارة قسائم التخفيض"
+
+#: ../key_words_html.php:54
+#, fuzzy
+msgid "Coupon Contacts"
+msgstr "  جهات إتصال  قسيمة التخفيض"
+
+#: ../Backend/Boot.php:29
+msgid "Coupon"
+msgstr "قسيمة تخفيض"
+
+#: ../Backend/Boot.php:30
+msgid "Manage Coupons"
+msgstr "إدارة قسائم التخفيض"
+
+#: ../Backend/Boot.php:31
+msgid "Statistics"
+msgstr "إحصائيات"
+
+#: ../Backend/Boot.php:32
+msgid "Manage Settings"
+msgstr "ادارة الاعدادات"
+
+#: ../Backend/Boot.php:36
+#, fuzzy
+msgid "List all Coupon"
+msgstr "قائمة جميع قسائم التخفيض"
+
+#: ../Backend/Boot.php:38
+msgid "Show Coupon Information"
+msgstr "معلومات قسيمة التخفيض"
+
+#: ../Backend/Boot.php:39 ../Backend/Controllers/Modify.php:32
+msgid "Modify Coupon"
+msgstr "تعديل  قسيمة تخفيض"
+
+#: ../Backend/Boot.php:40
+msgid "Delete Coupon"
+msgstr "حذف قسيمة تخفيض"
+
+#: ../Backend/Boot.php:41
+msgid "Set Coupon Offline"
+msgstr "تعطيل قسيمة تخفيض"
+
+#: ../Backend/Boot.php:42
+msgid "Set Coupon Online"
+msgstr "تفعيل قسيمة تخفيض"
+
+#: ../Backend/Controllers/.php:46 ../Backend/Controllers/Add.php:52
+#: ../Backend/Controllers/Modify.php:60 ../Backend/Controllers/Code/Add.php:62
+#: ../Backend/Controllers/Code/Modify.php:73
+#, fuzzy
+msgid "Please check inputs."
+msgstr " الرجاء التأكد من المعلومات"
+
+#: ../Backend/Controllers/Account.php:44
+msgid "Coupon Accounts"
+msgstr "حسابات قسيمة التخفيض"
+
+#: ../Backend/Controllers/Account.php:78
+#, fuzzy
+msgid "Accounts"
+msgstr "المبلغ"
+
+#: ../Backend/Controllers/Account.php:86 ../Backend/Controllers/Contact.php:89
+msgid "Unassign"
+msgstr "إلغاء"
+
+#: ../Backend/Controllers/Account.php:96
+#: ../Backend/Controllers/Account.php:107
+msgid "Select Account"
+msgstr "إختر حساب"
+
+#: ../Backend/Controllers/Account.php:102
+msgid "Select Accounts By Group"
+msgstr "إختر مجموعة الحسابات"
+
+#: ../Backend/Controllers/Account.php:104
+#: ../Backend/Controllers/Contact.php:107
+#, fuzzy
+msgid "All Groups"
+msgstr "قائمة جميع قسائم التخفيض"
+
+#: ../Backend/Controllers/Account.php:120
+#: ../Backend/Controllers/Contact.php:122
+#, fuzzy
+msgid "Delete All"
+msgstr "حذف"
+
+#: ../Backend/Controllers/Contact.php:45
+msgid "Coupon contacts"
+msgstr "  جهات إتصال  قسيمة التخفيض"
+
+#: ../Backend/Controllers/Contact.php:81
+msgid "Contacts"
+msgstr "جهات الإتصال"
+
+#: ../Backend/Controllers/Contact.php:99
+msgid "Select contact"
+msgstr "اختر جهة إتصال"
+
+#: ../Backend/Controllers/Contact.php:105
+msgid "Select contacts By Group"
+msgstr "اختر جهة إتصال من مجموعة"
+
+#: ../Backend/Controllers/Contact.php:110
+msgid "Select Contact"
+msgstr "اختر جهة إتصال"
+
+#: ../Backend/Controllers/Coupon.php:48
+msgid "Send Coupon"
+msgstr "ارسل "
+
+#: ../Backend/Controllers/Coupon.php:69
+#, fuzzy
+msgid "Send Coupon Email"
+msgstr "إرسال بريد الكتروني"
+
+#: ../Backend/Controllers/Coupon.php:76
+msgid "From"
+msgstr "من"
+
+#: ../Backend/Controllers/Coupon.php:86
+msgid "Content"
+msgstr "المحتوى"
+
+#: ../Backend/Controllers/Coupon.php:89
+msgid "Select from template"
+msgstr "اختر قالب"
+
+#: ../Backend/Controllers/Coupon.php:92
+msgid "Subject"
+msgstr "الموضوع"
+
+#: ../Backend/Controllers/Coupon.php:101
+msgid "Variables"
+msgstr "المتغيرات"
+
+#: ../Backend/Controllers/Coupon.php:105
+msgid "Action"
+msgstr "إجراء"
+
+#: ../Backend/Controllers/Coupon.php:107
+#: ../Backend/Controllers/Code/Detail.php:67
+msgid "Send Email"
+msgstr "إرسال بريد الكتروني"
+
+#: ../Backend/Controllers/Coupon.php:181
+msgid "Coupon E-Mails sent"
+msgstr "إرسال بريد الكتروني"
+
+#: ../Backend/Controllers/Detail.php:51
+#, fuzzy
+msgid "General Informations"
+msgstr "معلومات عامة"
+
+#: ../Backend/Controllers/Detail.php:53
+#: ../Backend/Controllers/Code/Detail.php:45
+msgid "Coupon Details"
+msgstr "تفاصيل قسيمة تخفيض"
+
+#: ../Backend/Controllers/Detail.php:64
+msgid "Coupon Codes"
+msgstr "رموز القسيمة"
+
+#: ../Backend/Controllers/Detail.php:80
+msgid "Add New Coupon Code"
+msgstr "إضافة رمز قسيمة جديد"
+
+#: ../Backend/Controllers/Detail.php:83
+#: ../Backend/Controllers/Code/Generate.php:32
+msgid "Generate Coupon Codes"
+msgstr "توليد رموز القسيمة"
+
+#: ../Backend/Controllers/Detail.php:86
+msgid "Download As Csv"
+msgstr "تحميل ك CSV"
+
+#: ../Backend/Controllers/Detail.php:89
+msgid "Import From Csv"
+msgstr "استيراد من CSV"
+
+#: ../Backend/Controllers/List.php:44
+msgid "List All Coupons"
+msgstr "قائمة جميع قسائم التخفيض"
+
+#: ../Backend/Controllers/Setting.php:32
+msgid "Coupon Settings"
+msgstr "إعدادات القسيمة"
+
+#: ../Backend/Controllers/Setting.php:33
+msgid "Manage Coupon Settings"
+msgstr "إدارة إعدادات القسيمة"
+
+#: ../Backend/Controllers/Setting.php:57
+#, fuzzy
+msgid "Please Check Inputs"
+msgstr " الرجاء التأكد من المعلومات"
+
+#: ../Backend/Controllers/Statistics.php:30
+#: ../Backend/Controllers/Statistics.php:32
+msgid "Coupon Statistics"
+msgstr "إحصائيات القسيمة"
+
+#: ../Backend/Controllers/Statistics.php:51
+msgid "Expired Coupons"
+msgstr "قسائم منتهية الصلاحية"
+
+#: ../Backend/Controllers/Statistics.php:52
+#: ../Backend/Controllers/Statistics.php:63
+#: ../Backend/Controllers/Statistics.php:73
+msgid "Count"
+msgstr "عدد"
+
+#: ../Backend/Controllers/Statistics.php:54
+msgid "Expired Code"
+msgstr "رمز منتهية الصلاحية"
+
+#: ../Backend/Controllers/Statistics.php:62
+msgid "Used Coupons"
+msgstr "قسيمة مستعملة"
+
+#: ../Backend/Controllers/Statistics.php:72
+msgid "Free Coupons"
+msgstr "قسيمة مجانية"
+
+#: ../Backend/Controllers/Statistics.php:82
+msgid "Total Coupons Amounts"
+msgstr "مجموع مبالغ القسائم"
+
+#: ../Backend/Controllers/Statistics.php:83
+msgid "Total Amount"
+msgstr "مجموع مبالغ"
+
+#: ../Backend/Controllers/Statistics.php:92
+msgid "Total Used Coupons Amounts"
+msgstr "مجموع مبالغ القسائم المستعملة"
+
+#: ../Backend/Controllers/Statistics.php:93
+msgid "Total Used Amount"
+msgstr "مجموع المبالغ  المستعملة"
+
+#: ../Backend/Controllers/Statistics.php:102
+msgid "Total Expired Coupons Amounts"
+msgstr " مجموع مبالغ القسائم منتهية الصلاحية"
+
+#: ../Backend/Controllers/Statistics.php:103
+msgid "Total Expired Amount"
+msgstr " مجموع مبالغ  منتهية الصلاحية"
+
+#: ../Backend/Controllers/Statistics.php:112
+msgid "Total Free Coupons Amounts"
+msgstr "مجموع مبالغ القسائم المجانية "
+
+#: ../Backend/Controllers/Statistics.php:113
+msgid "Total Free Amount"
+msgstr "مجموع مبالغ القسائم المجانية "
+
+#: ../Backend/Controllers/Code/Add.php:39
+msgid "Add new Coupon Code"
+msgstr "إضافة رمز قسيمة جديد"
+
+#: ../Backend/Controllers/Code/Detail.php:47
+msgid "Coupon Code Details"
+msgstr "تفاصيل رمز القسيمة"
+
+#: ../Backend/Controllers/Code/Detail.php:63 ../Forms/Setting/Form.php:55
+msgid "Coupon Template"
+msgstr "قالب القسيمة"
+
+#: ../Backend/Controllers/Code/Detail.php:75
+msgid "Coupon Informations"
+msgstr "معلومات القسيمة"
+
+#: ../Backend/Controllers/Code/Detail.php:89
+msgid "Related Sales Order"
+msgstr "طلبات الشراء المتعلقة"
+
+#: ../Backend/Controllers/Code/Generate.php:33
+msgid "Generations Informations"
+msgstr "معلومات"
+
+#: ../Backend/Controllers/Code/Generate.php:47
+msgid "Check number of code must be number"
+msgstr "يجب التحقق من رقم الرمز(يجب ان يكون رقم)"
+
+#: ../Backend/Controllers/Code/Generate.php:52
+msgid "Check number of code"
+msgstr "التحقق من عدد الرمز"
+
+#: ../Backend/Controllers/Code/Generate.php:60
+msgid "Number of codes"
+msgstr "عدد الرموز"
+
+#: ../Backend/Controllers/Code/Generate.php:66 ../Forms/Code/Form.php:43
+#: ../Grids/Code/DataGridView.php:43 ../Panels/Code/Panel.php:38
+msgid "Expire Date"
+msgstr "تاريخ انتهاء الصلاحية"
+
+#: ../Backend/Controllers/Code/Generate.php:70
+msgid "Generate"
+msgstr "توليد"
+
+#: ../Backend/Controllers/Code/Generate.php:83
+#, fuzzy
+msgid "Please Check inputs"
+msgstr " الرجاء التأكد من المعلومات"
+
+#: ../Backend/Controllers/Code/Modify.php:32
+msgid "Edit Coupon Code"
+msgstr "تعديل رمز  قسيمة"
+
+#: ../Backend/Controllers/Import/Csv.php:47
+msgid "Import Codes from Csv file"
+msgstr "استراد الرموز من ملف Csv "
+
+#: ../Backend/Controllers/Import/Csv.php:72
+msgid "Failed to load file"
+msgstr "فشل في تحميل الملف"
+
+#: ../Forms/Form.php:37
+msgid "Add Coupon"
+msgstr "اضافة قسيمة تخفيض  "
+
+#: ../Forms/Form.php:38 ../Grids/DataGridView.php:38 ../Panels/Panel.php:57
+#, fuzzy
+msgid "Name"
+msgstr "الاسم"
+
+#: ../Forms/Form.php:41 ../Grids/DataGridView.php:41 ../Panels/Panel.php:58
+#, fuzzy
+msgid "Type"
+msgstr "النوع"
+
+#: ../Forms/Form.php:45 ../Grids/DataGridView.php:44 ../Panels/Panel.php:59
+msgid "Amount"
+msgstr "المبلغ"
+
+#: ../Forms/Form.php:47 ../Panels/Panel.php:60
+msgid "Percent"
+msgstr " النسبة"
+
+#: ../Forms/Form.php:49
+msgid "Minum Shopping Cart Amount"
+msgstr "المبلغ  الأدنى لسلة التسوق"
+
+#: ../Forms/Form.php:51 ../Panels/Panel.php:62
+msgid "Enabled"
+msgstr "مفعل"
+
+#: ../Forms/Form.php:52 ../Panels/Panel.php:63
+msgid "Physical"
+msgstr "مادي"
+
+#: ../Forms/Form.php:53 ../Forms/Code/Form.php:47 ../Forms/Setting/Form.php:65
+#, fuzzy
+msgid "Navigation"
+msgstr "التّصفح"
+
+#: ../Forms/Form.php:54 ../Forms/Code/Form.php:48 ../Forms/Setting/Form.php:59
+#, fuzzy
+msgid "Save"
+msgstr "حفظ"
+
+#: ../Forms/Code/Form.php:33
+#, fuzzy
+msgid "Coupon code"
+msgstr "رموز القسيمة"
+
+#: ../Forms/Code/Form.php:34 ../Forms/Import/Form.php:30
+#: ../Grids/Code/DataGridView.php:35 ../Panels/Code/Panel.php:35
+#: ../Panels/Code/Panel.php:36
+msgid "Code"
+msgstr "رمز"
+
+#: ../Forms/Code/Form.php:38 ../Grids/Code/DataGridView.php:46
+msgid "State"
+msgstr "الحالة"
+
+#: ../Forms/Import/Form.php:30
+msgid "Notice :Csv Must be Like :  "
+msgstr "ملاحظة: CSV يجب أن يكون مثل:"
+
+#: ../Forms/Import/Form.php:30
+#, fuzzy
+msgid "Expiration Date"
+msgstr "تاريخ انتهاء الصلاحية"
+
+#: ../Forms/Import/Form.php:31
+msgid "File to upload"
+msgstr "ملف للرفع"
+
+#: ../Forms/Import/Form.php:31
+#, fuzzy
+msgid "Upload Csv"
+msgstr "تحميل ك CSV"
+
+#: ../Forms/Import/Form.php:35
+msgid "Upload"
+msgstr "رفع"
+
+#: ../Forms/Setting/Form.php:37
+msgid "Number of code blocks"
+msgstr " عدد  كتل الرموز"
+
+#: ../Forms/Setting/Form.php:41
+msgid "Number of Caracter per block"
+msgstr "عدد الأحرف في كتلة"
+
+#: ../Forms/Setting/Form.php:45
+msgid "Block Separator"
+msgstr "فاصل كتل"
+
+#: ../Forms/Setting/Form.php:47
+msgid "You can add block Separator like : - , * , + , / , ."
+msgstr "يمكنك إضافة كتلة فاصل مثل: -، *، +، /،."
+
+#: ../Forms/Setting/Form.php:50
+msgid "Generate Code Using this Caracters"
+msgstr "توليد رمز باستخدام هذه الأحرف"
+
+#: ../Forms/Verify/Form.php:33
+msgid "Promotion Code"
+msgstr "رمز الترويج"
+
+#: ../Forms/Verify/Form.php:37
+#, fuzzy
+msgid "Security Code"
+msgstr "كود التحقق"
+
+#: ../Forms/Verify/Form.php:39
+#, fuzzy
+msgid "Checkout Now"
+msgstr "اتمام عملية الشراء"
+
+#: ../Forms/Verify/Form.php:41
+msgid "Back"
+msgstr "الرجوع"
+
+#: ../Frontend/Controllers/Verify.php:45
+#, fuzzy
+msgid "Please check your inputs"
+msgstr "الرجاء التأكد من المدخلات"
+
+#: ../Frontend/Controllers/Verify.php:61 ../Frontend/Controllers/Verify.php:66
+msgid "Promotion Code was expired on :"
+msgstr "لقد انتهت رمز الترويج في"
+
+#: ../Frontend/Controllers/Verify.php:72
+msgid "Invalid Promtion Code"
+msgstr "رمز غير صالح"
+
+#: ../Grids/DataGridView.php:47 ../Grids/Code/DataGridView.php:40
+#: ../Panels/Panel.php:65 ../Panels/Code/Panel.php:37
+#, fuzzy
+msgid "Insert Date"
+msgstr "تاريخ الإنشاء"
+
+#: ../Grids/DataGridView.php:50 ../Panels/Panel.php:64
+#, fuzzy
+msgid "Created By"
+msgstr "منشأ من قبل"
+
+#: ../Grids/DataGridView.php:53
+msgid "Codes"
+msgstr "رموز"
+
+#: ../Grids/DataGridView.php:57 ../Grids/Code/DataGridView.php:49
+#, fuzzy
+msgid "Edit"
+msgstr "تعديل"
+
+#: ../Grids/DataGridView.php:60
+#, fuzzy
+msgid "Online"
+msgstr "مفعّل"
+
+#: ../Grids/DataGridView.php:62 ../Grids/Code/DataGridView.php:52
+#: ../Models/Import/Code/Model.php:37
+#, fuzzy
+msgid "Delete"
+msgstr "حذف"
+
+#: ../Models/Code/Model.php:182
+msgid "Free Shipping"
+msgstr "شحن مجاني"
+
+#: ../Models/Code/Model.php:183
+msgid "Min Shopping Cart Amount"
+msgstr "المبلغ  الأدنى لسلة التسوق"
+
+#: ../Panels/Panel.php:61
+msgid "Minimum Shopping Cart Amount"
+msgstr "المبلغ  الأدنى لسلة التسوق"
+
+#: ../Panels/Panel.php:66
+#, fuzzy
+msgid "Update Date"
+msgstr "تاريخ التحديث"
+
+#: ../Panels/Code/Execute/Panel.php:24
+msgid "Number of contact"
+msgstr "عدد جهة الاتصال"
+
+#: ../Panels/Code/Execute/Panel.php:25
+msgid "Number of account"
+msgstr "عدد الحسابات"

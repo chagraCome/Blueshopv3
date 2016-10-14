@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Banner Module\n"
+"POT-Creation-Date: 2014-04-15 09:51+0100\n"
+"PO-Revision-Date: 2014-04-15 09:51+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../Backend/Boot.php:34 ../Grids/DataGridView.php:37
+msgid "Banner"
+msgstr "البانر"
+
+#: ../Backend/Boot.php:35 ../Backend/Boot.php:46
+#: ../Backend/Controllers/List.php:36 ../key_words_html.php:12
+msgid "List Banners"
+msgstr "قائمة البانرات"
+
+#: ../Backend/Boot.php:36 ../Backend/Boot.php:47
+#: ../Backend/Controllers/Add.php:33 ../key_words_html.php:8
+#: ../key_words_html.php:11
+msgid "Add new Banner"
+msgstr "اضافة بانر جديد"
+
+#: ../Backend/Boot.php:37
+msgid "Manage Banner Setting"
+msgstr "إدارة إعدادات البانر"
+
+#: ../Backend/Boot.php:45
+msgid "Banner Module"
+msgstr "إدارة البانرات"
+
+#: ../Backend/Boot.php:48 ../Backend/Controllers/Modify.php:32
+msgid "Edit Banner"
+msgstr "التعديل على البانر"
+
+#: ../Backend/Boot.php:49
+msgid "Delete Banner"
+msgstr "حذف بانر"
+
+#: ../Backend/Boot.php:50 ../Backend/Controllers/Setting.php:27
+#: ../Backend/Controllers/Setting.php:42
+msgid "Banner Settings"
+msgstr "إعدادات البانر"
+
+#: ../Backend/Controllers/Add.php:56 ../Backend/Controllers/Modify.php:62
+#, fuzzy
+msgid "Please check inputs."
+msgstr " الرجاء التأكد من المعلومات"
+
+#: ../Backend/Controllers/Setting.php:44
+msgid "Show Banner"
+msgstr "عرض البانر"
+
+#: ../Backend/Controllers/Setting.php:47
+msgid "Banner Transition Effect"
+msgstr "نوع حركة البانر"
+
+#: ../Backend/Controllers/Setting.php:53
+#, fuzzy
+msgid "Banner Source"
+msgstr "إدارة البانرات"
+
+#: ../Backend/Controllers/Setting.php:58
+msgid "From Uploaded Banner"
+msgstr "استخدام البانارات"
+
+#: ../Backend/Controllers/Setting.php:62
+msgid "From Product images"
+msgstr "استخدام صور المنتجات"
+
+#: ../Backend/Controllers/Setting.php:70 ../Forms/Form.php:65
+#, fuzzy
+msgid "Save"
+msgstr "حفظ"
+
+#: ../Backend/Controllers/Setting.php:81
+msgid "Data was successfully saved"
+msgstr "تم حفظ البيانات بنجاح"
+
+#: ../Forms/Form.php:56
+msgid "Name"
+msgstr "الاسم"
+
+#: ../Forms/Form.php:59
+#, fuzzy
+msgid "Important for the search engines (Banner search)"
+msgstr "مهم جدا لمحركات البحث, خاصة عند البحث عن الصور"
+
+#: ../Forms/Form.php:61
+msgid "Banner to upload"
+msgstr "رفع البانر  "
+
+#: ../Forms/Form.php:67
+msgid "Url"
+msgstr "الرابط"
+
+#: ../Forms/Form.php:70
+#, fuzzy
+msgid "General Informations"
+msgstr "معلومات عامة"
+
+#: ../Forms/Form.php:75
+#, fuzzy
+msgid "Navigation"
+msgstr "التّصفح"
+
+#: ../Grids/DataGridView.php:36
+msgid "Banner Name"
+msgstr "اسم البانر"
+
+#: ../Grids/DataGridView.php:41
+#, fuzzy
+msgid "Type"
+msgstr "النوع"
+
+#: ../Grids/DataGridView.php:42
+#, fuzzy
+msgid "Extension"
+msgstr "امتداد"
+
+#: ../Grids/DataGridView.php:43
+#, fuzzy
+msgid "Insert Date"
+msgstr "تاريخ الإنشاء"
+
+#: ../Grids/DataGridView.php:45
+#, fuzzy
+msgid "Edit"
+msgstr "تعديل"
+
+#: ../Grids/DataGridView.php:49
+#, fuzzy
+msgid "Delete"
+msgstr "حذف"
+
+#: ../Models/Model.php:287
+#, fuzzy
+msgid "file cannote be uploaded"
+msgstr "لا يمكن رفع الملف"
+
+#: ../key_words_html.php:5 ../key_words_html.php:7 ../key_words_html.php:10
+#: ../key_words_html.php:14
+#, fuzzy
+msgid "Information"
+msgstr "اعلام"

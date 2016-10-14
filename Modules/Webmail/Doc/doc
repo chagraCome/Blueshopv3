@@ -1,0 +1,34 @@
+Webmail:
+  Send Email (using template or not)
+  Save sent emails
+  Edit and resend
+  Delete Sent email
+
+Webmail: 
+[from email], [from name], 
+[to emails ","], [cc emails ","], [bcc emails ","]
+[subject]
+[content]
+[attachments]
+
+state (send or not send, draft) [Save or Send(By sending email , email will be saved also]
+
+(attachements save as binary database + extention)
+
+Webmail_Email_Model
+id, from_name, from_email, to_emails, 
+cc_emails, bcc_emails, subject, content, 
+state(draft, send, faild)
+createat, sendat
+
+webmail_mail_has_crm_account [webmail_mail_id, crm_account_id]
+
+mail_attachement [id, mail_id, binary, ext]
+
+example: 
+ Account Registration  -> send mail
+
+ Webmail_Manager_Model::nodify($object, $templateid, $from=null);
+ Webmail_Manager_Model::nodify($object, $templateid, $from=null);
+
+

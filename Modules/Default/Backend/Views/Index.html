@@ -1,0 +1,59 @@
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+{fieldset name="article_search" title='Control Panel'|tr}
+<div id="maincontainer">
+  <div class="panel" id="maincontent" style="min-height: 1060px">
+    <div   style="width: 100%;"> 
+      <div class="portlet" > 
+	<div class="portlet-header" style="cursor: pointer">{'Welcome'|tr}</div> 
+	<div class="portlet-content" style="padding: 0.8em; min-height: 60px">{'Welcome'|tr} {$loggeduserfullname}<br />{'Last Login time'|tr}: {$lastlogindate}<br />{'Last Login host'|tr}: {$lastloginhost}
+         <br />
+         {'Online Users'|tr}: {$online_users} 
+	</div> 
+      </div> 
+    </div> 
+    <div class="column leftc" id="col1"> 
+      {foreach $portlets['L'] as $p}
+      <div class="portlet" id="port_{$p.id}"> 
+	<div class="portlet-header">{$p.title|tr}</div> 
+	<div class="portlet-content">{$p.content}</div> 
+      </div> 
+      {/foreach}
+    </div> 
+
+    <div class="column rightc" id="col3"> 
+      {foreach $portlets['R'] as $p}
+      <div class="portlet" id="port_{$p.id}"> 
+	<div class="portlet-header">{$p.title|tr}</div> 
+	<div class="portlet-content">{$p.content}</div> 
+      </div> 
+      {/foreach}
+    </div> 
+
+  </div>
+</div>
+{/fieldset}
+{literal}
+<script>
+  //window.setInterval(refresh, 60000);
+  function refresh() {
+    $('#maincontainer').load('admin.php #maincontent');
+  }
+  $(function() {
+    $(".column").sortable({
+      connectWith: ['.column'],
+      stop: function() {
+	var left_data = $(".leftc").sortable("serialize");
+	//var  center_data = $(".centerc").sortable("serialize");
+	var right_data = $(".rightc").sortable("serialize");
+	$.post('admin.php?module=default&page=portlet-list&event=sort&pos=L', left_data);
+	$.post('admin.php?module=default&page=portlet-list&event=sort&pos=R', right_data);
+	//$.post('admin.php?module=default&page=portlet-list&event=sort&pos=C',center_data);
+      }
+    });
+  });
+
+</script>
+{/literal}

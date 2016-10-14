@@ -1,0 +1,20 @@
+<div class="core_content" style="min-height: 38px;">
+<h3 class="active">{'Account'|tr}<a href="index.php?module=cart&page=checkout-account" class="cart_edit">{'Edit'|tr}</a></h3>
+</div>
+<br />
+<div class="core_content" style="min-height: 38px">
+    {if $error_message}<div style=" border: 1px solid #FFE7A1; background-color: #ffc; padding: 6px; font-weight: bold">{$error_message}</div>{/if}
+
+<h3 class="active">{'Invoice Address'|tr}</h3>
+<form name="address_form" method="post" action="">
+{$widget->Render()}
+</form>
+</div>
+<br />
+<div class="core_content" style="min-height: 38px;">
+    <h3 class="active">{'Payment Method'|tr}</h3>
+</div>
+<br />
+<div class="core_content" style="min-height: 38px;">
+    <h3 class="active">{'Preview Order'|tr}</h3>
+</div>

@@ -1,0 +1,1 @@
+ALTER TABLE  `manufacturer` CHANGE  `description`  `description` TEXT CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL ;

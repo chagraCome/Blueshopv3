@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <name>Installer</name>
+  <businessname>Packages Installer Module</businessname>	
+  <version>1.0.0</version>
+  <build>46</build>
+  <builddate>2010-11-09 14:20:25 +0100</builddate>
+  <description>Packages and Modules Installer</description>
+</module>

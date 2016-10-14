@@ -1,0 +1,30 @@
+{$breadcrumb}
+<div class="page_content_offset">
+    <div class="container">
+        <div class="row clearfix">
+            <!--left content column-->
+            <section>
+                <h2 class="tt_uppercase color_dark m_bottom_30">{'Newsletter Subscription'|tr}</h2>
+
+                {if $registred} 
+                <div class="alert_box r_corners color_red error m_bottom_10">
+                    <i class="fa fa-meh-o"></i><p>{$registred}</p>
+                </div>
+                {/if}
+
+                {if $success} 
+                <div class="alert_box r_corners color_green success m_bottom_10">
+                    <i class="fa fa-smile-o"></i><p>{$success}</p>
+                </div>
+                {/if}
+                <form style="padding:20px;"  name="newsletter_form" method="post" id="newsletterForm">
+                    <label for="newsletter_email">{'Enter your email address'|tr}</label>
+                    <br />
+                    <input type="email" style=" width: 260px" name="newsletter_email" placeholder="{'Email Address'|tr}" required="true" /><br />
+                    <br /> <input type="submit" name="check" class="Button newsletter" value="{'SUBSCRIBE'|tr}" />
+                </form>
+            </section>
+        </div>
+    </div>
+
+</div>

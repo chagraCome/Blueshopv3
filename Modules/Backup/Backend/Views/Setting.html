@@ -1,0 +1,13 @@
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+  <legend>
+    <span class="add"><a href="admin.php?module=backup&page=local">{'Generate new Backup'|tr}</a></span> | 
+    <span class="list"><a href="admin.php?module=backup&page=list">{'Manage Backups'|tr}</a></span> 
+  </legend>
+  <div class="panel">
+    {$panel->Render()}
+  </div>
+</fieldset>

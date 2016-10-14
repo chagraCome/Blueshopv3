@@ -1,0 +1,86 @@
+<div class="amh-container core_content">
+    <form name="quickpay_form" method="post" action="">
+        {if $error_message}
+        <div class="alert_box r_corners error m_bottom_10">
+            <i class="fa fa-exclamation-triangle"></i><p>{$error_message}</p>
+        </div>
+        {/if}
+        <div class="amh-container shipping_invoice_address_container">
+            <h2 class="tt_uppercase color_dark m_bottom_30">{'Shipping Address'|tr}</h2>
+            {foreach $av_addresses as $addr1}
+            <div class="amh-left" style="margin: 5px; width: 300px; height: 200px;  padding: 8px; border-radius: 10px; background: url('Modules/Cart/images/shopcart-address-bg.png')">
+                <div style="width: 100%; height: 100%; background-color: white; padding: 0 30px">
+                    <label style="font-weight: bold;  font-size: 14px; color:black" for="shipping_address_id{$addr1->getId()}">
+                        <input class="radio_s" type="radio" name="shipping_address_id" id="shipping_address_id{$addr1->getId()}" value="{$addr1->getId()}" checked="checked" {if $smarty.post.shipping_address_id  == $addr1->getId() || ($cart->getShippingAddress() != null && $cart->getShippingAddress()->getId() == $addr1->getId())}checked="checked"{/if} >{$addr1->getName()}<a href="?module=crm&page=intern-shop-address-modify&id={$addr1->getId()}" class="cart_edit"><i class="fa fa-edit"></i>&nbsp;{'Edit'|tr}</a></label>
+                    <p style="padding: 15px">
+                        {if $addr1->house_number !=''}{$addr1->house_number}<br />{/if}
+                        {if $addr1->office_number !=''}{$addr1->office_number}<br />{/if}
+                        {$addr1->getStreet()}<br />
+                        {$addr1->getZipCode()}<br />
+                        {$addr1->getCity()}<br />
+                        {$addr1->getProvince()}<br />
+                        {$addr1->getCountry()}<br />
+                        {$addr1->mobile}<br />
+                    </p>
+
+                </div>
+            </div>
+            {/foreach} 
+        </div>
+        <div class="amh-container payment_container">
+            <h2 class="tt_uppercase color_dark m_bottom_30">{'Payment Method'|tr}</h2>
+            <div class="bs_inner_offsets bg_light_color_3 shadow r_corners m_bottom_45">
+                {foreach $payments as $payment}
+                <figure class="block_select clearfix relative">
+                    <input type="radio" value="{$payment->getId()}" {if $selectedpayment == $payment->getId()}checked="checked"{/if} name="payment_id" class="d_none">
+                    <img src="{$payment->getLogoSrc()|default:'media/noimage.jpg'}" alt="" class="f_left m_right_20 f_mxs_none m_mxs_bottom_10" style="max-width: 100px;max-height: 100px;">
+                    <figcaption class="d_table d_sm_block">
+                        <div class="d_table_cell d_sm_block p_sm_right_0 p_right_45 m_mxs_bottom_5">
+                            <h5 class="color_dark fw_medium m_bottom_15 m_sm_bottom_5">{$payment->getName()}</h5>
+                            <p> {$payment->getDescription()|htmlspecialchars_decode}</p>
+                        </div>
+                        <div class="d_table_cell d_sm_block discount">
+                            <h5 class="color_dark fw_medium m_bottom_15 m_sm_bottom_0">{'Handling Fees'|tr}</h5>
+                            <p class="color_dark">{$payment->getHandlingFeeAsAmount()|price}</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <hr class="m_bottom_20">
+                {foreachelse}
+                <div class="alert_box r_corners warning m_bottom_10">
+                    <i class="fa fa-exclamation-circle"></i><p>{'No payment method available for your country'|tr}</p>
+                </div>
+                {/foreach}
+            </div>
+        </div>
+        <div class="amh-container">
+            <h2 class="tt_uppercase color_dark m_bottom_30">{'Shipping Method'|tr}</h2>
+            <div class="bs_inner_offsets bg_light_color_3 shadow r_corners m_bottom_45">
+                {foreach $shippings as $shipping}
+                <figure class="block_select clearfix relative">
+                    <input type="radio" value="{$shipping->getId()}" {if $selectedshipping == $shipping->getId()}checked="checked"{/if} name="shipping_id" class="d_none">
+                    <img src="{$shipping->getLogoSrc()|default:'media/noimage.jpg'}" alt="" class="f_left m_right_20 f_mxs_none m_mxs_bottom_10" style="max-width: 100px;max-height: 100px;">
+                    <figcaption class="d_table d_sm_block">
+                        <div class="d_table_cell d_sm_block p_sm_right_0 p_right_45 m_mxs_bottom_5">
+                            <h5 class="color_dark fw_medium m_bottom_15 m_sm_bottom_5">{$shipping->getTitle()}</h5>
+                            <p> {$shipping->getDescription()|htmlspecialchars_decode}</p>
+                        </div>
+                        <div class="d_table_cell d_sm_block discount">
+                            <h5 class="color_dark fw_medium m_bottom_15 m_sm_bottom_0">{'Shipping Cost'|tr}</h5>
+                            <p class="color_dark">{$shipping->shipping_cost|price}</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <hr class="m_bottom_20">
+                {foreachelse}
+                <div class="alert_box r_corners warning m_bottom_10">
+                    <i class="fa fa-exclamation-circle"></i><p>{'No shipping method available for your country'|tr}</p>
+                </div>
+                {/foreach}
+            </div>
+        </div>
+        <div class="panel-div">
+            <input class="Button continue" type="submit" name="checkout" id="checkout_submit_button" value="{'Checkout Now'|tr}" />
+        </div>
+    </form>
+</div>

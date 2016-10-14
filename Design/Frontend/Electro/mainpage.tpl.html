@@ -1,0 +1,11 @@
+{include file='homepage.tpl.html'}
+{if $product_homepage == 'latestproducts'}
+{include file='mainpage-latestproducts.tpl.html'}
+{else if $product_homepage == 'specialproducts'}
+{include file='mainpage-specialproducts.tpl.html'}
+{else if $product_homepage == 'newproducts'}
+{include file='mainpage-newproducts.tpl.html'}
+{/if}
+{if $show_manufacturer_home_page == 1}
+{include file='Modules/Product/Frontend/Views/Brand.html'}
+{/if}

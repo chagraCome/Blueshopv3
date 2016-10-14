@@ -1,0 +1,220 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: modules\n"
+"POT-Creation-Date: 2014-03-25 14:08+0100\n"
+"PO-Revision-Date: 2014-03-25 14:09+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../key_words_html.php:8
+msgid "Available Shipping Methods"
+msgstr "وسائل الشحن المتاحة"
+
+#: ../key_words_html.php:9
+msgid "No shipping Methods Set"
+msgstr "لم يتم إعداد وسائل الشحن"
+
+#: ../key_words_html.php:11 ../key_words_html.php:15 ../key_words_html.php:19
+#: ../key_words_html.php:23
+msgid "Information"
+msgstr "معلومات"
+
+#: ../key_words_html.php:12 ../key_words_html.php:20 ../key_words_html.php:24
+#: ../Backend/Boot.php:38
+msgid "Add new Shipping Method"
+msgstr "اضافة وسيلة شحن جديدة"
+
+#: ../key_words_html.php:13 ../key_words_html.php:21 ../key_words_html.php:25
+#: ../Backend/Boot.php:37 ../Backend/Controllers/Shipping/List.php:37
+msgid "List Shippings Methods"
+msgstr "قائمة وسائل الشحن"
+
+#: ../key_words_html.php:16 ../Backend/Controllers/Shipping/Modify.php:33
+msgid "Edit Shipping Methods"
+msgstr "تعديل وسيلة الشحن"
+
+#: ../key_words_html.php:17 ../Backend/Boot.php:27
+msgid "List Shipping Methods"
+msgstr "قائمة وسائل الشحن"
+
+#: ../key_words_html.php:26
+msgid "Shipping Methods"
+msgstr "وسائل الشحن"
+
+#: ../Backend/Boot.php:26
+msgid "Shipping"
+msgstr "وسائل الشحن"
+
+#: ../Backend/Boot.php:28
+msgid "Add Shipping Method"
+msgstr "إضافة وسيلة شحن"
+
+#: ../Backend/Boot.php:36
+msgid "Shipping Module"
+msgstr "إدارة الشحن "
+
+#: ../Backend/Boot.php:39
+msgid "Show Shipping Method Information"
+msgstr "إستعراض معلومات وسيلة الشحن"
+
+#: ../Backend/Boot.php:40
+msgid "Modify Shipping Method"
+msgstr "التعديل على وسيلة الشحن"
+
+#: ../Backend/Boot.php:41
+msgid "Delete Shipping Method"
+msgstr "حذف وسيلة الشحن"
+
+#: ../Backend/Boot.php:42
+msgid "Set Shipping Method Offline"
+msgstr "تعطيل وسيلة الشحن"
+
+#: ../Backend/Boot.php:43
+msgid "Set Shipping Method Online"
+msgstr "تفعيل وسيلة الشحن"
+
+#: ../Backend/Controllers/Shipping/Add.php:33
+msgid "Create new Shipping Method"
+msgstr "انشاء وسيلة شحن جديدة"
+
+#: ../Backend/Controllers/Shipping/Add.php:51
+msgid "you have selected free shipping.All prices must be Null"
+msgstr "لقد اخترتم شحن مجاني ,  يجب ان تكون جميع الاسعار تساوي 0"
+
+#: ../Backend/Controllers/Shipping/Add.php:66
+#: ../Backend/Controllers/Shipping/Modify.php:75
+msgid "Please check inputs."
+msgstr "يرجى التحقق من المدخلات"
+
+#: ../Backend/Controllers/Shipping/Modify.php:72
+msgid "Failed to modify Shipping method."
+msgstr "فشل في التعديل على وسيلة الشحن"
+
+#: ../Forms/Shipping/Form.php:76
+msgid "Shipping Type"
+msgstr "أنواع وسائل الشحن"
+
+#: ../Forms/Shipping/Form.php:80
+msgid "Title"
+msgstr "الاسم"
+
+#: ../Forms/Shipping/Form.php:84
+msgid "Description"
+msgstr "الوصف"
+
+#: ../Forms/Shipping/Form.php:86
+msgid "Error Message"
+msgstr "يوجد خطأ"
+
+#: ../Forms/Shipping/Form.php:89
+msgid "Minimum Order Amount"
+msgstr "مبلغ الطلبية الأدنى"
+
+#: ../Forms/Shipping/Form.php:92 ../Grids/Shipping/DataGridView.php:39
+msgid "Sort ID"
+msgstr "الترتيب"
+
+#: ../Forms/Shipping/Form.php:94
+msgid "Price"
+msgstr "السعر"
+
+#: ../Forms/Shipping/Form.php:98
+msgid "Cost Type"
+msgstr "نوع التكلفة"
+
+#: ../Forms/Shipping/Form.php:100
+msgid "Per Item"
+msgstr "حسب المنتج"
+
+#: ../Forms/Shipping/Form.php:101
+msgid "Per Cart"
+msgstr "حسب مجموع المشتريات"
+
+#: ../Forms/Shipping/Form.php:106 ../Forms/Shipping/Form.php:144
+msgid "Packaging Cost"
+msgstr "تكلفة التغليف"
+
+#: ../Forms/Shipping/Form.php:108
+msgid "Packaging Cost Type"
+msgstr "تكلفة نوع التغليف"
+
+#: ../Forms/Shipping/Form.php:111
+msgid "Online"
+msgstr "مفعل"
+
+#: ../Forms/Shipping/Form.php:112
+msgid "Select Country"
+msgstr "اختر الدولة"
+
+#: ../Forms/Shipping/Form.php:115
+msgid "All Countries"
+msgstr "جميع البلدان"
+
+#: ../Forms/Shipping/Form.php:116
+msgid "Country"
+msgstr "الدولة"
+
+#: ../Forms/Shipping/Form.php:122
+msgid "Save"
+msgstr "حفظ"
+
+#: ../Forms/Shipping/Form.php:128
+msgid "Images"
+msgstr "الصور"
+
+#: ../Forms/Shipping/Form.php:134
+msgid "Shipping Information"
+msgstr "معلومات الشحن"
+
+#: ../Forms/Shipping/Form.php:141
+msgid "Shipping Cost"
+msgstr "تكلفة الشحن"
+
+#: ../Forms/Shipping/Form.php:147
+msgid "Shipping Settings"
+msgstr "إعدادات الشحن"
+
+#: ../Forms/Shipping/Form.php:155
+msgid "Navigation"
+msgstr "تصفح"
+
+#: ../Grids/Shipping/DataGridView.php:35
+msgid "Name"
+msgstr "الأسم"
+
+#: ../Grids/Shipping/DataGridView.php:38
+msgid "Min Order Amount"
+msgstr "المبلغ الادنى للطلب"
+
+#: ../Grids/Shipping/DataGridView.php:40
+msgid "Cost"
+msgstr "التكلفة"
+
+#: ../Grids/Shipping/DataGridView.php:41
+msgid "Status"
+msgstr "الحالة"
+
+#: ../Grids/Shipping/DataGridView.php:44
+msgid "Edit"
+msgstr "تعديل"
+
+#: ../Grids/Shipping/DataGridView.php:48
+msgid "Delete"
+msgstr "حذف"
+
+#, fuzzy
+#~ msgid "State"
+#~ msgstr "تفعيل"
+
+#, fuzzy
+#~ msgid "Shipping Methods Details"
+#~ msgstr "تفاصيل وسيلةالشحن"

@@ -1,0 +1,212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Shipping\n"
+"POT-Creation-Date: 2014-04-16 16:16+0100\n"
+"PO-Revision-Date: 2014-05-02 11:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _t;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../key_words_html.php:8
+msgid "Available Shipping Methods"
+msgstr "Méthode de livraison disponibles"
+
+#: ../key_words_html.php:9
+msgid "No shipping Methods Set"
+msgstr "Pas de méthodes de livraison"
+
+#: ../key_words_html.php:11 ../key_words_html.php:15 ../key_words_html.php:19
+#: ../key_words_html.php:23
+msgid "Information"
+msgstr "Informations"
+
+#: ../key_words_html.php:12 ../key_words_html.php:20 ../key_words_html.php:24
+#: ../Backend/Boot.php:38
+msgid "Add new Shipping Method"
+msgstr "Ajouter une nouvelle méthode de livraison"
+
+#: ../key_words_html.php:13 ../key_words_html.php:21 ../key_words_html.php:25
+#: ../Backend/Boot.php:37 ../Backend/Controllers/Shipping/List.php:37
+msgid "List Shippings Methods"
+msgstr "Liste  de méthodes de livraisons"
+
+#: ../key_words_html.php:16 ../Backend/Controllers/Shipping/Modify.php:33
+msgid "Edit Shipping Methods"
+msgstr "Modifier les méthodes Livraison"
+
+#: ../key_words_html.php:17 ../Backend/Boot.php:27
+msgid "List Shipping Methods"
+msgstr "Liste des méthodes de livraison"
+
+#: ../key_words_html.php:26
+msgid "Shipping Methods"
+msgstr "Méthode de livraison"
+
+#: ../Backend/Boot.php:26
+msgid "Shipping"
+msgstr "Méthode de livraison"
+
+#: ../Backend/Boot.php:28
+msgid "Add Shipping Method"
+msgstr "Ajouter une  méthode de livraison "
+
+#: ../Backend/Boot.php:36
+msgid "Shipping Module"
+msgstr "Méthode de livraison"
+
+#: ../Backend/Boot.php:39
+msgid "Show Shipping Method Information"
+msgstr "Afficher les informations de  méthode de livraison "
+
+#: ../Backend/Boot.php:40
+msgid "Modify Shipping Method"
+msgstr "Modifier la méthode de livraison"
+
+#: ../Backend/Boot.php:41
+msgid "Delete Shipping Method"
+msgstr "Supprimer la méthode de livraison "
+
+#: ../Backend/Boot.php:42
+msgid "Set Shipping Method Offline"
+msgstr "Désactiver la méthode de livraison"
+
+#: ../Backend/Boot.php:43
+msgid "Set Shipping Method Online"
+msgstr "Activer la méthode de livraison"
+
+#: ../Backend/Controllers/Shipping/Add.php:33
+msgid "Create new Shipping Method"
+msgstr "Créer une nouvelle méthode de livraison"
+
+#: ../Backend/Controllers/Shipping/Add.php:51
+msgid "you have selected free shipping.All prices must be Null"
+msgstr ""
+"Vous avez choisi une livraison gratuite, Tous les prix doivent être Null"
+
+#: ../Backend/Controllers/Shipping/Add.php:66
+#: ../Backend/Controllers/Shipping/Modify.php:75
+msgid "Please check inputs."
+msgstr "S'il vous plaît vérifier les entrées."
+
+#: ../Backend/Controllers/Shipping/Modify.php:72
+msgid "Failed to modify Shipping method."
+msgstr "Impossible de modifier la méthode de livraison."
+
+#: ../Forms/Shipping/Form.php:76
+msgid "Shipping Type"
+msgstr "Type de livraison"
+
+#: ../Forms/Shipping/Form.php:80
+msgid "Title"
+msgstr "Titre"
+
+#: ../Forms/Shipping/Form.php:84
+msgid "Description"
+msgstr "Description"
+
+#: ../Forms/Shipping/Form.php:86
+msgid "Error Message"
+msgstr "Message d'erreur"
+
+#: ../Forms/Shipping/Form.php:89
+msgid "Minimum Order Amount"
+msgstr "Montant minimum"
+
+#: ../Forms/Shipping/Form.php:92 ../Grids/Shipping/DataGridView.php:39
+msgid "Sort ID"
+msgstr "Trier ID"
+
+#: ../Forms/Shipping/Form.php:94
+msgid "Price"
+msgstr "Prix"
+
+#: ../Forms/Shipping/Form.php:98
+msgid "Cost Type"
+msgstr "Type de coût"
+
+#: ../Forms/Shipping/Form.php:100
+msgid "Per Item"
+msgstr "Par élément"
+
+#: ../Forms/Shipping/Form.php:101
+msgid "Per Cart"
+msgstr "Par Panier"
+
+#: ../Forms/Shipping/Form.php:106 ../Forms/Shipping/Form.php:144
+msgid "Packaging Cost"
+msgstr "Coût d'emballage"
+
+#: ../Forms/Shipping/Form.php:108
+msgid "Packaging Cost Type"
+msgstr "Type de l'emballage des coûts"
+
+#: ../Forms/Shipping/Form.php:111
+msgid "Online"
+msgstr "En ligne"
+
+#: ../Forms/Shipping/Form.php:112
+msgid "Select Country"
+msgstr "Sélectionnez un pays"
+
+#: ../Forms/Shipping/Form.php:115
+msgid "All Countries"
+msgstr "Tous les pays"
+
+#: ../Forms/Shipping/Form.php:116
+msgid "Country"
+msgstr "Pays"
+
+#: ../Forms/Shipping/Form.php:122
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: ../Forms/Shipping/Form.php:128
+msgid "Images"
+msgstr "Images"
+
+#: ../Forms/Shipping/Form.php:134
+msgid "Shipping Information"
+msgstr "Informations de livraison"
+
+#: ../Forms/Shipping/Form.php:141
+msgid "Shipping Cost"
+msgstr "Coût de livraison"
+
+#: ../Forms/Shipping/Form.php:147
+msgid "Shipping Settings"
+msgstr "Paramètres de livraison"
+
+#: ../Forms/Shipping/Form.php:155
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../Grids/Shipping/DataGridView.php:35
+msgid "Name"
+msgstr "Nom"
+
+#: ../Grids/Shipping/DataGridView.php:38
+msgid "Min Order Amount"
+msgstr "Montant minimum"
+
+#: ../Grids/Shipping/DataGridView.php:40
+msgid "Cost"
+msgstr "Coût"
+
+#: ../Grids/Shipping/DataGridView.php:41
+msgid "Status"
+msgstr "Etat"
+
+#: ../Grids/Shipping/DataGridView.php:44
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../Grids/Shipping/DataGridView.php:48
+msgid "Delete"
+msgstr "Supprimer"

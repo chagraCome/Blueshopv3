@@ -1,0 +1,369 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Setting\n"
+"POT-Creation-Date: 2013-10-11 12:45+0100\n"
+"PO-Revision-Date: 2013-10-11 15:45+0100\n"
+"Last-Translator: Amir Cherif <amir.cherif@amhsoft.com>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: key_words_html.php:3 key_words_html.php:7 key_words_html.php:11
+#: ../key_words_html.php:3 ../key_words_html.php:8 ../key_words_html.php:30
+#: ../key_words_html.php:33 ../key_words_html.php:37 ../key_words_html.php:41
+#: ../key_words_html.php:45 ../key_words_html.php:50 ../key_words_html.php:54
+#: ../key_words_html.php:58 ../I18N/key_words_html.php:3
+#: ../I18N/key_words_html.php:7 ../I18N/key_words_html.php:11
+msgid "Information"
+msgstr "Informationen"
+
+#: key_words_html.php:4 key_words_html.php:8 key_words_html.php:12
+#: ../key_words_html.php:38 ../key_words_html.php:42 ../key_words_html.php:46
+#: ../I18N/key_words_html.php:4 ../I18N/key_words_html.php:8
+#: ../I18N/key_words_html.php:12
+msgid "Add new Email Template"
+msgstr "Neue Emailvorlage hinzufügen"
+
+#: key_words_html.php:5 key_words_html.php:9 key_words_html.php:13
+#: ../key_words_html.php:5 ../key_words_html.php:39 ../key_words_html.php:43
+#: ../key_words_html.php:47 ../I18N/key_words_html.php:5
+#: ../I18N/key_words_html.php:9 ../I18N/key_words_html.php:13
+msgid "List Email Templates"
+msgstr "Emailvorlagen auflisten"
+
+#: ../key_words_html.php:4 ../Backend/Controllers/General.php:22
+#: ../Backend/Controllers/style.class.php:30
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: ../key_words_html.php:6 ../key_words_html.php:35 ../key_words_html.php:52
+#: ../key_words_html.php:56 ../key_words_html.php:60
+msgid "List Print Templates"
+msgstr "Druckvorlagen auflisten"
+
+#: ../key_words_html.php:9
+msgid "General settings"
+msgstr "Allgemeine Einstellungen"
+
+#: ../key_words_html.php:10
+msgid "General information"
+msgstr "Allgemeine Informationen"
+
+#: ../key_words_html.php:11
+msgid "Website name"
+msgstr "Name der Website"
+
+#: ../key_words_html.php:12
+msgid "Very important for search engine"
+msgstr "Sehr wichtig für Suchmachinen"
+
+#: ../key_words_html.php:13
+msgid "Website description"
+msgstr "Beschreibung der Website"
+
+#: ../key_words_html.php:14
+msgid "Website keywords"
+msgstr "Schlüsselwörter der Website"
+
+#: ../key_words_html.php:15
+msgid "Website owner"
+msgstr "Besitzer der Website"
+
+#: ../key_words_html.php:16
+msgid "Address"
+msgstr "Adresse"
+
+#: ../key_words_html.php:17
+msgid "Telephone"
+msgstr "Telefonnnummer"
+
+#: ../key_words_html.php:18
+msgid "Fax"
+msgstr "Fax"
+
+#: ../key_words_html.php:19
+msgid "Mobile"
+msgstr "Handynummer"
+
+#: ../key_words_html.php:20
+msgid "Email Address"
+msgstr "Emailadresse"
+
+#: ../key_words_html.php:21
+msgid "Other settings"
+msgstr "Andere Einstellungen"
+
+#: ../key_words_html.php:22
+msgid "URL friendly"
+msgstr "URL freundlich"
+
+#: ../key_words_html.php:23
+msgid "RSS"
+msgstr "RSS"
+
+#: ../key_words_html.php:24
+msgid "Shop Offline"
+msgstr "Shop offline setzten"
+
+#: ../key_words_html.php:25
+msgid "Open Shop Only for ip"
+msgstr "Shop nur für folgende IP öffnen"
+
+#: ../key_words_html.php:26
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../key_words_html.php:27 ../Backend/Controllers/Currency/List.php:96
+#: ../Forms/Template/Email/Form.php:56 ../Forms/Template/Print/Form.php:49
+msgid "Save"
+msgstr "Speichern"
+
+#: ../key_words_html.php:31
+msgid "Manage General Settings"
+msgstr "Allgemeine Einstellungen verwalten"
+
+#: ../key_words_html.php:34 ../key_words_html.php:51 ../key_words_html.php:55
+#: ../key_words_html.php:59
+msgid "Add new Print Template"
+msgstr "Neue Druckvorlage hinzufügen"
+
+#: ../Backend/Boot.php:21
+msgid "Setting"
+msgstr "Einstellungen"
+
+#: ../Backend/Boot.php:22 ../Backend/menu.inc.php:18
+msgid "General"
+msgstr "Allgemein"
+
+#: ../Backend/Boot.php:23
+msgid "Manage Currencies"
+msgstr "Währungen verwalten"
+
+#: ../Backend/Boot.php:24 ../Backend/menu.inc.php:19
+msgid "Manage E-Mail Templates"
+msgstr "Emailvoralgen verwalten"
+
+#: ../Backend/Boot.php:25
+msgid "Manage Print Templates"
+msgstr "Druckvorlagen verwalten"
+
+#: ../Backend/Boot.php:27
+msgid "Manage Workflow"
+msgstr "Arbeitsablauf verwalten"
+
+#: ../Backend/menu.inc.php:18 ../Backend/menu.inc.php:19
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../Backend/Controllers/coupons.class.php:49
+msgid "Coupons Settings"
+msgstr "Couponeinstellungen"
+
+#: ../Backend/Controllers/coupons.class.php:55
+#: ../Backend/Controllers/General.php:28
+#: ../Backend/Controllers/style.class.php:36
+msgid "Data saved successfully."
+msgstr "Daten wurden erfolgreich gespeichert"
+
+#: ../Backend/Controllers/import.class.php:151
+msgid "Upload file"
+msgstr "Datei hochladen"
+
+#: ../Backend/Controllers/import.class.php:155
+msgid "File"
+msgstr "Datei"
+
+#: ../Backend/Controllers/import.class.php:158
+msgid "Entity"
+msgstr "Einheit"
+
+#: ../Backend/Controllers/import.class.php:164
+msgid "Poduct Set"
+msgstr "Produktset"
+
+#: ../Backend/Controllers/import.class.php:172
+msgid "File Type"
+msgstr "Dateityp"
+
+#: ../Backend/Controllers/import.class.php:178
+msgid "File Delimiter"
+msgstr "Dateitrennzeichen"
+
+#: ../Backend/Controllers/import.class.php:184
+msgid "Start From Row"
+msgstr "Starte ab Zeile"
+
+#: ../Backend/Controllers/import.class.php:187
+msgid "To Row"
+msgstr "bis Zeile"
+
+#: ../Backend/Controllers/import.class.php:199
+msgid "Upload now"
+msgstr "Jetzt hochladen"
+
+#: ../Backend/Controllers/import.class.php:217
+#: ../Backend/Controllers/import.class.php:251
+msgid "Import Data"
+msgstr "Daten importieren"
+
+#: ../Backend/Controllers/Currency/List.php:14
+msgid "Manage Currency Rates"
+msgstr "Währungskurse verwalten"
+
+#: ../Backend/Controllers/Currency/List.php:62
+msgid "Currency List"
+msgstr "Liste der Regionen"
+
+#: ../Backend/Controllers/Currency/List.php:65
+msgid "Base Currency"
+msgstr "Standartwährung"
+
+#: ../Backend/Controllers/Currency/List.php:70
+msgid "Currency"
+msgstr "Währung"
+
+#: ../Backend/Controllers/Currency/List.php:73
+msgid "Time Zone"
+msgstr "Zeitzone"
+
+#: ../Backend/Controllers/Currency/List.php:76
+msgid "Currency Symbol"
+msgstr "Währungssymbol"
+
+#: ../Backend/Controllers/Currency/List.php:80
+msgid "Currency Decimal"
+msgstr "Währungsnachkommastelle"
+
+#: ../Backend/Controllers/Currency/List.php:84
+msgid "Rate"
+msgstr "Kurs"
+
+#: ../Backend/Controllers/Currency/List.php:100
+msgid "Update Currency from Yahoo Financial Center"
+msgstr "Währungen von Yahoo Financial Center aktualisieren"
+
+#: ../Backend/Controllers/Sms/List.php:23
+msgid "Manage SMS Gateways"
+msgstr "SMS Gateways verwalten"
+
+#: ../Backend/Controllers/Sms/List.php:26
+msgid "Gateway Name"
+msgstr "Gatewayname"
+
+#: ../Backend/Controllers/Sms/List.php:27
+msgid "User Name"
+msgstr "Benutzername"
+
+#: ../Backend/Controllers/Sms/List.php:28
+#: ../Backend/Controllers/Sms/Modify.php:71
+msgid "Sender"
+msgstr "Absender"
+
+#: ../Backend/Controllers/Sms/List.php:34
+msgid "Modify"
+msgstr "ändern"
+
+#: ../Backend/Controllers/Sms/List.php:40
+msgid "Set as default"
+msgstr "Als Standart setzen"
+
+#: ../Backend/Controllers/Sms/Modify.php:26
+msgid "Modify Gateway"
+msgstr "Gateway ändern"
+
+#: ../Backend/Controllers/Sms/Modify.php:52
+msgid "Data was successfully saved"
+msgstr "Dateien wurden erfolgreich gespeichert"
+
+#: ../Backend/Controllers/Sms/Modify.php:63
+msgid "Username"
+msgstr "Benutzername"
+
+#: ../Backend/Controllers/Sms/Modify.php:67
+msgid "Password"
+msgstr "Passwort"
+
+#: ../Backend/Controllers/Sms/Modify.php:75
+msgid "Submit"
+msgstr "Absenden"
+
+#: ../Backend/Controllers/Template/Email/Add.php:30
+msgid "Create new Email Template"
+msgstr "Neue Emailvorlage erstellen"
+
+#: ../Backend/Controllers/Template/Email/Add.php:42
+#: ../Backend/Controllers/Template/Email/Modify.php:54
+#: ../Backend/Controllers/Template/Print/Add.php:43
+#: ../Backend/Controllers/Template/Print/Modify.php:54
+msgid "Please check inputs."
+msgstr "Bitte Eingaben überprüfen"
+
+#: ../Backend/Controllers/Template/Email/Add.php:51
+msgid "Email Template was successully added"
+msgstr "Emailvorlage wurde erfolgreich hinzugefügt"
+
+#: ../Backend/Controllers/Template/Email/List.php:35
+#: ../Backend/Controllers/Template/Email/Quicklist.php:51
+msgid "List email templates"
+msgstr "Emailvoralgen auflisten"
+
+#: ../Backend/Controllers/Template/Email/Modify.php:29
+#: ../Backend/Controllers/Template/Print/Modify.php:29
+msgid "Edit Email template"
+msgstr "Emailvorlage editieren"
+
+#: ../Backend/Controllers/Template/Email/Quicklist.php:36
+msgid "Template Name"
+msgstr "Name der Vorlage"
+
+#: ../Backend/Controllers/Template/Email/Quicklist.php:40
+msgid "Template Subject"
+msgstr "Thema der Vorlage"
+
+#: ../Backend/Controllers/Template/Print/Add.php:30
+msgid "Create new Print Template"
+msgstr "Neue Druckvorlage erstellen"
+
+#: ../Backend/Controllers/Template/Print/Add.php:52
+msgid "Print Template was successully added"
+msgstr "Druckvorlage wurde erfolgreich hinzugefügt"
+
+#: ../Backend/Controllers/Template/Print/List.php:35
+msgid "List print templates"
+msgstr "Druckvorlagen auflisten"
+
+#: ../Forms/Template/Email/Form.php:40 ../Forms/Template/Print/Form.php:37
+#: ../Grids/Template/Email/DataGridView.php:30
+#: ../Grids/Template/Print/DataGridView.php:30
+msgid "Name"
+msgstr "Name"
+
+#: ../Forms/Template/Email/Form.php:45
+#: ../Grids/Template/Email/DataGridView.php:32
+msgid "Subject"
+msgstr "Thema"
+
+#: ../Forms/Template/Email/Form.php:49 ../Forms/Template/Print/Form.php:42
+msgid "Variables"
+msgstr "Variablen"
+
+#: ../Forms/Template/Email/Form.php:53 ../Forms/Template/Print/Form.php:46
+msgid "Content"
+msgstr "Inhalt"
+
+#: ../Grids/Template/Email/DataGridView.php:34
+#: ../Grids/Template/Print/DataGridView.php:32
+msgid "Edit"
+msgstr "Editieren"
+
+#: ../Grids/Template/Email/DataGridView.php:39
+#: ../Grids/Template/Print/DataGridView.php:36
+msgid "Delete"
+msgstr "Löschen"

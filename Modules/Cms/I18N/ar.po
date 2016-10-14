@@ -1,0 +1,2760 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Crm\n"
+"POT-Creation-Date: 2014-03-15 08:48+0100\n"
+"PO-Revision-Date: 2014-03-18 08:22+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: key_words_html.php:3 key_words_html.php:6 key_words_html.php:20
+#: key_words_html.php:22 key_words_html.php:25 key_words_html.php:27
+#: key_words_html.php:29 key_words_html.php:31 key_words_html.php:33
+#: key_words_html.php:35 key_words_html.php:38 key_words_html.php:50
+#: key_words_html.php:52 key_words_html.php:58 key_words_html.php:60
+#: ../key_words_html.php:3 ../key_words_html.php:7 ../key_words_html.php:25
+#: ../key_words_html.php:29 ../key_words_html.php:50 ../key_words_html.php:54
+#: ../key_words_html.php:58 ../key_words_html.php:62 ../key_words_html.php:67
+#: ../key_words_html.php:71 ../key_words_html.php:79 ../key_words_html.php:97
+#: ../key_words_html.php:103 ../key_words_html.php:109
+#: ../key_words_html.php:113 ../key_words_html.php:119
+#: ../key_words_html.php:123 ../key_words_html.php:139
+#: ../I18N/key_words_html.php:3 ../I18N/key_words_html.php:6
+#: ../I18N/key_words_html.php:20 ../I18N/key_words_html.php:22
+#: ../I18N/key_words_html.php:25 ../I18N/key_words_html.php:27
+#: ../I18N/key_words_html.php:29 ../I18N/key_words_html.php:31
+#: ../I18N/key_words_html.php:33 ../I18N/key_words_html.php:35
+#: ../I18N/key_words_html.php:38 ../I18N/key_words_html.php:50
+#: ../I18N/key_words_html.php:52 ../I18N/key_words_html.php:58
+#: ../I18N/key_words_html.php:60
+msgid "Information"
+msgstr "معلومات"
+
+#: key_words_html.php:4 ../key_words_html.php:8 ../key_words_html.php:26
+#: ../I18N/key_words_html.php:4
+msgid "Add new Block"
+msgstr "اضافة صندوق جديد"
+
+#: key_words_html.php:7 ../I18N/key_words_html.php:7
+msgid "Add new box"
+msgstr "اضافة صندوق جديد"
+
+#: key_words_html.php:8 ../key_words_html.php:9 ../key_words_html.php:27
+#: ../key_words_html.php:30 ../Backend/Controllers/Box/List.php:38
+#: ../I18N/key_words_html.php:8
+msgid "List Blocks"
+msgstr "قائمة الصناديق"
+
+#: key_words_html.php:9 ../I18N/key_words_html.php:9
+msgid "Box Name"
+msgstr "اسم الصندوق"
+
+#: key_words_html.php:10 ../I18N/key_words_html.php:10
+msgid "Box Type"
+msgstr "نوع الصندوق"
+
+#: key_words_html.php:11 ../key_words_html.php:15
+#: ../I18N/key_words_html.php:11
+msgid "File"
+msgstr "الملف"
+
+#: key_words_html.php:12 ../key_words_html.php:16
+#: ../I18N/key_words_html.php:12
+msgid "Text"
+msgstr "نص"
+
+#: key_words_html.php:13 key_words_html.php:14 ../key_words_html.php:18
+#: ../key_words_html.php:19 ../Forms/Box/Form.php:56
+#: ../Forms/MainMenu/Form.php:47 ../Forms/Menu/Form.php:97
+#: ../Forms/Page/Form.php:108 ../Forms/Site/Form.php:68
+#: ../Grids/MainMenu/DataGridView.php:38 ../Grids/Menu/DataGridView.php:64
+#: ../Grids/Site/DataGridView.php:39 ../I18N/key_words_html.php:13
+#: ../I18N/key_words_html.php:14
+#, fuzzy
+msgid "Online"
+msgstr "مفعّل"
+
+#: key_words_html.php:15 key_words_html.php:16 ../key_words_html.php:20
+#: ../key_words_html.php:21 ../I18N/key_words_html.php:15
+#: ../I18N/key_words_html.php:16
+msgid "Offline"
+msgstr "معطّل"
+
+#: key_words_html.php:17 key_words_html.php:18 ../key_words_html.php:14
+#: ../key_words_html.php:22 ../key_words_html.php:23
+#: ../Grids/BannerImageDataGridView.php:39
+#: ../Grids/MainMenu/DataGridView.php:42 ../Grids/Menu/DataGridView.php:69
+#: ../Grids/Page/DataGridView.php:55 ../Grids/Site/DataGridView.php:49
+#: ../I18N/key_words_html.php:17 ../I18N/key_words_html.php:18
+msgid "Delete"
+msgstr "حذف"
+
+#: key_words_html.php:23 ../I18N/key_words_html.php:23
+msgid "List boxes"
+msgstr "قائمة الصناديق"
+
+#: key_words_html.php:39 ../key_words_html.php:80 ../key_words_html.php:124
+#: ../I18N/key_words_html.php:39
+msgid "Design Settings"
+msgstr "اعدادات التصميم"
+
+#: key_words_html.php:40 key_words_html.php:61 ../key_words_html.php:81
+#: ../key_words_html.php:125 ../I18N/key_words_html.php:40
+#: ../I18N/key_words_html.php:61
+msgid "Boxes and Banners"
+msgstr "الصناديق و البانرات "
+
+#: key_words_html.php:41 key_words_html.php:42 key_words_html.php:43
+#: key_words_html.php:44 key_words_html.php:45 key_words_html.php:46
+#: key_words_html.php:47 key_words_html.php:62 key_words_html.php:63
+#: key_words_html.php:64 key_words_html.php:65 key_words_html.php:66
+#: key_words_html.php:67 ../key_words_html.php:84 ../key_words_html.php:85
+#: ../key_words_html.php:89 ../key_words_html.php:90 ../key_words_html.php:92
+#: ../key_words_html.php:93 ../key_words_html.php:95 ../key_words_html.php:128
+#: ../key_words_html.php:129 ../key_words_html.php:133
+#: ../key_words_html.php:134 ../key_words_html.php:135
+#: ../key_words_html.php:137 ../I18N/key_words_html.php:41
+#: ../I18N/key_words_html.php:42 ../I18N/key_words_html.php:43
+#: ../I18N/key_words_html.php:44 ../I18N/key_words_html.php:45
+#: ../I18N/key_words_html.php:46 ../I18N/key_words_html.php:47
+#: ../I18N/key_words_html.php:62 ../I18N/key_words_html.php:63
+#: ../I18N/key_words_html.php:64 ../I18N/key_words_html.php:65
+#: ../I18N/key_words_html.php:66 ../I18N/key_words_html.php:67
+msgid "edit"
+msgstr "تعديل"
+
+#: key_words_html.php:53 ../I18N/key_words_html.php:53
+msgid "Add new Menu"
+msgstr "اضافة قائمة جديدة"
+
+#: key_words_html.php:54 ../I18N/key_words_html.php:54
+msgid "List of pages"
+msgstr "قائمة الصفحات"
+
+#: key_words_html.php:55 ../I18N/key_words_html.php:55
+msgid "choose your design"
+msgstr "اختر تصميم"
+
+#: key_words_html.php:71 ../I18N/key_words_html.php:71
+#, fuzzy
+msgid "My Account"
+msgstr "حسابي"
+
+#: key_words_html.php:72 ../I18N/key_words_html.php:72
+msgid "Add Your Motor Now"
+msgstr "اضف مركبتك الان"
+
+#: key_words_html.php:74 ../I18N/key_words_html.php:74
+msgid "Menu 1"
+msgstr "قائمة 1  "
+
+#: key_words_html.php:75 ../I18N/key_words_html.php:75
+msgid "Menu 2"
+msgstr "قائمة 2"
+
+#: key_words_html.php:76 ../I18N/key_words_html.php:76
+msgid "Menu 3"
+msgstr "قائمة 3"
+
+#: key_words_html.php:77 ../I18N/key_words_html.php:77
+msgid "Menu 4"
+msgstr "قائمة 4"
+
+#: key_words_html.php:78 ../I18N/key_words_html.php:78
+msgid "Submenu 1"
+msgstr "قائمة فرعية 1"
+
+#: key_words_html.php:79 ../I18N/key_words_html.php:79
+msgid "Submenu 2"
+msgstr "قائمة فرعية 2"
+
+#: key_words_html.php:80 ../I18N/key_words_html.php:80
+msgid "Menu 5"
+msgstr "قائمة 5"
+
+#: key_words_html.php:81 ../key_words_html.php:34
+#: ../I18N/key_words_html.php:81
+msgid "Categorys"
+msgstr "الاقسام"
+
+#: key_words_html.php:82 ../I18N/key_words_html.php:82
+msgid "Cms Module"
+msgstr "إدارة محتوى الصفحات"
+
+#: ../key_words_html.php:4
+msgid "List Block"
+msgstr "قائمة الصناديق"
+
+#: ../key_words_html.php:5
+msgid "Add new Text Block"
+msgstr "اضافة صندوق نص جديد"
+
+#: ../key_words_html.php:10
+msgid "Block Name"
+msgstr "اسم الصندوق"
+
+#: ../key_words_html.php:11
+msgid "Block Type"
+msgstr "نوع الصندوق"
+
+#: ../key_words_html.php:12 ../key_words_html.php:17
+#: ../Grids/BannerImageDataGridView.php:33
+#: ../Grids/MainMenu/DataGridView.php:48 ../Grids/Menu/DataGridView.php:75
+#: ../Grids/Page/DataGridView.php:45 ../Grids/Site/DataGridView.php:55
+msgid "Edit"
+msgstr "التعديل"
+
+#: ../key_words_html.php:13 ../Grids/Page/DataGridView.php:50
+msgid "State"
+msgstr "الحالة"
+
+#: ../key_words_html.php:31
+msgid "Vertical Block"
+msgstr "صندوق قائمة عمودية"
+
+#: ../key_words_html.php:32 ../key_words_html.php:41 ../Forms/Box/Form.php:49
+#: ../Forms/Menu/Form.php:68 ../Forms/Page/Form.php:88
+msgid "Title"
+msgstr "العنوان"
+
+#: ../key_words_html.php:33 ../key_words_html.php:43 ../Forms/Box/Form.php:53
+#, fuzzy
+msgid "Content"
+msgstr "المحتوى"
+
+#: ../key_words_html.php:35 ../key_words_html.php:36 ../key_words_html.php:37
+#: ../key_words_html.php:38 ../key_words_html.php:39 ../key_words_html.php:40
+#: ../key_words_html.php:45 ../key_words_html.php:46 ../key_words_html.php:47
+msgid "Category"
+msgstr "قسم"
+
+#: ../key_words_html.php:42
+msgid "Horizontal Block"
+msgstr "صندوق قائمة أفقية"
+
+#: ../key_words_html.php:44
+msgid "All Categories"
+msgstr "جميع الاقسام"
+
+#: ../key_words_html.php:48
+msgid "Megamenu"
+msgstr ""
+
+#: ../key_words_html.php:51 ../key_words_html.php:55 ../key_words_html.php:63
+#: ../Backend/Boot.php:86
+msgid "Add new Main Menu"
+msgstr "اضافة قائمة رئيسية جديدة"
+
+#: ../key_words_html.php:52
+msgid "List Main Menu"
+msgstr "قائمة القوائم الرئيسية"
+
+#: ../key_words_html.php:56
+msgid "List Menu Item"
+msgstr "قائمة عناصر القائمة"
+
+#: ../key_words_html.php:59
+msgid "Add new main menu"
+msgstr "اضافة قائمة رئيسية جديدة"
+
+#: ../key_words_html.php:60 ../Backend/Controllers/Mainmenu/List.php:40
+msgid "List main menu"
+msgstr "قائمة القوائم الرئيسية"
+
+#: ../key_words_html.php:64 ../key_words_html.php:73 ../key_words_html.php:99
+#: ../key_words_html.php:105
+msgid "List Menu Points"
+msgstr "قائمة عناصر القائمة"
+
+#: ../key_words_html.php:65
+msgid "Add New Menu Points"
+msgstr "اضافة عنصر جديد في القائمة"
+
+#: ../key_words_html.php:68 ../key_words_html.php:72 ../key_words_html.php:75
+#: ../key_words_html.php:114
+msgid "Add new Menu Point"
+msgstr "اضافة عنصر جديد في القائمة"
+
+#: ../key_words_html.php:69
+msgid "List Main Menus"
+msgstr "قائمة القوائم الرئيسية"
+
+#: ../key_words_html.php:76 ../key_words_html.php:100
+#: ../key_words_html.php:106 ../key_words_html.php:111
+msgid "List Pages"
+msgstr "قائمة الصفحات"
+
+#: ../key_words_html.php:77 ../key_words_html.php:98 ../key_words_html.php:104
+#: ../key_words_html.php:110 ../Backend/Boot.php:101
+#: ../Backend/Controllers/Page/Preadd.php:28
+msgid "Add new Page"
+msgstr "اضافة صفحة جديدة"
+
+#: ../key_words_html.php:82
+msgid "Unsed Elements"
+msgstr "عناصر غير مستخدمة"
+
+#: ../key_words_html.php:83 ../key_words_html.php:127
+msgid "Header"
+msgstr "الهيدر"
+
+#: ../key_words_html.php:86 ../key_words_html.php:130
+msgid "Left"
+msgstr "اليسار"
+
+#: ../key_words_html.php:87 ../key_words_html.php:131
+msgid "Center"
+msgstr "الوسط"
+
+#: ../key_words_html.php:88 ../key_words_html.php:132
+msgid "Right"
+msgstr "اليمين"
+
+#: ../key_words_html.php:91
+msgid "main content"
+msgstr "محتوى الصفحة"
+
+#: ../key_words_html.php:94 ../key_words_html.php:136
+msgid "Footer"
+msgstr "الفوتير"
+
+#: ../key_words_html.php:101 ../key_words_html.php:107
+msgid "List Fixed Pages"
+msgstr "قائمة الصفحات الثابتة"
+
+#: ../key_words_html.php:116
+msgid "Choose your design"
+msgstr "اختر تصميم"
+
+#: ../key_words_html.php:120 ../key_words_html.php:140 ../Backend/Boot.php:110
+msgid "Add new Site"
+msgstr "اضافة موقع جديدة"
+
+#: ../key_words_html.php:121 ../key_words_html.php:141
+msgid "List Sites"
+msgstr "قائمة المواقع"
+
+#: ../key_words_html.php:126
+msgid "Unused Elements"
+msgstr "عناصر غير مستخدمة"
+
+#: ../key_words_html.php:143
+msgid "Add new site"
+msgstr "اضافة موقع جديدة"
+
+#: ../key_words_html.php:144 ../Backend/Controllers/Site/List.php:40
+msgid "List sites"
+msgstr "قائمة المواقع"
+
+#: ../key_words_html.php:152
+msgid "Sitemap"
+msgstr "خريطة الموقع"
+
+#: ../Backend/Boot.php:46 ../Backend/Boot.php:75
+msgid "Content Management"
+msgstr "إدارة محتوى الصفحات"
+
+#: ../Backend/Boot.php:48
+msgid "Add Block"
+msgstr "اضافة صندوق"
+
+#: ../Backend/Boot.php:49
+msgid "Manage Blocks"
+msgstr "إدارة الصناديق"
+
+#: ../Backend/Boot.php:50
+msgid "Add Page"
+msgstr "اضافة صفحة"
+
+#: ../Backend/Boot.php:51 ../Backend/Controllers/Page/List.php:32
+msgid "Manage Pages"
+msgstr "ادارة الصفحات"
+
+#: ../Backend/Boot.php:52
+msgid "Add Menu Point"
+msgstr "اضافة عنصر جديد في القائمة"
+
+#: ../Backend/Boot.php:53
+msgid "Manage Menu Points"
+msgstr "ادارة عناصر القوائم"
+
+#: ../Backend/Boot.php:54
+msgid "Manage Menu Blocks"
+msgstr "ادارة صناديق القوائم"
+
+#: ../Backend/Boot.php:55
+msgid "Manage Sites"
+msgstr "إدارة المواقع"
+
+#: ../Backend/Boot.php:76
+msgid "Select Box Content Design"
+msgstr "اختر تصميم محتوى الصندوق"
+
+#: ../Backend/Boot.php:77
+msgid "List all Boxes"
+msgstr "قائمة جميع الصناديق"
+
+#: ../Backend/Boot.php:78
+msgid "Add new Box"
+msgstr "اضافة صندوق جديد"
+
+#: ../Backend/Boot.php:79
+msgid "Show Box Information"
+msgstr "مشاهدة معلومات الصندوق"
+
+#: ../Backend/Boot.php:80
+msgid "Modify Box"
+msgstr "تعديل صندوق"
+
+#: ../Backend/Boot.php:81
+msgid "Delete Box"
+msgstr "حذف صندوق"
+
+#: ../Backend/Boot.php:82
+msgid "Set Box Offline"
+msgstr "تعطيل الصندوق"
+
+#: ../Backend/Boot.php:83
+msgid "Set Box Online"
+msgstr "تفعيل الصندوق"
+
+#: ../Backend/Boot.php:85
+msgid "List all Main Menus"
+msgstr "قائمة جميع القوائم الرئيسية"
+
+#: ../Backend/Boot.php:87
+msgid "Modify Main Menu"
+msgstr "التعديل على القوائم الرئيسية"
+
+#: ../Backend/Boot.php:88
+msgid "Delete Main Menu"
+msgstr "حذف القائمة الرئيسية"
+
+#: ../Backend/Boot.php:89
+msgid "Set Main Menu Offline"
+msgstr "تعطيل القائمة الرئيسية"
+
+#: ../Backend/Boot.php:90
+msgid "Set Main Menu Online"
+msgstr "تفعيل القائمة الرئيسية"
+
+#: ../Backend/Boot.php:92
+msgid "List all Menu Items"
+msgstr "قائمة جميع عناصر القوائم"
+
+#: ../Backend/Boot.php:93
+msgid "Add new Menu Item"
+msgstr "اضافة عنصر جديد في القائمة"
+
+#: ../Backend/Boot.php:94
+msgid "Modify Menu Item"
+msgstr "تعديل عنصر القائمة"
+
+#: ../Backend/Boot.php:95
+msgid "Delete Menu Item"
+msgstr "حذف عنصر القائمة"
+
+#: ../Backend/Boot.php:96
+msgid "Set Menu Item Offline"
+msgstr "تعطيل عنصر القائمة"
+
+#: ../Backend/Boot.php:97
+msgid "Set Menu Item Online"
+msgstr "تفعيل عنصر القائمة"
+
+#: ../Backend/Boot.php:99
+msgid "Select Page Content Design"
+msgstr "اختر تصميم محتوى الصفحة"
+
+#: ../Backend/Boot.php:102
+msgid "Modify Page"
+msgstr "تعديل صفحة"
+
+#: ../Backend/Boot.php:103
+msgid "Delete Page"
+msgstr "حذف صفحة"
+
+#: ../Backend/Boot.php:104
+msgid "Set Page Offline"
+msgstr "تعطيل الصفحة"
+
+#: ../Backend/Boot.php:105
+msgid "Set Page Online"
+msgstr "تفعيل الصفحة"
+
+#: ../Backend/Boot.php:106
+msgid "Design Pages"
+msgstr "تصميم الصفحات"
+
+#: ../Backend/Boot.php:107
+msgid "Show Quicklist"
+msgstr "مشاهدة القائمة السريعة"
+
+#: ../Backend/Boot.php:109
+msgid "List all Sites"
+msgstr "قائمة جميع المواقع"
+
+#: ../Backend/Boot.php:111
+msgid "Modify Site"
+msgstr "تعديل موقع"
+
+#: ../Backend/Boot.php:112
+msgid "Delete Site"
+msgstr "حذف موقع"
+
+#: ../Backend/Boot.php:113
+msgid "Design Sites"
+msgstr "تصميم المواقع"
+
+#: ../Backend/Controllers/Box/Add.php:58
+msgid "Add new Text Box"
+msgstr "اضافة صندوق نص جديد"
+
+#: ../Backend/Controllers/Box/Modify.php:33
+msgid "Edit Block"
+msgstr "تعديل صندوق"
+
+#: ../Backend/Controllers/Box/Modify.php:64
+#: ../Backend/Controllers/Mainmenu/Add.php:58
+#: ../Backend/Controllers/Mainmenu/Modify.php:62
+#: ../Backend/Controllers/Menu/Add.php:76
+#: ../Backend/Controllers/Menu/Modify.php:91
+#: ../Backend/Controllers/Page/Add.php:48
+#: ../Backend/Controllers/Page/Modify.php:58
+#: ../Backend/Controllers/Site/Add.php:49
+#: ../Backend/Controllers/Site/Modify.php:76
+msgid "Please check inputs."
+msgstr "الرجاء التثبت من المدخلات"
+
+#: ../Backend/Controllers/Box/Preadd.php:27
+msgid "Select your Design"
+msgstr "اختر التصميم"
+
+#: ../Backend/Controllers/Mainmenu/Add.php:44
+msgid "Create new Main Menu"
+msgstr "اضافة قائمة رئيسية جديدة"
+
+#: ../Backend/Controllers/Mainmenu/Add.php:70
+msgid "Main Menu was successully added"
+msgstr "تم اضافة القائمة بنجاح"
+
+#: ../Backend/Controllers/Mainmenu/Add.php:112
+msgid "Main Menu Data"
+msgstr "معلومات القائمة"
+
+#: ../Backend/Controllers/Mainmenu/Modify.php:35
+msgid "Edit Main Menu"
+msgstr "تعديل القائمة الرئيسية"
+
+#: ../Backend/Controllers/Menu/Add.php:35
+msgid "Create new Menu Item"
+msgstr "اضافة عنصر جديد في القائمة"
+
+#: ../Backend/Controllers/Menu/List.php:42
+msgid "List Menu Items"
+msgstr "قائمة عناصر القوائم"
+
+#: ../Backend/Controllers/Menu/Modify.php:34
+msgid "Edit Menu Point"
+msgstr "التعديل على عنصر القائمة"
+
+#: ../Backend/Controllers/Page/Add.php:35
+msgid "Create new Page"
+msgstr "اضافة صفحة جديدة"
+
+#: ../Backend/Controllers/Page/Add.php:57
+msgid "Page was successully added"
+msgstr "تم اضافة الصفحة بنجاح"
+
+#: ../Backend/Controllers/Page/Design.php:40
+#: ../Backend/Controllers/Site/Design.php:40
+msgid "Frontend management"
+msgstr "ادارة الواجهة الخارجية"
+
+#: ../Backend/Controllers/Page/Fixed.php:27
+msgid "Manage Fixed Pages"
+msgstr "ادارة الصفحات الثابتة"
+
+#: ../Backend/Controllers/Page/Fixed.php:29
+#: ../Backend/Controllers/Page/List.php:34
+msgid "Failed to delete this page because this page is fixed"
+msgstr "لا يمكن حذف هذه الصفحة لأنها صفحة ثابتة"
+
+#: ../Backend/Controllers/Page/Modify.php:34
+msgid "Edit Page"
+msgstr "تعديل الصفحة"
+
+#: ../Backend/Controllers/Page/Quicklist.php:47
+msgid "Page Name"
+msgstr "اسم الصفحة"
+
+#: ../Backend/Controllers/Page/Quicklist.php:53
+#: ../Grids/Page/DataGridView.php:42
+msgid "Website"
+msgstr "الموقع"
+
+#: ../Backend/Controllers/Page/Quicklist.php:55 ../Forms/MainMenu/Form.php:49
+#: ../Forms/Page/Form.php:129 ../Grids/Page/DataGridView.php:76
+msgid "Site"
+msgstr "الموقع"
+
+#: ../Backend/Controllers/Page/Quicklist.php:61
+#, fuzzy
+msgid "Status"
+msgstr "الحالة"
+
+#: ../Backend/Controllers/Page/Quicklist.php:89
+msgid "Select a Page"
+msgstr "اختر صفحة"
+
+#: ../Backend/Controllers/Site/Add.php:35
+msgid "Create new Site"
+msgstr "اضافة موقع جديد"
+
+#: ../Backend/Controllers/Site/Add.php:71
+msgid "Site was successully added"
+msgstr "تم اضافة الموقع بنجاح"
+
+#: ../Backend/Controllers/Site/Modify.php:34
+msgid "Edit Site"
+msgstr "تعديل الموقع"
+
+#: ../Forms/Box/Form.php:57 ../Forms/Page/Form.php:109
+msgid "With Border"
+msgstr "مع اطار"
+
+#: ../Forms/Box/Form.php:67
+msgid "Template File"
+msgstr "ملف القالب"
+
+#: ../Forms/Box/Form.php:71 ../Forms/MainMenu/Form.php:58
+#: ../Forms/Menu/Form.php:113 ../Forms/Page/Form.php:126
+#: ../Forms/Site/Form.php:94
+msgid "Save"
+msgstr "حفظ"
+
+#: ../Forms/MainMenu/Form.php:43 ../Grids/MainMenu/DataGridView.php:37
+msgid "Main Menu Name"
+msgstr "اسم القائمة الرئيسية"
+
+#: ../Forms/Menu/Form.php:67
+msgid "Menu Point Data"
+msgstr "معلومات عنصر القائمة"
+
+#: ../Forms/Menu/Form.php:73
+#, fuzzy
+msgid "Alias"
+msgstr "الاسم المستعار"
+
+#: ../Forms/Menu/Form.php:76
+msgid "Sort ID"
+msgstr "الترتيب"
+
+#: ../Forms/Menu/Form.php:79
+msgid "Extern Url"
+msgstr "رابط خارجي"
+
+#: ../Forms/Menu/Form.php:88
+msgid "Select intern Page"
+msgstr "اختيار صفحة داخلية"
+
+#: ../Forms/Menu/Form.php:93 ../Grids/Menu/DataGridView.php:68
+#: ../Grids/Menu/DataGridView.php:93
+msgid "Main Menu"
+msgstr "قائمة رئيسية"
+
+#: ../Forms/Menu/Form.php:100
+msgid "Target"
+msgstr "الهدف"
+
+#: ../Forms/Menu/Form.php:101
+msgid "blank"
+msgstr "صفحة خارجية"
+
+#: ../Forms/Menu/Form.php:101
+msgid "self"
+msgstr "نفس الصفحة"
+
+#: ../Forms/Menu/Form.php:104
+msgid "Parent"
+msgstr "الاصل"
+
+#: ../Forms/Menu/Form.php:133 ../Grids/Menu/DataGridView.php:62
+msgid "Product Category"
+msgstr "قسم المنتجات"
+
+#: ../Forms/Menu/Form.php:138
+msgid "You can link this menu to product category"
+msgstr "يمكن ربط القائمة باقسام المنتجات"
+
+#: ../Forms/Page/Form.php:83 ../Grids/Page/DataGridView.php:37
+msgid "Page Title"
+msgstr "عنوان الصفحة"
+
+#: ../Forms/Page/Form.php:84
+msgid "Search Engine"
+msgstr "محرك البحث"
+
+#: ../Forms/Page/Form.php:85
+msgid "Page Content"
+msgstr "محتوى الصفحة"
+
+#: ../Forms/Page/Form.php:86
+msgid "Page Settings"
+msgstr "اعدادات الصفحة"
+
+#: ../Forms/Page/Form.php:93
+msgid "Page Name (intern)"
+msgstr "اسم الصفحة في لوحة التحكم"
+
+#: ../Forms/Page/Form.php:97
+msgid "Meta Keywords"
+msgstr "مفاتيح كلمات البحث"
+
+#: ../Forms/Page/Form.php:100
+msgid "comma separated keywords"
+msgstr "مفاتيح كلمات البحث مفصولة بفاصلة"
+
+#: ../Forms/Page/Form.php:102
+msgid "Meta Description"
+msgstr "وصف الميتا"
+
+#: ../Forms/Page/Form.php:105
+msgid "Html Content"
+msgstr "محتوى ايتش تي ام ال"
+
+#: ../Forms/Page/Form.php:112
+msgid "Layout"
+msgstr "التصميم"
+
+#: ../Forms/Page/Form.php:116
+msgid "Author Name"
+msgstr "اسم الكاتب"
+
+#: ../Forms/Page/Form.php:119
+msgid "Update Author Name"
+msgstr "تحديث اسم الكاتب"
+
+#: ../Forms/Page/Form.php:123
+msgid "Inherit Design from Site"
+msgstr "وراثة التصميم من الموقع"
+
+#: ../Forms/Site/Form.php:62
+msgid "Site Settings"
+msgstr "اعدادات الموقع"
+
+#: ../Forms/Site/Form.php:64 ../Grids/Site/DataGridView.php:37
+msgid "Site Name"
+msgstr "اسم الموقع"
+
+#: ../Forms/Site/Form.php:70
+msgid "Site Title"
+msgstr "عنوان الموقع"
+
+#: ../Forms/Site/Form.php:73
+msgid "Root Directory"
+msgstr "جذر الدليل"
+
+#: ../Forms/Site/Form.php:75
+msgid "Width"
+msgstr "العرض"
+
+#: ../Forms/Site/Form.php:76
+msgid "Select Site Style"
+msgstr "اختر شكل الموقع"
+
+#: ../Forms/Site/Form.php:82
+msgid "Require Login"
+msgstr "يتطلب تسجيل دخول"
+
+#: ../Forms/Site/Form.php:85
+#, fuzzy
+msgid "Description"
+msgstr "الوصف"
+
+#: ../Forms/Site/Form.php:88
+msgid "Select Homepage"
+msgstr "اختر الصفحة الرئيسية "
+
+#: ../Grids/Menu/DataGridView.php:58
+msgid "Menu item name"
+msgstr "اسم عنصر القائمة"
+
+#: ../Grids/Menu/DataGridView.php:60
+msgid "URL"
+msgstr "الرابط"
+
+#: ../Grids/Page/DataGridView.php:62 ../Grids/Site/DataGridView.php:60
+msgid "Modify Design"
+msgstr "تعديل التصميم"
+
+#: ../Grids/Site/DataGridView.php:43
+msgid "Set as default"
+msgstr "تعيين كافتراضي"
+
+#: ../Grids/Site/DataGridView.php:44
+#, fuzzy
+msgid "Default"
+msgstr "افتراضي"
+
+#: ../Models/Box/Model.php:121
+msgid "Variable Block"
+msgstr "صندوق متغييرات"
+
+#: ../Models/Box/Model.php:125
+msgid "Text Block"
+msgstr "صندوق نص"
+
+#: ../Models/Box/Model.php:128
+msgid "Horizontal Menu Block"
+msgstr "صندوق قائمة أفقية"
+
+#: ../Models/Box/Model.php:131
+msgid "Vertical Menu Block"
+msgstr "صندوق قائمة عمودية"
+
+#: ../Models/Box/Model.php:135
+msgid "Page Box Block"
+msgstr "صندوق صفحة"
+
+#: ../Models/Box/Model.php:138
+msgid "Block"
+msgstr "صندوق"
+
+#~ msgid "Modify Account"
+#~ msgstr "تعديل حسابي"
+
+#~ msgid "Change Password"
+#~ msgstr "تغيير كلمة المرور"
+
+#~ msgid "Contact Us"
+#~ msgstr "اتصل بنا"
+
+#~ msgid "Contact Form submited"
+#~ msgstr "تم اعتماد طلبكم"
+
+#~ msgid "Back to home"
+#~ msgstr "الرجوع الى الرئيسية"
+
+#~ msgid "Welcome to Motorssouq"
+#~ msgstr "مرحبا بكم في موتورز سوق"
+
+#~ msgid "Quick links"
+#~ msgstr "روابط سريعة"
+
+#~ msgid "To reset your password click here"
+#~ msgstr "لطلب كلمة مرور جديدة يرجى الضغط هنا"
+
+#~ msgid "Login to your Panel"
+#~ msgstr "الدخول على لوحة التحكم"
+
+#~ msgid "Reset Password"
+#~ msgstr "طلب كلمة مرور جديدة"
+
+#~ msgid "Please enter your email"
+#~ msgstr "الرجاء ادخال البريد الالكتروني"
+
+#, fuzzy
+#~ msgid "Send"
+#~ msgstr "ارسل"
+
+#~ msgid "Reset Password Success"
+#~ msgstr "طلب كلمة مرور جديدة"
+
+#~ msgid "Customer Control Panel"
+#~ msgstr "لوحة تحكم العملاء"
+
+#~ msgid "My Data"
+#~ msgstr "معلوماتي"
+
+#~ msgid "My Cars"
+#~ msgstr "سيارتي"
+
+#~ msgid "Insert Car"
+#~ msgstr "اضافة سيارة"
+
+#~ msgid "My Bikes"
+#~ msgstr "دراجاتي"
+
+#~ msgid "Insert Bike"
+#~ msgstr "اضافة دراجة"
+
+#~ msgid "Add Vehicle Child"
+#~ msgstr "اضافة رقم سيارة"
+
+#~ msgid "List Vehicle Child"
+#~ msgstr "قائمة ارقام السيارات"
+
+#~ msgid "Request Car"
+#~ msgstr "طلب سيارة"
+
+#~ msgid "Logout"
+#~ msgstr "تسجيل الخروج"
+
+#~ msgid "Account Area"
+#~ msgstr "حسابي"
+
+#~ msgid "Change Password Success"
+#~ msgstr "تم تعديل كلمة المرور بنجاح"
+
+#~ msgid "Register new User"
+#~ msgstr "اضافة مستخدم جديد"
+
+#~ msgid "Dear visitor please verify inputs"
+#~ msgstr "الرجاء التاكد من المدخلات"
+
+#~ msgid "Edit Account"
+#~ msgstr "تعديل الحساب"
+
+#, fuzzy
+#~ msgid "Home"
+#~ msgstr "الرئيسية"
+
+#, fuzzy
+#~ msgid "Account Information"
+#~ msgstr "معلومات الحساب"
+
+#, fuzzy
+#~ msgid "Manage Addresses"
+#~ msgstr "إدارة الصفحات "
+
+#, fuzzy
+#~ msgid "Sales Order"
+#~ msgstr "الطلبات"
+
+#~ msgid "List Account Source"
+#~ msgstr "قائمة مصادر الحسابات "
+
+#~ msgid "Add new Account Stage"
+#~ msgstr "إظافة مرحلة"
+
+#~ msgid "Invoices"
+#~ msgstr "الفواتير"
+
+#~ msgid "Settings"
+#~ msgstr "الاعدادات"
+
+#~ msgid "Account Settings"
+#~ msgstr "اعدادات الحساب"
+
+#~ msgid "Contact Settings"
+#~ msgstr "اعدادات جهات الاتصال"
+
+#~ msgid "Contact Shop Owner"
+#~ msgstr "اتصل بصاحب المتجر"
+
+#, fuzzy
+#~ msgid "Newsletter Subscription"
+#~ msgstr "الرسائل الاخبارية"
+
+#, fuzzy
+#~ msgid "Policy"
+#~ msgstr "الشروط"
+
+#~ msgid ""
+#~ "To serve with distinction and to achieve the target in the preparation"
+#~ msgstr " لخدمتكم بتميز ولتحقيق الهدف في إعداد ما "
+
+#~ msgid "which aims to find out the nature of work in your company"
+#~ msgstr "والذي يهدف لمعرفة طبيعة العمل في شركتكم "
+
+#~ msgid "Name"
+#~ msgstr "الاسم"
+
+#~ msgid "Email"
+#~ msgstr "البريد الالكتروني"
+
+#~ msgid "Mobile"
+#~ msgstr "الجوال"
+
+#, fuzzy
+#~ msgid "Company Url"
+#~ msgstr "رابط الشركة"
+
+#~ msgid "What are the products you want to sell it on your shop"
+#~ msgstr "ما هي المنتجات التي ترغب في بيعها على متجرك الإلكتروني؟"
+
+#~ msgid "How many products do you want to sell your shop"
+#~ msgstr "كم عدد المنتجات التي ترغب في بيعها على متجرك الإلكتروني؟"
+
+#~ msgid "Do you have a list of excel containing products"
+#~ msgstr "هل لديك قائمة على أكسل تحتوي على منتجاتك"
+
+#~ msgid "Yes"
+#~ msgstr "نعم "
+
+#~ msgid "No"
+#~ msgstr "لا "
+
+#~ msgid "Do you have a model to shop"
+#~ msgstr "هل لديك نموذج (مثال حي) لمتجر "
+
+#~ msgid "What are the payment methods you want to use"
+#~ msgstr "ما هي وسائل الدفع التي ترغب في استخدامها؟"
+
+#~ msgid "what are the domains that you"
+#~ msgstr "، ما هي الدومينات التي ترغب"
+
+#~ msgid "Contact request was saved"
+#~ msgstr "تم حفظ طلب التواصل الخاص بك"
+
+#, fuzzy
+#~ msgid "Your contact request was saved"
+#~ msgstr "تم حفظ طلب التواصل الخاص بك"
+
+#, fuzzy
+#~ msgid "My Products"
+#~ msgstr "المنتجات"
+
+#, fuzzy
+#~ msgid "Add smartphone"
+#~ msgstr "اضافة هاتف ذكي"
+
+#, fuzzy
+#~ msgid "My smartphones"
+#~ msgstr "قائمة الهواتف الذكية"
+
+#, fuzzy
+#~ msgid "My tablets"
+#~ msgstr "سياراتي"
+
+#~ msgid "Account Source"
+#~ msgstr " قائمة مصادر الحسابات"
+
+#~ msgid "Contact Source"
+#~ msgstr "قائمة مصادر جهات الاتصال"
+
+#~ msgid "Lead Source"
+#~ msgstr "قائمة مصادر المهتمين"
+
+#~ msgid "Account Stage"
+#~ msgstr "قائمة مراحل الحسابات"
+
+#~ msgid "Add tablets"
+#~ msgstr "اضافة منطقة"
+
+#, fuzzy
+#~ msgid "My accessories"
+#~ msgstr "سياراتي"
+
+#, fuzzy
+#~ msgid "Add accessory"
+#~ msgstr "اضافة منطقة"
+
+#, fuzzy
+#~ msgid "Your Sales Order"
+#~ msgstr "طلب الشراء الخاص بك"
+
+#~ msgid "Enter your email address"
+#~ msgstr "الرجاء ادخال البريد الالكتروني"
+
+#, fuzzy
+#~ msgid "Email Address"
+#~ msgstr "البريد الالكتروني"
+
+#, fuzzy
+#~ msgid "SUBSCRIBE"
+#~ msgstr "اشترك"
+
+#, fuzzy
+#~ msgid "Account Activation"
+#~ msgstr "تفعيل الحساب"
+
+#~ msgid "Your Quotations"
+#~ msgstr "عروض الاسعار"
+
+#, fuzzy
+#~ msgid "Confirm Payment"
+#~ msgstr "تأكيد الدفع"
+
+#, fuzzy
+#~ msgid "Resend Activation Code"
+#~ msgstr "اعادة ارسال رمز التفعيل"
+
+#, fuzzy
+#~ msgid "Your Invoices"
+#~ msgstr "الفواتير"
+
+#, fuzzy
+#~ msgid "Please wait until resetting password"
+#~ msgstr "يرجى الانتظار الى ان يتم استرجاع كلمة المرور"
+
+#~ msgid "Number"
+#~ msgstr "الرقم"
+
+#~ msgid "Profile"
+#~ msgstr "حساب"
+
+#, fuzzy
+#~ msgid "Open Sales Orders"
+#~ msgstr "طلبات الشراء المفتوحة"
+
+#, fuzzy
+#~ msgid "Pending Sales Orders"
+#~ msgstr "طلبات الشراء في الانتظار"
+
+#, fuzzy
+#~ msgid "Paid Sales Orders"
+#~ msgstr "طلبات الشراء المدفوعة"
+
+#, fuzzy
+#~ msgid "Newsletters"
+#~ msgstr "الرسائل الاخبارية"
+
+#, fuzzy
+#~ msgid "Contact Shop owner"
+#~ msgstr "الاتصال بمدير المتجر"
+
+#, fuzzy
+#~ msgid "Latest Sales Orders"
+#~ msgstr "أحدث طلبات الشراء"
+
+#, fuzzy
+#~ msgid "Sales Order Number"
+#~ msgstr "رقم طلب الشراء"
+
+#, fuzzy
+#~ msgid "Pay Now"
+#~ msgstr "ادفع الآن"
+
+#, fuzzy
+#~ msgid "Date"
+#~ msgstr "التاريخ"
+
+#, fuzzy
+#~ msgid "Cancel Sales Order"
+#~ msgstr "الغاء طلب الشراء"
+
+#, fuzzy
+#~ msgid "Total Price"
+#~ msgstr "السعر"
+
+#, fuzzy
+#~ msgid "Details"
+#~ msgstr "التفاصيل"
+
+#, fuzzy
+#~ msgid "There is no Sales Orders"
+#~ msgstr "لا توجد طلبات شراء"
+
+#, fuzzy
+#~ msgid "See all my Sales Orders"
+#~ msgstr "قائمة طلبات الشراء"
+
+#~ msgid "My Quotations"
+#~ msgstr "عروض الاسعار"
+
+#, fuzzy
+#~ msgid "Quotation Number"
+#~ msgstr "رقم عرض الاسعار"
+
+#, fuzzy
+#~ msgid "Accept"
+#~ msgstr "موافقة"
+
+#, fuzzy
+#~ msgid "There is no quotaions"
+#~ msgstr "لا يوجد عروض اسعار"
+
+#, fuzzy
+#~ msgid "See All Quotations"
+#~ msgstr "قائمة الفواتير"
+
+#, fuzzy
+#~ msgid "My Invoices"
+#~ msgstr "الفواتير"
+
+#, fuzzy
+#~ msgid "Invoice Number"
+#~ msgstr "رقم الفاتورة"
+
+#, fuzzy
+#~ msgid "There is no invoices"
+#~ msgstr "لا توجد فواتير"
+
+#, fuzzy
+#~ msgid "See All Invoices"
+#~ msgstr "قائمة الفواتير"
+
+#, fuzzy
+#~ msgid "New Customer"
+#~ msgstr "عميل جديد"
+
+#, fuzzy
+#~ msgid "Register Account"
+#~ msgstr "تسجيل حساب"
+
+#, fuzzy
+#~ msgid "By Creating an account"
+#~ msgstr "فتح حساب جديد بعد"
+
+#~ msgid "you will be able to shop faster"
+#~ msgstr "ترغب في ربطها بمتجرك الإلكتروني؟"
+
+#, fuzzy
+#~ msgid "be up to date on an orders status and keep track of the orders"
+#~ msgstr "و تتبع شحناتكم و طلباتكم"
+
+#, fuzzy
+#~ msgid "Continue"
+#~ msgstr "واصل"
+
+#, fuzzy
+#~ msgid "Open a new account"
+#~ msgstr "فتح حساب جديد"
+
+#, fuzzy
+#~ msgid "Your Messages"
+#~ msgstr "الرسائل"
+
+#, fuzzy
+#~ msgid "Shop Policy"
+#~ msgstr "سياسة  المتجر"
+
+#, fuzzy
+#~ msgid "Add new contact"
+#~ msgstr "اضافة جهة اتصال"
+
+#, fuzzy
+#~ msgid "List contacts"
+#~ msgstr "قائمة جهة الاتصال"
+
+#~ msgid "Add new Contact Stage"
+#~ msgstr "اضافة  مرحلة جديدة"
+
+#~ msgid "List Contact Stage"
+#~ msgstr "قائمة مراحل جهات الاتصال"
+
+#, fuzzy
+#~ msgid "Edit contact"
+#~ msgstr "التعديل على جهة الاتصال"
+
+#, fuzzy
+#~ msgid "go to account"
+#~ msgstr "الذهاب الى الحساب"
+
+#, fuzzy
+#~ msgid "Convert to account"
+#~ msgstr "تحويل الى حساب"
+
+#~ msgid "Add new Contact Source"
+#~ msgstr "إضافة مصادر جهات الاتصال  "
+
+#~ msgid "List Contact Source"
+#~ msgstr "قائمة مصادر جهات الاتصال"
+
+#, fuzzy
+#~ msgid "Add a new Contact"
+#~ msgstr "اضافة اتصال"
+
+#, fuzzy
+#~ msgid "Add new contact Group"
+#~ msgstr "اضافة مجموعة جهات اتصال"
+
+#, fuzzy
+#~ msgid "List Contact Groups"
+#~ msgstr "قائمة مجموعات جهات الاتصال"
+
+#, fuzzy
+#~ msgid "List contact Groups"
+#~ msgstr "قائمة مجموعات جهات الاتصال"
+
+#, fuzzy
+#~ msgid "Manage Email templates"
+#~ msgstr "ادارة قوالب البريد الالكتروني"
+
+#, fuzzy
+#~ msgid "Mail Server Settings"
+#~ msgstr "إعدادات خادم البريد"
+
+#~ msgid "Contact Stage"
+#~ msgstr "قائمة مراحل جهات الاتصال"
+
+#~ msgid "Add new Account"
+#~ msgstr "فتح حساب جديد"
+
+#~ msgid "List Accounts"
+#~ msgstr "قائمة الحسابات"
+
+#~ msgid "List Account Stage"
+#~ msgstr "إستعراض المراحل"
+
+#~ msgid "Add new Account Source"
+#~ msgstr "اضافة مصدر للحساب "
+
+#~ msgid "Add a new Account"
+#~ msgstr "فتح حساب جديد"
+
+#~ msgid "Add new Account Group"
+#~ msgstr "إضافة مجموعة"
+
+#, fuzzy
+#~ msgid "List Account Groups"
+#~ msgstr "قائمة مجموعات الحسابات"
+
+#, fuzzy
+#~ msgid "Edit Account Group"
+#~ msgstr "تعديل على مجموعة الحساب"
+
+#, fuzzy
+#~ msgid "List Groups"
+#~ msgstr "قائمة المجموعات"
+
+#, fuzzy
+#~ msgid "Convert to contact"
+#~ msgstr "تحويل الى جهة اتصال"
+
+#, fuzzy
+#~ msgid "List Lead Source"
+#~ msgstr "قائمة جميع المهتمين "
+
+#, fuzzy
+#~ msgid "List Lead Groups"
+#~ msgstr "قائمة مجموعات المهتمين"
+
+#~ msgid "Add new Contact Group"
+#~ msgstr "اضافة مجموعة"
+
+#~ msgid "Account Group"
+#~ msgstr "قائمة مجموعات الحسابات"
+
+#, fuzzy
+#~ msgid "Contact Group"
+#~ msgstr "قائمة مجموعات جهات الاتصال"
+
+#, fuzzy
+#~ msgid "Lead Group"
+#~ msgstr "قائمة مجموعات المهتمين"
+
+#~ msgid "SMS"
+#~ msgstr "رسالة قصيرة"
+
+#~ msgid "CRM"
+#~ msgstr "إدارة علاقات العملاء"
+
+#~ msgid "Manage Contacts"
+#~ msgstr "ادارة الاتصال"
+
+#, fuzzy
+#~ msgid "Manage Leads"
+#~ msgstr "ادارة المهتمين"
+
+#~ msgid "Manage Groups"
+#~ msgstr "ادارة المجموعات"
+
+#, fuzzy
+#~ msgid "Set Crm Settings"
+#~ msgstr "اعدادات ادارة علاقة العملاء"
+
+#, fuzzy
+#~ msgid "Show Account Information"
+#~ msgstr "مشاهدة معلومات الحساب"
+
+#, fuzzy
+#~ msgid "Delete Accoount"
+#~ msgstr "حذف الحساب"
+
+#, fuzzy
+#~ msgid "List all Contacts"
+#~ msgstr "قائمة جميع جهات الاتصال"
+
+#, fuzzy
+#~ msgid "Show Contact Information"
+#~ msgstr "مشاهدة معلومات جهة الاتصال"
+
+#, fuzzy
+#~ msgid "Modify Contact"
+#~ msgstr "تعديل جهة الاتصال"
+
+#, fuzzy
+#~ msgid "Delete Contact"
+#~ msgstr "حذف جهة اتصال"
+
+#, fuzzy
+#~ msgid "Modify Lead"
+#~ msgstr "تعديل المهتم"
+
+#, fuzzy
+#~ msgid "List all Groups"
+#~ msgstr "قائمة جميع المجموعات"
+
+#, fuzzy
+#~ msgid "Delete Group"
+#~ msgstr "حذف المجموعة"
+
+#~ msgid "Item"
+#~ msgstr "العنصر"
+
+#~ msgid "Link"
+#~ msgstr "الرابط"
+
+#~ msgid "CRM Settings"
+#~ msgstr "اعدادات"
+
+#, fuzzy
+#~ msgid "Account Notification Settings"
+#~ msgstr "اعدادات اشعارات الحساب"
+
+#, fuzzy
+#~ msgid "General Settings"
+#~ msgstr "اعدادات عامة"
+
+#~ msgid "Show all related contacts quotations , saleorders , emails"
+#~ msgstr ""
+#~ "اظهار الفواتير , الطلبات و الايميلات في معلومات الحساب المرتبط بجهة "
+#~ "الاتصال"
+
+#, fuzzy
+#~ msgid "Use this email to send notifications"
+#~ msgstr "استخدام هذا العنوان البريدي لارسال الاشعارات"
+
+#, fuzzy
+#~ msgid "Send Email On Account Registered"
+#~ msgstr "ارسال رسالة عند تسجيل حساب جديد"
+
+#~ msgid "Send Sms On Account Registered"
+#~ msgstr "ارسل رسالة قصيرة عند تسجيل حساب جديد"
+
+#, fuzzy
+#~ msgid "Send Email On Password Changed"
+#~ msgstr "ارسال رسالة عند تغيير كلمة المرور"
+
+#, fuzzy
+#~ msgid "Send Sms On Password Changed"
+#~ msgstr "ارسل رسالة قصيرة عند تغيير كلمة المرور"
+
+#, fuzzy
+#~ msgid "Use Account Activation on Registration"
+#~ msgstr "اشعارات تفعيل الحساب"
+
+#, fuzzy
+#~ msgid "Activation Method"
+#~ msgstr "طريقة التفعيل"
+
+#~ msgid "EMAIL"
+#~ msgstr "البريد الالكتروني"
+
+#, fuzzy
+#~ msgid "Registration Notification"
+#~ msgstr "اشعارات التسجيل"
+
+#, fuzzy
+#~ msgid "Use Email Template on Account Registration"
+#~ msgstr "استخدم قالب البريد الالكتروني التالي عند تسجيل حساب"
+
+#, fuzzy
+#~ msgid "Use Sms Template on Account Registration"
+#~ msgstr "استخدم قالب الرسالة القصيرة التالية عند تسجيل حساب"
+
+#, fuzzy
+#~ msgid "Please Note That SMS Text is limited by service provider"
+#~ msgstr "يرجى مراعات ان نص الرسائل القصيرة محدود من قبل مزود الخدمة"
+
+#, fuzzy
+#~ msgid "Account Activation Notification"
+#~ msgstr "اشعارات تفعيل الحساب"
+
+#, fuzzy
+#~ msgid "Use Template to Send Email Activation"
+#~ msgstr "استخدم القالب التالي لارسال رسالة تفعيل الحساب"
+
+#, fuzzy
+#~ msgid "Manage Email Templates"
+#~ msgstr "ادارة قوالب البريد الالكتروني"
+
+#, fuzzy
+#~ msgid "Use Template to Send SMS Activation"
+#~ msgstr "استخدم القالب التالي لارسال رسالة التفعيل القصيرة"
+
+#~ msgid "Forgot Password Notification"
+#~ msgstr "اشعارات نسيان كلمة المرور"
+
+#, fuzzy
+#~ msgid "Use Template on Forgot Password Action"
+#~ msgstr "استخدام قالب نسيت كلمة المرور التالي"
+
+#, fuzzy
+#~ msgid "Password Changed Notification"
+#~ msgstr "اشعارات تغيير كلمة المرور"
+
+#, fuzzy
+#~ msgid "Use Template on Password Changed"
+#~ msgstr "استخدام قالب تغيير كلمة المرور التالي"
+
+#~ msgid "Webmaster Notificaitonss"
+#~ msgstr "اشعارات مدير المتجر"
+
+#, fuzzy
+#~ msgid "Notify Admin on account registred"
+#~ msgstr "اعلام المدير عند تسجيل حساب"
+
+#, fuzzy
+#~ msgid "Use Template to notidy Admin"
+#~ msgstr "استخدام القالب التالي لاعلام المدير"
+
+#, fuzzy
+#~ msgid "Send Password Email Template"
+#~ msgstr "قالب اشعارات كلمة المرور"
+
+#, fuzzy
+#~ msgid "Use Template to send password"
+#~ msgstr "استخدام القالب التالي لارسال كلمة المرور"
+
+#, fuzzy
+#~ msgid "Privacy Policy"
+#~ msgstr "الشروط"
+
+#~ msgid "Privacy Policy Text"
+#~ msgstr "نص سياسة الخصوصية"
+
+#~ msgid "Enable Privacy Policy"
+#~ msgstr "تفعيل سياسة الخصوصية"
+
+#, fuzzy
+#~ msgid "Navigation"
+#~ msgstr "التّصفح"
+
+#, fuzzy
+#~ msgid "Data was successfully saved"
+#~ msgstr " تم حفظ المعلومات بنجاح"
+
+#, fuzzy
+#~ msgid "Account Record Numbering"
+#~ msgstr "فتح حساب جديد"
+
+#~ msgid "Prefix"
+#~ msgstr "الحروف"
+
+#~ msgid "Like: A"
+#~ msgstr "مثل: A"
+
+#~ msgid "Start Record"
+#~ msgstr "الترقيم يبدأ من"
+
+#, fuzzy
+#~ msgid "Contact Record Numbering"
+#~ msgstr "حفظ معلومات الإتصال"
+
+#~ msgid "Like: C"
+#~ msgstr "مثل: C"
+
+#, fuzzy
+#~ msgid "Lead Record Numbering"
+#~ msgstr "اضافة مهتم جديد"
+
+#~ msgid "Like: L"
+#~ msgstr "مثل  : L"
+
+#, fuzzy
+#~ msgid "Add Account"
+#~ msgstr "اضافة حساب"
+
+#~ msgid "Account was successully added"
+#~ msgstr "تم اضافة حسابكم بنجاح"
+
+#~ msgid "Account Details"
+#~ msgstr "معلومات الحساب"
+
+#, fuzzy
+#~ msgid "Related Invoices"
+#~ msgstr "الفواتير المتعلقة بالحساب"
+
+#~ msgid "Add New Invoice"
+#~ msgstr "اضافة فاتورة جديدة"
+
+#, fuzzy
+#~ msgid "Related Tasks"
+#~ msgstr "المهام المتعلقة بالحساب"
+
+#~ msgid "Add New Task"
+#~ msgstr "اضافة مهمة جديدة"
+
+#, fuzzy
+#~ msgid "Tasks History"
+#~ msgstr "المهام المتعلقة بالحساب"
+
+#~ msgid "Related Documents"
+#~ msgstr "ملفات "
+
+#, fuzzy
+#~ msgid "Generate PDF"
+#~ msgstr " صدر المركبات الى ملف بي دي اف"
+
+#~ msgid "Related Sales Order"
+#~ msgstr "طلبات الشراء "
+
+#~ msgid "Add New Saleorder"
+#~ msgstr "اضافة طلب شراء جديد"
+
+#~ msgid "Related Quotations"
+#~ msgstr "عروض الاسعار"
+
+#, fuzzy
+#~ msgid "Related Emails"
+#~ msgstr "الرسائل البريدية المتعلقة بالحساب"
+
+#, fuzzy
+#~ msgid "Add New Email"
+#~ msgstr "اضافة قالب بريد الكتروني جديد"
+
+#, fuzzy
+#~ msgid "Account was successufully assigned to this account"
+#~ msgstr "تم توجويه جهة الاتصال الى الحساب بنجاح"
+
+#, fuzzy
+#~ msgid "Cannot assign this contact"
+#~ msgstr "لا يمكن توجيه جهة الاتصال هذه"
+
+#, fuzzy
+#~ msgid "Related Contacts"
+#~ msgstr "جهات الاتصال المتعلقة بالحساب"
+
+#, fuzzy
+#~ msgid "Unassign"
+#~ msgstr "إلغاء"
+
+#, fuzzy
+#~ msgid "Add New Contact"
+#~ msgstr "اضافة جهة اتصال"
+
+#, fuzzy
+#~ msgid "Address Book"
+#~ msgstr "دفتر العناوين"
+
+#~ msgid "Street"
+#~ msgstr "الشارع"
+
+#~ msgid "City"
+#~ msgstr "المدينة"
+
+#~ msgid "Country"
+#~ msgstr "المنطقة"
+
+#, fuzzy
+#~ msgid "Add New Address"
+#~ msgstr "اضافة عنوان جديد"
+
+#~ msgid "Add Address"
+#~ msgstr "اضافة عنوان جديد"
+
+#, fuzzy
+#~ msgid "Data can not be saved"
+#~ msgstr "لا يمكن حفظ المعلومات"
+
+#, fuzzy
+#~ msgid "Please check your inputs"
+#~ msgstr "الرجاء التأكد من المدخلات"
+
+#, fuzzy
+#~ msgid "Manage Address"
+#~ msgstr "ادارة العناوين"
+
+#, fuzzy
+#~ msgid "lead group was successully added"
+#~ msgstr "تم اضافة الطلب بنجاح"
+
+#, fuzzy
+#~ msgid "Edit lead group"
+#~ msgstr "تعديل مجموعة المهتمين"
+
+#, fuzzy
+#~ msgid "Add a new Account Document"
+#~ msgstr "اضافة وثيقة للمنتج"
+
+#, fuzzy
+#~ msgid "Document Details"
+#~ msgstr "تفاصيل الوثيقة"
+
+#, fuzzy
+#~ msgid "Generate a pdf document"
+#~ msgstr "اضافة وثيقة"
+
+#, fuzzy
+#~ msgid "Public"
+#~ msgstr "عمومي"
+
+#, fuzzy
+#~ msgid "Create new Account Group"
+#~ msgstr "اضافة مجموعة حساب"
+
+#, fuzzy
+#~ msgid "user Group Details"
+#~ msgstr "معلومات المجموعة"
+
+#, fuzzy
+#~ msgid "Users"
+#~ msgstr "المستخدمين"
+
+#, fuzzy
+#~ msgid "Group Details"
+#~ msgstr "تفاصيل المجموعة"
+
+#, fuzzy
+#~ msgid "Accounts"
+#~ msgstr "الحسابات"
+
+#, fuzzy
+#~ msgid "Action successfuly executed"
+#~ msgstr "تم الحفظ بنجاح"
+
+#, fuzzy
+#~ msgid "Cannot Execute Action"
+#~ msgstr "لم يتم تنفيذ العملية المرادة"
+
+#, fuzzy
+#~ msgid "Edit Group"
+#~ msgstr "تعديل المجموعة"
+
+#, fuzzy
+#~ msgid "Inbox was successully added"
+#~ msgstr "تم اضافة صندوق البريد بنحاج"
+
+#, fuzzy
+#~ msgid "Edit Inbox"
+#~ msgstr "التعديل على صندوق البريد"
+
+#, fuzzy
+#~ msgid "Add Lead"
+#~ msgstr "اضافة مهتم "
+
+#, fuzzy
+#~ msgid "Lead Details"
+#~ msgstr "معلومات المهتم"
+
+#, fuzzy
+#~ msgid "Failed to convert this lead"
+#~ msgstr "لا يمكن تحويل المهتم"
+
+#~ msgid "List All Account source"
+#~ msgstr "قائمة مصادر الحسابات"
+
+#, fuzzy
+#~ msgid "Modify Source"
+#~ msgstr "تعديل حسابي"
+
+#~ msgid "List All Account stage"
+#~ msgstr "قائمة مراحل الحسابات"
+
+#, fuzzy
+#~ msgid "Add contact"
+#~ msgstr "اضافة جهة اتصال"
+
+#~ msgid "Contact Details"
+#~ msgstr "تفاصيل الاتصال"
+
+#, fuzzy
+#~ msgid "Failed to convert this contact"
+#~ msgstr "لا يمكن تحويل جهة الاتصال"
+
+#, fuzzy
+#~ msgid "Manage contacts"
+#~ msgstr "إدارة جهات الإتصال"
+
+#~ msgid "Phone"
+#~ msgstr "الهاتف"
+
+#, fuzzy
+#~ msgid "Add a new Contact Document"
+#~ msgstr "اضافة وثيقة للمنتج"
+
+#, fuzzy
+#~ msgid "Contact was successully added"
+#~ msgstr "تم اضافة حسابكم بنجاح"
+
+#, fuzzy
+#~ msgid "Create new contacts Group"
+#~ msgstr "اضافة مجموعة جهات اتصال جديدة"
+
+#, fuzzy
+#~ msgid "Edit contact group"
+#~ msgstr "تعديل على مجموعة جهات الاتصال"
+
+#, fuzzy
+#~ msgid "List All Contact source"
+#~ msgstr "قائمة جميع جهات الاتصال"
+
+#~ msgid "List All Contact stage"
+#~ msgstr "قائمة  مراحل جهات الاتصال"
+
+#, fuzzy
+#~ msgid "Manage Account Groups"
+#~ msgstr "ادارة مجموعات الحسابات"
+
+#, fuzzy
+#~ msgid "Account Groups"
+#~ msgstr "مجموعة الحساب"
+
+#, fuzzy
+#~ msgid "Add New Group"
+#~ msgstr "اضافة مجموعة جديدة"
+
+#, fuzzy
+#~ msgid "Manage Contact Groups"
+#~ msgstr "ادارة مجموعات جهات الاتصال"
+
+#, fuzzy
+#~ msgid "Contact Groups"
+#~ msgstr "قائمة مجموعات جهات الاتصال"
+
+#, fuzzy
+#~ msgid "Manage Lead Groups"
+#~ msgstr "ادارة مجموعات المهتمين"
+
+#, fuzzy
+#~ msgid "Lead Groups"
+#~ msgstr "قائمة مجموعات المهتمين"
+
+#~ msgid "List All Lead source"
+#~ msgstr "قائمة جميع المهتمين "
+
+#, fuzzy
+#~ msgid "Manage Account Sources"
+#~ msgstr "ادارة مصادر الحسابات"
+
+#~ msgid "Account Sources"
+#~ msgstr "قائمة مصادر الحسابات"
+
+#~ msgid "Add New Source"
+#~ msgstr "اضافة مصدر"
+
+#, fuzzy
+#~ msgid "Manage Contact Sources"
+#~ msgstr "ادارة مصادر جهات الاتصال"
+
+#~ msgid "Contact Sources"
+#~ msgstr "قائمة مصادر جهات الاتصال"
+
+#~ msgid "Lead Sources"
+#~ msgstr "مصادر المهتمين"
+
+#, fuzzy
+#~ msgid "Manage Account Stages"
+#~ msgstr "ادارة مراحل الحسابات"
+
+#~ msgid "Account Stages"
+#~ msgstr "قائمة مراحل الحسابات"
+
+#, fuzzy
+#~ msgid "Manage Contact Stages"
+#~ msgstr "ادارة مراحل جهات الاتصال"
+
+#~ msgid "Contact Stages"
+#~ msgstr "قائمة مراحل جهات الاتصال"
+
+#, fuzzy
+#~ msgid "Dealer Logo"
+#~ msgstr "الشعار"
+
+#~ msgid "Stage"
+#~ msgstr "المرحلة"
+
+#~ msgid "Source"
+#~ msgstr "المصدر"
+
+#~ msgid "Fullname"
+#~ msgstr "الاسم الكامل"
+
+#~ msgid "Password"
+#~ msgstr "كلمة المرور"
+
+#~ msgid "Telefon"
+#~ msgstr "الهاتف"
+
+#~ msgid "E-mail"
+#~ msgstr "الريد الالكتروني"
+
+#~ msgid "E-mail2"
+#~ msgstr "البريد الالكتروني 2"
+
+#~ msgid "Province"
+#~ msgstr "المحافظة"
+
+#~ msgid "ZipCode"
+#~ msgstr "الترقيم البريدي"
+
+#, fuzzy
+#~ msgid "Notices"
+#~ msgstr "ملاحظات"
+
+#, fuzzy
+#~ msgid "Send Password"
+#~ msgstr "قالب اشعارات كلمة المرور"
+
+#, fuzzy
+#~ msgid "Can Login"
+#~ msgstr "لديه صلاحية الدخول"
+
+#, fuzzy
+#~ msgid "General Informations"
+#~ msgstr "معلومات عامة"
+
+#, fuzzy
+#~ msgid "Address Informations"
+#~ msgstr "معلومات العنوان"
+
+#, fuzzy
+#~ msgid "Picture"
+#~ msgstr "الصور"
+
+#~ msgid "Email Adress"
+#~ msgstr "البريد الالكتروني"
+
+#, fuzzy
+#~ msgid "Activation Code"
+#~ msgstr "رمز التفعيل"
+
+#, fuzzy
+#~ msgid "Resend Activation Code ?"
+#~ msgstr "اعادة ارسال رمز التفعيل؟"
+
+#, fuzzy
+#~ msgid "Activate"
+#~ msgstr "تفعيل"
+
+#~ msgid "Security Code"
+#~ msgstr "رمز الحماية"
+
+#~ msgid "Re-Password"
+#~ msgstr "اعادة كتابة كلمة المرور"
+
+#~ msgid "Register Now!"
+#~ msgstr "سجل الان"
+
+#~ msgid "Registration Informations"
+#~ msgstr "معلومات التسجيل"
+
+#~ msgid "Why Registration"
+#~ msgstr "لماذا التسجيل"
+
+#~ msgid "Advertise"
+#~ msgstr "اعلن"
+
+#~ msgid "Passwords are not identicals"
+#~ msgstr "كلمة المرور غير متطابقة"
+
+#, fuzzy
+#~ msgid "Add Account Group"
+#~ msgstr "اضافة مجموعة جهات اتصال"
+
+#, fuzzy
+#~ msgid "Default Group"
+#~ msgstr "المجموعة الافتراضية"
+
+#, fuzzy
+#~ msgid "Forgot Password?"
+#~ msgstr "نسيت كلمة المرور؟"
+
+#~ msgid "Login"
+#~ msgstr "تسجيل الدخول"
+
+#~ msgid "Save Contact Informations!"
+#~ msgstr "حفظ معلومات الاتصال"
+
+#, fuzzy
+#~ msgid "Add Account Source"
+#~ msgstr "اضافة مصدر للحساب "
+
+#~ msgid "Add Account Stage"
+#~ msgstr "اضافة مرحلة"
+
+#, fuzzy
+#~ msgid "Zip Code/PBOX"
+#~ msgstr "الرمز البريدي"
+
+#~ msgid "New Password"
+#~ msgstr "كلمة المرور الجديدة"
+
+#, fuzzy
+#~ msgid "Confirm Password"
+#~ msgstr "كلمة المرور الجديدة"
+
+#, fuzzy
+#~ msgid "Payment Method"
+#~ msgstr "وسيلة الدفع"
+
+#, fuzzy
+#~ msgid "Payment Date Time"
+#~ msgstr "تاريخ الدفع"
+
+#, fuzzy
+#~ msgid "Bank Account Number"
+#~ msgstr "رقم الحساب المصرفي"
+
+#, fuzzy
+#~ msgid "Transferred Amount"
+#~ msgstr "المبلغ المحول"
+
+#, fuzzy
+#~ msgid "Bank Transaction Id."
+#~ msgstr "رقم المعاملات المصرفية"
+
+#, fuzzy
+#~ msgid "Save!"
+#~ msgstr "حفظ"
+
+#~ msgid "Company"
+#~ msgstr "الشركة"
+
+#, fuzzy
+#~ msgid "Account"
+#~ msgstr "الحساب"
+
+#~ msgid "Assigned To Group"
+#~ msgstr "توجيه الى مجموعة"
+
+#~ msgid "Notice"
+#~ msgstr "اعلام"
+
+#, fuzzy
+#~ msgid "Add Contact Group"
+#~ msgstr "اضافة مجموعة جهات اتصال"
+
+#, fuzzy
+#~ msgid "Add Contact Source"
+#~ msgstr "اظافة مصادر جهات الاتصال  "
+
+#~ msgid "Add Contact Stage"
+#~ msgstr "اضافة مرحلة"
+
+#~ msgid "Message"
+#~ msgstr "رسالة"
+
+#~ msgid "Submit"
+#~ msgstr "حفظ"
+
+#~ msgid "Contact Form"
+#~ msgstr "صفحة الاتصال"
+
+#, fuzzy
+#~ msgid "contact_text"
+#~ msgstr "معلومات التواصل"
+
+#, fuzzy
+#~ msgid "Postal Code"
+#~ msgstr "الترقيم البريدي"
+
+#, fuzzy
+#~ msgid "Street Name /House Nr."
+#~ msgstr "اسم الشارع /رقم المنزل"
+
+#, fuzzy
+#~ msgid "Save and Continue!"
+#~ msgstr "احفظ ثم واصل"
+
+#, fuzzy
+#~ msgid "Your Personal Details"
+#~ msgstr "بياناتك الشخصية"
+
+#, fuzzy
+#~ msgid "Your Address Details"
+#~ msgstr "تفاصل العنوان"
+
+#, fuzzy
+#~ msgid "Your Password"
+#~ msgstr "كلمة المرور"
+
+#~ msgid "I have read the Privacy Policy."
+#~ msgstr "لقد قرأت سياسة الخصوصية."
+
+#~ msgid "Please confirm the privacy poilicy"
+#~ msgstr "يرجى تأكيد سياسة الخصوصية"
+
+#, fuzzy
+#~ msgid "Register Now"
+#~ msgstr "سجل الان"
+
+#, fuzzy
+#~ msgid "Please select"
+#~ msgstr "الرجاء التثبت من المدخلات"
+
+#, fuzzy
+#~ msgid "Document"
+#~ msgstr "الوثيقة"
+
+#, fuzzy
+#~ msgid "Image"
+#~ msgstr "الصورة"
+
+#, fuzzy
+#~ msgid "Software"
+#~ msgstr "البرنامج"
+
+#, fuzzy
+#~ msgid "Add Lead Group"
+#~ msgstr "اضافة مجموعة مهتمين"
+
+#, fuzzy
+#~ msgid "Add Lead Source"
+#~ msgstr "اضافة مصادر للمهتمين"
+
+#~ msgid "For exemple google"
+#~ msgstr "على سبيل المثال من Google"
+
+#~ msgid "Subject"
+#~ msgstr "الموضوع"
+
+#~ msgid "To"
+#~ msgstr "الى"
+
+#, fuzzy
+#~ msgid "CC "
+#~ msgstr "نسخة إلى"
+
+#, fuzzy
+#~ msgid "BCC"
+#~ msgstr "نسخة مخفية"
+
+#, fuzzy
+#~ msgid "Company Name"
+#~ msgstr "اسم الشركة"
+
+#, fuzzy
+#~ msgid "Best Call Time"
+#~ msgstr "أفضل وقت للاتصال"
+
+#, fuzzy
+#~ msgid "Person Informations"
+#~ msgstr "معلومات شخصية"
+
+#, fuzzy
+#~ msgid "Company Informations"
+#~ msgstr "معلومات الشركة"
+
+#, fuzzy
+#~ msgid "Re-enter Password"
+#~ msgstr "اعادة كلمة المرور"
+
+#~ msgid "Form analysis"
+#~ msgstr "  استمارة تحليل            "
+
+#, fuzzy
+#~ msgid "Form analysis Submitted"
+#~ msgstr "  استمارة تحليل احتياجات العمل التجاري            "
+
+#, fuzzy
+#~ msgid "invalid email address"
+#~ msgstr "البريد الالكتروني غير صحيح"
+
+#~ msgid "Tickets"
+#~ msgstr "التذاكر"
+
+#, fuzzy
+#~ msgid "Quotations"
+#~ msgstr "عروض الأسعار"
+
+#, fuzzy
+#~ msgid "Add Quotation"
+#~ msgstr "إنشاء تسعيرة"
+
+#~ msgid "Products"
+#~ msgstr "المنتج"
+
+#~ msgid "Projects"
+#~ msgstr "المشاريع"
+
+#~ msgid "Add Project"
+#~ msgstr "اضافة مشروع"
+
+#~ msgid "Tasks"
+#~ msgstr "المهام"
+
+#~ msgid "Add Task"
+#~ msgstr "اضافة مهمة"
+
+#~ msgid "Hosting"
+#~ msgstr "الاستضافة"
+
+#~ msgid "Mail Inbox Panel"
+#~ msgstr "البريد الوارد"
+
+#~ msgid "Add Email"
+#~ msgstr "اضافة بريد الكتروني"
+
+#~ msgid "You are successufly registred please login to start your work !"
+#~ msgstr "لقد تمت عملية التسجيل بنجاح , يرجى تسجيل الدخول لبدأ العمل"
+
+#~ msgid "Login or password incorrect!"
+#~ msgstr "كلمة المرور غير صحيحة"
+
+#~ msgid "Quick Services"
+#~ msgstr "خدمات سريعة"
+
+#~ msgid "Forgot Your Password?"
+#~ msgstr "نسيت كلمة المرور"
+
+#~ msgid "open a new Account"
+#~ msgstr "فتح حساب جديد"
+
+#~ msgid "Your account in Motors Souq will"
+#~ msgstr "حسابكم في الموتورز سوق يمكنكم"
+
+#~ msgid "1. Allow you to manage your Motors and Motors requests."
+#~ msgstr " ادارة مركباتك والطلبات"
+
+#~ msgid "2. View comments on your cars."
+#~ msgstr "مشاهدة تعليقات الزوار على مركباتك"
+
+#~ msgid "3. Receive instant notifications about new updates and activities."
+#~ msgstr " تلقي إشعارات فورية حول الأنشطة والتحديثات الجديدة ."
+
+#~ msgid "4. Add cars."
+#~ msgstr "اضافة سيارة"
+
+#~ msgid "5. Add Motor Bikes."
+#~ msgstr " اضافة دراجة نارية"
+
+#~ msgid "6. Receive latest news and hot deals."
+#~ msgstr " تلقي آخر الأخبار والعروض الحصرية."
+
+#~ msgid "7. Life stats for your ads."
+#~ msgstr "احصائيات مباشرة لإعلاناتك"
+
+#~ msgid "Don't want to register? add your motor in less than 60 seconds!!"
+#~ msgstr "لا تريد التسجيل؟ يمكنك اضافة دراجتك او سيارتك في أقل من 60 ثانية!"
+
+#~ msgid "Once you submit your post in Motors Souq"
+#~ msgstr "بمجرد تأكيد مشاركتك في موترز سوق"
+
+#~ msgid "1. Your Motor will be sent to your car make seekers & dealers."
+#~ msgstr "1. سيتم ارسالة سياراتك الى الباحثين عن السيارات وتجار السيارات"
+
+#~ msgid "2. Your Motor ad will posted in all Motors Souq media channels."
+#~ msgstr ""
+#~ "2. سيتم نشر اعلانك في جميع شبكات التسويق الإلكتروني الخاصة بموتورز سوق"
+
+#~ msgid "3. Your Motor ad will be posted to over 100,000 visitor to the site."
+#~ msgstr "3. سوف يتم نشر إعلانك لأكثر من 100،000 زائر للموقع."
+
+#~ msgid "Dont mis the high Opportunities to sell your motor in 24 hours."
+#~ msgstr "لا تدع الفرصة تفوتك في بيع مركبتك خلال 24 ساعة!"
+
+#, fuzzy
+#~ msgid ""
+#~ "Cannot activate this Account , activation code is expired or Account is "
+#~ "already activated"
+#~ msgstr ""
+#~ "لا يمكن تفعيل هذا الحساب, اما ان تكون مدة صلاحية رمز التفعيل قد انتهت او "
+#~ "تم تفعيل الحساب من قبل"
+
+#, fuzzy
+#~ msgid "Your Account is activated now , please login"
+#~ msgstr "لقد تم تفعيل حسابك الان, يرجى تسجيل الدخول"
+
+#~ msgid "Old Password"
+#~ msgstr "كلمة المرور القديمة"
+
+#, fuzzy
+#~ msgid ""
+#~ "Faild to change password , new password and rentred password doesnt match"
+#~ msgstr "لا يمكن تعديل كلمة المرور, كلمة المرور غير متطابقة"
+
+#~ msgid "Password was changed !"
+#~ msgstr "تم تغيير كلمة المرور بنجاح"
+
+#~ msgid "Old Password not correct !"
+#~ msgstr "كلمة المرور القديمة غير صحيحة"
+
+#, fuzzy
+#~ msgid "Please verify inputs"
+#~ msgstr "الرجاء التاكد من المدخلات"
+
+#, fuzzy
+#~ msgid "Please Enter a valid email"
+#~ msgstr "الرجاء ادخال البريد الالكتروني صحيح"
+
+#, fuzzy
+#~ msgid "Following email is already registered in the newsletter system."
+#~ msgstr "البريد الالكتروني التالي تم تسجيله في نظام الرسائل الاخبارية"
+
+#, fuzzy
+#~ msgid ""
+#~ "The following E-Mail-Address has been successfully added to our newsletter"
+#~ msgstr "البريد الالكتروني التالي تم اضافة الى نظام الرسائل الاخبارية"
+
+#, fuzzy
+#~ msgid "Cannot Registred Email"
+#~ msgstr "لا يمكن تسجيل البريد الالكتروني"
+
+#, fuzzy
+#~ msgid "Cannot Register account please try again"
+#~ msgstr "لا يمكن تسجيل الحساب يرجى المحاولة مرة اخرى"
+
+#, fuzzy
+#~ msgid "Cannot Find account, please check your email"
+#~ msgstr ""
+#~ "لا يمكن العثور على الحساب، يرجى التحقق من البريد الإلكتروني الخاص بك"
+
+#, fuzzy
+#~ msgid "This account is already activated"
+#~ msgstr "هذا الحسب تم تفعيله من قبل"
+
+#, fuzzy
+#~ msgid ""
+#~ "New Activation code was sent to your email , please check your mail box "
+#~ "and try to activate your account"
+#~ msgstr ""
+#~ "تم إرسال رمز التفعيل الجديدة إلى البريد الإلكتروني الخاص بك، يرجى مراجعة "
+#~ "صندوق البريد الخاص بك ومحاولة تفعيل حسابك"
+
+#, fuzzy
+#~ msgid "Error while sending a new activation code please try again later"
+#~ msgstr ""
+#~ "خطأ أثناء إرسال رمز التفعيل الجديدة يرجى المحاولة مرة أخرى في وقت لاحق"
+
+#, fuzzy
+#~ msgid "Your Password was changed"
+#~ msgstr "تم تغيير كلمة المرور"
+
+#, fuzzy
+#~ msgid "Password not identical"
+#~ msgstr "كلمة المرور القديمة غير صحيحة"
+
+#, fuzzy
+#~ msgid "Add new Address"
+#~ msgstr "اضافة عنوان جديدة"
+
+#, fuzzy
+#~ msgid "Modify Address"
+#~ msgstr "تعديل العنوان"
+
+#~ msgid "Search Car"
+#~ msgstr "البحث على مركبة"
+
+#~ msgid "Contact us"
+#~ msgstr "اتصل بنا"
+
+#~ msgid "About us"
+#~ msgstr "من نحن"
+
+#, fuzzy
+#~ msgid "Request Contact"
+#~ msgstr "طلب تواصل"
+
+#, fuzzy
+#~ msgid "Request Demo"
+#~ msgstr "طلب نسخة تجريبية"
+
+#, fuzzy
+#~ msgid "Register Date"
+#~ msgstr "تاريخ التسجيل"
+
+#, fuzzy
+#~ msgid "Group"
+#~ msgstr "المجموعة"
+
+#, fuzzy
+#~ msgid "Download"
+#~ msgstr "تحميل"
+
+#~ msgid "Mail"
+#~ msgstr "البريد الالكتروني"
+
+#, fuzzy
+#~ msgid "Telephone"
+#~ msgstr "الهاتف"
+
+#, fuzzy
+#~ msgid "Insert At"
+#~ msgstr "تم الاضافة في"
+
+#, fuzzy
+#~ msgid "Insert at"
+#~ msgstr "تم الاضافة في"
+
+#~ msgid "Send Date"
+#~ msgstr "تاريخ الارسال"
+
+#~ msgid "Create Date"
+#~ msgstr "تاريخ الاضافة"
+
+#~ msgid "User"
+#~ msgstr "مستخدم"
+
+#, fuzzy
+#~ msgid "Lead"
+#~ msgstr "مهتم"
+
+#, fuzzy
+#~ msgid "file cannote be uploaded"
+#~ msgstr "لا يمكن رفع الملف"
+
+#, fuzzy
+#~ msgid "Dear %s"
+#~ msgstr "سيدي %s"
+
+#, fuzzy
+#~ msgid "Welcome to our Shop"
+#~ msgstr "مرحبا بك في متجرنا"
+
+#, fuzzy
+#~ msgid "Welcome To Our Shop"
+#~ msgstr "مرحبا بك في متجرنا"
+
+#, fuzzy
+#~ msgid "Welcome to our Shop, we wish you happy times"
+#~ msgstr "مرحبا بكم في متجرنا، نتمنى لكم أوقات سعيدة"
+
+#, fuzzy
+#~ msgid "Best Regards"
+#~ msgstr "مع أطيب التحيات"
+
+#, fuzzy
+#~ msgid "Activation code is %s"
+#~ msgstr "رمز التفعيل هو %s"
+
+#, fuzzy
+#~ msgid "Reset password"
+#~ msgstr "طلب كلمة مرور جديدة"
+
+#, fuzzy
+#~ msgid "Dear customer you can reset your password through the following link"
+#~ msgstr ""
+#~ "عزيزي العميل يمكنك استرجاع كلمة المرور الخاصة بك من خلال الرابط التالي"
+
+#, fuzzy
+#~ msgid "Best regards"
+#~ msgstr "مع خالص التحية والتقدير"
+
+#, fuzzy
+#~ msgid "Dear"
+#~ msgstr "سيدي %s"
+
+#, fuzzy
+#~ msgid "Your new Password is"
+#~ msgstr "كلمة المرور الجديدة"
+
+#, fuzzy
+#~ msgid "Dear Webmaster"
+#~ msgstr "عزيزي مدير المتجر"
+
+#, fuzzy
+#~ msgid "New Payment confirmation for a Sales Order"
+#~ msgstr "تأكيد دفع جديد خاص بطلب شراء"
+
+#, fuzzy
+#~ msgid "Sales Order informations"
+#~ msgstr "معلومات طلب الشراء"
+
+#, fuzzy
+#~ msgid "Sales Order title"
+#~ msgstr "عنوان طلب الشراء"
+
+#, fuzzy
+#~ msgid "Sales Order amount"
+#~ msgstr "مبلغ طلب الشراء"
+
+#, fuzzy
+#~ msgid "Sales Order number"
+#~ msgstr "رقم طلب الشراء"
+
+#, fuzzy
+#~ msgid "Confirm Payment informations"
+#~ msgstr "معلومات تأكيد الدفع"
+
+#, fuzzy
+#~ msgid "Transferred amount"
+#~ msgstr "المبلغ المحول"
+
+#, fuzzy
+#~ msgid "Bank Account number"
+#~ msgstr "رقم الحساب المصرفي"
+
+#, fuzzy
+#~ msgid "Transaction id"
+#~ msgstr "رقم المعاملات المصرفية"
+
+#, fuzzy
+#~ msgid "Payment Method name"
+#~ msgstr "الرجاء اختيار طريقة دفع"
+
+#, fuzzy
+#~ msgid "Payment done at"
+#~ msgstr "تاريخ الدفع"
+
+#, fuzzy
+#~ msgid "Sales Order Payment confirmation"
+#~ msgstr "تأكيد دفع طلب شراء"
+
+#, fuzzy
+#~ msgid "Conatct Us Form Submitted"
+#~ msgstr "تم اعتماد طلبكم"
+
+#, fuzzy
+#~ msgid "Dear Wemaster"
+#~ msgstr "عزيزي العميل"
+
+#, fuzzy
+#~ msgid "New Contact form was submited"
+#~ msgstr "تم اعتماد طلبكم"
+
+#~ msgid "Informations"
+#~ msgstr "معلومات"
+
+#, fuzzy
+#~ msgid "Best Regards "
+#~ msgstr "مع خالص التحية والتقدير"
+
+#~ msgid "Person Information"
+#~ msgstr "معلومات الشخص"
+
+#~ msgid "Email 2"
+#~ msgstr "البريد الالكتروني 2"
+
+#~ msgid "Zipcode"
+#~ msgstr "الرمز البريدي"
+
+#, fuzzy
+#~ msgid "Group Information"
+#~ msgstr "معلومات المجموعة"
+
+#, fuzzy
+#~ msgid "Zip Code"
+#~ msgstr "الرمز البريدي"
+
+#, fuzzy
+#~ msgid "contact Information"
+#~ msgstr "معلومات جهة الاتصال"
+
+#~ msgid "Company "
+#~ msgstr "الشركة"
+
+#~ msgid "Date of Birth"
+#~ msgstr "تاريخ الميلاد"
+
+#~ msgid "Create Date Time"
+#~ msgstr "تاريخ الاضافة"
+
+#, fuzzy
+#~ msgid "Lead Information"
+#~ msgstr "معلومات المهتم"
+
+#~ msgid "Fax"
+#~ msgstr "الفاكس"
+
+#~ msgid "General Information"
+#~ msgstr "معلومات عامة"
+
+#~ msgid "Create Date"
+#~ msgstr "تاريخ الاضافة"
+
+#~ msgid "Send Date"
+#~ msgstr "تاريخ الارسال"
+
+#~ msgid "Person"
+#~ msgstr "شخص"
+
+#~ msgid "Paragraph content"
+#~ msgstr "محتوى الفقرة"
+
+#, fuzzy
+#~ msgid "My Control Panel"
+#~ msgstr "لوحة تحكم العملاء"
+
+#, fuzzy
+#~ msgid "Sales Orders & Invoices"
+#~ msgstr "عنوان طلب الشراء"
+
+#~ msgid "Thank you for your responses to the questions,"
+#~ msgstr "شكراً على إجابتكم للأسئلة وسوف يقوم فريق عملنا بخدمتكم"
+
+#~ msgid "of what suits you to develop your business online,"
+#~ msgstr "يناسبكم لتطوير أعمالكم الإلكترونية، "
+
+#~ msgid "please fill out this questionnaire accurately,"
+#~ msgstr "نرجو تعبئة هذا الاستبيان بشكل دقيق "
+
+#~ msgid "needs to work on range-mail with the knowledge"
+#~ msgstr " واحتياجاتها للعمل على النطاق الإلكتروني مع العلم "
+
+#~ msgid "that this questionnaire may take your time 10 to 15 minutes."
+#~ msgstr "بأن هذا الاستبيان قد يستغرق من وقتكم 10 إلى 15 دقيقة"
+
+#~ msgid "Question1"
+#~ msgstr "السؤال الاول"
+
+#~ msgid "Question2"
+#~ msgstr "السؤال الثاني"
+
+#~ msgid "Less than 50 product"
+#~ msgstr "اقل من 50 منتج"
+
+#~ msgid "50 - 200 product"
+#~ msgstr "50 - 200 منتج"
+
+#~ msgid "201 to 500 products"
+#~ msgstr "201 إلى 500 منتج"
+
+#~ msgid "501 to 1,000 products"
+#~ msgstr "501 إلى 1000 منتج"
+
+#~ msgid "More than 1,000 products"
+#~ msgstr "اكثر من 1.000 منتج"
+
+#~ msgid "Question3"
+#~ msgstr "السؤال الثالث"
+
+#~ msgid "and information to which they relate?"
+#~ msgstr "والمعلومات التي تخصها؟"
+
+#~ msgid "Question4"
+#~ msgstr "السؤال الرابع"
+
+#~ msgid "What is the design that you want to do?"
+#~ msgstr "ما هو التصميم الذي ترغب به؟ "
+
+#~ msgid "want to get a design similar to it or better?"
+#~ msgstr "ترغب في الحصول على تصميم مشابه له وأفضل؟"
+
+#~ msgid "Question5"
+#~ msgstr "السؤال الخامس"
+
+#~ msgid "How many employees do you have?"
+#~ msgstr "كم عدد الموظفين لديك ؟"
+
+#~ msgid "1 - 5 employees"
+#~ msgstr "1 - 5 موظفين"
+
+#~ msgid "6-10 employees"
+#~ msgstr "6 - 10 موظفين"
+
+#~ msgid "11-50 employees"
+#~ msgstr "11 -50 موظف"
+
+#~ msgid "51 - 100 employees"
+#~ msgstr "51 - 100 موظف"
+
+#~ msgid "More than 100 employees"
+#~ msgstr "أكثر من 100 موظف"
+
+#~ msgid "Question6"
+#~ msgstr "السؤال السادس"
+
+#~ msgid "How many branches of your organization or company?"
+#~ msgstr " كم عدد الفروع لمؤسستك/شركتك ؟"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "More than 3"
+#~ msgstr "اكثر من 3"
+
+#~ msgid "Question7"
+#~ msgstr "السؤال السابع"
+
+#~ msgid "What are the shipping methods you want to use? Is it electronic?"
+#~ msgstr "ما هي وسائل الشحن التي ترغب في استخدامها؟ وهل هي إلكترونية حالياً؟"
+
+#~ msgid "Question8"
+#~ msgstr "السؤال الثامن"
+
+#~ msgid "in your store to receive e-payment transactions"
+#~ msgstr "  في متجرك الإلكتروني لاستقبال عمليات الدفع "
+
+#~ msgid "to buy your products?"
+#~ msgstr "لشراء منتجاتك ؟"
+
+#~ msgid "Question9"
+#~ msgstr "السؤال التاسع"
+
+#~ msgid "Do you have a link Google map showing the exact locations?"
+#~ msgstr " هل لديك رابط لخارطة جوجل تبين المواقع بالضبط؟"
+
+#, fuzzy
+#~ msgid "Question10"
+#~ msgstr "السؤال العاشر"
+
+#~ msgid "How many mails you want to create for your team ?"
+#~ msgstr " كم عدد الإيميلات التي ترغب في إنشائها لفريق عملك ؟"
+
+#~ msgid "Less than 10"
+#~ msgstr "اقل من 10"
+
+#~ msgid "From 10 to 50"
+#~ msgstr "من 10 الى 50"
+
+#~ msgid "50 to 100"
+#~ msgstr "من 50 الى 100"
+
+#~ msgid "More than 100"
+#~ msgstr "أكثر من 100 "
+
+#, fuzzy
+#~ msgid "Question11"
+#~ msgstr "السؤال الحادي عشر"
+
+#~ msgid "You have in professional edition bunch 2 domains,"
+#~ msgstr " لديك في باقة المتجر الإحترافي عدد 2 دومينات "
+
+#~ msgid "want to linked with your shop?"
+#~ msgstr "ترغب في ربطها بمتجرك الإلكتروني؟"
+
+#, fuzzy
+#~ msgid "Question12"
+#~ msgstr "السؤال الثاني عشر"
+
+#~ msgid "Do you have a marketing plan e-paid"
+#~ msgstr "هل لديك خطة للتسويق الإلكتروني مدفوعة الأجر"
+
+#~ msgid "for your store on google or Facebook?"
+#~ msgstr " لمتجرك الإحترافي على الجوجل او الفيسبوك؟"
+
+#, fuzzy
+#~ msgid "Question13"
+#~ msgstr "السؤال الثالث عشر"
+
+#~ msgid "Do you have an official logo for your company (Logo)?"
+#~ msgstr "هل لديك شعار رسمي لشركتك (لوغو)؟"
+
+#, fuzzy
+#~ msgid "To add car, click here"
+#~ msgstr "لطلب كلمة مرور جديدة يرجى الضغط هنا"
+
+#, fuzzy
+#~ msgid "To add motorbike, click here"
+#~ msgstr "لطلب كلمة مرور جديدة يرجى الضغط هنا"
+
+#, fuzzy
+#~ msgid "You have 0 messages"
+#~ msgstr "الرسائل"
+
+#~ msgid "Country "
+#~ msgstr "المنطقة"
+
+#~ msgid "please re-send it to us and our team will serve you"
+#~ msgstr "يرجى إعادة إرسالها لنا وسوف يقوم فريق عملنا بخدمتكم"
+
+#, fuzzy
+#~ msgid "Activate the Account by sending an email after registration"
+#~ msgstr "تفعيل الحساب من خلال ارسال بريد الكتروني بعد التسجيل"
+
+#~ msgid "Form analysis of business needs"
+#~ msgstr "  استمارة تحليل احتياجات العمل التجاري            "
+
+#~ msgid "Date of birth"
+#~ msgstr "تاريخ الولادة"
+
+#~ msgid "Requested Account not found"
+#~ msgstr "الحساب المطلوب غير موجود"
+
+#, fuzzy
+#~ msgid "Motorssouq will send new password to the email entred above"
+#~ msgstr ""
+#~ "سيقوم موتورز سوق بارسال كلمة مرور جديدة للبريد الالكتروني الذي قمتم "
+#~ "بادخاله "
+
+#~ msgid "Edit project"
+#~ msgstr "تعديل مشروع"

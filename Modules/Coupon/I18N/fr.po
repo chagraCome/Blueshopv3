@@ -1,0 +1,437 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Coupon\n"
+"POT-Creation-Date: 2014-04-16 15:31+0100\n"
+"PO-Revision-Date: 2014-04-16 16:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../key_words_html.php:3
+msgid "Verify Coupon Promotion Code"
+msgstr "Vérifiez le code du coupon promotionnel"
+
+#: ../key_words_html.php:5 ../key_words_html.php:9 ../key_words_html.php:13
+#: ../key_words_html.php:18 ../key_words_html.php:22 ../key_words_html.php:25
+#: ../key_words_html.php:29 ../key_words_html.php:33 ../key_words_html.php:37
+#: ../key_words_html.php:41 ../key_words_html.php:46 ../key_words_html.php:50
+msgid "Information"
+msgstr "Informations"
+
+#: ../key_words_html.php:6 ../key_words_html.php:34
+msgid "Add new Request"
+msgstr "Ajouter nouvelle demande"
+
+#: ../key_words_html.php:7 ../key_words_html.php:35
+msgid "List Requests"
+msgstr "Liste demandes"
+
+#: ../key_words_html.php:10 ../key_words_html.php:14 ../key_words_html.php:19
+#: ../key_words_html.php:23 ../key_words_html.php:26 ../key_words_html.php:30
+#: ../key_words_html.php:38 ../key_words_html.php:42 ../key_words_html.php:47
+#: ../key_words_html.php:51 ../Backend/Boot.php:37
+#: ../Backend/Controllers/.php:30 ../Backend/Controllers/Add.php:33
+msgid "Add new Coupon"
+msgstr "Ajouter un nouveau du coupon"
+
+#: ../key_words_html.php:11 ../key_words_html.php:15 ../key_words_html.php:20
+#: ../key_words_html.php:27 ../key_words_html.php:31 ../key_words_html.php:39
+#: ../key_words_html.php:43 ../key_words_html.php:48 ../key_words_html.php:52
+msgid "List Coupons"
+msgstr "Liste des Coupons"
+
+#: ../key_words_html.php:16 ../key_words_html.php:44
+msgid "Edit Coupon"
+msgstr "Modifier le Coupon"
+
+#: ../key_words_html.php:53 ../Backend/Boot.php:35
+msgid "Coupon Module"
+msgstr "Module Coupon"
+
+#: ../Backend/Boot.php:29
+msgid "Coupon"
+msgstr "Coupon"
+
+#: ../Backend/Boot.php:30
+msgid "Manage Coupons"
+msgstr "Gérer les Coupons"
+
+#: ../Backend/Boot.php:31
+msgid "Statistics"
+msgstr "Statistiques"
+
+#: ../Backend/Boot.php:32
+msgid "Manage Settings"
+msgstr "Gérer les paramètres"
+
+#: ../Backend/Boot.php:36
+msgid "List all Coupon"
+msgstr "Liste des Coupons"
+
+#: ../Backend/Boot.php:38
+msgid "Show Coupon Information"
+msgstr "Afficher les informations du coupon"
+
+#: ../Backend/Boot.php:39 ../Backend/Controllers/Modify.php:32
+msgid "Modify Coupon"
+msgstr "modifier le coupon"
+
+#: ../Backend/Boot.php:40
+msgid "Delete Coupon"
+msgstr "supprimer coupon"
+
+#: ../Backend/Boot.php:41
+msgid "Set Coupon Offline"
+msgstr "Définir le coupon Hors ligne"
+
+#: ../Backend/Boot.php:42
+msgid "Set Coupon Online"
+msgstr "Définir le coupon en ligne"
+
+#: ../Backend/Controllers/.php:46 ../Backend/Controllers/Add.php:52
+#: ../Backend/Controllers/Modify.php:60 ../Backend/Controllers/Code/Add.php:62
+#: ../Backend/Controllers/Code/Modify.php:73
+msgid "Please check inputs."
+msgstr "S'il vous plaît vérifier les entrées."
+
+#: ../Backend/Controllers/Detail.php:51
+msgid "General Informations"
+msgstr "Informations générales"
+
+#: ../Backend/Controllers/Detail.php:53
+#: ../Backend/Controllers/Code/Detail.php:45
+msgid "Coupon Details"
+msgstr "Détails du coupon "
+
+#: ../Backend/Controllers/Detail.php:64
+msgid "Coupon Codes"
+msgstr "Les Code du Coupon"
+
+#: ../Backend/Controllers/Detail.php:80
+msgid "Add New Coupon Code"
+msgstr "Ajouter un nouveau code de coupon"
+
+#: ../Backend/Controllers/Detail.php:83
+#: ../Backend/Controllers/Code/Generate.php:32
+msgid "Generate Coupon Codes"
+msgstr "Générer des codes du coupon"
+
+#: ../Backend/Controllers/Detail.php:86
+msgid "Download As Csv"
+msgstr "Télécharger au format CSV"
+
+#: ../Backend/Controllers/Detail.php:89
+msgid "Import From Csv"
+msgstr "Importer à partir de fichier CSV"
+
+#: ../Backend/Controllers/List.php:44
+msgid "List All Coupons"
+msgstr "Liste des tous les coupons"
+
+#: ../Backend/Controllers/Setting.php:32
+msgid "Coupon Settings"
+msgstr "Les paramètres de coupon"
+
+#: ../Backend/Controllers/Setting.php:33
+msgid "Manage Coupon Settings"
+msgstr "Gérer les paramètres de coupon"
+
+#: ../Backend/Controllers/Setting.php:57
+msgid "Please Check Inputs"
+msgstr "S'il vous plaît vérifier les entrées"
+
+#: ../Backend/Controllers/Statistics.php:30
+#: ../Backend/Controllers/Statistics.php:32
+msgid "Coupon Statistics"
+msgstr "Statistiques du coupon"
+
+#: ../Backend/Controllers/Statistics.php:51
+msgid "Expired Coupons"
+msgstr "Coupon expirés"
+
+#: ../Backend/Controllers/Statistics.php:52
+#: ../Backend/Controllers/Statistics.php:63
+#: ../Backend/Controllers/Statistics.php:73
+msgid "Count"
+msgstr "Numero"
+
+#: ../Backend/Controllers/Statistics.php:54
+msgid "Expired Code"
+msgstr "code expiré"
+
+#: ../Backend/Controllers/Statistics.php:62
+msgid "Used Coupons"
+msgstr "Coupons utilisés"
+
+#: ../Backend/Controllers/Statistics.php:72
+msgid "Free Coupons"
+msgstr "Coupons Gratuits"
+
+#: ../Backend/Controllers/Statistics.php:82
+msgid "Total Coupons Amounts"
+msgstr "Montants Totale Des Coupons"
+
+#: ../Backend/Controllers/Statistics.php:83
+msgid "Total Amount"
+msgstr "Montants Totale"
+
+#: ../Backend/Controllers/Statistics.php:92
+msgid "Total Used Coupons Amounts"
+msgstr "Montants Totale des coupons utilisé"
+
+#: ../Backend/Controllers/Statistics.php:93
+msgid "Total Used Amount"
+msgstr "Montants Totale utilisé"
+
+#: ../Backend/Controllers/Statistics.php:102
+msgid "Total Expired Coupons Amounts"
+msgstr "Montants Totale des Coupons expirés "
+
+#: ../Backend/Controllers/Statistics.php:103
+msgid "Total Expired Amount"
+msgstr "Montants Totale expirés "
+
+#: ../Backend/Controllers/Statistics.php:112
+msgid "Total Free Coupons Amounts"
+msgstr "Montants Totale de coupons gratuits "
+
+#: ../Backend/Controllers/Statistics.php:113
+msgid "Total Free Amount"
+msgstr "Montants Tolale Gratuit"
+
+#: ../Backend/Controllers/Code/Add.php:39
+msgid "Add new Coupon Code"
+msgstr "Ajouter un nouveau code de coupon"
+
+#: ../Backend/Controllers/Code/Detail.php:47
+msgid "Coupon Code Details"
+msgstr "Détails du Code Coupon"
+
+#: ../Backend/Controllers/Code/Detail.php:63 ../Forms/Setting/Form.php:55
+msgid "Coupon Template"
+msgstr "Template de coupon"
+
+#: ../Backend/Controllers/Code/Detail.php:67
+msgid "Send Email"
+msgstr "Envoyer un email"
+
+#: ../Backend/Controllers/Code/Detail.php:75
+msgid "Coupon Informations"
+msgstr "Informations du coupon"
+
+#: ../Backend/Controllers/Code/Detail.php:89
+msgid "Related Sales Order"
+msgstr "Les ordres d'achat"
+
+#: ../Backend/Controllers/Code/Generate.php:33
+msgid "Generations Informations"
+msgstr "Informations générales"
+
+#: ../Backend/Controllers/Code/Generate.php:47
+msgid "Check number of code must be number"
+msgstr "Vérifier le  code doit être un numéro"
+
+#: ../Backend/Controllers/Code/Generate.php:52
+msgid "Check number of code"
+msgstr "Vérifiez le numéro de code"
+
+#: ../Backend/Controllers/Code/Generate.php:60
+msgid "Number of codes"
+msgstr "Nombre de codes"
+
+#: ../Backend/Controllers/Code/Generate.php:66 ../Forms/Code/Form.php:43
+#: ../Grids/Code/DataGridView.php:43 ../Panels/Code/Panel.php:38
+msgid "Expire Date"
+msgstr "Date d'expiration"
+
+#: ../Backend/Controllers/Code/Generate.php:70
+msgid "Generate"
+msgstr "Générer"
+
+#: ../Backend/Controllers/Code/Generate.php:83
+msgid "Please Check inputs"
+msgstr "S'il vous plaît vérifier aux entrées"
+
+#: ../Backend/Controllers/Code/Modify.php:32
+msgid "Edit Coupon Code"
+msgstr "Modifier le code de coupon"
+
+#: ../Backend/Controllers/Import/Csv.php:47
+msgid "Import Codes from Csv file"
+msgstr "Importer Les codes à partir de fichier CSV"
+
+#: ../Backend/Controllers/Import/Csv.php:72
+msgid "Failed to load file"
+msgstr "Impossible de charger le fichier"
+
+#: ../Forms/Form.php:37
+msgid "Add Coupon"
+msgstr "Ajouter un coupon"
+
+#: ../Forms/Form.php:38 ../Grids/DataGridView.php:38 ../Panels/Panel.php:57
+msgid "Name"
+msgstr "Nom"
+
+#: ../Forms/Form.php:41 ../Grids/DataGridView.php:41 ../Panels/Panel.php:58
+msgid "Type"
+msgstr "Type"
+
+#: ../Forms/Form.php:45 ../Grids/DataGridView.php:44 ../Panels/Panel.php:59
+msgid "Amount"
+msgstr "Montant"
+
+#: ../Forms/Form.php:47 ../Panels/Panel.php:60
+msgid "Percent"
+msgstr "Pourcentage"
+
+#: ../Forms/Form.php:49
+msgid "Minum Shopping Cart Amount"
+msgstr "Minu  Montant Panier"
+
+#: ../Forms/Form.php:51 ../Panels/Panel.php:62
+msgid "Enabled"
+msgstr "Activé"
+
+#: ../Forms/Form.php:52 ../Panels/Panel.php:63
+msgid "Physical"
+msgstr "physique"
+
+#: ../Forms/Form.php:53 ../Forms/Code/Form.php:47 ../Forms/Setting/Form.php:65
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../Forms/Form.php:54 ../Forms/Code/Form.php:48 ../Forms/Setting/Form.php:59
+msgid "Save"
+msgstr "Sauver"
+
+#: ../Forms/Code/Form.php:33
+msgid "Coupon code"
+msgstr "Code du Coupon"
+
+#: ../Forms/Code/Form.php:34 ../Forms/Import/Form.php:30
+#: ../Grids/Code/DataGridView.php:35 ../Panels/Code/Panel.php:35
+#: ../Panels/Code/Panel.php:36
+msgid "Code"
+msgstr "Code"
+
+#: ../Forms/Code/Form.php:38 ../Grids/Code/DataGridView.php:46
+msgid "State"
+msgstr "Etat"
+
+#: ../Forms/Import/Form.php:30
+msgid "Notice :Csv Must be Like :  "
+msgstr "Important: CSV doit être comme:"
+
+#: ../Forms/Import/Form.php:30
+msgid "Expiration Date"
+msgstr "Date d'expiration"
+
+#: ../Forms/Import/Form.php:31
+msgid "File to upload"
+msgstr "Fichier à télécharger"
+
+#: ../Forms/Import/Form.php:31
+msgid "Upload Csv"
+msgstr "Téléchargez au format CSV"
+
+#: ../Forms/Import/Form.php:35
+msgid "Upload"
+msgstr "Télécharger"
+
+#: ../Forms/Setting/Form.php:37
+msgid "Number of code blocks"
+msgstr "Nombre de blocs de code"
+
+#: ../Forms/Setting/Form.php:41
+msgid "Number of Caracter per block"
+msgstr "Nombre de Caractère par bloc"
+
+#: ../Forms/Setting/Form.php:45
+msgid "Block Separator"
+msgstr "Separateur du bloc"
+
+#: ../Forms/Setting/Form.php:47
+msgid "You can add block Separator like : - , * , + , / , ."
+msgstr "Vous pouvez ajouter bloc Separator comme: -, *, +, /,."
+
+#: ../Forms/Setting/Form.php:50
+msgid "Generate Code Using this Caracters"
+msgstr "Générer du code utilisant cette Caractères"
+
+#: ../Forms/Verify/Form.php:33
+msgid "Promotion Code"
+msgstr "Code de promotion"
+
+#: ../Forms/Verify/Form.php:37
+msgid "Security Code"
+msgstr "Code de sécurité"
+
+#: ../Forms/Verify/Form.php:39
+msgid "Checkout Now"
+msgstr "Verifier maintenant"
+
+#: ../Forms/Verify/Form.php:41
+msgid "Back"
+msgstr "Précedent"
+
+#: ../Frontend/Controllers/Verify.php:45
+msgid "Please check your inputs"
+msgstr "S'il vous plaît vérifier vos entrées"
+
+#: ../Frontend/Controllers/Verify.php:61 ../Frontend/Controllers/Verify.php:66
+msgid "Promotion Code was expired on :"
+msgstr "Code de promotion a été expiré le:"
+
+#: ../Frontend/Controllers/Verify.php:72
+msgid "Invalid Promtion Code"
+msgstr "Invalid code de Promtion"
+
+#: ../Grids/DataGridView.php:47 ../Grids/Code/DataGridView.php:40
+#: ../Panels/Panel.php:65 ../Panels/Code/Panel.php:37
+msgid "Insert Date"
+msgstr "Date de l'insertion"
+
+#: ../Grids/DataGridView.php:50 ../Panels/Panel.php:64
+msgid "Created By"
+msgstr "Crée par"
+
+#: ../Grids/DataGridView.php:53
+msgid "Codes"
+msgstr "Codes"
+
+#: ../Grids/DataGridView.php:57 ../Grids/Code/DataGridView.php:49
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../Grids/DataGridView.php:60
+msgid "Online"
+msgstr "En ligne"
+
+#: ../Grids/DataGridView.php:62 ../Grids/Code/DataGridView.php:52
+#: ../Models/Import/Code/Model.php:37
+msgid "Delete"
+msgstr "Effacer"
+
+#: ../Models/Code/Model.php:186
+msgid "Free Shipping"
+msgstr "Livraison gratuite"
+
+#: ../Models/Code/Model.php:187
+msgid "Min Shopping Cart Amount"
+msgstr "Mini Montant du Panier "
+
+#: ../Panels/Panel.php:61
+msgid "Minimum Shopping Cart Amount"
+msgstr "Max Montant du Panier "
+
+#: ../Panels/Panel.php:66
+msgid "Update Date"
+msgstr "Date de mise à jour"

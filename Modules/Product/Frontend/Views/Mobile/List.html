@@ -1,0 +1,23 @@
+<style>
+    .amhsoft-mobile-row{
+        height: 180px; border-bottom: 1px solid gray; padding: 5px
+    }
+    .amhsoft-mobile-row:hover{
+        background-color: #e8e8e8;
+    }
+    .row-image-container{
+        height: 180px; width: 200px; float:left;
+    }
+    .row-image{
+        height: 160px; max-width: 180px; padding: 5px;
+    }
+
+</style>
+{while $item = $items->fetch()}
+<div class="amhsoft-mobile-row">
+    <div class="row-image-container"><img class="row-image" src="{$item->getFirstThumb()}" /></div>
+    <div >
+        <h2 >{$item->getTitle()}</h2>
+    </div>
+</div>
+{/while}

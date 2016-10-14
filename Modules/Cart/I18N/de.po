@@ -1,0 +1,258 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cart\n"
+"POT-Creation-Date: 2013-11-23 10:11+0100\n"
+"PO-Revision-Date: 2013-11-23 10:43+0100\n"
+"Last-Translator: Amir Cherif <amir.cherif@amhsoft.com>\n"
+"Language-Team: \n"
+"Language: deutsch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../key_words_html.php:6
+msgid "Account Information"
+msgstr "Account Informationen"
+
+#: ../key_words_html.php:7 ../key_words_html.php:13 ../key_words_html.php:20
+#: ../key_words_html.php:31 ../key_words_html.php:52
+msgid "Shipping Method"
+msgstr "Versandkosten"
+
+#: ../key_words_html.php:8 ../key_words_html.php:14 ../key_words_html.php:22
+#: ../key_words_html.php:33 ../key_words_html.php:55
+msgid "Payment Method"
+msgstr "Zahlungsmethode"
+
+#: ../key_words_html.php:9 ../key_words_html.php:15 ../key_words_html.php:24
+#: ../key_words_html.php:35 ../key_words_html.php:56
+msgid "Preview Order"
+msgstr "Bestellung ansehen"
+
+#: ../key_words_html.php:11 ../key_words_html.php:17 ../key_words_html.php:26
+#: ../key_words_html.php:49
+msgid "Account"
+msgstr "Account"
+
+#: ../key_words_html.php:12 ../key_words_html.php:18 ../key_words_html.php:19
+#: ../key_words_html.php:21 ../key_words_html.php:27 ../key_words_html.php:28
+#: ../key_words_html.php:32 ../key_words_html.php:34 ../key_words_html.php:50
+#: ../key_words_html.php:51
+msgid "Edit"
+msgstr "Ändern"
+
+#: ../key_words_html.php:23 ../key_words_html.php:54
+msgid "Continue"
+msgstr "Weiter"
+
+#: ../key_words_html.php:29 ../Frontend/Controllers/Checkout/Address.php:141
+msgid "Invoice Address"
+msgstr "Rechnungsadresse"
+
+#: ../key_words_html.php:30 ../Frontend/Controllers/Checkout/Address.php:145
+msgid "Shipping Address"
+msgstr "Lieferadresse"
+
+#: ../key_words_html.php:36
+msgid "Product"
+msgstr "Produkt"
+
+#: ../key_words_html.php:37
+msgid "Unit Price"
+msgstr "Einzelpreis"
+
+#: ../key_words_html.php:38
+msgid "Quantity"
+msgstr "Menge"
+
+#: ../key_words_html.php:39 ../key_words_html.php:64
+msgid "Sub Total"
+msgstr "Zwischensumme"
+
+#: ../key_words_html.php:40 ../key_words_html.php:53
+msgid "Shipping Cost"
+msgstr "Versandkosten"
+
+#: ../key_words_html.php:41
+msgid "Handling Fee"
+msgstr "Bearbeitungsgebühr"
+
+#: ../key_words_html.php:42
+msgid "Total"
+msgstr "Summe"
+
+#: ../key_words_html.php:43 ../key_words_html.php:44
+msgid "Discount"
+msgstr "Rabatt"
+
+#: ../key_words_html.php:45
+msgid "Grand Total"
+msgstr "Endbetrag"
+
+#: ../key_words_html.php:46
+msgid "Note"
+msgstr "Bemerkung"
+
+#: ../key_words_html.php:47
+msgid "Submit Order"
+msgstr "Zahlungspflichtig bestellen"
+
+#: ../key_words_html.php:58 ../key_words_html.php:60
+msgid "Shopping Cart"
+msgstr "Warenkorb"
+
+#: ../key_words_html.php:59
+msgid "Shoppingcart is empty"
+msgstr "Der Warenkorb ist leer"
+
+#: ../key_words_html.php:61 ../key_words_html.php:62 ../key_words_html.php:69
+msgid "Checkout Now"
+msgstr "Zur Kasse"
+
+#: ../key_words_html.php:63
+msgid "Remove"
+msgstr "Entfernen"
+
+#: ../key_words_html.php:65
+msgid "Coupon Discount"
+msgstr "Gutschein Rabatt"
+
+#: ../key_words_html.php:66
+msgid "Continue Shopping"
+msgstr "weiter einkaufen"
+
+#: ../key_words_html.php:67
+msgid "Enter Coupon Code"
+msgstr "Gutscheincode"
+
+#: ../key_words_html.php:68
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: ../key_words_html.php:70
+msgid "Invoice & Shipping Address"
+msgstr "Rechnungs- und Lieferadresse"
+
+#: ../Frontend/Boot.php:23
+msgid "Your cart contains"
+msgstr "Ihr Warenkorb beinhaltet"
+
+#: ../Frontend/Boot.php:23
+msgid "Item"
+msgstr "Produkt"
+
+#: ../Frontend/Controllers/List.php:62
+msgid "Product was successfully added to shopping cart"
+msgstr "Produkt wurde erfolgreich zum Warenkorb hinzugefügt"
+
+#: ../Frontend/Controllers/List.php:66
+msgid "Product was successfully deleted from shopping cart"
+msgstr "Produkt wurde erfolgreich aus dem Warenkorb entfernt"
+
+#: ../Frontend/Controllers/List.php:70
+msgid "Your Shopping cart was updated"
+msgstr "Ihr Warenkorb wurde aktualisiert"
+
+#: ../Frontend/Controllers/Checkout/Address.php:77
+msgid "Add new Address"
+msgstr "Neue Adresse hinzufügen"
+
+#: ../Frontend/Controllers/Checkout/Address.php:80
+msgid "Use a different shipping address"
+msgstr "Eine andere Lieferadresse benutzen"
+
+#: ../Frontend/Controllers/Checkout/Address.php:88
+msgid "Save and continue"
+msgstr "Speichern und fortfahren"
+
+#: ../Frontend/Controllers/Checkout/Address.php:132
+msgid "Please Select Invoice Address"
+msgstr "Bitte eine Rechnungsadresse auswählen"
+
+#: ../Frontend/Controllers/Checkout/Payment.php:52
+msgid "Selected payment method was deleted, please contact shop owner"
+msgstr "Gewählte Bezahlmethode wurde gelöscht, bitte Shopinhaber kontaktieren!"
+
+#: ../Frontend/Controllers/Checkout/Payment.php:55
+msgid "Please select a payment method"
+msgstr "Bitte Zahlungsmethode auswählen!"
+
+#: ../Frontend/Controllers/Checkout/Preview.php:84
+msgid "Cannot Proccess your saleorder"
+msgstr "Ihre Bestellung kann nicht verarbeitet werden"
+
+#: ../Frontend/Controllers/Checkout/Preview.php:104
+#, php-format
+msgid "Online Order %s"
+msgstr "Online Bestellung %s"
+
+#: ../Frontend/Controllers/Checkout/Shipping.php:57
+msgid "Selected shipping method was deleted, please contact shop owner"
+msgstr ""
+"Ausgewählte Liefermethode wurde gelöscht, bitte Shopinhaber kontaktieren!"
+
+#: ../Frontend/Controllers/Checkout/Shipping.php:60
+msgid "Please Select Shipping Method"
+msgstr "Bitte Liefermethode auswählen"
+
+#: ../Models/Notification/Model.php:47
+msgid "New sales order was submitted"
+msgstr "Neue Bestellung wurde aufgegeben"
+
+#: ../Models/Notification/Model.php:48
+msgid "New Sales order was submitted"
+msgstr "Neue Bestellung wurde aufgegeben"
+
+#: ../Models/Notification/Model.php:69
+msgid "Your sales order was submitted"
+msgstr "Ihre Bestellung wurde aufgegeben"
+
+#: ../Models/Notification/Model.php:70
+msgid "Dear Customer"
+msgstr "Lieber Kunde"
+
+#: ../Models/Notification/Model.php:72
+msgid "Your Sales order was submitted"
+msgstr "Ihre Bestellung wurde aufgegeben"
+
+#: ../Models/Notification/Model.php:73
+msgid "Best regards"
+msgstr "Beste Grüße"
+
+#: ../Models/Notification/Model.php:111
+msgid "invalid email address"
+msgstr "falsche Email Adresse"
+
+#: ../Models/Shoppingcart/Model.php:289 ../Models/Shoppingcart/Model.php:350
+#: ../Models/Shoppingcart/Model.php:377
+msgid "Quantity is finshed"
+msgstr "Menge ist fertig"
+
+#: ../Models/Shoppingcart/Model.php:295 ../Models/Shoppingcart/Model.php:359
+#, php-format
+msgid "No enough quantity for this product %s Max Quantity is %s"
+msgstr "Es sind nicht genug Produkte vorhanden %s max. Menge ist %s"
+
+#~ msgid "Account Informations"
+#~ msgstr "Account Informationen"
+
+#~ msgid "I have no account"
+#~ msgstr "Ich habe keinen Account"
+
+#~ msgid "I Would Like to open new Account"
+#~ msgstr "Ich würde gerne einen neuen Account erstellen"
+
+#~ msgid "Continue without registration"
+#~ msgstr "Ohne Registrierung fortfahren"
+
+#~ msgid "Login"
+#~ msgstr "Login"
+
+#~ msgid "Login or password incorrect!"
+#~ msgstr "Login oder Passwort falsch"

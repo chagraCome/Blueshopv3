@@ -1,0 +1,18 @@
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+  <legend>
+    <span class="add"><a href="admin.php?module=product&page=product-prepare">{'Add new Product'|tr}</a></span> | 
+    <span class="list"><a href="admin.php?module=product&page=product-list">{'List Products'|tr}</a></span> 
+  </legend>
+  <ul id='tab'>
+    <li><a class="current" href='#' >{'List All Products'|tr}</a></li>
+    <li><a href='admin.php?module=product&page=product-offlineproduct'>{'List Offline Products'|tr}</a></li>
+    <li><a href='admin.php?module=product&page=product-specialproduct'>{'List Special Products'|tr}</a></li>
+  </ul>
+  <div class="panel">
+    {$grid->Render()}
+  </div>
+</fieldset>

@@ -1,0 +1,34 @@
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+  <legend>
+    <span class="edit"><a href="admin.php?module=product&page=product-modify&id={$smarty.get.id}">{'Edit Product'|tr}</a></span> | 
+    <span class="list"><a href="admin.php?module=product&page=product-list">{'List Products'|tr}</a></span> 
+  </legend>
+
+  <ul id='tab'>
+    <li><a href='admin.php?module=product&page=product-modify&id={$smarty.get.id}'>{'General information'|tr}</a></li>
+    {if $product->isGrouped()}
+    <li><a class="current" href='admin.php?module=product&page=product-grouped-modify&id={$smarty.get.id}'>{'Grouped Products'|tr}</a></li>
+    {/if}
+    <li><a href='admin.php?module=product&page=price-modify&id={$smarty.get.id}' >{'Prices'|tr}</a></li>
+    <li><a href='admin.php?module=product&page=product-media&id={$smarty.get.id}'>{'Images & Documents'|tr}</a></li>
+    {if !$product->isService()}
+    <li><a  href='admin.php?module=product&page=product-shipping&id={$smarty.get.id}'>{'Shipping Options'|tr}</a></li>
+    {/if}
+    <li><a href='admin.php?module=product&page=product-marketing&id={$smarty.get.id}'>{'Marketing'|tr}</a></li>
+    {if !$product->isGrouped()  && $product->entity_set_id}
+    <li><a href='admin.php?module=product&page=product-configuration&product_id={$smarty.get.id}'>{'Configuration'|tr}</a></li>
+    {/if}
+  </ul>
+  <div class="panel">
+    {$panel->Render()}
+    <fieldset><legend>{'Navigation'|tr}</legend>
+      <form name="navigation" method="post">
+        <table style="width:auto;"><tbody><tr><td valign="top" width="auto"><span><button name="submit_back" class="Button Back" type="submit" >{'Previous Step'|tr}</button></span></td><td valign="top" width="auto"><span><button name="submit_next" class="Button For" type="submit">{'Next Step'|tr}</button></span></td></tr></tbody></table>
+      </form>
+    </fieldset>
+  </div>
+</fieldset>

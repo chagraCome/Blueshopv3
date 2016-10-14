@@ -1,0 +1,262 @@
+{literal}
+<style>
+  .placeholder {
+    outline: 1px dashed #4183C4;
+    /*-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: -1px;*/
+  }
+
+  .mjs-nestedSortable-error {
+    background: #fbe3e4;
+    border-color: transparent;
+  }
+
+  ol {
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+  }
+
+  ol.sortable, ol.sortable ol {
+    margin: 0 0 0 25px;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  ol.sortable {
+    margin: 4em 0;
+  }
+
+  .sortable li {
+    margin: 5px 0 0 0;
+    padding: 0;
+  }
+
+  .sortable li div  {
+    border: 1px solid #d4d4d4;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border-color: #D4D4D4 #D4D4D4 #BCBCBC;
+    padding: 6px;
+    margin: 0;
+    cursor: move;
+    background: #f6f6f6;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed));
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: -o-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: -ms-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );
+  }
+
+  .sortable li.mjs-nestedSortable-branch div {
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #f0ece9 100%);
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#f0ece9 100%);
+
+  }
+
+  .sortable li.mjs-nestedSortable-leaf div {
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #bcccbc 100%);
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#bcccbc 100%);
+
+  }
+
+  li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
+    border-color: #999;
+    background: #fafafa;
+  }
+
+  .disclose {
+    cursor: pointer;
+    width: 10px;
+    display: none;
+  }
+
+  .sortable li.mjs-nestedSortable-collapsed > ol {
+    display: none;
+  }
+
+  .sortable li.mjs-nestedSortable-branch > div > .disclose {
+    display: inline-block;
+  }
+
+  .sortable li.mjs-nestedSortable-collapsed > div > .disclose > span:before {
+    content: '+ ';
+  }
+
+  .sortable li.mjs-nestedSortable-expanded > div > .disclose > span:before {
+    content: '- ';
+  }
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size: 1.2em;
+    font-weight: normal;
+    font-style: italic;
+    margin-top: .2em;
+    margin-bottom: 1.5em;
+  }
+
+  h3 {
+    font-size: 1em;
+    margin: 1em 0 .3em;;
+  }
+
+  p, ol, ul, pre, form {
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  dl {
+    margin: 0;
+  }
+
+  dd {
+    margin: 0;
+    padding: 0 0 0 1.5em;
+  }
+
+  code {
+    background: #e5e5e5;
+  }
+
+  input {
+    vertical-align: text-bottom;
+  }
+
+  .notice {
+    color: #c33;
+  }
+
+</style>
+
+
+<script>
+
+  $(document).ready(function() {
+
+    $('ol.sortable').nestedSortable({
+      forcePlaceholderSize: true,
+      handle: 'div',
+      helper: 'clone',
+      items: 'li',
+      opacity: .6,
+      placeholder: 'placeholder',
+      revert: 250,
+      tabSize: 25,
+      tolerance: 'pointer',
+      toleranceElement: '> div',
+      maxLevels: 8,
+      isTree: true,
+      expandOnHover: 700,
+      startCollapsed: true
+    });
+
+    $('.disclose').on('click', function() {
+      $(this).closest('li').toggleClass('mjs-nestedSortable-collapsed').toggleClass('mjs-nestedSortable-expanded');
+    })
+
+
+
+    $('#toArray').click(function(e) {
+      arraied = $('ol.sortable').nestedSortable('toArray', {startDepthCount: 0});
+      var json = JSON.stringify(arraied ); 
+      $.ajax({
+        type: "POST",
+        url: 'admin.php?module=product&page=category-sort&event=resort',
+        dataType: "json",
+        data: {'json_data': json}
+      });
+      arraied = dump(arraied);
+      //(typeof($('#toArrayOutput')[0].textContent) != 'undefined') ?
+       // $('#toArrayOutput')[0].textContent = arraied : $('#toArrayOutput')[0].innerText = arraied;
+    })
+
+  });
+
+      function dump(arr, level) {
+          var dumped_text = "";
+          if (!level)
+              level = 0;
+  
+          //The padding given at the beginning of the line.
+          var level_padding = "";
+          for (var j = 0; j < level + 1; j++)
+              level_padding += "    ";
+  
+          if (typeof(arr) == 'object') { //Array/Hashes/Objects
+              for (var item in arr) {
+                  var value = arr[item];
+  
+                  if (typeof(value) == 'object') { //If it is an array,
+                      dumped_text += level_padding + "'" + item + "' ...\n";
+                      dumped_text += dump(value, level + 1);
+                  } else {
+                      dumped_text += level_padding + "'" + item + "' => \"" + value + "\"\n";
+                  }
+              }
+          } else { //Strings/Chars/Numbers etc.
+              dumped_text = "===>" + arr + "<===(" + typeof(arr) + ")";
+          }
+          return dumped_text;
+      }
+
+</script>
+
+
+
+{/literal}
+
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+  <legend>
+    <span class="add"><a href="admin.php?module=product&page=category-add">{'Add new Category'|tr}</a></span> | 
+    <span class="list"><a href="admin.php?module=product&page=category-list">{'List Categories'|tr}</a></span> 
+  </legend>
+  <ul id='tab'>
+    <li><a href='admin.php?module=product&page=category-list'>{'Category List'|tr}</a></li>
+    <li><a class='current' href='#'>{'Sort Categories'|tr}</a></li>
+  </ul>
+  <div class="panel">
+    <section id="demo">
+      <!--            <ol class="sortable">
+                      <li id="list_1"><div><span class="disclose"><span></span></span>Item 1</div>
+                          <ol>
+                              <li id="list_2"><div><span class="disclose"><span></span></span>Sub Item 1.1</div>
+                                  <ol>
+                                      <li id="list_3"><div><span class="disclose"><span></span></span>Sub Item 1.2</div>
+                                  </ol>
+                          </ol>
+                      <li id="list_4"><div><span class="disclose"><span></span></span>Item 2</div>
+                      <li id="list_5"><div><span class="disclose"><span></span></span>Item 3</div>
+                          <ol>
+                              <li id="list_6" class="mjs-nestedSortable-no-nesting"><div><span class="disclose"><span></span></span>Sub Item 3.1 (no nesting)</div>
+                              <li id="list_7"><div><span class="disclose"><span></span></span>Sub Item 3.2</div>
+                                  <ol>
+                                      <li id="list_8"><div><span class="disclose"><span></span></span>Sub Item 3.2.1</div>
+                                  </ol>
+                          </ol>
+                      <li id="list_9"><div><span class="disclose"><span></span></span>Item 4</div>
+                      <li id="list_10"><div><span class="disclose"><span></span></span>Item 5</div>
+                  </ol>-->
+      {$tree}
+
+    </section> <!-- END #demo -->
+    <p>
+      <input type="submit" name="toArray" id="toArray" value="{'Save'|tr}" class="ButtonSave" />
+    <pre id="toArrayOutput"></pre>
+
+    <p>
+  </div>
+</fieldset>

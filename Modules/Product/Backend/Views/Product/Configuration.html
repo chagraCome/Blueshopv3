@@ -1,0 +1,24 @@
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+  <legend>
+    <span class="edit"><a href="admin.php?module=product&page=product-modify&id={$smarty.get.product_id}">{'Edit Product'|tr}</a></span> | 
+    <span class="list"><a href="admin.php?module=product&page=product-list">{'List Products'|tr}</a></span> 
+  </legend>
+
+  <ul id='tab'>
+    <li><a href='admin.php?module=product&page=product-modify&id={$smarty.get.product_id}'>{'General information'|tr}</a></li>
+    <li><a href='admin.php?module=product&page=product-media&id={$smarty.get.product_id}'>{'Images & Documents'|tr}</a></li>
+    {if !$product->isService()}
+    <li><a  href='admin.php?module=product&page=product-shipping&id={$smarty.get.id}'>{'Shipping Options'|tr}</a></li>
+    {/if}
+    <li><a href='admin.php?module=product&page=product-marketing&id={$smarty.get.product_id}'>{'Marketing'|tr}</a></li>
+    <li><a class='current' href='admin.php?module=product&page=product-configuration&product_id={$smarty.get.id}'>{'Configuration'|tr}</a></li>
+  </ul>
+  <div class="panel">
+    {$panel->Render()}
+  </div>
+</fieldset>
+

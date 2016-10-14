@@ -1,0 +1,223 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: setting backend\n"
+"POT-Creation-Date: 2013-04-17 11:15+0100\n"
+"PO-Revision-Date: 2013-04-17 11:38+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: deutsch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../Boot.php:21
+msgid "Setting"
+msgstr "Einstellungen"
+
+#: ../Boot.php:22 ../menu.inc.php:18
+msgid "General"
+msgstr "Allgemein"
+
+#: ../Boot.php:23
+msgid "Manage Currencies"
+msgstr "Währungen verwalten"
+
+#: ../Boot.php:24 ../menu.inc.php:19
+msgid "Manage E-Mail Templates"
+msgstr "Emailvorlagen verwalten"
+
+#: ../Boot.php:25
+msgid "Manage Print Templates"
+msgstr "Druckvorlagen verwalten"
+
+#: ../Boot.php:26
+msgid "Manage Workflow"
+msgstr "Arbeitsablauf verwalten"
+
+#: ../menu.inc.php:18 ../menu.inc.php:19
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../Controllers/coupons.class.php:49
+msgid "Coupons Settings"
+msgstr "Coupon Einstellung"
+
+#: ../Controllers/coupons.class.php:55 ../Controllers/General.php:28
+#: ../Controllers/style.class.php:36
+msgid "Data saved successfully."
+msgstr "Daten erfolgreich gespeichert"
+
+#: ../Controllers/General.php:22 ../Controllers/style.class.php:30
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: ../Controllers/import.class.php:151
+msgid "Upload file"
+msgstr "Datei hochladen"
+
+#: ../Controllers/import.class.php:155
+msgid "File"
+msgstr "Datei"
+
+#: ../Controllers/import.class.php:158
+msgid "Entity"
+msgstr "Einheit"
+
+#: ../Controllers/import.class.php:164
+msgid "Poduct Set"
+msgstr "Produktart"
+
+#: ../Controllers/import.class.php:172
+msgid "File Type"
+msgstr "Dateityp"
+
+#: ../Controllers/import.class.php:178
+msgid "File Delimter"
+msgstr "Dateiabgrenzer"
+
+#: ../Controllers/import.class.php:184
+msgid "Start From Row"
+msgstr "Starte in Zeile"
+
+#: ../Controllers/import.class.php:187
+msgid "To Row"
+msgstr "Zu Zeile"
+
+#: ../Controllers/import.class.php:199
+msgid "Upload Bow"
+msgstr "Hochladen"
+
+#: ../Controllers/import.class.php:217 ../Controllers/import.class.php:251
+msgid "Import Data"
+msgstr "Daten importieren"
+
+#: ../Controllers/Currency/List.php:14
+msgid "Manage Currency Rates"
+msgstr "Währungssätze verwalten"
+
+#: ../Controllers/Currency/List.php:62
+msgid "Currency List"
+msgstr "Liste der Regionen"
+
+#: ../Controllers/Currency/List.php:65
+msgid "Base Currency"
+msgstr "Standardwährung"
+
+#: ../Controllers/Currency/List.php:70
+msgid "Currency"
+msgstr "Währung"
+
+#: ../Controllers/Currency/List.php:73
+msgid "Time Zone"
+msgstr "Zeitzone"
+
+#: ../Controllers/Currency/List.php:76
+msgid "Currency Symbol"
+msgstr "Währungssymbol"
+
+#: ../Controllers/Currency/List.php:80
+msgid "Currency Decimal"
+msgstr "Kommastellen"
+
+#: ../Controllers/Currency/List.php:84
+msgid "Currency Rate"
+msgstr "Quote"
+
+#: ../Controllers/Currency/List.php:96
+msgid "Save"
+msgstr "Speichern"
+
+#: ../Controllers/Currency/List.php:100
+msgid "Update Currency from yahoo financial center"
+msgstr "Währungen von Yahoo aktualisieren"
+
+#: ../Controllers/Sms/List.php:23
+msgid "Manage SMS Gateways"
+msgstr "SMS Gateways verwalten"
+
+#: ../Controllers/Sms/List.php:26
+msgid "Gateway Name"
+msgstr "Gateway Name"
+
+#: ../Controllers/Sms/List.php:27
+msgid "User Name"
+msgstr "Benutzername"
+
+#: ../Controllers/Sms/List.php:28 ../Controllers/Sms/Modify.php:71
+msgid "Sender"
+msgstr "Absender"
+
+#: ../Controllers/Sms/List.php:34
+msgid "Modify"
+msgstr "Ändern"
+
+#: ../Controllers/Sms/List.php:40
+msgid "Set as default"
+msgstr "Als Standard vorgeben"
+
+#: ../Controllers/Sms/Modify.php:26
+msgid "Modify Gateway"
+msgstr "Gateway ändern"
+
+#: ../Controllers/Sms/Modify.php:52
+msgid "Data Was Succesufuly Saved"
+msgstr "Daten wurden erfolgreich gespeichert"
+
+#: ../Controllers/Sms/Modify.php:63
+msgid "Username"
+msgstr "Benutzername"
+
+#: ../Controllers/Sms/Modify.php:67
+msgid "Password"
+msgstr "Passwort"
+
+#: ../Controllers/Sms/Modify.php:75
+msgid "Submit"
+msgstr "Zusenden"
+
+#: ../Controllers/Template/Email/Add.php:30
+msgid "Create new Email Template"
+msgstr "Neue Emailvorlage erstellen"
+
+#: ../Controllers/Template/Email/Add.php:42
+#: ../Controllers/Template/Email/Modify.php:54
+#: ../Controllers/Template/Print/Add.php:43
+#: ../Controllers/Template/Print/Modify.php:54
+msgid "Please check inputs."
+msgstr "Bitte Eingaben überprüfen"
+
+#: ../Controllers/Template/Email/Add.php:51
+msgid "Email Template was successully added"
+msgstr "Emailvorlage wurde erfolgreich hinzugefügt"
+
+#: ../Controllers/Template/Email/List.php:35
+#: ../Controllers/Template/Email/Quicklist.php:51
+#: ../Controllers/Template/Print/List.php:35
+msgid "List email templates"
+msgstr "Emailvorlagen auflisten"
+
+#: ../Controllers/Template/Email/Modify.php:29
+#: ../Controllers/Template/Print/Modify.php:29
+msgid "Edit Email template"
+msgstr "Emailvorlagen editieren"
+
+#: ../Controllers/Template/Email/Quicklist.php:36
+msgid "Template Name"
+msgstr "Vorlagenname"
+
+#: ../Controllers/Template/Email/Quicklist.php:40
+msgid "Template Subject"
+msgstr "Vorlagenthema"
+
+#: ../Controllers/Template/Print/Add.php:30
+msgid "Create new Print Template"
+msgstr "Neue Druckvorlage erstellen"
+
+#: ../Controllers/Template/Print/Add.php:52
+msgid "Print Template was successully added"
+msgstr "Druckvorlage wurde erfolgreich hinzugefügt"

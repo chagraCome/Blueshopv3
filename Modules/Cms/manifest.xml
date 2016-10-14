@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- /**
+* NOTICE OF LICENSE
+*
+* This source file is part of AmhsoftFrameWork
+* AmhsoftFrameWork is a commercial software
+*
+* $Id: manifest.xml 446 2016-02-19 13:41:32Z imen.amhsoft $
+* $Revision: 446 $
+* $LastChangedDate: 2016-02-19 14:41:32 +0100 (ven., 19 févr. 2016) $
+* $LastChangedBy: imen.amhsoft $
+* @package    Cms
+* @copyright  2005-2014 (c) AMHSOFT e.K. (Web & Software Solutions) Germany (http://www.amhsoft.com)
+* @license    AMHSOFT FrameWork is a commercial software
+* @author     AMHSOFT Dev Team
+* @created    18.11.2010 - 12:58:41
+* @encoding   UTF-8
+*/-->
+<module>
+  <name>Cms</name>
+  <businessname>Advanced Content Management System</businessname>	
+  <version>2.5</version>
+  <build>3729</build>
+  <builddate>2012-11-28 22:56:55</builddate>
+  <description>Advanced Content Management System: Manage Content, page and menu</description>
+  <updates>
+    <update>
+      <version>2.6</version>
+      <build>1</build>
+      <builddate>2014-01-30 12:38:39</builddate>
+      <description>Advanced Content Management System</description>
+    </update>      
+  </updates>
+</module>

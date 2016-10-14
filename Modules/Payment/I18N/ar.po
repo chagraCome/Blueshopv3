@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: modules\n"
+"POT-Creation-Date: 2015-11-11 14:25+0100\n"
+"PO-Revision-Date: 2015-11-11 14:25+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../Backend/Boot.php:26
+msgid "Payment"
+msgstr "طرق الدفع"
+
+#: ../Backend/Boot.php:27 ../Backend/Boot.php:37 ../key_words_html.php:10
+#: ../key_words_html.php:23 ../key_words_html.php:27
+msgid "List Payment Methods"
+msgstr "قائمة طرق الدفع"
+
+#: ../Backend/Boot.php:28
+msgid "Add Payment Method"
+msgstr "إضافة طريقة دفع"
+
+#: ../Backend/Boot.php:36
+msgid "Payment Module"
+msgstr "إدارة طرق الدفع"
+
+#: ../Backend/Boot.php:38 ../key_words_html.php:18
+msgid "Add new Payment Method"
+msgstr "إضافة طريقة دفع جديدة"
+
+#: ../Backend/Boot.php:39 ../Backend/Controllers/Payment/Modify.php:33
+#: ../key_words_html.php:22
+msgid "Edit Payment Method"
+msgstr "تعديل طريقة الدفع"
+
+#: ../Backend/Boot.php:40
+msgid "Delete Payment Method"
+msgstr "حذف طريقة الدفع"
+
+#: ../Backend/Boot.php:41
+msgid "Set Payment Method Offline"
+msgstr "تعطيل طريقة الدفع"
+
+#: ../Backend/Boot.php:42
+msgid "Set Payment Method Online"
+msgstr "تفعيل طريقةالدفع"
+
+#: ../Backend/Controllers/Payment/Add.php:33
+#: ../Backend/Controllers/Payment/Image.php:30
+#: ../Backend/Controllers/Payment/Image.php:32
+msgid "Create new Payment Method"
+msgstr "إنشاء طريقة دفع جديدة"
+
+#: ../Backend/Controllers/Payment/Add.php:54
+#: ../Backend/Controllers/Payment/Modify.php:64
+msgid "Please check inputs."
+msgstr "يرجى التحقق من المدخلات"
+
+#: ../Backend/Controllers/Payment/Image.php:48
+msgid "Add Payment Method Image"
+msgstr "إضافة صورة لطريقة الدفع"
+
+#: ../Backend/Controllers/Payment/Image.php:56
+msgid "Payment Method Images"
+msgstr "صور طريقة الدفع"
+
+#: ../Backend/Controllers/Payment/Image.php:60
+msgid "Add new Image"
+msgstr "إضافة صورة جديدة"
+
+#: ../Backend/Controllers/Payment/List.php:38 ../key_words_html.php:19
+msgid "List Payment Method"
+msgstr "قائمة طرق الدفع"
+
+#: ../Forms/Payment/Form.php:57 ../Grids/Payment/DataGridView.php:38
+#: ../Panels/Payment/Panel.php:47
+msgid "Name"
+msgstr "الأسم"
+
+#: ../Forms/Payment/Form.php:61 ../Grids/Payment/DataGridView.php:39
+msgid "Fee"
+msgstr "الرسوم"
+
+#: ../Forms/Payment/Form.php:63
+msgid "Fee can be 5.0 or 5%"
+msgstr "الرسوم ممكن أن تكتب 5.0 او 5%"
+
+#: ../Forms/Payment/Form.php:64 ../Forms/Payment/Form.php:88
+msgid "Description"
+msgstr "الوصف"
+
+#: ../Forms/Payment/Form.php:67 ../Panels/Payment/Panel.php:48
+msgid "Sort ID"
+msgstr "رمز التعرفة"
+
+#: ../Forms/Payment/Form.php:69
+msgid "Online"
+msgstr ""
+
+#: ../Forms/Payment/Form.php:70
+msgid "Save"
+msgstr "حفظ"
+
+#: ../Forms/Payment/Form.php:80
+msgid "Payment Name"
+msgstr "اسم طريقة الدفع"
+
+#: ../Forms/Payment/Form.php:83
+msgid "Payment Settings"
+msgstr "اعدادات طرق الدفع"
+
+#: ../Forms/Payment/Form.php:86
+msgid "Logo"
+msgstr "الشعار"
+
+#: ../Forms/Payment/Form.php:90
+msgid "Navigation"
+msgstr "تصفح"
+
+#: ../Grids/Payment/DataGridView.php:40 ../Panels/Payment/Panel.php:49
+msgid "Status"
+msgstr "الحالة"
+
+#: ../Grids/Payment/DataGridView.php:43
+msgid "Edit"
+msgstr "تعديل"
+
+#: ../Grids/Payment/DataGridView.php:47
+msgid "Delete"
+msgstr "حذف"
+
+#: ../Grids/Payment/DataGridView.php:52
+msgid "Settings"
+msgstr "الاعدادات"
+
+#: ../Panels/Payment/Panel.php:45
+msgid "Payment Information"
+msgstr "معلومات طرق الدفع"
+
+#: ../Panels/Payment/Panel.php:50
+msgid "Account Information"
+msgstr "معلومات الحساب"
+
+#: ../key_words_html.php:6
+msgid "Please select a Payment method"
+msgstr "الرجاء اختيار طريقة الدفع"
+
+#: ../key_words_html.php:7
+msgid "Next"
+msgstr "الخطوة التالية"
+
+#: ../key_words_html.php:9 ../key_words_html.php:13 ../key_words_html.php:17
+#: ../key_words_html.php:21 ../key_words_html.php:25 ../key_words_html.php:29
+#: ../key_words_html.php:33 ../key_words_html.php:37
+msgid "Information"
+msgstr "معلومات"
+
+#: ../key_words_html.php:11
+msgid "Add Payment Methods"
+msgstr "إضافة طريقة دفع"
+
+#: ../key_words_html.php:14
+msgid "Edit Payment Method Image"
+msgstr "تعديل صورة طريقة الدفع"
+
+#: ../key_words_html.php:15
+msgid "List Payment Method Image"
+msgstr "قائمة صور طرق الدفع"
+
+#: ../key_words_html.php:26
+msgid "Add new Payment Methods"
+msgstr "إضافة طريقة دفع جديدة"
+
+#: ../key_words_html.php:30 ../key_words_html.php:34 ../key_words_html.php:38
+#, fuzzy
+msgid "Add new Project"
+msgstr "اضافة مشروع جديد"
+
+#: ../key_words_html.php:31 ../key_words_html.php:35 ../key_words_html.php:39
+msgid "List Projects"
+msgstr "قائمة المشاريع"
+
+#~ msgid "Show Payment Method Information"
+#~ msgstr "عرض معلومات طريقة الدفع"

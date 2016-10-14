@@ -1,0 +1,47 @@
+<div class="col-lg-3 col-md-3">
+<div class="single-product">
+
+    <!--product preview-->
+    {if $item->isOffered()}
+    <span><img src="{$skin_path}/images/sale_product.png" alt="" style="width: auto;height: auto;"></span>
+    {elseif  $item->is_new}
+    <span><img src="{$skin_path}/images/hot_product.png" alt="" style="width: auto;height: auto;"></span>
+    {/if}
+    <div >
+        <a href="{$item->getUrl()}"> <img src="{$item->getFirstThumb()|default:'media/noimage.jpg'}" alt="{$item->getTitle()}"></a>
+        <span data-popup="{$item->getPreviewUrl()}">
+            <a rel="{$item->getPreviewUrl()}" style="color: inherit;"> {'Quick View'|tr} </a>
+        </span>
+    </div>
+    <!--description and price of product-->
+    <div class="product-des">
+        <h5 class="product-name">
+            <a href="{$item->getUrl()}" class="color_dark">{$item->getTitle()|truncate:22:"..."}</a></h5>
+    </div>
+    <!-- add to cart -->
+    <div class="action-button-15">
+        <a class="{if !$item->inCart()}ajax_add_to_cart_button {/if}product-btn cart-button" data-id-product="{$item->getId()}" title="{'Add to cart'|tr}">
+            {if $item->inCart()}
+
+            {else}
+            <div class="add-to-cart">
+                <span>{'Add to cart'|tr}</span>
+                <i class="fa fa-shopping-cart" style='display:none'></i>
+            </div>
+            {/if}
+
+
+        </a>
+        <!-- add to whishlist -->
+        <div class="add-to-wishlist">
+            <a class="{if !$item->inWhishlist()}add_to_whishlist ajax_add_to_whishlist_button{/if} product-btn"  data-id-product="{$item->getId()}" title="{'Add to Wishlist'|tr}">
+            </a>
+        </div>
+        <div class="compare-button">
+            <a class="{if !$item->inCompare()}add_to_compare  ajax_add_to_compare_button{/if} product-btn" data-id-product="{$item->getId()}" title="{'Add to Compare'|tr}">
+            </a>
+        </div>
+    </div>
+</div>
+
+</div>

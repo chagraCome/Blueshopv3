@@ -1,0 +1,39 @@
+{
+    "name": "maximebf/debugbar",
+    "description": "Debug bar in the browser for php application",
+    "keywords": ["debug", "debugbar"],
+    "homepage": "https://github.com/maximebf/php-debugbar",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.11-dev",
+    "authors": [
+        {
+            "name": "Maxime Bouroumeau-Fuseau",
+            "email": "maxime.bouroumeau@gmail.com",
+            "homepage": "http://maximebf.com"
+        },
+        {
+            "name": "Barry vd. Heuvel",
+            "email": "barryvdh@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DebugBar\\": "src/DebugBar/"
+            "Facebook\\": "src/Facebook/"
+        }
+    },
+    "suggest": {
+        "kriswallsmith/assetic": "The best way to manage assets",
+        "monolog/monolog": "Log using Monolog",
+        "predis/predis": "Redis storage"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.11-dev"
+        }
+    },
+    "require": {
+        "maximebf/debugbar": "^1.11"
+    }
+}

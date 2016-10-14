@@ -1,0 +1,93 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cashu\n"
+"POT-Creation-Date: 2013-06-07 09:16+0100\n"
+"PO-Revision-Date: 2013-06-07 09:16+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../key_words_html.php:3
+msgid "Information"
+msgstr "Informationen"
+
+#: ../key_words_html.php:4
+msgid "List Payment Methods"
+msgstr "Bezahlmethoden auflisten"
+
+#: ../key_words_html.php:5
+msgid "Add new Payment Methods"
+msgstr "Neue Bezahlmethoden hinzufügen"
+
+#: ../Backend/Boot.php:22
+msgid "Payment"
+msgstr "Bezahlung"
+
+#: ../Backend/Boot.php:23 ../Backend/Controllers/Settings.php:24
+msgid "Manage Cashu Settings"
+msgstr "Cashu Einstellungen verwalten"
+
+#: ../Backend/Controllers/Settings.php:37
+msgid "Cashu ID"
+msgstr "Cashu Id"
+
+#: ../Backend/Controllers/Settings.php:44
+msgid "Encryption Keyword"
+msgstr "Passwort verschlüsseln"
+
+#: ../Backend/Controllers/Settings.php:48
+msgid "Test Mode"
+msgstr "Test Modus"
+
+#: ../Backend/Controllers/Settings.php:51
+msgid "Currency"
+msgstr "Währung"
+
+#: ../Backend/Controllers/Settings.php:57
+msgid "Language"
+msgstr "Sprache"
+
+#: ../Backend/Controllers/Settings.php:66
+msgid "Login Informations"
+msgstr "Anmeldeinformationen"
+
+#: ../Backend/Controllers/Settings.php:72
+msgid "General Informations"
+msgstr "Allgemeine Informationen"
+
+#: ../Backend/Controllers/Settings.php:80
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../Frontend/Controllers/Confirm.php:27
+msgid "Sales order was Not completed"
+msgstr "Bestellung wurde nicht vervollständigt"
+
+#: ../Frontend/Controllers/Confirm.php:30
+#: ../Frontend/Controllers/Confirm.php:51
+msgid "Your Sales Order was not paid"
+msgstr "Ihre Bestellung wurde nicht bezahlt"
+
+#: ../Frontend/Controllers/Confirm.php:34
+msgid "Sales order was canceled by user during payment"
+msgstr "Bestellung wurde während der Bezahlung storniert"
+
+#: ../Frontend/Controllers/Confirm.php:37
+msgid "Your Sales Order was canceled"
+msgstr "Ihre Bestellung wurde storniert"
+
+#: ../Frontend/Controllers/Confirm.php:44
+msgid "Sales order was Paid"
+msgstr "Bestellung wurde bezahlt"
+
+#: ../Frontend/Controllers/Confirm.php:48
+msgid "Sales order was not paid"
+msgstr "Bestellung wurde nicht bezahlt"

@@ -1,0 +1,33 @@
+<fieldset>
+    <legend>{'Information'|tr}</legend>
+    <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+    <legend>
+        <span class="add"><a href="admin.php?module=eav&page=attributes-add">{'Add new Product attributes'|tr}</a></span> | 
+        <span class="list"><a href="admin.php?module=eav&page=attributes-list&entity=1">{'List Product attributes'|tr}</a></span> 
+    </legend>
+    <div class="panel">
+        <form name="attribtue_source_form" method="post" action="">
+        <table class="grid">
+            <tr>
+                <th>{'Attribute Value'|tr}</th>
+                <th>{'Delete'|tr}</th>
+            </tr>
+            {foreach $attributeValues as $attributeValue}
+            <tr>
+                <td><input name="value[{$attributeValue->getId()}]" value="{$attributeValue->getValue()}" /></td>
+                <td><a class="delete" href="admin.php?module=eav&page=attributesource-delete&id={$attributeValue->getId()}" onclick="return confirmDelete();">{'Delete'|tr}</a></td>
+            </tr>
+            {/foreach}
+            <tr>
+                <td><input name="value[new]" value="" /></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" name="save" class="ButtonSave" value="{'Save'|tr}" /> </td>
+            </tr>
+        </table>
+            </form>
+    </div>
+</fieldset>

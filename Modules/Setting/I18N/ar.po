@@ -1,0 +1,539 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Setting\n"
+"POT-Creation-Date: 2014-05-12 15:48+0100\n"
+"PO-Revision-Date: 2014-05-13 10:39+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: key_words_html.php:3 key_words_html.php:7 key_words_html.php:11
+#: ../key_words_html.php:8 ../key_words_html.php:12 ../key_words_html.php:16
+#: ../key_words_html.php:21 ../key_words_html.php:25 ../key_words_html.php:29
+#: ../key_words_html.php:33 ../key_words_html.php:55 ../key_words_html.php:60
+#: ../key_words_html.php:64 ../I18N/key_words_html.php:3
+#: ../I18N/key_words_html.php:7 ../I18N/key_words_html.php:11
+msgid "Information"
+msgstr "اعلام"
+
+#: key_words_html.php:4 key_words_html.php:8 key_words_html.php:12
+#: ../key_words_html.php:9 ../key_words_html.php:13 ../key_words_html.php:17
+#: ../I18N/key_words_html.php:4 ../I18N/key_words_html.php:8
+#: ../I18N/key_words_html.php:12
+msgid "Add new Email Template"
+msgstr "اضافة قالب بريد الكتروني جديد"
+
+#: key_words_html.php:5 key_words_html.php:9 key_words_html.php:13
+#: ../key_words_html.php:10 ../key_words_html.php:14 ../key_words_html.php:18
+#: ../key_words_html.php:57 ../I18N/key_words_html.php:5
+#: ../I18N/key_words_html.php:9 ../I18N/key_words_html.php:13
+msgid "List Email Templates"
+msgstr "قائمة قوالب البريد الالكتروني"
+
+#: key_words_html.php:14 ../I18N/key_words_html.php:14
+msgid "Template body"
+msgstr "قالب محتوى الصفحة"
+
+#: key_words_html.php:15 ../I18N/key_words_html.php:15
+msgid "Template Header"
+msgstr "قالب رأس الصفحة"
+
+#: key_words_html.php:16 ../I18N/key_words_html.php:16
+msgid "Template Footer"
+msgstr "قالب اسفل الصفحة"
+
+#: key_words_html.php:17 ../I18N/key_words_html.php:17
+msgid "Modify Offline Page"
+msgstr "التعديل على صفحة تعطيل المتجر"
+
+#: ../key_words_html.php:22 ../key_words_html.php:26 ../key_words_html.php:30
+#: ../key_words_html.php:61 ../key_words_html.php:65
+msgid "Add new Print Template"
+msgstr "اضافة قالب طباعة جديد"
+
+#: ../key_words_html.php:23 ../key_words_html.php:27 ../key_words_html.php:31
+#: ../key_words_html.php:58 ../key_words_html.php:62 ../key_words_html.php:66
+msgid "List Print Templates"
+msgstr "قائمة قوالب الطباعة"
+
+#: ../key_words_html.php:34
+msgid "General settings"
+msgstr "اعدادات عامة"
+
+#: ../key_words_html.php:35
+msgid "General information"
+msgstr "معلومات عامة"
+
+#: ../key_words_html.php:36
+msgid "Website name"
+msgstr "اسم الموقع"
+
+#: ../key_words_html.php:37
+msgid "Very important for search engine"
+msgstr "مهم جدا لمحركات البحث"
+
+#: ../key_words_html.php:38
+msgid "Website description"
+msgstr "وصف الموقع"
+
+#: ../key_words_html.php:39
+msgid "Website keywords"
+msgstr "مفاتيح كلمات البحث"
+
+#: ../key_words_html.php:40 ../key_words_html.php:67
+msgid "Google Analytics Code"
+msgstr "رمز احصائيات جوجل"
+
+#: ../key_words_html.php:41
+msgid "Website owner"
+msgstr "معلومات المالك"
+
+#: ../key_words_html.php:42
+msgid "Address"
+msgstr "العنوان"
+
+#: ../key_words_html.php:43
+msgid "Telephone"
+msgstr "الهاتف"
+
+#: ../key_words_html.php:44
+msgid "Fax"
+msgstr "الفاكس"
+
+#: ../key_words_html.php:45
+msgid "Mobile"
+msgstr "الجوال"
+
+#: ../key_words_html.php:46
+msgid "Email Address"
+msgstr "البريد الالكتروني"
+
+#: ../key_words_html.php:47
+msgid "Other settings"
+msgstr "اعدادات اخرى"
+
+#: ../key_words_html.php:48
+msgid "URL friendly"
+msgstr "صديق لمحركات البحث"
+
+#: ../key_words_html.php:49
+msgid "RSS"
+msgstr "خدمة RSS"
+
+#: ../key_words_html.php:50 ../key_words_html.php:68
+msgid "Shop Offline"
+msgstr " تعطيل المتجر "
+
+#: ../key_words_html.php:51 ../key_words_html.php:69
+msgid "Open Shop Only for ip"
+msgstr " فتح  المتجر لعنوان واحد فقط"
+
+#: ../key_words_html.php:52 ../Forms/Template/Email/Form.php:65
+msgid "Navigation"
+msgstr "التّصفح"
+
+#: ../key_words_html.php:53 ../Backend/Controllers/Currency/List.php:98
+#: ../Backend/Controllers/Template/Print/Footer.php:33
+#: ../Backend/Controllers/Template/Print/Header.php:33
+#: ../Forms/Template/Email/Form.php:59 ../Forms/Template/Print/Form.php:58
+msgid "Save"
+msgstr "حفظ"
+
+#: ../key_words_html.php:56 ../Backend/Controllers/General.php:28
+msgid "General Settings"
+msgstr "اعدادات عامة"
+
+#: ../key_words_html.php:70
+msgid "Manage General Settings"
+msgstr "ادارة الاعدادات العامة"
+
+#: ../key_words_html.php:71
+msgid "AmhComplete Professional Edition Control Panel"
+msgstr "لوحة تحكم النسخة المحترفة"
+
+#: ../key_words_html.php:72
+msgid "Help"
+msgstr "مساعدة"
+
+#: ../key_words_html.php:73
+msgid "Choose your Language"
+msgstr "اختر لغتك"
+
+#: ../key_words_html.php:74
+msgid "Monthly Revenue"
+msgstr "الإيرادات الشهرية"
+
+#: ../key_words_html.php:75
+msgid "Daily Revenue"
+msgstr "الإيرادات اليومية"
+
+#: ../key_words_html.php:76
+msgid "Last 5 Accounts"
+msgstr "آخر 5 حسابات"
+
+#: ../key_words_html.php:77
+msgid "Last Invoices"
+msgstr "آخر الفواتير"
+
+#: ../key_words_html.php:78
+msgid "Last Quotations"
+msgstr "آخر عروض الأسعار"
+
+#: ../key_words_html.php:79
+msgid "Website Admin"
+msgstr "موقع مشرف المتجر"
+
+#: ../key_words_html.php:80
+msgid "Disable Mouse Right click to protect product images"
+msgstr "تعطيل النقر على زر الفأرة الأيمن لحماية صور المنتج"
+
+#: ../Backend/Boot.php:26
+msgid "Setting"
+msgstr "الاعدادات"
+
+#: ../Backend/Boot.php:27
+msgid "General"
+msgstr "اعدادات عامة"
+
+#: ../Backend/Boot.php:28
+msgid "Manage Currencies"
+msgstr "اعدادات العملة"
+
+#: ../Backend/Boot.php:56
+msgid "Setting Module"
+msgstr "إدارة الإعدادات "
+
+#: ../Backend/Boot.php:57
+msgid "List all Currency"
+msgstr "قائمة العملة"
+
+#: ../Backend/Boot.php:58
+msgid "Modify Email Template"
+msgstr "التعديل على قوالب البريد الالكتروني"
+
+#: ../Backend/Boot.php:59
+msgid "Header Print Template"
+msgstr "قالب رأس صفحة الطباعة"
+
+#: ../Backend/Boot.php:60
+msgid "Footer Print Template"
+msgstr "قالب أسفل صفحة الطباعة"
+
+#: ../Backend/Boot.php:61
+msgid "Modify Print Template"
+msgstr "التعديل على قوالب الطباعة"
+
+#: ../Backend/Boot.php:62
+#, fuzzy
+msgid "General Setting"
+msgstr "اعدادات عامة"
+
+#: ../Backend/Controllers/General.php:32
+msgid "Shop Logo"
+msgstr "شعار المتجر"
+
+#: ../Backend/Controllers/General.php:49
+msgid "Data saved successfully."
+msgstr "تم حفظ الاعدادات بنجاح"
+
+#: ../Backend/Controllers/Currency/List.php:28
+msgid "Manage Currency Rates"
+msgstr "ادارة اسعار العملات"
+
+#: ../Backend/Controllers/Currency/List.php:74
+msgid "Currency List"
+msgstr "قائمة العملات"
+
+#: ../Backend/Controllers/Currency/List.php:76
+msgid "Base Currency"
+msgstr "العملة الرئيسية"
+
+#: ../Backend/Controllers/Currency/List.php:80
+msgid "Currency"
+msgstr "العملة"
+
+#: ../Backend/Controllers/Currency/List.php:82
+msgid "Time Zone"
+msgstr "المنطقة الزمنية"
+
+#: ../Backend/Controllers/Currency/List.php:84
+msgid "Currency Symbol"
+msgstr "رمز العملة"
+
+#: ../Backend/Controllers/Currency/List.php:87
+msgid "Currency Decimal"
+msgstr "فاصل الاعشار"
+
+#: ../Backend/Controllers/Currency/List.php:90
+msgid "Currency Rate"
+msgstr "ضارب العملة"
+
+#: ../Backend/Controllers/Currency/List.php:100
+msgid "Update Currency from Yahoo Financial Center"
+msgstr "تحديث العملة من مركز ياهو المالي"
+
+#: ../Backend/Controllers/Currency/List.php:102
+msgid "Reset Currency"
+msgstr "إعادة تعيين العملات"
+
+#: ../Backend/Controllers/Currency/List.php:109
+msgid ""
+"Note : If you want to delete the Currency Decimal in the product price, "
+"please set the currency decimal to 0"
+msgstr ""
+"ملاحظة :اذا اردتم حذف الفواصل من سعر المنتج يرجى التعديل على فاصل الاعشار "
+"ووضع القيمة 0"
+
+#: ../Backend/Controllers/Currency/List.php:110
+msgid ""
+"Warning: When you reset currency you must click on update currencies from "
+"Yahoo Financial Center"
+msgstr ""
+"تحذير : عند الضغط على اعادة تعيين العملات يجب عمل تحديث للعملات من مركز "
+"ياهوو المالي"
+
+#: ../Backend/Controllers/Currency/List.php:148
+#: ../Backend/Controllers/Sms/Modify.php:57
+msgid "Data was successfully saved"
+msgstr "تم حفظ المعلومات بنجاح"
+
+#: ../Backend/Controllers/Sms/List.php:26
+msgid "Manage SMS Gateways"
+msgstr "اعدادات بوابات الرسائل القصيرة"
+
+#: ../Backend/Controllers/Sms/List.php:28
+msgid "Gateway Name"
+msgstr "اسم البوابة"
+
+#: ../Backend/Controllers/Sms/List.php:29
+msgid "User Name"
+msgstr "اسم المستخدم"
+
+#: ../Backend/Controllers/Sms/List.php:30
+#: ../Backend/Controllers/Sms/Modify.php:76
+msgid "Sender"
+msgstr "المٌرسل"
+
+#: ../Backend/Controllers/Sms/List.php:32
+msgid "Modify"
+msgstr "تعديل"
+
+#: ../Backend/Controllers/Sms/List.php:37
+msgid "Set as default"
+msgstr "تعيين على أساس افتراضي"
+
+#: ../Backend/Controllers/Sms/Modify.php:30
+msgid "Modify Gateway"
+msgstr "تعديل البوابة"
+
+#: ../Backend/Controllers/Sms/Modify.php:70
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: ../Backend/Controllers/Sms/Modify.php:73
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: ../Backend/Controllers/Sms/Modify.php:79
+msgid "Submit"
+msgstr "ارسل"
+
+#: ../Backend/Controllers/Template/Email/Modify.php:32
+msgid "Edit Email template"
+msgstr "التعديل على القالب"
+
+#: ../Backend/Controllers/Template/Email/Modify.php:59
+#: ../Backend/Controllers/Template/Print/Footer.php:65
+#: ../Backend/Controllers/Template/Print/Header.php:65
+#: ../Backend/Controllers/Template/Print/Modify.php:59
+msgid "Please check inputs."
+msgstr "الرجاء التثبت من المدخلات"
+
+#: ../Backend/Controllers/Template/Email/Quicklist.php:37
+#: ../Backend/Controllers/Template/Print/Quicklist.php:33
+msgid "Template Name"
+msgstr "اسم القالب"
+
+#: ../Backend/Controllers/Template/Email/Quicklist.php:40
+msgid "Template Subject"
+msgstr "موضوع القالب"
+
+#: ../Backend/Controllers/Template/Email/Quicklist.php:48
+#, fuzzy
+msgid "List email templates"
+msgstr "قائمة قوالب البريد الالكتروني"
+
+#: ../Backend/Controllers/Template/Print/Footer.php:29
+#: ../Backend/Controllers/Template/Print/Header.php:29
+#: ../Forms/Template/Email/Form.php:55 ../Forms/Template/Print/Form.php:50
+msgid "Variables"
+msgstr "المتغيرات"
+
+#: ../Backend/Controllers/Template/Print/Footer.php:31
+#: ../Forms/Template/Print/Form.php:56
+msgid "Footer"
+msgstr "اسفل الصفحة"
+
+#: ../Backend/Controllers/Template/Print/Footer.php:38
+msgid "Edit footer template"
+msgstr "تعديل اسفل  القالب"
+
+#: ../Backend/Controllers/Template/Print/Header.php:31
+#: ../Forms/Template/Print/Form.php:54
+msgid "Header"
+msgstr "القسم العلوي "
+
+#: ../Backend/Controllers/Template/Print/Header.php:38
+msgid "Edit header template"
+msgstr "التعديل على رأس القالب"
+
+#: ../Backend/Controllers/Template/Print/Modify.php:32
+msgid "Edit Print template"
+msgstr "تعديل قالب الطباعة"
+
+#: ../Backend/Controllers/Template/Print/Quicklist.php:42
+#, fuzzy
+msgid "List print templates"
+msgstr "قائمة قوالب الطباعة"
+
+#: ../Forms/Template/Email/Form.php:47
+#, fuzzy
+msgid "Template Information"
+msgstr "اعلام"
+
+#: ../Forms/Template/Email/Form.php:48 ../Forms/Template/Print/Form.php:46
+#: ../Grids/Template/Email/DataGridView.php:38
+#: ../Grids/Template/Print/DataGridView.php:38
+msgid "Name"
+msgstr "الاسم"
+
+#: ../Forms/Template/Email/Form.php:52
+#: ../Grids/Template/Email/DataGridView.php:39
+msgid "Subject"
+msgstr "الموضوع"
+
+#: ../Forms/Template/Email/Form.php:57
+msgid "Content"
+msgstr "المحتوى"
+
+#: ../Forms/Template/Print/Form.php:52
+msgid "Body"
+msgstr "المحتوى"
+
+#: ../Grids/Template/Email/DataGridView.php:40
+#: ../Grids/Template/Print/DataGridView.php:39
+msgid "Edit"
+msgstr "تعديل"
+
+#: ../Grids/Template/Email/DataGridView.php:45
+#: ../Grids/Template/Print/DataGridView.php:45
+msgid "Delete"
+msgstr "حذف"
+
+#, fuzzy
+#~ msgid "Add Email Template"
+#~ msgstr "اضافة قالب بريد الكتروني جديد"
+
+#~ msgid "Dlete Email Template"
+#~ msgstr "حذف قالب بريد الكتروني "
+
+#, fuzzy
+#~ msgid "Quicklist Email Template"
+#~ msgstr "قائمة قوالب البريد الالكتروني"
+
+#, fuzzy
+#~ msgid "Add Print Template"
+#~ msgstr "اضافة قالب طباعة جديد"
+
+#~ msgid "Delete Print Template"
+#~ msgstr "حذف قالب طباعة "
+
+#, fuzzy
+#~ msgid "Quicklist Print Template"
+#~ msgstr "قائمة قوالب الطباعة"
+
+#~ msgid "Manage E-Mail Templates"
+#~ msgstr "اعدادات قوالب البريد الالكتروني"
+
+#~ msgid "Manage Print Templates"
+#~ msgstr "اعدادات قوالب الطباعة"
+
+#~ msgid "Manage Workflow"
+#~ msgstr "ادارة سير العمل"
+
+#~ msgid "Coupons Settings"
+#~ msgstr "اعدادات القسائم"
+
+#~ msgid "Upload file"
+#~ msgstr "رفع الملف"
+
+#~ msgid "File"
+#~ msgstr "الملف"
+
+#~ msgid "Entity"
+#~ msgstr "الوحدة"
+
+#~ msgid "Poduct Set"
+#~ msgstr "مجموعة المنتج"
+
+#~ msgid "File Type"
+#~ msgstr "نوع الملف"
+
+#~ msgid "File Delimiter"
+#~ msgstr "الفاصلة"
+
+#~ msgid "Start From Row"
+#~ msgstr "البدا من السطر"
+
+#~ msgid "To Row"
+#~ msgstr "الى السطر"
+
+#~ msgid "Upload now"
+#~ msgstr "ارفع الان"
+
+#~ msgid "Import Data"
+#~ msgstr "استيراد المعلومات"
+
+#~ msgid "Create new Email Template"
+#~ msgstr "اضافة فالب بريد الكتروني جديد"
+
+#~ msgid "Create new Print Template"
+#~ msgstr "اضافة قالب طباعة جديد"
+
+#~ msgid "New sales order was submitted"
+#~ msgstr "لقد تم ارسال طلب شراء  جديد"
+
+#~ msgid "New Sales order was submitted"
+#~ msgstr "لقد تم ارسال طلب شراء  جديد"
+
+#~ msgid "Your sales order was submitted"
+#~ msgstr "لقد تم ارسال طلبكم"
+
+#~ msgid "Dear Customer"
+#~ msgstr "عزيزي العميل"
+
+#~ msgid "Your Sales order was submitted"
+#~ msgstr "لقد تم ارسال طلبكم"
+
+#~ msgid "Best regards"
+#~ msgstr "مع أطيب التحيات"
+
+#~ msgid "invalid email address"
+#~ msgstr "عنوان البريد الإلكتروني غير صحيح"
+
+#~ msgid "Settings"
+#~ msgstr "الاعدادات"
+
+#~ msgid "Email Template was successully added"
+#~ msgstr "تم اضافة قالب البريد الالكتروني بنجاح"
+
+#~ msgid "Print Template was successully added"
+#~ msgstr "تم اضافة قالب الطباعة بنجاح"

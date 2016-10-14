@@ -1,0 +1,25 @@
+<?php
+global $translation;
+$translation['Actions'] = 'Actions';
+$translation['Build Date'] = 'Build Date';
+$translation['checked'] = 'checked';
+$translation['Exclamation'] = 'Exclamation';
+$translation['Execute'] = 'Execute';
+$translation['Info'] = 'Info';
+$translation['Information'] = 'Information';
+$translation['Install'] = 'Install';
+$translation['Lastversion'] = 'Lastversion';
+$translation['List modules'] = 'List modules';
+$translation['Module'] = 'Module';
+$translation['Module Build Date'] = 'Module Build Date';
+$translation['Module Description'] = 'Module Description';
+$translation['Module Name'] = 'Module Name';
+$translation['Modules'] = 'Modules';
+$translation['Module Version'] = 'Module Version';
+$translation['Navigation'] = 'Navigation';
+$translation['Package Informationen'] = 'Package Informationen';
+$translation['State'] = 'State';
+$translation['Update'] = 'Update';
+$translation['Upload modules'] = 'Upload modules';
+$translation['Vesion'] = 'Vesion';
+$translation['Zip File'] = 'Zip File';

@@ -1,0 +1,687 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: product.de\n"
+"POT-Creation-Date: 2013-04-18 10:38+0100\n"
+"PO-Revision-Date: 2013-04-18 11:01+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: deutsch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _t;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: ../../Forms\n"
+"X-Poedit-SearchPath-2: ../../Grids\n"
+
+#: ../Boot.php:11
+msgid "Inventory"
+msgstr "Lagerbestand"
+
+#: ../Boot.php:13
+msgid "Manage Categories"
+msgstr "Kategorien verwalten"
+
+#: ../Boot.php:14
+msgid "Add a Category"
+msgstr "Kategorie hinzufügen"
+
+#: ../Boot.php:15
+msgid "Manage Products"
+msgstr "Produkte verwalten"
+
+#: ../Boot.php:16
+msgid "Add a new Product"
+msgstr "Neues Produkt hinzufügen"
+
+#: ../Boot.php:17
+msgid "Products Settings"
+msgstr "Produkteinstellungen"
+
+#: ../Boot.php:18
+msgid "Manage Product Sets"
+msgstr "Produktarten verwalten"
+
+#: ../Boot.php:19
+msgid "Manage Product Attributes"
+msgstr "Produktattribute verwalten"
+
+#: ../Boot.php:32
+msgid "Product Module"
+msgstr "Produkt Module"
+
+#: ../Boot.php:33
+msgid "Add Product Attributes"
+msgstr "Produktattribute hinzufügen"
+
+#: ../Boot.php:34
+msgid "List all Products"
+msgstr "Alle Produkte auflisten"
+
+#: ../Boot.php:35
+msgid "Modify Product"
+msgstr "Produkt ändern"
+
+#: ../Boot.php:36
+msgid "Delete Product"
+msgstr "Produkt löschen"
+
+#: ../Boot.php:38
+msgid "List all Mainmenus"
+msgstr "Alle Hauptmenüs auflisten"
+
+#: ../Boot.php:39
+msgid "Add new Mainmenu"
+msgstr "Neues Hauptmenü hinzufügen"
+
+#: ../Boot.php:40
+msgid "Modify Mainmenu"
+msgstr "Hauptmenü ändern"
+
+#: ../Boot.php:41
+msgid "Delete Mainmenu"
+msgstr "Hauptmenü löschen"
+
+#: ../Boot.php:42
+msgid "Set Mainmenu Offline"
+msgstr "Hauptmenü offline setzen"
+
+#: ../Boot.php:43
+msgid "Set Mainmenu Online"
+msgstr "Hauptmenü online setzen"
+
+#: ../Boot.php:45
+msgid "List all Menus"
+msgstr "Alle Menüs auflisten"
+
+#: ../Boot.php:46
+msgid "Add new Menu"
+msgstr "Neues Menü hinzufügen"
+
+#: ../Boot.php:47
+msgid "Modify Menu"
+msgstr "Menü ändern"
+
+#: ../Boot.php:48
+msgid "Delete Menu"
+msgstr "Menü löschen"
+
+#: ../Boot.php:49
+msgid "Set Menu Offline"
+msgstr "Menü offline setzen"
+
+#: ../Boot.php:50
+msgid "Set Menu Online"
+msgstr "Menü online setzen"
+
+#: ../Boot.php:52
+msgid "Select Page Content Design"
+msgstr "Entwurf für Seiteninhalt wählen"
+
+#: ../Boot.php:53
+msgid "List all Pages"
+msgstr "Alle Seiten auflisten"
+
+#: ../Boot.php:54
+msgid "Add new Page"
+msgstr "Neue Seite hinzufügen"
+
+#: ../Boot.php:55
+msgid "Modify Page"
+msgstr "Seite ändern"
+
+#: ../Boot.php:56
+msgid "Delete Page"
+msgstr "Seite löschen"
+
+#: ../Boot.php:57
+msgid "Set Page Offline"
+msgstr "Seite offline setzen"
+
+#: ../Boot.php:58
+msgid "Set Page Online"
+msgstr "Seite online setzen"
+
+#: ../Boot.php:59
+msgid "Design Pages"
+msgstr "Seiten entwerfen"
+
+#: ../Boot.php:60
+msgid "Show Qiucklist"
+msgstr "Zeige Quicklist"
+
+#: ../Boot.php:62
+msgid "List all Sites"
+msgstr "Alle Seiten auflisten"
+
+#: ../Boot.php:63
+msgid "Add new Site"
+msgstr "Neue Seite hinzufügen"
+
+#: ../Boot.php:64
+msgid "Modify Site"
+msgstr "Seite ändern"
+
+#: ../Boot.php:65
+msgid "Delete Site"
+msgstr "Seite löschen"
+
+#: ../Boot.php:66
+msgid "Design Sites"
+msgstr "Seiten entwerfen"
+
+#: ../Controllers/Setting.php:33
+msgid "Product Settings"
+msgstr "Produkteinstellungen"
+
+#: ../Controllers/Setting.php:45
+msgid "Product List Frontend"
+msgstr "Frontend Produktliste"
+
+#: ../Controllers/Setting.php:57
+msgid "Display Mode"
+msgstr "Darstellungsmodus"
+
+#: ../Controllers/Setting.php:68
+msgid "Product Image Settings"
+msgstr "Produktbildeinstellungen"
+
+#: ../Controllers/Setting.php:71
+msgid "Image Width (Pixel)"
+msgstr "Bildbreite (Pixel)"
+
+#: ../Controllers/Setting.php:76
+msgid "Image Height (Pixel)"
+msgstr "Bildhöhe (Pixel)"
+
+#: ../Controllers/Setting.php:81
+msgid "Image Thumb Width (Pixel)"
+msgstr "Vorschaubild Breite (Pixel"
+
+#: ../Controllers/Setting.php:86
+msgid "Image Thumb Height (Pixel)"
+msgstr "Vorschaubild Höhe (Pixel)"
+
+#: ../Controllers/Setting.php:97
+msgid "Shopping Cart & Stock Management"
+msgstr "Einkaufswagen & Lagerverwaltung"
+
+#: ../Controllers/Setting.php:100
+msgid "Alert when Quantity less than"
+msgstr "Benachrichtigen wenn Menge weniger als "
+
+#: ../Controllers/Setting.php:105
+msgid "Please give Email(s) separated with \",\""
+msgstr "Bitte Emailadresse(n) angeben, getrennt durch \",\""
+
+#: ../Controllers/Setting.php:111
+msgid "Enable Auto Stock Management?"
+msgstr "Automatische Lagerverwaltung einschalten?"
+
+#: ../Controllers/Setting.php:114
+msgid "Display Products when Quantity is null?"
+msgstr "Produkte zeigen wenn Menge 0 ist?"
+
+#: ../Controllers/Category/Add.php:31
+msgid "Add new product category"
+msgstr "Neue Produktkategorie hinzufügen"
+
+#: ../Controllers/Category/Add.php:51 ../Controllers/Category/Modify.php:74
+#: ../Controllers/Document/Add.php:64 ../Controllers/Image/Add.php:56
+#: ../Controllers/Image/Modify.php:62 ../Controllers/Price/Modify.php:69
+#: ../Controllers/Product/Add.php:118 ../Controllers/Product/Modify.php:60
+msgid "Please check inputs."
+msgstr "Bitte Eingaben überprüfen."
+
+#: ../Controllers/Category/List.php:33
+msgid "List all category"
+msgstr "Alle Kategorien auflisten"
+
+#: ../Controllers/Category/Modify.php:34
+msgid "Modify product category"
+msgstr "Produktkategorie ändern"
+
+#: ../Controllers/Category/Sort.php:13
+msgid "Sort Categorys"
+msgstr "Kategorien sortieren"
+
+#: ../Controllers/Document/Add.php:34
+msgid "Add a new Product Document"
+msgstr "Neues Produktdokument hinzufügen"
+
+#: ../Controllers/Document/Add.php:62
+msgid "Project was successully added"
+msgstr "Projekt wurde erfolgreich hinzugefügt"
+
+#: ../Controllers/Document/Detail.php:39
+msgid "Document Details"
+msgstr "Dokumentinformationen"
+
+#: ../Controllers/Image/Add.php:35
+msgid "Create new Product Image"
+msgstr "Neues Produktbild erstellen"
+
+#: ../Controllers/Image/List.php:38
+msgid "List projects"
+msgstr "Alle Projekte auflisten"
+
+#: ../Controllers/Image/Modify.php:34
+msgid "Edit Product Image"
+msgstr "Produktbild editieren"
+
+#: ../Controllers/Price/Modify.php:40 ../Controllers/Price/Price.php:35
+msgid "Product Prices"
+msgstr "Produktpreise"
+
+#: ../Controllers/Price/Price.php:39 ../../Forms/Price/Form.php:28
+msgid "Prices"
+msgstr "Preise"
+
+#: ../Controllers/Price/Price.php:41 ../Controllers/Price/Price.php:64
+#: ../Controllers/Product/Quicklist.php:72 ../../Forms/Price/Form.php:30
+#: ../../Forms/Price/Form.php:54 ../../Grids/Product/DataGridView.php:48
+msgid "Price"
+msgstr "Preis"
+
+#: ../Controllers/Price/Price.php:45 ../../Forms/Price/Form.php:34
+msgid "Special Price"
+msgstr "Angebotspreis"
+
+#: ../Controllers/Price/Price.php:49 ../../Forms/Price/Form.php:38
+msgid "Date From"
+msgstr "Von"
+
+#: ../Controllers/Price/Price.php:54 ../../Forms/Price/Form.php:43
+msgid "Date To"
+msgstr "Bis"
+
+#: ../Controllers/Price/Price.php:59 ../../Forms/Price/Form.php:48
+msgid "Table Price"
+msgstr "Staffelpreis"
+
+#: ../Controllers/Price/Price.php:62 ../Controllers/Product/Quicklist.php:69
+#: ../../Forms/Price/Form.php:52 ../../Grids/Product/DataGridView.php:55
+msgid "Quantity"
+msgstr "Menge"
+
+#: ../Controllers/Price/Price.php:67 ../Controllers/Product/Detail.php:69
+#: ../Controllers/Product/Grouped.php:64 ../Controllers/Product/List.php:113
+#: ../Controllers/Product/List.php:121 ../../Forms/Price/Form.php:57
+#: ../../Grids/Category/DataGridView.php:47
+#: ../../Grids/Document/DataGridView.php:48
+#: ../../Grids/Image/DataGridView.php:54
+#: ../../Grids/Product/DataGridView.php:68
+msgid "Delete"
+msgstr "Löschen"
+
+#: ../Controllers/Price/Price.php:89
+#: ../Controllers/Product/Configuration.php:157
+#: ../../Forms/Category/Form.php:95 ../../Forms/Document/Form.php:77
+#: ../../Forms/Image/Form.php:104 ../../Forms/Price/Form.php:66
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../Controllers/Price/Price.php:90 ../../Forms/Category/Form.php:64
+#: ../../Forms/Comment/Form.php:64 ../../Forms/Document/Form.php:59
+#: ../../Forms/Image/Form.php:85
+msgid "Save"
+msgstr "Speichern"
+
+#: ../Controllers/Product/Add.php:33
+msgid "Add new product"
+msgstr "Neues Produkt hinzufügen"
+
+#: ../Controllers/Product/Configuration.php:41
+msgid "Product Configurations"
+msgstr "Produktkonfiguration"
+
+#: ../Controllers/Product/Configuration.php:109
+msgid "Configuration Attributes"
+msgstr "Attribute konfigurieren"
+
+#: ../Controllers/Product/Configuration.php:122
+msgid "Configurable Products"
+msgstr "Konfigurierbare Produkte"
+
+#: ../Controllers/Product/Configuration.php:158
+msgid "Save Configuration"
+msgstr "Konfiguration speichern"
+
+#: ../Controllers/Product/Detail.php:51
+msgid "Project Details"
+msgstr "Projektinformationen"
+
+#: ../Controllers/Product/Grouped.php:45
+msgid "Manage Grouped Products"
+msgstr "Gruppierte Produkte verwalten"
+
+#: ../Controllers/Product/Grouped.php:62
+msgid "Grouped Products"
+msgstr "Gruppierte Produkte"
+
+#: ../Controllers/Product/Grouped.php:74
+msgid "Select Product"
+msgstr "Produkt auswählen"
+
+#: ../Controllers/Product/List.php:109
+msgid "Duplication"
+msgstr "Dublizierung"
+
+#: ../Controllers/Product/List.php:110
+msgid "Set Online"
+msgstr "Online setzen"
+
+#: ../Controllers/Product/List.php:111
+msgid "Set Offline"
+msgstr "Offline setzen"
+
+#: ../Controllers/Product/List.php:112
+#: ../../Grids/Category/DataGridView.php:42
+#: ../../Grids/Image/DataGridView.php:49
+#: ../../Grids/Product/DataGridView.php:62
+msgid "Edit"
+msgstr "Editieren"
+
+#: ../Controllers/Product/List.php:138
+msgid "List all products"
+msgstr "Alle Produkte auflisten"
+
+#: ../Controllers/Product/Marketing.php:50 ../Controllers/Product/Media.php:49
+msgid "Manage Media"
+msgstr "Medien verwalten"
+
+#: ../Controllers/Product/Marketing.php:78
+msgid "Related Products"
+msgstr "Verbundene Produkte"
+
+#: ../Controllers/Product/Marketing.php:83
+#: ../Controllers/Product/Marketing.php:93
+#: ../Controllers/Product/Marketing.php:104
+#: ../Controllers/Product/Prepare.php:31
+msgid "Add new Product"
+msgstr "Neue Produkte"
+
+#: ../Controllers/Product/Marketing.php:89
+msgid "Cross Selling"
+msgstr "Cross Selling"
+
+#: ../Controllers/Product/Marketing.php:100
+msgid "Up Selling"
+msgstr "Upselling"
+
+#: ../Controllers/Product/Media.php:55
+msgid "Product Images"
+msgstr "Produktbilder"
+
+#: ../Controllers/Product/Media.php:61
+msgid "Add new Image"
+msgstr "Neues Bild hinzufügen"
+
+#: ../Controllers/Product/Media.php:77
+msgid "Product Documents"
+msgstr "Produktdokumente"
+
+#: ../Controllers/Product/Media.php:81
+msgid "Add new Document"
+msgstr "Neues Dokument hinzufügen"
+
+#: ../Controllers/Product/Modify.php:34
+msgid "Modify product"
+msgstr "Produkt ändern"
+
+#: ../Controllers/Product/Prepare.php:39
+msgid "Product Type"
+msgstr "Produktart"
+
+#: ../Controllers/Product/Prepare.php:41
+msgid "Simple Product"
+msgstr "Einfaches Produkt"
+
+#: ../Controllers/Product/Prepare.php:42
+msgid "Service Product"
+msgstr "Dienstleistung"
+
+#: ../Controllers/Product/Prepare.php:43
+msgid "Grouped Product"
+msgstr "Gruppierte Produkte"
+
+#: ../Controllers/Product/Prepare.php:51
+msgid "Attribute Set"
+msgstr "Attributart"
+
+#: ../Controllers/Product/Prepare.php:53
+msgid "Default Attribute Set"
+msgstr "Standard Attributart"
+
+#: ../Controllers/Product/Prepare.php:60 ../../Forms/Price/Form.php:67
+#: ../../Forms/Product/Form.php:77
+msgid "Next Step"
+msgstr "Nächster Schritt"
+
+#: ../Controllers/Product/Quicklist.php:54 ../../Forms/Document/Form.php:49
+#: ../../Grids/Image/DataGridView.php:38
+#: ../../Grids/Product/DataGridView.php:37
+msgid "Image"
+msgstr "Bild"
+
+#: ../Controllers/Product/Quicklist.php:60
+msgid "Product Number"
+msgstr "Produktnummer"
+
+#: ../Controllers/Product/Quicklist.php:65
+msgid "Product Name"
+msgstr "Produktname"
+
+#: ../Controllers/Product/Quicklist.php:101
+msgid "Select a product"
+msgstr "Wählen Sie ein Produkt"
+
+#: ../../Forms/Category/Form.php:45 ../../Forms/Document/Form.php:45
+#: ../../Forms/Image/Form.php:54 ../../Forms/Sendtofreind/Form.php:45
+#: ../../Grids/Category/DataGridView.php:34
+msgid "Name"
+msgstr "Name"
+
+#: ../../Forms/Category/Form.php:49
+msgid "Parent Category"
+msgstr "Unterkategorie"
+
+#: ../../Forms/Category/Form.php:56 ../../Grids/Category/DataGridView.php:36
+msgid "Sort Id"
+msgstr "Reihenfolge"
+
+#: ../../Forms/Category/Form.php:59 ../../Grids/Category/DataGridView.php:38
+#: ../../Grids/Category/DataGridView.php:65
+#: ../../Grids/Product/DataGridView.php:101
+msgid "State"
+msgstr "Status"
+
+#: ../../Forms/Category/Form.php:61
+msgid "Description"
+msgstr "Beschreibung"
+
+#: ../../Forms/Category/Form.php:68 ../../Forms/Category/Form.php:70
+msgid "Category Logo"
+msgstr "Logo der Kategorie"
+
+#: ../../Forms/Category/Form.php:76 ../../Forms/Category/Form.php:78
+msgid "Category Banner"
+msgstr "Banner der Kategorie"
+
+#: ../../Forms/Category/Form.php:84 ../../Forms/Document/Form.php:69
+#: ../../Forms/Image/Form.php:89
+msgid "General Informations"
+msgstr "Allgemeine Informationen"
+
+#: ../../Forms/Comment/Form.php:46 ../../Forms/Sendtofreind/Form.php:69
+msgid "Subject"
+msgstr "Thema"
+
+#: ../../Forms/Comment/Form.php:49
+msgid "Comment"
+msgstr "Kommentar"
+
+#: ../../Forms/Comment/Form.php:52 ../../Forms/Document/Form.php:57
+#: ../../Forms/Image/Form.php:75 ../../Grids/Image/DataGridView.php:45
+msgid "Public"
+msgstr "Öffentlich"
+
+#: ../../Forms/Comment/Form.php:54
+msgid "Author"
+msgstr "Autor"
+
+#: ../../Forms/Comment/Form.php:57 ../../Grids/Image/DataGridView.php:47
+msgid "Insert Date"
+msgstr "Eingefügt am"
+
+#: ../../Forms/Comment/Form.php:60
+msgid "Product "
+msgstr "Produkt"
+
+#: ../../Forms/Document/Form.php:49
+msgid "Document"
+msgstr "Dokument"
+
+#: ../../Forms/Document/Form.php:49
+msgid "Zip File"
+msgstr "Zip Datei"
+
+#: ../../Forms/Document/Form.php:49
+msgid "Software"
+msgstr "Software"
+
+#: ../../Forms/Document/Form.php:51 ../../Grids/Image/DataGridView.php:43
+msgid "Type"
+msgstr "Art"
+
+#: ../../Forms/Image/Form.php:60
+msgid "Important for the search engines (image search)"
+msgstr "Wichtig für die Suchmachinen (Bildersuche)"
+
+#: ../../Forms/Image/Form.php:64
+msgid "Max Width (Pixel)"
+msgstr "Max. Breite (Pixel)"
+
+#: ../../Forms/Image/Form.php:69
+msgid "Max Height (Pixel)"
+msgstr "Max. Höhe (Pixel)"
+
+#: ../../Forms/Image/Form.php:76
+msgid "if not public, the image will not be appear in the frontend"
+msgstr "Wenn nicht öffentlich wird das Bild im Frontend nicht erscheinen"
+
+#: ../../Forms/Image/Form.php:80
+msgid "Remote URL"
+msgstr "URL entfernen"
+
+#: ../../Forms/Image/Form.php:83
+msgid "Note: by using remote url, the uploaded image will be ignored!"
+msgstr ""
+"Bemerkung: Wenn die Url entfernt wird, wird das hochgeladene Bild ignoriert!"
+
+#: ../../Forms/Image/Form.php:96
+msgid "Size Informations"
+msgstr "Größeninformation"
+
+#: ../../Forms/Product/Form.php:56 ../../Grids/Product/DataGridView.php:42
+msgid "Title"
+msgstr "Tiel"
+
+#: ../../Forms/Product/Form.php:62 ../../Grids/Product/DataGridView.php:46
+msgid "Number"
+msgstr "Nummer"
+
+#: ../../Forms/Product/Form.php:67 ../../Grids/Product/DataGridView.php:91
+msgid "Category"
+msgstr "Kategorie"
+
+#: ../../Forms/Product/Form.php:80
+msgid "Product Information"
+msgstr "Produktinformationen"
+
+#: ../../Forms/Product/Form.php:85
+msgid "Stock Management"
+msgstr "Lagerverwaltung"
+
+#: ../../Forms/Product/Form.php:86
+msgid "Manage Stock for this Product"
+msgstr "Vorrat für dieses Produkt verwalten"
+
+#: ../../Forms/Product/Form.php:90
+msgid "Available Quantity"
+msgstr "Verfügbare Menge"
+
+#: ../../Forms/Product/Form.php:97
+msgid "Product Description"
+msgstr "Produktbeschreibung"
+
+#: ../../Forms/Product/Form.php:101
+msgid "Navigate To Next Step"
+msgstr "Zum nächsten Schritt navigieren"
+
+#: ../../Forms/Product/Form.php:130
+msgid "Attributes"
+msgstr "Attribute"
+
+#: ../../Forms/Sendtofreind/Form.php:51
+msgid "Email"
+msgstr "Email"
+
+#: ../../Forms/Sendtofreind/Form.php:57
+msgid "Your freinds name"
+msgstr "Der Name Ihres Freundes"
+
+#: ../../Forms/Sendtofreind/Form.php:63
+msgid "Your freinds email"
+msgstr "Die Emailadresse Ihres Freundes"
+
+#: ../../Forms/Sendtofreind/Form.php:75
+msgid "Message"
+msgstr "Nachricht"
+
+#: ../../Forms/Sendtofreind/Form.php:78
+msgid "Send"
+msgstr "Senden"
+
+#: ../../Grids/Category/DataGridView.php:35
+msgid "Parent"
+msgstr "Unter"
+
+#: ../../Grids/Document/DataGridView.php:36
+msgid "Document Name"
+msgstr "Dokumentname"
+
+#: ../../Grids/Document/DataGridView.php:40
+msgid "Document Type"
+msgstr "Dokumentart"
+
+#: ../../Grids/Document/DataGridView.php:42
+msgid "Download"
+msgstr "Downlaod"
+
+#: ../../Grids/Image/DataGridView.php:36
+msgid "Image Name"
+msgstr "Bildname"
+
+#: ../../Grids/Image/DataGridView.php:44
+msgid "Extention"
+msgstr "Erweiterung"
+
+#: ../../Grids/Image/DataGridView.php:46
+msgid "RemoteURL"
+msgstr "URL entfernen"
+
+#: ../../Grids/Product/DataGridView.php:50
+msgid "Product Category"
+msgstr "Produktkategorie"
+
+#: ../../Grids/Product/DataGridView.php:52
+msgid "Discount"
+msgstr "Nachlass"
+
+#: ../../Grids/Product/DataGridView.php:58
+msgid "Online"
+msgstr "Online"

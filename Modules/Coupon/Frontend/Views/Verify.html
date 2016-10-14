@@ -1,0 +1,19 @@
+{$breadcrumb}
+<div class="page_content_offset">
+    <div class="container">
+        <div class="row clearfix">
+            <!--left content column-->
+            <section>
+                <h2 class="tt_uppercase color_dark m_bottom_25">{'Verify Coupon Promotion Code'|tr}</h2>
+				 {if $promotion_message}
+
+				<div class="alert_box r_corners error m_bottom_10">
+                    <i class="fa fa-exclamation-triangle"></i><p>{$promotion_message}</p>
+                </div>
+				 {/if}
+				  {$widget->Render()}
+				  </section>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,40 @@
+
+<div class="slider-and-add-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9 col-lg-9 col-md-9">
+                <!-- SLIDER-AREA-START-->
+                <div class="slider-wrap">
+                    <div class="fullwidthbanner-container" >
+                        <div class="fullwidthbanner-15">
+                            <ul>	<!-- SLIDE-->
+                                  {foreach $main_banners as $banner}
+
+                                    <li
+                                        data-index="rs-26" 
+                                        data-transition="random" 
+                                        data-slotamount="7"  
+                                        data-easein="default" 
+                                        data-easeout="default"
+                                        data-rotate="0"  
+                                        data-saveperformance="off"> 
+
+                                        <img src="{$banner->absolutepath}" data-custom-thumb="{$banner->absolutepath}" >
+                                       
+
+
+                                    </li>
+                                    {/foreach}
+                               
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- SLIDER-AREA-END -->
+
+
+
+            </div>
+        </div>
+    </div>

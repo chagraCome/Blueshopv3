@@ -1,0 +1,49 @@
+{literal}
+<script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/lightbox/jquery.lightbox-0.5.min.js"></script>
+<script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/zoom.js"></script>
+<link href="Amhsoft/Ressources/Javascripts/JQuery/lightbox/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css" />
+
+<script>
+    function changeImage(srcc) {
+		$('#bigImg').attr("src", srcc);
+		$('#zoomed-img').attr("src", srcc);
+		
+    }
+
+    jQuery(document).ready(function()
+    {
+
+
+        jQuery('.smallimages a').lightBox({
+            fixedNavigation: false,
+             maxHeight: 100,
+            maxWidth: 100
+
+        });
+
+        jQuery('#bigImg').click(function() {
+
+            if ($('#small_0').length == 1) {
+                $('#small_0').click();
+            }
+
+        });
+
+
+    });
+
+</script>    
+{/literal}
+
+{if count($product->images) > 1}
+<div class="core_content" style="min-height: 100px">
+    <div style="clear: both;"></div>
+    <div  class="smallimages gray_background">
+        {foreach $product->images as $key => $img}
+        {if $img}<a href="{$img}" id="small_{$key}" ><img style="cursor: pointer; padding: 2px" src="{$img->getThumb()}" class="imageBorder" height="100" alt="{'image thumb'|tr} {$key+1}" onmouseover="changeImage('{$img}')"  onClick="changeImage('{$img}')"/></a>{/if}
+        {/foreach}
+    </div>
+
+</div>
+<br />
+{/if}

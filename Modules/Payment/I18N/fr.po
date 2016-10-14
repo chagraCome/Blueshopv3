@@ -1,0 +1,191 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Payment\n"
+"POT-Creation-Date: 2014-04-16 16:45+0100\n"
+"PO-Revision-Date: 2014-05-02 11:40+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _t;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../key_words_html.php:6
+msgid "Please select a Payment method"
+msgstr "S'il vous plaît sélectionner une méthode de paiement"
+
+#: ../key_words_html.php:7
+msgid "Next"
+msgstr "Suivant"
+
+#: ../key_words_html.php:9 ../key_words_html.php:13 ../key_words_html.php:17
+#: ../key_words_html.php:21 ../key_words_html.php:25 ../key_words_html.php:29
+#: ../key_words_html.php:33 ../key_words_html.php:37
+msgid "Information"
+msgstr "Informations"
+
+#: ../key_words_html.php:10 ../key_words_html.php:23 ../key_words_html.php:27
+#: ../Backend/Boot.php:27 ../Backend/Boot.php:37
+msgid "List Payment Methods"
+msgstr "Liste des méthodes de paiement"
+
+#: ../key_words_html.php:11
+msgid "Add Payment Methods"
+msgstr "Ajouter une  méthode de paiement"
+
+#: ../key_words_html.php:14
+msgid "Edit Payment Method Image"
+msgstr "Modifier l'image "
+
+#: ../key_words_html.php:15
+msgid "List Payment Method Image"
+msgstr "Liste des images"
+
+#: ../key_words_html.php:18 ../Backend/Boot.php:38
+msgid "Add new Payment Method"
+msgstr "Ajouter une méthode de paiement"
+
+#: ../key_words_html.php:19 ../Backend/Controllers/Payment/List.php:38
+msgid "List Payment Method"
+msgstr "Liste de méthode de paiement"
+
+#: ../key_words_html.php:22 ../Backend/Boot.php:40
+#: ../Backend/Controllers/Payment/Modify.php:33
+msgid "Edit Payment Method"
+msgstr "Modifier la méthode de paiement"
+
+#: ../key_words_html.php:26
+msgid "Add new Payment Methods"
+msgstr "Ajouter une méthode de paiement"
+
+#: ../key_words_html.php:30 ../key_words_html.php:34 ../key_words_html.php:38
+msgid "Add new Project"
+msgstr "Ajouter un nouveau projet"
+
+#: ../key_words_html.php:31 ../key_words_html.php:35 ../key_words_html.php:39
+msgid "List Projects"
+msgstr "Liste des projets"
+
+#: ../Backend/Boot.php:26
+msgid "Payment"
+msgstr "Méthode de paiement"
+
+#: ../Backend/Boot.php:28
+msgid "Add Payment Method"
+msgstr "Ajouter une méthode de paiement"
+
+#: ../Backend/Boot.php:36
+msgid "Payment Module"
+msgstr " Méthode de paiement"
+
+#: ../Backend/Boot.php:39
+msgid "Show Payment Method Information"
+msgstr "Afficher les informations de méthode de paiement"
+
+#: ../Backend/Boot.php:41
+msgid "Delete Payment Method"
+msgstr "Supprimer la méthode de paiement"
+
+#: ../Backend/Boot.php:42
+msgid "Set Payment Method Offline"
+msgstr "Mettre la  méthode de paiement en ligne"
+
+#: ../Backend/Boot.php:43
+msgid "Set Payment Method Online"
+msgstr "Mettre la méthode de paiement hors ligne"
+
+#: ../Backend/Controllers/Payment/Add.php:33
+#: ../Backend/Controllers/Payment/Image.php:30
+#: ../Backend/Controllers/Payment/Image.php:32
+msgid "Create new Payment Method"
+msgstr "Créer une méthode de paiement"
+
+#: ../Backend/Controllers/Payment/Add.php:54
+#: ../Backend/Controllers/Payment/Modify.php:64
+msgid "Please check inputs."
+msgstr "S'il vous plaît vérifier les entrées."
+
+#: ../Backend/Controllers/Payment/Image.php:48
+msgid "Add Payment Method Image"
+msgstr "Ajouter l'image de la méthode de paiement"
+
+#: ../Backend/Controllers/Payment/Image.php:56
+msgid "Payment Method Images"
+msgstr "Images de méthode de paiiement"
+
+#: ../Backend/Controllers/Payment/Image.php:60
+msgid "Add new Image"
+msgstr "Ajouter une nouvelle image"
+
+#: ../Forms/Payment/Form.php:57 ../Grids/Payment/DataGridView.php:38
+#: ../Panels/Payment/Panel.php:47
+msgid "Name"
+msgstr "Nom"
+
+#: ../Forms/Payment/Form.php:61 ../Grids/Payment/DataGridView.php:39
+msgid "Fee"
+msgstr "Frais"
+
+#: ../Forms/Payment/Form.php:63
+msgid "Fee can be 5.0 or 5%"
+msgstr "Frais peuvent être 5.0 ou 5%"
+
+#: ../Forms/Payment/Form.php:64 ../Forms/Payment/Form.php:88
+msgid "Description"
+msgstr "Description"
+
+#: ../Forms/Payment/Form.php:67 ../Panels/Payment/Panel.php:48
+msgid "Sort ID"
+msgstr "Trier ID"
+
+#: ../Forms/Payment/Form.php:69
+msgid "Online"
+msgstr "En ligne"
+
+#: ../Forms/Payment/Form.php:70
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: ../Forms/Payment/Form.php:80
+msgid "Payment Name"
+msgstr "Nom de méthode de paiement"
+
+#: ../Forms/Payment/Form.php:83
+msgid "Payment Settings"
+msgstr "Paramètres de paiement"
+
+#: ../Forms/Payment/Form.php:86
+msgid "Logo"
+msgstr "Logo"
+
+#: ../Forms/Payment/Form.php:90
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../Grids/Payment/DataGridView.php:40 ../Panels/Payment/Panel.php:49
+msgid "Status"
+msgstr "Statut"
+
+#: ../Grids/Payment/DataGridView.php:43
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../Grids/Payment/DataGridView.php:47
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../Grids/Payment/DataGridView.php:52
+msgid "Settings"
+msgstr "Paramètres"
+
+#: ../Panels/Payment/Panel.php:45
+msgid "Payment Information"
+msgstr "Information de  paiement"
+
+#: ../Panels/Payment/Panel.php:50
+msgid "Account Information"
+msgstr "Informations du compte"

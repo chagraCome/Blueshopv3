@@ -1,0 +1,406 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Setting\n"
+"POT-Creation-Date: 2014-04-17 17:36+0100\n"
+"PO-Revision-Date: 2014-05-02 11:51+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _t;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: key_words_html.php:3 key_words_html.php:7 key_words_html.php:11
+#: ../key_words_html.php:8 ../key_words_html.php:12 ../key_words_html.php:16
+#: ../key_words_html.php:21 ../key_words_html.php:25 ../key_words_html.php:29
+#: ../key_words_html.php:33 ../key_words_html.php:55 ../key_words_html.php:60
+#: ../key_words_html.php:64 ../I18N/key_words_html.php:3
+#: ../I18N/key_words_html.php:7 ../I18N/key_words_html.php:11
+msgid "Information"
+msgstr "Informations"
+
+#: key_words_html.php:4 key_words_html.php:8 key_words_html.php:12
+#: ../key_words_html.php:9 ../key_words_html.php:13 ../key_words_html.php:17
+#: ../I18N/key_words_html.php:4 ../I18N/key_words_html.php:8
+#: ../I18N/key_words_html.php:12
+msgid "Add new Email Template"
+msgstr "Ajouter une nouvelle template de courrier électronique"
+
+#: key_words_html.php:5 key_words_html.php:9 key_words_html.php:13
+#: ../key_words_html.php:10 ../key_words_html.php:14 ../key_words_html.php:18
+#: ../key_words_html.php:57 ../Backend/Boot.php:60
+#: ../I18N/key_words_html.php:5 ../I18N/key_words_html.php:9
+#: ../I18N/key_words_html.php:13
+msgid "List Email Templates"
+msgstr "Liste template Email"
+
+#: key_words_html.php:14 ../I18N/key_words_html.php:14
+msgid "Template body"
+msgstr "Corps  de Template"
+
+#: key_words_html.php:15 ../I18N/key_words_html.php:15
+msgid "Template Header"
+msgstr "Tête de Template "
+
+#: key_words_html.php:16 ../I18N/key_words_html.php:16
+msgid "Template Footer"
+msgstr "Pied de Template"
+
+#: key_words_html.php:17 ../I18N/key_words_html.php:17
+msgid "Modify Offline Page"
+msgstr "Modifier la page  Hors ligne"
+
+#: ../key_words_html.php:22 ../key_words_html.php:26 ../key_words_html.php:30
+#: ../key_words_html.php:61 ../key_words_html.php:65
+msgid "Add new Print Template"
+msgstr "Ajouter une nouvelle template d'impression"
+
+#: ../key_words_html.php:23 ../key_words_html.php:27 ../key_words_html.php:31
+#: ../key_words_html.php:58 ../key_words_html.php:62 ../key_words_html.php:66
+#: ../Backend/Boot.php:67
+msgid "List Print Templates"
+msgstr "Liste de template d'impression"
+
+#: ../key_words_html.php:34
+msgid "General settings"
+msgstr "Paramètres générale"
+
+#: ../key_words_html.php:35
+msgid "General information"
+msgstr "Informations générales"
+
+#: ../key_words_html.php:36
+msgid "Website name"
+msgstr "Nom du site"
+
+#: ../key_words_html.php:37
+msgid "Very important for search engine"
+msgstr "Très important pour le moteur de recherche"
+
+#: ../key_words_html.php:38
+msgid "Website description"
+msgstr "Description du site"
+
+#: ../key_words_html.php:39
+msgid "Website keywords"
+msgstr " Mots-clés de site Web "
+
+#: ../key_words_html.php:40 ../key_words_html.php:67
+msgid "Google Analytics Code"
+msgstr "Code Google Analytics"
+
+#: ../key_words_html.php:41
+msgid "Website owner"
+msgstr "Propriétaire du site"
+
+#: ../key_words_html.php:42
+msgid "Address"
+msgstr "Adresse"
+
+#: ../key_words_html.php:43
+msgid "Telephone"
+msgstr "Téléphone"
+
+#: ../key_words_html.php:44
+msgid "Fax"
+msgstr "Fax"
+
+#: ../key_words_html.php:45
+msgid "Mobile"
+msgstr "Mobile"
+
+#: ../key_words_html.php:46
+msgid "Email Address"
+msgstr "Adresse e-mail"
+
+#: ../key_words_html.php:47
+msgid "Other settings"
+msgstr "Autres paramètres"
+
+#: ../key_words_html.php:48
+msgid "URL friendly"
+msgstr "URL conviviale"
+
+#: ../key_words_html.php:49
+msgid "RSS"
+msgstr "RSS"
+
+#: ../key_words_html.php:50 ../key_words_html.php:68
+msgid "Shop Offline"
+msgstr "Boutique Hors ligne"
+
+#: ../key_words_html.php:51 ../key_words_html.php:69
+msgid "Open Shop Only for ip"
+msgstr "Ouvrir une boutique Seulement pour ip"
+
+#: ../key_words_html.php:52
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../key_words_html.php:53 ../Backend/Controllers/Currency/List.php:98
+#: ../Forms/Template/Email/Form.php:58 ../Forms/Template/Print/Form.php:58
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: ../key_words_html.php:56 ../Backend/Controllers/General.php:28
+msgid "General Settings"
+msgstr "Paramètres générale"
+
+#: ../key_words_html.php:70
+msgid "Manage General Settings"
+msgstr "Gérer les paramètres général"
+
+#: ../key_words_html.php:71
+msgid "AmhComplete Professional Edition Control Panel"
+msgstr "Panneau de configuration AmhComplete Édition Professionnelle"
+
+#: ../key_words_html.php:72
+msgid "Help"
+msgstr "Aide"
+
+#: ../key_words_html.php:73
+msgid "Choose your Language"
+msgstr "Choisissez votre langue"
+
+#: ../key_words_html.php:74
+msgid "Monthly Revenue"
+msgstr "Revenu mensuel"
+
+#: ../key_words_html.php:75
+msgid "Daily Revenue"
+msgstr "Revenu quotidien"
+
+#: ../key_words_html.php:76
+msgid "Last 5 Accounts"
+msgstr "5 Derniers comptes"
+
+#: ../key_words_html.php:77
+msgid "Last Invoices"
+msgstr "Derniers factures"
+
+#: ../key_words_html.php:78
+msgid "Last Quotations"
+msgstr "Derniers Devis"
+
+#: ../key_words_html.php:79
+msgid "Website Admin"
+msgstr "Site Web d'administration"
+
+#: ../Backend/Boot.php:26
+msgid "Setting"
+msgstr "Paramètre"
+
+#: ../Backend/Boot.php:27
+msgid "General"
+msgstr "Générale"
+
+#: ../Backend/Boot.php:28
+msgid "Manage Currencies"
+msgstr "Gérer les Devises"
+
+#: ../Backend/Boot.php:56
+msgid "Setting Module"
+msgstr "Module Configuration"
+
+#: ../Backend/Boot.php:57
+msgid "List all Currency"
+msgstr "Liste de tous devises"
+
+#: ../Backend/Boot.php:58
+msgid "Add Email Template"
+msgstr "Ajouter Template de courrier électronique"
+
+#: ../Backend/Boot.php:59
+msgid "Dlete Email Template"
+msgstr "Supprimer une template de courrier électronique"
+
+#: ../Backend/Boot.php:61
+msgid "Modify Email Template"
+msgstr "Modifier le template de courrier électronique"
+
+#: ../Backend/Boot.php:62
+msgid "Quicklist Email Template"
+msgstr "Liste rapide de template de courrier électronique"
+
+#: ../Backend/Boot.php:63
+msgid "Add Print Template"
+msgstr "Ajouter une template d'impression"
+
+#: ../Backend/Boot.php:64
+msgid "Header Print Template"
+msgstr "Tête de template d'impression"
+
+#: ../Backend/Boot.php:65
+msgid "Footer Print Template"
+msgstr "Pied de Template d'impression"
+
+#: ../Backend/Boot.php:66
+msgid "Delete Print Template"
+msgstr "Supprimer la template d'impression"
+
+#: ../Backend/Boot.php:68
+msgid "Modify Print Template"
+msgstr "Modifier la template d'impression"
+
+#: ../Backend/Boot.php:69
+msgid "Quicklist Print Template"
+msgstr "liste Rapide  de Template d'imprission"
+
+#: ../Backend/Boot.php:70
+msgid "General Setting"
+msgstr "Paramètre général"
+
+#: ../Backend/Controllers/General.php:32
+msgid "Shop Logo"
+msgstr "logo de boutique"
+
+#: ../Backend/Controllers/General.php:49
+msgid "Data saved successfully."
+msgstr "Les données enregistrées avec succès."
+
+#: ../Backend/Controllers/Currency/List.php:28
+msgid "Manage Currency Rates"
+msgstr "Gérer Taux De Change"
+
+#: ../Backend/Controllers/Currency/List.php:74
+msgid "Currency List"
+msgstr "Liste des devises"
+
+#: ../Backend/Controllers/Currency/List.php:76
+msgid "Base Currency"
+msgstr "Devise de base"
+
+#: ../Backend/Controllers/Currency/List.php:80
+msgid "Currency"
+msgstr "Devises"
+
+#: ../Backend/Controllers/Currency/List.php:82
+msgid "Time Zone"
+msgstr "Fuseau horaire"
+
+#: ../Backend/Controllers/Currency/List.php:84
+msgid "Currency Symbol"
+msgstr "Symbole monétaire"
+
+#: ../Backend/Controllers/Currency/List.php:87
+msgid "Currency Decimal"
+msgstr "Devise décimale"
+
+#: ../Backend/Controllers/Currency/List.php:90
+msgid "Currency Rate"
+msgstr "Taux  de devise"
+
+#: ../Backend/Controllers/Currency/List.php:100
+msgid "Update Currency from Yahoo Financial Center"
+msgstr "Mettre à jour devises à partir de Yahoo Financial Center"
+
+#: ../Backend/Controllers/Currency/List.php:102
+msgid "Reset Currency"
+msgstr "Réinitialiser devises"
+
+#: ../Backend/Controllers/Currency/List.php:109
+msgid ""
+"Note : If you want to delete the Currency Decimal in the product price, "
+"please set the currency decimal to 0"
+msgstr ""
+"Remarque: Si vous voulez supprimer la décimale de devises dans le prix du "
+"produit, s'il vous plaît définir la monnaie décimale à 0"
+
+#: ../Backend/Controllers/Currency/List.php:110
+msgid ""
+"Warning: When you reset currency you must click on update currencies from "
+"Yahoo Financial Center"
+msgstr ""
+"Avertissement: Lorsque vous réinitialisez devises, vous devez cliquer sur la "
+"mise à jour des devises de centre financier de Yahoo "
+
+#: ../Backend/Controllers/Currency/List.php:148
+#: ../Backend/Controllers/Sms/Modify.php:57
+msgid "Data was successfully saved"
+msgstr "Les données ont été sauvegardées avec succès"
+
+#: ../Backend/Controllers/Sms/List.php:26
+msgid "Manage SMS Gateways"
+msgstr "Gérer les passerelles SMS"
+
+#: ../Backend/Controllers/Sms/List.php:28
+msgid "Gateway Name"
+msgstr "Nom de la passerelle"
+
+#: ../Backend/Controllers/Sms/List.php:29
+msgid "User Name"
+msgstr "Nom d'utilisateur"
+
+#: ../Backend/Controllers/Sms/List.php:30
+#: ../Backend/Controllers/Sms/Modify.php:76
+msgid "Sender"
+msgstr "Expéditeur"
+
+#: ../Backend/Controllers/Sms/List.php:32
+msgid "Modify"
+msgstr "Modifier"
+
+#: ../Backend/Controllers/Sms/List.php:37
+msgid "Set as default"
+msgstr "Définir par défaut"
+
+#: ../Backend/Controllers/Sms/Modify.php:30
+msgid "Modify Gateway"
+msgstr "Modifier passerelle"
+
+#: ../Backend/Controllers/Sms/Modify.php:70
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: ../Backend/Controllers/Sms/Modify.php:73
+msgid "Password"
+msgstr "Password"
+
+#: ../Backend/Controllers/Sms/Modify.php:79
+msgid "Submit"
+msgstr "Envoyer"
+
+#: ../Forms/Template/Email/Form.php:47 ../Forms/Template/Print/Form.php:46
+#: ../Grids/Template/Email/DataGridView.php:38
+#: ../Grids/Template/Print/DataGridView.php:37
+msgid "Name"
+msgstr "Nom"
+
+#: ../Forms/Template/Email/Form.php:51
+#: ../Grids/Template/Email/DataGridView.php:39
+msgid "Subject"
+msgstr "Sujet"
+
+#: ../Forms/Template/Email/Form.php:54 ../Forms/Template/Print/Form.php:50
+msgid "Variables"
+msgstr "Variables"
+
+#: ../Forms/Template/Email/Form.php:56
+msgid "Content"
+msgstr "Contenu"
+
+#: ../Forms/Template/Print/Form.php:52
+msgid "Body"
+msgstr "corps"
+
+#: ../Forms/Template/Print/Form.php:54
+msgid "Header"
+msgstr "tête"
+
+#: ../Forms/Template/Print/Form.php:56
+msgid "Footer"
+msgstr "Pied de page"
+
+#: ../Grids/Template/Email/DataGridView.php:40
+#: ../Grids/Template/Print/DataGridView.php:38
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../Grids/Template/Email/DataGridView.php:45
+#: ../Grids/Template/Print/DataGridView.php:44
+msgid "Delete"
+msgstr "Supprimer"

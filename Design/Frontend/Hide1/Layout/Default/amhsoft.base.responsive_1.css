@@ -1,0 +1,108 @@
+@media all and (max-width: 790px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+    .amh-1_1, .amh-container, .amh-content, .amh-1_2, .amh-1_3, .amh-2_3, .amh-1_4, .amh-3_4, .amh-4_5,.amh-3_5,.amh-2_5,.amh-1_5{
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    #address_form > table > tbody > tr > td:first-child {
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    #address_form > table > tbody > tr > td {
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+        float: right;
+    }
+    .amh-1_6{
+        width: 30%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .amh-5_6{
+        width: 66%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .m_top_20_responsive{
+        margin-top:20px;
+    }
+
+    .amh-right{
+        float: none  !important;
+    }
+    .amh-left{
+        float: none !important;
+    }
+
+    .amh-left-rp{
+        float: left !important;
+    }
+
+    .amh-right-rp{
+        float: right !important;
+    }
+
+    .amh-text-left-rp{
+        text-align: left !important;
+    }
+
+    .amh-text-center-rp{
+        text-align: center !important;
+    }
+    .amh-text-right-rp{
+        text-align: right !important;
+    }
+
+    .amh-only-desktop{
+        display: none;
+        width: 0;
+    }
+    .amh-only-mobile{
+        display: block;
+    }
+    .amh-full-width-rp{
+        width:100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    /** blueshop ***/
+    .panel-div > *, .login_content, .register_content{
+        width: 98% !important;
+        margin-left: 1%;
+        margin-right: 1%;
+        min-height: 0px !important;
+    }
+    .panel-div input, .panel-div select{
+        /*  line-height: 30px !important;
+          height: 30px !important;*/
+        margin: 0;
+    }
+    ul.dropdown ul{
+        right: auto;
+        width: 200px;
+    }
+    #bigImg{
+        width: 100%;
+        height: 100%;
+    }
+    a.Button, button.Button{
+        display: block;
+        text-align: center;
+        line-height: 32px;
+        height: 32px;
+        width: 100%;
+        margin: 4px 0%;
+        padding: 0 !important;
+        font-weight: bold;
+    }
+    #captch_verification{
+        width: 95% !important;
+    }
+
+
+}
+
+}

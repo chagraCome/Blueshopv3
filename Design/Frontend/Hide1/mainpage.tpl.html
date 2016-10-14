@@ -1,0 +1,42 @@
+{include file='homepage.tpl.html'}
+
+
+<section class="product-tab-carousl area-space">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="tab-menu">
+                    <ul>
+                        <li class="active"><a href="#latest" data-toggle="tab">{'latest products'|tr}</a></li>
+                        <li><a href="#featured" data-toggle="tab">{'new products'|tr}</a></li>
+                        <li><a href="#special" data-toggle="tab">{'special products'|tr} </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="tab-content">
+                <!-- FEATURED-TAB-START -->
+               
+                {include file='mainpage-latestproducts.tpl.html'}
+             
+                {include file='mainpage-newproducts.tpl.html'}
+              
+                <!-- FEATURED-TAB-END -->
+                
+
+                <!-- RANDOM-TAB-START -->
+
+                <!-- RANDOM-TAB-END -->
+                <!-- SPECIAL-TAB-START -->
+                {include file='mainpage-specialproducts.tpl.html'}
+
+                <!-- SALE-TAB-END -->
+            </div>
+        </div>
+    </div>
+</section>
+{if $show_manufacturer_home_page == 1}
+{include file='brands.tpl.html'}
+{/if}

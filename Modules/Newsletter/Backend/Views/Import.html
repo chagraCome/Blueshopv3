@@ -1,0 +1,59 @@
+<fieldset>
+    <legend>{'Newsletter'|tr}</legend>
+    <div class="{$class}">{$message}</div>
+</fieldset>
+
+<fieldset>
+    <legend>
+        <!-- begin action -->
+        <span class="list"><a href="admin.php?module=newsletter&amp;page=emails-groups-list">{'Groups'|tr}</a></span>
+        <!-- end action --> |
+        <!-- begin action -->
+        <span class="list"><a href="admin.php?module=newsletter&amp;page=emails-list">{'E-Mail'|tr}</a></span>
+        <!-- end action -->
+    </legend>
+    <form name="step1" action="" method="post" enctype="multipart/form-data" style="display:inline">
+        <div class="panel">
+            {fieldset name="step1_import" title='Import'|tr}
+            <table style="width: 100%">
+                <tr>
+                    <td colspan="2">
+                        <div style="background: #fffacd; padding: 20px; border: 1px solid #EED18F; margin-bottom: 30px">
+                        {'The content of the file should look like this'|tr}:<br />
+                        <i>{'Personal Name'|tr}|email@address.tld|...</i>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align:top; width: 200px">{'Select file'|tr}</td>
+                    <td>
+                        <input type="file" size="32" name="csvfile" id="csvfile" /></td>
+                </tr>
+                <tr>
+                    <td>{'Group'|tr}</td>
+                    <td><select name="newsletter_email_groups_id" id="newsletter_email_groups_id">
+                            {foreach $groups as $group}
+                            <option value="{$group->id}">{$group->name}</option>
+                            {/foreach}
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>{'Import type'|tr}</td>
+                    <td><label for="is_delete1">{'update'|tr}</label>
+                        <input type="radio" size="32" name="is_delete" value="0" id="is_delete1"{if $is_delete == 0} checked="checked"{/if} />
+                               <label for="is_delete2">{'delete'|tr}</label>
+                        <input type="radio" size="32" name="is_delete" value="1" id="is_delete2"{if $is_delete == 1} checked="checked"{/if} />
+                    </td>
+                </tr>
+            </table>
+            {/fieldset}
+            {fieldset name="page_navigation" title='Navigation'|tr}
+            <table width="100%">
+                <tr>
+                    <td ><input name="save" type="submit" id="save" class="ButtonSave" value="{'save'|tr}" /></td>
+                </tr>
+            </table>
+            {/fieldset}
+        </div>
+    </form>
+</fieldset>

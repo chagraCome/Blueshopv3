@@ -1,0 +1,372 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cart\n"
+"POT-Creation-Date: 2014-05-02 10:08+0100\n"
+"PO-Revision-Date: 2014-05-02 10:14+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _t;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../key_words_html.php:3
+msgid "Information"
+msgstr "informations"
+
+#: ../key_words_html.php:4
+msgid "Manage Email templates"
+msgstr "Gérer les  templates des E-mail"
+
+#: ../key_words_html.php:5
+msgid "Manage Mail Server Settings"
+msgstr "Gérer les paramètres du serveur de messagerie"
+
+#: ../key_words_html.php:10 ../key_words_html.php:61
+msgid "Account Information"
+msgstr "Informations du compte"
+
+#: ../key_words_html.php:11 ../key_words_html.php:17 ../key_words_html.php:24
+#: ../key_words_html.php:39 ../key_words_html.php:109
+msgid "Shipping Method"
+msgstr "Méthode de livraison"
+
+#: ../key_words_html.php:12 ../key_words_html.php:18 ../key_words_html.php:26
+#: ../key_words_html.php:42 ../key_words_html.php:58 ../key_words_html.php:63
+#: ../key_words_html.php:69 ../key_words_html.php:76 ../key_words_html.php:88
+#: ../key_words_html.php:112
+msgid "Payment Method"
+msgstr "Méthode de paiement"
+
+#: ../key_words_html.php:13 ../key_words_html.php:19 ../key_words_html.php:28
+#: ../key_words_html.php:44 ../key_words_html.php:64 ../key_words_html.php:70
+#: ../key_words_html.php:78 ../key_words_html.php:90 ../key_words_html.php:113
+msgid "Preview Order"
+msgstr "Visualiser la commande"
+
+#: ../key_words_html.php:15 ../key_words_html.php:21 ../key_words_html.php:30
+#: ../key_words_html.php:66 ../key_words_html.php:72 ../key_words_html.php:80
+#: ../key_words_html.php:104
+msgid "Account"
+msgstr "Compte"
+
+#: ../key_words_html.php:16 ../key_words_html.php:22 ../key_words_html.php:23
+#: ../key_words_html.php:25 ../key_words_html.php:31 ../key_words_html.php:34
+#: ../key_words_html.php:40 ../key_words_html.php:43 ../key_words_html.php:67
+#: ../key_words_html.php:73 ../key_words_html.php:75 ../key_words_html.php:81
+#: ../key_words_html.php:85 ../key_words_html.php:89 ../key_words_html.php:105
+#: ../key_words_html.php:108
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../key_words_html.php:27 ../key_words_html.php:59 ../key_words_html.php:77
+#: ../key_words_html.php:111
+msgid "Continue"
+msgstr "Continuer"
+
+#: ../key_words_html.php:32 ../key_words_html.php:36 ../key_words_html.php:38
+#: ../key_words_html.php:82 ../key_words_html.php:87
+msgid "Name"
+msgstr "Nom"
+
+#: ../key_words_html.php:33 ../key_words_html.php:83
+msgid "Tel"
+msgstr "Tel"
+
+#: ../key_words_html.php:35 ../key_words_html.php:62 ../key_words_html.php:68
+#: ../key_words_html.php:74 ../key_words_html.php:84 ../key_words_html.php:86
+#: ../Frontend/Controllers/Checkout/Address.php:127
+#: ../Frontend/Controllers/Checkout/Quickpay.php:179
+#: ../Frontend/Controllers/Checkout/Service/Address.php:98
+msgid "Invoice Address"
+msgstr "Adresse de facturation"
+
+#: ../key_words_html.php:37 ../key_words_html.php:107
+#: ../key_words_html.php:147 ../Frontend/Controllers/Checkout/Address.php:129
+#: ../Frontend/Controllers/Checkout/Quickpay.php:181
+msgid "Shipping Address"
+msgstr "Adresse de livraison"
+
+#: ../key_words_html.php:41 ../key_words_html.php:49 ../key_words_html.php:95
+#: ../key_words_html.php:110 ../key_words_html.php:141
+msgid "Shipping Cost"
+msgstr "Coût de livraison"
+
+#: ../key_words_html.php:45 ../key_words_html.php:91 ../key_words_html.php:121
+msgid "Product"
+msgstr "Produit"
+
+#: ../key_words_html.php:46 ../key_words_html.php:92 ../key_words_html.php:122
+#: ../key_words_html.php:137
+msgid "Unit Price"
+msgstr "Prix unitaire"
+
+#: ../key_words_html.php:47 ../key_words_html.php:93 ../key_words_html.php:123
+#: ../key_words_html.php:138
+msgid "Quantity"
+msgstr "Quantité"
+
+#: ../key_words_html.php:48 ../key_words_html.php:94 ../key_words_html.php:124
+#: ../key_words_html.php:126 ../key_words_html.php:139
+#: ../key_words_html.php:140
+msgid "Sub Total"
+msgstr "Sous totale"
+
+#: ../key_words_html.php:50 ../key_words_html.php:96 ../key_words_html.php:142
+msgid "Handling Fee"
+msgstr "Frais de traitement"
+
+#: ../key_words_html.php:51 ../key_words_html.php:97 ../key_words_html.php:144
+msgid "Total"
+msgstr "Total"
+
+#: ../key_words_html.php:52 ../key_words_html.php:53 ../key_words_html.php:98
+#: ../key_words_html.php:99 ../key_words_html.php:143
+msgid "Discount"
+msgstr "Réduction"
+
+#: ../key_words_html.php:54 ../key_words_html.php:100
+msgid "Grand Total"
+msgstr "Prix Totale"
+
+#: ../key_words_html.php:55 ../key_words_html.php:101
+msgid "Note"
+msgstr "Remarque"
+
+#: ../key_words_html.php:56 ../key_words_html.php:102
+msgid "Submit Order"
+msgstr "Valider la commande"
+
+#: ../key_words_html.php:106
+msgid "Invoice"
+msgstr "Facture"
+
+#: ../key_words_html.php:116 ../key_words_html.php:118
+msgid "Shopping Cart"
+msgstr "Panier"
+
+#: ../key_words_html.php:117
+msgid "Shoppingcart is empty"
+msgstr "Panier est vide"
+
+#: ../key_words_html.php:119 ../key_words_html.php:120
+#: ../key_words_html.php:131
+msgid "Checkout Now"
+msgstr "Commander maintenant"
+
+#: ../key_words_html.php:125
+msgid "Remove"
+msgstr "Supprimer"
+
+#: ../key_words_html.php:127
+msgid "Coupon Discount"
+msgstr "Réduction du coupon"
+
+#: ../key_words_html.php:128
+msgid "Continue Shopping"
+msgstr "Continuer les achats"
+
+#: ../key_words_html.php:129
+msgid "Enter Coupon Code"
+msgstr "Entrez le code de coupon"
+
+#: ../key_words_html.php:130
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: ../key_words_html.php:133 ../key_words_html.php:146
+msgid "Pay Now"
+msgstr "Payer maintenant"
+
+#: ../key_words_html.php:134
+msgid "Product Number"
+msgstr "Numéro de produit"
+
+#: ../key_words_html.php:135
+msgid "Product Name"
+msgstr "Nom du produit"
+
+#: ../key_words_html.php:136
+msgid "Product Description"
+msgstr "Description du produit"
+
+#: ../key_words_html.php:145
+msgid "Choose Your Payment Method"
+msgstr "Choisissez votre méthode de paiement"
+
+#: ../key_words_html.php:148
+msgid "Cart"
+msgstr "Panier"
+
+#: ../Backend/Boot.php:36
+msgid "Shopping cart"
+msgstr "Panier"
+
+#: ../Backend/Controllers/Setting.php:28
+msgid "Shopping cart Settings"
+msgstr "Paramètres  de Panier"
+
+#: ../Backend/Controllers/Setting.php:44
+msgid "Data was successfully saved"
+msgstr "Données a été sauvegardées avec succès"
+
+#: ../Backend/Controllers/Setting.php:55
+msgid "Shopping cart Policies"
+msgstr "Conditions de Panier"
+
+#: ../Backend/Controllers/Setting.php:57
+msgid "Enable Cart Policy"
+msgstr "Activer  les  Conditions de Panier"
+
+#: ../Backend/Controllers/Setting.php:58
+msgid "Enable Retour Policy"
+msgstr "Activer les Conditions de retour"
+
+#: ../Backend/Controllers/Setting.php:60
+msgid "Checkout Type"
+msgstr "Type de procédure d'achat"
+
+#: ../Backend/Controllers/Setting.php:61
+msgid "Quickpay"
+msgstr "Paiement rapide"
+
+#: ../Backend/Controllers/Setting.php:61
+msgid "Full Pay"
+msgstr "Paiement complet"
+
+#: ../Backend/Controllers/Setting.php:68
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: ../Backend/Controllers/Setting.php:75
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../Frontend/Boot.php:27
+msgid "Your cart contains"
+msgstr "Votre panier contient"
+
+#: ../Frontend/Boot.php:27
+msgid "Item"
+msgstr "Elément"
+
+#: ../Frontend/Controllers/List.php:58
+msgid "Product was successfully added to shopping cart"
+msgstr "Le produit a été ajouté avec succès au panier"
+
+#: ../Frontend/Controllers/List.php:61
+msgid "Product was successfully deleted from shopping cart"
+msgstr "Le produit a été supprimé avec succès "
+
+#: ../Frontend/Controllers/List.php:64
+msgid "Your Shopping cart was updated"
+msgstr "Votre panier a été mis à jour"
+
+#: ../Frontend/Controllers/Paynow.php:53
+#: ../Frontend/Controllers/zeroprice.php:54
+msgid "You have no items to sale"
+msgstr "Vous n'avez pas d'éléments à vendre"
+
+#: ../Frontend/Controllers/Paynow.php:78
+#: ../Frontend/Controllers/Checkout/Payment.php:48
+#: ../Frontend/Controllers/Checkout/Quickpay.php:125
+#: ../Frontend/Controllers/Checkout/Service/Payment.php:48
+msgid "Selected payment method was deleted, please contact shop owner"
+msgstr ""
+" Méthode  de paiement choisi a été supprimé, s'il vous plaît contacter le "
+"webmaster "
+
+#: ../Frontend/Controllers/Paynow.php:81
+#: ../Frontend/Controllers/Checkout/Payment.php:51
+#: ../Frontend/Controllers/Checkout/Service/Payment.php:51
+msgid "Please select a payment method"
+msgstr "S'il vous plaît sélectionner une méthode de paiement"
+
+#: ../Frontend/Controllers/Checkout/Address.php:65
+#: ../Frontend/Controllers/Checkout/Quickpay.php:75
+#: ../Frontend/Controllers/Checkout/Service/Address.php:51
+msgid "Add new Address"
+msgstr "Ajouter une nouvelle adresse"
+
+#: ../Frontend/Controllers/Checkout/Address.php:66
+#: ../Frontend/Controllers/Checkout/Quickpay.php:76
+msgid "Use a different shipping address"
+msgstr "Utilisez une adresse de livraison différente"
+
+#: ../Frontend/Controllers/Checkout/Address.php:72
+#: ../Frontend/Controllers/Checkout/Service/Address.php:52
+msgid "Save and continue"
+msgstr "Enregistrer et continuer"
+
+#: ../Frontend/Controllers/Checkout/Address.php:117
+#: ../Frontend/Controllers/Checkout/Service/Address.php:88
+msgid "Please Select Invoice Address"
+msgstr "S'il vous plaît sélectionner une  adresse de facturation"
+
+#: ../Frontend/Controllers/Checkout/Preview.php:87
+msgid "Cannot Proccess your saleorder"
+msgstr "Impossible de traiter votre commande "
+
+#: ../Frontend/Controllers/Checkout/Preview.php:113
+#, php-format
+msgid "Online Order %s"
+msgstr "commande en ligne %s"
+
+#: ../Frontend/Controllers/Checkout/Quickpay.php:145
+msgid "Please Select All options"
+msgstr "S'il vous plaît Choisir Toutes les options"
+
+#: ../Frontend/Controllers/Checkout/Shipping.php:49
+msgid "Selected shipping method was deleted, please contact shop owner"
+msgstr ""
+" Méthode de  livraison sélectionnée a été supprimée, s'il vous plaît "
+"contacter le webmaster"
+
+#: ../Frontend/Controllers/Checkout/Shipping.php:52
+msgid "Please Select Shipping Method"
+msgstr "S'il vous plaît Sélectionnez la méthode Livraison"
+
+#: ../Frontend/Controllers/Checkout/Service/Address.php:42
+msgid "Use this Address"
+msgstr "Utilisez cette adresse"
+
+#: ../Models/Notification/Model.php:53
+msgid "New sales order was submitted"
+msgstr "Nouvelle commande a été envoyee"
+
+#: ../Models/Notification/Model.php:54
+msgid "New Sales order was submitted"
+msgstr "Nouvelle commande a été envoyee"
+
+#: ../Models/Notification/Model.php:75
+msgid "Your sales order was submitted"
+msgstr "Votre Commande a été envoyee"
+
+#: ../Models/Notification/Model.php:76
+msgid "Dear Customer"
+msgstr "Cher client"
+
+#: ../Models/Notification/Model.php:78
+msgid "Your Sales order was submitted"
+msgstr "Votre Commande a été envoyee"
+
+#: ../Models/Notification/Model.php:79
+msgid "Best regards"
+msgstr "Cordialement"
+
+#: ../Models/Shoppingcart/Model.php:310 ../Models/Shoppingcart/Model.php:370
+#: ../Models/Shoppingcart/Model.php:390
+msgid "Quantity is finshed"
+msgstr "Quantité est terminée"
+
+#: ../Models/Shoppingcart/Model.php:315 ../Models/Shoppingcart/Model.php:375
+#, php-format
+msgid "No enough quantity for this product %s Max Quantity is %s"
+msgstr "Aucune quantité suffisante pour ce produit %s Quantité maximum est %s"
+
+#~ msgid "invalid email address"
+#~ msgstr "Adresse email non valide"

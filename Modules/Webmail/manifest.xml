@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module>
+  <name>Webmail</name>
+  <businessname>Webmail Module</businessname>
+  <version>1.0.0</version>
+  <build>1</build>
+  <builddate>2013-02-22 15:29:06</builddate>
+  <description>Webmail Module: Manage Incomming, Outgoing Email and Setup Email serveur</description>
+  <dependecy>
+    <class>Amhsoft_Mail</class>
+  </dependecy>
+  
+  <updates>
+    <update>
+      <version>1.0.1</version>
+      <build>1</build>
+      <builddate>2014-01-30 12:38:39</builddate>
+      <description></description>
+    </update>
+               
+  </updates>
+  
+</module>

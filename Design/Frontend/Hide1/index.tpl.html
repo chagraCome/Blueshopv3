@@ -1,0 +1,105 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+        <base href="{$appconfig->appurl}/" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        {if $current_lang == 'ar'}
+        <title>{$shop->name_ar|htmlspecialchars_decode} {$page_title|htmlspecialchars_decode}</title>
+        {else}
+        <title>{$shop->name_en|htmlspecialchars_decode} {$page_title|htmlspecialchars_decode}</title>
+        {/if}
+        {if $page_description}
+        <meta name="description" content="{$page_description|htmlspecialchars_decode}" />
+        {/if}
+        {if $page_keywords}
+        <meta name="keywords" content='{$page_keywords|htmlspecialchars_decode}' />
+        {/if}
+        <meta name="robots" content="index,follow,noodp" />
+        <meta name="googlebot" content="noodp" />
+        {if $shop->rss == 1}
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.html" />
+        {/if}
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="{$skin_path}/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="{$skin_path}/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="{$skin_path}/css/owl.carousel.css" rel="stylesheet" type="text/css" />
+        <link href="{$skin_path}/css/owl.theme.css" rel="stylesheet" type="text/css" />
+        <link href="{$skin_path}/css/owl.transitions.css" rel="stylesheet" type="text/css" />
+        <link href="{$skin_path}/css/animate.css" rel="stylesheet" type="text/css" />
+        <link href="{$skin_path}/css/meanmenu.min.css" rel="stylesheet" type="text/css" />
+        <link href="{$skin_path}/css/jquery.simpleLens.css" rel="stylesheet" type="text/css" />
+        <link href="{$skin_path}/css/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+        <link href="{$skin_path}/css/normalize.css" rel="stylesheet" type="text/css" />
+        <link href="{$skin_path}/lib/rs-plugin/css/settings.css" rel="stylesheet" type="text/css" />
+        <link href="{$skin_path}/css/main.css" rel="stylesheet" type="text/css"/> 
+        <link href="{$skin_path}/style.css" rel="stylesheet" type="text/css" />
+        <link href="{$skin_path}/css/responsive.css" rel="stylesheet" type="text/css" />
+        <script src="{$skin_path}/js/vendor/modernizr-2.8.3.min.js"></script>
+
+    </head>
+    {if $shop->disable_image eq 1}	
+    <body oncontextmenu="return false" class="home-15 home-9" >
+        {else}	
+    <body class="home-15 home-9">
+        {/if}
+        {include file='header.tpl.html'}
+        {if !$smarty.get.page}		
+        {include file='banners.tpl.html'}
+        {/if}
+        <!--content-->
+        {if $applicationlayout == '1'}
+        {include file='Layout/layout1.tpl.html'}
+        {else if $applicationlayout == '2r'}
+        {include file='Layout/layout2r.tpl.html'}
+        {else if $applicationlayout == '2l'}
+        {include file='Layout/layout2l.tpl.html'}
+        {else if $applicationlayout == '3'}
+        {include file='Layout/layout3.tpl.html'}
+        {/if}
+        <div>
+            {foreach $bottomblocks as $block}
+            {$block->Render()}
+            {/foreach}
+        </div>
+        {include file='footer.tpl.html'}
+        
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!--js--> 
+        <script src="{$skin_path}/js/vendor/jquery-1.11.3.min.js"></script>
+        <script src="{$skin_path}/js/bootstrap.min.js"></script>
+        <script src="{$skin_path}/js/owl.carousel.min.js"></script>
+        <script src="{$skin_path}/js/jquery.meanmenu.js"></script>
+        <script src="{$skin_path}/js/jquery.simpleLens.min.js"></script>
+        <script src="{$skin_path}/js/jquery-ui.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script src="{$skin_path}/js/jquery.countdown.min.js"></script>
+        <script src="{$skin_path}/js/parallax.js"></script>
+        <script src="{$skin_path}/js/jquery.collapse.js"></script>
+        <script src="{$skin_path}/js/jquery.easing.1.3.min.js"></script>
+        <script src="{$skin_path}/js/jquery.scrollUp.min.js"></script>
+        <script src="{$skin_path}/js/jquery.knob.js"></script>
+        <script src="{$skin_path}/js/jquery.appear.js"></script>
+        <script src="{$skin_path}/js/jquery.counterup.min.js"></script>
+        <script src="{$skin_path}/js/waypoints.min.js"></script>
+        <script src="{$skin_path}/js/wow.js"></script>
+        {*literal}
+        <script type="text/javascript">
+            new WOW().init();
+        </script>
+        {/literal*}
+        <script src="{$skin_path}/lib/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+        <script src="{$skin_path}/lib/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="{$skin_path}/lib/rs-plugin/rs.home.js"></script>
+        <script src="{$skin_path}/js/plugins.js"></script>
+        <script src="{$skin_path}/js/main.js"></script>    
+    </body>
+
+</html>

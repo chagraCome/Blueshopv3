@@ -1,0 +1,78 @@
+
+<div class="amh-container">
+    <h1 class="amh-text-left-rp">{'Sales Order Items'|tr}</h1>
+    <table  class="grid">
+        <tr>
+            <th>#</th>
+            <th class="amh-only-desktop">{'Product Name'|tr}</th>
+            <th class="amh-only-desktop">{'Unit Price'|tr}</th>
+			<th class="amh-only-mobile">{'Price'|tr}</th>
+            <th class="amh-text-right">{'Quantity'|tr}</th>
+            <th class="amh-text-right amh-only-desktop">{'Sub Total'|tr}</th>
+			<th class="amh-text-right amh-only-mobile">{'Total'|tr}</th>
+        </tr>
+        {foreach $saleorder->getItems() as $item}
+        <tr>
+            <td>{$item->product_number} <div class="amh-only-mobile">{$item->item_name}</div></td>
+            <td class="amh-only-desktop" style="max-width: 200px; padding: 0 10px 10px 10px">{$item->item_name}</td>
+            <td>{$item->unit_price|price}</td>
+            <td class="amh-text-right">{$item->quantity}</td>
+            <td class="amh-text-right">{$item->sub_total|price}</td>
+        </tr>
+        {/foreach}
+    </table>
+    <div class="amh-container amh-text-right">
+        <div class="amh-container amh-row">
+            <div class="amh-5_6 amh-left amh-left-rp">{'Sub Total'|tr}:</div>
+            <div class="amh-1_6 amh-right amh-right-rp">{$saleorder->sub_total|price}</div>
+        </div>
+        {if $saleorder->shipping_cost >0}
+        <div class="amh-container amh-row">
+            <div class="amh-5_6 amh-left amh-left-rp">{'Shipping Cost'|tr}:</div>
+            <div class="amh-1_6 amh-right amh-right-rp">{$saleorder->shipping_cost|price}</div>
+        </div>
+        {/if}
+        {if $saleorder->calculateHandlingFee() neq 0}
+        <div class="amh-container amh-row">
+            <div class="amh-5_6 amh-left amh-left-rp">{'Handling Fee'|tr}:</div>
+            <div class="amh-1_6 amh-right amh-right-rp">{$saleorder->calculateHandlingFee()|price}</div>
+        </div>
+        {/if}
+        {if $saleorder->total_discount neq 0} 
+        <div class="amh-container amh-row">
+            <div class="amh-5_6 amh-left amh-left-rp">{'Discount'|tr}:</div>
+            <div class="amh-1_6 amh-right amh-right-rp">{$saleorder->total_discount|price}</div>
+        </div>
+        {/if}
+        <div class="amh-container amh-row">
+            <div class="amh-5_6 amh-left amh-left-rp">{'Total'|tr}:</div>
+            <div class="amh-1_6 amh-right amh-right-rp">{$saleorder->total_price|price}</div>
+        </div>
+
+    </div>
+</div>
+
+<div class="amh-container">
+    <form name="quickpay_form" method="post" action="">
+        
+        <div class="amh-container payment_container">
+            <h1 class="amh-text-left-rp">{'Payment Method'|tr}</h1>
+            {foreach $payments as $payment}
+            <div class="amh-container amh-row payment-row">
+                <div class="forecolor payment-name">
+                    <label><input type="radio" name="payment_id" value="{$payment->getId()}" {if $selectedpayment == $payment->getId()}checked="checked"{/if} />&nbsp;{$payment->getName()}</label>
+                </div>
+                <div class="amh-container payment-description">
+                    <p class="amh-left amh-full-width-rp amh-text-left-rp">{$payment->getDescription()|htmlspecialchars_decode}<br/> <br/></p>
+                    {if $payment->getLogoSrc()}
+                    <div class="amh-right amh-text-left-rp amh-full-width-rp"><img src="{$payment->getLogoSrc()}" style="width: 90px;border-radius: 3px;height: 51px;"/></div>
+                    {/if}
+                </div>
+            </div>
+            {/foreach}
+        </div>
+        <div class="panel-div">
+            <input class="Button continue" type="submit" name="continue" id="checkout_submit_button" value="{'Pay Now'|tr}" />
+        </div>
+    </form>
+</div>

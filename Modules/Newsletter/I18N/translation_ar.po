@@ -1,0 +1,428 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: newsletter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-27 08:33+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar_SA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _t;tr\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../Backend/Boot.php:26 ../I18N/key_words_html.php:3
+#: ../I18N/key_words_html.php:16 ../I18N/key_words_html.php:28
+#: ../I18N/key_words_html.php:41 ../I18N/key_words_html.php:48
+#: ../key_words_html.php:3 ../key_words_html.php:16 ../key_words_html.php:28
+#: ../key_words_html.php:40 ../key_words_html.php:47 key_words_html.php:3
+#: key_words_html.php:16 key_words_html.php:28 key_words_html.php:41
+#: key_words_html.php:48
+msgid "Newsletter"
+msgstr "الرسائل الاخبارية"
+
+#: ../Backend/Boot.php:27 ../I18N/key_words_html.php:49
+#: ../key_words_html.php:48 key_words_html.php:49
+msgid "Templates"
+msgstr "القوالب"
+
+#: ../Backend/Boot.php:28 ../I18N/key_words_html.php:4
+#: ../I18N/key_words_html.php:9 ../I18N/key_words_html.php:17
+#: ../I18N/key_words_html.php:29 ../I18N/key_words_html.php:42
+#: ../key_words_html.php:4 ../key_words_html.php:9 ../key_words_html.php:17
+#: ../key_words_html.php:41 key_words_html.php:4 key_words_html.php:9
+#: key_words_html.php:17 key_words_html.php:29 key_words_html.php:42
+msgid "Groups"
+msgstr "المجموعات"
+
+#: ../Backend/Boot.php:29
+msgid "E-mails"
+msgstr "البريد الالكتروني"
+
+#: ../Backend/Boot.php:30 ../Backend/Boot.php:61
+#: ../Backend/Controllers/Import.php:52 ../I18N/key_words_html.php:30
+#: ../key_words_html.php:29 key_words_html.php:30
+msgid "Import"
+msgstr "استيراد"
+
+#: ../Backend/Boot.php:31
+#, fuzzy
+msgid "Send E-mails"
+msgstr "ارسل بريد"
+
+#: ../Backend/Boot.php:54
+msgid "Newsletter Module"
+msgstr "الرسائل الاخبارية"
+
+#: ../Backend/Boot.php:55
+msgid "Manage Templates"
+msgstr "ادارة القوالب"
+
+#: ../Backend/Boot.php:56
+msgid "Manage groups"
+msgstr "ادارة المجموعات"
+
+#: ../Backend/Boot.php:57
+#, fuzzy
+msgid "Add group"
+msgstr "إضافة مجموعة البريد الإلكتروني"
+
+#: ../Backend/Boot.php:58
+msgid "Edit group"
+msgstr "تعديل المجموعة"
+
+#: ../Backend/Boot.php:59
+msgid "Delete group"
+msgstr "حذف المجموعة"
+
+#: ../Backend/Boot.php:60
+msgid "Manage Emails"
+msgstr "ادارة الايميلات"
+
+#: ../Backend/Boot.php:62
+msgid "Sendemails"
+msgstr "ارسال الايميلات"
+
+#: ../Backend/Controllers/Emails/Add.php:34
+msgid "Add Email"
+msgstr "إضافة بريد الكتروني"
+
+#: ../Backend/Controllers/Emails/Add.php:51
+#: ../Backend/Controllers/Emails/Groups/Add.php:49
+#: ../Backend/Controllers/Emails/Groups/Modify.php:60
+#: ../Backend/Controllers/Emails/Modify.php:60
+#: ../Backend/Controllers/Template/Add.php:49
+#: ../Backend/Controllers/Template/Modify.php:60
+msgid "Please check inputs."
+msgstr "يرجى التحقق من المدخلات"
+
+#: ../Backend/Controllers/Emails/Groups/Add.php:33
+msgid "Add Email Group"
+msgstr "إضافة مجموعة البريد الإلكتروني"
+
+#: ../Backend/Controllers/Emails/Groups/List.php:37
+msgid "List Email Groups"
+msgstr "قائمة مجموعات البريد الإلكتروني "
+
+#: ../Backend/Controllers/Emails/Groups/Modify.php:33
+msgid "Modify Email Group"
+msgstr "تعديل مجموعة البريد الإلكتروني"
+
+#: ../Backend/Controllers/Emails/List.php:37
+#, fuzzy
+msgid "List Email"
+msgstr "قائمة البريد الالكتروني"
+
+#: ../Backend/Controllers/Emails/Modify.php:33
+msgid "Modify Email"
+msgstr "تعديل البريد الإلكتروني"
+
+#: ../Backend/Controllers/Import.php:84
+msgid "Invalid File Format!"
+msgstr "صيغة الملف خاطئة"
+
+#: ../Backend/Controllers/Import.php:104
+msgid "Import saved"
+msgstr "تم حفظ المعلومات المستوردة"
+
+#: ../Backend/Controllers/Import.php:111
+msgid "Import not saved"
+msgstr "لم يتم حفظ المعلومات المستوردة"
+
+#: ../Backend/Controllers/Sendemails.php:53
+msgid "Send E-Mails"
+msgstr "ارسل بريد"
+
+#: ../Backend/Controllers/Sendemails.php:98
+msgid "E-Mails sent"
+msgstr "تم ارسال الرسائل"
+
+#: ../Backend/Controllers/Sendemails.php:105
+msgid "Error by sending E-Mails"
+msgstr "خطأ عند ارسال الرسائل"
+
+#: ../Backend/Controllers/Template/Add.php:33
+msgid "Add NewsLetter Template"
+msgstr "إضافة قالب  الرسائل الاخبارية"
+
+#: ../Backend/Controllers/Template/List.php:37
+msgid "List Newsletter Template"
+msgstr "  قائمة قوالب  الرسائل الاخبارية"
+
+#: ../Backend/Controllers/Template/Modify.php:33
+msgid "Modify Newsletter template"
+msgstr "تغيير قالب الرسائل الاخبارية"
+
+#: ../Forms/Emails/Form.php:40 ../Forms/Emails/Groups/Form.php:39
+msgid "General Informations"
+msgstr "معلومات عامة"
+
+#: ../Forms/Emails/Form.php:41
+#, fuzzy
+msgid "Email"
+msgstr "البريد الالكتروني"
+
+#: ../Forms/Emails/Form.php:47 ../Grids/Emails/DataGridView.php:45
+#: ../Grids/Emails/DataGridView.php:75 ../I18N/key_words_html.php:5
+#: ../I18N/key_words_html.php:34 ../I18N/key_words_html.php:44
+#: ../key_words_html.php:5 ../key_words_html.php:33 ../key_words_html.php:43
+#: key_words_html.php:5 key_words_html.php:34 key_words_html.php:44
+msgid "Group"
+msgstr "المجموعة"
+
+#: ../Forms/Emails/Form.php:53 ../Forms/Emails/Groups/Form.php:49
+#: ../Forms/Template/Form.php:51 ../I18N/key_words_html.php:20
+#: ../I18N/key_words_html.php:38 ../I18N/key_words_html.php:45
+#: ../I18N/key_words_html.php:52 ../key_words_html.php:20
+#: ../key_words_html.php:37 ../key_words_html.php:44 ../key_words_html.php:51
+#: key_words_html.php:20 key_words_html.php:38 key_words_html.php:45
+#: key_words_html.php:52
+msgid "Navigation"
+msgstr "التصفح"
+
+#: ../Forms/Emails/Form.php:54 ../Forms/Emails/Groups/Form.php:50
+#: ../Forms/Template/Form.php:46
+msgid "Save"
+msgstr "حفظ"
+
+#: ../Forms/Emails/Groups/Form.php:40
+#: ../Grids/Emails/Groups/DataGridView.php:40 ../I18N/key_words_html.php:18
+#: ../key_words_html.php:18 key_words_html.php:18
+msgid "Name"
+msgstr "الاسم"
+
+#: ../Forms/Emails/Groups/Form.php:45 ../I18N/key_words_html.php:19
+#: ../key_words_html.php:19 key_words_html.php:19
+msgid "Description"
+msgstr "الوصف"
+
+#: ../Forms/Template/Form.php:39 ../Grids/Template/DataGridView.php:40
+#: ../I18N/key_words_html.php:50 ../key_words_html.php:49
+#: key_words_html.php:50
+msgid "Title"
+msgstr "الاسم"
+
+#: ../Forms/Template/Form.php:43 ../I18N/key_words_html.php:51
+#: ../key_words_html.php:50 key_words_html.php:51
+msgid "Content"
+msgstr "المحتوى"
+
+#: ../Forms/Template/Form.php:48
+msgid "NewsLetter Template Information"
+msgstr " قالب معلومات الرسائل الاخبارية"
+
+#: ../Frontend/Controllers/Addtonewsletter.php:45
+#: ../Frontend/Controllers/Addtonewsletter.php:58
+#: ../Frontend/Controllers/Addtonewsletter.php:86
+msgid "Please Enter a valid email"
+msgstr "الرجاء ادخال بريد الكتروني صحيح"
+
+#: ../Frontend/Controllers/Addtonewsletter.php:54
+msgid "Following email is already registered in the newsletter system."
+msgstr "البريد الالكتروني التالي موجود حاليا في نظام الرسائل الاخبارية"
+
+#: ../Frontend/Controllers/Addtonewsletter.php:80
+#, fuzzy
+msgid ""
+"The following E-Mail-Address has been successfully added to our newsletter"
+msgstr "لقد تم اضافة البريد الالكتروني لخدمة الرسائل الاخباربية بنجاح"
+
+#: ../Grids/Emails/DataGridView.php:41 ../key_words_html.php:62
+msgid "E-Mail address"
+msgstr "البريد الالكتروني"
+
+#: ../Grids/Emails/DataGridView.php:49 ../I18N/key_words_html.php:13
+#: ../key_words_html.php:13 key_words_html.php:13
+msgid "Online"
+msgstr "مفعل"
+
+#: ../Grids/Emails/DataGridView.php:54
+#: ../Grids/Emails/Groups/DataGridView.php:46
+#: ../Grids/Template/DataGridView.php:44 ../I18N/key_words_html.php:11
+#: ../I18N/key_words_html.php:25 ../I18N/key_words_html.php:57
+#: ../key_words_html.php:11 ../key_words_html.php:25 ../key_words_html.php:56
+#: key_words_html.php:11 key_words_html.php:25 key_words_html.php:57
+msgid "Edit"
+msgstr "تعديل"
+
+#: ../Grids/Emails/DataGridView.php:60
+#: ../Grids/Emails/Groups/DataGridView.php:50
+#: ../Grids/Template/DataGridView.php:50 ../I18N/key_words_html.php:12
+#: ../I18N/key_words_html.php:26 ../I18N/key_words_html.php:58
+#: ../key_words_html.php:12 ../key_words_html.php:26 ../key_words_html.php:57
+#: key_words_html.php:12 key_words_html.php:26 key_words_html.php:58
+msgid "Delete"
+msgstr "حذف"
+
+#: ../Grids/Emails/Groups/DataGridView.php:43
+#, fuzzy
+msgid "Desciption"
+msgstr "الوصف"
+
+#: ../I18N/key_words_html.php:6 ../key_words_html.php:6 key_words_html.php:6
+msgid "State"
+msgstr "الحالة"
+
+#: ../I18N/key_words_html.php:7 ../I18N/key_words_html.php:21
+#: ../I18N/key_words_html.php:39 ../I18N/key_words_html.php:53
+#: ../key_words_html.php:7 ../key_words_html.php:21 ../key_words_html.php:38
+#: ../key_words_html.php:52 key_words_html.php:7 key_words_html.php:21
+#: key_words_html.php:39 key_words_html.php:53
+msgid "save"
+msgstr "حفظ"
+
+#: ../I18N/key_words_html.php:8 ../key_words_html.php:8 key_words_html.php:8
+msgid "Select Group"
+msgstr "اختر مجموعة"
+
+#: ../I18N/key_words_html.php:10 ../I18N/key_words_html.php:24
+#: ../I18N/key_words_html.php:56 ../key_words_html.php:10
+#: ../key_words_html.php:24 ../key_words_html.php:55 key_words_html.php:10
+#: key_words_html.php:24 key_words_html.php:56
+msgid "Settings"
+msgstr "الاعدادات"
+
+#: ../I18N/key_words_html.php:14 ../key_words_html.php:14
+#: key_words_html.php:14
+msgid "Offline"
+msgstr "معطل"
+
+#: ../I18N/key_words_html.php:22 ../key_words_html.php:22
+#: key_words_html.php:22
+msgid "List groups"
+msgstr "قائمة المجموعات"
+
+#: ../I18N/key_words_html.php:23 ../key_words_html.php:23
+#: key_words_html.php:23
+msgid "Group name"
+msgstr "اسم المجموعة"
+
+#: ../I18N/key_words_html.php:31 ../key_words_html.php:30
+#: key_words_html.php:31
+msgid "Select file"
+msgstr "اختر ملف"
+
+#: ../I18N/key_words_html.php:32 ../key_words_html.php:31
+#: key_words_html.php:32
+msgid "The content of the file should look like this"
+msgstr "محتوى الملف يجب ان يكون مثل هذا"
+
+#: ../I18N/key_words_html.php:33 ../key_words_html.php:32
+#: key_words_html.php:33
+msgid "Personal Name"
+msgstr "الاسم"
+
+#: ../I18N/key_words_html.php:35 ../key_words_html.php:34
+#: key_words_html.php:35
+msgid "Import type"
+msgstr "نوع الاستراد"
+
+#: ../I18N/key_words_html.php:36 ../key_words_html.php:35
+#: key_words_html.php:36
+msgid "update"
+msgstr "تحديث"
+
+#: ../I18N/key_words_html.php:37 ../key_words_html.php:36
+#: key_words_html.php:37
+msgid "delete"
+msgstr "حذف"
+
+#: ../I18N/key_words_html.php:43 ../key_words_html.php:42
+#: key_words_html.php:43
+msgid "Template"
+msgstr "القالب"
+
+#: ../I18N/key_words_html.php:46 ../key_words_html.php:45
+#: key_words_html.php:46
+msgid "send newsletter"
+msgstr "ارسل رسالة اخبارية"
+
+#: ../I18N/key_words_html.php:54 ../key_words_html.php:53
+#: key_words_html.php:54
+msgid "List templates"
+msgstr "قائمة القوالب"
+
+#: ../I18N/key_words_html.php:55 ../key_words_html.php:54
+#: key_words_html.php:55
+msgid "Template title"
+msgstr "عنوان القالب"
+
+#: ../I18N/key_words_html.php:60 ../key_words_html.php:59
+#: key_words_html.php:60
+msgid "Newsletter Subscription"
+msgstr "إشتراك الرسائل الاخبارية"
+
+#: ../I18N/key_words_html.php:61 ../key_words_html.php:60
+#: key_words_html.php:61
+msgid "Back"
+msgstr "رجوع"
+
+#: ../I18N/key_words_html.php:62 key_words_html.php:62
+msgid "Faild to add email to newsletter!"
+msgstr "لم يتم حفظ البريد الالكتروني"
+
+#: ../key_words_html.php:61
+msgid "Add / Edit E-Mail"
+msgstr "اضافة/ تعديل  بريد الكتروني"
+
+#: ../key_words_html.php:63
+msgid "List E-Mails"
+msgstr "قائمة البريد الالكتروني"
+
+#: ../key_words_html.php:64
+msgid "Outgoing Email"
+msgstr "البريد الإلكتروني الصادر"
+
+#: ../key_words_html.php:65
+#, fuzzy
+msgid "List Emails"
+msgstr "قائمة البريد الالكتروني"
+
+#: ../key_words_html.php:66
+#, fuzzy
+msgid "Add New Email"
+msgstr "إضافة بريد الكتروني"
+
+#~ msgid "E-Mails"
+#~ msgstr "البريد الالكتروني"
+
+#~ msgid "E-Mail not saved"
+#~ msgstr "لم يتم حفظ الرسالة"
+
+#~ msgid "Data deleted successfully."
+#~ msgstr "تم حذف المعلومات بنجاح"
+
+#~ msgid "Data set enabled, successfully."
+#~ msgstr "تم تفعيل المعلومات بنجاح"
+
+#~ msgid "Data set disabled, successfully."
+#~ msgstr "تم تعطيل المعلومات بنجاح"
+
+#~ msgid "E-Mail groups"
+#~ msgstr "مجموعة البريد الالكتروني"
+
+#~ msgid "E-Mail group not saved"
+#~ msgstr "لم يتم حفظ مجموعة البريد الالكتروني"
+
+#~ msgid "Templates not saved"
+#~ msgstr "لم يتم حفظ القالب"
+
+#, fuzzy
+#~ msgid "The following E-Mail-Address Exist "
+#~ msgstr "للاسف لم يتم اضافة البريد الالكتروني الى خدمة الرسائل الاخبارية"
+
+#~ msgid "E-Mail addresses"
+#~ msgstr "عناوين البريد الالكتروني"
+
+#~ msgid "No records."
+#~ msgstr "لا يوجد محتوى"
+
+#~ msgid ""
+#~ "The following E-Mail-Address has has not been added to our newsletter"
+#~ msgstr "للاسف لم يتم اضافة البريد الالكتروني الى خدمة الرسائل الاخبارية"

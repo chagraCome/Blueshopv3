@@ -1,0 +1,83 @@
+
+{$breadcrumb}
+<div class="page_content_offset">
+
+    <div class="container">
+
+        <div class="row clearfix">
+
+            <!--left content column-->
+
+            <section>
+
+                {if $pageContent}
+                <div class="r_corners photoframe map_container shadow m_bottom_45">
+
+                    {$pageContent}
+                </div>
+                {/if}
+                <div class="row clearfix">
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 m_xs_bottom_30">
+
+                        <h2 class="tt_uppercase color_dark m_bottom_25">{'Contact Us'|tr}</h2>
+
+                        <ul class="c_info_list">
+
+                            <li class="m_bottom_10">
+
+                                <div class="clearfix m_bottom_15">
+
+                                    <i class="fa fa-map-marker f_left color_dark"></i>
+
+                                    <p class="contact_e">{$shop->adress}</p>
+
+                                </div>
+
+                            </li>
+
+                            <li class="m_bottom_10">
+
+                                <div class="clearfix m_bottom_10">
+
+                                    <i class="fa fa-phone f_left color_dark"></i>
+
+                                    <p class="contact_e">{$shop->tel}</p>
+
+                                </div>
+
+                            </li>
+
+                            <li class="m_bottom_10">
+
+                                <div class="clearfix m_bottom_10">
+
+                                    <i class="fa fa-envelope f_left color_dark"></i>
+
+                                    <a class="contact_e default_t_color" href="mailto:{$shop->email}">{$shop->email}</a>
+
+                                </div>
+
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-lg-8 col-md-8 col-sm-8 m_xs_bottom_30">
+
+                        <h2 class="tt_uppercase color_dark m_bottom_25">{'Contact Form'|tr}</h2>
+
+                        <p class="m_bottom_10">{'Send an email. All fields with an'|tr} <span class="scheme_color">*</span> {'are required'|tr}.</p>
+                        {$formn->Render()}
+
+
+                    </div>
+
+                </div>
+
+            </section>
+        </div>
+
+    </div>
+
+</div>

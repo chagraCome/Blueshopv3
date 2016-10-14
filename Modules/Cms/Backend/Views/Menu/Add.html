@@ -1,0 +1,21 @@
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+  <legend>
+    <span class="list"><a href="admin.php?module=cms&page=menu-list">{'List Menu Points'|tr}</a></span>  |
+    <span class="add"><a href="admin.php?module=cms&page=menu-add">{'Add New Menu Points'|tr}</a></span> 
+
+  </legend>
+  <div class="panel">
+    {$form->Render()}
+  </div>
+</fieldset>
+<script>
+$(function() {
+  var mainMenu = $('#cms_main_menu_id').val();
+  var parent = {$smarty.post.parent_id};
+  updateParents(mainMenu, parent);
+});
+</script>

@@ -1,0 +1,115 @@
+<fieldset>
+    <legend>{'Information'|tr}</legend>
+    <div class="{$class}" id="message">{$message}</div>
+</fieldset>
+
+<fieldset>
+    <legend>{'Design Settings'|tr}</legend>
+
+    <div class="panel">
+        {fieldset name="design_boxes" title={'Boxes and Banners'|tr}
+        <input type="hidden" id="siteid" name="siteid" value="{$smarty.get.siteid}" />
+        <input type="hidden" id="entity" name="entity" value="&{$smarty.get.entity}" />
+        <div class = "spanback">
+            <table border="0" width="100%">
+                <tr>
+                    <td class="position-name">{'Unsed Elements'|tr}</td>
+                    <td class="position-name"><center>{'Header'|tr}</center></td>
+                </tr>
+                <tr>
+                    <td valign="top"  style="padding-top: 20px; border-right: 2px dotted black; width: 220px">
+                        <!-- unused -->
+                        <div class="column ui-sortable" id="unused">
+                            {foreach $unsedboxes as $box}
+                            <div id="box_{$box->getId()}" class="portlet ui-widget ui-widget-content ui-helper-clearfix ui-corner-all">
+                                <div class="portlet-header ui-widget-header ui-corner-all"><span class="ui-icon ui-icon-minusthick"></span>{$box->getName()}</div>
+                                <div class="portlet-content">{$box->getTypeString()}                       <br />                       <a href="admin.php?module=cms&page=box-modify&id={$box->getId()}">{'edit'|tr}</a></div>
+                            </div>
+                            {/foreach}
+                        </div>
+                        <!-- end unused -->
+                    </td>
+                    <td valign="top" style="padding-top: 20px;">
+                        <table border="0" cellpadding="10" width="100%">
+                            <tr>
+                                <!-- header -->
+                            <div class="column ui-sortable" id="pageheader">
+                                {foreach $headerboxes as $box}
+                                <div id="box_{$box->getId()}" class="portlet ui-widget ui-widget-content ui-helper-clearfix ui-corner-all">
+                                    <div class="portlet-header ui-widget-header ui-corner-all"><span class="ui-icon ui-icon-minusthick"></span>{$box->getName()}</div>
+                                    <div class="portlet-content">{$box->getTypeString()}                       <br />                       <a href="admin.php?module=cms&page=box-modify&id={$box->getId()}">{'edit'|tr}</a></div>
+                                </div>
+                                {/foreach}
+                            </div>
+                            <!-- end header -->
+                </tr>
+                <tr>
+                    <td class="position-name" style="width: 33%;"><center>{'Left'|tr}</center></td>
+                <td class="position-name" style="width: 33%"><center>{'Center'|tr}</center></td>
+                <td class="position-name" style="width: 33%"><center>{'Right'|tr}</center></td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <!-- left -->
+                        <div class="column ui-sortable" id="pageleft">
+                            {foreach $leftboxes as $box}
+                            <div id="box_{$box->getId()}" class="portlet ui-widget ui-widget-content ui-helper-clearfix ui-corner-all">
+                                <div class="portlet-header ui-widget-header ui-corner-all"><span class="ui-icon ui-icon-minusthick"></span>{$box->getName()}</div>
+                                <div class="portlet-content">{$box->getTypeString()}                       <br />                       <a href="admin.php?module=cms&page=box-modify&id={$box->getId()}">{'edit'|tr}</a></div>
+                            </div>
+                            {/foreach}
+                        </div>
+                        <!-- end left -->
+                    </td>
+                    <td valign="top">
+                        <!-- center -->
+                        <div class="column ui-sortable" id="pagecenter">
+                            {foreach $centerboxes as $box}
+                            <div id="box_{$box->getId()}" class="portlet ui-widget ui-widget-content ui-helper-clearfix ui-corner-all">
+                                <div class="portlet-header ui-widget-header ui-corner-all"><span class="ui-icon ui-icon-minusthick"></span>{$box->getName()}</div>
+                                <div class="portlet-content">{$box->getTypeString()}                       <br />                       <a href="admin.php?module=cms&page=box-modify&id={$box->getId()}">{'edit'|tr}</a></div>
+                            </div>
+                            {/foreach}
+                        </div>
+                        <!-- end center -->
+                    </td>
+                    <td valign="top">
+                        <!-- right -->
+                        <div class="column ui-sortable" id="pageright">
+                            {foreach $rightboxes as $box}
+                            <div id="box_{$box->getId()}" class="portlet ui-widget ui-widget-content ui-helper-clearfix ui-corner-all">
+                                <div class="portlet-header ui-widget-header ui-corner-all"><span class="ui-icon ui-icon-minusthick"></span>{$box->getName()}</div>
+                                <div class="portlet-content">{$box->getTypeString()}                       <br />                       <a href="admin.php?module=cms&page=box-modify&id={$box->getId()}">{'edit'|tr}</a></div>
+                            </div>
+                            {/foreach}
+                        </div>
+                        <!-- end right -->
+                    </td>
+                </tr>
+                <tr><td colspan="3" class="position-name"><center>{'Footer'|tr}</center></td></tr>
+                <tr>
+                    <td colspan="3">
+                        <!-- footer -->
+                        <div class="column ui-sortable" id="pagefooter">
+                            {foreach $bottomboxes as $box}
+                            <div id="box_{$box->getId()}" class="portlet ui-widget ui-widget-content ui-helper-clearfix ui-corner-all">
+                                <div class="portlet-header ui-widget-header ui-corner-all">
+                                    <span class="ui-icon ui-icon-minusthick"></span>{$box->getName()}</div>
+                                <div class="portlet-content">{$box->getTypeString()}                       <br />                       <a href="admin.php?module=cms&page=box-modify&id={$box->getId()}">{'edit'|tr}</a></div>
+                            </div>
+                            {/foreach}
+                        </div>
+                        <!-- end footer -->
+                    </td>
+                    </div>
+                </tr>
+            </table>
+            </td>
+            </tr>
+            </table>
+
+            {/fieldset}
+        </div>
+        <!-- end content -->
+
+</fieldset>

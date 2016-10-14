@@ -1,0 +1,34 @@
+<?php
+global $translation;
+#~ msgstr "ادارة الاعدادات"
+$translation['List modules'] = 'قائمة الوحدات';
+$translation['Package Informationen'] = 'معلومات الوحدات';
+$translation['Module Name'] = 'اسم الوحدة';
+$translation['Module Version'] = 'نسخة الوحدة';
+$translation['Module Build Date'] = 'تاريخ انشاء الوحدة';
+$translation['Module Description'] = 'وصف الوحدة';
+$translation['Navigation'] = 'التصفح';
+$translation['Actions'] = 'اعدادات';
+$translation['Back to module list'] = 'الرجوع الى قائمة الوحدات';
+$translation['Build Date'] = 'تاريخ انشاء الوحدة';
+$translation['checked'] = 'checked';
+$translation['Exclamation'] = 'Exclamation';
+$translation['Execute'] = 'تنفيذ';
+$translation['Info'] = 'معلومات';
+$translation['Information'] = 'معلومات';
+$translation['Install'] = 'تثبيت';
+$translation['Lastversion'] = 'اخر نسخة';
+$translation['List of new available modules'] = 'List of new available modules';
+$translation['Module'] = 'الوحدة';
+$translation['Module name'] = 'اسم الوحدة';
+$translation['Modules'] = 'الوحدات';
+$translation['Release Date'] = 'تاريخ اﻻصدار';
+$translation['State'] = 'الحالة';
+$translation['Update'] = 'تحديث';
+$translation['Version'] = 'النسخة';
+$translation['Vesion'] = 'النسخة';
+$translation['Settings'] = 'اعدادات';
+$translation['Module Management'] = 'ادارة الوحدات';
+$translation['Modules management'] = 'ادارة الوحدات';
+$translation['Details has been installed successfully.'] = 'تم التثبيت بنجاح';
+$translation['List details installed in the store.'] = 'List details installed in the store.';

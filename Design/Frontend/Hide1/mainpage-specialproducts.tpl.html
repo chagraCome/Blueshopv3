@@ -1,0 +1,8 @@
+
+<div class="tab-pane fade" id="special">
+    <div class="product-carusul-9">
+      {while $specialProduct = $specialproducts->fetch()}
+        {include file='Modules/Product/Frontend/Views/Item.html'  item=$specialProduct}
+        {/while}
+    </div>
+</div>

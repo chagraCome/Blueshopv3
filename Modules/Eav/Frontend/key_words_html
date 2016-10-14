@@ -1,0 +1,4 @@
+<?php
+_t('Summe');
+_t('Continue');
+_t('Buy Now');

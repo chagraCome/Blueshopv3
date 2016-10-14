@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>Control Panel AMHSHOP v.4.0</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <style type="text/css">
+      <!--
+      body, html {
+        font:normal 12px "Trebuchet MS" Tahoma;
+        color:#666666
+      }
+      .title {
+        color: #0033CC;
+        font-weight: bold;
+      }
+      .table{
+        border-style:solid;
+        border-width:2px;
+        border-color:#CCCCCC;
+      }
+      -->
+    </style>
+
+  </head>
+  <body>
+    <table width="100%" border="0" align="center" style="border-bottom: 1px solid gray; margin-bottom: 50px">
+      <tr >
+        <td align="left"><img src="Amhsoft/Ressources/Icons/amhsoft.png" width="151" height="42" alt="AMHSOFT logo - الشعار"></td>
+      </tr>
+    </table>
+    <table width="453" border="0" align="center" cellpadding="0" cellspacing="0" class="table">
+      <tr><td  style="height: 59px; background: url('Amhsoft/Ressources/Icons/login-header.gif')"><div style="color: white; font: bold 16px Arial; text-align: right; padding-right: 20px"> Administration - الادارة</div></td></tr>
+      <tr>
+
+        <td width="60%"><table width="300" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="352"><form name="form1" method="post" action="">
+                  <table width="300" border="0" align="center" cellpadding="5" cellspacing="0" style="background-image:url('images/bg11.jpg') top right">
+                    <tr align="center">
+                      <td colspan="2" class="legendMenu"><span class="title">Administration - الادارة</span></td>
+                    </tr>
+                    <tr class="mainText">
+                      <td width="94"><label for="username">Username:*</label></td>
+                      <td width="186"><input name="username" type="text" id="username" value="{$username}"></td>
+                    </tr>
+                    <tr class="mainText">
+                      <td><label for="password">Password :*</label></td>
+                      <td><input name="password" type="password" id="password"></td>
+                    </tr>
+                    <tr class="mainText">
+                      <td><label for="lang">Language:</label></td>
+                      <td>
+                        <select name="lang">
+                          <option value="en">English - اللغة الإنجليزية</option>
+                          <option value="ar">Arabic - العربية</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                      <td><input name="login" type="submit" id="login" value="Login" style="padding: 0 20px"></td>
+                    </tr>
+                    <tr>
+                       <td>&nbsp;</td>
+                      <td><a href="?module=user&page=user-forgotpassword">{'Forgot Password'|tr}</a></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" align="center" class="red">{$message}</td>
+                    </tr>
+                  </table>
+                </form></td>
+            </tr>
+          </table></td>
+      </tr>
+    </table>
+    <br>
+    <p align="center" class="mainText"><a href="http://amhsoft.com"></a>All rights reserved &copy; 2006-2013 <a href="http://amhsoft.com">amhsoft.com</a></p>
+  </body>
+</html>

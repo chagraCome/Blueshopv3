@@ -1,0 +1,126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Banner Module\n"
+"POT-Creation-Date: 2014-03-15 08:46+0100\n"
+"PO-Revision-Date: 2014-04-26 12:00+0100\n"
+"Last-Translator: Montassar <montassarelaid@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../key_words_html.php:5 ../key_words_html.php:7 ../key_words_html.php:10
+#: ../key_words_html.php:14
+msgid "Information"
+msgstr "Informations"
+
+#: ../key_words_html.php:8 ../key_words_html.php:11 ../Backend/Boot.php:22
+#: ../Backend/Boot.php:29 ../Backend/Controllers/Add.php:35
+msgid "Add new Banner"
+msgstr "Ajouter une nouvelle bannière"
+
+#: ../key_words_html.php:12 ../Backend/Boot.php:21
+#: ../Backend/Controllers/List.php:38
+msgid "List Banners"
+msgstr "Liste des Bannières"
+
+#: ../Backend/Boot.php:20 ../Grids/DataGridView.php:37
+msgid "Banner"
+msgstr "bannière"
+
+#: ../Backend/Boot.php:23
+msgid "Manage Banner Setting"
+msgstr "Gérer Le Paramètre  de Bannière"
+
+#: ../Backend/Boot.php:27
+msgid "Banner Module"
+msgstr "Module Bannière"
+
+#: ../Backend/Boot.php:31
+msgid "Delete Banner"
+msgstr "Supprimer  bannière"
+
+#: ../Backend/Controllers/Add.php:56 ../Backend/Controllers/Modify.php:62
+msgid "Please check inputs."
+msgstr "S'il vous plaît vérifier les entrées."
+
+#: ../Backend/Controllers/Modify.php:34
+msgid "Edit Banner"
+msgstr "Modifier Bannière"
+
+#: ../Backend/Controllers/Setting.php:24 ../Backend/Controllers/Setting.php:36
+msgid "Banner Settings"
+msgstr "Paramètres de bannière"
+
+#: ../Backend/Controllers/Setting.php:39
+msgid "Show Banner"
+msgstr "Afficher la bannière"
+
+#: ../Backend/Controllers/Setting.php:42
+msgid "Banner Transition Effect"
+msgstr "Effet de transition de bannière"
+
+#: ../Backend/Controllers/Setting.php:47 ../Forms/Form.php:58
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: ../Backend/Controllers/Setting.php:62
+msgid "Data was successfully saved"
+msgstr "Les données sont sauvegardées avec succès"
+
+#: ../Forms/Form.php:48
+msgid "Name"
+msgstr "Nom"
+
+#: ../Forms/Form.php:52
+msgid "Banner to upload"
+msgstr "Bannière à télécharger"
+
+#: ../Forms/Form.php:55
+msgid "Important for the search engines (Banner search)"
+msgstr "Important pour les moteurs de recherche (recherche Bannière)"
+
+#: ../Forms/Form.php:61
+msgid "Url"
+msgstr "Url"
+
+#: ../Forms/Form.php:66
+msgid "General Informations"
+msgstr "Informations générales"
+
+#: ../Forms/Form.php:76
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../Grids/DataGridView.php:35
+msgid "Banner Name"
+msgstr "Nom de Bannière"
+
+#: ../Grids/DataGridView.php:42
+msgid "Type"
+msgstr "Type"
+
+#: ../Grids/DataGridView.php:44
+msgid "Extension"
+msgstr "Extension"
+
+#: ../Grids/DataGridView.php:46
+msgid "Insert Date"
+msgstr "Date d'insertion"
+
+#: ../Grids/DataGridView.php:49
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../Grids/DataGridView.php:55
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../Models/Model.php:272
+msgid "file cannote be uploaded"
+msgstr "Fichier ne peut être téléchargé"

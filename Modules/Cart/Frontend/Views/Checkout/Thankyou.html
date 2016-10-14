@@ -1,0 +1,9 @@
+{if $page}
+{page name="{$page->getAlias()}" title="{$page->getTitle()}"|tr}
+{$page->getContent()}
+{/page}
+{else}
+{page name="thankyou" title="Your Order was submitted"|tr}
+<p>{'We have received your request, thank you and we wish you a pleasant shopping'|tr}</p>
+{/page}
+{/if}

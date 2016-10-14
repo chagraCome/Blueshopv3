@@ -1,0 +1,167 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cms\n"
+"POT-Creation-Date: 2014-03-19 14:58+0100\n"
+"PO-Revision-Date: 2014-03-19 14:58+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../key_words_html.php:3 ../key_words_html.php:7 ../key_words_html.php:11
+#: ../key_words_html.php:15
+msgid "Information"
+msgstr "معلومات"
+
+#: ../key_words_html.php:4 ../key_words_html.php:8 ../key_words_html.php:12
+#: ../Backend/Controllers/Add.php:41 ../Forms/Form.php:33
+msgid "Add new Comment"
+msgstr "اضافة تعليق جديد"
+
+#: ../key_words_html.php:5 ../key_words_html.php:9 ../key_words_html.php:13
+#: ../Backend/Boot.php:42
+msgid "List Comments"
+msgstr "قائمة التعليقات"
+
+#: ../key_words_html.php:16
+msgid "List Quotation"
+msgstr "قائمة عروض الاسعار"
+
+#: ../key_words_html.php:17
+msgid "List Sales Order"
+msgstr "قائمة طلبات الشراء"
+
+#: ../key_words_html.php:18
+msgid "List Invoices"
+msgstr "قائمة الفواتير"
+
+#: ../Backend/Boot.php:38
+msgid "Comment Module"
+msgstr "إدارة التعليقات "
+
+#: ../Backend/Boot.php:39
+msgid "Add Comment"
+msgstr "اضافة تعليق "
+
+#: ../Backend/Boot.php:40
+msgid "Delet Comment"
+msgstr "حذف تعليق"
+
+#: ../Backend/Boot.php:41 ../Backend/Controllers/Detail.php:47
+#: ../Backend/Controllers/Detail.php:57
+msgid "Comment Details"
+msgstr "تفاصيل التعليق"
+
+#: ../Backend/Boot.php:43
+msgid "Edit Comment"
+msgstr "تعديل  تعليق"
+
+#: ../Backend/Controllers/Add.php:59 ../Backend/Controllers/Modify.php:53
+msgid "Please check inputs."
+msgstr " الرجاء التأكد من المعلومات"
+
+#: ../Backend/Controllers/Detail.php:73
+msgid "Reply"
+msgstr "الرد"
+
+#: ../Backend/Controllers/Detail.php:86
+msgid "Reply was successfully added"
+msgstr "تم اضافة التعليق بنجاح"
+
+#: ../Backend/Controllers/Detail.php:96
+msgid "Reply From"
+msgstr " الرد من طرف"
+
+#: ../Backend/Controllers/Detail.php:98
+msgid "Comment "
+msgstr "التعليق"
+
+#: ../Backend/Controllers/Detail.php:100
+msgid "Post Date"
+msgstr "تاريخ النشر"
+
+#: ../Backend/Controllers/Detail.php:101
+msgid "Author"
+msgstr "اسم الكاتب"
+
+#: ../Backend/Controllers/List.php:38
+msgid "List comments"
+msgstr "قائمة جميع التعليقات"
+
+#: ../Backend/Controllers/Modify.php:28
+msgid "Modify Comment"
+msgstr "تعديل  تعليق"
+
+#: ../Forms/Form.php:34 ../Grids/DataGridView.php:38 ../Panels/Panel.php:26
+msgid "Subject"
+msgstr "الموضوع"
+
+#: ../Forms/Form.php:39 ../Forms/Reply/Form.php:30 ../Panels/Panel.php:32
+msgid "Comment"
+msgstr "التعليق"
+
+#: ../Forms/Form.php:42 ../Panels/Panel.php:30
+msgid "Is Public"
+msgstr "عمومي"
+
+#: ../Forms/Form.php:45 ../Forms/Reply/Form.php:35
+msgid "Save"
+msgstr "حفظ"
+
+#: ../Grids/DataGridView.php:43 ../Panels/Panel.php:27
+msgid "Insert Date"
+msgstr "تاريخ الإنشاء"
+
+#: ../Grids/DataGridView.php:48 ../Panels/Panel.php:28
+msgid "Author Name"
+msgstr "اسم الكاتب"
+
+#: ../Grids/DataGridView.php:53
+msgid "Public viewed"
+msgstr "شاهده العميل"
+
+#: ../Grids/DataGridView.php:57
+msgid "User viewed"
+msgstr "شاهده المستخدم"
+
+#: ../Grids/DataGridView.php:61 ../Grids/DataGridView.php:87
+msgid "Public"
+msgstr "عمومي"
+
+#: ../Grids/DataGridView.php:65
+msgid "Edit"
+msgstr "تعديل"
+
+#: ../Grids/DataGridView.php:72
+msgid "Delete"
+msgstr "حذف"
+
+#: ../Grids/DataGridView.php:84
+msgid "Public Viewed"
+msgstr "شاهدة الجميع"
+
+#: ../Panels/Panel.php:29
+msgid "User Seen"
+msgstr "شاهده المستخدم"
+
+#: ../Panels/Panel.php:31
+msgid "Public Seen"
+msgstr "شاهده العميل"
+
+#, fuzzy
+#~ msgid "Add new Request"
+#~ msgstr "إضافة طلب جديد"
+
+#, fuzzy
+#~ msgid "List Requests"
+#~ msgstr "قائمة الطلبات"
+
+#, fuzzy
+#~ msgid "Show Box Information"
+#~ msgstr "عرض المعلومات"

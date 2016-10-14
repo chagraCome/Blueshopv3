@@ -1,0 +1,12 @@
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+  <legend>
+    <span class="list"><a href="admin.php?module=eav&page=attributeset-list&entity={$smarty.get.entity}">{'List Entity Sets'|tr}</a></span> 
+  </legend>
+  <div class="panel">
+    {$form->Render()}
+  </div>
+</fieldset>

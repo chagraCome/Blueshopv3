@@ -1,0 +1,153 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cms module\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-07 18:51+0100\n"
+"PO-Revision-Date: 2011-07-07 18:55+0100\n"
+"Last-Translator: \n"
+"Language-Team:  <amir.cherif@amhsoft.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: SAUDI ARABIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: translation_en.php:3
+#: backend/translation_en.remove.php:14
+msgid "List modules"
+msgstr "قائمة الوحدات"
+
+#: translation_en.php:4
+#: backend/translation_en.remove.php:24
+msgid "Package Informationen"
+msgstr "معلومات الوحدات"
+
+#: translation_en.php:5
+#: backend/translation_en.remove.php:19
+msgid "Module Name"
+msgstr "اسم الوحدة"
+
+#: translation_en.php:6
+#: backend/translation_en.remove.php:22
+msgid "Module Version"
+msgstr "نسخة الوحدة"
+
+#: translation_en.php:7
+#: backend/translation_en.remove.php:17
+msgid "Module Build Date"
+msgstr "تاريخ انشاء الوحدة"
+
+#: translation_en.php:8
+#: backend/translation_en.remove.php:18
+msgid "Module Description"
+msgstr "وصف الوحدة"
+
+#: translation_en.php:9
+#: backend/translation_en.remove.php:23
+msgid "Navigation"
+msgstr "التصفح"
+
+#: backend/translation_en.remove.php:4
+msgid "Actions"
+msgstr "العملية"
+
+#: backend/translation_en.remove.php:5
+msgid "Back to module list"
+msgstr "الرجوع الى قائمة الوحدات"
+
+#: backend/translation_en.remove.php:6
+msgid "Build Date"
+msgstr "تاريخ انشاء الوحدة"
+
+#: backend/translation_en.remove.php:7
+msgid "checked"
+msgstr "التحقق"
+
+#: backend/translation_en.remove.php:8
+msgid "Exclamation"
+msgstr ""
+
+#: backend/translation_en.remove.php:9
+msgid "Execute"
+msgstr "تنفيذ"
+
+#: backend/translation_en.remove.php:10
+msgid "Info"
+msgstr "معلومات"
+
+#: backend/translation_en.remove.php:11
+msgid "Information"
+msgstr "معلومات"
+
+#: backend/translation_en.remove.php:12
+msgid "Install"
+msgstr "تثبيت"
+
+#: backend/translation_en.remove.php:13
+msgid "Lastversion"
+msgstr "اخر نسخة"
+
+#: backend/translation_en.remove.php:15
+msgid "List of new available modules"
+msgstr "قائمة الوحدات الجديدة المتاحة"
+
+#: backend/translation_en.remove.php:16
+msgid "Module"
+msgstr "الوحدة"
+
+#: backend/translation_en.remove.php:20
+msgid "Module name"
+msgstr "اسم الوحدة"
+
+#: backend/translation_en.remove.php:21
+msgid "Modules"
+msgstr "الوحدات"
+
+#: backend/translation_en.remove.php:25
+msgid "Release Date"
+msgstr "تاريخ اﻻصدار"
+
+#: backend/translation_en.remove.php:26
+msgid "State"
+msgstr "الحالة"
+
+#: backend/translation_en.remove.php:27
+msgid "Update"
+msgstr "تحديث"
+
+#: backend/translation_en.remove.php:28
+msgid "Version"
+msgstr "النسخة"
+
+#: backend/translation_en.remove.php:29
+msgid "Vesion"
+msgstr "النسخة"
+
+#: backend/menu.inc.php:19
+msgid "Settings"
+msgstr "اعدادات"
+
+#: backend/menu.inc.php:19
+msgid "Module Management"
+msgstr "ادارة الوحدات"
+
+#: backend/controllers/abstract/installer.class.php:25
+msgid "Modules management"
+msgstr "ادارة الوحدات"
+
+#: backend/controllers/abstract/installer.class.php:63
+#: backend/controllers/abstract/installer.class.php:94
+msgid "Details has been installed successfully."
+msgstr "تم التثبيت بنجاح"
+
+#: backend/controllers/abstract/details.class.php:52
+msgid "List details installed in the store."
+msgstr ""
+
+#~ msgid "Management Settings"
+#~ msgstr "ادارة الاعدادات"

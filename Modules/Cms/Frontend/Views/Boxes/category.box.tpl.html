@@ -1,0 +1,240 @@
+  <div class="head-menu2 core_menu_top_bg">
+    <form name="search" action="" method="GET">
+      <table style="border-spacing: 0;">
+        <tr>
+          <td>
+
+            <ul class="nav">
+              <li>
+                <a href="#" >Shop All Categories<img src="Design/Frontend/Green/images/w-menu-triangle.png" style="padding:0px 10px 0px 15px;"></a>
+               <div style="width: 800px"> 
+                  <div class="nav-column" style="width: 200px">
+                    <h3 class="orange">Welcome to our site</h3>
+                    <div>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore .
+                    </div>
+                  </div>
+                  
+                  {Modules_Cms_Frontend_Boot::getMegaMenuCategoryContainer()}
+                  
+                  <div class="nav-column">
+                    <h3 class="orange">Sales %</h3>
+                    <ul>
+                      <li><a href="#">Pampers Diapers</a></li>
+                      <li><a href="#">Huggies Diapers</a></li>
+                      <li><a href="#">Diapers</a></li>
+                    </ul>
+
+                    <h3 class="orange">Brands</h3>
+                    <ul>
+                      <li><a href="#">Driving shoes</a></li>
+                      <li><a href="#">Espadrilles</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+          </td>
+          <td>
+            <input type="text" name="q" placeholder="Enter you search keyword">
+          </td>
+          <td><input type="submit" name="search" value="Search" /></td>
+          <td><a href="#" >Advanced</a>|</td>
+          <td><a href="#"  style="text-decoration:none"><img src="Design/Frontend/Green/images/cart.png" style="padding-right:5px"><span class="type4">0</span> Item(s)</a></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+
+
+{literal}
+<style>
+  
+  
+  .head-menu2{
+    height:40px;
+    width:100%;
+    margin:10px 0;
+    padding-top:8px;
+    float:left;
+    color:#FFF;
+    font-size:11pt;
+    text-align:center;
+    /*background-color: #336600;*/
+  }
+  .head-menu2 form, .head-menu2 table{height: 40px;}
+
+  .head-menu2 td{line-height: 40px;}
+  .head-menu2 input[type="text"]{
+    border:#FFFFFF; 
+    width:300px; 
+    padding-left:30px;
+    height: 30px;  
+  }
+  .head-menu2 input[type="submit"]{
+    border:orange; 
+    width:70px; 
+    background-color: orange;
+    height: 30px;  
+    color:white;
+    font-size: 10pt;
+  }
+
+  .head-menu2 a { 
+    color:#FFFFFF;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size:14px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-top: 5px;
+    margin-top: 5px;
+  }
+  .head-menu2 a:hover {
+    text-decoration:underline;
+  }
+  span.type4 { 
+    color: #FF6600;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size:18px;
+  }
+  
+  
+  #menu-wrapper{
+    background-color:#312a27;
+    height: 54px;
+  }
+
+  /* Reset */
+  .nav,
+  .nav a,
+  .nav ul,
+  .nav li,
+  .nav div,
+  .nav form,
+  .nav input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+  }
+
+  .nav a { text-decoration: none; }
+
+  .nav li { list-style: none; }
+
+  /* Menu Container */
+  .nav {
+    display: inline-block;
+    position: relative;
+    cursor: default;
+    z-index: 500;
+  }
+
+  /* Menu List */
+  .nav > li {
+    display: block;
+    float: left;
+  }
+
+  /* Menu Links */
+  .nav > li > a {
+    position: relative;
+    display: block;
+    z-index: 510;
+    height: 40px;
+    padding: 0 20px;
+    line-height: 40px;
+
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0,0,0,.35);
+
+    /*background: #336600;*/
+    
+
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+
+
+  .nav > li:first-child > a {
+    border-radius: 3px 0 0 3px;
+    border-left: none;
+  }
+
+ 
+
+  /* Menu Dropdown */
+  .nav > li > div {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 40px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    /*border-top: 15px solid #336600;*/
+
+    background: #e8e8e8;
+    border-radius: 0 0 3px 3px;
+
+    -webkit-transition: all .3s ease .15s;
+    -moz-transition: all .3s ease .15s;
+    -o-transition: all .3s ease .15s;
+    -ms-transition: all .3s ease .15s;
+    transition: all .3s ease .15s;
+  }
+
+  .nav > li:hover > div {
+    opacity: 1;
+    visibility: visible;
+    overflow: visible;
+    min-width: 600px;
+  }
+
+  /* Menu Content Styles */
+  .nav .nav-column {
+    float: left;
+    width: 20%;
+    padding: 2.5%;
+  }
+
+  .nav .nav-column1{
+    margin: 0;
+    position: absolute;
+  }
+
+  .nav .nav-column h3 {
+    margin: 20px 0 10px 0;
+    line-height: 18px;
+
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #372f2b;
+    text-transform: uppercase;
+  }
+
+  .nav .nav-column h3.orange { color: #ff722b; }
+
+  .nav .nav-column li a {
+    display: block;
+    line-height: 26px;
+
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #888888;
+  }
+
+  .nav .nav-column li a:hover { color: #666666; }
+</style>
+{/literal}

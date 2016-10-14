@@ -1,0 +1,720 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: User\n"
+"POT-Creation-Date: 2014-04-25 12:52+0100\n"
+"PO-Revision-Date: 2014-04-25 12:52+0100\n"
+"Last-Translator: Montassar <montassarelaid@gmail.com>\n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: key_words_html.php:4 key_words_html.php:8 key_words_html.php:11
+#: key_words_html.php:15 key_words_html.php:20 key_words_html.php:23
+#: key_words_html.php:25 key_words_html.php:27 key_words_html.php:32
+#: key_words_html.php:36 key_words_html.php:41 ../I18N/key_words_html.php:4
+#: ../I18N/key_words_html.php:8 ../I18N/key_words_html.php:11
+#: ../I18N/key_words_html.php:15 ../I18N/key_words_html.php:20
+#: ../I18N/key_words_html.php:23 ../I18N/key_words_html.php:25
+#: ../I18N/key_words_html.php:27 ../I18N/key_words_html.php:32
+#: ../I18N/key_words_html.php:36 ../I18N/key_words_html.php:41
+msgid "Information"
+msgstr "معلومات"
+
+#: key_words_html.php:5 key_words_html.php:33 key_words_html.php:37
+#: key_words_html.php:42 ../Backend/Boot.php:96 ../Backend/Boot.php:140
+#: ../Backend/Controllers/Group/detail.class.php:49
+#: ../Backend/Controllers/Group/Detail.php:70 ../I18N/key_words_html.php:5
+#: ../I18N/key_words_html.php:33 ../I18N/key_words_html.php:37
+#: ../I18N/key_words_html.php:42
+msgid "Add new User"
+msgstr "اضافة مستخدم جديد"
+
+#: key_words_html.php:6 key_words_html.php:34 key_words_html.php:38
+#: key_words_html.php:43 ../Backend/Boot.php:139
+#: ../Backend/Controllers/User/List.php:36
+#: ../Backend/Controllers/User/Quicklist.php:33 ../I18N/key_words_html.php:6
+#: ../I18N/key_words_html.php:34 ../I18N/key_words_html.php:38
+#: ../I18N/key_words_html.php:43
+msgid "List Users"
+msgstr "قائمة المستخدمين"
+
+#: key_words_html.php:9 ../Backend/Controllers/Group/Modify.php:32
+#: ../I18N/key_words_html.php:9
+msgid "Edit User Group"
+msgstr "تعديل مجموعة مستخدمين"
+
+#: key_words_html.php:12 key_words_html.php:16 ../I18N/key_words_html.php:12
+#: ../I18N/key_words_html.php:16
+msgid "Add new User Group"
+msgstr "اضافة مجموعة مستخدمين"
+
+#: key_words_html.php:13 key_words_html.php:17
+#: ../Backend/Controllers/Group/List.php:41 ../I18N/key_words_html.php:13
+#: ../I18N/key_words_html.php:17
+msgid "List Users Groups"
+msgstr "قائمة المجموعات"
+
+#: key_words_html.php:28 ../I18N/key_words_html.php:28
+msgid "Add new User Role"
+msgstr "اضافة وظيفة مستخدم جديدة"
+
+#: key_words_html.php:29 ../I18N/key_words_html.php:29
+msgid "List Users Roles"
+msgstr "قائمة وظائف المستخدمين"
+
+#: ../Backend/Boot.php:92
+msgid "Administration"
+msgstr "المستخدمين"
+
+#: ../Backend/Boot.php:94
+msgid "Manage Roles"
+msgstr "ادارة الوظائف"
+
+#: ../Backend/Boot.php:95
+msgid "Manage Users"
+msgstr "ادارة المستخدمين"
+
+#: ../Backend/Boot.php:97
+msgid "Manage Groups"
+msgstr "ادارة المجموعات"
+
+#: ../Backend/Boot.php:98
+msgid "Manage Departments"
+msgstr "إدارة الفروع"
+
+#: ../Backend/Boot.php:99
+msgid "Change Password"
+msgstr "تغيير كلمة المرور"
+
+#: ../Backend/Boot.php:100 ../Backend/Controllers/User/Profile.php:32
+msgid "My Profile"
+msgstr "بياناتي"
+
+#: ../Backend/Boot.php:101
+msgid "Setup Dashboard"
+msgstr "اعدادات واجهة لوحة التحكم"
+
+#: ../Backend/Boot.php:124
+msgid "User Module"
+msgstr "إدارة المستخدمين"
+
+#: ../Backend/Boot.php:125
+msgid "Manage Users Settings"
+msgstr "ادارة اعدادات المستخدمين"
+
+#: ../Backend/Boot.php:126
+msgid "Show Profile"
+msgstr "مشاهدة الحساب"
+
+#: ../Backend/Boot.php:127
+msgid "List all Groups"
+msgstr "قائمة جميع المجموعات"
+
+#: ../Backend/Boot.php:128
+msgid "Add new Group"
+msgstr "اضافة مجموعة جديدة"
+
+#: ../Backend/Boot.php:129
+msgid "Show Group Information"
+msgstr "مشاهدة معلومات المجموعة"
+
+#: ../Backend/Boot.php:130
+msgid "Modify Group"
+msgstr "تعديل مجموعة"
+
+#: ../Backend/Boot.php:131
+msgid "Delete Group"
+msgstr "حذف مجموعة"
+
+#: ../Backend/Boot.php:132
+msgid "Modify Users Privileges"
+msgstr "تعديل صلاحيات المستخدمين "
+
+#: ../Backend/Boot.php:133
+msgid "List Roles"
+msgstr "قائمة الوظائف"
+
+#: ../Backend/Boot.php:134
+msgid "Add new Role"
+msgstr "اضافة وظيفة جديدة"
+
+#: ../Backend/Boot.php:135
+msgid "Modify Role"
+msgstr "تعديل وظيفة"
+
+#: ../Backend/Boot.php:136
+msgid "Delete Role"
+msgstr "حذف وظيفة"
+
+#: ../Backend/Boot.php:137
+msgid "Set Role Online"
+msgstr "تفعيل الوظيفة"
+
+#: ../Backend/Boot.php:138
+msgid "Set Role Offline"
+msgstr "تعطيل الوظيفة"
+
+#: ../Backend/Boot.php:141
+msgid "Modify User"
+msgstr "تعديل مستخدم"
+
+#: ../Backend/Boot.php:142
+msgid "Delete User"
+msgstr "حذف مستخدم"
+
+#: ../Backend/Boot.php:143
+msgid "Show Users Quicklist"
+msgstr "مشاهدة قائمة المستخدمين السريعة"
+
+#: ../Backend/Controllers/Setting.php:26
+msgid "Users Settings"
+msgstr "اعدادات المستخدمين"
+
+#: ../Backend/Controllers/Setting.php:37
+msgid "Add new user group"
+msgstr "اضافة مجموعة مستخدمين جديدة"
+
+#: ../Backend/Controllers/Department/Add.php:32
+msgid "Create new Department"
+msgstr "اضافة فرع جديد"
+
+#: ../Backend/Controllers/Department/Add.php:48
+#: ../Backend/Controllers/Department/Modify.php:58
+#: ../Backend/Controllers/Group/Add.php:49
+#: ../Backend/Controllers/Group/Modify.php:59
+#: ../Backend/Controllers/Role/Add.php:52
+#: ../Backend/Controllers/Role/Modify.php:58
+#: ../Backend/Controllers/User/Add.php:62
+#: ../Backend/Controllers/User/Modify.php:69
+#: ../Backend/Controllers/User/Profile.php:66
+msgid "Please check inputs."
+msgstr "الرجاء التثبت من المدخلات"
+
+#: ../Backend/Controllers/Department/List.php:31
+#: ../Backend/Controllers/Group/List.php:32
+#, fuzzy
+msgid "Action successfuly executed"
+msgstr "تم تنفيذ العملية بنجاح"
+
+#: ../Backend/Controllers/Department/List.php:33
+msgid "Cannot execute Action"
+msgstr "لم يتم تنفيذ العملية بنجاح"
+
+#: ../Backend/Controllers/Department/List.php:40
+msgid "List Departments"
+msgstr "قائمة الفروع"
+
+#: ../Backend/Controllers/Department/Modify.php:31
+msgid "Edit Department"
+msgstr "تعديل بيانات الفرع"
+
+#: ../Backend/Controllers/Group/Add.php:33
+msgid "Create new User Group"
+msgstr "اضافة مجموعة مستخدمين جديدة"
+
+#: ../Backend/Controllers/Group/detail.class.php:41
+msgid "user Group Details"
+msgstr "تفاصيل مجموعة المستخدمين"
+
+#: ../Backend/Controllers/Group/detail.class.php:45
+#: ../Backend/Controllers/Group/Detail.php:59
+msgid "Users"
+msgstr "المستخدمين"
+
+#: ../Backend/Controllers/Group/Detail.php:42
+msgid "User Group Details"
+msgstr "تفاصيل مجموعة المستخدمين"
+
+#: ../Backend/Controllers/Group/Detail.php:63
+msgid "Unassing"
+msgstr "غير موجٌه"
+
+#: ../Backend/Controllers/Group/List.php:34
+msgid "Cannot Execute Action"
+msgstr "لا يمكن تنفيذ العملية"
+
+#: ../Backend/Controllers/Privilege/List.php:35
+msgid "List projects"
+msgstr "قائمة المشاريع"
+
+#: ../Backend/Controllers/Privilege/Modify.php:37
+msgid "List Privilege"
+msgstr "قائمة الصلاحيات"
+
+#: ../Backend/Controllers/Role/Add.php:32
+msgid "Create new User Role"
+msgstr "اضافة وظيفة مستخدمين جديدة"
+
+#: ../Backend/Controllers/Role/Add.php:49
+msgid "Cannot insert role"
+msgstr "لا يمكن إدراج الوظيفة "
+
+#: ../Backend/Controllers/Role/List.php:35
+msgid "List Role"
+msgstr "قائمة الوظائف"
+
+#: ../Backend/Controllers/Role/Modify.php:31
+msgid "Edit User Role"
+msgstr "تعديل  وظيفة المستخدم"
+
+#: ../Backend/Controllers/User/Add.php:35
+msgid "Create new User"
+msgstr "اضافة مستخدم جديد"
+
+#: ../Backend/Controllers/User/Changepassword.php:30
+msgid "Change Your Password"
+msgstr "تغيير كلمة المرور"
+
+#: ../Backend/Controllers/User/Changepassword.php:62
+#: ../Backend/Controllers/User/Resetpassword.php:68
+msgid "Password not identical"
+msgstr "كلمة المرور غير متطابقة"
+
+#: ../Backend/Controllers/User/Changepassword.php:69
+#, fuzzy
+msgid "Password was changed!"
+msgstr "تم تغيير كلمة المرور بنجاح"
+
+#: ../Backend/Controllers/User/Changepassword.php:71
+#, fuzzy
+msgid "Old Password not correct!"
+msgstr "كلمة المرور القديمة غير صحيحة"
+
+#: ../Backend/Controllers/User/Details.php:41
+msgid "User Profile"
+msgstr "بيانات المستخدم"
+
+#: ../Backend/Controllers/User/Forgotpassword.php:49
+msgid "Email Not Exist"
+msgstr "البريد الإلكتروني غير موجود"
+
+#: ../Backend/Controllers/User/Forgotpassword.php:51
+#, fuzzy
+msgid "Reset Password link was send to your email"
+msgstr "تم ارسال رابط كلمة مرور الى بريدكم الالكتروني"
+
+#: ../Backend/Controllers/User/Forgotpassword.php:82
+msgid "Please check your email"
+msgstr "يرجى التحقق من بريدك الالكتروني"
+
+#: ../Backend/Controllers/User/Login.php:44
+msgid "Username or password is incorrect!"
+msgstr "كلمة المرور او اسم المستخدم غير صحيح "
+
+#: ../Backend/Controllers/User/Modify.php:32
+msgid "Edit User"
+msgstr "تعديل مستخدم"
+
+#: ../Backend/Controllers/User/Profile.php:75
+msgid "Data was successfully saved"
+msgstr "تم حفظ البيانات بنجاح"
+
+#: ../Backend/Controllers/User/Quicklist.php:47 ../Forms/User/Form.php:134
+#: ../Grids/User/DataGridView.php:39 ../Panels/Group/Panel.php:108
+#: ../Panels/User/Panel.php:112
+msgid "First Name"
+msgstr "الاسم"
+
+#: ../Backend/Controllers/User/Quicklist.php:50 ../Forms/User/Form.php:139
+#: ../Grids/User/DataGridView.php:42 ../Panels/Group/Panel.php:109
+#: ../Panels/User/Panel.php:113
+msgid "Last Name"
+msgstr "اسم العائلة"
+
+#: ../Backend/Controllers/User/Quicklist.php:53 ../Forms/User/Form.php:144
+#: ../Grids/User/DataGridView.php:46 ../Panels/Group/Panel.php:112
+#: ../Panels/User/Panel.php:115
+msgid "Email"
+msgstr "البريد الالكتروني"
+
+#: ../Backend/Controllers/User/Quicklist.php:55
+#, fuzzy
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: ../Backend/Controllers/User/Quicklist.php:57
+#: ../Forms/Department/Form.php:53
+msgid "Telefon"
+msgstr "الهاتف"
+
+#: ../Backend/Controllers/User/Resetpassword.php:61
+#, fuzzy
+msgid "Your Password Was Changed"
+msgstr "تم تغيير كلمة المرور"
+
+#: ../Backend/Controllers/User/Resetpassword.php:65
+msgid "User within email address not found"
+msgstr "لا يوجد عنوان الكتروني للمستخدم"
+
+#: ../Forms/ChangePassword/Form.php:46 ../Forms/User/Form.php:129
+#: ../Panels/Group/Panel.php:107
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: ../Forms/ChangePassword/Form.php:49
+msgid "New Password"
+msgstr "كلمة المرور الجديدة"
+
+#: ../Forms/ChangePassword/Form.php:53
+msgid "Confirm Password"
+msgstr "تأكيد كلمة المرور"
+
+#: ../Forms/ChangePassword/Form.php:57 ../Forms/Department/Form.php:57
+#: ../Forms/Group/Form.php:50 ../Forms/Privilege/Form.php:45
+#: ../Forms/Role/Form.php:54 ../Forms/User/Form.php:196
+msgid "Save"
+msgstr "حفظ"
+
+#: ../Forms/Department/Form.php:46
+#, fuzzy
+msgid "General Information"
+msgstr "معلومات عامة"
+
+#: ../Forms/Department/Form.php:47 ../Forms/Role/Form.php:45
+#: ../Grids/Department/DataGridView.php:37 ../Grids/Group/DataGridView.php:37
+#: ../Grids/Role/DataGridView.php:55
+msgid "Name"
+msgstr "الاسم"
+
+#: ../Forms/Department/Form.php:50
+msgid "Adresses Information"
+msgstr "معلومات العنوان"
+
+#: ../Forms/Department/Form.php:51 ../Forms/User/Form.php:168
+#: ../Grids/Department/DataGridView.php:39 ../Grids/User/DataGridView.php:50
+#: ../Panels/Group/Panel.php:148 ../Panels/User/Panel.php:146
+msgid "Country"
+msgstr "البلد"
+
+#: ../Forms/Department/Form.php:55 ../Forms/User/Form.php:156
+#: ../Grids/Department/DataGridView.php:41 ../Panels/Group/Panel.php:142
+#: ../Panels/Group/Panel.php:144 ../Panels/User/Panel.php:140
+#: ../Panels/User/Panel.php:142
+msgid "Address"
+msgstr "العنوان"
+
+#: ../Forms/Department/Form.php:65 ../Forms/Role/Form.php:59
+#, fuzzy
+msgid "Navigation"
+msgstr "التّصفح"
+
+#: ../Forms/Group/Form.php:47
+msgid "Alias"
+msgstr "الإسم المستعار"
+
+#: ../Forms/Group/Form.php:49
+msgid "Not important"
+msgstr "غير مهم"
+
+#: ../Forms/Privilege/Form.php:38
+msgid "Manage Access Controls"
+msgstr "ادارة الصلاحيات"
+
+#: ../Forms/Privilege/Form.php:48
+msgid "Save Persmissions"
+msgstr "حفظ الصلاحيات"
+
+#: ../Forms/Role/Form.php:44
+msgid "Role Information"
+msgstr "معلومات الوظيفة"
+
+#: ../Forms/Role/Form.php:49
+msgid "Parent:"
+msgstr "تحت"
+
+#: ../Forms/Role/Form.php:53 ../Forms/User/Form.php:153
+#: ../Grids/Role/DataGridView.php:71 ../Panels/Group/Panel.php:115
+#: ../Panels/User/Panel.php:118
+msgid "State"
+msgstr "الحالة"
+
+#: ../Forms/User/Form.php:120 ../Grids/User/DataGridView.php:37
+#, fuzzy
+msgid "Number"
+msgstr "الرقم"
+
+#: ../Forms/User/Form.php:123 ../Panels/Group/Panel.php:106
+#: ../Panels/User/Panel.php:111
+msgid "User Name"
+msgstr "اسم المستخدم"
+
+#: ../Forms/User/Form.php:142 ../Panels/Group/Panel.php:111
+#: ../Panels/User/Panel.php:114
+msgid "Phone"
+msgstr "الهاتف"
+
+#: ../Forms/User/Form.php:149 ../Grids/User/DataGridView.php:44
+#: ../Panels/Group/Panel.php:113 ../Panels/User/Panel.php:116
+msgid "Mobile"
+msgstr "الجوال"
+
+#: ../Forms/User/Form.php:151 ../Grids/User/DataGridView.php:48
+#: ../Panels/Group/Panel.php:114 ../Panels/User/Panel.php:117
+msgid "Fax"
+msgstr "الفاكس"
+
+#: ../Forms/User/Form.php:154 ../Panels/Group/Panel.php:138
+#: ../Panels/Group/Panel.php:140 ../Panels/User/Panel.php:136
+#: ../Panels/User/Panel.php:138
+msgid "Notice"
+msgstr "ملاحظة"
+
+#: ../Forms/User/Form.php:159
+msgid "Postale Code"
+msgstr "الرمز البريدي"
+
+#: ../Forms/User/Form.php:162
+msgid "city"
+msgstr "المدينة"
+
+#: ../Forms/User/Form.php:165 ../Panels/Group/Panel.php:147
+#: ../Panels/User/Panel.php:145
+msgid "Province"
+msgstr "المحافظة"
+
+#: ../Forms/User/Form.php:171
+msgid "Code id"
+msgstr "الرمز"
+
+#: ../Forms/User/Form.php:173
+msgid "Department"
+msgstr "الفرع"
+
+#: ../Forms/User/Form.php:176
+msgid "Facebook"
+msgstr "حساب الفيسبوك"
+
+#: ../Forms/User/Form.php:178
+msgid "Twitter"
+msgstr "حساب التويتر"
+
+#: ../Forms/User/Form.php:180
+msgid "Gmail"
+msgstr "حساب جيمايل"
+
+#: ../Forms/User/Form.php:182
+msgid "ICQ"
+msgstr "حساب اي سي كيو"
+
+#: ../Forms/User/Form.php:184
+msgid "Blackberry PIN"
+msgstr "رقم البلاكبيري"
+
+#: ../Forms/User/Form.php:186
+msgid "MSN"
+msgstr "الماسنجر"
+
+#: ../Forms/User/Form.php:188
+msgid "WhatsApp"
+msgstr " الواتس آب"
+
+#: ../Forms/User/Form.php:190
+msgid "Role"
+msgstr "الوظيفة"
+
+#: ../Forms/User/Form.php:194
+msgid "Send Password"
+msgstr "ارسال كلمة المرور"
+
+#: ../Forms/User/Form.php:195
+msgid "As Admin"
+msgstr "كمدير"
+
+#: ../Forms/User/Form.php:198
+msgid "Login Informations"
+msgstr "معلومات الدخول"
+
+#: ../Forms/User/Form.php:205
+msgid "Contact Informations"
+msgstr "بيانات جهةالاتصال"
+
+#: ../Forms/User/Form.php:219
+msgid "Note"
+msgstr "ملاحظة"
+
+#: ../Forms/User/Form.php:222
+msgid "Social networks Informations"
+msgstr "معلومات التواصل الاجتماعي"
+
+#: ../Forms/User/Form.php:231
+msgid "Actions"
+msgstr "العملية"
+
+#: ../Grids/Department/DataGridView.php:40
+#, fuzzy
+msgid "Telephone"
+msgstr "الهاتف"
+
+#: ../Grids/Department/DataGridView.php:42 ../Grids/Group/DataGridView.php:40
+#: ../Grids/Role/DataGridView.php:59 ../Grids/User/DataGridView.php:52
+msgid "Edit"
+msgstr "تعديل"
+
+#: ../Grids/Department/DataGridView.php:46 ../Grids/Group/DataGridView.php:44
+#: ../Grids/Role/DataGridView.php:63 ../Grids/User/DataGridView.php:56
+msgid "Delete"
+msgstr "حذف"
+
+#: ../Grids/Role/DataGridView.php:57
+msgid "Parent"
+msgstr "تحت"
+
+#: ../Grids/Role/DataGridView.php:68
+msgid "Manage Privilege"
+msgstr "ادارة الصلاحيات"
+
+#: ../Grids/User/DataGridView.php:61
+#, fuzzy
+msgid "Online"
+msgstr "مفعّل"
+
+#: ../Models/Notification/Model.php:42
+msgid "Your Username & Password"
+msgstr "اسم المستخدم و كلمة المرور"
+
+#: ../Models/Notification/Model.php:43
+msgid "Dear"
+msgstr "سيدي"
+
+#: ../Models/Notification/Model.php:44
+msgid "Your Username"
+msgstr "اسم المستخدم"
+
+#: ../Models/Notification/Model.php:45
+msgid "Your Password is"
+msgstr "كلمة المرور"
+
+#: ../Models/Notification/Model.php:46
+msgid "Best Regards"
+msgstr "مع أطيب التحيات"
+
+#: ../Models/Notification/Model.php:52
+#, fuzzy
+msgid "Reset password"
+msgstr "طلب كلمة مرور جديدة"
+
+#: ../Models/Notification/Model.php:54
+msgid "Dear Admin"
+msgstr "عزيزي المدير "
+
+#: ../Models/Notification/Model.php:54
+msgid "You can reset your password throught  the following link"
+msgstr "يمكنك إعادة تعيين كلمة المرور الخاصة بك من خلال الرابط التالي"
+
+#: ../Models/Notification/Model.php:56
+#, fuzzy
+msgid "Best regards"
+msgstr "مع خالص التحية والتقدير"
+
+#: ../Models/Notification/Model.php:81
+msgid "invalid email address"
+msgstr "البريد الالكتروني غير صحيح"
+
+#: ../Panels/Group/Panel.php:104
+msgid "User Information"
+msgstr "معلومات المستخدم"
+
+#: ../Panels/Group/Panel.php:110
+msgid "Date of birth"
+msgstr "تاريخ الميلاد"
+
+#: ../Panels/Group/Panel.php:116 ../Panels/User/Panel.php:119
+msgid "Create Date Time"
+msgstr "تاريخ الاضافة"
+
+#: ../Panels/Group/Panel.php:117 ../Panels/User/Panel.php:120
+msgid "Update Date Time"
+msgstr "تاريخ التعديل"
+
+#: ../Panels/Group/Panel.php:118 ../Panels/User/Panel.php:121
+msgid "Last Login Date"
+msgstr "تاريخ اخر تسجيل دخول"
+
+#: ../Panels/Group/Panel.php:119 ../Panels/User/Panel.php:122
+msgid "Last Login Host"
+msgstr "اخر جهاز تم تسجيل الدخول منه"
+
+#: ../Panels/Group/Panel.php:120
+msgid "Remote Id"
+msgstr "رمز التحكم عن بعد"
+
+#: ../Panels/Group/Panel.php:145 ../Panels/User/Panel.php:143
+msgid "Postal Code"
+msgstr "الرمز البريدي"
+
+#: ../Panels/Group/Panel.php:146 ../Panels/User/Panel.php:144
+msgid "City"
+msgstr "المدينة"
+
+#: ../Panels/User/Panel.php:108
+#, fuzzy
+msgid "General Informations"
+msgstr "معلومات عامة"
+
+#: ../Panels/User/Panel.php:110
+msgid "No."
+msgstr "الرقم"
+
+#~ msgid "Add new Department"
+#~ msgstr "اضافة فرع جديد"
+
+#~ msgid "Add new Users"
+#~ msgstr "اضافة مستخدم جديد"
+
+#, fuzzy
+#~ msgid "Back to login"
+#~ msgstr "الرجوع الى صفحة تسجيل الدخول"
+
+#~ msgid "Forgot Password"
+#~ msgstr "نسيت كلمة المرور"
+
+#~ msgid "Privileges was successfully modified"
+#~ msgstr "تم التعديل على الصلاحيات بنجاح"
+
+#~ msgid "Name :"
+#~ msgstr "الاسم :"
+
+#, fuzzy
+#~ msgid "Login"
+#~ msgstr "تسجيل دخول"
+
+#~ msgid "Your New Password"
+#~ msgstr "كلمة المرور الجديدة"
+
+#~ msgid "Your new Password"
+#~ msgstr "كلمة المرور الجديدة"
+
+#~ msgid "Login page"
+#~ msgstr "صفحة تسجيل الدخول"
+
+#, fuzzy
+#~ msgid "Re-Enter New Password"
+#~ msgstr "كلمة المرور الجديدة"
+
+#~ msgid "Settings"
+#~ msgstr "الاعدادات"
+
+#~ msgid "Add new Groups"
+#~ msgstr "اضافة مجموعة جديدة"
+
+#~ msgid "Edit Profile"
+#~ msgstr "التعديل على الحساب"
+
+#~ msgid "User Group"
+#~ msgstr "مجموعة المستخدمين"
+
+#~ msgid "User Group was successully added"
+#~ msgstr "تم اضافة المجموعة بنجاح"
+
+#~ msgid "Firstname"
+#~ msgstr "الاسم الاول"
+
+#~ msgid "Lastname"
+#~ msgstr "الاسم الثاني"

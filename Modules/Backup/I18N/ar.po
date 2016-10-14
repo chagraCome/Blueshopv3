@@ -1,0 +1,286 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Backup Module\n"
+"POT-Creation-Date: 2014-03-22 08:58+0100\n"
+"PO-Revision-Date: 2014-03-22 08:59+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../key_words_html.php:3 ../key_words_html.php:8 ../key_words_html.php:12
+#: ../key_words_html.php:16 ../key_words_html.php:21 ../key_words_html.php:23
+#: ../key_words_html.php:27 ../key_words_html.php:30 ../key_words_html.php:35
+#: ../key_words_html.php:39 ../key_words_html.php:44 ../key_words_html.php:48
+#: ../key_words_html.php:50 ../key_words_html.php:54
+#, fuzzy
+msgid "Information"
+msgstr "اعلام"
+
+#: ../key_words_html.php:4 ../key_words_html.php:17 ../key_words_html.php:24
+#: ../key_words_html.php:31 ../key_words_html.php:40 ../key_words_html.php:45
+msgid "Generate new Backup"
+msgstr "توليد  نسخة احتياطية جديدة"
+
+#: ../key_words_html.php:5 ../key_words_html.php:18 ../key_words_html.php:32
+#: ../key_words_html.php:41
+msgid "Local Bakups"
+msgstr "نسخ احتياطية محلية"
+
+#: ../key_words_html.php:6 ../key_words_html.php:19 ../key_words_html.php:33
+#: ../key_words_html.php:42
+msgid "Remote Backups"
+msgstr "نسخ احتياطية عن بعد"
+
+#: ../key_words_html.php:9 ../key_words_html.php:13 ../key_words_html.php:36
+#: ../key_words_html.php:51
+msgid "Local Bakup"
+msgstr "نسخة احتياطية محلية"
+
+#: ../key_words_html.php:10 ../key_words_html.php:14 ../key_words_html.php:37
+#: ../key_words_html.php:52 ../Backend/Boot.php:36
+msgid "Remote Backup"
+msgstr "نسخة احتياطية عن بعد"
+
+#: ../key_words_html.php:25 ../key_words_html.php:46 ../Backend/Boot.php:22
+msgid "Manage Backups"
+msgstr "إدارة النسخ الاحتياطية"
+
+#: ../key_words_html.php:28
+msgid "hostname is missing"
+msgstr "إسم المضيف مفقود"
+
+#: ../Backend/Boot.php:20
+msgid "Backup Manager"
+msgstr "ادارة النسخ الاحتياطية"
+
+#: ../Backend/Boot.php:21
+msgid "Generate Backup"
+msgstr "اصدار نسخة احتياطية"
+
+#: ../Backend/Boot.php:23 ../Backend/Boot.php:40
+msgid "Upload Backup"
+msgstr "تحميل نسخة احتياطية "
+
+#: ../Backend/Boot.php:24
+msgid "Manage Backup Setting"
+msgstr "إعدادات النسخ الاحتياطية"
+
+#: ../Backend/Boot.php:31
+#, fuzzy
+msgid "Backup Module"
+msgstr "ادارة النسخ الاحتياطية"
+
+#: ../Backend/Boot.php:32
+msgid "Delete Backup"
+msgstr "حذف نسخة  احتياطية  "
+
+#: ../Backend/Boot.php:33
+msgid "Download Backup"
+msgstr "تحميل نسخة احتياطية"
+
+#: ../Backend/Boot.php:34 ../Backend/Controllers/List.php:34
+#: ../Backend/Controllers/Remotelist.php:35
+#, fuzzy
+msgid "List Backups"
+msgstr "قائمة النسخ الاحتياطية"
+
+#: ../Backend/Boot.php:35
+msgid "Local Backups"
+msgstr "النسخ الاحتياطية المحلية "
+
+#: ../Backend/Boot.php:37
+msgid "List Remote Backups"
+msgstr "قائمة النسخ الاحتياطية عن بعد"
+
+#: ../Backend/Boot.php:38 ../Backend/Controllers/Restore.php:41
+msgid "Restore Backup"
+msgstr "استعادة النسخ الاحتياطية "
+
+#: ../Backend/Boot.php:39
+msgid "Setting Backup"
+msgstr "إعدادات النسخ الإحتياطية"
+
+#: ../Backend/Controllers/Local.php:30
+msgid "Generate Local Backup"
+msgstr "اصدار نسخة احتياطية محلية"
+
+#: ../Backend/Controllers/Remote.php:31
+msgid "Generate Remote Backup"
+msgstr "اصدار نسخة احتياطية خارجية"
+
+#: ../Backend/Controllers/Remote.php:51
+msgid "Logged to FTP Server Successfully"
+msgstr "تسجيل لخادم بروتوكول نقل الملفات بنجاح"
+
+#: ../Backend/Controllers/Remote.php:67
+#, fuzzy
+msgid "Backup was successully done!"
+msgstr "تم القيام بالعملية بنجاح"
+
+#: ../Backend/Controllers/Remote.php:77
+msgid "Cannot connect to ftp host"
+msgstr "لا يمكن الاتصال باستضافة بروتوكول نقل الملفات"
+
+#: ../Backend/Controllers/Remote.php:84
+#, fuzzy
+msgid "Please Verify Input"
+msgstr "يرجى التحقق من المدخلات"
+
+#: ../Backend/Controllers/Restore.php:48
+msgid "Zip Archive is not valid backup"
+msgstr "الملف الذي تم اختياره ليس بنسخة احتياطية"
+
+#: ../Backend/Controllers/Setting.php:24 ../Backend/Controllers/Setting.php:35
+msgid "Backup Settings"
+msgstr "إعدادات النسخ الاحتياطية "
+
+#: ../Backend/Controllers/Setting.php:38
+msgid "Backup Local Path"
+msgstr "مسار النسخ الاحتياطية"
+
+#: ../Backend/Controllers/Setting.php:43
+msgid "Save"
+msgstr "حفظ"
+
+#: ../Backend/Controllers/Setting.php:56
+#, fuzzy
+msgid "Data was successfully saved"
+msgstr "تم حفظ المعلومات بنجاح"
+
+#: ../Backend/Controllers/Upload.php:39
+#, fuzzy
+msgid "Please check inputs"
+msgstr "يرجى التحقق من المدخلات"
+
+#: ../Forms/Local/Form.php:34 ../Forms/Remote/Form.php:39
+msgid "File Name"
+msgstr "اسم الملف"
+
+#: ../Forms/Local/Form.php:40 ../Forms/Remote/Form.php:45
+#: ../Forms/Restore/Form.php:32
+msgid "Select Modules"
+msgstr "اختر الوحدة"
+
+#: ../Forms/Local/Form.php:49 ../Forms/Remote/Form.php:53
+msgid "Backup Type"
+msgstr "نوع النسخة"
+
+#: ../Forms/Local/Form.php:54 ../Forms/Remote/Form.php:58
+msgid "Backup database and media"
+msgstr "نسخ قاعدة البيانات و ملفات الميديا"
+
+#: ../Forms/Local/Form.php:55 ../Forms/Remote/Form.php:59
+msgid "Backup media only"
+msgstr "وسائط النسخ الاحتياطي فقط"
+
+#: ../Forms/Local/Form.php:56 ../Forms/Remote/Form.php:60
+msgid "Backup database only"
+msgstr "قاعدة بيانات النسخ الاحتياطي فقط"
+
+#: ../Forms/Local/Form.php:61 ../Forms/Remote/Form.php:92
+msgid "Generate"
+msgstr "اصدار"
+
+#: ../Forms/Local/Form.php:65 ../Forms/Remote/Form.php:96
+#: ../Forms/Restore/Form.php:53 ../Forms/Upload/Form.php:38
+#, fuzzy
+msgid "General Informations"
+msgstr "معلومات عامة"
+
+#: ../Forms/Local/Form.php:73 ../Forms/Remote/Form.php:112
+#: ../Forms/Restore/Form.php:60 ../Forms/Upload/Form.php:44
+msgid "Action"
+msgstr "المهمة"
+
+#: ../Forms/Remote/Form.php:65
+msgid "Host Name"
+msgstr "إسم المضيف"
+
+#: ../Forms/Remote/Form.php:70
+#, fuzzy
+msgid "User Name"
+msgstr "اسم المستخدم"
+
+#: ../Forms/Remote/Form.php:75
+#, fuzzy
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: ../Forms/Remote/Form.php:80
+msgid "Port"
+msgstr "المنفذ"
+
+#: ../Forms/Remote/Form.php:85
+msgid "Path"
+msgstr "المسار"
+
+#: ../Forms/Remote/Form.php:103
+msgid "Ftp Informations"
+msgstr "معلومات بروتوكول نقل الملفات"
+
+#: ../Forms/Restore/Form.php:39
+msgid "Restore Type"
+msgstr "نوع استعادة"
+
+#: ../Forms/Restore/Form.php:43
+msgid "Restore database and media"
+msgstr "استرجاع قاعدة البيانات و الميديا"
+
+#: ../Forms/Restore/Form.php:44
+msgid "Restore media only"
+msgstr "استعادة وسائل الإعلام فقط"
+
+#: ../Forms/Restore/Form.php:45
+msgid "Restore database only"
+msgstr "استعادة قاعدة البيانات فقط"
+
+#: ../Forms/Restore/Form.php:49 ../Grids/DataGridView.php:42
+#: ../Grids/Remote/DataGridView.php:42
+msgid "Restore"
+msgstr "استرجاع"
+
+#: ../Forms/Upload/Form.php:31
+msgid "Select Backup to upload"
+msgstr "اختيار الملف لرفعه"
+
+#: ../Forms/Upload/Form.php:34
+#, fuzzy
+msgid "Upload"
+msgstr "رفع"
+
+#: ../Grids/DataGridView.php:35 ../Grids/Remote/DataGridView.php:35
+msgid "Backup Name"
+msgstr "الاسم"
+
+#: ../Grids/DataGridView.php:37 ../Grids/Remote/DataGridView.php:37
+msgid "Filesize"
+msgstr "حجم الملف"
+
+#: ../Grids/DataGridView.php:39 ../Grids/Remote/DataGridView.php:39
+#, fuzzy
+msgid "Date"
+msgstr "التاريخ"
+
+#: ../Grids/DataGridView.php:48 ../Grids/Remote/DataGridView.php:48
+#, fuzzy
+msgid "Download"
+msgstr "تحميل"
+
+#: ../Grids/DataGridView.php:54 ../Grids/Remote/DataGridView.php:54
+#, fuzzy
+msgid "Delete"
+msgstr "حذف"
+
+#~ msgid "Remote Backup List"
+#~ msgstr "قائمة النسخ الاحتياطية عن بعد"
+
+#, fuzzy
+#~ msgid "User"
+#~ msgstr "اسم المستخدم"

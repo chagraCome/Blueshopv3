@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: comment.de\n"
+"POT-Creation-Date: 2013-05-23 09:54+0100\n"
+"PO-Revision-Date: 2013-05-23 09:54+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: deutsch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: ../../Forms\n"
+"X-Poedit-SearchPath-2: ../../Grids\n"
+
+#: ../Controllers/Add.php:41 ../../Forms/Form.php:33
+msgid "Add new Comment"
+msgstr "Neues Kommentar hinzufügen"
+
+#: ../Controllers/Add.php:59 ../Controllers/Modify.php:53
+msgid "Please check inputs."
+msgstr "Bitte Eingaben überprüfen."
+
+#: ../Controllers/Detail.php:47 ../Controllers/Detail.php:57
+msgid "Comment Details"
+msgstr "Kommentarinformationen"
+
+#: ../Controllers/Detail.php:65
+msgid "Reply"
+msgstr "Antwort"
+
+#: ../Controllers/Detail.php:78
+msgid "Reply was successufuly added "
+msgstr "Antwort wurde erfolgreich hinzugefügt"
+
+#: ../Controllers/Detail.php:88
+msgid "Reply From"
+msgstr "Antwort von"
+
+#: ../Controllers/Detail.php:90
+msgid "Comment "
+msgstr "Kommentar"
+
+#: ../Controllers/Detail.php:92
+msgid "Posted at"
+msgstr "Geschrieben am"
+
+#: ../Controllers/Detail.php:93
+msgid "Author"
+msgstr "Autor"
+
+#: ../Controllers/List.php:38
+msgid "List all comments"
+msgstr "Alle Kommentare auflisten"
+
+#: ../Controllers/Modify.php:28
+msgid "Modify Comment"
+msgstr "Kommentar ändern"
+
+#: ../../Forms/Form.php:34 ../../Grids/DataGridView.php:38
+msgid "Subject"
+msgstr "Thema"
+
+#: ../../Forms/Form.php:39 ../../Forms/Reply/Form.php:30
+msgid "Comment"
+msgstr "Kommentar"
+
+#: ../../Forms/Form.php:42
+msgid "Is Public"
+msgstr "Öffentlich:"
+
+#: ../../Forms/Form.php:45 ../../Forms/Reply/Form.php:35
+msgid "Save"
+msgstr "Speichern"
+
+#: ../../Grids/DataGridView.php:44
+msgid "Insert Date"
+msgstr "Datum"
+
+#: ../../Grids/DataGridView.php:49
+msgid "Author Name"
+msgstr "Autor"
+
+#: ../../Grids/DataGridView.php:54
+msgid "Public viewed"
+msgstr "Öffentlich eingesehen"
+
+#: ../../Grids/DataGridView.php:58
+msgid "User viewed"
+msgstr "Gesehen von Benutzer"
+
+#: ../../Grids/DataGridView.php:62 ../../Grids/DataGridView.php:88
+msgid "Public"
+msgstr "Öffentlich"
+
+#: ../../Grids/DataGridView.php:66
+msgid "Edit"
+msgstr "Editieren"
+
+#: ../../Grids/DataGridView.php:73
+msgid "Delete"
+msgstr "Löschen"
+
+#: ../../Grids/DataGridView.php:85
+msgid "Public Viewed"
+msgstr "Öffentlich eingesehen"

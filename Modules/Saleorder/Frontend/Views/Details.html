@@ -1,0 +1,273 @@
+{$breadcrumb}
+<div class="page_content_offset">
+    <div class="container">
+        <div class="row clearfix">
+            <section>
+                <h2 class="tt_uppercase color_dark m_bottom_25">{'Order Information'|tr}</h2>
+                <table class="table_type_6 responsive_table full_width r_corners shadow m_bottom_45 t_align_l">
+                    <tbody><tr>
+                            <td class="f_size_large d_xs_none">{'Order Number'|tr}</td>
+                            <td data-title="{'Order Number'|tr}">{$saleorder->number}</td>
+                        </tr>
+                        <tr>
+                            <td class="f_size_large d_xs_none">{'Date Time'|tr}</td>
+                            <td data-title="{'Order Date'|tr}">{$saleorder->getLocaleInsertAt()}</td>
+
+                        </tr>
+                        <tr>
+                            <td class="f_size_large d_xs_none">{'Order Status'|tr}</td>
+                            <td data-title="{'Order Status'|tr}">{$saleorder->saleorderstate}</td>
+                        </tr>
+                        {if $saleorder->shipping_method_name != ""}
+                        <tr>
+                            <td class="f_size_large d_xs_none">{'Shipping Method Name'|tr}</td>
+                            <td data-title="{'Shipping Method Name'|tr}">{$saleorder->shipping_method_name}</td>
+                        </tr>
+                        {/if}
+                        {if $saleorder->payment_method_name != ""}
+                        <tr>
+                            <td class="f_size_large d_xs_none">{'Payment Method Name'|tr}</td>
+                            <td data-title="{'Payment Method Name'|tr}">{$saleorder->payment_method_name}</td>
+                        </tr>
+                        {/if}
+                        <tr>
+                            <td class="f_size_large d_xs_none">{'Total'|tr}</td>
+                            <td data-title="{'Total'|tr}"><p class="fw_medium f_size_large scheme_color">{$saleorder->total_price|price}</p></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="row clearfix m_bottom_30">
+                    <div class="col-lg-6 col-md-6 col-sm-6 m_xs_bottom_30">
+                        <h2 class="tt_uppercase color_dark m_bottom_25">{'Invoice Address'|tr}</h2>
+                        <table class="table_type_6 responsive_table full_width t_align_l r_corners shadow bg_light_color_3 wrapper w_break">
+                            <tbody>
+                                <tr>
+                                    <td class="f_size_large half_column d_xs_none">{'E-Mail'|tr}</td>
+                                    <td data-title="{'E-Mail'|tr}" class="half_column"><a href="mailto:#" class="color_dark">{$saleorder->getAccount()->getEmail()}</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="f_size_large half_column d_xs_none">{'Name'|tr}</td>
+                                    <td data-title="{'Name'|tr}" class="half_column">{$saleorder->getInvoiceAddress()->getName()}</td>
+                                </tr>
+                                <tr>
+                                    <td class="f_size_large half_column d_xs_none">{'Address'|tr}</td>
+                                    <td data-title="{'Address'|tr}" class="half_column">{$saleorder->getInvoiceAddress()->getZipCode()}-{$saleorder->getInvoiceAddress()->getCity()}</td>
+                                </tr>
+                                <tr>
+                                    <td class="f_size_large half_column d_xs_none">{'Postal Code'|tr}</td>
+                                    <td data-title="{'Postal Code'|tr}" class="half_column">{$saleorder->getInvoiceAddress()->getZipCode()}</td>
+                                </tr>
+                                <tr>
+                                    <td class="f_size_large half_column d_xs_none">{'City'|tr}</td>
+                                    <td data-title="{'City'|tr}" class="half_column">{$saleorder->getInvoiceAddress()->getCity()}</td>
+                                </tr>
+                                <tr>
+                                    <td class="f_size_large half_column d_xs_none">{'Country'|tr}</td>
+                                    <td data-title="{'Country'|tr}" class="half_column">{$saleorder->getInvoiceAddress()->getCountry()}</td>
+                                </tr>
+                                <tr>
+                                    <td class="f_size_large half_column d_xs_none">{'Province'|tr}</td>
+                                    <td data-title="{'Province'|tr}" class="half_column">{$saleorder->getInvoiceAddress()->getProvince()}</td>
+                                </tr>
+                                <tr>
+                                    <td class="f_size_large half_column d_xs_none">{'Phone'|tr}</td>
+                                    <td data-title="{'Phone'|tr}" class="half_column">{$saleorder->getAccount()->getMobile()}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <h2 class="tt_uppercase color_dark m_bottom_25">{'Shipping Address'|tr}</h2>
+                        <table class="table_type_6 responsive_table full_width t_align_l r_corners shadow bg_light_color_3 w_break">
+                            <tbody>   
+                                <tr>
+                                    <td class="f_size_large half_column d_xs_none">{'E-Mail'|tr}</td>
+                                    <td data-title="{'E-Mail'|tr}" class="half_column"><a href="mailto:#" class="color_dark">{$saleorder->getAccount()->getEmail()}</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="f_size_large half_column d_xs_none">{'Name'|tr}</td>
+                                    <td data-title="{'Name'|tr}" class="half_column">{$saleorder->getShippingAddress()->getName()}</td>
+                                </tr> 
+                                <tr>
+                                    <td class="f_size_large half_column d_xs_none">{'Address'|tr}</td>
+                                    <td data-title="{'Address'|tr}" class="half_column">{$saleorder->getShippingAddress()->getZipCode()}-{$saleorder->getShippingAddress()->getCity()}</td>
+                                </tr>
+                                <tr>
+                                    <td class="f_size_large half_column d_xs_none">{'Postal Code'|tr}</td>
+                                    <td data-title="{'Postal Code'|tr}" class="half_column">{$saleorder->getShippingAddress()->getZipCode()}</td>
+                                </tr>
+                                <tr>
+                                    <td class="f_size_large half_column d_xs_none">{'City'|tr}</td>
+                                    <td data-title="{'City'|tr}" class="half_column">{$saleorder->getShippingAddress()->getCity()}</td>
+                                </tr>
+                                <tr>
+                                    <td class="f_size_large half_column d_xs_none">{'Country'|tr}</td>
+                                    <td data-title="{'Country'|tr}" class="half_column">{$saleorder->getShippingAddress()->getCountry()}</td>
+                                </tr>
+                                <tr>
+                                    <td class="f_size_large half_column d_xs_none">{'Province'|tr}</td>
+
+                                    <td data-title="{'Province'|tr}" class="half_column">{$saleorder->getShippingAddress()->getProvince()}</td>
+                                </tr>
+                                <tr>
+                                    <td class="f_size_large half_column d_xs_none">{'Phone'|tr}</td>
+                                    <td data-title="{'Phone'|tr}" class="half_column">{$saleorder->getAccount()->getMobile()}</td>
+                                </tr>
+
+                            </tbody></table>
+                    </div>
+                </div>
+                <div class="tabs m_bottom_45 ui-tabs ui-widget ui-widget-content ui-corner-all">
+                    <nav>
+                        <ul class="tabs_nav horizontal_list clearfix ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all" role="tablist">
+                            <li class="f_xs_none ui-state-default ui-corner-top ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="tab-1" aria-labelledby="ui-id-1" aria-selected="true"><a href="JavaScript:void(0);" class="bg_light_color_1 color_dark tr_delay_hover r_corners d_block ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-1">{'Order Items'|tr}</a></li>                          
+                        </ul>
+                    </nav>
+                    <section class="tabs_content shadow r_corners p_hr_0 p_vr_0 wrapper">
+                        <div id="tab-1" aria-labelledby="ui-id-1" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="true" aria-hidden="false" style="display: block;">
+                            <table class="table_type_2 responsive_table full_width t_align_l">
+                                <thead>
+                                    <tr class="f_size_large">
+                                        <th>{'Product Number'|tr}</th>
+                                        <th>{'Product Name'|tr}</th>
+                                        <th>{'Unit Price'|tr}</th>
+                                        <th>{'Quantity'|tr}</th>
+                                        <th>{'Sub Total'|tr}</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {foreach $saleorder->getItems() as $item}
+                                    <tr>
+                                        <td data-title="{'Product Number'|tr}">{$item->product_number}</td>
+                                        <td data-title="{'Product Name'|tr}">
+                                            {$item->item_name}<br>                                         
+                                        </td>
+                                        <td data-title="{'Unit Price'|tr}">{$item->unit_price|price}</td>                                    
+                                        <td data-title="{'Quantity'|tr}">{$item->quantity}</td>                                     
+                                        <td data-title="{'Sub Total'|tr}">{$item->sub_total|price}</td>
+                                    </tr>
+                                    {/foreach}
+                                    <tr>
+                                        <td colspan="4">
+                                            <p class="fw_medium f_size_large t_align_r t_xs_align_c">{'Product prices result'|tr}:</p>
+                                        </td>
+                                        <td colspan="1" class="color_dark">{$saleorder->sub_total|price}</td>
+                                    </tr>
+                                    {if $saleorder->shipping_cost >0}
+                                    <tr>
+                                        <td colspan="4">
+                                            <p class="fw_medium f_size_large t_align_r t_xs_align_c">{'Shipping Cost'|tr}</p>
+                                        </td>
+                                        <td colspan="1" class="color_dark">{$saleorder->shipping_cost|price}</td>
+                                    </tr>
+                                    {/if}
+
+                                    {if $saleorder->calculateHandlingFee() neq 0}
+                                    <tr>
+                                        <td colspan="4">
+                                            <p class="fw_medium f_size_large t_align_r t_xs_align_c">{'Handling Fee'|tr}</p>
+                                        </td>
+                                        <td colspan="1" class="color_dark">{$saleorder->calculateHandlingFee()|price}</td>
+                                    </tr>
+                                    {/if}
+                                    {if $saleorder->total_discount neq 0} 
+                                    <tr>
+                                        <td colspan="4">
+                                            <p class="fw_medium f_size_large t_align_r t_xs_align_c">{'Discount'|tr}</p>
+                                        </td>
+                                        <td colspan="1" class="color_dark">{$saleorder->total_discount|price}</td>
+                                    </tr>
+                                    {/if}
+                                    <tr>
+                                        <td colspan="4">
+                                            <p class="fw_medium f_size_large t_align_r t_xs_align_c scheme_color">{'Total'|tr}:</p>
+                                        </td>
+                                        <td colspan="1"><p class="color_dark fw_medium f_size_large">{$saleorder->total_price|price}</p></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                    </section>
+                </div>
+            </section>
+        </div>
+        {if $saleorder->showFrontendLinks()}
+        <div class="amh-container panel-div">
+            <a class="Button green" href="index.php?module=cart&page=paynow&id={$saleorder->id}&type=so">{'Pay Now'|tr}</a> &nbsp; &nbsp;
+            <a class="Button green" href="index.php?module=crm&page=intern-shop-confirmpayment&sale_order_id={$saleorder->id}">{'Confirm Payment'|tr}</a>&nbsp; &nbsp;
+            <a class="Button green" href="javascript:popup('index.php?module=saleorder&page=details&id={$saleorder->getId()}&event=print', 800,600)"><i class="fa fa-print"></i>&nbsp;{'Print'|tr}</a>
+
+        </div>
+        {/if}
+        {if $documents}
+        <div style="height: 20px"></div>
+        <div class="row clearfix m_bottom_30">
+            <div class="m_xs_bottom_30">
+                <h2 class="tt_uppercase color_dark m_bottom_30">{'Sales Order Documents'|tr}</h2>
+                <section>
+                    <table class="table_type_4 responsive_table full_width r_corners wrapper shadow bg_light_color_1 m_bottom_30 t_align_l">
+                        <thead>
+                            <tr>
+                                <th>{'Name'|tr}</th>
+                                <th>{'Download'|tr}</th>
+                            </tr>
+                        </thead> 
+                        {foreach $documents as $document}
+                        {if $document->public eq 1}
+                        <tr>
+                            <td>{$document->getName()} </td>
+                            <td><a href="index.php?module=saleorder&page=document-detail&id={$document->id}&saleorder={$saleorder->id}"><i class="fa fa-download"></i>&nbsp;{'Download'|tr}</a></td>
+                        </tr>
+                        {/if}
+                        {foreachelse}
+                        <tr><td colspan="5"><p>{'No document found'|tr}</p></td></tr>
+                        {/foreach}
+                    </table> 
+                </section>
+            </div>
+        </div>
+        {/if}
+        <div style="height: 30px"></div>
+
+        {if $comments}
+        <div class="amh-container">
+            <section>
+                <h2 class="tt_uppercase color_dark m_bottom_30"> {'Sales Order Comments'|tr}</h2>
+                {foreach $comments as $comment}
+              
+                    <div class="amh-container">
+                        <div class="amh-left"><i class="fa fa-user"></i>&nbsp;{'Author'|tr}: {$comment->author_name}</div><br/>
+                        <div class="amh-leftt amh-1_5"><i class="fa fa-calendar"></i>&nbsp;{'Date'|tr}:&nbsp{$comment->insertat}</div>
+                    </div>
+                    <div class="amh-container"><p><i class="fa fa-comment"></i>&nbsp;{'Comment'|tr}:<br/>{$comment->getComment()|nl2br}</p></div>
+                    {foreach $comment->getReplys() as $reply}
+                    <div class="amh-container amh-row">
+                        {'Reply From'|tr}: <i class="fa fa-user"></i>&nbsp{$reply->author_name} <br/>
+                        {'Reply Message'|tr}: {$reply->comment}
+                    </div>
+                    {/foreach}
+                    <a href="index.php?module=saleorder&page=comment-details&id={$comment->id}&saleorder={$saleorder->id}"><i class="fa fa-comments-o"></i>&nbsp;{'Add Reply'|tr}</a><br/>
+                    {foreachelse}
+                    <p>{'No comment found'|tr}</p>
+                    {/foreach}
+                    <a  href="index.php?module=saleorder&page=comment-add&entity=Saleorder_Model&entityid={$saleorder->id}"><i class="fa fa-comment-o"></i>&nbsp;{'Add new Comment'|tr}</a>
+               
+            </section>
+        </div>
+        {/if}
+        {if $saleorder->policy}
+        <div class="amh-container">
+            <h1 class="amh-text-left-rp">{"Sales Order Policy"|tr}</h1>
+            <p>{$saleorder->policy|nl2br}</p>
+        </div>
+        {/if}
+
+        <div class="amh-container" style="margin-top: 20px">
+            <a href="index.php?module=saleorder&page=list" role="button" class="d_inline_b bg_light_color_2 color_dark tr_all_hover button_type_4 r_corners"><i class="fa fa-reply m_left_5 m_right_10 f_size_large"></i>{'Back to Sales Order List'|tr}</a>
+        </div>
+    </div>
+
+</div>

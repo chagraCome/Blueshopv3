@@ -1,0 +1,12 @@
+<fieldset>
+    <legend>{$tr['Information']}</legend>
+    <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+    <legend>
+        <span class="add"><a href="admin.php?module=crm&page=account-add">Add new Account</a></span> 
+    </legend>
+    <div class="panel">
+        {$grid->Render()}
+    </div>
+</fieldset>

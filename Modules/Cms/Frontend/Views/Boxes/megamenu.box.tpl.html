@@ -1,0 +1,40 @@
+{*<div id="mega-menu-wrapper">
+  <ul class="meganav">
+    {foreach Modules_Cms_Frontend_Boot::getMegaMenuContainer($block_id) as $parent}
+    <li>
+      <a href="{$parent->getLink()}">{$parent->getTitle()}</a>
+      {if $parent->get3Depth()}
+      <div>
+      {if $parent->hasChildrens()}
+        {foreach $parent->getChildrens(1) as $child}
+           <div class="meganav-column">
+             <a class="maina" href="{$child->getLink()}">{$child->getTitle()}</a>
+           {if $child->hasChildrens()}
+            <ul>
+            {foreach $child->getChildrens(1) as $sub}
+              <li><a href="{$sub->getLink()}">{$sub->getTitle()}</a></li>
+            {/foreach}
+            </ul>
+          {/if}
+          </div>
+        {/foreach}
+      </div>
+        {/if}
+          {else}
+          {if $parent->hasChildrens()}
+          <div class="meganav-column meganav-column1" style="left: auto">
+            <ul>
+            {foreach $parent->getChildrens(1) as $child}
+            <li><a href="{$child->getLink()}">{$child->getTitle()}</a></li>
+            {/foreach}
+            </ul>
+          </div>
+            {/if}
+         
+            {/if}
+          
+      </li>
+        {/foreach}
+
+  </ul>
+</div>*}

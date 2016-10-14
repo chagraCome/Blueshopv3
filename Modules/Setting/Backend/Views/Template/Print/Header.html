@@ -1,0 +1,18 @@
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+  <legend>
+  </legend>
+  
+  <ul id='tab'>
+    <li><a  href='admin.php?module=setting&page=template-print-modify&id={$smarty.get.id}'>{'Template body'|tr}</a></li>
+    <li><a class='current' href='admin.php?module=setting&page=template-print-header&id={$smarty.get.id}'>{'Template Header'|tr}</a></li>
+    <li><a href='admin.php?module=setting&page=template-print-footer&id={$smarty.get.id}'>{'Template Footer'|tr}</a></li>
+    
+  </ul>
+  <div class="panel">
+    {$form->Render()}
+  </div>
+</fieldset>

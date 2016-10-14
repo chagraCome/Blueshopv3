@@ -1,0 +1,13 @@
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+  <legend>
+    <span class="add"><a href="admin.php?module=setting&page=general">{'Manage General Settings'|tr}</a></span> 
+
+  </legend>
+  <div class="panel">
+    {$grid->Render()}
+  </div>
+</fieldset>

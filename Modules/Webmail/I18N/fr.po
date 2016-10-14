@@ -1,0 +1,399 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Webmail\n"
+"POT-Creation-Date: 2014-04-16 17:38+0100\n"
+"PO-Revision-Date: 2014-04-17 10:10+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _t;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../key_words_html.php:3 ../key_words_html.php:7 ../key_words_html.php:10
+#: ../key_words_html.php:14 ../key_words_html.php:17 ../key_words_html.php:21
+#: ../key_words_html.php:25 ../key_words_html.php:29
+msgid "Information"
+msgstr "Informations"
+
+#: ../key_words_html.php:4 ../key_words_html.php:8 ../key_words_html.php:12
+#: ../key_words_html.php:15 ../key_words_html.php:19 ../Backend/Boot.php:48
+msgid "List Emails"
+msgstr "Liste des emails"
+
+#: ../key_words_html.php:5
+msgid "Scan Emails"
+msgstr "Les e-mails de numérisation"
+
+#: ../key_words_html.php:11
+msgid "Add new Email"
+msgstr "Ajouter un nouveau Email"
+
+#: ../key_words_html.php:18
+msgid "Add Emails"
+msgstr "Ajouter  Email"
+
+#: ../key_words_html.php:22 ../key_words_html.php:31
+msgid "List Email Accounts"
+msgstr "Liste des comptes e-mail"
+
+#: ../key_words_html.php:23 ../key_words_html.php:27 ../key_words_html.php:32
+msgid "Add Email Account"
+msgstr "Ajouter un compte email"
+
+#: ../key_words_html.php:26 ../key_words_html.php:34
+msgid "Mail Inbox"
+msgstr "Boîte de réception"
+
+#: ../key_words_html.php:33 ../Backend/Controllers/Inbox/Email/List.php:76
+#: ../Models/Setting/Model.php:306 ../Models/Setting/Model.php:316
+#: ../Models/Setting/Model.php:334 ../Models/Setting/Model.php:344
+msgid "No Server Settings found"
+msgstr "Aucun paramètres du serveur trouvé"
+
+#: ../key_words_html.php:35
+msgid "List Email Account"
+msgstr "Liste des comptes e-mail"
+
+#: ../Backend/Boot.php:31
+msgid "Webmail"
+msgstr "Webmail"
+
+#: ../Backend/Boot.php:37
+msgid "Manage Server Settings"
+msgstr "Gérer les paramètres du serveur"
+
+#: ../Backend/Boot.php:45
+msgid "Webmail Module"
+msgstr "Module Webmail"
+
+#: ../Backend/Boot.php:46 ../Backend/Controllers/Email/Add.php:46
+msgid "Add Email"
+msgstr "Ajouter Email"
+
+#: ../Backend/Boot.php:47
+msgid "Delete Email"
+msgstr "Supprimer Email"
+
+#: ../Backend/Boot.php:49 ../Backend/Controllers/Email/Modify.php:34
+msgid "Modify Email"
+msgstr "Modifier Email"
+
+#: ../Backend/Boot.php:50
+msgid "List Emails Inbox"
+msgstr "Liste emails de boîte de réception"
+
+#: ../Backend/Boot.php:51
+msgid "Read Emails Inbox"
+msgstr "Lire Emails de la boîte de réception"
+
+#: ../Backend/Boot.php:52
+msgid "Add Webmail Setting"
+msgstr "Ajouter le Paramètre de Webmail"
+
+#: ../Backend/Boot.php:53
+msgid "Delete Webmail Setting"
+msgstr "Supprimer le Paramètre de Webmail"
+
+#: ../Backend/Boot.php:54
+msgid "List all Webmail Setting"
+msgstr "Liste de Paramétrage de Webmail"
+
+#: ../Backend/Boot.php:55
+msgid "Modify Webmail Setting"
+msgstr "Modifier les paramètres de Webmail"
+
+#: ../Backend/Controllers/Email/Add.php:98
+#: ../Backend/Controllers/Email/Modify.php:117
+msgid "is not a valid email address"
+msgstr "Adresse email n'est pas valide"
+
+#: ../Backend/Controllers/Email/Add.php:128
+#: ../Backend/Controllers/Email/Modify.php:150
+msgid "Email was successfully sent!"
+msgstr "Email a été envoyé avec succès!"
+
+#: ../Backend/Controllers/Email/Add.php:168
+#: ../Backend/Controllers/Email/Modify.php:99
+#: ../Backend/Controllers/Setting/Add.php:59
+#: ../Backend/Controllers/Setting/Modify.php:69
+msgid "Please check inputs."
+msgstr "S'il vous plaît vérifier les entrées."
+
+#: ../Backend/Controllers/Email/List.php:37
+msgid "List emails"
+msgstr "Liste des e-mails"
+
+#: ../Backend/Controllers/Email/Modify.php:47 ../Forms/Email/Form.php:112
+#: ../Forms/Email/Form.php:116 ../Forms/Email/Form.php:118
+msgid "Attachement"
+msgstr "Attachement"
+
+#: ../Backend/Controllers/Inbox/Email/List.php:30
+msgid "List Inbox Emails"
+msgstr "liste de  boîte de réception"
+
+#: ../Backend/Controllers/Inbox/Email/List.php:32 ../Forms/Email/Form.php:81
+#: ../Grids/Email/DataGridView.php:44 ../Panels/Inbox/Email/Panel.php:41
+msgid "From"
+msgstr "Pour"
+
+#: ../Backend/Controllers/Inbox/Email/List.php:33 ../Forms/Email/Form.php:102
+#: ../Forms/Email/Form.php:104 ../Grids/Email/DataGridView.php:50
+#: ../Panels/Inbox/Email/Panel.php:42
+msgid "Subject"
+msgstr "Sujet"
+
+#: ../Backend/Controllers/Inbox/Email/List.php:34
+#: ../Panels/Inbox/Email/Panel.php:43
+msgid "Date"
+msgstr "Date"
+
+#: ../Backend/Controllers/Inbox/Email/List.php:36
+msgid "Assigned"
+msgstr "Assigné"
+
+#: ../Backend/Controllers/Inbox/Email/List.php:40
+msgid "Open"
+msgstr "Ouvert"
+
+#: ../Backend/Controllers/Inbox/Email/List.php:93
+msgid "Email will be scanned"
+msgstr "Email sera numérisé"
+
+#: ../Backend/Controllers/Inbox/Email/Read.php:42
+msgid "Read Email"
+msgstr "Lire Email"
+
+#: ../Backend/Controllers/Inbox/Email/Read.php:43
+msgid "Email Details"
+msgstr "Détails Email"
+
+#: ../Backend/Controllers/Inbox/Email/Read.php:58
+msgid "Email was assigned to account"
+msgstr "Email a été assigné à un compte"
+
+#: ../Backend/Controllers/Inbox/Email/Read.php:70
+msgid "Email was assigned to contact"
+msgstr "Email a été assigné à  un contact"
+
+#: ../Backend/Controllers/Inbox/Email/Read.php:100
+msgid "Attachements"
+msgstr "Attachements"
+
+#: ../Backend/Controllers/Setting/Add.php:33
+msgid "Add new Webmail account"
+msgstr "Ajouter un nouveau compte Webmail"
+
+#: ../Backend/Controllers/Setting/Add.php:84
+#: ../Backend/Controllers/Setting/Modify.php:87
+#: ../Models/Inbox/Email/Adapter.php:104
+msgid "Cannot establish connection to server: "
+msgstr "Impossible d'établir la connexion au serveur:"
+
+#: ../Backend/Controllers/Setting/List.php:37
+msgid "List of Webmail Acounts"
+msgstr "Liste des comptes Webmail"
+
+#: ../Backend/Controllers/Setting/Modify.php:33
+msgid "Modify Webmail Account"
+msgstr "Modifier le compte Webmail"
+
+#: ../Forms/Email/Form.php:70
+msgid "Select from template"
+msgstr "Sélectionnez à partir du template"
+
+#: ../Forms/Email/Form.php:73
+msgid "Header"
+msgstr "Tête"
+
+#: ../Forms/Email/Form.php:87 ../Grids/Email/DataGridView.php:47
+msgid "To"
+msgstr "À"
+
+#: ../Forms/Email/Form.php:92
+msgid "Cc"
+msgstr "Cc"
+
+#: ../Forms/Email/Form.php:96
+msgid "Bcc"
+msgstr "Bcc"
+
+#: ../Forms/Email/Form.php:101
+msgid "Email Content"
+msgstr "Contenu  Email"
+
+#: ../Forms/Email/Form.php:122
+msgid "Content"
+msgstr "Contenu"
+
+#: ../Forms/Email/Form.php:127
+msgid "Action"
+msgstr "Navigation "
+
+#: ../Forms/Email/Form.php:129
+msgid "Save Email"
+msgstr "Sauvegarder l'email"
+
+#: ../Forms/Email/Form.php:132
+msgid "Send Email"
+msgstr "Envoyer un email"
+
+#: ../Forms/Setting/Form.php:46 ../Grids/Setting/DataGridView.php:43
+msgid "Name"
+msgstr "Nom"
+
+#: ../Forms/Setting/Form.php:49 ../Grids/Setting/DataGridView.php:46
+msgid "Email"
+msgstr "Email"
+
+#: ../Forms/Setting/Form.php:52
+msgid "Password"
+msgstr "Mot de passe"
+
+#: ../Forms/Setting/Form.php:55 ../Grids/Setting/DataGridView.php:49
+#: ../Grids/Setting/DataGridView.php:78
+msgid "Type"
+msgstr "Type"
+
+#: ../Forms/Setting/Form.php:60
+msgid "Server Type : Outgoing (Imap or Pop) , Incoming (SMTP)"
+msgstr "Type de serveur: sortant (IMAP ou POP), entrant (SMTP)"
+
+#: ../Forms/Setting/Form.php:61
+msgid "Host"
+msgstr "Hôte"
+
+#: ../Forms/Setting/Form.php:64
+msgid "Port"
+msgstr "Port"
+
+#: ../Forms/Setting/Form.php:68
+msgid "Default port : 143"
+msgstr "Port par défaut: 143"
+
+#: ../Forms/Setting/Form.php:69
+msgid "Encryption"
+msgstr "Chiffrement"
+
+#: ../Forms/Setting/Form.php:72
+msgid "No Encryption"
+msgstr "Pas de chiffrement"
+
+#: ../Forms/Setting/Form.php:73
+msgid "SSL"
+msgstr "SSL"
+
+#: ../Forms/Setting/Form.php:74
+msgid "TLS"
+msgstr "TLS"
+
+#: ../Forms/Setting/Form.php:77
+msgid "Encryption : if you use ssl note to change port to 993"
+msgstr "Cryptage: Si vous utilisez SSL, changer le port à 993"
+
+#: ../Forms/Setting/Form.php:79
+msgid "Cert"
+msgstr "Certificat"
+
+#: ../Forms/Setting/Form.php:81
+msgid "Certificate : use 'validate-cert' if you have a valid Certificate"
+msgstr ""
+"Certificat : utiliser 'validate-cert \"si vous avez un certificat valide"
+
+#: ../Forms/Setting/Form.php:83
+msgid "Certificate is not valid"
+msgstr "Certificat n'est pas valide"
+
+#: ../Forms/Setting/Form.php:84
+msgid "Certificate is valid"
+msgstr "Certificat est valable"
+
+#: ../Forms/Setting/Form.php:89 ../Grids/Setting/DataGridView.php:52
+#: ../Grids/Setting/DataGridView.php:83
+msgid "Global"
+msgstr "Global"
+
+#: ../Forms/Setting/Form.php:90
+msgid "Signature"
+msgstr "Signature"
+
+#: ../Forms/Setting/Form.php:92
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: ../Forms/Setting/Form.php:94
+msgid "Authentication Information"
+msgstr "Informations d'authentification"
+
+#: ../Forms/Setting/Form.php:98
+msgid "Server Informations"
+msgstr "Informations du serveur"
+
+#: ../Forms/Setting/Form.php:108
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../Grids/Email/DataGridView.php:53
+msgid "State"
+msgstr "State"
+
+#: ../Grids/Email/DataGridView.php:56
+msgid "Create Date"
+msgstr "Date de création"
+
+#: ../Grids/Email/DataGridView.php:59
+msgid "Send Date"
+msgstr "Date d'envoi"
+
+#: ../Grids/Email/DataGridView.php:62 ../Grids/Setting/DataGridView.php:56
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../Grids/Email/DataGridView.php:67 ../Grids/Setting/DataGridView.php:63
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../Grids/Setting/DataGridView.php:61
+msgid "Online"
+msgstr "En ligne"
+
+#: ../Grids/Setting/DataGridView.php:79
+msgid "Incoming"
+msgstr "Entrant"
+
+#: ../Grids/Setting/DataGridView.php:79
+msgid "Outgoing"
+msgstr "Sortant"
+
+#: ../Models/Email/Model.php:277
+msgid "Sent"
+msgstr "envoyé"
+
+#: ../Models/Email/Model.php:280
+msgid "Draft"
+msgstr "Brouillon"
+
+#: ../Models/Email/Model.php:283
+msgid "Failed"
+msgstr "Échec"
+
+#: ../Models/Email/Model.php:286
+msgid "Received"
+msgstr "Reçu"
+
+#: ../Panels/Inbox/Email/Panel.php:44
+msgid "Body"
+msgstr "Corps"
+
+#: ../Panels/Inbox/Email/Panel.php:54
+msgid "Assign Email to Account"
+msgstr "Affecter email à compte"
+
+#: ../Panels/Inbox/Email/Panel.php:58
+msgid "Assign Email to Contact"
+msgstr "Assigner email àun  contact"

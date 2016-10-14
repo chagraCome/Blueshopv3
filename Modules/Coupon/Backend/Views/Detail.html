@@ -1,0 +1,26 @@
+
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+  <legend>
+    <span class="add"><a href="?module=coupon&page=add">{'Add new Coupon'|tr}</a></span> | 
+    <span class="list"><a href="?module=coupon&page=list">{'List Coupons'|tr}</a></span> |
+    <span class="list"><a href="?module=coupon&page=modify&id={$smarty.get.id}">{'Edit Coupon'|tr}</a></span>
+  </legend>
+   <ul id='tab'>
+      <li><a class="current" href='#'>{'General information'|tr}</a></li>
+      {if $coupon}
+      <li><a href='admin.php?module=coupon&page=account&id={$smarty.get.id}'>{'Coupon Accounts'|tr}</a></li>
+      <li><a href='admin.php?module=coupon&page=contact&id={$smarty.get.id}' >{'Coupon Contacts'|tr}</a></li>
+      <li><a href='admin.php?module=coupon&page=coupon&id={$smarty.get.id}' >{'Execute'|tr}</a></li>
+ 
+      {/if}
+ 
+      
+    </ul>
+  <div class="panel">
+    {$widget->Render()}
+  </div>
+</fieldset>

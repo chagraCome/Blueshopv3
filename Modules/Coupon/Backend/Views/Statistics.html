@@ -1,0 +1,14 @@
+
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+  <legend>
+    <span class="add"><a href="?module=coupon&page=add">{'Add new Coupon'|tr}</a></span> | 
+    <span class="list"><a href="?module=coupon&page=list">{'List Coupons'|tr}</a></span>
+  </legend>
+  <div class="panel">
+    {$widget->Render()}
+  </div>
+</fieldset>

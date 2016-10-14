@@ -1,0 +1,68 @@
+{page name="zeroList" title={'List product need quotation'|tr} border=1}
+{if $category_banner}
+<img src='{$category_banner}' class="category_banner_img">
+{/if}
+<div class="productlistcontainer">
+    <table width="100%" style="clear: both">
+        <tr>
+
+            <td width="200px" class="core_content" valign="top">
+                {$category_tree}
+                {if $filter_attributes}
+                {$filter_attributes}
+                {/if}
+            </td>
+            <td style="width: 10px">&nbsp;</td>
+
+            <td class="core_content" valign="top">
+              
+                <div class="core_content_container">
+                    {if $products->rowCount() == 0}
+                    <div class="search_table tableborder" style="padding:15px; min-height: 70px">
+                        <p>{'No Products available'|tr}.</p>
+                    </div>
+                    {else}
+                    <form method="Post" action="">
+                        {while $item =  $products->fetch()}
+                        <div class="productitem">
+                            <table style="width: 100%">
+                                <tr>
+                                    <td style="width: 60px"><input type=checkbox name='product_id[]' value="{$item->getId()}"></td>
+                                    <td style="width: 150px"><img s src="{$item->getFirstThumb()|default:'media/noimage.jpg'}" width="150" /></td>
+                                    <td>
+                                        <div class="product_title">{$item->getTitle()}</div>
+                                        <div>{'Product Number'|tr}: {$item->getNumber()}</div>
+                                        {foreach $item->getAttributes() as $key => $attribute}
+                                        {$attribute->getLabel()}: {$attribute->getFrontEndComponent($item)}<br />
+                                        {/foreach}
+                                    </td>
+                                    <td style="width: 160px" class="product_price">
+                                        {if $item->isOffered()}
+                                        <img style="position: absolute; top: -50px; left:50px ; z-index: 10" src="Amhsoft/Ressources/Icons/sale-icon-h.png" width="100" />
+                                        <div >
+                                            {'Old Price'|tr}:<strike><br /> {$item->getPrice()|price}</strike><br /><span style="font: normal 10px Arial;color:black">{'From'|tr} {$item->getSpecialPriceDateFrom()} {'To'|tr} {$item->getSpecialPriceDateTo()}</span></div>
+                                        {/if} 
+                                        {$item->getSalePrice()|price}
+                                        <br />
+                                        <br /><a class="Button" href="{$item->getUrl()}">{'Details'|tr}</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        {/while}
+                        <input type="submit" class="Button" name="submit" value="{'Request Quotation'|tr}">
+                    </form>
+                    {/if}
+                    <div style="clear: both; height: 40px; padding: 10px 10px 0px 10px; text-align: center">{$pager}</div>
+
+                </div>
+
+            </td>
+
+        </tr>
+    </table>
+</div>
+{/page}
+
+
+

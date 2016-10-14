@@ -1,0 +1,48 @@
+<!-- Left -->
+<aside class="col-sm-12 col-md-12 col-lg-3 content-aside">
+    <div class="content-aside-inner"> 
+        <!-- Block layered navigation module -->
+        <script type="text/javascript">
+            current_friendly_url = '#';
+            param_product_url = '#';
+        </script>
+        <div id="layered_block_left" class="block mega amh-only-desktop">
+            <div class="box-title">
+                <h3 class="title_block"><span></span>{'Categories'|tr}</h3>
+            </div>
+            <div class="block_content">
+                <div class="layered_cat" style="">
+                    {$category_tree}
+                </div>
+            </div>
+        </div>
+        <br/>
+        {if $filter_attributes}
+        <div id="block" class="block mega">
+            <div class="box-title">
+                <h3 class="title_block"><span></span>{'Filter'|tr}</h3>
+            </div>
+            <div id="filters">
+                <div id="Accordion2" class="Accordion ui-accordion ui-widget ui-helper-reset" tabindex="0" role="tablist">
+                    {$filter_attributes}
+                </div>
+            </div>
+            <div class="section-divider"></div>
+        </div>
+        {/if}
+
+    </div>	
+</aside>
+<script>
+    $(function () {
+        var act = 0;
+        $("#Accordion2").accordion({
+            active: (parseInt($.cookie('mindex')) || 0),
+            activate: function (event, ui) {
+                $.cookie('mindex', parseInt($(this).accordion('option', 'active')));
+            }
+        });
+
+
+    });
+</script>

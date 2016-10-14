@@ -1,0 +1,38 @@
+<fieldset>
+<legend>{'Info'|tr}</legend>
+<div class="{$class}">{$message}</div>
+</fieldset>
+
+<fieldset>
+<legend><!-- begin action --><span class="list"><a href="admin.php?module=installer&amp;page=list">{'List Modules'|tr}</a></span><!-- end action --> </legend>
+<!-- begin content -->
+
+<div class="panel">
+{fieldset name="details" title='Package Information'|tr}
+<table>
+	<tr>
+		<td style="width: 100px">{'Module Name'|tr}:</td>
+		<td>{$data['NAME']}</td>
+	</tr>
+	<tr>
+		<td>{'Module Version'|tr}:</td>
+		<td>{$data['VERSION']}</td>
+	</tr>
+	<tr>
+		<td>{'Module Build Date'|tr}:</td>
+		<td>{$data['BUILD_DATE']}</td>
+	</tr>
+	<tr>
+		<td>{'Module Description'|tr}:</td>
+		<td>{$data['DESCRIPTION']}</td>
+	</tr>
+</table>
+{/fieldset}
+{fieldset name="details_action" title='Navigation'|tr}
+<form action="" method="post">
+<input name="install" type="submit" value="{'Execute'|tr}" class="ButtonSave" />
+</form> 
+{/fieldset}
+</div>
+<!-- end content -->
+</fieldset>

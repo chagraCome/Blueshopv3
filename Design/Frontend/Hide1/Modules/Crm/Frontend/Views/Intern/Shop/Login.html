@@ -1,0 +1,66 @@
+{$breadcrumb}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9 col-md-9 col-lg-9">
+            {if $message} 
+            <div class="alert_box r_corners color_red error m_bottom_10">
+                <i class="fa fa-meh-o"></i><p>{$message}</p>
+            </div>
+            {/if}
+            {if $success} 
+            <div class="alert_box r_corners color_green success m_bottom_10">
+                <i class="fa fa-smile-o"></i><p>{$success}</p>
+            </div>
+            {/if}
+            <!--left content column-->
+            <div aria-multiselectable="true" role="tablist" id="accordion" class="panel-group">
+                <div class="panel sauget-accordion">
+                    <div aria-labelledby="headingOne" role="tabpanel" class="panel-collapse collapse in" id="checkoutMethod" aria-expanded="true" style="">
+                        <div class="content-info">
+                            <div class="col-xs-12 col-sm-12 col-md-6">
+                                <div class="checkout-reg">
+                                    <div class="checkReg commonChack">
+                                        <div class="checkTitle">
+                                            <h6 class="ct-design">{'Register Account'|tr}</h6>
+                                        </div>
+
+                                        <p>{'By Creating an account you will be able to shop faster, be up to date on an orders status and keep track of the orders'|tr}</p>
+                                        <br />
+                                        <a href="index.php?module=crm&amp;page=intern-shop-register" class="Button" style="color: white;">{'Continue'|tr}</a>
+                                        {if $facebook_login_state == 1}
+                                        <a href="index.php?module=crm&page=intern-shop-login&event=facebookLogin" class="Button fb-button"><i class="fa fa-facebook">&nbsp;</i>&nbsp;{'Register with facebook'|tr}</a>
+                                        {/if}
+                                        {if !Cart_Shoppingcart_Model::getInstance()->isEmpty() && $checkout_without_registration}
+                                        <br/><br/>
+                                        <h2 class="tt_uppercase color_dark m_bottom_25">{'Continue without Registration'|tr}</h2>
+                                        <p>{'You can buy from our shop without registration'|tr}</p>
+                                        <br />
+                                        <a href="index.php?module=cart&amp;page=checkout-account" class="Button">{'Checkout now'|tr}</a>
+                                        {/if}
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        <div class="col-xs-12 col-sm-12 col-md-6">
+                            <div class="checkout-login">
+                                <div class="checkTitle">
+                                    <h6 class="ct-design">Login</h6>
+                                </div>
+                                <p class="alrdyReg">ALREADY REGISTERED?</p>
+                                <p class="plxLogin">Please log in below:</p>
+                                <div class="loginFrom">
+                                    {$loginform->Render()}
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

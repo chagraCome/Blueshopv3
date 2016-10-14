@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ar" dir="ltr">
+  <head>
+    <title>AMHCMS 2011 v. 1.0 - Administrator Panel</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="Amhsoft/Ressources/Javascripts/JQuery/themes/ui-lightness/jquery-ui-1.8.13.custom.css" rel="stylesheet" type="text/css"/>
+    {if $current_lang == 'ar'}
+    <link href="{$skin_path}/stylesheet_ar.css" rel="stylesheet" type="text/css" />
+    {else}
+    <link href="{$skin_path}/stylesheet_en.css" rel="stylesheet" type="text/css" />
+    {/if}
+
+    {foreach $css_files as $css_file}
+    <link href="{$css_file}" rel="stylesheet" type="text/css" />
+    {/foreach}
+    <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/jquery-1.6.1.js"></script>
+    <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/ui/jquery-ui-1.8.13.custom.js"></script>
+    <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/jquery.cookies.js"></script>
+    <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/JQuery/jquery.timepicker.js"></script>
+
+    {*<script type="text/javascript" src="Amhsoft/Ressources/Javascripts/tinymce/tiny_mce.js"></script>*}
+    <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/ckeditor/ckeditor.js"></script>
+    <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/ckeditor/adapters/jquery.js"></script>
+    <script type="text/javascript" src="Amhsoft/Ressources/Javascripts/common.js"></script>
+
+    {foreach $js_files as $js_file}
+    <script type="text/javascript" src="{$js_file}"></script>
+    {/foreach}
+  </head>
+  <body>
+    {if $message}<div class="{$class}">{$message}</div>{/if}
+    <div style="margin: 2px">{if $content_page}{include file=$content_page}{/if}</div>
+  </body>
+</html>

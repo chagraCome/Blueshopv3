@@ -1,0 +1,472 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Amhsoft\n"
+"POT-Creation-Date: 2014-05-10 09:50+0100\n"
+"PO-Revision-Date: 2014-05-10 09:51+0100\n"
+"Last-Translator: Montassar <montassarelaid@gmail.com>\n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../key_words_html.php:34
+msgid "Online Store"
+msgstr "المتجر الالكتروني "
+
+#: ../key_words_html.php:35
+msgid "Sales Management"
+msgstr "إدارة المبيعات "
+
+#: ../key_words_html.php:36
+msgid "System"
+msgstr "إدارة النظام "
+
+#: ../key_words_html.php:37
+msgid "Cms"
+msgstr "إدارة المحتوى "
+
+#: ../Locale.php:7
+msgid "Tunisia"
+msgstr "تونس"
+
+#: ../Locale.php:8
+msgid "Bahrain"
+msgstr "البحرين"
+
+#: ../Locale.php:9
+msgid "Germany"
+msgstr "ألمانيا"
+
+#: ../Locale.php:10
+msgid "Saudi Arabia"
+msgstr "العربية السعودية"
+
+#: ../Locale.php:11
+msgid "Qatar"
+msgstr "قطر"
+
+#: ../Locale.php:12
+msgid "Lebanon"
+msgstr "لبنان"
+
+#: ../Locale.php:13
+msgid "Libya"
+msgstr "ليبيا"
+
+#: ../Locale.php:14
+msgid "Sudan"
+msgstr "سودان"
+
+#: ../Locale.php:15
+msgid "Syrian Arab Republic"
+msgstr "الجمهورية العربية السورية"
+
+#: ../Locale.php:16
+msgid "Kuwait"
+msgstr "الكويت"
+
+#: ../Locale.php:17
+msgid "Iraq"
+msgstr "العراق"
+
+#: ../Locale.php:18
+msgid "Algeria"
+msgstr "الجزائر"
+
+#: ../Locale.php:19
+msgid "Jordan"
+msgstr "الأردن"
+
+#: ../Locale.php:20
+msgid "Morocco"
+msgstr "المغرب"
+
+#: ../Locale.php:21
+msgid "Oman"
+msgstr "عمان"
+
+#: ../Locale.php:22
+msgid "Egypt"
+msgstr ""
+
+#: ../Locale.php:23
+msgid "United Arab Emirates"
+msgstr "الإمارات  العربية المتحدة"
+
+#: ../Locale.php:24
+msgid "Yemen"
+msgstr "اليمن"
+
+#: ../Locale.php:25
+msgid "Mauritania"
+msgstr "موريتانيا"
+
+#: ../Locale.php:26
+msgid "Palestinian Territory"
+msgstr "فلسطين"
+
+#: ../Locale.php:27
+msgid "United States of America"
+msgstr "الولايات المتحدة الأمريكية"
+
+#: ../System.php:392
+msgid "Miscellaneous"
+msgstr "متفرقات"
+
+#: ../Libraries/Paginate.php:110
+#, fuzzy
+msgid "First Page"
+msgstr "الصفحة الاولى"
+
+#: ../Libraries/Paginate.php:139
+#, fuzzy
+msgid "Last page"
+msgstr "الصفحة الاخيرة"
+
+#: ../System/Backup/Manager.php:125
+#, php-format
+msgid "Backup version is too old, current version %s backup version %s"
+msgstr ""
+
+#: ../System/Backup/Manager.php:161
+#, php-format
+msgid "cannot restore file %s"
+msgstr ""
+
+#: ../System/Module/Manager.php:131
+msgid "Boot file was not found"
+msgstr ""
+
+#: ../System/Module/Manager.php:160 ../System/Module/Manager.php:194
+#, php-format
+msgid "Module %s is required to complete the installation."
+msgstr ""
+
+#: ../System/Module/Manager.php:166 ../System/Module/Manager.php:200
+#, php-format
+msgid "Module %s version %s is required to complete the installation."
+msgstr ""
+
+#: ../System/Thread/Event.php:39 ../Widget/Event.php:39
+#, fuzzy
+msgid " already subscribed to this event"
+msgstr "لقد انظممت الى الهذا الحدث"
+
+#: ../System/Thread/Event.php:50 ../Widget/Event.php:50
+#, fuzzy
+msgid " not subscribed to this event"
+msgstr "لم تنظم بعد الى هذا الحدث"
+
+#: ../System/Thread/Event.php:64 ../Widget/Event.php:64
+#, fuzzy
+msgid " does not exist"
+msgstr "غير موجود"
+
+#: ../System/Web/Controller.php:220
+#, fuzzy
+msgid "Action was successfully done"
+msgstr "تم القيام بالعملية بنجاح"
+
+#: ../System/Web/Controller.php:223
+#, fuzzy
+msgid "Action faild"
+msgstr "العملية لم تتم بنجاح"
+
+#: ../Validators/Alpha.php:44
+#, fuzzy
+msgid "Invalid input, only a-z0-9 _ are allowed"
+msgstr "ادخالك غير صالح فقط الرموز التالية يمكن ادخالها: a-z0-9_"
+
+#: ../Validators/Double.php:48
+#, fuzzy
+msgid "does not appear to be a float"
+msgstr "لا يبدو انه رقم صحيح"
+
+#: ../Validators/Email.php:37
+#, fuzzy
+msgid "is not a valid email address"
+msgstr "ليس بريد الكتروني صحيح"
+
+#: ../Validators/File.php:53 ../Validators/String.php:47
+#, fuzzy
+msgid "is invalid"
+msgstr "غير صحيح"
+
+#: ../Validators/File.php:57 ../Validators/String.php:51
+#, fuzzy
+msgid "is empty"
+msgstr "فارغ"
+
+#: ../Validators/File.php:62
+#, fuzzy, php-format
+msgid "must maximum %s Kilobyte, file size is %s"
+msgstr "الحد الادنى هو:  %s كيلوبايت, حجم الملف حاليا هو  %s كيلو بايت"
+
+#: ../Validators/File.php:70
+#, fuzzy, php-format
+msgid "is not allowed while mime type is %s, allowed types %s"
+msgstr "نوع الملف الملف غير مسموح به لانه %s الملف المسموح به هو %s"
+
+#: ../Validators/Integer.php:88
+#, fuzzy
+msgid "is not an number"
+msgstr "ليس رقم"
+
+#: ../Validators/IPV4.php:37 ../Validators/RegEx.php:38
+#, fuzzy
+msgid "is not a valid"
+msgstr "ليس صحيح"
+
+#: ../Validators/String.php:55
+#, fuzzy, php-format
+msgid "must between %s and %s"
+msgstr "يجب ان يكون بين %s و %s"
+
+#: ../Validators/String.php:59
+#, fuzzy, php-format
+msgid "is too short, minimun character is %s"
+msgstr "للاسف قصير جدا, ادنى عدد للرموز هو: %s"
+
+#: ../Validators/String.php:63
+#, fuzzy, php-format
+msgid "is too long, maximum character is %s"
+msgstr "للاسف طويل جدا, اقصى عدد للرموز هو: %s"
+
+#: ../Validators/Unique.php:43
+msgid " \""
+msgstr ""
+
+#: ../Validators/Url.php:37
+#, fuzzy
+msgid "is not a valid URL"
+msgstr "ليس رابط صحيح"
+
+#: ../Widget/DataGridView.php:346
+#, fuzzy
+msgid "Apply"
+msgstr "طبق"
+
+#: ../Widget/DataGridView.php:367
+#, fuzzy
+msgid "Action"
+msgstr "الاعدادات"
+
+#: ../Widget/DataGridView.php:377
+#, fuzzy
+msgid "Page"
+msgstr "الصفحة"
+
+#: ../Widget/DataGridView.php:377
+#, fuzzy
+msgid "from"
+msgstr "من"
+
+#: ../Widget/DataGridView.php:377
+#, fuzzy
+msgid "Total Records"
+msgstr "مجموع العناصر"
+
+#: ../Widget/DataGridView.php:673
+#, fuzzy
+msgid "No Records"
+msgstr "مجموع العناصر"
+
+#: ../Widget/Controls/Abstract.php:135
+#: ../Widget/Controls/CaptchaControl.php:59 ../Widget/Controls/CheckBox.php:56
+#, fuzzy
+msgid "is required"
+msgstr "ضروري"
+
+#: ../Widget/Controls/AjaxMultiUpload.php:136
+#, fuzzy
+msgid "Uploading..."
+msgstr "يتم الرفع حاليا"
+
+#: ../Widget/Controls/AjaxMultiUpload.php:155
+#, fuzzy
+msgid "Upload File"
+msgstr "رفع الملف"
+
+#: ../Widget/Controls/CaptchaControl.php:33
+#, fuzzy
+msgid "Code"
+msgstr "كود "
+
+#: ../Widget/Controls/ImageControl.php:104
+#, fuzzy
+msgid "delete"
+msgstr "حذف"
+
+#: ../Widget/Controls/Button/Add.php:32
+#, fuzzy
+msgid "Add"
+msgstr "اضافة"
+
+#: ../Widget/Controls/Button/Back.php:32
+#, fuzzy
+msgid "Back"
+msgstr "الرجوع"
+
+#: ../Widget/Controls/Button/Cancel.php:32
+#, fuzzy
+msgid "Cancel"
+msgstr "الغاء"
+
+#: ../Widget/Controls/Button/Delete.php:27
+#, fuzzy
+msgid "Delete"
+msgstr "حذف"
+
+#: ../Widget/Controls/Button/Duplicate.php:32
+#, fuzzy
+msgid "Duplicate"
+msgstr "مظاعفة"
+
+#: ../Widget/Controls/Button/Edit.php:32
+#, fuzzy
+msgid "Edit"
+msgstr "تعديل"
+
+#: ../Widget/Controls/Button/For.php:32
+#, fuzzy
+msgid "Forward"
+msgstr "تحويل"
+
+#: ../Widget/Controls/Button/Offline.php:32
+#: ../Widget/Controls/Link/OnOffline.php:26
+#: ../Widget/Controls/OnlineOffline/ListBox.php:36
+#, fuzzy
+msgid "Offline"
+msgstr "معطّل"
+
+#: ../Widget/Controls/Button/Online.php:32
+#: ../Widget/Controls/Link/OnOffline.php:25
+#: ../Widget/Controls/OnlineOffline/ListBox.php:37
+#, fuzzy
+msgid "Online"
+msgstr "مفعّل"
+
+#: ../Widget/Controls/Button/Print.php:25
+#, fuzzy
+msgid "Print"
+msgstr "طباعة"
+
+#: ../Widget/Controls/Button/Save.php:32
+#, fuzzy
+msgid "Save"
+msgstr "حفظ"
+
+#: ../Widget/Controls/Unit/Centiliter/Input.php:21
+#, fuzzy
+msgid "centiliter"
+msgstr "سنتي لتر"
+
+#: ../Widget/Controls/Unit/Centiliter/Label.php:21
+#, fuzzy
+msgid "Centiliter"
+msgstr "سنتي لتر"
+
+#: ../Widget/Controls/Unit/Centimeter/Input.php:21
+#: ../Widget/Controls/Unit/Centimeter/Label.php:21
+#, fuzzy
+msgid "cm"
+msgstr "سم"
+
+#: ../Widget/Controls/Unit/Color/Label.php:21
+#, fuzzy
+msgid "Color"
+msgstr "اللون"
+
+#: ../Widget/Controls/Unit/Feed/Input.php:22
+#: ../Widget/Controls/Unit/Feed/Label.php:21
+#, fuzzy
+msgid "Feed"
+msgstr "قدم"
+
+#: ../Widget/Controls/Unit/Gramm/Input.php:22
+#: ../Widget/Controls/Unit/Gramm/Label.php:21
+#, fuzzy
+msgid "Gramm"
+msgstr "غرام"
+
+#: ../Widget/Controls/Unit/Hour/Input.php:21
+#: ../Widget/Controls/Unit/Hour/Label.php:24
+#, fuzzy
+msgid "Hour"
+msgstr "ساعة"
+
+#: ../Widget/Controls/Unit/Kilogramm/Input.php:22
+#, fuzzy
+msgid "Kg"
+msgstr "كغ"
+
+#: ../Widget/Controls/Unit/Kilogramm/Label.php:21
+#, fuzzy
+msgid "KiloGramm"
+msgstr "كيلو غرام"
+
+#: ../Widget/Controls/Unit/Kilometer/Input.php:22
+#: ../Widget/Controls/Unit/Kilometer/Label.php:21
+#, fuzzy
+msgid "Km"
+msgstr "كم"
+
+#: ../Widget/Controls/Unit/Liter/Input.php:21
+#: ../Widget/Controls/Unit/Liter/Label.php:21
+#, fuzzy
+msgid "liter"
+msgstr "لتر"
+
+#: ../Widget/Controls/Unit/Meter/Input.php:22
+#: ../Widget/Controls/Unit/Meter/Label.php:21
+#, fuzzy
+msgid "Meter"
+msgstr "متر"
+
+#: ../Widget/Controls/Unit/Mile/Input.php:23
+#: ../Widget/Controls/Unit/Mile/Label.php:21
+#, fuzzy
+msgid "Mile"
+msgstr "ميل"
+
+#: ../Widget/Controls/Unit/Milliliter/Input.php:22
+#: ../Widget/Controls/Unit/Milliliter/Label.php:21
+#, fuzzy
+msgid "Milliliter"
+msgstr "ملي لتر"
+
+#: ../Widget/Controls/Unit/Millimeter/Input.php:21
+#: ../Widget/Controls/Unit/Millimeter/Label.php:21
+#, fuzzy
+msgid "mm"
+msgstr "مم"
+
+#: ../Widget/Controls/Unit/Minute/Input.php:22
+#: ../Widget/Controls/Unit/Minute/Label.php:21
+#, fuzzy
+msgid "Minute"
+msgstr "دقيقة"
+
+#: ../Widget/Controls/Unit/Second/Input.php:22
+#: ../Widget/Controls/Unit/Second/Label.php:21
+#, fuzzy
+msgid "Second"
+msgstr "ثانية"
+
+#: ../Widget/Controls/YesNo/ListBox.php:36
+#: ../Widget/Controls/YesNo/Text.php:31
+#, fuzzy
+msgid "No"
+msgstr "لا"
+
+#: ../Widget/Controls/YesNo/ListBox.php:37
+#: ../Widget/Controls/YesNo/Text.php:29
+#, fuzzy
+msgid "Yes"
+msgstr "نعم"

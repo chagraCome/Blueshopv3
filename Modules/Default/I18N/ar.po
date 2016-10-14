@@ -1,0 +1,1211 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: default\n"
+"POT-Creation-Date: 2014-05-06 17:10+0100\n"
+"PO-Revision-Date: 2014-05-06 17:16+0100\n"
+"Last-Translator: Montassar <montassarelaid@gmail.com>\n"
+"Language-Team: amhsoft\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: ../../../Amhsoft\n"
+"X-Poedit-SearchPath-2: .\n"
+"X-Poedit-SearchPath-3: ../../../Design\n"
+
+#: ../key_words_html.php:3 ../key_words_html.php:14 ../key_words_html.php:37
+#: ../key_words_html.php:45 ../key_words_html.php:62 ../key_words_html.php:72
+msgid "Information"
+msgstr "اعلام"
+
+#: ../key_words_html.php:4 ../key_words_html.php:15 ../key_words_html.php:38
+#: ../key_words_html.php:46 ../key_words_html.php:63 ../key_words_html.php:73
+msgid "Control Panel"
+msgstr "لوحة التحكم"
+
+#: ../key_words_html.php:5 ../key_words_html.php:6 ../key_words_html.php:39
+#: ../key_words_html.php:40 ../key_words_html.php:64 ../key_words_html.php:65
+msgid "Welcome"
+msgstr "مرحبا بك"
+
+#: ../key_words_html.php:7 ../key_words_html.php:41 ../key_words_html.php:66
+msgid "Last Login time"
+msgstr "تاريخ اخر تسجيل دخول"
+
+#: ../key_words_html.php:8 ../key_words_html.php:42 ../key_words_html.php:67
+msgid "Last Login host"
+msgstr "اخر جهاز تم تسجيل الدخول منه"
+
+#: ../key_words_html.php:9
+msgid "You have"
+msgstr "لديك"
+
+#: ../key_words_html.php:10
+msgid "Messages"
+msgstr "رسائل"
+
+#: ../key_words_html.php:19 ../key_words_html.php:27 ../key_words_html.php:52
+msgid "About Motorssouq"
+msgstr "من نحن"
+
+#: ../key_words_html.php:20 ../key_words_html.php:28 ../key_words_html.php:53
+#: ../../../Amhsoft/Widget/Controls/Button/Back.php:32
+msgid "Back"
+msgstr "الرجوع"
+
+#: ../key_words_html.php:22 ../key_words_html.php:25 ../key_words_html.php:50
+msgid "About"
+msgstr "من نحن"
+
+#: ../key_words_html.php:23
+msgid "Last 5 Accounts "
+msgstr "أخر 5حسابات"
+
+#: ../key_words_html.php:30 ../key_words_html.php:55
+msgid "Contact Us"
+msgstr "اتصل بنا"
+
+#: ../key_words_html.php:34 ../key_words_html.php:59
+#, fuzzy
+msgid "Contact Form submited"
+msgstr "تم اعتماد طلبكم"
+
+#: ../key_words_html.php:35 ../key_words_html.php:60
+#, fuzzy
+msgid "Back to home"
+msgstr "الرجوع الى الرئيسية"
+
+#: ../key_words_html.php:48 ../key_words_html.php:75
+msgid "Last Sales Orders"
+msgstr "اخر طلبات الشراء"
+
+#: ../key_words_html.php:69
+#, fuzzy
+msgid "Page Not found"
+msgstr "الصفحة المطلوبة غير موجودة"
+
+#: ../key_words_html.php:70
+msgid "Not found"
+msgstr "غير موجودة"
+
+#: ../key_words_html.php:74
+msgid "Last 5 Accounts"
+msgstr "أخر 5 حسابات"
+
+#: ../key_words_html.php:76
+msgid "Monthly Revenue"
+msgstr "الدخل الشهري"
+
+#: ../key_words_html.php:77
+msgid "Daily Revenue"
+msgstr "الدخل اليومي"
+
+#: ../Backend/Boot.php:27 ../Backend/Controllers/Portlet/List.php:138
+msgid "Dashboard"
+msgstr "صفحة لوحة التحكم الرئيسية"
+
+#: ../Backend/Controllers/Index.php:28
+msgid "Welcome to control panel"
+msgstr "مرحبا بك في لوحة التحكم"
+
+#: ../Backend/Controllers/Nopermission.php:32
+msgid "You are not allowed to access this page!"
+msgstr "ليس لديك التصريح الازم للدخول الى هذه الصفحة"
+
+#: ../Backend/Controllers/Notfound.php:32
+#, fuzzy
+msgid "Requested page not found!"
+msgstr "الصفحة المطلوبة غير موجودة"
+
+#: ../Backend/Controllers/Portlet/List.php:34
+msgid "List Portlets"
+msgstr "قائمة الادوات"
+
+#: ../Backend/Controllers/Portlet/List.php:47
+#, fuzzy
+msgid "Data was successfully saved"
+msgstr "تم القيام بالعملية بنجاح"
+
+#: ../Backend/Controllers/Portlet/List.php:54
+#: ../Backend/Controllers/Portlet/List.php:56
+msgid "Local"
+msgstr "المنطقة"
+
+#: ../Backend/Controllers/Portlet/List.php:67
+#: ../../../Amhsoft/Widget/Controls/Button/Save.php:32
+msgid "Save"
+msgstr "حفظ"
+
+#: ../Backend/Controllers/Portlet/List.php:75
+msgid "Locale Info"
+msgstr "معلومات المنطقة"
+
+#: ../Backend/Controllers/Portlet/List.php:79
+msgid "Country"
+msgstr "البلد "
+
+#: ../Backend/Controllers/Portlet/List.php:80
+msgid "Country ISO"
+msgstr "رمز البلد"
+
+#: ../Backend/Controllers/Portlet/List.php:81
+msgid "Time Zone"
+msgstr "المنطقة الزمنية"
+
+#: ../Backend/Controllers/Portlet/List.php:82
+msgid "Currency"
+msgstr "العملة"
+
+#: ../Backend/Controllers/Portlet/List.php:83
+msgid "Currency Symbol"
+msgstr "رمز العملة"
+
+#: ../Backend/Controllers/Portlet/List.php:84
+msgid "Currency Cent"
+msgstr "رمز العملة"
+
+#: ../Backend/Controllers/Portlet/List.php:85
+msgid "Double Comma"
+msgstr "عدد الأرقام بعد الفاصلة"
+
+#: ../Backend/Controllers/Portlet/List.php:86
+msgid "Thousand Sep"
+msgstr "فاصل الألاف"
+
+#: ../Backend/Controllers/Portlet/List.php:87
+msgid "Decimal Sep"
+msgstr "فاصل الاعشار"
+
+#: ../Forms/ContactUs/Form.php:66
+msgid "Contact Name"
+msgstr "الاسم"
+
+#: ../Forms/ContactUs/Form.php:71
+msgid "Mobile"
+msgstr "الجوال"
+
+#: ../Forms/ContactUs/Form.php:74
+#, fuzzy
+msgid "Email"
+msgstr "البريد الالكتروني"
+
+#: ../Forms/ContactUs/Form.php:79
+#, fuzzy
+msgid "Message"
+msgstr "رسالة"
+
+#: ../Forms/ContactUs/Form.php:81
+msgid "Security Code"
+msgstr "رمز الحماية"
+
+#: ../Forms/ContactUs/Form.php:83
+msgid "Submit"
+msgstr "ارسال"
+
+#: ../Forms/ContactUs/Form.php:94
+msgid "contact information"
+msgstr " معلومات الاتصال"
+
+#: ../Frontend/Controllers/Index.php:50
+msgid "Shop is offline now please back later"
+msgstr "المتجر مغلق حاليا يرجى الزيارة لاحقا"
+
+#: ../Grids/Portlet/DataGridView.php:39
+msgid "Name"
+msgstr "الاسم"
+
+#: ../Grids/Portlet/DataGridView.php:41
+#: ../../../Amhsoft/Widget/Controls/Button/Online.php:32
+#: ../../../Amhsoft/Widget/Controls/Link/OnOffline.php:25
+#: ../../../Amhsoft/Widget/Controls/OnlineOffline/ListBox.php:37
+msgid "Online"
+msgstr "مفعّل"
+
+#: ../../../Amhsoft/Locale.php:7
+msgid "Tunisia"
+msgstr ""
+
+#: ../../../Amhsoft/Locale.php:8
+msgid "Bahrain"
+msgstr ""
+
+#: ../../../Amhsoft/Locale.php:9
+msgid "Germany"
+msgstr ""
+
+#: ../../../Amhsoft/Locale.php:10
+msgid "Saudi Arabia"
+msgstr ""
+
+#: ../../../Amhsoft/Locale.php:11
+msgid "Qatar"
+msgstr ""
+
+#: ../../../Amhsoft/Locale.php:12
+msgid "Lebanon"
+msgstr ""
+
+#: ../../../Amhsoft/Locale.php:13
+msgid "Libya"
+msgstr ""
+
+#: ../../../Amhsoft/Locale.php:14
+msgid "Sudan"
+msgstr ""
+
+#: ../../../Amhsoft/Locale.php:15
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: ../../../Amhsoft/Locale.php:16
+msgid "Kuwait"
+msgstr ""
+
+#: ../../../Amhsoft/Locale.php:17
+msgid "Iraq"
+msgstr ""
+
+#: ../../../Amhsoft/Locale.php:18
+msgid "Algeria"
+msgstr ""
+
+#: ../../../Amhsoft/Locale.php:19
+msgid "Jordan"
+msgstr ""
+
+#: ../../../Amhsoft/Locale.php:20
+msgid "Morocco"
+msgstr ""
+
+#: ../../../Amhsoft/Locale.php:21
+msgid "Oman"
+msgstr ""
+
+#: ../../../Amhsoft/Locale.php:22
+msgid "Egypt"
+msgstr ""
+
+#: ../../../Amhsoft/Locale.php:23
+msgid "United Arab Emirates"
+msgstr ""
+
+#: ../../../Amhsoft/Locale.php:24
+msgid "Yemen"
+msgstr ""
+
+#: ../../../Amhsoft/Locale.php:25
+msgid "Mauritania"
+msgstr ""
+
+#: ../../../Amhsoft/Locale.php:26
+msgid "Palestinian Territory"
+msgstr ""
+
+#: ../../../Amhsoft/Locale.php:27
+msgid "United States of America"
+msgstr ""
+
+#: ../../../Amhsoft/System.php:392
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../../../Amhsoft/Libraries/Paginate.php:110
+#, fuzzy
+msgid "First Page"
+msgstr "الصفحة الاولي"
+
+#: ../../../Amhsoft/Libraries/Paginate.php:139
+msgid "Last page"
+msgstr "الصفحة الاخيرة"
+
+#: ../../../Amhsoft/System/Backup/Manager.php:125
+#, php-format
+msgid "Backup version is too old, current version %s backup version %s"
+msgstr "نسخة احتياطية قديمة جدا، النسخة الحالية %s النسخة الاحتياطية %s "
+
+#: ../../../Amhsoft/System/Backup/Manager.php:161
+#, php-format
+msgid "cannot restore file %s"
+msgstr "لا يمكن استعادة الملف %s"
+
+#: ../../../Amhsoft/System/Module/Manager.php:131
+msgid "Boot file was not found"
+msgstr "ملف الاقلاع غير موجود"
+
+#: ../../../Amhsoft/System/Module/Manager.php:160
+#: ../../../Amhsoft/System/Module/Manager.php:194
+#, php-format
+msgid "Module %s is required to complete the installation."
+msgstr "اجباري تثبيت الوحدة %s"
+
+#: ../../../Amhsoft/System/Module/Manager.php:166
+#: ../../../Amhsoft/System/Module/Manager.php:200
+#, php-format
+msgid "Module %s version %s is required to complete the installation."
+msgstr "الوحدة %s النسخة %s اجباري انهاء التثبيت "
+
+#: ../../../Amhsoft/System/Thread/Event.php:39
+#: ../../../Amhsoft/Widget/Event.php:39
+msgid " already subscribed to this event"
+msgstr "لقد انظممت الى الهذا الحدث"
+
+#: ../../../Amhsoft/System/Thread/Event.php:50
+#: ../../../Amhsoft/Widget/Event.php:50
+msgid " not subscribed to this event"
+msgstr "لم تنظم بعد الى هذا الحدث"
+
+#: ../../../Amhsoft/System/Thread/Event.php:64
+#: ../../../Amhsoft/Widget/Event.php:64
+msgid " does not exist"
+msgstr "غير موجود"
+
+#: ../../../Amhsoft/System/Web/Controller.php:220
+msgid "Action was successfully done"
+msgstr "تم القيام بالعملية بنجاح"
+
+#: ../../../Amhsoft/System/Web/Controller.php:223
+msgid "Action faild"
+msgstr "العملية لم تتم بنجاح"
+
+#: ../../../Amhsoft/Validators/Alpha.php:44
+msgid "Invalid input, only a-z0-9 _ are allowed"
+msgstr "ادخالك غير صالح فقط الرموز التالية يمكن ادخالها: a-z0-9_"
+
+#: ../../../Amhsoft/Validators/Double.php:48
+msgid "does not appear to be a float"
+msgstr "لا يبدو انه رقم صحيح"
+
+#: ../../../Amhsoft/Validators/Email.php:37
+msgid "is not a valid email address"
+msgstr "ليس بريد الكتروني صحيح"
+
+#: ../../../Amhsoft/Validators/File.php:53
+#: ../../../Amhsoft/Validators/String.php:47
+msgid "is invalid"
+msgstr "غير صحيح"
+
+#: ../../../Amhsoft/Validators/File.php:57
+#: ../../../Amhsoft/Validators/String.php:51
+msgid "is empty"
+msgstr "فارغ"
+
+#: ../../../Amhsoft/Validators/File.php:62
+#, php-format
+msgid "must maximum %s Kilobyte, file size is %s"
+msgstr "الحد الادنى هو:  %s كيلوبايت, حجم الملف حاليا هو  %s كيلو بايت"
+
+#: ../../../Amhsoft/Validators/File.php:70
+#, php-format
+msgid "is not allowed while mime type is %s, allowed types %s"
+msgstr "نوع الملف الملف غير مسموح به لانه %s الملف المسموح به هو %s"
+
+#: ../../../Amhsoft/Validators/Integer.php:88
+msgid "is not an number"
+msgstr "ليس رقم"
+
+#: ../../../Amhsoft/Validators/IPV4.php:37
+#: ../../../Amhsoft/Validators/RegEx.php:38
+msgid "is not a valid"
+msgstr "ليس صحيح"
+
+#: ../../../Amhsoft/Validators/String.php:55
+#, php-format
+msgid "must between %s and %s"
+msgstr "يجب ان يكون بين %s و %s"
+
+#: ../../../Amhsoft/Validators/String.php:59
+#, php-format
+msgid "is too short, minimun character is %s"
+msgstr "للاسف قصير جدا, ادنى عدد للرموز هو: %s"
+
+#: ../../../Amhsoft/Validators/String.php:63
+#, php-format
+msgid "is too long, maximum character is %s"
+msgstr "للاسف طويل جدا, اقصى عدد للرموز هو: %s"
+
+#: ../../../Amhsoft/Validators/Unique.php:43
+msgid " \""
+msgstr " \""
+
+#: ../../../Amhsoft/Validators/Url.php:37
+msgid "is not a valid URL"
+msgstr "ليس رابط صحيح"
+
+#: ../../../Amhsoft/Widget/DataGridView.php:346
+msgid "Apply"
+msgstr "طبق"
+
+#: ../../../Amhsoft/Widget/DataGridView.php:367
+msgid "Action"
+msgstr "الاعدادات"
+
+#: ../../../Amhsoft/Widget/DataGridView.php:377
+msgid "Page"
+msgstr "الصفحة"
+
+#: ../../../Amhsoft/Widget/DataGridView.php:377
+msgid "from"
+msgstr "من"
+
+#: ../../../Amhsoft/Widget/DataGridView.php:377
+msgid "Total Records"
+msgstr "مجموع العناصر"
+
+#: ../../../Amhsoft/Widget/DataGridView.php:673
+#, fuzzy
+msgid "No Records"
+msgstr "لا يوجد محتوى"
+
+#: ../../../Amhsoft/Widget/Controls/Abstract.php:135
+#: ../../../Amhsoft/Widget/Controls/CaptchaControl.php:59
+#: ../../../Amhsoft/Widget/Controls/CheckBox.php:56
+msgid "is required"
+msgstr "ضروري"
+
+#: ../../../Amhsoft/Widget/Controls/AjaxMultiUpload.php:136
+msgid "Uploading..."
+msgstr "يتم الرفع حاليا"
+
+#: ../../../Amhsoft/Widget/Controls/AjaxMultiUpload.php:155
+msgid "Upload File"
+msgstr "Upload File"
+
+#: ../../../Amhsoft/Widget/Controls/CaptchaControl.php:33
+msgid "Code"
+msgstr "كود "
+
+#: ../../../Amhsoft/Widget/Controls/ImageControl.php:104
+msgid "delete"
+msgstr "حذف"
+
+#: ../../../Amhsoft/Widget/Controls/Button/Add.php:32
+msgid "Add"
+msgstr "اضافة"
+
+#: ../../../Amhsoft/Widget/Controls/Button/Cancel.php:32
+msgid "Cancel"
+msgstr "الغاء"
+
+#: ../../../Amhsoft/Widget/Controls/Button/Delete.php:27
+msgid "Delete"
+msgstr "حذف"
+
+#: ../../../Amhsoft/Widget/Controls/Button/Duplicate.php:32
+msgid "Duplicate"
+msgstr "مضاعفة"
+
+#: ../../../Amhsoft/Widget/Controls/Button/Edit.php:32
+msgid "Edit"
+msgstr "تعديل"
+
+#: ../../../Amhsoft/Widget/Controls/Button/For.php:32
+msgid "Forward"
+msgstr "تحويل"
+
+#: ../../../Amhsoft/Widget/Controls/Button/Offline.php:32
+#: ../../../Amhsoft/Widget/Controls/Link/OnOffline.php:26
+#: ../../../Amhsoft/Widget/Controls/OnlineOffline/ListBox.php:36
+msgid "Offline"
+msgstr "معطّل"
+
+#: ../../../Amhsoft/Widget/Controls/Button/Print.php:25
+msgid "Print"
+msgstr "طباعة"
+
+#: ../../../Amhsoft/Widget/Controls/Unit/Centiliter/Input.php:21
+msgid "centiliter"
+msgstr "سنتي لتر"
+
+#: ../../../Amhsoft/Widget/Controls/Unit/Centiliter/Label.php:21
+msgid "Centiliter"
+msgstr "سنتي لتر"
+
+#: ../../../Amhsoft/Widget/Controls/Unit/Centimeter/Input.php:21
+#: ../../../Amhsoft/Widget/Controls/Unit/Centimeter/Label.php:21
+msgid "cm"
+msgstr "سم"
+
+#: ../../../Amhsoft/Widget/Controls/Unit/Color/Label.php:21
+msgid "Color"
+msgstr "اللون"
+
+#: ../../../Amhsoft/Widget/Controls/Unit/Feed/Input.php:22
+#: ../../../Amhsoft/Widget/Controls/Unit/Feed/Label.php:21
+msgid "Feed"
+msgstr "قدم"
+
+#: ../../../Amhsoft/Widget/Controls/Unit/Gramm/Input.php:22
+#: ../../../Amhsoft/Widget/Controls/Unit/Gramm/Label.php:21
+msgid "Gramm"
+msgstr "غرام"
+
+#: ../../../Amhsoft/Widget/Controls/Unit/Hour/Input.php:21
+#: ../../../Amhsoft/Widget/Controls/Unit/Hour/Label.php:24
+msgid "Hour"
+msgstr "ساعة"
+
+#: ../../../Amhsoft/Widget/Controls/Unit/Kilogramm/Input.php:22
+msgid "Kg"
+msgstr "كغ"
+
+#: ../../../Amhsoft/Widget/Controls/Unit/Kilogramm/Label.php:21
+msgid "KiloGramm"
+msgstr "كيلو غرام"
+
+#: ../../../Amhsoft/Widget/Controls/Unit/Kilometer/Input.php:22
+#: ../../../Amhsoft/Widget/Controls/Unit/Kilometer/Label.php:21
+msgid "Km"
+msgstr "كم"
+
+#: ../../../Amhsoft/Widget/Controls/Unit/Liter/Input.php:21
+#: ../../../Amhsoft/Widget/Controls/Unit/Liter/Label.php:21
+msgid "liter"
+msgstr "لتر"
+
+#: ../../../Amhsoft/Widget/Controls/Unit/Meter/Input.php:22
+#: ../../../Amhsoft/Widget/Controls/Unit/Meter/Label.php:21
+msgid "Meter"
+msgstr "متر"
+
+#: ../../../Amhsoft/Widget/Controls/Unit/Mile/Input.php:23
+#: ../../../Amhsoft/Widget/Controls/Unit/Mile/Label.php:21
+msgid "Mile"
+msgstr "ميل"
+
+#: ../../../Amhsoft/Widget/Controls/Unit/Milliliter/Input.php:22
+#: ../../../Amhsoft/Widget/Controls/Unit/Milliliter/Label.php:21
+msgid "Milliliter"
+msgstr "ملي لتر"
+
+#: ../../../Amhsoft/Widget/Controls/Unit/Millimeter/Input.php:21
+#: ../../../Amhsoft/Widget/Controls/Unit/Millimeter/Label.php:21
+msgid "mm"
+msgstr "مم"
+
+#: ../../../Amhsoft/Widget/Controls/Unit/Minute/Input.php:22
+#: ../../../Amhsoft/Widget/Controls/Unit/Minute/Label.php:21
+msgid "Minute"
+msgstr "دقيقة"
+
+#: ../../../Amhsoft/Widget/Controls/Unit/Second/Input.php:22
+#: ../../../Amhsoft/Widget/Controls/Unit/Second/Label.php:21
+msgid "Second"
+msgstr "ثانية"
+
+#: ../../../Amhsoft/Widget/Controls/YesNo/ListBox.php:36
+#: ../../../Amhsoft/Widget/Controls/YesNo/Text.php:31
+msgid "No"
+msgstr "لا"
+
+#: ../../../Amhsoft/Widget/Controls/YesNo/ListBox.php:37
+#: ../../../Amhsoft/Widget/Controls/YesNo/Text.php:29
+msgid "Yes"
+msgstr "نعم"
+
+#~ msgid "Online Users"
+#~ msgstr "حاليا يتواجد على النظام"
+
+#~ msgid "You dont have access to enter this page"
+#~ msgstr "ليس لديك الصلاحيات للدخول إلى هذه الصفحة"
+
+#~ msgid "contact_text"
+#~ msgstr "معلومات التواصل"
+
+#~ msgid "Last Invoices"
+#~ msgstr "أخر الفواتير"
+
+#~ msgid "Last Quotations"
+#~ msgstr "أخر عروض الاسعار"
+
+#~ msgid "Setting"
+#~ msgstr "الاعدادات"
+
+#~ msgid "Test"
+#~ msgstr "اختبار"
+
+#~ msgid "Price Range"
+#~ msgstr "السعر"
+
+#~ msgid "Categories"
+#~ msgstr "الاقسام"
+
+#~ msgid "Log In"
+#~ msgstr "تسجيل الدخول "
+
+#~ msgid "Register"
+#~ msgstr "تسجيل حساب"
+
+#~ msgid "My account"
+#~ msgstr "حسابي"
+
+#~ msgid "My purchase"
+#~ msgstr "مشترياتي"
+
+#~ msgid "My shopping cart"
+#~ msgstr "سلة التسوق"
+
+#~ msgid "Customer Service"
+#~ msgstr "خدمات العملاء"
+
+#~ msgid "About Us"
+#~ msgstr "من نحن"
+
+#~ msgid "Privacy Policy"
+#~ msgstr "سياسة الخصوصية"
+
+#~ msgid "Office Location"
+#~ msgstr "مكاتبنا"
+
+#~ msgid "We Accept"
+#~ msgstr "نقبل "
+
+#~ msgid "Newsletter"
+#~ msgstr "الاشتراك في الرسائل الإخبارية"
+
+#~ msgid "Letter and keep up with the latest News"
+#~ msgstr "واكب احدث الاخبار"
+
+#~ msgid "Enter your email address"
+#~ msgstr "الرجاء ادخال البريد الالكتروني"
+
+#~ msgid "SUBSCRIBE"
+#~ msgstr "اشترك"
+
+#~ msgid "Stay in touch"
+#~ msgstr "ابقى معنا في تواصل عبر "
+
+#~ msgid "Join Us on Facebook"
+#~ msgstr "تابعنا على الفيس بوك"
+
+#~ msgid "Follow Us on Twitter"
+#~ msgstr "تابعنا على توتر"
+
+#~ msgid "Hotline"
+#~ msgstr "الخط الهاتفي"
+
+#~ msgid "Sing out"
+#~ msgstr "تسجيل خروج "
+
+#~ msgid "Sign in"
+#~ msgstr "تسجيل الدخول"
+
+#~ msgid "Manage Addresses"
+#~ msgstr "إدارة الصفحات "
+
+#~ msgid "Change Password"
+#~ msgstr "تغيير كلمة المرور "
+
+#~ msgid "Settings"
+#~ msgstr "اعدادات"
+
+#~ msgid "Contact Shop Owner"
+#~ msgstr "اتصل بصاحب المتجر"
+
+#~ msgid "Newsletter Subscription"
+#~ msgstr "اشترك في خدمة الرسائل الاخبارية "
+
+#~ msgid "Policy"
+#~ msgstr "الشروط "
+
+#~ msgid "Wish List"
+#~ msgstr "قائمة رغباتي"
+
+#~ msgid "Your Basket"
+#~ msgstr "سلة التسوق"
+
+#~ msgid "Enter your search keyword"
+#~ msgstr "أدخل كلمة البحث"
+
+#~ msgid "Special Products"
+#~ msgstr "منتجات خاصة"
+
+#~ msgid "keep up with the latest News"
+#~ msgstr "واكب احدث الاخبار "
+
+#~ msgid "Stay in Touch By"
+#~ msgstr "ابقى معنا في تواصل عبر"
+
+#~ msgid "Subscribe to RSS-Feed"
+#~ msgstr "اشترك في خدمة آر إس إس"
+
+#~ msgid "Watch Us in Youtube"
+#~ msgstr "تابعنا على اليوتوب"
+
+#~ msgid "Singout"
+#~ msgstr "تسجيل خروج"
+
+#~ msgid "Signin"
+#~ msgstr "تسجيل دخول "
+
+#~ msgid "All rights reserved"
+#~ msgstr "جميع الحقوق محفوظة"
+
+#~ msgid "HOME"
+#~ msgstr "الرئيسية"
+
+#~ msgid "NEW PRODUCTS"
+#~ msgstr "المنتجات الجديدة"
+
+#~ msgid "ALL PRODUCTS"
+#~ msgstr "جميع المنتجات"
+
+#~ msgid "CONTACT"
+#~ msgstr "اتصل بنا"
+
+#~ msgid "Last Inserts"
+#~ msgstr "الاخر اضافة"
+
+#~ msgid "Facebook"
+#~ msgstr " الفيسبوك"
+
+#~ msgid "Twitter"
+#~ msgstr "التويتر"
+
+#, fuzzy
+#~ msgid "RSS Feed"
+#~ msgstr "آر إس إس"
+
+#~ msgid "Phone"
+#~ msgstr "الجوال "
+
+#, fuzzy
+#~ msgid "Search"
+#~ msgstr "بحث"
+
+#~ msgid "exists"
+#~ msgstr "موجود"
+
+#~ msgid "Version"
+#~ msgstr "النسخة"
+
+#~ msgid "Home"
+#~ msgstr "الرئيسية"
+
+#~ msgid "Preview"
+#~ msgstr "مشاهدة"
+
+#~ msgid "Logout"
+#~ msgstr "تسجيل خروج"
+
+#~ msgid "Choose your Language"
+#~ msgstr "اختر اللغة"
+
+#~ msgid "Help"
+#~ msgstr "مساعدة"
+
+#~ msgid "Jackets"
+#~ msgstr "سترات"
+
+#~ msgid "Shoes"
+#~ msgstr "أحذية"
+
+#~ msgid "Hats"
+#~ msgstr "قبعات"
+
+#, fuzzy
+#~ msgid "Dashboardd"
+#~ msgstr "صفحة لوحة التحكم الرئيسية"
+
+#~ msgid "Add new Request"
+#~ msgstr "اضافة طلب جديد"
+
+#~ msgid "List Requests"
+#~ msgstr "قائمة الطلبات"
+
+#, fuzzy
+#~ msgid "The Software"
+#~ msgstr "البرنامج"
+
+#, fuzzy
+#~ msgid "BlackBerry"
+#~ msgstr "رقم البلاكبيري"
+
+#, fuzzy
+#~ msgid "General information"
+#~ msgstr "معلومات عامة"
+
+#, fuzzy
+#~ msgid "Sold"
+#~ msgstr "التبليغ عن سيارة مباعة"
+
+#, fuzzy
+#~ msgid "Title"
+#~ msgstr "الاسم"
+
+#, fuzzy
+#~ msgid "Select Model"
+#~ msgstr "اختر المنطقة"
+
+#, fuzzy
+#~ msgid "Wheel type"
+#~ msgstr "نوع الوثيقة"
+
+#, fuzzy
+#~ msgid "Information about the engine"
+#~ msgstr "مشاهدة معلومات المجموعة"
+
+#, fuzzy
+#~ msgid "Price"
+#~ msgstr "السعر"
+
+#, fuzzy
+#~ msgid "From"
+#~ msgstr "البدا من السطر"
+
+#, fuzzy
+#~ msgid "To"
+#~ msgstr "الى"
+
+#, fuzzy
+#~ msgid "Browsing"
+#~ msgstr "التصفح"
+
+#, fuzzy
+#~ msgid "Product photos"
+#~ msgstr "رقم المنتج"
+
+#, fuzzy
+#~ msgid "No photo"
+#~ msgstr "لا يوجد محتوى"
+
+#, fuzzy
+#~ msgid "Add new photo"
+#~ msgstr "اضافة صفحة جديدة"
+
+#, fuzzy
+#~ msgid "Save product"
+#~ msgstr "رقم المنتج"
+
+#, fuzzy
+#~ msgid "Save the product only"
+#~ msgstr "حفظ معلومات الإتصال"
+
+#, fuzzy
+#~ msgid "Product number"
+#~ msgstr "رقم المنتج"
+
+#, fuzzy
+#~ msgid "Condition"
+#~ msgstr "العملية"
+
+#, fuzzy
+#~ msgid "Registration"
+#~ msgstr "معلومات التسجيل"
+
+#, fuzzy
+#~ msgid "Not Registred"
+#~ msgstr "كلمة المرور القديمة غير صحيحة"
+
+#, fuzzy
+#~ msgid "Owner Email"
+#~ msgstr "اضافة إيميل"
+
+#, fuzzy
+#~ msgid "Year from"
+#~ msgstr "البدا من السطر"
+
+#, fuzzy
+#~ msgid "Year to"
+#~ msgstr "الى السطر"
+
+#, fuzzy
+#~ msgid "Send to friend"
+#~ msgstr "موجه الى مجموعة"
+
+#, fuzzy
+#~ msgid "Delete bookmark"
+#~ msgstr "حذف المجموعة"
+
+#, fuzzy
+#~ msgid "Add bookmark"
+#~ msgstr "اضافة منطقة"
+
+#, fuzzy
+#~ msgid "Owner Informations"
+#~ msgstr "معلومات التسجيل"
+
+#, fuzzy
+#~ msgid "Products per page"
+#~ msgstr "اضافة صفحة جديدة"
+
+#, fuzzy
+#~ msgid "Price Ascending"
+#~ msgstr "المجموع الكلي"
+
+#, fuzzy
+#~ msgid "Price Descending"
+#~ msgstr "المجموع الكلي"
+
+#, fuzzy
+#~ msgid "More information"
+#~ msgstr "معلومات عامة"
+
+#, fuzzy
+#~ msgid "State"
+#~ msgstr "تفعيل"
+
+#, fuzzy
+#~ msgid "Body type"
+#~ msgstr "نوع الوثيقة"
+
+#, fuzzy
+#~ msgid "Whell type"
+#~ msgstr "نوع الوثيقة"
+
+#, fuzzy
+#~ msgid "Description"
+#~ msgstr "الوصف"
+
+#, fuzzy
+#~ msgid "Save and Continue"
+#~ msgstr "حفظ معلومات الإتصال"
+
+#, fuzzy
+#~ msgid "Navigation"
+#~ msgstr "التّصفح"
+
+#, fuzzy
+#~ msgid "Go Back"
+#~ msgstr "الرجوع الى الرئيسية"
+
+#, fuzzy
+#~ msgid "Your Bike was submited"
+#~ msgstr "تم الغاء طلب الشراء بنجاح"
+
+#, fuzzy
+#~ msgid "No Bike available"
+#~ msgstr "لا توجد تعليقات"
+
+#, fuzzy
+#~ msgid "Send to Freind"
+#~ msgstr "موجه الى مجموعة"
+
+#, fuzzy
+#~ msgid "Bike Number"
+#~ msgstr "رقم المنتج"
+
+#, fuzzy
+#~ msgid "Your friends name"
+#~ msgstr "اسم طريقة الدفع"
+
+#, fuzzy
+#~ msgid "Subject"
+#~ msgstr "الموضوع"
+
+#, fuzzy
+#~ msgid "Send"
+#~ msgstr "تاريخ الارسال"
+
+#, fuzzy
+#~ msgid "Back To Home"
+#~ msgstr "الرجوع الى الرئيسية"
+
+#, fuzzy
+#~ msgid "Add new box"
+#~ msgstr "اضافة صفحة جديدة"
+
+#, fuzzy
+#~ msgid "List Blocks"
+#~ msgstr "قائمة المناطق"
+
+#, fuzzy
+#~ msgid "Box Name"
+#~ msgstr "المنطقة"
+
+#, fuzzy
+#~ msgid "Box Type"
+#~ msgstr "نوع الوثيقة"
+
+#, fuzzy
+#~ msgid "File"
+#~ msgstr "الملف"
+
+#, fuzzy
+#~ msgid "Quick links"
+#~ msgstr "روابط سريعة"
+
+#, fuzzy
+#~ msgid "To reset your password click here"
+#~ msgstr "لطلب كلمة مرور جديدة يرجى الضغط هنا"
+
+#, fuzzy
+#~ msgid "Login to your Panel"
+#~ msgstr "الدخول على لوحة التحكم"
+
+#, fuzzy
+#~ msgid "Reset Password"
+#~ msgstr "طلب كلمة مرور جديدة"
+
+#, fuzzy
+#~ msgid "Please enter your email"
+#~ msgstr "الرجاء ادخال البريد الالكتروني"
+
+#, fuzzy
+#~ msgid "Reset Password Success"
+#~ msgstr "طلب كلمة مرور جديدة"
+
+#, fuzzy
+#~ msgid "Customer Control Panel"
+#~ msgstr "لوحة تحكم العملاء"
+
+#, fuzzy
+#~ msgid "Account Area"
+#~ msgstr "حسابي"
+
+#, fuzzy
+#~ msgid "Change Password Success"
+#~ msgstr "تم تعديل كلمة المرور بنجاح"
+
+#, fuzzy
+#~ msgid "Register new User"
+#~ msgstr "اضافة مستخدم جديد"
+
+#, fuzzy
+#~ msgid "Dear visitor please verify inputs"
+#~ msgstr "الرجاء التاكد من المدخلات"
+
+#, fuzzy
+#~ msgid "Groups"
+#~ msgstr "ادارة المجموعات"
+
+#, fuzzy
+#~ msgid "Group"
+#~ msgstr "حذف المجموعة"
+
+#, fuzzy
+#~ msgid "save"
+#~ msgstr "حفظ"
+
+#, fuzzy
+#~ msgid "update"
+#~ msgstr "تاريخ التعديل"
+
+#, fuzzy
+#~ msgid "Template"
+#~ msgstr "القالب"
+
+#, fuzzy
+#~ msgid "Templates"
+#~ msgstr "قائمة قوالب البريد الالكتروني"
+
+#, fuzzy
+#~ msgid "Content"
+#~ msgstr "المحتوى"
+
+#, fuzzy
+#~ msgid "List templates"
+#~ msgstr "قائمة قوالب البريد الالكتروني"
+
+#, fuzzy
+#~ msgid "Template title"
+#~ msgstr "التعديل على القالب"
+
+#, fuzzy
+#~ msgid "Report Submited"
+#~ msgstr "تم ارسال التبليغ"
+
+#, fuzzy
+#~ msgid "Thank you for submitting your report"
+#~ msgstr "شكرا للتبليغ على الرقم "
+
+#, fuzzy
+#~ msgid "Add a new Request"
+#~ msgstr "اضافة تبليغ"
+
+#, fuzzy
+#~ msgid "Show all"
+#~ msgstr "المناطق"
+
+#
+#, fuzzy
+#~ msgid "Details"
+#~ msgstr "التفاصيل"
+
+#, fuzzy
+#~ msgid "Add new Email Template"
+#~ msgstr "اضافة قالب بريد الكتروني جديد"
+
+#, fuzzy
+#~ msgid "List Email Templates"
+#~ msgstr "قائمة قوالب البريد الالكتروني"
+
+#, fuzzy
+#~ msgid "Website name"
+#~ msgstr "المنطقة"
+
+#, fuzzy
+#~ msgid "Address"
+#~ msgstr "العنوان"
+
+#, fuzzy
+#~ msgid "Fax"
+#~ msgstr "الفاكس"
+
+#, fuzzy
+#~ msgid "Add new Department"
+#~ msgstr "اضافة صفحة جديدة"
+
+#, fuzzy
+#~ msgid "List Department"
+#~ msgstr "قائمة المناطق"
+
+#, fuzzy
+#~ msgid "Add new User"
+#~ msgstr "اضافة مستخدم جديد"
+
+#, fuzzy
+#~ msgid "List Users"
+#~ msgstr "استعراض المستخدمين"
+
+#, fuzzy
+#~ msgid "Edit User Group"
+#~ msgstr "تعديل على مجموعة المستخدمين"
+
+#, fuzzy
+#~ msgid "Add new User Group"
+#~ msgstr "اضافة مجموعة مستخدمين"
+
+#, fuzzy
+#~ msgid "List Users Groups"
+#~ msgstr "قائمة المجموعات"
+
+#, fuzzy
+#~ msgid "Add new User Role"
+#~ msgstr "اضافة خطة مستخدم"
+
+#, fuzzy
+#~ msgid "List Users Roles"
+#~ msgstr "قائمة الخطط"
+
+#, fuzzy
+#~ msgid "Edit User"
+#~ msgstr "التعديل على مستخدم"
+
+#, fuzzy
+#~ msgid "Manage makes"
+#~ msgstr "إدارة الصفحات"
+
+#, fuzzy
+#~ msgid "Add new make"
+#~ msgstr "اضافة صفحة جديدة"
+
+#, fuzzy
+#~ msgid "List model for"
+#~ msgstr "قائمة ارقام السيارات"
+
+#, fuzzy
+#~ msgid "Model name"
+#~ msgstr "المنطقة"
+
+#, fuzzy
+#~ msgid "Add new model"
+#~ msgstr "اضافة صفحة جديدة"
+
+#, fuzzy
+#~ msgid "Make name"
+#~ msgstr "المنطقة"

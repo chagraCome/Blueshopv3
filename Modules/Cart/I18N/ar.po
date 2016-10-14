@@ -1,0 +1,381 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cart\n"
+"POT-Creation-Date: 2014-04-15 09:17+0100\n"
+"PO-Revision-Date: 2014-04-15 09:18+0100\n"
+"Last-Translator: Montassar <montassarelaid@gmail.com>\n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../Backend/Boot.php:36
+msgid "Shopping cart"
+msgstr "سلة التسوق "
+
+#: ../Backend/Controllers/Setting.php:28
+msgid "Shopping cart Settings"
+msgstr "اعدادت سلة التسوق"
+
+#: ../Backend/Controllers/Setting.php:44
+msgid "Data was successfully saved"
+msgstr "تم حفظ البيانات بنجاح"
+
+#: ../Backend/Controllers/Setting.php:55
+msgid "Shopping cart Policies"
+msgstr "شروط سلة التسوق"
+
+#: ../Backend/Controllers/Setting.php:57
+msgid "Enable Cart Policy"
+msgstr "تفعيل قانون سياسة التسوق"
+
+#: ../Backend/Controllers/Setting.php:58
+msgid "Enable Retour Policy"
+msgstr "تفعيل قانون سياسة الإرجاع"
+
+#: ../Backend/Controllers/Setting.php:60
+msgid "Checkout Type"
+msgstr "نوع عملية الشراء"
+
+#: ../Backend/Controllers/Setting.php:61
+msgid "Quickpay"
+msgstr "عملية شراء سريعة"
+
+#: ../Backend/Controllers/Setting.php:61
+msgid "Full Pay"
+msgstr "تقسيم عملية الشراء الى مراحل"
+
+#: ../Backend/Controllers/Setting.php:68
+msgid "Save"
+msgstr "حفظ"
+
+#: ../Frontend/Boot.php:27
+msgid "Your cart contains"
+msgstr "سلة التسوق تحتوي على"
+
+#: ../Frontend/Boot.php:27
+msgid "Item"
+msgstr "عنصر"
+
+#: ../Frontend/Controllers/Checkout/Address.php:65
+#: ../Frontend/Controllers/Checkout/Quickpay.php:75
+#: ../Frontend/Controllers/Checkout/Service/Address.php:51
+msgid "Add new Address"
+msgstr "اضافة عنوان جديدة"
+
+#: ../Frontend/Controllers/Checkout/Address.php:66
+#: ../Frontend/Controllers/Checkout/Quickpay.php:76
+msgid "Use a different shipping address"
+msgstr "استخدام عنوان أخر للشحن"
+
+#: ../Frontend/Controllers/Checkout/Address.php:72
+#: ../Frontend/Controllers/Checkout/Service/Address.php:52
+msgid "Save and continue"
+msgstr "احفظ وواصل"
+
+#: ../Frontend/Controllers/Checkout/Address.php:117
+#: ../Frontend/Controllers/Checkout/Service/Address.php:88
+msgid "Please Select Invoice Address"
+msgstr "الرجاء اختيار عنوان لارسال الفاتورة"
+
+#: ../Frontend/Controllers/Checkout/Address.php:127
+#: ../Frontend/Controllers/Checkout/Quickpay.php:179
+#: ../Frontend/Controllers/Checkout/Service/Address.php:98
+#: ../key_words_html.php:35 ../key_words_html.php:62 ../key_words_html.php:68
+#: ../key_words_html.php:74 ../key_words_html.php:84 ../key_words_html.php:86
+msgid "Invoice Address"
+msgstr "عنوان ارسال الفاتورة"
+
+#: ../Frontend/Controllers/Checkout/Address.php:129
+#: ../Frontend/Controllers/Checkout/Quickpay.php:181 ../key_words_html.php:37
+#: ../key_words_html.php:107 ../key_words_html.php:147
+msgid "Shipping Address"
+msgstr "عنوان الشحن"
+
+#: ../Frontend/Controllers/Checkout/Payment.php:48
+#: ../Frontend/Controllers/Checkout/Quickpay.php:125
+#: ../Frontend/Controllers/Checkout/Service/Payment.php:48
+#: ../Frontend/Controllers/Paynow.php:78
+msgid "Selected payment method was deleted, please contact shop owner"
+msgstr "تم حذف طريقة الدفع المُختارة, الرجاء التواصل مع مدير المتجر"
+
+#: ../Frontend/Controllers/Checkout/Payment.php:51
+#: ../Frontend/Controllers/Checkout/Service/Payment.php:51
+#: ../Frontend/Controllers/Paynow.php:81
+msgid "Please select a payment method"
+msgstr "الرجاء اختيار طريقة دفع"
+
+#: ../Frontend/Controllers/Checkout/Preview.php:87
+msgid "Cannot Proccess your saleorder"
+msgstr "لا يمكن مواصلة طلب الشراء"
+
+#: ../Frontend/Controllers/Checkout/Preview.php:113
+#, php-format
+msgid "Online Order %s"
+msgstr "طلب شراء عبر الانترنت %s"
+
+#: ../Frontend/Controllers/Checkout/Quickpay.php:145
+#, fuzzy
+msgid "Please Select All options"
+msgstr "الرجاء اختيار عنوان لارسال الفاتورة"
+
+#: ../Frontend/Controllers/Checkout/Service/Address.php:42
+msgid "Use this Address"
+msgstr "استخدم هذا العنوان"
+
+#: ../Frontend/Controllers/Checkout/Shipping.php:49
+msgid "Selected shipping method was deleted, please contact shop owner"
+msgstr "طريقة الشحن المُختارة تم حذفها, يُرجى التواصل مع مدير المتجر"
+
+#: ../Frontend/Controllers/Checkout/Shipping.php:52
+msgid "Please Select Shipping Method"
+msgstr "الرجاء اختيار طريقة شحن"
+
+#: ../Frontend/Controllers/List.php:58
+msgid "Product was successfully added to shopping cart"
+msgstr "تم اضافة المنتج الى سلة التسوق بنجاح"
+
+#: ../Frontend/Controllers/List.php:61
+msgid "Product was successfully deleted from shopping cart"
+msgstr "تم حذف المنتج من سلة التسوق بنجاح"
+
+#: ../Frontend/Controllers/List.php:64
+msgid "Your Shopping cart was updated"
+msgstr "تم تحديث سلة التسوق"
+
+#: ../Frontend/Controllers/Paynow.php:53
+#: ../Frontend/Controllers/zeroprice.php:54
+msgid "You have no items to sale"
+msgstr "ليس لديك أي عناصر للبيع "
+
+#: ../Models/Notification/Model.php:53
+msgid "New sales order was submitted"
+msgstr "تم القيام بطلب شراء جديد"
+
+#: ../Models/Notification/Model.php:54
+msgid "New Sales order was submitted"
+msgstr "تم القيام بطلب شراء جديد"
+
+#: ../Models/Notification/Model.php:75
+msgid "Your sales order was submitted"
+msgstr "تم ارسال طلب الشراء الخاص بك"
+
+#: ../Models/Notification/Model.php:76
+msgid "Dear Customer"
+msgstr "عزيزي العميل"
+
+#: ../Models/Notification/Model.php:78
+msgid "Your Sales order was submitted"
+msgstr "تم ارسال طلب الشراء الخاص بك"
+
+#: ../Models/Notification/Model.php:79
+msgid "Best regards"
+msgstr "مع خالص التحية والتقدير"
+
+#: ../Models/Shoppingcart/Model.php:310 ../Models/Shoppingcart/Model.php:370
+#: ../Models/Shoppingcart/Model.php:390
+msgid "Quantity is finshed"
+msgstr "انتهت الكمية"
+
+#: ../Models/Shoppingcart/Model.php:315 ../Models/Shoppingcart/Model.php:375
+#, php-format
+msgid "No enough quantity for this product %s Max Quantity is %s"
+msgstr "لا توجد كمية كافية لهذا المنتج: %s, اقصى كمية هي: %s"
+
+#: ../key_words_html.php:3
+msgid "Information"
+msgstr "اعلام"
+
+#: ../key_words_html.php:4
+msgid "Manage Email templates"
+msgstr "ادارة قوالب الايميلات"
+
+#: ../key_words_html.php:5
+#, fuzzy
+msgid "Manage Mail Server Settings"
+msgstr "اعدادات خوادم البريد"
+
+#: ../key_words_html.php:10 ../key_words_html.php:61
+msgid "Account Information"
+msgstr "بيانات الحساب"
+
+#: ../key_words_html.php:11 ../key_words_html.php:17 ../key_words_html.php:24
+#: ../key_words_html.php:39 ../key_words_html.php:109
+msgid "Shipping Method"
+msgstr "طريقة الشحن"
+
+#: ../key_words_html.php:12 ../key_words_html.php:18 ../key_words_html.php:26
+#: ../key_words_html.php:42 ../key_words_html.php:58 ../key_words_html.php:63
+#: ../key_words_html.php:69 ../key_words_html.php:76 ../key_words_html.php:88
+#: ../key_words_html.php:112
+msgid "Payment Method"
+msgstr "طريقة الدفع"
+
+#: ../key_words_html.php:13 ../key_words_html.php:19 ../key_words_html.php:28
+#: ../key_words_html.php:44 ../key_words_html.php:64 ../key_words_html.php:70
+#: ../key_words_html.php:78 ../key_words_html.php:90 ../key_words_html.php:113
+msgid "Preview Order"
+msgstr "مشاهدة طلب الشراء"
+
+#: ../key_words_html.php:15 ../key_words_html.php:21 ../key_words_html.php:30
+#: ../key_words_html.php:66 ../key_words_html.php:72 ../key_words_html.php:80
+#: ../key_words_html.php:104
+msgid "Account"
+msgstr "الحساب"
+
+#: ../key_words_html.php:16 ../key_words_html.php:22 ../key_words_html.php:23
+#: ../key_words_html.php:25 ../key_words_html.php:31 ../key_words_html.php:34
+#: ../key_words_html.php:40 ../key_words_html.php:43 ../key_words_html.php:67
+#: ../key_words_html.php:73 ../key_words_html.php:75 ../key_words_html.php:81
+#: ../key_words_html.php:85 ../key_words_html.php:89 ../key_words_html.php:105
+#: ../key_words_html.php:108
+msgid "Edit"
+msgstr "تعديل"
+
+#: ../key_words_html.php:27 ../key_words_html.php:59 ../key_words_html.php:77
+#: ../key_words_html.php:111
+msgid "Continue"
+msgstr "واصل"
+
+#: ../key_words_html.php:32 ../key_words_html.php:36 ../key_words_html.php:38
+#: ../key_words_html.php:82 ../key_words_html.php:87
+msgid "Name"
+msgstr "الاسم"
+
+#: ../key_words_html.php:33 ../key_words_html.php:83
+msgid "Tel"
+msgstr "الهاتف"
+
+#: ../key_words_html.php:41 ../key_words_html.php:49 ../key_words_html.php:95
+#: ../key_words_html.php:110 ../key_words_html.php:141
+msgid "Shipping Cost"
+msgstr "تكلفة الشحن"
+
+#: ../key_words_html.php:45 ../key_words_html.php:91 ../key_words_html.php:121
+msgid "Product"
+msgstr "المنتج"
+
+#: ../key_words_html.php:46 ../key_words_html.php:92 ../key_words_html.php:122
+#: ../key_words_html.php:137
+msgid "Unit Price"
+msgstr "سعر الوحدة"
+
+#: ../key_words_html.php:47 ../key_words_html.php:93 ../key_words_html.php:123
+#: ../key_words_html.php:138
+msgid "Quantity"
+msgstr "الكمية"
+
+#: ../key_words_html.php:48 ../key_words_html.php:94 ../key_words_html.php:124
+#: ../key_words_html.php:126 ../key_words_html.php:139
+#: ../key_words_html.php:140
+msgid "Sub Total"
+msgstr "المجموع الجزئي"
+
+#: ../key_words_html.php:50 ../key_words_html.php:96 ../key_words_html.php:142
+msgid "Handling Fee"
+msgstr "رسوم التحويل"
+
+#: ../key_words_html.php:51 ../key_words_html.php:97 ../key_words_html.php:144
+msgid "Total"
+msgstr "المجموع"
+
+#: ../key_words_html.php:52 ../key_words_html.php:53 ../key_words_html.php:98
+#: ../key_words_html.php:99 ../key_words_html.php:143
+msgid "Discount"
+msgstr "التخفيض"
+
+#: ../key_words_html.php:54 ../key_words_html.php:100
+msgid "Grand Total"
+msgstr "المجموع النهائي"
+
+#: ../key_words_html.php:55 ../key_words_html.php:101
+msgid "Note"
+msgstr "ملاحظة"
+
+#: ../key_words_html.php:56 ../key_words_html.php:102
+msgid "Submit Order"
+msgstr "ارسال طلب الشراء"
+
+#: ../key_words_html.php:106
+msgid "Invoice"
+msgstr " الفاتورة"
+
+#: ../key_words_html.php:116 ../key_words_html.php:118
+msgid "Shopping Cart"
+msgstr "سلة التسوق"
+
+#: ../key_words_html.php:117
+msgid "Shoppingcart is empty"
+msgstr "سلة التسوق فارغة"
+
+#: ../key_words_html.php:119 ../key_words_html.php:120
+#: ../key_words_html.php:131
+msgid "Checkout Now"
+msgstr "اتمام عملية الشراء"
+
+#: ../key_words_html.php:125
+msgid "Remove"
+msgstr "حذف"
+
+#: ../key_words_html.php:127
+msgid "Coupon Discount"
+msgstr "قسيمة تخفيض "
+
+#: ../key_words_html.php:128
+msgid "Continue Shopping"
+msgstr "واصل التسوق"
+
+#: ../key_words_html.php:129
+msgid "Enter Coupon Code"
+msgstr "الرجاء ادخار رقم قسيمة التخفيض"
+
+#: ../key_words_html.php:130
+msgid "Update"
+msgstr "تحديث"
+
+#: ../key_words_html.php:133 ../key_words_html.php:146
+msgid "Pay Now"
+msgstr "ادفع الان"
+
+#: ../key_words_html.php:134
+msgid "Product Number"
+msgstr "رقم المنتج"
+
+#: ../key_words_html.php:135
+msgid "Product Name"
+msgstr "اسم المنتج"
+
+#: ../key_words_html.php:136
+msgid "Product Description"
+msgstr "وصف المنتج"
+
+#: ../key_words_html.php:145
+msgid "Choose Your Payment Method"
+msgstr "اختيار طريقة الدفع"
+
+#: ../key_words_html.php:148
+msgid "Cart"
+msgstr "سلة التسوق"
+
+#~ msgid "invalid email address"
+#~ msgstr "البريد الالكتروني غير صحيح"
+
+#~ msgid "Setting"
+#~ msgstr "الاعدادات"
+
+#, fuzzy
+#~ msgid "Review Sale Order"
+#~ msgstr "مشاهدة طلب الشراء"
+
+#~ msgid "Invoice & Shipping Address"
+#~ msgstr "عنوان الشحن و الارسال"
+
+#~ msgid "Quantity is less than 1"
+#~ msgstr "انتهت الكمية"

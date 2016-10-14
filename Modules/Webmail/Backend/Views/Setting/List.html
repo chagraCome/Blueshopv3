@@ -1,0 +1,14 @@
+
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+  <legend>
+    {*<span class="list"><a href="?module=webmail&page=inbox-email-list">{'Mail Inbox'|tr}</a></span> | *}
+    <span class="add"><a href="?module=webmail&page=setting-add">{'Add Email Account'|tr}</a></span> 
+  </legend>
+  <div class="panel">
+    {$widget->Render()}
+  </div>
+</fieldset>

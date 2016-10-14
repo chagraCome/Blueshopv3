@@ -1,0 +1,151 @@
+<!--markup header-->
+<header role="banner">
+    <!--header top part-->
+    <section class="h_top_part">
+        <div class="container">
+            <div class="row clearfix">
+                <div class="col-lg-4 col-md-4 col-sm-5 t_xs_align_c">
+                    <p class="f_size_small"> {if $loggedusername}
+                        {'Welcome'|tr}&nbsp;{$loggedusername}
+                        <a href="index.php?module=crm&page=intern-shop-logout"><b>{'Log Out'|tr}</b></a>
+                        {else}
+                        {'Welcome guest you can'|tr} <a href="index.php?module=crm&page=intern-shop-login" data-popup="#login_popup"><b>{'Log In'|tr}</b></a>
+                        {'or'|tr} <a href="index.php?module=crm&page=intern-shop-register"><b>{'Create an Account'|tr}</b>{/if}</a> 
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-2 t_align_c t_xs_align_c">
+                    <p class="f_size_small">{'Call us toll free'|tr}:<b class="color_dark"> <span dir="ltr" style="direction: ltr">{$shop->tel}</span></b></p>
+                </div>
+                <nav class="col-lg-4 col-md-4 col-sm-5 t_align_r t_xs_align_c">
+                    <ul class="d_inline_b horizontal_list clearfix f_size_small users_nav">
+                        <li><a href="index.php?module=crm&page=intern-shop-home" class="default_t_color">{'My Account'|tr}</a></li>
+                        <li><a href="index.php?module=saleorder&page=list" class="default_t_color">{'Orders List'|tr}</a></li>
+                        <li><a href="index.php?module=product&page=whishlist" class="default_t_color">{'Wishlist'|tr}</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <!--header bottom part-->
+    <section class="h_bot_part container">
+        <div class="clearfix row">
+            <div class="col-lg-6 col-md-6 col-sm-4 t_xs_align_c">
+                {if $shop->shop_logo}
+                <a href="index.php" class="logo m_xs_bottom_15 d_xs_inline_b">
+                    <img src="{$shop->shop_logo}" style="max-width: 230px;" >
+                </a>
+                {else}
+                <a href="index.php" style="font-size: 18px; font-weight: bold;" class="logo m_xs_bottom_15 d_xs_inline_b">
+                    <h1>{if $current_lang == 'en'}{$shop->name_en}{else}{$shop->name_ar}{/if}</h1> 
+                </a>
+                {/if}
+
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-8 t_align_r t_xs_align_c">
+                <ul class="d_inline_b horizontal_list clearfix t_align_l site_settings">
+                    <!--like-->
+                    <li>
+                        <a role="button" href="index.php?module=product&page=whishlist" class="button_type_1 color_dark d_block bg_light_color_1 r_corners tr_delay_hover box_s_none"><i class="fa fa-heart-o f_size_ex_large"></i><span class="count whishlist_header_count circle t_align_c">
+                                {$whishlist_items_count|default:0}</span>
+                        </a>
+                    </li>
+                    <!-- Compare -->
+                    <li class="m_left_5">
+                        <a role="button" href="index.php?module=product&page=compare" class="button_type_1 color_dark d_block bg_light_color_1 r_corners tr_delay_hover box_s_none">
+                            <i class="fa fa-files-o f_size_ex_large"></i><span class="count header_compare_items_count circle t_align_c" id="compare_items_count">{$compare_items_count|default:0}</span>
+                        </a>
+                    </li>
+                    <!--language settings-->
+                    {if $current_lang == 'en'}
+                    <li class="m_left_5 relative container3d">
+                        <a role="button" href="index.php?lang=ar" class="button_type_1 color_dark d_block bg_light_color_1 r_corners tr_delay_hover box_s_none">
+                            العربية <img class="d_inline_middle" src="{$skin_path}/images/sa.png" alt="">
+                        </a>
+                    </li>
+                    {/if}
+                    {if $current_lang == 'ar'}
+
+                    <li class="m_left_5 relative container3d">
+                        <a role="button" href="index.php?lang=en" class="button_type_1 color_dark d_block bg_light_color_1 r_corners tr_delay_hover box_s_none">
+                            <img class="d_inline_middle" src="{$skin_path}/images/flag_en.jpg" alt=""> English
+                        </a>
+                    </li>
+
+                    {/if}
+                    <!--currency settings-->
+                    <li class="m_left_5 relative container3d">
+                        <a role="button" href="JavaScript:void(0);" class="button_type_2 color_dark d_block bg_light_color_1 r_corners tr_delay_hover box_s_none" id="currency_button">
+                            <span class="scheme_color">{$current_currency}</span> 
+                            <span class="d_mxs_none">
+                                <img src="{$current_currency_flag}" style="padding-right:5px; padding-left:5px; margin-top: 5px;">&nbsp;
+                            </span>
+                        </a>
+                        <ul class="dropdown_list top_arrow color_light" style="width:93px;">
+                            {foreach $locales as $local}
+                            <li>
+                                <a href="index.php?locale={$local.locale}" class="tr_delay_hover color_light">
+                                    <img src="{$local.flag}" style="margin-top: 5px;">&nbsp;<span class="scheme_color">{$local.symbol} </span>  
+                                </a>
+                            </li>
+                            {/foreach}
+                        </ul>
+                    </li>
+                    <!--shopping cart-->
+                    <li class="m_left_5 relative container3d" id="shopping_button">
+                        <a role="button" href="JavaScript:void(0);" class="button_type_3 color_light bg_scheme_color d_block r_corners tr_delay_hover box_s_none">
+                            <span class="d_inline_middle shop_icon m_mxs_right_0">
+                                <i class="fa fa-shopping-cart"></i>
+                                <span class="count cart_header_count tr_delay_hover type_2 circle t_align_c">{$basket_count}</span>
+                            </span>
+                            <b class="d_mxs_none cart_header_total">{$price_count|price}</b>
+                        </a>
+                        {if $basket_count == 0}
+                        <div class="shopping_cart top_arrow tr_all_hover r_corners">
+                            <div class="f_size_medium sc_header div_there_is_no_product">{'There is no product'|tr}</div>
+                            <ul class="products_list">
+                            </ul>
+                        </div>
+                        {else}
+                        <form name="shopping_cart_from" method="post" action="">
+                            <div class="shopping_cart top_arrow tr_all_hover r_corners">
+                                <div class="f_size_medium sc_header">{'Recently added item(s)'|tr}</div>
+                                <ul class="products_list">
+                                    {foreach $products as $product}
+                                    <li id="addedProd-{$product->getId()}">
+                                        <div class="clearfix">
+                                            <!--product image-->
+                                            <img class="f_left m_right_10" src="{$product->getFirstThumb()}" width="10%" alt="">
+                                            <!--product description-->
+                                            <div class="f_left product_description">
+                                                <a href="{$product->getUrl()}" class="color_dark m_bottom_5 d_block">{$product->getTitle()|truncate:20:".."}</a>
+                                                <span class="f_size_medium">{'Product Code'|tr}:{$product->getNumber()}</span>
+                                            </div>
+                                            <!--product price-->
+                                            <div class="f_left f_size_medium">
+                                                <div class="clearfix" style="direction: ltr;">
+                                                    {$product->quantity_in_cart} x <b class="color_dark">{$product->getUnitPrice()|price}</b>
+                                                </div>
+                                                <button class="close_product color_dark tr_hover" data-idproduct="{$product->id}"><i class="fa fa-times"></i></button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    {/foreach}
+                                </ul>
+                                <!--total price-->
+                                <ul class="total_price bg_light_color_1 t_align_r color_dark">
+                                    <li>{'Total'|tr}: <b class="f_size_large bold scheme_color sc_price t_align_l d_inline_b m_left_15">{$price_count|price}</b></li>
+                                </ul>
+                                <div class="sc_footer t_align_c">
+                                    <a href="index.php?module=cart&page=list" role="button" class="button_type_4 d_inline_middle bg_light_color_2 r_corners color_dark t_align_c tr_all_hover m_mxs_bottom_5">{'View Cart'|tr}</a>
+                                    <a href="{$cart_url}" role="button" class="button_type_4 bg_scheme_color d_inline_middle r_corners tr_all_hover color_light">{'Checkout'|tr}</a>
+                                </div>
+                            </div>
+                        </form>
+                        {/if}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    {include file='menu_top.tpl.html'}
+</header>

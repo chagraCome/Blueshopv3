@@ -1,0 +1,4 @@
+{assign var='newproducts' value=Modules_Product_Frontend_Boot::getNewProducts()}
+{while $new_product = $newproducts->fetch()}
+{include file='Modules/Product/Frontend/Views/Item.html' item=$new_product}
+{/while}

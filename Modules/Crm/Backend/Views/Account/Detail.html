@@ -1,0 +1,15 @@
+<fieldset>
+    <legend>{'Information'|tr}</legend>
+    <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+    <legend>
+        <span class="edit"><a href="admin.php?module=crm&page=account-modify&id={$smarty.get.id}">{'Edit Account'|tr}</a></span> |
+        <span class="add"><a href="admin.php?module=crm&page=account-add">{'Add new Account'|tr}</a></span>| 
+        <span class="list"><a href="admin.php?module=crm&page=account-list">{'List Accounts'|tr}</a></span>|
+        <span class="list"><a href="admin.php?module=crm&page=account-detail&event=vcard&id={$smarty.get.id}">{'VCard'|tr}</a></span> 
+    </legend>
+    <div class="panel">
+        {$panel->Render()}
+    </div>
+</fieldset>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<service>
+    <webform level="backend">
+        <module>crm</module>
+        <controller>account-list</controller>
+        <event>default</event>
+        <params>
+            <param rtype="post" name="" value="" type="string" />
+            <param rtype="get" name="" value="" type="int" />
+        </params>
+        <hash></hash>
+    </webform>
+</service>
+
+<service>
+    <call>
+        <class>Product_Product_Model</class>
+        <procedure>fetch</procedure>
+        <filter>
+            <where>id = 3</where>
+            <limit>5</limit>
+            <orderby>id DESC</orderby>
+            <select>
+                <field>id</field>
+                <field>name</field>
+            </select>
+        </filter>
+    </call>
+</service>
+
+<service>
+    <call>
+        <class>Product_Product_Model</class>
+        <procedure>save</procedure>
+        <Product_Product_Model>
+            <id></id>
+            <title>hallo</title>
+        </Product_Product_Model>
+    </call>
+</service>
+
+
+
+<service>
+    <call>
+        <class>Product_Product_Model</class>
+        <procedure>deleteById</procedure>
+        <id>5</id>
+    </call>
+</service>
+

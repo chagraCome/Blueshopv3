@@ -1,0 +1,13 @@
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+  <legend>
+    <span class="add"><a href="admin.php?module=crm&page=account-add">{'Add a new Account'|tr}</a></span> | 
+    <span class="list"><a href="admin.php?module=crm&page=account-list">{'List Accounts'|tr}</a></span> 
+  </legend>
+  <div class="panel">
+    {$form->Render()}
+  </div>
+</fieldset>

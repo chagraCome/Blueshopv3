@@ -1,0 +1,135 @@
+
+<div class="core_content" style="min-height: 38px">
+    {if $error_message}<div style=" border: 1px solid #FFE7A1; background-color: #ffc; padding: 6px; font-weight: bold">{$error_message}</div>{/if}
+
+    <h3 class="active">{'Account'|tr}<a href="index.php?module=cart&page=checkout-account" class="cart_edit">{'Edit'|tr}</a></h3>
+    <div class="panel-div" style="margin: 10px 10px 30px 10px">
+        {'Name'|tr}: {$cart->getAccount()->getName()}<br />
+        {'E-Mail'|tr}: {$cart->getAccount()->getEmail()}<br />
+        {'Tel'|tr}: {$cart->getAccount()->getMobile()}
+    </div>
+</div>
+<br />
+<div class="core_content" style="min-height: 38px">
+    <h3 class="active">{'Invoice Address'|tr}<a href="index.php?module=cart&page=checkout-address" class="cart_edit">{'Edit'|tr}</a></h3>
+    <div class="panel-div" style="margin: 10px 10px 30px 10px">
+        <table width="100%">
+            <tr>
+                <td>{'Invoice Address'|tr}:<br />
+                    {'Name'|tr}: {$cart->getInvoiceAddress()->getName()}<br />
+                    {$cart->getInvoiceAddress()->getStreet()}<br />
+                    {$cart->getInvoiceAddress()->getZipCode()}-{$cart->getInvoiceAddress()->getCity()}<br />
+                    {$cart->getInvoiceAddress()->getProvince()}<br />
+                    {$cart->getInvoiceAddress()->getCountry()}</td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+<br />
+
+<div class="core_content" style="min-height: 38px">
+    <h3 class="active">{'Payment Method'|tr}<a href="index.php?module=cart&page=checkout-payment" class="cart_edit">{'Edit'|tr}</a></h3>
+    <div class="panel-div" style="margin: 10px 10px 30px 10px">
+        {$cart->getPaymentMethod()->getName()}
+        <br />
+        {$cart->getPaymentMethod()->getDescription()}
+    </div>
+</div>
+<br />
+<div class="core_content" style="min-height: 38px">
+    <h3 class="active">{'Preview Order'|tr}</h3>
+    <div  style="margin: 10px 10px 30px 10px">
+        <table border="0" width="100%"  cellpadding="10" class="grid">
+            <tr  style="border-bottom: 2px solid gray; padding: 5px; height: 30px; font-weight: bold">
+                <th>#</th>
+                <th>{'Product'|tr}</th>
+                <th>{'Unit Price'|tr}</th>
+                <th>{'Quantity'|tr}</th>
+                <th>{'Sub Total'|tr}</th>
+            </tr>
+            {foreach $cart->getProducts() as $product}
+            <tr style="border-top: 1px solid gray; padding: 5px">
+                <td><img style="margin: 5px; max-width: 100px; max-height: 100px" src="{$product->getFirstThumb()}" /></td>
+                <td>{$product->getTitle()}</td>
+                <td>{$product->getUnitPrice()|price}</td>
+                <td>{$product->quantity_in_cart}</td>
+                <td>{$product->getSubTotal()|price}</td>
+            </tr>
+            {if $product->isGrouped()}
+            {foreach $product->getGroupedProducts() as $gproduct}
+            <tr style="border-bottom: 1px solid gray; padding: 5px">
+                <td><img style="margin: 5px"  width="100px" src="{$gproduct->getFirstThumb()}" /></td>
+                <td>{$gproduct->getTitle()}<br />{$gproduct->getAttributeLabeledValuesAsString()|nl2br}</td>
+                <td>{$gproduct->getUnitPrice()|price}</td>
+                <td>{$product->quantity_in_cart}</td>
+                <td>{0|price}</td>
+                <td></td>
+            </tr>
+            {/foreach}
+            {/if}
+            {/foreach}
+            <tr>
+                <td colspan="3" style="border-top: 3px solid gray; padding: 5px">&nbsp;</td> 
+                <td style="border-top: 3px solid gray; padding: 5px">{'Sub Total'|tr}</td> 
+                <td style="border-top: 3px solid gray; padding: 5px">{$cart->getSubTotal()|price}</td>
+            </tr>
+            <tr>
+                <td colspan="3">&nbsp;</td> 
+                <td>{'Shipping Cost'|tr}:</td> 
+                <td style="border-top: 1px solid gray; padding: 5px">{$cart->getShippingcost()|price}</td>
+            </tr>
+            {if $cart->getHandlingFee()}  
+            <tr>
+                <td colspan="3">&nbsp;</td> 
+                <td>{'Handling Fee'|tr}</td> 
+                <td style="border-top: 1px solid gray; padding: 5px">{$cart->getHandlingFee()|price}</td>
+            </tr>
+            {/if}
+            <tr>
+                <td colspan="3">&nbsp;</td> 
+                <td style="border-top: 2px solid gray; padding: 5px">{'Total'|tr}</td> 
+                <td style="border-top: 2px solid gray; padding: 5px">{$cart->getTotal()|price}</td>
+            </tr>
+            {if $cart->coupon}
+            <tr>
+                <td colspan="3">{$cart->coupon->getSummary()}</td> 
+                <td>{'Discount'|tr}:</td> 
+                <td style="border-top: 1px solid gray; padding: 5px">{$cart->getCouponCodeDiscount()|price}</td>
+            </tr>
+            {else}
+            <!--      <tr>
+                    <td colspan="3">&nbsp;</td> 
+                    <td>{'Discount'|tr}:</td> 
+                    <td style="border-top: 1px solid gray; padding: 5px">0</td>
+                  </tr>-->
+            {/if}
+            <tr>
+                <td colspan="3">&nbsp;</td> 
+                <td style="border-top: 5px solid gray; padding: 5px"><strong>{'Grand Total'|tr}</strong></td> 
+                <td style="border-top: 5px solid gray; padding: 5px"><strong>{$cart->getGrandTotal()|price}</strong></td>
+            </tr>
+        </table>
+        <form name="checkoutform" method="post">
+            <table border="0" width="100%"  cellpadding="10">
+                <tr>
+                    <td colspan="2">{'Note'|tr}: <br /><textarea name="comment" id="comment" rows="5" style="width: 100%">{$cart->getComment()}</textarea></td> 
+                </tr>
+                {if $cart_policy_enabled}
+                <tr>
+                    <td style="line-height: 20px"><input id="term_condition" type="checkbox" name="term_condition" required="required" value="1" /><label for="term_condition">Ich habe die <a href="">AGB</a> gelesen und stimme diesen ausdrücklich zu.</label></td>
+                </tr>
+                {/if}
+                {if $cart_policy_retour_enabled}
+                 <tr>
+                     <td style="line-height: 20px"><input id="retour_condition" type="checkbox" name="retour_condition" required="required" value="1" /><label for="retour_condition">Ich habe die <a href="">Widerrufsbelehrung</a> gelesen.</label></td>
+                </tr>
+                {/if}
+                <tr>
+                    <td>&nbsp;</td>
+                    <td style="width: 120px"><div style="margin: 10px"><input class="Button submit" type="submit" name="submit" value="{'Submit Order'|tr}" /></div></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>

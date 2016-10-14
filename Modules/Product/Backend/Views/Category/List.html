@@ -1,0 +1,19 @@
+<link href="js/jquery/treeTable/jquery.treeTable.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery/treeTable/jquery.treeTable.js"></script>
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+  <legend>
+    <span class="add"><a href="admin.php?module=product&page=category-add">{'Add new Category'|tr}</a></span> | 
+    <span class="list"><a href="admin.php?module=product&page=product-list">{'List Products'|tr}</a></span> 
+  </legend>
+  <ul id='tab'>
+    <li><a class='current' href='#'>{'Category List'|tr}</a></li>
+    <li><a href='admin.php?module=product&page=category-sort'>{'Sort Categories'|tr}</a></li>
+  </ul>
+  <div class="panel">
+    {$grid->Render()}
+  </div>
+</fieldset>

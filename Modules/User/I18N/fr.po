@@ -1,0 +1,650 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: User\n"
+"POT-Creation-Date: 2014-05-02 11:22+0100\n"
+"PO-Revision-Date: 2014-05-02 11:27+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _t;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: key_words_html.php:4 key_words_html.php:8 key_words_html.php:11
+#: key_words_html.php:15 key_words_html.php:20 key_words_html.php:23
+#: key_words_html.php:25 key_words_html.php:27 key_words_html.php:32
+#: key_words_html.php:36 key_words_html.php:41 ../I18N/key_words_html.php:4
+#: ../I18N/key_words_html.php:8 ../I18N/key_words_html.php:11
+#: ../I18N/key_words_html.php:15 ../I18N/key_words_html.php:20
+#: ../I18N/key_words_html.php:23 ../I18N/key_words_html.php:25
+#: ../I18N/key_words_html.php:27 ../I18N/key_words_html.php:32
+#: ../I18N/key_words_html.php:36 ../I18N/key_words_html.php:41
+msgid "Information"
+msgstr "Informations"
+
+#: key_words_html.php:5 key_words_html.php:33 key_words_html.php:37
+#: key_words_html.php:42 ../Backend/Boot.php:96 ../Backend/Boot.php:140
+#: ../Backend/Controllers/Group/detail.class.php:49
+#: ../Backend/Controllers/Group/Detail.php:70 ../I18N/key_words_html.php:5
+#: ../I18N/key_words_html.php:33 ../I18N/key_words_html.php:37
+#: ../I18N/key_words_html.php:42
+msgid "Add new User"
+msgstr "Ajouter un  utilisateur"
+
+#: key_words_html.php:6 key_words_html.php:34 key_words_html.php:38
+#: key_words_html.php:43 ../Backend/Boot.php:139
+#: ../Backend/Controllers/User/List.php:36
+#: ../Backend/Controllers/User/Quicklist.php:33 ../I18N/key_words_html.php:6
+#: ../I18N/key_words_html.php:34 ../I18N/key_words_html.php:38
+#: ../I18N/key_words_html.php:43
+msgid "List Users"
+msgstr "Liste utilisateurs"
+
+#: key_words_html.php:9 ../Backend/Controllers/Group/Modify.php:32
+#: ../I18N/key_words_html.php:9
+msgid "Edit User Group"
+msgstr "Modifier le groupe d'utilisateur"
+
+#: key_words_html.php:12 key_words_html.php:16 ../I18N/key_words_html.php:12
+#: ../I18N/key_words_html.php:16
+msgid "Add new User Group"
+msgstr "Ajouter un nouveau groupe d'utilisateurs"
+
+#: key_words_html.php:13 key_words_html.php:17
+#: ../Backend/Controllers/Group/List.php:41 ../I18N/key_words_html.php:13
+#: ../I18N/key_words_html.php:17
+msgid "List Users Groups"
+msgstr "Liste Groupes d'utilisateurs"
+
+#: key_words_html.php:28 ../I18N/key_words_html.php:28
+msgid "Add new User Role"
+msgstr "Ajouter un nouveau rôle d'utilisateur"
+
+#: key_words_html.php:29 ../I18N/key_words_html.php:29
+msgid "List Users Roles"
+msgstr "Liste rôles d'utilisateurs"
+
+#: ../Backend/Boot.php:92
+msgid "Administration"
+msgstr "Administration"
+
+#: ../Backend/Boot.php:94
+msgid "Manage Roles"
+msgstr "Gérer les rôles"
+
+#: ../Backend/Boot.php:95
+msgid "Manage Users"
+msgstr "Gérer les utilisateurs"
+
+#: ../Backend/Boot.php:97
+msgid "Manage Groups"
+msgstr "Gérer les groupes"
+
+#: ../Backend/Boot.php:98
+msgid "Manage Departments"
+msgstr "Gérer les départements"
+
+#: ../Backend/Boot.php:99
+msgid "Change Password"
+msgstr "Changer mot de passe"
+
+#: ../Backend/Boot.php:100 ../Backend/Controllers/User/Profile.php:32
+msgid "My Profile"
+msgstr "Mon profil"
+
+#: ../Backend/Boot.php:101
+msgid "Setup Dashboard"
+msgstr "Tableau de bord "
+
+#: ../Backend/Boot.php:124
+msgid "User Module"
+msgstr "Module utilisateur"
+
+#: ../Backend/Boot.php:125
+msgid "Manage Users Settings"
+msgstr "Gérer les paramètres utilisateurs"
+
+#: ../Backend/Boot.php:126
+msgid "Show Profile"
+msgstr "Voir le profil"
+
+#: ../Backend/Boot.php:127
+msgid "List all Groups"
+msgstr "Liste de tous les groupes"
+
+#: ../Backend/Boot.php:128
+msgid "Add new Group"
+msgstr "Ajouter un nouveau groupe"
+
+#: ../Backend/Boot.php:129
+msgid "Show Group Information"
+msgstr "Afficher les informations du Groupe"
+
+#: ../Backend/Boot.php:130
+msgid "Modify Group"
+msgstr "Modifier Group"
+
+#: ../Backend/Boot.php:131
+msgid "Delete Group"
+msgstr "Supprimer groupe"
+
+#: ../Backend/Boot.php:132
+msgid "Modify Users Privileges"
+msgstr "Modifier les privilèges des utilisateurs"
+
+#: ../Backend/Boot.php:133
+msgid "List Roles"
+msgstr "Liste rôles"
+
+#: ../Backend/Boot.php:134
+msgid "Add new Role"
+msgstr "Ajouter un nouveau rôle"
+
+#: ../Backend/Boot.php:135
+msgid "Modify Role"
+msgstr "Modifier Rôle"
+
+#: ../Backend/Boot.php:136
+msgid "Delete Role"
+msgstr "Supprimer Rôle"
+
+#: ../Backend/Boot.php:137
+msgid "Set Role Online"
+msgstr "Activer le Role"
+
+#: ../Backend/Boot.php:138
+msgid "Set Role Offline"
+msgstr "Déactiver le role"
+
+#: ../Backend/Boot.php:141
+msgid "Modify User"
+msgstr "Modifier utilisateur"
+
+#: ../Backend/Boot.php:142
+msgid "Delete User"
+msgstr "Supprimer utilisateur"
+
+#: ../Backend/Boot.php:143
+msgid "Show Users Quicklist"
+msgstr "Afficher la liste rapide d'utilisateur"
+
+#: ../Backend/Controllers/Setting.php:26
+msgid "Users Settings"
+msgstr "Paramètres utilisateur"
+
+#: ../Backend/Controllers/Setting.php:37
+msgid "Add new user group"
+msgstr "Ajouter un nouveau groupe d'utilisateurs"
+
+#: ../Backend/Controllers/Department/Add.php:32
+msgid "Create new Department"
+msgstr "Créer un nouveau Département"
+
+#: ../Backend/Controllers/Department/Add.php:48
+#: ../Backend/Controllers/Department/Modify.php:58
+#: ../Backend/Controllers/Group/Add.php:49
+#: ../Backend/Controllers/Group/Modify.php:59
+#: ../Backend/Controllers/Role/Add.php:52
+#: ../Backend/Controllers/Role/Modify.php:58
+#: ../Backend/Controllers/User/Add.php:62
+#: ../Backend/Controllers/User/Modify.php:69
+#: ../Backend/Controllers/User/Profile.php:66
+msgid "Please check inputs."
+msgstr "S'il vous plaît vérifier les entrées."
+
+#: ../Backend/Controllers/Department/List.php:31
+#: ../Backend/Controllers/Group/List.php:32
+msgid "Action successfuly executed"
+msgstr "Action exécutée avec succès"
+
+#: ../Backend/Controllers/Department/List.php:33
+msgid "Cannot execute Action"
+msgstr "Vous ne pouvez pas exécuter l'action"
+
+#: ../Backend/Controllers/Department/List.php:40
+msgid "List Departments"
+msgstr "Liste départements"
+
+#: ../Backend/Controllers/Department/Modify.php:31
+msgid "Edit Department"
+msgstr "Modifier Département"
+
+#: ../Backend/Controllers/Group/Add.php:33
+msgid "Create new User Group"
+msgstr "Créer un nouveau groupe d'utilisateurs"
+
+#: ../Backend/Controllers/Group/detail.class.php:41
+msgid "user Group Details"
+msgstr "Détails du groupe utilisateur"
+
+#: ../Backend/Controllers/Group/detail.class.php:45
+#: ../Backend/Controllers/Group/Detail.php:59
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: ../Backend/Controllers/Group/Detail.php:42
+msgid "User Group Details"
+msgstr "Détails du groupe utilisateur"
+
+#: ../Backend/Controllers/Group/Detail.php:63
+msgid "Unassing"
+msgstr "Unassing"
+
+#: ../Backend/Controllers/Group/List.php:34
+msgid "Cannot Execute Action"
+msgstr "Vous ne pouvez pas exécuter l'action"
+
+#: ../Backend/Controllers/Privilege/List.php:35
+msgid "List projects"
+msgstr "Liste des projets"
+
+#: ../Backend/Controllers/Privilege/Modify.php:37
+msgid "List Privilege"
+msgstr "Liste Privilège"
+
+#: ../Backend/Controllers/Role/Add.php:32
+msgid "Create new User Role"
+msgstr "Créer un nouveau rôle d'utilisateur"
+
+#: ../Backend/Controllers/Role/Add.php:49
+msgid "Cannot insert role"
+msgstr "Vous ne pouvez pas insérer rôle"
+
+#: ../Backend/Controllers/Role/List.php:35
+msgid "List Role"
+msgstr "Liste de Rôle"
+
+#: ../Backend/Controllers/Role/Modify.php:31
+msgid "Edit User Role"
+msgstr "Modifier  le Rôle  d'utilisateur"
+
+#: ../Backend/Controllers/User/Add.php:35
+msgid "Create new User"
+msgstr "Créer un nouveau utilisateur"
+
+#: ../Backend/Controllers/User/Changepassword.php:30
+msgid "Change Your Password"
+msgstr "Changer votre mot de passe"
+
+#: ../Backend/Controllers/User/Changepassword.php:62
+#: ../Backend/Controllers/User/Resetpassword.php:68
+msgid "Password not identical"
+msgstr "Mot de passe n'est pas identique"
+
+#: ../Backend/Controllers/User/Changepassword.php:69
+msgid "Password was changed!"
+msgstr "Mot de passe a été changé!"
+
+#: ../Backend/Controllers/User/Changepassword.php:71
+msgid "Old Password not correct!"
+msgstr "Ancien mot de passe incorrect!"
+
+#: ../Backend/Controllers/User/Details.php:41
+msgid "User Profile"
+msgstr "Profil utilisateur"
+
+#: ../Backend/Controllers/User/Forgotpassword.php:49
+msgid "Email Not Exist"
+msgstr "Email n'existe pas"
+
+#: ../Backend/Controllers/User/Forgotpassword.php:51
+msgid "Reset Password link was send to your email"
+msgstr ""
+"lien de  réinitialisation Mot de passe a été envoyé à votre adresse email"
+
+#: ../Backend/Controllers/User/Forgotpassword.php:82
+msgid "Please check your email"
+msgstr "S'il vous plaît vérifier votre e-mail"
+
+#: ../Backend/Controllers/User/Login.php:44
+msgid "Username or password is incorrect!"
+msgstr "Nom d'utilisateur ou mot de passe incorrect!"
+
+#: ../Backend/Controllers/User/Modify.php:32
+msgid "Edit User"
+msgstr "Modifier l'utilisateur"
+
+#: ../Backend/Controllers/User/Profile.php:75
+msgid "Data was successfully saved"
+msgstr "Les données ont été sauvegardées avec succès"
+
+#: ../Backend/Controllers/User/Quicklist.php:47 ../Forms/User/Form.php:134
+#: ../Grids/User/DataGridView.php:39 ../Panels/Group/Panel.php:108
+#: ../Panels/User/Panel.php:112
+msgid "First Name"
+msgstr "Prénom"
+
+#: ../Backend/Controllers/User/Quicklist.php:50 ../Forms/User/Form.php:139
+#: ../Grids/User/DataGridView.php:42 ../Panels/Group/Panel.php:109
+#: ../Panels/User/Panel.php:113
+msgid "Last Name"
+msgstr "Nom"
+
+#: ../Backend/Controllers/User/Quicklist.php:53 ../Forms/User/Form.php:144
+#: ../Grids/User/DataGridView.php:46 ../Panels/Group/Panel.php:112
+#: ../Panels/User/Panel.php:115
+msgid "Email"
+msgstr "Email"
+
+#: ../Backend/Controllers/User/Quicklist.php:55
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: ../Backend/Controllers/User/Quicklist.php:57
+#: ../Forms/Department/Form.php:53
+msgid "Telefon"
+msgstr "Téléphone"
+
+#: ../Backend/Controllers/User/Resetpassword.php:61
+msgid "Your Password Was Changed"
+msgstr "Votre mot de passe est changé"
+
+#: ../Backend/Controllers/User/Resetpassword.php:65
+msgid "User within email address not found"
+msgstr "L'utilisateur de cette address email non trouvée"
+
+#: ../Forms/ChangePassword/Form.php:46 ../Forms/Department/Form.php:46
+#: ../Forms/Group/Form.php:43
+msgid "General Information"
+msgstr "Informations générales"
+
+#: ../Forms/ChangePassword/Form.php:47 ../Forms/User/Form.php:129
+#: ../Panels/Group/Panel.php:107
+msgid "Password"
+msgstr "Mot de passe"
+
+#: ../Forms/ChangePassword/Form.php:50
+msgid "New Password"
+msgstr "Nouveau mot de passe"
+
+#: ../Forms/ChangePassword/Form.php:54
+msgid "Confirm Password"
+msgstr "Confirmer le  mot de passe"
+
+#: ../Forms/ChangePassword/Form.php:58 ../Forms/Department/Form.php:57
+#: ../Forms/Group/Form.php:51 ../Forms/Privilege/Form.php:45
+#: ../Forms/Role/Form.php:54 ../Forms/User/Form.php:196
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: ../Forms/ChangePassword/Form.php:63 ../Forms/Department/Form.php:65
+#: ../Forms/Group/Form.php:55 ../Forms/Role/Form.php:59
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../Forms/Department/Form.php:47 ../Forms/Role/Form.php:45
+#: ../Grids/Department/DataGridView.php:37 ../Grids/Group/DataGridView.php:37
+#: ../Grids/Role/DataGridView.php:55
+msgid "Name"
+msgstr "Nom"
+
+#: ../Forms/Department/Form.php:50
+msgid "Adresses Information"
+msgstr "Information addresses"
+
+#: ../Forms/Department/Form.php:51 ../Forms/User/Form.php:168
+#: ../Grids/Department/DataGridView.php:39 ../Grids/User/DataGridView.php:50
+#: ../Panels/Group/Panel.php:148 ../Panels/User/Panel.php:146
+msgid "Country"
+msgstr "Pays"
+
+#: ../Forms/Department/Form.php:55 ../Forms/User/Form.php:156
+#: ../Grids/Department/DataGridView.php:41 ../Panels/Group/Panel.php:142
+#: ../Panels/Group/Panel.php:144 ../Panels/User/Panel.php:140
+#: ../Panels/User/Panel.php:142
+msgid "Address"
+msgstr "Addresse"
+
+#: ../Forms/Group/Form.php:48
+msgid "Alias"
+msgstr "Alias"
+
+#: ../Forms/Group/Form.php:50
+msgid "Not important"
+msgstr "pas important"
+
+#: ../Forms/Privilege/Form.php:38
+msgid "Manage Access Controls"
+msgstr "Gérer les contrôles d'accès"
+
+#: ../Forms/Privilege/Form.php:48
+msgid "Save Persmissions"
+msgstr "Enregistrer  les Permissions"
+
+#: ../Forms/Role/Form.php:44
+msgid "Role Information"
+msgstr "Informations de Rôle"
+
+#: ../Forms/Role/Form.php:49
+msgid "Parent:"
+msgstr "Parent:"
+
+#: ../Forms/Role/Form.php:53 ../Grids/User/DataGridView.php:61
+msgid "Online"
+msgstr "En ligne"
+
+#: ../Forms/User/Form.php:120 ../Grids/User/DataGridView.php:37
+msgid "Number"
+msgstr "Nombre"
+
+#: ../Forms/User/Form.php:123 ../Panels/Group/Panel.php:106
+#: ../Panels/User/Panel.php:111
+msgid "User Name"
+msgstr "Nom d'utilisateur"
+
+#: ../Forms/User/Form.php:142 ../Panels/Group/Panel.php:111
+#: ../Panels/User/Panel.php:114
+msgid "Phone"
+msgstr "Téléphone"
+
+#: ../Forms/User/Form.php:149 ../Grids/User/DataGridView.php:44
+#: ../Panels/Group/Panel.php:113 ../Panels/User/Panel.php:116
+msgid "Mobile"
+msgstr "Mobile"
+
+#: ../Forms/User/Form.php:151 ../Grids/User/DataGridView.php:48
+#: ../Panels/Group/Panel.php:114 ../Panels/User/Panel.php:117
+msgid "Fax"
+msgstr "Fax"
+
+#: ../Forms/User/Form.php:153 ../Grids/Role/DataGridView.php:71
+#: ../Panels/Group/Panel.php:115 ../Panels/User/Panel.php:118
+msgid "State"
+msgstr "Etat"
+
+#: ../Forms/User/Form.php:154 ../Panels/Group/Panel.php:138
+#: ../Panels/Group/Panel.php:140 ../Panels/User/Panel.php:136
+#: ../Panels/User/Panel.php:138
+msgid "Notice"
+msgstr "Notice"
+
+#: ../Forms/User/Form.php:159
+msgid "Postale Code"
+msgstr "Code postal"
+
+#: ../Forms/User/Form.php:162
+msgid "city"
+msgstr "Ville"
+
+#: ../Forms/User/Form.php:165 ../Panels/Group/Panel.php:147
+#: ../Panels/User/Panel.php:145
+msgid "Province"
+msgstr "Province"
+
+#: ../Forms/User/Form.php:171
+msgid "Code id"
+msgstr "Code id"
+
+#: ../Forms/User/Form.php:173
+msgid "Department"
+msgstr "Département"
+
+#: ../Forms/User/Form.php:176
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../Forms/User/Form.php:178
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../Forms/User/Form.php:180
+msgid "Gmail"
+msgstr "Gmail"
+
+#: ../Forms/User/Form.php:182
+msgid "ICQ"
+msgstr "ICQ"
+
+#: ../Forms/User/Form.php:184
+msgid "Blackberry PIN"
+msgstr "PIN Blackberry"
+
+#: ../Forms/User/Form.php:186
+msgid "MSN"
+msgstr "MSN"
+
+#: ../Forms/User/Form.php:188
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: ../Forms/User/Form.php:190
+msgid "Role"
+msgstr "Rôle"
+
+#: ../Forms/User/Form.php:194
+msgid "Send Password"
+msgstr "Envoyer Mot de passe"
+
+#: ../Forms/User/Form.php:195
+msgid "As Admin"
+msgstr "En tant qu'administrateur"
+
+#: ../Forms/User/Form.php:198
+msgid "Login Informations"
+msgstr "Informations d'authentification "
+
+#: ../Forms/User/Form.php:205
+msgid "Contact Informations"
+msgstr "Informations du Contact"
+
+#: ../Forms/User/Form.php:219
+msgid "Note"
+msgstr "Note"
+
+#: ../Forms/User/Form.php:222
+msgid "Social networks Informations"
+msgstr "Informations du Réseaux sociaux "
+
+#: ../Forms/User/Form.php:231
+msgid "Actions"
+msgstr "Navigations"
+
+#: ../Grids/Department/DataGridView.php:40
+msgid "Telephone"
+msgstr "Téléphone"
+
+#: ../Grids/Department/DataGridView.php:42 ../Grids/Group/DataGridView.php:40
+#: ../Grids/Role/DataGridView.php:59 ../Grids/User/DataGridView.php:52
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../Grids/Department/DataGridView.php:46 ../Grids/Group/DataGridView.php:44
+#: ../Grids/Role/DataGridView.php:63 ../Grids/User/DataGridView.php:56
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../Grids/Role/DataGridView.php:57
+msgid "Parent"
+msgstr "Parent"
+
+#: ../Grids/Role/DataGridView.php:68
+msgid "Manage Privilege"
+msgstr "Gérer Privilège"
+
+#: ../Models/Notification/Model.php:42
+msgid "Your Username & Password"
+msgstr "Votre nom d'utilisateur et mot de passe"
+
+#: ../Models/Notification/Model.php:43
+msgid "Dear"
+msgstr "cher"
+
+#: ../Models/Notification/Model.php:44
+msgid "Your Username"
+msgstr "Votre nom d'utilisateur"
+
+#: ../Models/Notification/Model.php:45
+msgid "Your Password is"
+msgstr "Votre mot de passe est"
+
+#: ../Models/Notification/Model.php:46
+msgid "Best Regards"
+msgstr "Cordialement"
+
+#: ../Models/Notification/Model.php:52
+msgid "Reset password"
+msgstr "Réinitialiser le mot de passe"
+
+#: ../Models/Notification/Model.php:54
+msgid "Dear Admin"
+msgstr "Cher Administrateur"
+
+#: ../Models/Notification/Model.php:54
+msgid "You can reset your password throught  the following link"
+msgstr "Vous pouvez réinitialiser votre mot de passe via le lien suivant"
+
+#: ../Models/Notification/Model.php:56
+msgid "Best regards"
+msgstr "Cordialement"
+
+#: ../Models/Notification/Model.php:81
+msgid "invalid email address"
+msgstr "Adresse email non valide"
+
+#: ../Panels/Group/Panel.php:104
+msgid "User Information"
+msgstr "Informations de l'utilisateur"
+
+#: ../Panels/Group/Panel.php:110
+msgid "Date of birth"
+msgstr "Date de naissance"
+
+#: ../Panels/Group/Panel.php:116 ../Panels/User/Panel.php:119
+msgid "Create Date Time"
+msgstr "Date de Création"
+
+#: ../Panels/Group/Panel.php:117 ../Panels/User/Panel.php:120
+msgid "Update Date Time"
+msgstr "Date de mise à jour"
+
+#: ../Panels/Group/Panel.php:118 ../Panels/User/Panel.php:121
+msgid "Last Login Date"
+msgstr "Date de dernière connexion"
+
+#: ../Panels/Group/Panel.php:119 ../Panels/User/Panel.php:122
+msgid "Last Login Host"
+msgstr "Dernière hôte Connexion"
+
+#: ../Panels/Group/Panel.php:120
+msgid "Remote Id"
+msgstr "Id distant"
+
+#: ../Panels/Group/Panel.php:145 ../Panels/User/Panel.php:143
+msgid "Postal Code"
+msgstr "Code postal"
+
+#: ../Panels/Group/Panel.php:146 ../Panels/User/Panel.php:144
+msgid "City"
+msgstr "Ville"
+
+#: ../Panels/User/Panel.php:108
+msgid "General Informations"
+msgstr "Informations générales"
+
+#: ../Panels/User/Panel.php:110
+msgid "No."
+msgstr "Non"

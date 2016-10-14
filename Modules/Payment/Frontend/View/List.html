@@ -1,0 +1,29 @@
+{literal}
+<style>
+  .payment-name {
+    font: bold italic x-large serif Arial ;
+    padding: 20px;
+
+  }
+  .payment-description {
+    color: #000000;
+    font-family: "Segoe UI","Lucida Grande",Tahoma,Arial,sans-serif;
+    line-height: 1.6;
+    font-size: 11px;
+    padding-bottom: 15px;
+  }
+  hr {
+    color: red;
+    background-color: red;
+    height: 1px;
+    border: 0;
+  }
+</style>
+{/literal}
+<a class="active">{'Please select a Payment method'|tr}</a>
+{foreach $payments as $payment}
+<div class="payment-name">{$payment->getName()}</div>
+<div class="payment-description">{$payment->getDescription()}</div>
+<button class="button-general bred" type="submit">{'Next'|tr}</button>
+<hr>
+{/foreach}

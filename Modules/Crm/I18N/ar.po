@@ -1,0 +1,2659 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Crm\n"
+"POT-Creation-Date: 2014-04-30 17:43+0100\n"
+"PO-Revision-Date: 2014-04-30 17:46+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: key_words_html.php:22 ../key_words_html.php:305 ../key_words_html.php:344
+#: ../Backend/Boot.php:89 ../I18N/key_words_html.php:22
+msgid "Modify Account"
+msgstr "تعديل حساب "
+
+#: key_words_html.php:24 key_words_html.php:59 key_words_html.php:74
+#: ../key_words_html.php:251 ../key_words_html.php:307
+#: ../key_words_html.php:327 ../key_words_html.php:352
+#: ../key_words_html.php:368 ../key_words_html.php:449
+#: ../I18N/key_words_html.php:24 ../I18N/key_words_html.php:59
+#: ../I18N/key_words_html.php:74
+msgid "Change Password"
+msgstr "تغيير كلمة المرور"
+
+#: key_words_html.php:26 key_words_html.php:29 key_words_html.php:34
+#: key_words_html.php:37 ../key_words_html.php:3 ../key_words_html.php:6
+#: ../key_words_html.php:9 ../key_words_html.php:13 ../key_words_html.php:19
+#: ../key_words_html.php:23 ../key_words_html.php:27 ../key_words_html.php:31
+#: ../key_words_html.php:34 ../key_words_html.php:38 ../key_words_html.php:42
+#: ../key_words_html.php:45 ../key_words_html.php:50 ../key_words_html.php:54
+#: ../key_words_html.php:58 ../key_words_html.php:62 ../key_words_html.php:66
+#: ../key_words_html.php:70 ../key_words_html.php:74 ../key_words_html.php:81
+#: ../key_words_html.php:84 ../key_words_html.php:91 ../key_words_html.php:95
+#: ../key_words_html.php:99 ../key_words_html.php:103
+#: ../key_words_html.php:106 ../key_words_html.php:110
+#: ../key_words_html.php:113 ../key_words_html.php:118
+#: ../key_words_html.php:122 ../key_words_html.php:126
+#: ../key_words_html.php:130 ../key_words_html.php:134
+#: ../key_words_html.php:138 ../key_words_html.php:142
+#: ../key_words_html.php:149 ../key_words_html.php:155
+#: ../key_words_html.php:161 ../key_words_html.php:169
+#: ../key_words_html.php:172 ../key_words_html.php:179
+#: ../key_words_html.php:183 ../key_words_html.php:186
+#: ../key_words_html.php:190 ../key_words_html.php:193
+#: ../key_words_html.php:198 ../key_words_html.php:202
+#: ../key_words_html.php:206 ../key_words_html.php:210
+#: ../key_words_html.php:217 ../key_words_html.php:223
+#: ../key_words_html.php:229 ../key_words_html.php:235
+#: ../key_words_html.php:240 ../key_words_html.php:285
+#: ../key_words_html.php:288 ../key_words_html.php:293
+#: ../key_words_html.php:296 ../I18N/key_words_html.php:26
+#: ../I18N/key_words_html.php:29 ../I18N/key_words_html.php:34
+#: ../I18N/key_words_html.php:37
+msgid "Information"
+msgstr "معلومات"
+
+#: key_words_html.php:27 key_words_html.php:32 key_words_html.php:39
+#: ../key_words_html.php:286 ../key_words_html.php:291
+#: ../key_words_html.php:298 ../I18N/key_words_html.php:27
+#: ../I18N/key_words_html.php:32 ../I18N/key_words_html.php:39
+msgid "List Contacts"
+msgstr "قائمة جهات الاتصال"
+
+#: key_words_html.php:30 ../key_words_html.php:289
+#: ../I18N/key_words_html.php:30
+msgid "Edit Contact"
+msgstr "تعديل جهة اتصال"
+
+#: key_words_html.php:31 key_words_html.php:35 key_words_html.php:38
+#: ../key_words_html.php:290 ../key_words_html.php:294
+#: ../key_words_html.php:297 ../Backend/Boot.php:110
+#: ../I18N/key_words_html.php:31 ../I18N/key_words_html.php:35
+#: ../I18N/key_words_html.php:38
+msgid "Add new Contact"
+msgstr "اضافة جهة اتصال جديدة"
+
+#: key_words_html.php:41 ../key_words_html.php:300 ../key_words_html.php:309
+#: ../key_words_html.php:356 ../Forms/ContactUs/Form.php:86
+#: ../I18N/key_words_html.php:41
+msgid "Contact Us"
+msgstr "اتصل بنا"
+
+#: key_words_html.php:43 ../key_words_html.php:302 ../key_words_html.php:311
+#: ../I18N/key_words_html.php:43
+msgid "Contact Form submited"
+msgstr "تم اعتماد طلبكم"
+
+#: key_words_html.php:44 ../key_words_html.php:303 ../key_words_html.php:312
+#: ../I18N/key_words_html.php:44
+msgid "Back to home"
+msgstr "الرجوع الى الرئيسية"
+
+#: key_words_html.php:46 ../key_words_html.php:314
+#: ../I18N/key_words_html.php:46
+msgid "Welcome to Motorssouq"
+msgstr "مرحبا بكم في موتورز سوق"
+
+#: key_words_html.php:47 ../key_words_html.php:315
+#: ../I18N/key_words_html.php:47
+msgid "Quick links"
+msgstr "روابط سريعة"
+
+#: key_words_html.php:48 ../key_words_html.php:316
+#: ../I18N/key_words_html.php:48
+msgid "To reset your password click here"
+msgstr "لاعادة تعيين كلمة المرور  يرجى الضغط هنا"
+
+#: key_words_html.php:49 ../key_words_html.php:317
+#: ../I18N/key_words_html.php:49
+msgid "Login to your Panel"
+msgstr "تسجيل الدخول على لوحة التحكم"
+
+#: key_words_html.php:51 ../key_words_html.php:319 ../key_words_html.php:358
+#: ../key_words_html.php:433 ../I18N/key_words_html.php:51
+msgid "Reset Password"
+msgstr "اعادة تعيين كلمة المرور"
+
+#: key_words_html.php:52 ../key_words_html.php:320
+#: ../I18N/key_words_html.php:52
+msgid "Please enter your email"
+msgstr "الرجاء ادخال البريد الالكتروني"
+
+#: key_words_html.php:53 ../key_words_html.php:321
+#: ../Forms/Request/Contact/Form.php:84 ../I18N/key_words_html.php:53
+msgid "Send"
+msgstr "إرسال"
+
+#: key_words_html.php:55 ../key_words_html.php:323 ../key_words_html.php:361
+#: ../I18N/key_words_html.php:55
+msgid "Reset Password Success"
+msgstr "تعيين كلمة المرور تمت بنجاح"
+
+#: key_words_html.php:57 key_words_html.php:72 ../key_words_html.php:325
+#: ../key_words_html.php:447 ../I18N/key_words_html.php:57
+#: ../I18N/key_words_html.php:72
+msgid "Customer Control Panel"
+msgstr "لوحة تحكم العملاء"
+
+#: key_words_html.php:58 key_words_html.php:73 ../key_words_html.php:326
+#: ../key_words_html.php:448 ../I18N/key_words_html.php:58
+#: ../I18N/key_words_html.php:73
+msgid "My Data"
+msgstr "معلوماتي"
+
+#: key_words_html.php:60 key_words_html.php:75 ../key_words_html.php:328
+#: ../key_words_html.php:450 ../Frontend/Controllers/Mobile/Intern.php:75
+#: ../I18N/key_words_html.php:60 ../I18N/key_words_html.php:75
+msgid "My Cars"
+msgstr "سيارتي"
+
+#: key_words_html.php:61 key_words_html.php:76 ../key_words_html.php:329
+#: ../key_words_html.php:451 ../Frontend/Controllers/Mobile/Intern.php:73
+#: ../I18N/key_words_html.php:61 ../I18N/key_words_html.php:76
+msgid "Insert Car"
+msgstr "اضافة سيارة"
+
+#: key_words_html.php:62 key_words_html.php:77 ../key_words_html.php:330
+#: ../key_words_html.php:452 ../I18N/key_words_html.php:62
+#: ../I18N/key_words_html.php:77
+msgid "My Bikes"
+msgstr "دراجاتي"
+
+#: key_words_html.php:63 key_words_html.php:78 ../key_words_html.php:331
+#: ../key_words_html.php:453 ../I18N/key_words_html.php:63
+#: ../I18N/key_words_html.php:78
+msgid "Insert Bike"
+msgstr "اضافة دراجة"
+
+#: key_words_html.php:64 ../I18N/key_words_html.php:64
+msgid "Add Vehicle Child"
+msgstr "اضافة رقم سيارة"
+
+#: key_words_html.php:65 ../I18N/key_words_html.php:65
+msgid "List Vehicle Child"
+msgstr "قائمة ارقام السيارات"
+
+#: key_words_html.php:66 key_words_html.php:79 ../key_words_html.php:334
+#: ../key_words_html.php:454 ../I18N/key_words_html.php:66
+#: ../I18N/key_words_html.php:79
+msgid "Request Car"
+msgstr "طلب سيارة"
+
+#: key_words_html.php:67 key_words_html.php:80 ../key_words_html.php:335
+#: ../key_words_html.php:455 ../Frontend/Controllers/Mobile/Intern.php:76
+#: ../I18N/key_words_html.php:67 ../I18N/key_words_html.php:80
+msgid "Logout"
+msgstr "تسجيل الخروج"
+
+#: key_words_html.php:69 ../key_words_html.php:337 ../key_words_html.php:416
+#: ../Frontend/Controllers/Intern/Shop/Login.php:78
+#: ../I18N/key_words_html.php:69
+msgid "Account Area"
+msgstr "حسابي"
+
+#: key_words_html.php:70 ../Forms/Account/Group/Form.php:39
+#: ../I18N/key_words_html.php:70
+msgid "Group Name"
+msgstr "اسم المجموعة"
+
+#: key_words_html.php:83 ../key_words_html.php:339
+#: ../I18N/key_words_html.php:83
+msgid "Change Password Success"
+msgstr "تم تغيير كلمة المرور بنجاح"
+
+#: key_words_html.php:85 ../key_words_html.php:341
+#: ../I18N/key_words_html.php:85
+msgid "Register new User"
+msgstr "تسجيل  مستخدم جديد"
+
+#: key_words_html.php:86 ../key_words_html.php:342
+#: ../I18N/key_words_html.php:86
+msgid "Dear visitor please verify inputs"
+msgstr "عزيزي العميل الرجاء التاكد من المدخلات "
+
+#: key_words_html.php:87 ../key_words_html.php:511
+#: ../Backend/Controllers/Account/Detail.php:87 ../I18N/key_words_html.php:87
+msgid "Related Tickets"
+msgstr "التذاكر المتعلقة"
+
+#: key_words_html.php:88 ../key_words_html.php:514
+#: ../Backend/Controllers/Account/Detail.php:98 ../I18N/key_words_html.php:88
+#, fuzzy
+msgid "Add New Ticket"
+msgstr "اضافة تذكرة جديدة"
+
+#: ../key_words_html.php:4 ../key_words_html.php:7 ../key_words_html.php:10
+#: ../key_words_html.php:16 ../key_words_html.php:21 ../key_words_html.php:25
+#: ../key_words_html.php:47 ../Backend/Controllers/Account/Quicklist.php:39
+#: ../Backend/Controllers/Account/Address/Quicklist.php:45
+msgid "List Accounts"
+msgstr "قائمة الحسابات"
+
+#: ../key_words_html.php:14 ../Backend/Controllers/Account/Modify.php:37
+#: ../Frontend/Controllers/Intern/Shop/Account.php:44
+msgid "Edit Account"
+msgstr "تعديل الحساب"
+
+#: ../key_words_html.php:15 ../key_words_html.php:28 ../key_words_html.php:43
+#: ../key_words_html.php:46 ../Backend/Boot.php:87
+#: ../Backend/Controllers/Account/Group/Detail.php:66
+msgid "Add new Account"
+msgstr "إضافة حساب جديد"
+
+#: ../key_words_html.php:17
+msgid "History"
+msgstr "الارشيف"
+
+#: ../key_words_html.php:20 ../key_words_html.php:24
+msgid "Add a new Account"
+msgstr "اضافة حساب جديد"
+
+#: ../key_words_html.php:29 ../key_words_html.php:40
+#: ../Backend/Controllers/Account/Group/List.php:44
+msgid "List Account Groups"
+msgstr "قائمة مجموعات الحساب"
+
+#: ../key_words_html.php:32
+msgid "Edit Account Group"
+msgstr "تعديل مجموعة الحساب"
+
+#: ../key_words_html.php:35 ../key_words_html.php:104
+msgid "Add new Group"
+msgstr "إضافة مجموعة جديدة"
+
+#: ../key_words_html.php:36
+msgid "List Groups"
+msgstr "قائمة المجموعات"
+
+#: ../key_words_html.php:39 ../key_words_html.php:150
+msgid "Add new Account Group"
+msgstr "إضافة مجموعة حساب جديدة"
+
+#: ../key_words_html.php:51 ../key_words_html.php:55 ../key_words_html.php:59
+#: ../key_words_html.php:218 ../Backend/Controllers/Account/Source/Add.php:33
+msgid "Add new Account Source"
+msgstr "اضافة مصدرحساب جديد "
+
+#: ../key_words_html.php:52 ../key_words_html.php:56 ../key_words_html.php:60
+msgid "List Account Source"
+msgstr "قائمة مصادر الحساب "
+
+#: ../key_words_html.php:63 ../key_words_html.php:67 ../key_words_html.php:71
+#: ../key_words_html.php:236
+msgid "Add new Account Stage"
+msgstr "إضافة  مرحلة حساب جديدة"
+
+#: ../key_words_html.php:64 ../key_words_html.php:68 ../key_words_html.php:72
+msgid "List Account Stage"
+msgstr "قائمة مراحل الحساب"
+
+#: ../key_words_html.php:75 ../key_words_html.php:143
+#: ../key_words_html.php:211
+msgid "Manage Email templates"
+msgstr "ادارة قوالب الايميلات"
+
+#: ../key_words_html.php:76
+msgid "Mail server settings"
+msgstr "اعدادات خادم البريد الالكتروني"
+
+#: ../key_words_html.php:77 ../key_words_html.php:145
+#: ../key_words_html.php:213
+msgid "Account Settings"
+msgstr "اعدادات الحساب"
+
+#: ../key_words_html.php:78 ../key_words_html.php:146
+#: ../key_words_html.php:214
+msgid "Contact Settings"
+msgstr "اعدادات جهة الاتصال"
+
+#: ../key_words_html.php:79 ../key_words_html.php:147
+#: ../key_words_html.php:215
+msgid "Lead Settings"
+msgstr "اعدادات المهتمين"
+
+#: ../key_words_html.php:82 ../key_words_html.php:87 ../key_words_html.php:115
+#: ../Backend/Controllers/Contact/Quicklist.php:39
+msgid "List contacts"
+msgstr " قائمة جهات الاتصال"
+
+#: ../key_words_html.php:85 ../Backend/Controllers/Contact/Modify.php:37
+msgid "Edit contact"
+msgstr "تعديل جهة اتصال"
+
+#: ../key_words_html.php:86 ../key_words_html.php:100
+#: ../key_words_html.php:111 ../key_words_html.php:114
+msgid "Add new contact"
+msgstr "إضافة جهة إتصال جديدة"
+
+#: ../key_words_html.php:88
+msgid "go to account"
+msgstr "الذهاب الى الحساب"
+
+#: ../key_words_html.php:89 ../key_words_html.php:177
+msgid "Convert to account"
+msgstr "تحويل الى حساب"
+
+#: ../key_words_html.php:92 ../key_words_html.php:96
+msgid "Add a new Contact"
+msgstr "اضافة جهة اتصال جديدة"
+
+#: ../key_words_html.php:93 ../key_words_html.php:97
+msgid "List Contact"
+msgstr "قائمة جهات الاتصال"
+
+#: ../key_words_html.php:101
+msgid "List contact Groups"
+msgstr "قائمة مجموعات  جهة الاتصال"
+
+#: ../key_words_html.php:107
+msgid "Add new contact Group"
+msgstr "اضافة مجموعة جهة اتصال جديدة"
+
+#: ../key_words_html.php:108
+msgid "List Contact Groups"
+msgstr "قائمة مجموعات جهات الاتصال"
+
+#: ../key_words_html.php:119 ../key_words_html.php:123
+#: ../key_words_html.php:127 ../key_words_html.php:224
+msgid "Add new Contact Source"
+msgstr "إضافة مصدر  جهة اتصال جديد  "
+
+#: ../key_words_html.php:120 ../key_words_html.php:124
+#: ../key_words_html.php:128
+msgid "List Contact Source"
+msgstr "قائمة مصادر جهات الاتصال"
+
+#: ../key_words_html.php:131 ../key_words_html.php:135
+#: ../key_words_html.php:139 ../key_words_html.php:241
+msgid "Add new Contact Stage"
+msgstr "اضافة  مرحلة جهة اتصال جديدة"
+
+#: ../key_words_html.php:132 ../key_words_html.php:136
+#: ../key_words_html.php:140
+msgid "List Contact Stage"
+msgstr "قائمة مراحل جهات الاتصال"
+
+#: ../key_words_html.php:144 ../key_words_html.php:212
+msgid "Mail Server Settings"
+msgstr "اعدادات خادم البريد الالكتروني"
+
+#: ../key_words_html.php:151 ../key_words_html.php:157
+#: ../key_words_html.php:163 ../Backend/Boot.php:93
+#: ../Forms/Account/Form.php:109
+msgid "Account Group"
+msgstr "مجموعة حسابات"
+
+#: ../key_words_html.php:152 ../key_words_html.php:158
+#: ../key_words_html.php:164
+msgid "Contact Group"
+msgstr "مجموعة جهة اتصال"
+
+#: ../key_words_html.php:153 ../key_words_html.php:159
+#: ../key_words_html.php:165 ../Forms/Lead/Form.php:100
+msgid "Lead Group"
+msgstr "مجموعة المهتمين"
+
+#: ../key_words_html.php:156
+msgid "Add new Contact Group"
+msgstr "اضافة مجموعة جهة اتصال جديدة"
+
+#: ../key_words_html.php:162 ../key_words_html.php:184
+#: ../key_words_html.php:187
+msgid "Add new Lead Group"
+msgstr "اضافة مجموعة مهتمين  جديدة "
+
+#: ../key_words_html.php:170 ../key_words_html.php:175
+#: ../key_words_html.php:195
+msgid "List Leads"
+msgstr "قائمة  المهتمين"
+
+#: ../key_words_html.php:173
+msgid "Edit Lead"
+msgstr "تعديل مهتم"
+
+#: ../key_words_html.php:174 ../key_words_html.php:180
+#: ../key_words_html.php:191 ../key_words_html.php:194
+msgid "Add new Lead"
+msgstr "اضافة مهتم جديد"
+
+#: ../key_words_html.php:176
+msgid "Convert to contact"
+msgstr "تحويل الى جهة اتصال"
+
+#: ../key_words_html.php:181 ../key_words_html.php:188
+msgid "List Lead Groups"
+msgstr "قائمة مجموعات المهتمين "
+
+#: ../key_words_html.php:199 ../key_words_html.php:203
+#: ../key_words_html.php:207 ../key_words_html.php:230
+msgid "Add new Lead Source"
+msgstr "إضافة مصدر مهتم جديد"
+
+#: ../key_words_html.php:200 ../key_words_html.php:204
+#: ../key_words_html.php:208
+msgid "List Lead Source"
+msgstr "قائمة مصادر المهتمين "
+
+#: ../key_words_html.php:219 ../key_words_html.php:225
+#: ../key_words_html.php:231 ../Backend/Boot.php:92
+msgid "Account Source"
+msgstr " مصادر الحساب"
+
+#: ../key_words_html.php:220 ../key_words_html.php:226
+#: ../key_words_html.php:232
+msgid "Contact Source"
+msgstr " مصادر جهات الاتصال"
+
+#: ../key_words_html.php:221 ../key_words_html.php:227
+#: ../key_words_html.php:233
+#, fuzzy
+msgid "Lead Source"
+msgstr "مصادر المهتمين"
+
+#: ../key_words_html.php:237 ../key_words_html.php:242
+msgid "Account Stage"
+msgstr " مراحل الحساب"
+
+#: ../key_words_html.php:238 ../key_words_html.php:243
+msgid "Contact Stage"
+msgstr "مراحل جهة الاتصال"
+
+#: ../key_words_html.php:245 ../key_words_html.php:513
+#: ../Forms/Account/Login/Form.php:49
+#: ../Frontend/Controllers/Intern/Shop/Login.php:96
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#: ../key_words_html.php:247 ../key_words_html.php:363
+#: ../key_words_html.php:366
+msgid "My Account"
+msgstr "معلوماتي"
+
+#: ../key_words_html.php:248
+msgid "Home"
+msgstr " الرئيسية"
+
+#: ../key_words_html.php:249
+msgid "Account Information"
+msgstr "معلومات  الحساب"
+
+#: ../key_words_html.php:250 ../key_words_html.php:369
+#: ../Frontend/Controllers/Intern/Shop/Address/List.php:47
+msgid "Manage Addresses"
+msgstr "إدارة العناوين"
+
+#: ../key_words_html.php:252 ../key_words_html.php:371
+msgid "Sales Order"
+msgstr "طلبات الشراء"
+
+#: ../key_words_html.php:253 ../key_words_html.php:372
+msgid "Invoices"
+msgstr "الفواتير"
+
+#: ../key_words_html.php:254 ../key_words_html.php:379
+#: ../key_words_html.php:437 ../Backend/Boot.php:43
+msgid "Settings"
+msgstr "الاعدادات"
+
+#: ../key_words_html.php:255
+msgid "Contact Shop Owner"
+msgstr "الإتصال بصاحب المتجر"
+
+#: ../key_words_html.php:256 ../key_words_html.php:420
+msgid "Newsletter Subscription"
+msgstr "الاشتراك في خدمة الرسائل الاخبارية"
+
+#: ../key_words_html.php:257 ../key_words_html.php:370
+#, fuzzy
+msgid "Policy"
+msgstr "الشروط"
+
+#: ../key_words_html.php:259
+msgid "To serve with distinction and to achieve the target in the preparation"
+msgstr " لخدمتكم بتميز و لتحقيق الهدف في إعداد ما "
+
+#: ../key_words_html.php:260
+msgid "which aims to find out the nature of work in your company"
+msgstr "والذي يهدف لمعرفة طبيعة العمل في شركتكم "
+
+#: ../key_words_html.php:261 ../Backend/Controllers/Account/Detail.php:309
+#: ../Backend/Controllers/Account/Quicklist.php:50
+#: ../Backend/Controllers/Account/Address/Quicklist.php:56
+#: ../Backend/Controllers/Contact/Quicklist.php:50
+#: ../Forms/Account/Source/Form.php:31 ../Forms/Confirm/Payment/Form.php:57
+#: ../Forms/Contact/Form.php:74 ../Forms/Document/Form.php:45
+#: ../Forms/Lead/Form.php:79 ../Forms/Lead/Group/Form.php:33
+#: ../Forms/Lead/Source/Form.php:31
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:56
+#: ../Grids/Account/DataGridView.php:30
+#: ../Grids/Account/Document/DataGridView.php:37
+#: ../Grids/Account/Group/DataGridView.php:30
+#: ../Grids/Account/Source/DataGridView.php:31
+#: ../Grids/Address/DataGridView.php:35
+#: ../Grids/Contact/Document/DataGridView.php:31
+#: ../Models/Notification/Account/Model.php:163 ../Panels/Account/Panel.php:68
+#: ../Panels/Account/Group/Panel.php:38 ../Panels/Address/Panel.php:53
+msgid "Name"
+msgstr "الاسم"
+
+#: ../key_words_html.php:262 ../Backend/Controllers/Account/Quicklist.php:53
+#: ../Backend/Controllers/Contact/Quicklist.php:53
+#: ../Forms/Account/Form.php:133 ../Forms/Account/Dealer/Form.php:88
+#: ../Forms/Account/Private/Form.php:78 ../Forms/Confirm/Payment/Form.php:61
+#: ../Forms/Contact/Form.php:79 ../Forms/ContactUs/Form.php:68
+#: ../Forms/Customer/Form.php:82 ../Forms/Forgotpassword/Form.php:34
+#: ../Forms/Lead/Form.php:86 ../Forms/Request/Contact/Form.php:69
+#: ../Forms/Request/Demo/Form.php:70 ../Forms/Resetpassword/Form.php:36
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:57
+#: ../Grids/Account/DataGridView.php:40 ../Grids/Contact/DataGridView.php:36
+#: ../Models/Notification/Account/Model.php:164 ../Panels/Account/Panel.php:74
+#: ../Panels/Contact/Panel.php:85 ../Panels/Lead/Panel.php:85
+msgid "Email"
+msgstr "البريد الالكتروني"
+
+#: ../key_words_html.php:263 ../Backend/Controllers/Account/Quicklist.php:55
+#: ../Forms/Account/Form.php:131 ../Forms/Account/Dealer/Form.php:85
+#: ../Forms/Account/Private/Form.php:74 ../Forms/Confirm/Payment/Form.php:65
+#: ../Forms/Contact/Form.php:83 ../Forms/ContactUs/Form.php:65
+#: ../Forms/Customer/Form.php:80 ../Forms/Lead/Form.php:90
+#: ../Forms/Request/Contact/Form.php:66 ../Forms/Request/Demo/Form.php:67
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:58
+#: ../Grids/Account/DataGridView.php:36 ../Grids/Contact/DataGridView.php:38
+#: ../Models/Notification/Account/Model.php:165 ../Panels/Account/Panel.php:73
+#: ../Panels/Lead/Panel.php:86
+msgid "Mobile"
+msgstr "الجوال"
+
+#: ../key_words_html.php:264 ../Forms/Request/Contact/Form.php:80
+#: ../Forms/Request/Demo/Form.php:83
+msgid "Company Url"
+msgstr "رابط الشركة"
+
+#: ../key_words_html.php:265
+msgid "What are the products you want to sell it on your shop"
+msgstr "ما هي المنتجات التي ترغب في بيعها في متجرك الإلكتروني؟"
+
+#: ../key_words_html.php:266
+msgid "How many products do you want to sell your shop"
+msgstr "كم عدد المنتجات التي ترغب في بيعها في متجرك الإلكتروني؟"
+
+#: ../key_words_html.php:267
+msgid "Do you have a list of excel containing products"
+msgstr "هل لديك قائمة على أكسل تحتوي على منتجاتك"
+
+#: ../key_words_html.php:268 ../key_words_html.php:269
+#: ../key_words_html.php:275 ../key_words_html.php:276
+#: ../key_words_html.php:279 ../key_words_html.php:280
+msgid "Yes"
+msgstr "نعم "
+
+#: ../key_words_html.php:270 ../key_words_html.php:271
+#: ../key_words_html.php:277 ../key_words_html.php:278
+#: ../key_words_html.php:281 ../key_words_html.php:282
+msgid "No"
+msgstr "لا "
+
+#: ../key_words_html.php:272
+msgid "Do you have a model to shop"
+msgstr "هل لديك نموذج (مثال حي) لمتجر "
+
+#: ../key_words_html.php:273
+msgid "What are the payment methods you want to use"
+msgstr "ما هي وسائل الدفع التي ترغب في استخدامها؟"
+
+#: ../key_words_html.php:274
+msgid "what are the domains that you"
+msgstr " ما هي الدومينات التي لديك"
+
+#: ../key_words_html.php:283 ../Forms/ContactUs/Form.php:77
+#: ../Forms/Forgotpassword/Form.php:42 ../Forms/Request/Demo/Form.php:87
+#: ../Forms/Resetpassword/Form.php:49
+#: ../Frontend/Controllers/Intern/Shop/Changepassword.php:48
+msgid "Submit"
+msgstr "حفظ"
+
+#: ../key_words_html.php:332
+msgid "Add Plate"
+msgstr "اضافة رقم سيارة"
+
+#: ../key_words_html.php:333
+msgid "List Plates"
+msgstr "قائمة ارقام السيارات"
+
+#: ../key_words_html.php:346
+msgid "Account Activation"
+msgstr "تفعيل حساب"
+
+#: ../key_words_html.php:349
+#: ../Frontend/Controllers/Intern/Shop/Address/Add.php:38
+msgid "Add new Address"
+msgstr "اضافة عنوان جديد"
+
+#: ../key_words_html.php:354 ../key_words_html.php:388
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:75
+#, fuzzy
+msgid "Confirm Payment"
+msgstr "تأكيد الدفع"
+
+#: ../key_words_html.php:359
+#, fuzzy
+msgid "Please wait until resetting password"
+msgstr "يرجى الانتظار الى ان يتم استرجاع كلمة المرور"
+
+#: ../key_words_html.php:364
+msgid "Welcome"
+msgstr "مرحبا"
+
+#: ../key_words_html.php:365
+msgid "Account Number"
+msgstr "رقم الحساب"
+
+#: ../key_words_html.php:367
+msgid "Profile"
+msgstr "حسابي"
+
+#: ../key_words_html.php:373
+msgid "Open Sales Orders"
+msgstr "قائمة طلبات الشراء المفتوحة"
+
+#: ../key_words_html.php:374
+msgid "Pending Sales Orders"
+msgstr "قائمة طلبات الشراء في الانتظار"
+
+#: ../key_words_html.php:375
+msgid "Paid Sales Orders"
+msgstr "قائمة طلبات الشراء المدفوعة"
+
+#: ../key_words_html.php:376
+msgid "All Sales Orders"
+msgstr "قائمة طلبات الشراء"
+
+#: ../key_words_html.php:377
+msgid "My Quotation"
+msgstr " عروض الاسعار"
+
+#: ../key_words_html.php:378
+#, fuzzy
+msgid "List Quotation"
+msgstr "قائمة عروض الاسعار"
+
+#: ../key_words_html.php:380
+#, fuzzy
+msgid "Newsletters"
+msgstr "الرسائل الاخبارية"
+
+#: ../key_words_html.php:381
+msgid "Contact Shop owner"
+msgstr "الإتصال بصاحب المتجر"
+
+#: ../key_words_html.php:382
+msgid "Latest Sales Orders"
+msgstr "احدث طلبات الشراء"
+
+#: ../key_words_html.php:383
+msgid "Sales Order Number"
+msgstr "رقم طلب الشراء"
+
+#: ../key_words_html.php:384
+#, fuzzy
+msgid "Pay Now"
+msgstr "إدفع الآن "
+
+#: ../key_words_html.php:385 ../key_words_html.php:395
+#: ../key_words_html.php:404
+#, fuzzy
+msgid "Date"
+msgstr "التاريخ"
+
+#: ../key_words_html.php:386
+msgid "Cancel Sales Order"
+msgstr "الغاء طلب الشراء"
+
+#: ../key_words_html.php:387 ../key_words_html.php:396
+#: ../key_words_html.php:405
+#, fuzzy
+msgid "Total Price"
+msgstr "المجموع الكلي"
+
+#: ../key_words_html.php:389 ../key_words_html.php:398
+msgid "State"
+msgstr "الحالة"
+
+#: ../key_words_html.php:390 ../key_words_html.php:399
+#: ../key_words_html.php:406 ../Backend/Boot.php:139 ../Backend/Boot.php:161
+#: ../Backend/Boot.php:183
+#, fuzzy
+msgid "Details"
+msgstr "التفاصيل"
+
+#: ../key_words_html.php:391
+msgid "There is no Sales Orders"
+msgstr "لاتوجد طلبات شراء"
+
+#: ../key_words_html.php:392
+msgid "See all my Sales Orders"
+msgstr "قائمة طلبات الشراء"
+
+#: ../key_words_html.php:393
+msgid "My Quotations"
+msgstr "عروض الاسعار"
+
+#: ../key_words_html.php:394
+msgid "Quotation Number"
+msgstr "رقم عرض الاسعار"
+
+#: ../key_words_html.php:397
+#, fuzzy
+msgid "Accept"
+msgstr "موافقة"
+
+#: ../key_words_html.php:400
+msgid "There is no quotaions"
+msgstr "لا توجد عروض اسعار"
+
+#: ../key_words_html.php:401
+msgid "See All Quotations"
+msgstr "قائمة عروض الأسعار "
+
+#: ../key_words_html.php:402
+msgid "My Invoices"
+msgstr "الفواتير"
+
+#: ../key_words_html.php:403
+msgid "Invoice Number"
+msgstr "رقم الفاتورة"
+
+#: ../key_words_html.php:407
+msgid "There is no invoices"
+msgstr "لا توجد  فواتير"
+
+#: ../key_words_html.php:408
+msgid "See All Invoices"
+msgstr "قائمة الفواتير"
+
+#: ../key_words_html.php:409
+msgid "Shipped Sales Orders"
+msgstr " قائمة طلبات الشراء المشحونة"
+
+#: ../key_words_html.php:411
+#, fuzzy
+msgid "Your Invoices"
+msgstr "الفواتير"
+
+#: ../key_words_html.php:413
+msgid "New Customer"
+msgstr "عميل جديد"
+
+#: ../key_words_html.php:414
+#, fuzzy
+msgid "Register Account"
+msgstr "سجل الان"
+
+#: ../key_words_html.php:415
+#, fuzzy
+msgid "Continue"
+msgstr "واصل"
+
+#: ../key_words_html.php:418
+msgid "Your Messages"
+msgstr "رسالتك"
+
+#: ../key_words_html.php:421
+#, fuzzy
+msgid "Enter your email address"
+msgstr "الرجاء ادخال البريد الالكتروني"
+
+#: ../key_words_html.php:422
+msgid "Email Address"
+msgstr "عنوان البريد الالكتروني  "
+
+#: ../key_words_html.php:423
+#, fuzzy
+msgid "SUBSCRIBE"
+msgstr "اشترك"
+
+#: ../key_words_html.php:425
+msgid "Shop Policy"
+msgstr "شروط التسوق"
+
+#: ../key_words_html.php:427
+msgid "Your Quotations"
+msgstr "عروض الاسعار"
+
+#: ../key_words_html.php:429
+#, fuzzy
+msgid "Open a new account"
+msgstr "فتح حساب جديد"
+
+#: ../key_words_html.php:431
+msgid "Resend Activation Code"
+msgstr "اعادة ارسال رمز التفعيل "
+
+#: ../key_words_html.php:435
+msgid "Your Sales Order"
+msgstr "طلبات الشراء الخاصة بك"
+
+#: ../key_words_html.php:439
+msgid "My Products"
+msgstr "منتجاتي"
+
+#: ../key_words_html.php:440
+msgid "Add smartphone"
+msgstr "اضافة هاتف ذكي"
+
+#: ../key_words_html.php:441
+msgid "My smartphones"
+msgstr "هواتفي الذكية"
+
+#: ../key_words_html.php:442
+#, fuzzy
+msgid "My tablets"
+msgstr "معلوماتي"
+
+#: ../key_words_html.php:443
+msgid "Add tablets"
+msgstr "اضافة منتج"
+
+#: ../key_words_html.php:444
+#, fuzzy
+msgid "My accessories"
+msgstr "معلوماتي"
+
+#: ../key_words_html.php:445
+#, fuzzy
+msgid "Add accessory"
+msgstr "اضافة منتج"
+
+#: ../key_words_html.php:460
+msgid "Contact request was saved"
+msgstr "تم حفظ المعلومات بنجاح"
+
+#: ../key_words_html.php:461
+msgid "Your contact request was saved"
+msgstr "تم تسجيل طلب التواصل الخاص بك"
+
+#: ../key_words_html.php:512
+msgid "Content Management"
+msgstr "إدارة المحتوى"
+
+#: ../key_words_html.php:515
+msgid "Get Last 5 Leads"
+msgstr "أخر 5 مهتمين"
+
+#: ../key_words_html.php:516
+msgid "Get Last 5 Contacts"
+msgstr "أخر 5 جهات اتصال"
+
+#: ../key_words_html.php:517 ../Panels/Account/Panel.php:82
+#, fuzzy
+msgid "Updated At"
+msgstr "تاريخ التعديل"
+
+#: ../key_words_html.php:518
+msgid "VCart"
+msgstr "إنشاء VCart "
+
+#: ../Backend/Boot.php:37
+msgid "CRM"
+msgstr "إدارة علاقات العملاء"
+
+#: ../Backend/Boot.php:39 ../Backend/Controllers/Account/List.php:45
+msgid "Manage Accounts"
+msgstr "ادارة الحسابات"
+
+#: ../Backend/Boot.php:40
+msgid "Manage Contacts"
+msgstr "ادارة  جهات الاتصال"
+
+#: ../Backend/Boot.php:41
+msgid "Manage Groups"
+msgstr "ادارة المجموعات"
+
+#: ../Backend/Boot.php:42
+msgid "Manage Sources"
+msgstr "إدارة المصادر "
+
+#: ../Backend/Boot.php:84
+msgid "Crm Module"
+msgstr "ادارة علاقات العملاء"
+
+#: ../Backend/Boot.php:85
+#, fuzzy
+msgid "Set account Settings"
+msgstr "اعدادات الحساب"
+
+#: ../Backend/Boot.php:86
+msgid "List all Accounts"
+msgstr "قائمة جميع الحسابات"
+
+#: ../Backend/Boot.php:88
+msgid "Show Account Information"
+msgstr "عرض معلومات الحساب"
+
+#: ../Backend/Boot.php:90
+msgid "Delete Accoount"
+msgstr "حذف حساب"
+
+#: ../Backend/Boot.php:91
+msgid "Account Quicklist"
+msgstr "القائمة السريعة للحسابات"
+
+#: ../Backend/Boot.php:94
+msgid "Add Account address"
+msgstr "اضافة عنوان حساب"
+
+#: ../Backend/Boot.php:95
+msgid "Modify Account address"
+msgstr "تعديل عنوان  حساب "
+
+#: ../Backend/Boot.php:97
+msgid "Delete Account address"
+msgstr "حذف  عنوان حساب"
+
+#: ../Backend/Boot.php:98
+msgid "Add Account Document"
+msgstr "اضافة وثيقة للحساب"
+
+#: ../Backend/Boot.php:101
+msgid "Delete Account Document"
+msgstr " حذف وثيقة حساب"
+
+#: ../Backend/Boot.php:102
+msgid "Detail Account Document"
+msgstr "تفاصيل وثيقة الحساب"
+
+#: ../Backend/Boot.php:103
+#, fuzzy
+msgid "Set contact Settings"
+msgstr "اعدادات جهة الاتصال"
+
+#: ../Backend/Boot.php:104
+msgid "Add Contact Document"
+msgstr "اضافة وثيقة لجهة الاتصال "
+
+#: ../Backend/Boot.php:107
+msgid "Delete Contact Document"
+msgstr "حذف  وثيقة جهة اتصال"
+
+#: ../Backend/Boot.php:108
+msgid "List all Contacts"
+msgstr "قائمة  جميع جهات الاتصال"
+
+#: ../Backend/Boot.php:109
+msgid "Show Contacts Quicklist"
+msgstr "مشاهدة قائمة جهات الاتصال "
+
+#: ../Backend/Boot.php:111
+msgid "Show Contact Information"
+msgstr "مشاهدة معلومات جهة الاتصال"
+
+#: ../Backend/Boot.php:112
+msgid "Modify Contact"
+msgstr "تعديل جهة اتصال"
+
+#: ../Backend/Boot.php:113
+msgid "Delete Contact"
+msgstr "حذف جهة اتصال"
+
+#: ../Backend/Boot.php:123
+msgid "Add new Message"
+msgstr "اضافة رسالة جديدة"
+
+#: ../Backend/Boot.php:124
+msgid "Modify Message"
+msgstr "تعديل رسالة"
+
+#: ../Backend/Boot.php:125
+msgid "Delete Message"
+msgstr "حذف رسالة"
+
+#: ../Backend/Boot.php:137 ../Backend/Boot.php:159 ../Backend/Boot.php:181
+msgid "Item"
+msgstr "العنصر"
+
+#: ../Backend/Boot.php:137 ../Backend/Boot.php:159 ../Backend/Boot.php:181
+#, fuzzy
+msgid "Date Time"
+msgstr "التاريخ"
+
+#: ../Backend/Boot.php:137 ../Backend/Boot.php:159 ../Backend/Boot.php:181
+msgid "Link"
+msgstr "الرابط"
+
+#: ../Backend/Controllers/Accountsetting.php:35
+#: ../Backend/Controllers/Contactsetting.php:34
+msgid "CRM Settings"
+msgstr "اعدادات"
+
+#: ../Backend/Controllers/Accountsetting.php:48
+msgid "Account Notification Settings"
+msgstr "اعدادات اشعارات الحساب"
+
+#: ../Backend/Controllers/Accountsetting.php:57
+#: ../Backend/Controllers/Accountsetting.php:67
+#: ../Backend/Controllers/Contactsetting.php:80
+#: ../Backend/Controllers/Contactsetting.php:89
+#, fuzzy
+msgid "Data was successfully saved"
+msgstr "تم حفظ المعلومات بنجاح"
+
+#: ../Backend/Controllers/Accountsetting.php:76
+#, fuzzy
+msgid "Manage Account Notifications Templates"
+msgstr "اعدادات اشعارات الحساب"
+
+#: ../Backend/Controllers/Accountsetting.php:78
+msgid "Manage Notifications Emails"
+msgstr "اعدادات الايميلات"
+
+#: ../Backend/Controllers/Accountsetting.php:83
+msgid "Use this email to send notifications"
+msgstr "استخدم  هذا الايمايل  لإرسال إشعرات "
+
+#: ../Backend/Controllers/Accountsetting.php:90
+#: ../Backend/Controllers/Accountsetting.php:125
+#: ../Backend/Controllers/Contactsetting.php:69
+#: ../Backend/Controllers/Contactsetting.php:107 ../Forms/Account/Form.php:161
+#: ../Forms/Account/Group/Form.php:45 ../Forms/Account/Source/Form.php:36
+#: ../Forms/Address/Form.php:68 ../Forms/ChangePassword/Form.php:49
+#: ../Forms/Contact/Form.php:87 ../Forms/Document/Form.php:59
+#: ../Forms/Lead/Form.php:92 ../Forms/Lead/Group/Form.php:37
+#: ../Forms/Lead/Source/Form.php:37 ../Forms/MailInbox/Form.php:53
+#: ../Frontend/Controllers/Intern/Shop/Account.php:42
+msgid "Save"
+msgstr "حفظ"
+
+#: ../Backend/Controllers/Accountsetting.php:114
+msgid "Account Record Numbering"
+msgstr "الترقيم التسلسلي للحساب "
+
+#: ../Backend/Controllers/Accountsetting.php:115
+#: ../Backend/Controllers/Contactsetting.php:97
+msgid "Prefix"
+msgstr "الحروف"
+
+#: ../Backend/Controllers/Accountsetting.php:116
+msgid "Like: A"
+msgstr "مثل: A"
+
+#: ../Backend/Controllers/Accountsetting.php:121
+#: ../Backend/Controllers/Contactsetting.php:103
+msgid "Start Record"
+msgstr "الترقيم يبدأ من"
+
+#: ../Backend/Controllers/Contactsetting.php:47
+#, fuzzy
+msgid "Manage Contact Notifications Templates"
+msgstr "اعدادات اشعارات جهة الاتصال"
+
+#: ../Backend/Controllers/Contactsetting.php:64
+msgid "Contact Notification Settings"
+msgstr "اعدادات اشعارات جهة الاتصال"
+
+#: ../Backend/Controllers/Contactsetting.php:68 ../Forms/Account/Form.php:187
+#: ../Forms/Account/Group/Form.php:44 ../Forms/Account/Source/Form.php:35
+#: ../Forms/Contact/Form.php:104 ../Forms/Lead/Group/Form.php:36
+#: ../Forms/Lead/Source/Form.php:36
+#, fuzzy
+msgid "Navigation"
+msgstr "التصفح"
+
+#: ../Backend/Controllers/Contactsetting.php:96
+msgid "Contact Record Numbering"
+msgstr "الترقيم التسلسلي للاتصال "
+
+#: ../Backend/Controllers/Contactsetting.php:98
+msgid "Like: C"
+msgstr "مثل: C"
+
+#: ../Backend/Controllers/Account/Add.php:37
+#: ../Backend/Controllers/Account/Quickadd.php:50
+msgid "Add Account"
+msgstr "اضافة حساب"
+
+#: ../Backend/Controllers/Account/Add.php:73
+#: ../Backend/Controllers/Account/Document/Add.php:59
+msgid "Account was successully added"
+msgstr "تم اضافة الحساب بنجاح"
+
+#: ../Backend/Controllers/Account/Add.php:76
+#: ../Backend/Controllers/Account/Modify.php:87
+#: ../Backend/Controllers/Account/Quickadd.php:89
+#: ../Backend/Controllers/Account/Document/Add.php:61
+#: ../Backend/Controllers/Account/Group/Add.php:57
+#: ../Backend/Controllers/Account/Group/Modify.php:67
+#: ../Backend/Controllers/Account/Inbox/Add.php:69
+#: ../Backend/Controllers/Account/Inbox/Modify.php:65
+#: ../Backend/Controllers/Account/Source/Add.php:49
+#: ../Backend/Controllers/Account/Source/Modify.php:59
+#: ../Backend/Controllers/Contact/Add.php:53
+#: ../Backend/Controllers/Contact/Modify.php:66
+#: ../Backend/Controllers/Contact/Document/Add.php:61
+#: ../Backend/Controllers/Inbox/Add.php:69
+#: ../Backend/Controllers/Inbox/Modify.php:64
+#: ../Frontend/Controllers/Intern/Shop/Account.php:72
+#: ../Frontend/Controllers/Intern/Shop/Address/Add.php:54
+#: ../Frontend/Controllers/Intern/Shop/Address/Modify.php:68
+msgid "Please check inputs."
+msgstr "الرجاء التثبت من المدخلات"
+
+#: ../Backend/Controllers/Account/Detail.php:36
+msgid "Account Details"
+msgstr "تفاصيل الحساب"
+
+#: ../Backend/Controllers/Account/Detail.php:54
+msgid "Related Invoices"
+msgstr "الفواتير المتعلقة"
+
+#: ../Backend/Controllers/Account/Detail.php:60
+msgid "Add New Invoice"
+msgstr "اضافة فاتورة جديدة"
+
+#: ../Backend/Controllers/Account/Detail.php:71
+msgid "Related Tasks"
+msgstr "المهام المتعلقة"
+
+#: ../Backend/Controllers/Account/Detail.php:77
+msgid "Add New Task"
+msgstr "اضافة مهمة جديدة"
+
+#: ../Backend/Controllers/Account/Detail.php:109
+msgid "Tasks History"
+msgstr "سجل المهام"
+
+#: ../Backend/Controllers/Account/Detail.php:120
+#: ../Backend/Controllers/Contact/Detail.php:82
+msgid "Related Documents"
+msgstr "الوثائق المتعلقة "
+
+#: ../Backend/Controllers/Account/Detail.php:125
+#: ../Backend/Controllers/Contact/Detail.php:87
+#, fuzzy
+msgid "Add new Document"
+msgstr "اضافة وثيقة جديدة"
+
+#: ../Backend/Controllers/Account/Detail.php:127
+#: ../Backend/Controllers/Account/Document/Generate.php:55
+#: ../Backend/Controllers/Contact/Detail.php:89
+#: ../Backend/Controllers/Contact/Document/Generate.php:55
+#, fuzzy
+msgid "Generate PDF"
+msgstr "توليد PDF"
+
+#: ../Backend/Controllers/Account/Detail.php:150
+msgid "Related Sales Order"
+msgstr " طلبات الشراء المتعلقة "
+
+#: ../Backend/Controllers/Account/Detail.php:154
+msgid "Add New Saleorder"
+msgstr "اضافة طلب شراء جديد"
+
+#: ../Backend/Controllers/Account/Detail.php:173
+msgid "Related Quotations"
+msgstr " عروض الاسعار المتعلقة"
+
+#: ../Backend/Controllers/Account/Detail.php:176
+msgid "Add New Quotation"
+msgstr "اضافة عرض اسعار جديد"
+
+#: ../Backend/Controllers/Account/Detail.php:195
+#: ../Backend/Controllers/Contact/Detail.php:71
+msgid "Related Emails"
+msgstr "الرسائل البريدية المتعلقة بالحساب"
+
+#: ../Backend/Controllers/Account/Detail.php:198
+#: ../Backend/Controllers/Contact/Detail.php:74
+#, fuzzy
+msgid "Add New Email"
+msgstr "اضافة رسالة بريدية جديدة"
+
+#: ../Backend/Controllers/Account/Detail.php:236
+msgid "Account was successufully assigned to this account"
+msgstr "تم توجيه الحساب بنجاح إلى هذا الحساب"
+
+#: ../Backend/Controllers/Account/Detail.php:238
+msgid "Cannot assign this contact"
+msgstr "لا يمكن توجيه هذا الاتصال"
+
+#: ../Backend/Controllers/Account/Detail.php:251
+msgid "Related Contacts"
+msgstr "جهات الاتصال المتعلقة"
+
+#: ../Backend/Controllers/Account/Detail.php:259
+#, fuzzy
+msgid "Unassign"
+msgstr "إلغاء"
+
+#: ../Backend/Controllers/Account/Detail.php:265
+msgid "Add New Contact"
+msgstr "اضافة اتصال جديد"
+
+#: ../Backend/Controllers/Account/Detail.php:284
+msgid "Related Opportunity"
+msgstr "الفرص  المتعلقة "
+
+#: ../Backend/Controllers/Account/Detail.php:288
+msgid "Add New Opportunity"
+msgstr " إضافة فرص جديد"
+
+#: ../Backend/Controllers/Account/Detail.php:299
+msgid "Related Processes"
+msgstr "العمليات المتعلقة"
+
+#: ../Backend/Controllers/Account/Detail.php:300
+msgid "Create Process"
+msgstr "اضافة  عملية"
+
+#: ../Backend/Controllers/Account/Detail.php:308
+msgid "Address Book"
+msgstr "دفتر العناوين"
+
+#: ../Backend/Controllers/Account/Detail.php:309
+#: ../Backend/Controllers/Account/Address/Quicklist.php:59
+#: ../Forms/Account/Form.php:151 ../Forms/Address/Form.php:54
+#: ../Panels/Account/Panel.php:79 ../Panels/Address/Panel.php:57
+msgid "Street"
+msgstr "الشارع"
+
+#: ../Backend/Controllers/Account/Detail.php:309
+#: ../Backend/Controllers/Account/Address/Quicklist.php:61
+#: ../Forms/Account/Form.php:149 ../Forms/Account/Private/Form.php:87
+#: ../Forms/Address/Form.php:59 ../Forms/Customer/Form.php:97
+#: ../Panels/Account/Panel.php:78 ../Panels/Address/Panel.php:56
+msgid "City"
+msgstr "المدينة"
+
+#: ../Backend/Controllers/Account/Detail.php:309
+#: ../Backend/Controllers/Account/Address/Quicklist.php:63
+#: ../Forms/Account/Form.php:141 ../Forms/Account/Private/Form.php:81
+#: ../Forms/Address/Form.php:63 ../Forms/Customer/Form.php:87
+#: ../Grids/Account/DataGridView.php:42 ../Grids/Address/DataGridView.php:38
+#: ../Panels/Account/Panel.php:76 ../Panels/Address/Panel.php:54
+msgid "Country"
+msgstr "المنطقة"
+
+#: ../Backend/Controllers/Account/Detail.php:311
+#: ../Grids/Account/DataGridView.php:48
+#: ../Grids/Account/Group/DataGridView.php:34
+#: ../Grids/Account/Source/DataGridView.php:34
+#: ../Grids/Address/DataGridView.php:41 ../Grids/Contact/DataGridView.php:43
+#: ../Grids/MailInbox/DataGridView.php:34
+msgid "Edit"
+msgstr "تعديل"
+
+#: ../Backend/Controllers/Account/Detail.php:314
+#: ../Grids/Account/DataGridView.php:51
+#: ../Grids/Account/Document/DataGridView.php:44
+#: ../Grids/Account/Group/DataGridView.php:38
+#: ../Grids/Account/Source/DataGridView.php:39
+#: ../Grids/Address/DataGridView.php:46 ../Grids/Contact/DataGridView.php:47
+#: ../Grids/Contact/Document/DataGridView.php:38
+#: ../Grids/MailInbox/DataGridView.php:39
+#: ../Models/Import/Account/Model.php:30
+msgid "Delete"
+msgstr "حذف"
+
+#: ../Backend/Controllers/Account/Detail.php:320
+msgid "Add New Address"
+msgstr "اضافة عنوان جديد"
+
+#: ../Backend/Controllers/Account/Address/Add.php:46
+msgid "Add Address"
+msgstr "اضافة عنوان"
+
+#: ../Backend/Controllers/Account/Address/Add.php:57
+#: ../Backend/Controllers/Account/Address/Modify.php:63
+msgid "Data can not be saved"
+msgstr "لا يمكن حفظ البيانات"
+
+#: ../Backend/Controllers/Account/Address/Add.php:60
+#: ../Backend/Controllers/Account/Address/Modify.php:66
+#, fuzzy
+msgid "Please check your inputs"
+msgstr "الرجاء التاكد من المدخلات"
+
+#: ../Backend/Controllers/Account/Address/Modify.php:52
+msgid "Manage Address"
+msgstr "ادارة العناوين"
+
+#: ../Backend/Controllers/Account/Document/Add.php:32
+#, fuzzy
+msgid "Add a new Account Document"
+msgstr "اضافة وثيقة جديدة"
+
+#: ../Backend/Controllers/Account/Document/Detail.php:36
+#: ../Backend/Controllers/Contact/Document/Detail.php:36
+#, fuzzy
+msgid "Document Details"
+msgstr "تفاصيل الوثيقة"
+
+#: ../Backend/Controllers/Account/Document/Generate.php:32
+#: ../Backend/Controllers/Contact/Document/Generate.php:32
+#, fuzzy
+msgid "Generate a pdf document"
+msgstr "توليد PDF"
+
+#: ../Backend/Controllers/Account/Document/Generate.php:45
+#: ../Backend/Controllers/Contact/Document/Generate.php:45
+#, fuzzy
+msgid "Template"
+msgstr "قالب"
+
+#: ../Backend/Controllers/Account/Document/Generate.php:46
+#: ../Backend/Controllers/Account/Document/Generate.php:52
+#: ../Backend/Controllers/Contact/Document/Generate.php:46
+#: ../Backend/Controllers/Contact/Document/Generate.php:52
+#, fuzzy
+msgid "Content"
+msgstr "المحتوى"
+
+#: ../Backend/Controllers/Account/Document/Generate.php:48
+#: ../Backend/Controllers/Contact/Document/Generate.php:48
+#, fuzzy
+msgid "Select from template"
+msgstr "اختر قالب"
+
+#: ../Backend/Controllers/Account/Document/Generate.php:54
+#: ../Backend/Controllers/Contact/Document/Generate.php:54
+#: ../Forms/Document/Form.php:57 ../Grids/Account/Document/DataGridView.php:38
+#: ../Grids/Contact/Document/DataGridView.php:32
+#, fuzzy
+msgid "Public"
+msgstr "عمومي"
+
+#: ../Backend/Controllers/Account/Group/Add.php:38
+msgid "Create new Account Group"
+msgstr "اضافة مجموعة حساب "
+
+#: ../Backend/Controllers/Account/Group/detail.class.php:50
+msgid "user Group Details"
+msgstr "تفاصيل مجموعة مستخدمين"
+
+#: ../Backend/Controllers/Account/Group/detail.class.php:54
+#, fuzzy
+msgid "Users"
+msgstr "المستخدمين"
+
+#: ../Backend/Controllers/Account/Group/detail.class.php:58
+#, fuzzy
+msgid "Add new User"
+msgstr "اضافة مستخدم جديد"
+
+#: ../Backend/Controllers/Account/Group/Detail.php:41
+msgid "Group Details"
+msgstr "تفاصيل المجموعة"
+
+#: ../Backend/Controllers/Account/Group/Detail.php:60
+msgid "Accounts"
+msgstr " الحسابات"
+
+#: ../Backend/Controllers/Account/Group/List.php:34
+msgid "Action successfuly executed"
+msgstr "تم تنفيذ المهمة بنجاح"
+
+#: ../Backend/Controllers/Account/Group/List.php:36
+msgid "Cannot Execute Action"
+msgstr "لا يمكن تنفيذ العملية"
+
+#: ../Backend/Controllers/Account/Group/Modify.php:37
+msgid "Edit Group"
+msgstr "تعديل مجموعة"
+
+#: ../Backend/Controllers/Account/Inbox/Add.php:38
+#: ../Backend/Controllers/Inbox/Add.php:38
+msgid "Create new Inbox"
+msgstr "اضافة صندوق بريد جديد"
+
+#: ../Backend/Controllers/Account/Inbox/Add.php:78
+#: ../Backend/Controllers/Inbox/Add.php:78
+msgid "Inbox was successully added"
+msgstr "تم اضافة صندوق البريد بنجاح"
+
+#: ../Backend/Controllers/Account/Inbox/Modify.php:37
+#: ../Backend/Controllers/Inbox/Modify.php:37
+msgid "Edit Inbox"
+msgstr "التعديل على صندوق البريد"
+
+#: ../Backend/Controllers/Account/Source/List.php:42
+msgid "List All Account source"
+msgstr "قائمة جميع  مصادر الحساب"
+
+#: ../Backend/Controllers/Account/Source/Modify.php:32
+msgid "Modify Source"
+msgstr "تعديل مصدر"
+
+#: ../Backend/Controllers/Contact/Add.php:33
+msgid "Add contact"
+msgstr "اضافة  جهة اتصال"
+
+#: ../Backend/Controllers/Contact/Detail.php:48
+msgid "Contact Details"
+msgstr "تفاصيل جهة الاتصال"
+
+#: ../Backend/Controllers/Contact/List.php:46
+msgid "Manage contacts"
+msgstr "ادارة جهات الاتصال"
+
+#: ../Backend/Controllers/Contact/Quicklist.php:55
+#: ../Forms/Contact/Form.php:77 ../Forms/Lead/Form.php:82
+#: ../Panels/Contact/Panel.php:84 ../Panels/Lead/Panel.php:84
+msgid "Phone"
+msgstr "الهاتف"
+
+#: ../Backend/Controllers/Contact/Document/Add.php:32
+#, fuzzy
+msgid "Add a new Contact Document"
+msgstr "اضافة وثيقة جديدة"
+
+#: ../Backend/Controllers/Contact/Document/Add.php:59
+msgid "Contact was successully added"
+msgstr "تم اضافة جهة الاتصال بنجاح"
+
+#: ../Backend/Controllers/Group/Account.php:35
+msgid "Manage Account Groups"
+msgstr "ادارة مجموعات الحسابات "
+
+#: ../Backend/Controllers/Group/Account.php:41
+msgid "Account Groups"
+msgstr "مجموعات الحسابات"
+
+#: ../Backend/Controllers/Group/Account.php:43
+msgid "Add New Group"
+msgstr "إضافة مجموعة جديدة"
+
+#: ../Backend/Controllers/Source/Account.php:35
+msgid "Manage Account Sources"
+msgstr "ادارة مصادر الحساب"
+
+#: ../Backend/Controllers/Source/Account.php:40
+msgid "Account Sources"
+msgstr " مصادر الحساب"
+
+#: ../Backend/Controllers/Source/Account.php:42
+msgid "Add New Source"
+msgstr "اضافة مصدر جديد"
+
+#: ../Forms/Account/Form.php:93 ../Forms/Account/Form.php:103
+msgid "Dealer Logo"
+msgstr "شعار التاجر"
+
+#: ../Forms/Account/Form.php:99 ../Forms/Contact/Form.php:69
+#: ../Forms/Lead/Form.php:72 ../Grids/Account/DataGridView.php:33
+#: ../Grids/Contact/DataGridView.php:30 ../Panels/Account/Panel.php:71
+msgid "Number"
+msgstr "الرقم"
+
+#: ../Forms/Account/Form.php:112 ../Forms/Customer/Form.php:141
+#: ../Forms/Lead/Form.php:104 ../Grids/Account/DataGridView.php:38
+#: ../Grids/Account/DataGridView.php:82
+msgid "Source"
+msgstr "المصدر"
+
+#: ../Forms/Account/Form.php:116
+msgid "Fullname"
+msgstr "الاسم الكامل"
+
+#: ../Forms/Account/Form.php:121 ../Forms/Request/Contact/Form.php:74
+#: ../Forms/Request/Demo/Form.php:75
+msgid "Company Name"
+msgstr "اسم الشركة"
+
+#: ../Forms/Account/Form.php:124
+msgid "Company Web Site"
+msgstr "موقع شركة"
+
+#: ../Forms/Account/Form.php:127 ../Forms/Account/Dealer/Form.php:74
+#: ../Forms/Account/Login/Form.php:42 ../Forms/ChangePassword/Form.php:38
+#: ../Forms/Customer/Form.php:69
+#: ../Frontend/Controllers/Intern/Shop/Login.php:88
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: ../Forms/Account/Form.php:129 ../Panels/Account/Panel.php:72
+msgid "Telefon"
+msgstr "الهاتف"
+
+#: ../Forms/Account/Form.php:138
+msgid "E-mail2"
+msgstr "البريد الالكتروني 2"
+
+#: ../Forms/Account/Form.php:147 ../Forms/Account/Private/Form.php:84
+#: ../Forms/Address/Form.php:61 ../Forms/Customer/Form.php:93
+#: ../Panels/Account/Panel.php:77 ../Panels/Address/Panel.php:55
+msgid "Province"
+msgstr "المحافظة"
+
+#: ../Forms/Account/Form.php:154
+msgid "ZipCode"
+msgstr "الترقيم البريدي"
+
+#: ../Forms/Account/Form.php:157 ../Forms/Contact/Form.php:99
+#: ../Forms/Lead/Form.php:120
+#, fuzzy
+msgid "Notices"
+msgstr "ملاحظات"
+
+#: ../Forms/Account/Form.php:159
+msgid "Send Password"
+msgstr "ارسال كلمة السر"
+
+#: ../Forms/Account/Form.php:160
+msgid "Can Login"
+msgstr "لديه صلاحيات الدخول"
+
+#: ../Forms/Account/Form.php:163 ../Forms/Contact/Form.php:91
+#: ../Forms/Lead/Form.php:108
+#, fuzzy
+msgid "General Informations"
+msgstr "معلومات عامة"
+
+#: ../Forms/Account/Form.php:176
+msgid "Address Informations"
+msgstr "معلومات العنوان"
+
+#: ../Forms/Account/Form.php:182
+msgid "Picture"
+msgstr "صور"
+
+#: ../Forms/Account/Activation/Form.php:36 ../Forms/Account/Login/Form.php:36
+#: ../Frontend/Controllers/Intern/Shop/Login.php:81
+msgid "Email Adress"
+msgstr "البريد الالكتروني"
+
+#: ../Forms/Account/Activation/Form.php:40
+#: ../Forms/Account/Activation/Form.php:45 ../Forms/Account/Login/Form.php:40
+#: ../Forms/Account/Login/Form.php:45
+#: ../Frontend/Controllers/Intern/Shop/Login.php:86
+#: ../Frontend/Controllers/Intern/Shop/Login.php:92
+msgid "Required"
+msgstr "اجباري"
+
+#: ../Forms/Account/Activation/Form.php:42
+msgid "Activation Code"
+msgstr "تفعيل الرمز"
+
+#: ../Forms/Account/Activation/Form.php:47
+msgid "Resend Activation Code ?"
+msgstr "إعادة إرسال رمز التفعيل؟"
+
+#: ../Forms/Account/Activation/Form.php:50
+#, fuzzy
+msgid "Activate"
+msgstr "تفعيل"
+
+#: ../Forms/Account/Activation/Form.php:53 ../Forms/Account/Dealer/Form.php:94
+#: ../Forms/Confirm/Payment/Form.php:98 ../Forms/ContactUs/Form.php:75
+#: ../Forms/Customer/Form.php:109 ../Forms/Forgotpassword/Form.php:40
+#: ../Forms/Request/Contact/Form.php:82 ../Forms/Request/Contact/Form.php:96
+#: ../Forms/Request/Demo/Form.php:85 ../Forms/Request/Demo/Form.php:100
+#: ../Forms/Resetpassword/Form.php:47
+msgid "Security Code"
+msgstr "رمز الحماية"
+
+#: ../Forms/Account/Dealer/Form.php:69 ../Forms/Account/Private/Form.php:69
+#: ../Forms/ContactUs/Form.php:60 ../Forms/Customer/Form.php:64
+#: ../Forms/Request/Contact/Form.php:61 ../Forms/Request/Demo/Form.php:62
+msgid "Contact Name"
+msgstr "اسم جهة الاتصال"
+
+#: ../Forms/Account/Dealer/Form.php:79 ../Forms/Customer/Form.php:74
+msgid "Re-Password"
+msgstr "اعادة كتابة كلمة المرور"
+
+#: ../Forms/Account/Dealer/Form.php:96
+msgid "Register Now!"
+msgstr "سجل الان"
+
+#: ../Forms/Account/Dealer/Form.php:97 ../Forms/Account/Private/Form.php:91
+msgid "Registration Informations"
+msgstr "معلومات التسجيل"
+
+#: ../Forms/Account/Dealer/Form.php:112
+msgid "Why Registration"
+msgstr "لماذا التسجيل"
+
+#: ../Forms/Account/Dealer/Form.php:129
+msgid "Advertise"
+msgstr "اعلن"
+
+#: ../Forms/Account/Dealer/Form.php:139 ../Forms/Customer/Form.php:154
+msgid "Passwords are not identicals"
+msgstr "كلمة المرور غير متطابقة"
+
+#: ../Forms/Account/Group/Form.php:38
+msgid "Add Account Group"
+msgstr "إضافة مجموعة حساب"
+
+#: ../Forms/Account/Group/Form.php:43
+msgid "Default Group"
+msgstr "المجموعة الافتراضية"
+
+#: ../Forms/Account/Login/Form.php:47
+msgid "Forgot Password?"
+msgstr "نسيت كلمة المرور؟"
+
+#: ../Forms/Account/Private/Form.php:90
+msgid "Save Contact Informations!"
+msgstr "حفظ معلومات الاتصال"
+
+#: ../Forms/Account/Source/Form.php:30
+msgid "Add Account Source"
+msgstr "إضافة مصدر الحساب"
+
+#: ../Forms/Address/Form.php:50
+msgid "Person Name"
+msgstr "اسم الشخص"
+
+#: ../Forms/Address/Form.php:57
+msgid "Zip Code/PBOX"
+msgstr "الترقيم البريدي"
+
+#: ../Forms/ChangePassword/Form.php:41 ../Forms/Resetpassword/Form.php:41
+#: ../Frontend/Controllers/Intern/Shop/Changepassword.php:38
+#: ../Models/Notification/Account/Model.php:145
+msgid "New Password"
+msgstr "كلمة المرور الجديدة"
+
+#: ../Forms/ChangePassword/Form.php:45
+msgid "Confirm Password"
+msgstr "تأكيد كلمة المرور"
+
+#: ../Forms/Confirm/Payment/Form.php:69
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:60
+#, fuzzy
+msgid "Payment Method"
+msgstr "طريقة الدفع"
+
+#: ../Forms/Confirm/Payment/Form.php:72
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:63
+msgid "Payment Date Time"
+msgstr "تاريخ الدفع"
+
+#: ../Forms/Confirm/Payment/Form.php:76
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:61
+msgid "Bank Account Number"
+msgstr "رقم الحساب المصرفي"
+
+#: ../Forms/Confirm/Payment/Form.php:80
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:59
+msgid "Transferred Amount"
+msgstr "المبلغ المحول"
+
+#: ../Forms/Confirm/Payment/Form.php:84
+msgid "Bank Transaction Id."
+msgstr "رمز التحويل المصرفي"
+
+#: ../Forms/Confirm/Payment/Form.php:87
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:64
+#: ../Models/Notification/Account/Model.php:171
+#, fuzzy
+msgid "Description"
+msgstr "الوصف"
+
+#: ../Forms/Confirm/Payment/Form.php:91
+msgid "Upload"
+msgstr "رفع"
+
+#: ../Forms/Confirm/Payment/Form.php:102
+#, fuzzy
+msgid "Save!"
+msgstr "حفظ"
+
+#: ../Forms/Contact/Form.php:72 ../Forms/Lead/Form.php:75
+#: ../Panels/Account/Panel.php:69
+msgid "Company"
+msgstr "الشركة"
+
+#: ../Forms/Contact/Form.php:85 ../Forms/Lead/Form.php:77
+#: ../Panels/Account/Panel.php:70
+msgid "Company Website"
+msgstr "موقع الشركة"
+
+#: ../Forms/Contact/Form.php:100 ../Forms/Lead/Form.php:121
+#: ../Panels/Account/Panel.php:98 ../Panels/Account/Panel.php:100
+#: ../Panels/Contact/Panel.php:97 ../Panels/Contact/Panel.php:99
+#: ../Panels/Lead/Panel.php:100 ../Panels/Lead/Panel.php:102
+msgid "Notice"
+msgstr "ملاحظة"
+
+#: ../Forms/ContactUs/Form.php:73 ../Forms/Request/Contact/Form.php:78
+#: ../Forms/Request/Demo/Form.php:81 ../Panels/MailInbox/Panel.php:63
+msgid "Message"
+msgstr "الرسالة"
+
+#: ../Forms/ContactUs/Form.php:78
+msgid "Contact Form"
+msgstr "إستمارة الاتصال"
+
+#: ../Forms/ContactUs/Form.php:87
+msgid "contact_text"
+msgstr "نص صفحة الاتصال"
+
+#: ../Forms/Customer/Form.php:101
+msgid "Postal Code"
+msgstr "الرمز البريدي"
+
+#: ../Forms/Customer/Form.php:105
+#, fuzzy
+msgid "Street Name /House Nr."
+msgstr "اسم الشارع /رقم المنزل"
+
+#: ../Forms/Customer/Form.php:111
+msgid "Save and Continue!"
+msgstr "حفظ و متابعة"
+
+#: ../Forms/Customer/Form.php:112
+msgid "Your Personal Details"
+msgstr "البيانات الشخصية"
+
+#: ../Forms/Customer/Form.php:116
+msgid "Your Address Details"
+msgstr "العنوان بالكامل"
+
+#: ../Forms/Customer/Form.php:122
+msgid "Your Password"
+msgstr "كلمة المرور الخاصة بك"
+
+#: ../Forms/Customer/Form.php:129
+msgid "I have read the Privacy Policy."
+msgstr "لقد قرأت سياسة الخصوصية."
+
+#: ../Forms/Customer/Form.php:132
+msgid "Please confirm the privacy poilicy"
+msgstr "يرجى تأكيد سياسة الخصوصية"
+
+#: ../Forms/Customer/Form.php:136
+#, fuzzy
+msgid "Register Now"
+msgstr "سجل الان"
+
+#: ../Forms/Customer/Form.php:146
+msgid "Please select"
+msgstr "يرجى الاختيار"
+
+#: ../Forms/Document/Form.php:49
+#, fuzzy
+msgid "Document"
+msgstr "وثيقة"
+
+#: ../Forms/Document/Form.php:49
+msgid "Image"
+msgstr "الصورة"
+
+#: ../Forms/Document/Form.php:49
+#, fuzzy
+msgid "Zip File"
+msgstr "ملف مضغوط"
+
+#: ../Forms/Document/Form.php:49
+#, fuzzy
+msgid "Software"
+msgstr "برنامج"
+
+#: ../Forms/Document/Form.php:51
+#, fuzzy
+msgid "Type"
+msgstr "النوع"
+
+#: ../Forms/Lead/Form.php:84 ../Panels/Lead/Panel.php:87
+msgid "Fax"
+msgstr "الفاكس"
+
+#: ../Forms/Lead/Form.php:94 ../Forms/Lead/Form.php:98
+msgid "Account"
+msgstr "الحساب"
+
+#: ../Forms/Lead/Group/Form.php:32
+msgid "Add Lead Group"
+msgstr "اضافة مجموعة مهتمين"
+
+#: ../Forms/Lead/Source/Form.php:30
+msgid "Add Lead Source"
+msgstr "اضافة مصدر"
+
+#: ../Forms/Lead/Source/Form.php:34
+msgid "For exemple google"
+msgstr "على سبيل المثال  Google"
+
+#: ../Forms/MailInbox/Form.php:42 ../Grids/MailInbox/DataGridView.php:30
+#: ../Panels/MailInbox/Panel.php:53
+msgid "Subject"
+msgstr "الموضوع"
+
+#: ../Forms/MailInbox/Form.php:45
+msgid "To"
+msgstr "الى"
+
+#: ../Forms/MailInbox/Form.php:47
+#, fuzzy
+msgid "CC "
+msgstr "إرسال نسخةإلى"
+
+#: ../Forms/MailInbox/Form.php:49
+#, fuzzy
+msgid "BCC"
+msgstr "إرسال نسخة خفيةإلى"
+
+#: ../Forms/MailInbox/Form.php:51
+msgid "Message Content"
+msgstr "محتوى الرسالة"
+
+#: ../Forms/Request/Contact/Form.php:76 ../Forms/Request/Demo/Form.php:77
+msgid "Best Call Time"
+msgstr "الوقت المفضل للاتصال"
+
+#: ../Forms/Request/Contact/Form.php:86 ../Forms/Request/Demo/Form.php:89
+msgid "Person Informations"
+msgstr "معلومات شخص"
+
+#: ../Forms/Request/Contact/Form.php:91 ../Forms/Request/Demo/Form.php:94
+msgid "Company Informations"
+msgstr "معلومات الشركة"
+
+#: ../Forms/Request/Contact/Form.php:94 ../Forms/Request/Demo/Form.php:98
+#, fuzzy
+msgid "Messages"
+msgstr "رسائل"
+
+#: ../Forms/Request/Demo/Form.php:79
+msgid "Commerce Type"
+msgstr "نوع التجارة"
+
+#: ../Forms/Resetpassword/Form.php:44
+#: ../Frontend/Controllers/Intern/Shop/Changepassword.php:42
+#, fuzzy
+msgid "Re-enter Password"
+msgstr "اعادة كتابة كلمة المرور"
+
+#: ../Frontend/Controllers/Intern/Shop/Changepassword.php:34
+msgid "Old Password"
+msgstr "كلمة المرور القديمة"
+
+#: ../Frontend/Controllers/Intern/Shop/Changepassword.php:72
+msgid ""
+"Faild to change password , new password and rentred password doesnt match"
+msgstr "لا يمكن تغيير كلمة المرور, كلمة المرور الجديدة  غير متطابقة"
+
+#: ../Frontend/Controllers/Intern/Shop/Changepassword.php:79
+msgid "Password was changed !"
+msgstr "تم تغيير كلمة المرور بنجاح"
+
+#: ../Frontend/Controllers/Intern/Shop/Changepassword.php:81
+msgid "Old Password not correct !"
+msgstr "كلمة المرور القديمة غير صحيحة"
+
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:62
+msgid "Bank Transaction Id"
+msgstr "رقم التحويل المصرفي"
+
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:68
+#, fuzzy
+msgid "Please verify inputs"
+msgstr "الرجاء التاكد من المدخلات"
+
+#: ../Frontend/Controllers/Intern/Shop/Login.php:43
+msgid "You are successufly registred please login to start your work !"
+msgstr "لقد تمت عملية التسجيل بنجاح , يرجى تسجيل الدخول لبدأ العمل"
+
+#: ../Frontend/Controllers/Intern/Shop/Login.php:68
+#: ../Frontend/Controllers/Mobile/Login.php:48
+#: ../Frontend/Controllers/Mobile/Login.php:79
+msgid "Login or password incorrect!"
+msgstr "كلمة المرور غير صحيحة"
+
+#: ../Frontend/Controllers/Intern/Shop/Login.php:94
+msgid "Forgot Your Password?"
+msgstr "نسيت كلمة المرور"
+
+#: ../Frontend/Controllers/Intern/Shop/Login.php:97
+msgid "open a new Account"
+msgstr "فتح حساب جديد"
+
+#: ../Frontend/Controllers/Intern/Shop/Newsletter.php:39
+#: ../Frontend/Controllers/Intern/Shop/Newsletter.php:51
+#, fuzzy
+msgid "Please Enter a valid email"
+msgstr "الرجاء ادخال البريد الالكتروني"
+
+#: ../Frontend/Controllers/Intern/Shop/Newsletter.php:47
+#, fuzzy
+msgid "Following email is already registered in the newsletter system."
+msgstr "البريد الالكتروني التالي تم تسجيله في نظام الرسائل الاخبارية"
+
+#: ../Frontend/Controllers/Intern/Shop/Newsletter.php:70
+msgid ""
+"The following E-Mail-Address has been successfully added to our newsletter"
+msgstr "البريد الالكتروني التالي تم اضافته بنجاح الى نظام الرسائل الاخبارية"
+
+#: ../Frontend/Controllers/Intern/Shop/Newsletter.php:72
+msgid "Cannot Registred Email"
+msgstr "لا يمكن تسجيل البريد الإلكتروني"
+
+#: ../Frontend/Controllers/Intern/Shop/Register.php:80
+#, fuzzy
+msgid "Cannot Register account please try again"
+msgstr "لا يمكن تسجيل الحساب يرجى المحاولة مرة اخرى"
+
+#: ../Frontend/Controllers/Intern/Shop/Resetpassword.php:57
+#, fuzzy
+msgid "Your Password was changed"
+msgstr "تم تغيير كلمة المرور بنجاح"
+
+#: ../Frontend/Controllers/Intern/Shop/Resetpassword.php:59
+msgid "Password not identical"
+msgstr "كلمة السر غير متطابقة"
+
+#: ../Frontend/Controllers/Intern/Shop/Address/Modify.php:36
+msgid "Modify Address"
+msgstr "تعديل العنوان"
+
+#: ../Frontend/Controllers/Mobile/Intern.php:66
+msgid "Search Car"
+msgstr "البحث على مركبة"
+
+#: ../Frontend/Controllers/Mobile/Intern.php:67
+msgid "Contact us"
+msgstr "اتصل بنا"
+
+#: ../Frontend/Controllers/Mobile/Intern.php:68
+msgid "About us"
+msgstr "من نحن"
+
+#: ../Grids/Account/DataGridView.php:44 ../Grids/Contact/DataGridView.php:40
+msgid "Register Date"
+msgstr "تاريخ التسجيل"
+
+#: ../Grids/Account/DataGridView.php:46 ../Grids/Account/DataGridView.php:75
+#: ../Grids/Contact/DataGridView.php:52
+msgid "Group"
+msgstr "مجموعة"
+
+#: ../Grids/Account/DataGridView.php:55
+#, fuzzy
+msgid "Status"
+msgstr "الحالة"
+
+#: ../Grids/Account/Document/DataGridView.php:35
+#: ../Grids/Contact/Document/DataGridView.php:29
+#, fuzzy
+msgid "Download"
+msgstr "تحميل"
+
+#: ../Grids/Account/Document/DataGridView.php:39
+#: ../Grids/Contact/Document/DataGridView.php:33
+msgid "Mail"
+msgstr "البريد الالكتروني"
+
+#: ../Grids/Account/Group/DataGridView.php:43
+msgid "Set as default"
+msgstr "تعيين كافتراضي"
+
+#: ../Grids/Account/Group/DataGridView.php:45
+#: ../Panels/Account/Group/Panel.php:40
+msgid "Default"
+msgstr "افتراضي"
+
+#: ../Grids/Contact/DataGridView.php:33
+#, fuzzy
+msgid "Full Name"
+msgstr "الاسم الكامل"
+
+#: ../Grids/MailInbox/DataGridView.php:31 ../Panels/MailInbox/Panel.php:55
+msgid "Send Date"
+msgstr "تاريخ الارسال"
+
+#: ../Grids/MailInbox/DataGridView.php:32 ../Panels/MailInbox/Panel.php:54
+msgid "Create Date"
+msgstr "تاريخ الاضافة"
+
+#: ../Grids/MailInbox/DataGridView.php:33
+#: ../Grids/MailInbox/DataGridView.php:60 ../Panels/MailInbox/Panel.php:56
+msgid "User"
+msgstr "مستخدم"
+
+#: ../Grids/MailInbox/DataGridView.php:55
+msgid "Lead"
+msgstr "مهتم"
+
+#: ../Models/Contact.php:30
+msgid "Request Contact"
+msgstr "طلب اتصال"
+
+#: ../Models/Account/Document/Model.php:226
+#: ../Models/Contact/Document/Model.php:226
+#, fuzzy
+msgid "file cannote be uploaded"
+msgstr "لا يمكن رفع الملف"
+
+#: ../Models/Notification/Account/Model.php:70
+msgid "Welcome To Our Shop"
+msgstr "مرحبا بكم في متجرنا"
+
+#: ../Models/Notification/Account/Model.php:71
+#, php-format
+msgid "Dear %s"
+msgstr "عزيزي %s"
+
+#: ../Models/Notification/Account/Model.php:73
+#, fuzzy
+msgid "Welcome to our Shop, we wish you happy times"
+msgstr "مرحبا بكم في متجرنا، نتمنى لكم أوقات سعيدة"
+
+#: ../Models/Notification/Account/Model.php:75
+#: ../Models/Notification/Account/Model.php:148
+#: ../Models/Notification/Account/Model.php:172
+#, fuzzy
+msgid "Best Regards"
+msgstr "مع أطيب التحيات"
+
+#: ../Models/Notification/Account/Model.php:87
+msgid "Reset password"
+msgstr "اعادة ارسال كلمة المرور"
+
+#: ../Models/Notification/Account/Model.php:89
+#, fuzzy
+msgid "Dear customer you can reset your password through the following link"
+msgstr "عزيزي العميل يمكنك استرجاع كلمة المرور الخاصة بك من خلال الرابط التالي"
+
+#: ../Models/Notification/Account/Model.php:91
+#, fuzzy
+msgid "Best regards"
+msgstr "مع خالص التحية والتقدير"
+
+#: ../Models/Notification/Account/Model.php:146
+msgid "Dear"
+msgstr "عزيزي"
+
+#: ../Models/Notification/Account/Model.php:147
+msgid "Your new Password is"
+msgstr "كلمة المرور الجديدة هي "
+
+#: ../Models/Notification/Account/Model.php:155
+msgid "Dear Webmaster"
+msgstr "عزيزي  مدير المتجر"
+
+#: ../Models/Notification/Account/Model.php:156
+msgid "New Payment confirmation for a Sales Order"
+msgstr "تأكيد دفع جديد خاص بطلب شراء"
+
+#: ../Models/Notification/Account/Model.php:157
+msgid "Sales Order informations"
+msgstr "معلومات طلب الشراء"
+
+#: ../Models/Notification/Account/Model.php:158
+msgid "Sales Order title"
+msgstr "عنوان طلب الشراء"
+
+#: ../Models/Notification/Account/Model.php:159
+msgid "Sales Order amount"
+msgstr "مبلغ طلب الشراء"
+
+#: ../Models/Notification/Account/Model.php:160
+msgid "Sales Order number"
+msgstr "رقم طلب الشراء"
+
+#: ../Models/Notification/Account/Model.php:162
+msgid "Confirm Payment informations"
+msgstr "تاكيد معلومات الدفع"
+
+#: ../Models/Notification/Account/Model.php:166
+msgid "Transferred amount"
+msgstr "المبلغ المحول"
+
+#: ../Models/Notification/Account/Model.php:167
+msgid "Bank Account number"
+msgstr "رقم الحساب المصرفي"
+
+#: ../Models/Notification/Account/Model.php:168
+msgid "Transaction id"
+msgstr "رقم التحويل المصرفي"
+
+#: ../Models/Notification/Account/Model.php:169
+#, fuzzy
+msgid "Payment Method name"
+msgstr "اسم طريقة الدفع"
+
+#: ../Models/Notification/Account/Model.php:170
+msgid "Payment done at"
+msgstr "تم الدفع في"
+
+#: ../Models/Notification/Account/Model.php:173
+msgid "Sales Order Payment confirmation"
+msgstr "تأكيد دفع طلب شراء"
+
+#: ../Panels/Account/Panel.php:66
+msgid "Person Information"
+msgstr "معلومات الشخص"
+
+#: ../Panels/Account/Panel.php:75
+msgid "Email 2"
+msgstr "البريد الالكتروني 2"
+
+#: ../Panels/Account/Panel.php:80
+msgid "Zipcode"
+msgstr "الرمز البريدي"
+
+#: ../Panels/Account/Panel.php:81
+#, fuzzy
+msgid "Created At"
+msgstr "تم الاضافة في"
+
+#: ../Panels/Account/Group/Panel.php:36
+msgid "Group Information"
+msgstr "معلومات المجموعة"
+
+#: ../Panels/Account/Group/Panel.php:39
+#, fuzzy
+msgid "Alias"
+msgstr "الاسم المستعار"
+
+#: ../Panels/Address/Panel.php:58
+msgid "Zip Code"
+msgstr "الرمز البريدي"
+
+#: ../Panels/Contact/Panel.php:77
+msgid "contact Information"
+msgstr "معلومات الاتصال"
+
+#: ../Panels/Contact/Panel.php:79 ../Panels/Lead/Panel.php:80
+#, fuzzy
+msgid "Company "
+msgstr "الشركة"
+
+#: ../Panels/Contact/Panel.php:80
+msgid "Company Website "
+msgstr "موقع شركة"
+
+#: ../Panels/Contact/Panel.php:81 ../Panels/Lead/Panel.php:81
+msgid "First Name"
+msgstr "الاسم الاول"
+
+#: ../Panels/Contact/Panel.php:82 ../Panels/Lead/Panel.php:82
+msgid "Last Name"
+msgstr "الاسم الاخير"
+
+#: ../Panels/Contact/Panel.php:83 ../Panels/Lead/Panel.php:83
+msgid "Date of Birth"
+msgstr "تاريخ الميلاد"
+
+#: ../Panels/Contact/Panel.php:86 ../Panels/Lead/Panel.php:88
+msgid "Create Date Time"
+msgstr "تاريخ الاضافة"
+
+#: ../Panels/Contact/Panel.php:87 ../Panels/Lead/Panel.php:89
+msgid "Update Date Time"
+msgstr "تاريخ التعديل"
+
+#: ../Panels/Lead/Panel.php:78
+msgid "Lead Information"
+msgstr "معلومات المهتم"
+
+#: ../Panels/MailInbox/Panel.php:51
+msgid "General Information"
+msgstr "معلومات عامة"
+
+#: ../Panels/MailInbox/Panel.php:57
+msgid "Person"
+msgstr "شخص"
+
+#: ../Panels/MailInbox/Panel.php:65
+msgid "Paragraph content"
+msgstr "محتوى الفقرة"
+
+#~ msgid "Set Crm Settings"
+#~ msgstr "اضافة اعدادات علاقات العملاء"
+
+#~ msgid "List Account address"
+#~ msgstr "قائمة عناوين الحساب"
+
+#~ msgid "Modify Account Document"
+#~ msgstr "تعديل وثيقة الحساب"
+
+#~ msgid "List Account Document"
+#~ msgstr "قائمة وثائق  الحساب "
+
+#~ msgid "Modify Contact Document"
+#~ msgstr "تعديل  وثيقة جهة اتصال"
+
+#~ msgid "List Contact Document"
+#~ msgstr "قائمة  وثائق جهة اتصال "
+
+#~ msgid "List all Leads"
+#~ msgstr "قائمة جميع المهتمين"
+
+#~ msgid "Show Lead Information"
+#~ msgstr "عرض معلومات المهتم"
+
+#~ msgid "Modify Lead"
+#~ msgstr "تعديل مهتم"
+
+#~ msgid "Delete Lead"
+#~ msgstr "حذف مهتم"
+
+#~ msgid "List all Groups"
+#~ msgstr "قائمة جميع المجموعات"
+
+#~ msgid "Modify Group"
+#~ msgstr "تعديل مجموعة"
+
+#~ msgid "Delete Group"
+#~ msgstr "حذف مجموعة"
+
+#~ msgid "Create new Leads Group"
+#~ msgstr "اضافة مجموعة مهتمين جديدة"
+
+#~ msgid "lead group was successully added"
+#~ msgstr "تم اضافة مجموعة مهتمين بنجاح"
+
+#~ msgid "Edit lead group"
+#~ msgstr "تعديل مجموعة مهتمين"
+
+#~ msgid "Add Lead"
+#~ msgstr "اضافة مهتم"
+
+#~ msgid "Lead was successully added"
+#~ msgstr "تم اضافة مهتم بنجاح"
+
+#~ msgid "Lead Details"
+#~ msgstr "تفاصيل المهتم"
+
+#~ msgid "Failed to convert this lead"
+#~ msgstr "خلل في تحويل المهتم"
+
+#~ msgid "Manage Leads"
+#~ msgstr "إدارة المهتمين"
+
+#~ msgid "Failed to convert this contact"
+#~ msgstr "خلل في تحويل جهة الاتصال"
+
+#~ msgid "Create new contacts Group"
+#~ msgstr "اضافة مجموعة جهة اتصال"
+
+#~ msgid "Edit contact group"
+#~ msgstr "تعديل مجموعة جهة اتصال"
+
+#, fuzzy
+#~ msgid "Add Contact"
+#~ msgstr "اضافة  جهة اتصال"
+
+#~ msgid "List All Contact source"
+#~ msgstr "قائمة جميع  مصادر جهة  الاتصال"
+
+#~ msgid "Add Contact Group"
+#~ msgstr "اضافة مجموعة جهة اتصال"
+
+#~ msgid "Add Contact Source"
+#~ msgstr "إضافة مصدر جهة الاتصال  "
+
+#, fuzzy
+#~ msgid "contact source"
+#~ msgstr " مصادر جهات الاتصال"
+
+#, fuzzy
+#~ msgid "Insert Date"
+#~ msgstr "تاريخ الإنشاء "
+
+#, fuzzy
+#~ msgid "Telephone"
+#~ msgstr "الهاتف"
+
+#, fuzzy
+#~ msgid "Insert at"
+#~ msgstr "تم الاضافة في"
+
+#, fuzzy
+#~ msgid "invalid email address"
+#~ msgstr "البريد الالكتروني غير صحيح"
+
+#~ msgid "General Settings"
+#~ msgstr "الاعدادات العامة"
+
+#~ msgid "Show all related contacts quotations , saleorders , emails"
+#~ msgstr ""
+#~ " إظهار جميع جهات الإتصال,عروض الأسعار,طلبات الشراء,الإيميلات المتعلقة"
+
+#~ msgid "Send Email On Account Registered"
+#~ msgstr "ارسل ايمايل عند تسجيل حساب جديد"
+
+#~ msgid "Send Sms On Account Registered"
+#~ msgstr "ارسل رسالة قصيرة عند تسجيل حساب جديد"
+
+#~ msgid "Send Email On Password Changed"
+#~ msgstr "ارسل ايمايل عند تغيير كلمة المرور"
+
+#~ msgid "Send Sms On Password Changed"
+#~ msgstr "ارسل رسالة قصيرة  عند تغيير كلمة المرور"
+
+#~ msgid "Use Account Activation on Registration"
+#~ msgstr "استخدم خاصية تفعيل الحسابات عند التسجيل "
+
+#~ msgid "Activation Method"
+#~ msgstr "تفعيل طريقة"
+
+#~ msgid "EMAIL"
+#~ msgstr "البريد الالكتروني"
+
+#~ msgid "SMS"
+#~ msgstr "رسالة قصيرة"
+
+#~ msgid "Registration Notification"
+#~ msgstr "تسجيل اشعارات"
+
+#~ msgid "Use Email Template on Account Registration"
+#~ msgstr "استخدم قالب البريد الالكتروني  عند تسجيل حساب"
+
+#, fuzzy
+#~ msgid "Use Sms Template on Account Registration"
+#~ msgstr "استخدم قالب الرسالة القصيرة التالية عند تسجيل حساب"
+
+#, fuzzy
+#~ msgid "Please Note That SMS Text is limited by service provider"
+#~ msgstr "يرجى مراعات ان نص الرسائل القصيرة محدود من قبل مزود الخدمة"
+
+#~ msgid "Account Activation Notification"
+#~ msgstr "اشعارات الحساب عند التفعيل"
+
+#~ msgid "Use Template to Send Email Activation"
+#~ msgstr "استخدم القالب التالي لارسال رسالة تفعيل "
+
+#~ msgid "Manage Email Templates"
+#~ msgstr "ادارة قوالب الايميلات"
+
+#, fuzzy
+#~ msgid "Use Template to Send SMS Activation"
+#~ msgstr "استخدم القالب التالي لارسال رسالة التفعيل القصيرة"
+
+#~ msgid "Forgot Password Notification"
+#~ msgstr "اشعارات نسيان كلمة المرور"
+
+#~ msgid "Use Template on Forgot Password Action"
+#~ msgstr "استخدم هذا القالب عند نسيان كلمة المرور"
+
+#~ msgid "Password Changed Notification"
+#~ msgstr "اشعارات تغيير كلمة المرور"
+
+#~ msgid "Use Template on Password Changed"
+#~ msgstr "استخدم هذا القالب عند تغيير كلمة المرور "
+
+#, fuzzy
+#~ msgid "Webmaster Notificaitons"
+#~ msgstr "اشعارات مدير المتجر"
+
+#~ msgid "Notify Admin on account registred"
+#~ msgstr "اشعار المدير عند تسجيل حساب"
+
+#~ msgid "Use Template to notidy Admin"
+#~ msgstr "استخدم هذا القالب لاشعار المدير"
+
+#~ msgid "Send Password Email Template"
+#~ msgstr "قالب ارسال كلمة السر "
+
+#~ msgid "Use Template to send password"
+#~ msgstr "استخدم هذا القالب لارسال كلمة المرور "
+
+#, fuzzy
+#~ msgid "Privacy Policy"
+#~ msgstr "نص سياسة الخصوصية"
+
+#~ msgid "Privacy Policy Text"
+#~ msgstr "نص سياسة الخصوصية"
+
+#~ msgid "Enable Privacy Policy"
+#~ msgstr "تفعيل سياسة الخصوصية"
+
+#~ msgid "Use Email Template To reply Customer after contact us submit"
+#~ msgstr "إستخدم قالب الإيمايل للرد على العملاء بعد ارسال استفسار"
+
+#~ msgid "Lead Record Numbering"
+#~ msgstr "الترقيم التسلسلي للمهتم  "
+
+#~ msgid "Like: L"
+#~ msgstr "مثل  : L"
+
+#~ msgid "Manage Contact Groups"
+#~ msgstr "ادارة مجموعات جهات الاتصال"
+
+#~ msgid "Contact Groups"
+#~ msgstr "مجموعات جهات الاتصال"
+
+#~ msgid "Manage Lead Groups"
+#~ msgstr "ادارة مجموعات المهتمين"
+
+#~ msgid "Lead Groups"
+#~ msgstr "مجموعات المهتمين"
+
+#~ msgid "List All Lead source"
+#~ msgstr "قائمة جميع مصادر المهتمين "
+
+#~ msgid "Manage Contact Sources"
+#~ msgstr "ادارة مصادر جهات الاتصال"
+
+#~ msgid "Contact Sources"
+#~ msgstr " مصادر جهات الاتصال"
+
+#~ msgid "Manage Lead Sources"
+#~ msgstr "إدارة مصادر المهتمين "
+
+#~ msgid "Lead Sources"
+#~ msgstr "مصادر المهتمين"
+
+#~ msgid "Form analysis"
+#~ msgstr "  استمارة تحليل            "
+
+#~ msgid "Form analysis Submitted"
+#~ msgstr "ارسال استمارة تحليل         "
+
+#~ msgid "Tickets"
+#~ msgstr "التذاكر"
+
+#~ msgid "Add Ticket"
+#~ msgstr "اضافة تذكرة "
+
+#~ msgid "Quotations"
+#~ msgstr " عروض الاسعار"
+
+#~ msgid "Add Quotation"
+#~ msgstr "اضافة عرض اسعار "
+
+#~ msgid "Products"
+#~ msgstr "المنتجات"
+
+#~ msgid "Projects"
+#~ msgstr "المشاريع"
+
+#~ msgid "Add Project"
+#~ msgstr "اضافة مشروع"
+
+#~ msgid "Tasks"
+#~ msgstr "المهام"
+
+#~ msgid "Add Task"
+#~ msgstr "اضافة مهمة"
+
+#~ msgid "Hosting"
+#~ msgstr "الاستضافة"
+
+#~ msgid "Mail Inbox Panel"
+#~ msgstr "البريد الوارد"
+
+#~ msgid "Add Email"
+#~ msgstr "اضافة بريد الكتروني"
+
+#~ msgid "Quick Services"
+#~ msgstr "خدمات سريعة"
+
+#~ msgid "Your account in Motors Souq will"
+#~ msgstr "حسابكم في الموتورز سوق يمكنكم"
+
+#~ msgid "1. Allow you to manage your Motors and Motors requests."
+#~ msgstr " ادارة مركباتك والطلبات"
+
+#~ msgid "2. View comments on your cars."
+#~ msgstr "مشاهدة تعليقات الزوار على مركباتك"
+
+#~ msgid "3. Receive instant notifications about new updates and activities."
+#~ msgstr " تلقي إشعارات فورية حول الأنشطة والتحديثات الجديدة ."
+
+#~ msgid "4. Add cars."
+#~ msgstr "اضافة سيارة"
+
+#~ msgid "5. Add Motor Bikes."
+#~ msgstr " اضافة دراجة نارية"
+
+#~ msgid "6. Receive latest news and hot deals."
+#~ msgstr " تلقي آخر الأخبار والعروض الحصرية."
+
+#~ msgid "7. Life stats for your ads."
+#~ msgstr "احصائيات مباشرة لإعلاناتك"
+
+#~ msgid "Don't want to register? add your motor in less than 60 seconds!!"
+#~ msgstr "لا تريد التسجيل؟ يمكنك اضافة دراجتك او سيارتك في أقل من 60 ثانية!"
+
+#~ msgid "Once you submit your post in Motors Souq"
+#~ msgstr "بمجرد تأكيد مشاركتك في موترز سوق"
+
+#~ msgid "1. Your Motor will be sent to your car make seekers & dealers."
+#~ msgstr "1. سيتم ارسالة سياراتك الى الباحثين عن السيارات وتجار السيارات"
+
+#~ msgid "2. Your Motor ad will posted in all Motors Souq media channels."
+#~ msgstr ""
+#~ "2. سيتم نشر اعلانك في جميع شبكات التسويق الإلكتروني الخاصة بموتورز سوق"
+
+#~ msgid "3. Your Motor ad will be posted to over 100,000 visitor to the site."
+#~ msgstr "3. سوف يتم نشر إعلانك لأكثر من 100،000 زائر للموقع."
+
+#~ msgid "Dont mis the high Opportunities to sell your motor in 24 hours."
+#~ msgstr "لا تدع الفرصة تفوتك في بيع مركبتك خلال 24 ساعة!"
+
+#, fuzzy
+#~ msgid ""
+#~ "Cannot activate this Account , activation code is expired or Account is "
+#~ "already activated"
+#~ msgstr ""
+#~ "لا يمكن تفعيل هذا الحساب, اما ان تكون مدة صلاحية رمز التفعيل قد انتهت او "
+#~ "تم تفعيل الحساب من قبل"
+
+#, fuzzy
+#~ msgid "Your Account is activated now , please login"
+#~ msgstr "لقد تم تفعيل حسابك الان, يرجى تسجيل الدخول"
+
+#, fuzzy
+#~ msgid "Cannot Find account, please check your email"
+#~ msgstr ""
+#~ "لا يمكن العثور على الحساب، يرجى التحقق من البريد الإلكتروني الخاص بك"
+
+#~ msgid "This account is already activated"
+#~ msgstr "تم تفعيل الحساب "
+
+#~ msgid ""
+#~ "New Activation code was sent to your email , please check your mail box "
+#~ "and try to activate your account"
+#~ msgstr ""
+#~ "تم إرسال رمز التفعيل الجديد إلى البريد الإلكتروني الخاص بك، يرجى مراجعة "
+#~ "صندوق البريد الخاص بك ومحاولة تفعيل حسابك"
+
+#, fuzzy
+#~ msgid "Error while sending a new activation code please try again later"
+#~ msgstr ""
+#~ "خطأ أثناء إرسال رمز التفعيل الجديدة يرجى المحاولة مرة أخرى في وقت لاحق"
+
+#~ msgid "Request Demo"
+#~ msgstr "طلب نسخة تجريبية"
+
+#~ msgid "Welcome to our Shop"
+#~ msgstr "مرحبا بكم في متجرنا"
+
+#~ msgid "Activation code is %s"
+#~ msgstr "رمز التفعيل هو%s"
+
+#~ msgid "File to upload"
+#~ msgstr "ملف للرفع"
+
+#, fuzzy
+#~ msgid "Account Invoices Details"
+#~ msgstr "تفاصيل الحساب"
+
+#, fuzzy
+#~ msgid "Account Quotation Details"
+#~ msgstr "تفاصيل الحساب"
+
+#, fuzzy
+#~ msgid "Related Quotation"
+#~ msgstr " عروض الاسعار المتعلقة"
+
+#~ msgid "Manage Stages"
+#~ msgstr "إدارة المراحل"
+
+#~ msgid "List All Account stage"
+#~ msgstr "قائمة جميع مراحل الحسابات"
+
+#~ msgid "Modify Stage"
+#~ msgstr "تعديل مرحلة"
+
+#~ msgid "List All Contact stage"
+#~ msgstr "قائمة  جميع  مراحل جهات الاتصال"
+
+#~ msgid "Manage Account Stages"
+#~ msgstr "إدارة مراحل الحسابات"
+
+#~ msgid "Account Stages"
+#~ msgstr " مراحل الحساب"
+
+#~ msgid "Add New Stage"
+#~ msgstr "اضافة مرحلة جديدة"
+
+#~ msgid "Manage Contact Stages"
+#~ msgstr "إدارة مراحل جهات الاتصال"
+
+#~ msgid "Contact Stages"
+#~ msgstr " مراحل جهة الاتصال"
+
+#~ msgid "Stage"
+#~ msgstr "المرحلة"
+
+#~ msgid "Assigned To Group"
+#~ msgstr " موجه الى مجموعة"
+
+#~ msgid "Add Contact Stage"
+#~ msgstr "اضافة مرحلة جهة اتصال"
+
+#, fuzzy
+#~ msgid "By Creating an account"
+#~ msgstr "شاهده صاحب الحساب"
+
+#~ msgid "you will be able to shop faster"
+#~ msgstr "ترغب في ربطها بمتجرك الإلكتروني؟"
+
+#, fuzzy
+#~ msgid "be up to date on an orders status and keep track of the orders"
+#~ msgstr "و تتبع شحناتكم و طلباتكم"
+
+#~ msgid "E-mail"
+#~ msgstr "الريد الالكتروني"
+
+#, fuzzy
+#~ msgid "Conatct Us Form Submitted"
+#~ msgstr "تم اعتماد طلبكم"
+
+#, fuzzy
+#~ msgid "Dear Wemaster"
+#~ msgstr "عزيزي العميل"
+
+#, fuzzy
+#~ msgid "New Contact form was submited"
+#~ msgstr "تم اعتماد طلبكم"
+
+#~ msgid "Informations"
+#~ msgstr "معلومات"
+
+#, fuzzy
+#~ msgid "Best Regards "
+#~ msgstr "مع خالص التحية والتقدير"

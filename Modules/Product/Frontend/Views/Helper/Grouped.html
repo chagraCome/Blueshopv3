@@ -1,0 +1,27 @@
+{if $product->isGrouped()}
+<figure class="r_corners photoframe tr_all_hover type_2 shadow relative clearfix">
+    <div  style="padding: 0px; min-height: 30px">
+         <h2 class="tt_uppercase color_dark m_bottom_30">{'Products included in the offer'|tr}</h2>
+        <div class="amh-container">
+            {foreach $product->getGroupedProducts() as $groupedProduct}
+            <div class="amh-1_5">
+                <img class="amh-full-width-rp" style="width: 100%;  box-shadow: 0px 0px 0px #989898;"  
+                src="{$groupedProduct->getFirstBig()|default:'media/noimage.jpg'}" height="120"  alt="{$groupedProduct->title}" />
+            </div>
+            <div class="amh-4_5 amh-right">
+                <h2 class="color_dark fw_medium m_bottom_10" style="font-size: 18px;">{$groupedProduct->getTitle()}</h2>
+                <p>
+                {$groupedProduct->getShortDesc(150)}
+                </p> 
+                <div class="product_price">{'This product is also included in the offer,'|tr}&nbsp;{'his unit price is'|tr}: 
+                <span style="color:red; font-weight: bold;">{$groupedProduct->getSalePrice()|price}<span></div>
+            </div>
+               <br/>
+    <div style="clear:both"></div>
+    <br/>
+    <hr/><br/>
+    {/foreach}
+    </div>
+ </div>
+   </figure>
+ {/if}

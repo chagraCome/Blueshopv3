@@ -1,0 +1,225 @@
+<fieldset>
+    <legend>{'Information'|tr}</legend>
+    <div class="{$class}">{$message}</div>
+</fieldset>
+
+<fieldset>
+    <legend> {'General settings'|tr} </legend>
+
+    <div class="panel">
+        <form name="general_settings" action="" method="post"
+              style="display: inline" enctype="multipart/form-data">
+            {fieldset name="shop_property" title='General information'|tr}
+            <table width="100%" cellpadding="3" cellspacing="0">
+                <tr>
+                    <td width="130"><label for="shop_name">{'Website name'|tr}:</label>
+                    </td>
+                    <td><input type="text" name="shop_name" id="shop_name"
+                               value="{$config->getValue('name_'|cat:{$current_lang})}" size="60" /> ({'Very important for search engine'|tr})</td>
+                </tr>
+                <tr>
+                    <td valign="top"><label for="shop_description">{'Website description'|tr}:</label>
+                    </td>
+                    <td><textarea rows="5" cols="57" name="shop_description"
+                                  id="shop_description">{$config->getValue('description_'|cat:{$current_lang})}</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top"><label for="shop_keywords">{'Website keywords'|tr}:</label>
+                    </td>
+                    <td><input type="text" name="shop_keywords" id="shop_keywords"
+                               value="{$config->getValue('keywords_'|cat:{$current_lang})}" size="60" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="google_analytic_code">{'Google Analytics Code'|tr}:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="google_analytic_code" id="google_analytic_code" value="{$config->google_analytic_code}" size="10" /> {'Example'|tr}: UA-XXXXX-X
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top"><label for="shop_owner">{'Website owner'|tr}:</label>
+                    </td>
+                    <td><input type="text" name="shop_owner" id="shop_owner"
+                               value="{$config->owner}" size="60" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="shop_address">{'Address'|tr}:</label>
+                    </td>
+                    <td><textarea rows="3" cols="57" name="shop_address"
+                                  id="shop_address">{$config->adress}</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="shop_tel">{'Telephone'|tr}:</label>
+                    </td>
+                    <td><input type="text" name="shop_tel" id="shop_tel"
+                               value="{$config->tel}" dir="ltr" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="shop_fax">{'Fax'|tr}:</label>
+                    </td>
+                    <td><input type="text" name="shop_fax" id="shop_fax"
+                               value="{$config->fax}" dir="ltr" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="shop_mobile">{'Mobile'|tr}:</label>
+                    </td>
+                    <td><input type="text" name="shop_mobile" id="shop_mobile"
+                               value="{$config->mobile}" dir="ltr" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="shop_email">{'Email Address'|tr}:</label>
+                    </td>
+                    <td><input type="text" name="shop_email" id="shop_email"
+                               value="{$config->email}" size="60" dir="ltr" />
+                    </td>
+                </tr>
+            </table>
+            {/fieldset} 
+            {fieldset name="shop_settings" title='Other settings'|tr}
+            <table width="100%" cellpadding="3" cellspacing="0">
+                <tr>
+                    <td><input type="checkbox" name="shop_url_friendly"
+                               id="shop_url_friendly" value="1" {checked controller=$config->url_friendly}
+                        /><label for="shop_url_friendly">{'URL friendly'|tr}</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="shop_rss" id="shop_rss"
+                               value="1" {checked controller=$config->rss} /><label
+                               for="shop_rss">{'RSS'|tr}</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="shop_offline" id="shop_offline"
+                               value="1" {checked controller=$config->shop_offline} /><label
+                               for="shop_offline">{'Shop Offline'|tr}</label>&nbsp;
+                        <a href="admin.php?module=cms&page=page-modify&id=15">{'Modify Offline Page'|tr}</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="offline_ip">{'Open Shop Only for ip'|tr}:</label>
+                        <input type="text" name="offline_ip" id="offline_ip"
+                               value="{$config->offline_ip}" dir="ltr" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label >{'Disable Mouse Right click to protect product images'|tr}:</label>
+                        <select  name="disable_image" >
+
+
+
+                            {if $config->disable_image eq 1}
+                            <option value="0" >{'No'|tr}</option>
+                            <option value="1" selected>{'Yes'|tr}</option>
+
+                            {elseif $config->disable_image eq 0}
+                            <option value="0" selected>{'No'|tr}</option>
+                            <option value="1" >{'Yes'|tr}</option>
+
+                            {else}
+                            <option value="0">{'No'|tr}</option>
+                            <option value="1" >{'Yes'|tr}</option>
+                            {/if}
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            {/fieldset} 
+            {fieldset name="save_data" title='Social Networks'|tr}
+            <table width="100%" cellpadding="3" cellspacing="0">
+                <tr>
+                    <td><label for="facebookAccount">{'Facebook'|tr}</label>&nbsp;</td>
+                    <td>
+                        <input type="text" name="facebookAccount" id="facebookAccount" size="60"  value="{$config->facebookAccount}" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="twitterAccount">{'Twitter'|tr}</label>&nbsp;</td>
+                    <td>
+                        <input type="text" name="twitterAccount" id="twitterAccount" size="60"  value="{$config->twitterAccount}" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="googleplusAccount">{'Google+'|tr}</label>&nbsp;
+                    </td>
+                    <td>
+                        <input type="text" name="googleplusAccount" id="googleplusAccount" size="60" value="{$config->googleplusAccount}" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="instagramAccount">{'Instagram'|tr}</label>&nbsp;</td>
+                    <td>
+                        <input type="text" name="instagramAccount" id="instagramAccount" size="60"  value="{$config->instagramAccount}" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="youtubeAccount">{'Youtube'|tr}</label>&nbsp;</td>
+                    <td>
+                        <input type="text" name="youtubeAccount" id="facebookAccount"  size="60" value="{$config->youtubeAccount}" />
+                    </td>
+                </tr>
+            </table>
+            {/fieldset}
+            {fieldset name="save_data" title='Error Management'|tr}
+            <table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><label for="show_errors">{'Show errors'|tr}</label>&nbsp;</td>
+                    <td>
+                        <select name="show_errors">
+                            <option value="0" {if $config->show_errors == 0}selected="selected"{/if}>{'No'|tr}</option>
+                            <option value="1" {if $config->show_errors == 1}selected="selected"{/if}>{'Yes'|tr}</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="error_type">{'Error Type'|tr}</label>&nbsp;</td>
+                    <td>
+                        <select name="error_type">
+                            <option value="32767" {if $config->error_type == '32767'}selected="selected"{/if}>E_ALL</option>
+                            <option value="32765" {if $config->error_type == '32765'}selected="selected"{/if}>E_ALL ^ E_WARNING</option>
+                            <option value="32757" {if $config->error_type == '32757'}selected="selected"{/if}>E_ALL ^ E_WARNING ^ E_NOTICE</option>
+                            <option value="30709" {if $config->error_type == '30709'}selected="selected"{/if}>E_ALL ^ E_WARNING ^ E_NOTICE ^ E_STRICT</option>
+                            <option value="22517" {if $config->error_type == '22517'}selected="selected"{/if}>E_ALL ^ E_WARNING ^ E_NOTICE ^ E_STRICT ^ E_DEPRECATED</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            {/fieldset}
+            {fieldset name="shop_settings" title='Shop Logo'|tr}
+            <table width="100%" cellpadding="3" cellspacing="0">
+                {if $shop_logo != null}
+                <tr>
+                    <td>
+                        <img src="{$shop_logo}"/>
+                    </td>
+                </tr>
+                {else}
+                <tr>
+                    <td>
+                        {$logo_uploader}
+                    </td>
+                </tr>
+                {/if}
+
+            </table>
+            {/fieldset} 
+            {fieldset name="shop_settings" title='Navigation'|tr}
+            <table width="100%" cellpadding="3" cellspacing="0">
+                <tr>
+                    <td><input type="submit" name="save" value="{'Save'|tr}" class="ButtonSave" /></td>
+                </tr>
+            </table>
+            {/fieldset}
+
+
+        </form>
+    </div>
+</fieldset>

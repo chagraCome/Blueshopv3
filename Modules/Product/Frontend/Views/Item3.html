@@ -1,0 +1,55 @@
+<figure class="r_corners photoframe shadow relative d_inline_b d_md_block d_xs_inline_b tr_all_hover">
+    {if $item->isOffered()}
+    {if $item->getPercentSaveAmount() > 0}
+    <span class="hot_stripe type_2">
+        <img src="{$skin_path}/images/sale_product_type_2.png" alt="" style="width: auto;height: auto;">
+    </span>
+    {/if}
+    {elseif  $item->is_new}
+    <span class="hot_stripe type_2">
+        <img src="{$skin_path}/images/hot_product_type_2.png" alt="" style="width: auto;height: auto;">
+    </span>
+    {/if}
+    <div class="d_block relative wrapper pp_wrap">
+        <a href="{$item->getUrl()}"> <img src="{$item->getFirstThumb()|default:'media/noimage.jpg'}" class="tr_all_hover" alt="{$item->getTitle()}"></a>
+        <span data-popup="{$item->getPreviewUrl()}" class="box_s_none button_type_5 color_light r_corners tr_all_hover d_xs_none">
+            <a rel="{$item->getPreviewUrl()}" class="quick-view  hidden-xs" style="color: inherit;"> {'Quick View'|tr} </a>
+        </span>
+    </div>
+    <!--description and price of product-->
+    <figcaption class="t_xs_align_l">
+        <h5 class="m_bottom_10">
+            <a href="{$item->getUrl()}" class="color_dark ellipsis" style="display: block; width: 235px; white-space: nowrap;">{$item->getTitle()|truncate:28:"..."}
+            </a>
+        </h5>
+        <div class="clearfix">
+            <p class="scheme_color f_left f_size_large m_bottom_15">{$product->getSalePrice()|price}</p>
+            <!--rating-->
+        </div>
+        <figcaption>
+            <!-- add to cart -->
+            <a class="{if !$item->inCart()}ajax_add_to_cart_button {/if}product-btn cart-button" data-id-product="{$item->getId()}" title="{'Add to cart'|tr}">
+                {if $item->inCart()}
+                <i class="fa fa-check"></i>
+                {else}
+                <span>{'Add to cart'|tr}</span>
+                <i class="fa fa-check" style='display:none'></i>
+                {/if}
+                <i class="fa fa-times" style='display:none'></i>
+                <i class="fa fa-circle-o-notch fa-spin" style='display:none'></i>
+            </a>
+            <!-- add to whishlist -->
+            <a class="{if !$item->inWhishlist()}add_to_whishlist ajax_add_to_whishlist_button{/if} product-btn"  data-id-product="{$item->getId()}" title="{'Add to Wishlist'|tr}">
+                <i class="fa fa-check" style='display:none'></i>
+                <i class="fa fa-heart-o"></i>
+                <i class="fa fa-circle-o-notch fa-spin" style='display:none'></i>
+            </a>
+            <a class="{if !$item->inCompare()}add_to_compare  ajax_add_to_compare_button{/if} product-btn" data-id-product="{$item->getId()}" title="{'Add to Compare'|tr}">
+                <i class="fa fa-check" style='display:none'></i>
+                <i class="fa fa-copy"></i>
+                <i class="fa fa-circle-o-notch fa-spin" style='display:none'></i>
+            </a>
+        </figcaption>
+    </figcaption>
+
+</figure>

@@ -1,0 +1,162 @@
+<script type="text/javascript" src="Javascripts/jquery.lightbox-0.5.min.js"></script>
+<div class="core_content">
+    <div style="padding: 10px">
+        <div  style="padding: 5px; float: left; width: 520px">
+            <img id="bigImg" src="{$product->getFirstBig()|default:'media/noimage.jpg'}" width="480"  alt="{$product->title}" class="imageshadow" />
+        </div>
+        <div style="padding: 5px;">
+            <table width="410" class="tableborder" >
+                <tr class="silver_odd">
+                    <td>{'Car number'|tr}:</td>
+                    <td>{$product->getNumber()|default:'N/A'}</td>
+                </tr>
+                <tr>
+                    <td>{'Category'|tr}:</td>
+                    <td>{$product->getCategory()|default:'N/A'}</td>
+                </tr>
+                {if $product->getSet()->getGeneralAttributes()}
+                {foreach $product->getSet()->getGeneralAttributes() as $key => $attribute}
+                <tr {if $key == 0 || ($key % 2) == 0} class="silver_odd" {/if}>
+                    <td>{$attribute->getLabel()}: </td>
+                    <td>{$attribute->getFrontEndComponent($product)}</td>
+                </tr>
+                {/foreach}
+                {/if}
+                <tr>
+                    <td colspan="2" style="padding: 0"><div style="min-width: 250px; color: white;font-size:1.7em; margin: 10px 0 0 0; height: 30px; background-color: #BA0000; padding: 10px">{'Price'|tr}: {$product->price|price:$cfactor|default:''} {$selected_currency}   {if $product->sold} ({'Sold'|tr}) {/if} ({$product->getAttributeValue('realstate_marketing_mode')})</div></td>
+                </tr>
+            </table>
+            <!--<form name="shoppingcart" method="get" action="" style="margin-top: 30px">
+                <input type="hidden" name="module" value="cart" />
+                <input type="hidden" name="page" value="add" />
+                <input type="hidden" name="id" value="{$product->getId()}" />
+                <input type="text" name="qnt" style="height: 22px" value="1" size="3" />
+                <input type="submit" name="addtocart" value="{'Buy Now!'|tr}" class="button-general bgreen" />
+            </form>-->
+        </div>
+
+        <div style="clear: both; padding-bottom: 20px"></div>
+        <p>
+            {$product->getDescription()|htmlentities}<br /><br /></p>
+        <div class="gray_background" style="height: 24px">
+            <ul class="menu_horiz_list"  >
+                <li ><a href="javascript:popup('index.php?module=product&amp;page=detail&amp;event=print&amp;id={$product->id}', 860, 640);" style="height: 32px" class="print">{'Print'|tr}</a></li>
+                <li><a href="index.php?module=vehicle&amp;page=sendtofriend&amp;id={$product->id}" class="sendtofriend">{'Send to friend'|tr}</a></li>
+                {if $bookmark == 1}<li><a href="index.php?module=product&amp;page=detail&amp;event=bookmark&amp;id={$product->id}" class="bookmarkLinkDelete">{'Delete bookmark'|tr}</a></li>
+                {else}<li><a href="index.php?module=product&amp;page=detail&amp;event=bookmark&amp;id={$product->id}" class="bookmarkLinkAdd">{'Add bookmark'|tr}</a></li>{/if}
+                <li><a href="http://www.facebook.com/share.php?u=http://{$smarty.server.HTTP_HOST|escape:'url'}{$smarty.server.REQUEST_URI|escape:'url'}" class="facebookLink" target="_blank">{'Add to Facebook'|tr}</a></li>
+                <li><a href="http://twitter.com/share?url=http://{$smarty.server.HTTP_HOST|escape:'url'}{$smarty.server.REQUEST_URI|escape:'url'}" class="twitterLink" target="_blank">{'Add to Twitter'|tr}</a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<br />
+{if count($product->images) > 1}
+<div class="core_content" style="min-height: 100px">
+    <div style="clear: both;"></div>
+    <div  class="smallimages gray_background">
+        {foreach $product->images as $key => $img}
+        {if $img}<a href="{$img->big()}" id="small_{$key}"><img style="cursor: pointer; padding: 2px" src="{$img->thumb()}" class="imageBorder" width="100" alt="{'car thumb'|tr} {$key+1}" onmouseover="changeImage('{$img}')" /></a>{/if}
+        {/foreach}
+    </div>
+
+</div>
+<br />
+{/if}
+<div style="clear: both;"></div>
+
+{if $product->getOwner()}
+<div class="core_content" style="padding: 10px">
+    <table width="100%">
+        <tr>
+            <td width="50%">
+                <h1 class="page_title" >{'Owner Informations'|tr}</h1>
+                <table  class="search_table tableborder" style="padding: 3px; border: none; margin-top: 10px; width: 100%">
+                    <tr class="silver_odd">
+                        <td style="width: 10%">{'Name'|tr} :</td>
+                        <td>{$product->getOwner()->getName()|default:'N/A'}</td>
+                    </tr>
+                    <tr>
+                        <td>{'Mobile'|tr}:</td>
+                        <td>{$product->getOwner()->getMobile()|default:'N/A'}</td>
+                    </tr>
+                    <tr class="silver_odd">
+                        <td>{'Telephone'|tr} :</td>
+                        <td>{$product->getOwner()->getTelefon()|default:'N/A'}</td>
+                    </tr>
+                    <tr>
+                        <td>{'Email'|tr} :</td>
+                        <td>{$product->getOwner()->getEmail1()|default:'N/A'}</td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+</div>
+<br />
+{/if}
+{if $product->getSet()->getGeneralAttributes()}
+<div class="core_content" style="padding: 10px; min-height: 30px">
+    <table width="100%">
+        <tr>
+            <td>
+                <h1 class="page_title" >{'Product Information'|tr}</h1>
+                <table  class="search_table tableborder" style="padding: 3px; border: none; margin-top: 10px; width: 100%">
+
+                    {foreach $product->getSet()->getGeneralAttributes() as $key => $attribute}
+                    <tr {if $key == 0 || ($key % 2) == 0} class="silver_odd" {/if}>
+                        <td style="width: 10%">{$attribute->getLabel()}: </td>
+                        <td>{$attribute->getFrontEndComponent($product)}</td>
+                    </tr>
+                    {/foreach}
+                </table>
+
+            </td>
+        </tr>
+    </table>
+</div>
+{/if}
+{foreach $product->getSet()->getViews() as $view}
+<br />
+<div class="core_content" style="padding: 10px; min-height: 30px">
+    <table width="100%">
+        <tr>
+            <td>
+                <h1 class="page_title" >{$view->getName()}</h1>
+                <table  class="search_table tableborder" style="padding: 3px; border: none; margin-top: 10px; width: 100%">
+
+                    {foreach $view->getAttributes() as $key => $attribute}
+                    <tr {if $key == 0 || ($key % 2) == 0} class="silver_odd" {/if}>
+                        <td style="width: 10%">{$attribute->getLabel()}: </td>
+                        <td>{$attribute->getFrontEndComponent($product)}</td>
+                    </tr>
+                    {/foreach}
+                </table>
+
+            </td>
+        </tr>
+    </table>
+</div>
+{/foreach}
+{if $product->getRelatedProducts()}
+<br />
+<div class="core_content">
+    <h3 class="active">{'Related Products'|tr}</h3>
+    {foreach $product->getRelatedProducts() as $item}
+    {if $layout == 1 || $layout=='grid'}
+    {include file='Modules/Product/Frontend/Views/ItemList.html'}
+    {else}
+
+    {include file='Modules/Product/Frontend/Views/Item.html'}
+    {/if}
+    {/foreach}
+    <div style="clear: both;"></div>
+    <br /><br />
+</div>
+
+{/if}
+
+
+

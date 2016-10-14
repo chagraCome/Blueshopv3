@@ -1,0 +1,84 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Paypal\n"
+"POT-Creation-Date: 2014-04-17 16:47+0100\n"
+"PO-Revision-Date: 2014-04-17 16:54+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _t;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../key_words_html.php:3
+msgid "Information"
+msgstr "Informations"
+
+#: ../key_words_html.php:4
+msgid "List Payment Methods"
+msgstr "Liste des méthodes de paiement"
+
+#: ../key_words_html.php:5
+msgid "Add new Payment Methods"
+msgstr "Ajouter une méthodes de paiement"
+
+#: ../Backend/Boot.php:23 ../Backend/Controllers/Settings.php:27
+msgid "Manage Paypal Settings"
+msgstr "Gérer les paramètres Paypal"
+
+#: ../Backend/Controllers/Settings.php:26
+msgid "Paypal Settings"
+msgstr "Paramètres de Paypal"
+
+#: ../Backend/Controllers/Settings.php:45
+msgid "Business Email"
+msgstr "E-mail professionnel"
+
+#: ../Backend/Controllers/Settings.php:52
+msgid "Test Mode"
+msgstr "Mode test"
+
+#: ../Backend/Controllers/Settings.php:56
+msgid "Currency"
+msgstr "Devises"
+
+#: ../Backend/Controllers/Settings.php:63
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: ../Backend/Controllers/Settings.php:77
+msgid "Data was successfully saved"
+msgstr "Les données ont été sauvegardées avec succès"
+
+#: ../Backend/Controllers/Settings.php:79
+msgid "Please check inputs."
+msgstr "S'il vous plaît vérifier les entrées."
+
+#: ../Frontend/Controllers/Confirm.php:69
+msgid "Sales order was Not completed"
+msgstr "Commande n'a pas été complétée"
+
+#: ../Frontend/Controllers/Confirm.php:71
+#: ../Frontend/Controllers/Confirm.php:98
+msgid "Your Sales Order was not paid"
+msgstr "Votre commande n'a pas été payé"
+
+#: ../Frontend/Controllers/Confirm.php:78
+msgid "Sales order was canceled by user during payment"
+msgstr "Commande  a été annulée par l'utilisateur lors du paiement"
+
+#: ../Frontend/Controllers/Confirm.php:81
+msgid "Your Sales Order was canceled"
+msgstr "Votre commande a été annulée"
+
+#: ../Frontend/Controllers/Confirm.php:91
+msgid "Sales order was Paid"
+msgstr "Commande  a été payé"
+
+#: ../Frontend/Controllers/Confirm.php:95
+msgid "Sales order was not paid"
+msgstr "Commande  n'a pas été payé"

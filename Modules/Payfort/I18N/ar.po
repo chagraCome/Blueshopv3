@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: modules\n"
+"POT-Creation-Date: 2016-02-10 15:35+0100\n"
+"PO-Revision-Date: 2016-02-10 15:39+0100\n"
+"Last-Translator: Amir Cherif <amir.cherif@amhsoft.com>\n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../Backend/Boot.php:23 ../Backend/Controllers/Settings.php:27
+msgid "Manage Payfort Settings"
+msgstr "إدارة إعدادات Payfort"
+
+#: ../Backend/Controllers/Settings.php:26
+msgid "Payfort Settings"
+msgstr "إعدادات Payfort"
+
+#: ../Backend/Controllers/Settings.php:45
+msgid "Merchant affiliation Name (PSPID)"
+msgstr "اسم التاجر الانتماء (PSPID)"
+
+#: ../Backend/Controllers/Settings.php:50
+msgid "SHA1-IN-Phrase"
+msgstr "SHA1-IN-Phrase"
+
+#: ../Backend/Controllers/Settings.php:55
+msgid "SHA1-OUT-Phrase"
+msgstr "SHA1-OUT-Phrase"
+
+#: ../Backend/Controllers/Settings.php:61
+msgid "Test Mode"
+msgstr "وضع اختباري"
+
+#: ../Backend/Controllers/Settings.php:65
+msgid "Currency"
+msgstr "العملة"
+
+#: ../Backend/Controllers/Settings.php:72
+msgid "Save"
+msgstr "حفظ"
+
+#: ../Backend/Controllers/Settings.php:86
+msgid "Data was successfully saved"
+msgstr "تم حفظ المعلومات بنجاح"
+
+#: ../Backend/Controllers/Settings.php:88
+msgid "Please check inputs."
+msgstr "يرجى التحقق من المدخلات"
+
+#: ../Frontend/Controllers/Confirm.php:69
+msgid "Sales order was Not completed"
+msgstr "لم يتم اكمال طلب الشراء"
+
+#: ../Frontend/Controllers/Confirm.php:71
+#: ../Frontend/Controllers/Confirm.php:98
+msgid "Your Sales Order was not paid"
+msgstr "طلب الشراء الخاص بك لم يتم دفعه"
+
+#: ../Frontend/Controllers/Confirm.php:78
+msgid "Sales order was canceled by user during payment"
+msgstr "تم الغاء طلب الشراء من طرف العميل خلال عملية الدفع"
+
+#: ../Frontend/Controllers/Confirm.php:81
+msgid "Your Sales Order was canceled"
+msgstr "طلب الشراء الخاص بك تم الغاؤه"
+
+#: ../Frontend/Controllers/Confirm.php:91
+msgid "Sales order was Paid"
+msgstr "طلب الشراء الخاص بك تم دفعه"
+
+#: ../Frontend/Controllers/Confirm.php:95
+msgid "Sales order was not paid"
+msgstr "طلب الشراء لم يتم دفعه"
+
+#: ../key_words_html.php:3
+msgid "Information"
+msgstr "اعلام"
+
+#: ../key_words_html.php:4
+msgid "List Payment Methods"
+msgstr "قائمة طرق الدفع"
+
+#: ../key_words_html.php:5
+msgid "Add new Payment Methods"
+msgstr "إضافة طريقة دفع جديدة"
+
+#~ msgid "Business Email"
+#~ msgstr "البريد الالكتروني"
+
+#~ msgid "Payment"
+#~ msgstr "طرق الدفع"

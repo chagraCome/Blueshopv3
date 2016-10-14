@@ -1,0 +1,167 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cms\n"
+"POT-Creation-Date: 2014-03-19 14:58+0100\n"
+"PO-Revision-Date: 2014-04-26 12:49+0100\n"
+"Last-Translator: Montassar <montassarelaid@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../key_words_html.php:3 ../key_words_html.php:7 ../key_words_html.php:11
+#: ../key_words_html.php:15
+msgid "Information"
+msgstr "information"
+
+#: ../key_words_html.php:4 ../key_words_html.php:8 ../key_words_html.php:12
+#: ../Backend/Controllers/Add.php:41 ../Forms/Form.php:33
+msgid "Add new Comment"
+msgstr "Ajouter un commentaire"
+
+#: ../key_words_html.php:5 ../key_words_html.php:9 ../key_words_html.php:13
+#: ../Backend/Boot.php:42
+msgid "List Comments"
+msgstr "Liste des commentaires"
+
+#: ../key_words_html.php:16
+msgid "List Quotation"
+msgstr "liste devis"
+
+#: ../key_words_html.php:17
+msgid "List Sales Order"
+msgstr "Liste de Commande"
+
+#: ../key_words_html.php:18
+msgid "List Invoices"
+msgstr "Liste de Factures"
+
+#: ../Backend/Boot.php:38
+msgid "Comment Module"
+msgstr "Module de Commentaire"
+
+#: ../Backend/Boot.php:39
+msgid "Add Comment"
+msgstr "  Ajoutez Commentaire"
+
+#: ../Backend/Boot.php:40
+msgid "Delet Comment"
+msgstr "Supprimez  un commentaire"
+
+#: ../Backend/Boot.php:41 ../Backend/Controllers/Detail.php:47
+#: ../Backend/Controllers/Detail.php:57
+msgid "Comment Details"
+msgstr " Détails de commentaire"
+
+#: ../Backend/Boot.php:43
+msgid "Edit Comment"
+msgstr "Modifier le Commentaire"
+
+#: ../Backend/Controllers/Add.php:59 ../Backend/Controllers/Modify.php:53
+msgid "Please check inputs."
+msgstr "S'il vous plaît vérifier les entrées."
+
+#: ../Backend/Controllers/Detail.php:73
+msgid "Reply"
+msgstr "Réponse"
+
+#: ../Backend/Controllers/Detail.php:86
+msgid "Reply was successfully added"
+msgstr "La réponse a été  ajoutée avec succès"
+
+#: ../Backend/Controllers/Detail.php:96
+msgid "Reply From"
+msgstr "Réponse De"
+
+#: ../Backend/Controllers/Detail.php:98
+msgid "Comment "
+msgstr "Commentaire"
+
+#: ../Backend/Controllers/Detail.php:100
+msgid "Post Date"
+msgstr "Date de publication"
+
+#: ../Backend/Controllers/Detail.php:101
+msgid "Author"
+msgstr "L'auteur"
+
+#: ../Backend/Controllers/List.php:38
+msgid "List comments"
+msgstr "Liste des commentaires"
+
+#: ../Backend/Controllers/Modify.php:28
+msgid "Modify Comment"
+msgstr "Modifier Commentaire"
+
+#: ../Forms/Form.php:34 ../Grids/DataGridView.php:38 ../Panels/Panel.php:26
+msgid "Subject"
+msgstr "Sujet"
+
+#: ../Forms/Form.php:39 ../Forms/Reply/Form.php:30 ../Panels/Panel.php:32
+msgid "Comment"
+msgstr "Commentaire"
+
+#: ../Forms/Form.php:42 ../Panels/Panel.php:30
+msgid "Is Public"
+msgstr " Publique"
+
+#: ../Forms/Form.php:45 ../Forms/Reply/Form.php:35
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: ../Grids/DataGridView.php:43 ../Panels/Panel.php:27
+msgid "Insert Date"
+msgstr "Date d'insertion"
+
+#: ../Grids/DataGridView.php:48 ../Panels/Panel.php:28
+msgid "Author Name"
+msgstr "Nom de l'auteur"
+
+#: ../Grids/DataGridView.php:53
+msgid "Public viewed"
+msgstr "vu en public"
+
+#: ../Grids/DataGridView.php:57
+msgid "User viewed"
+msgstr "vu par l'utlisateur"
+
+#: ../Grids/DataGridView.php:61 ../Grids/DataGridView.php:87
+msgid "Public"
+msgstr "Public"
+
+#: ../Grids/DataGridView.php:65
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../Grids/DataGridView.php:72
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../Grids/DataGridView.php:84
+msgid "Public Viewed"
+msgstr "vu en public"
+
+#: ../Panels/Panel.php:29
+msgid "User Seen"
+msgstr "vu par l'utlisateur"
+
+#: ../Panels/Panel.php:31
+msgid "Public Seen"
+msgstr "vu en public"
+
+#, fuzzy
+#~ msgid "Add new Request"
+#~ msgstr "إضافة طلب جديد"
+
+#, fuzzy
+#~ msgid "List Requests"
+#~ msgstr "قائمة الطلبات"
+
+#, fuzzy
+#~ msgid "Show Box Information"
+#~ msgstr "عرض المعلومات"

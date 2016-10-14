@@ -1,0 +1,12 @@
+{foreach Modules_Cms_Frontend_Boot::getMegaMenuContainer(6) as $menu}
+<div class="col-lg-3 col-md-3 col-sm-3 m_xs_bottom_30">
+    <h3 class="color_light_2 m_bottom_20"><a href="{$menu->getLink()}" {if $menu->getTarget() == 'blank'}target="__blank"{/if}>{$menu->getTitle()}</a></h3>
+    {if $menu->hasChildrens()}
+    <ul class="vertical_list">
+        {foreach $menu->getChildrens(1) as $child}
+        <li><a class="color_light tr_delay_hover" {if $child->getTarget() == 'blank'}target="__blank"{/if} href="{$child->getLink()}">{$child->getTitle()}{if $current_lang == 'ar'}<i class="fa fa-angle-left"></i>{else}<i class="fa fa-angle-right"></i>{/if}</a></li>
+        {/foreach}
+    </ul>
+    {/if}
+</div>
+{/foreach}

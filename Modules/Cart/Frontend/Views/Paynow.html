@@ -1,0 +1,111 @@
+{$breadcrumb}
+<div class="page_content_offset">
+    <div class="container">
+        <div class="row clearfix"> 
+            <section class="tabs_content shadow r_corners p_hr_0 p_vr_0 wrapper">
+                <h2 class="tt_uppercase color_dark m_bottom_30">{'Sales Order Items'|tr}</h2>
+                <div id="tab-1" aria-labelledby="ui-id-1" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="true" aria-hidden="false" style="display: block;">
+                    <table class="table_type_2 responsive_table full_width t_align_l">
+                        <thead>
+                            <tr class="f_size_large">
+                                <th>{'Product Number'|tr}</th>
+                                <th>{'Product Name'|tr}</th>
+                                <th>{'Unit Price'|tr}</th>
+                                <th>{'Quantity'|tr}</th>
+                                <th>{'Sub Total'|tr}</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {foreach $saleorder->getItems() as $item}
+                            <tr>
+                                <td data-title="{'Product Number'|tr}">{$item->product_number}</td>
+                                <td data-title="{'Product Name'|tr}">
+                                    {$item->item_name}<br>                                         
+                                </td>
+                                <td data-title="{'Unit Price'|tr}">{$item->unit_price|price}</td>                                    
+                                <td data-title="{'Quantity'|tr}">{$item->quantity}</td>                                     
+                                <td data-title="{'Sub Total'|tr}">{$item->sub_total|price}</td>
+                            </tr>
+                            {/foreach}
+                            <tr>
+                                <td colspan="4">
+                                    <p class="fw_medium f_size_large t_align_r t_xs_align_c">{'Sub Total'|tr}</p>
+                                </td>
+                                <td colspan="1" class="color_dark">{$saleorder->sub_total|price}</td>
+                            </tr>
+                            {if $saleorder->shipping_cost >0}
+                            <tr>
+                                <td colspan="4">
+                                    <p class="fw_medium f_size_large t_align_r t_xs_align_c">{'Shipping Cost'|tr}</p>
+                                </td>
+                                <td colspan="1" class="color_dark">{$saleorder->shipping_cost|price}</td>
+                            </tr>
+                            {/if}
+
+                            {if $saleorder->calculateHandlingFee() neq 0}
+                            <tr>
+                                <td colspan="4">
+                                    <p class="fw_medium f_size_large t_align_r t_xs_align_c">{'Handling Fee'|tr}</p>
+                                </td>
+                                <td colspan="1" class="color_dark">{$saleorder->calculateHandlingFee()|price}</td>
+                            </tr>
+                            {/if}
+                            {if $saleorder->total_discount neq 0} 
+                            <tr>
+                                <td colspan="4">
+                                    <p class="fw_medium f_size_large t_align_r t_xs_align_c">{'Discount'|tr}</p>
+                                </td>
+                                <td colspan="1" class="color_dark">{$saleorder->total_discount|price}</td>
+                            </tr>
+                            {/if}
+                            <tr>
+                                <td colspan="4">
+                                    <p class="fw_medium f_size_large t_align_r t_xs_align_c scheme_color">{'Total'|tr}:</p>
+                                </td>
+                                <td colspan="1"><p class="color_dark fw_medium f_size_large">{$saleorder->total_price|price}</p></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </section>
+            <section class="tabs_content shadow r_corners p_hr_0 p_vr_0 wrapper">
+                <div class="amh-container">
+                    <form name="quickpay_form" method="post" action="">
+                        <div class="amh-container payment_container">
+                            <h2 class="tt_uppercase color_dark m_bottom_30">{'Payment Method'|tr}</h2>
+                            <div class="bs_inner_offsets bg_light_color_3 shadow r_corners m_bottom_45">
+                                {foreach $payments as $payment}
+                                <figure class="block_select clearfix relative">
+                                    <input type="radio" value="{$payment->getId()}" {if $selectedpayment == $payment->getId()}checked="checked"{/if} name="payment_id" class="d_none">
+                                    <img src="{$payment->getLogoSrc()|default:'media/noimage.jpg'}" alt="" class="f_left m_right_20 f_mxs_none m_mxs_bottom_10">
+                                    <figcaption class="d_table d_sm_block">
+                                        <div class="d_table_cell d_sm_block p_sm_right_0 p_right_45 m_mxs_bottom_5">
+                                            <h5 class="color_dark fw_medium m_bottom_15 m_sm_bottom_5">{$payment->getName()}</h5>
+                                            <p> {$payment->getDescription()|htmlspecialchars_decode}</p>
+                                        </div>
+                                        <div class="d_table_cell d_sm_block discount">
+                                            <h5 class="color_dark fw_medium m_bottom_15 m_sm_bottom_0">{'Handling Fees'|tr}</h5>
+                                            <p class="color_dark">{$payment->getHandlingFeeAsAmount()|price}</p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                                <hr class="m_bottom_20">
+                                {foreachelse}
+                                <div class="alert_box r_corners warning m_bottom_10">
+                                    <i class="fa fa-exclamation-circle"></i><p>{'No payment method available for your country'|tr}</p>
+                                </div>
+                                {/foreach}
+                            </div>
+                        </div>
+                        <div class="panel-div">
+                            <input class="Button continue" type="submit" name="continue" id="checkout_submit_button" value="{'Pay Now'|tr}" />
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+

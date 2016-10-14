@@ -1,0 +1,295 @@
+{if $saleorder_template}
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{$current_lang|default:'en'}">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <title> </title>
+            <body>
+                {$saleorder_template|unescape}
+            </body>
+            </html>
+
+            {else}
+            <!DOCTYPE html>
+            <html xmlns="http://www.w3.org/1999/xhtml" lang="{$current_lang|default:'en'}">
+                <head>
+                    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                        <title> </title>
+                </head>
+
+                <body>
+                    <table style="width:100%;margin-top:10px" {if $current_lang == 'ar'} dir='rtl' {/if}>
+                        <tbody>
+                            <tr>
+                                <td style="width:20px;padding:7px 0">&nbsp;</td>
+                                <td align="center" style="padding:7px 0">
+                                    <table bgcolor="#ffffff" style="width:100%">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center" style="border-bottom:4px solid #333333;padding:7px 0">
+                                                    <p style="text-align: center;"><img alt="" src="{$shop->shop_logo}" style="width: 250px; height: 79px;" /><br />
+                                                        &nbsp;</p>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td style="padding:0!important">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border:1px solid #d6d4d4;background-color:#f8f8f8;padding:7px 0">
+                                                    <table style="width:100%">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="padding:7px 0" width="10">&nbsp;</td>
+                                                                <td style="padding:7px 0">
+                                                                    <p style="border-bottom:1px solid #d6d4d4;margin:3px 0 7px;text-transform:uppercase;font-weight:500;font-size:18px;padding-bottom:10px"><font color="#555454" face="Open-sans, sans-serif" size="2">{'Order details'|tr} </font></p>
+                                                                    <font color="#555454" face="Open-sans, sans-serif" size="2"><span style="color:#777"><span style="color:#333"><strong>{'Order Number'|tr} :</strong></span> {$saleorder->number} {'Date'|tr} {$saleorder->getLocaleInsertAt()}<br />
+                                                                            <br />
+                                                                            <span style="color:#333"><strong>{'Payment By'|tr} :</strong></span> {$saleorder->payment_method_name} </span> </font></td>
+                                                                <td style="padding:7px 0" width="10">&nbsp;</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding:7px 0">
+                                                    <table bgcolor="#ffffff" style="width:100%;border-collapse:collapse">
+                                                        <tbody>
+                                                            <tr>
+                                                                <th bgcolor="#f8f8f8" style="border:1px solid #d6d4d4;background-color:#fbfbfb;color:#333;font-family:Arial;font-size:13px;padding:10px"><font color="#555454" face="Open-sans, sans-serif" size="2">{'Product Number'|tr}</font></th>
+                                                                <th bgcolor="#f8f8f8" style="border:1px solid #d6d4d4;background-color:#fbfbfb;color:#333;font-family:Arial;font-size:13px;padding:10px"><font color="#555454" face="Open-sans, sans-serif" size="2">{'Product Name'|tr}</font></th>
+                                                                <th bgcolor="#f8f8f8" style="border:1px solid #d6d4d4;background-color:#fbfbfb;color:#333;font-family:Arial;font-size:13px;padding:10px" width="17%"><font color="#555454" face="Open-sans, sans-serif" size="2">{'Unit Price'|tr}</font></th>
+                                                                <th bgcolor="#f8f8f8" style="border:1px solid #d6d4d4;background-color:#fbfbfb;color:#333;font-family:Arial;font-size:13px;padding:10px"><font color="#555454" face="Open-sans, sans-serif" size="2">{'Quantity'|tr}</font></th>
+                                                                <th bgcolor="#f8f8f8" style="border:1px solid #d6d4d4;background-color:#fbfbfb;color:#333;font-family:Arial;font-size:13px;padding:10px" width="17%"><font color="#555454" face="Open-sans, sans-serif" size="2">{'Sub Total'|tr}</font></th>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="5" style="border:1px solid #d6d4d4;text-align:center;color:#777;padding:7px 0"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;&nbsp;</font></td>
+                                                            </tr>
+                                                            {foreach $saleorder->getItems() as $item}
+                                                            <tr style="background-color:#ebecee">
+                                                                <td style="padding: 0.6em 0.4em; width: 15%; text-align: center;"><font color="#555454" face="Open-sans, sans-serif" size="2">{$item->item_number}</font></td>
+                                                                <td style="padding: 0.6em 0.4em; width: 30%; text-align: center;"><font color="#555454" face="Open-sans, sans-serif" size="2"><strong>{$item->item_name}</strong></font></td>
+                                                                <td style="padding: 0.6em 0.4em; width: 20%; text-align: center;"><font color="#555454" face="Open-sans, sans-serif" size="2">{$item->unit_price|price}</font></td>
+                                                                <td style="padding: 0.6em 0.4em; width: 15%; text-align: center;"><font color="#555454" face="Open-sans, sans-serif" size="2">{$item->quantity}</font></td>
+                                                                <td style="padding: 0.6em 0.4em; width: 20%; text-align: center;"><font color="#555454" face="Open-sans, sans-serif" size="2">{$item->sub_total|price}</font></td>
+                                                            </tr>
+                                                            {/foreach}
+                                                            <tr>
+                                                                <td colspan="5" style="border:1px solid #d6d4d4;text-align:center;color:#777;padding:7px 0"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;&nbsp; </font></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #d6d4d4;color:#333;padding:7px 0">
+                                                                    <table style="width:100%;border-collapse:collapse">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td style="color:#333;padding:0" width="10"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;</font></td>
+                                                                                <td {if $current_lang == 'ar'} align="left" {else} align="right" {/if}  style="color:#333;padding:0"><font color="#555454" face="Open-sans, sans-serif" size="2"><font color="#555454" face="Open-sans, sans-serif" size="2"><strong>{'Sub Total'|tr}</strong> </font> </font></td>
+                                                                                <td style="color:#333;padding:0" width="10"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;</font></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                                <td {if $current_lang == 'ar'} align="left" {else} align="right" {/if} bgcolor="#f8f8f8" colspan="4" style="border:1px solid #d6d4d4;color:#333;padding:7px 0">
+                                                                    <table style="width:100%;border-collapse:collapse">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td style="color:#333;padding:0" width="10"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;</font></td>
+                                                                                <td {if $current_lang == 'ar'} align="left" {else} align="right" {/if} style="color:#333;padding:0"><font color="#555454" face="Open-sans, sans-serif" size="2"><font color="#555454" face="Open-sans, sans-serif" size="2">{$saleorder->sub_total|price} </font> </font></td>
+                                                                                <td style="color:#333;padding:0" width="10"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;</font></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #d6d4d4;color:#333;padding:7px 0">
+                                                                    <table style="width:100%;border-collapse:collapse">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td style="color:#333;padding:0" width="10"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;</font></td>
+                                                                                <td {if $current_lang == 'ar'} align="left" {else} align="right" {/if} style="color:#333;padding:0"><font color="#555454" face="Open-sans, sans-serif" size="2"><font color="#555454" face="Open-sans, sans-serif" size="2"><strong>{'Discount'|tr}</strong> </font> </font></td>
+                                                                                <td style="color:#333;padding:0" width="10"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;</font></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                                <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #d6d4d4;color:#333;padding:7px 0">
+                                                                    <table style="width:100%;border-collapse:collapse">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td style="color:#333;padding:0" width="10"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;</font></td>
+                                                                                <td {if $current_lang == 'ar'} align="left" {else} align="right" {/if} style="color:#333;padding:0"><font color="#555454" face="Open-sans, sans-serif" size="2"><font color="#555454" face="Open-sans, sans-serif" size="2">{$saleorder->total_discount|price}</font> </font></td>
+                                                                                <td style="color:#333;padding:0" width="10"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;</font></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #d6d4d4;color:#333;padding:7px 0">
+                                                                    <table style="width:100%;border-collapse:collapse">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td style="color:#333;padding:0" width="10"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;</font></td>
+                                                                                <td {if $current_lang == 'ar'} align="left" {else} align="right" {/if} style="color:#333;padding:0"><font color="#555454" face="Open-sans, sans-serif" size="2"><font color="#555454" face="Open-sans, sans-serif" size="2"><strong>{'Handling Fee'|tr}</strong> </font> </font></td>
+                                                                                <td style="color:#333;padding:0" width="10"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;</font></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                                <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #d6d4d4;color:#333;padding:7px 0">
+                                                                    <table style="width:100%;border-collapse:collapse">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td style="color:#333;padding:0" width="10"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;</font></td>
+                                                                                <td {if $current_lang == 'ar'} align="left" {else} align="right" {/if} style="color:#333;padding:0"><font color="#555454" face="Open-sans, sans-serif" size="2"><font color="#555454" face="Open-sans, sans-serif" size="2">{$saleorder->calculateHandlingFee()|price} </font> </font></td>
+                                                                                <td style="color:#333;padding:0" width="10"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;</font></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #d6d4d4;color:#333;padding:7px 0">
+                                                                    <table style="width:100%;border-collapse:collapse">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td style="color:#333;padding:0" width="10"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;</font></td>
+                                                                                <td {if $current_lang == 'ar'} align="left" {else} align="right" {/if} style="color:#333;padding:0"><font color="#555454" face="Open-sans, sans-serif" size="2"><font color="#555454" face="Open-sans, sans-serif" size="2"><strong>{'Shipping Cost'|tr}</strong> </font> </font></td>
+                                                                                <td style="color:#333;padding:0" width="10"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;</font></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                                <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #d6d4d4;color:#333;padding:7px 0">
+                                                                    <table style="width:100%;border-collapse:collapse">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td style="color:#333;padding:0" width="10"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;</font></td>
+                                                                                <td {if $current_lang == 'ar'} align="left" {else} align="right" {/if} style="color:#333;padding:0"><font color="#555454" face="Open-sans, sans-serif" size="2"><font color="#555454" face="Open-sans, sans-serif" size="2">{$saleorder->shipping_cost|price}</font> </font></td>
+                                                                                <td style="color:#333;padding:0" width="10"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;</font></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #d6d4d4;color:#333;padding:7px 0">
+                                                                    <table style="width:100%;border-collapse:collapse">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td style="color:#333;padding:0" width="10"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;</font></td>
+                                                                                <td {if $current_lang == 'ar'} align="left" {else} align="right" {/if} style="color:#333;padding:0"><font color="#555454" face="Open-sans, sans-serif" size="2"><font color="#555454" face="Open-sans, sans-serif" size="4"><strong>{'Grand Total'|tr}</strong> </font> </font></td>
+                                                                                <td style="color:#333;padding:0" width="10"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;</font></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                                <td bgcolor="#f8f8f8" colspan="4" style="border:1px solid #d6d4d4;color:#333;padding:7px 0">
+                                                                    <table style="width:100%;border-collapse:collapse">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td style="color:#333;padding:0" width="10"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;</font></td>
+                                                                                <td {if $current_lang == 'ar'} align="left" {else} align="right" {/if} style="color:#333;padding:0"><font color="#555454" face="Open-sans, sans-serif" size="2"><font color="#555454" face="Open-sans, sans-serif" size="4">{$saleorder->total_price|price} </font> </font></td>
+                                                                                <td style="color:#333;padding:0" width="10"><font color="#555454" face="Open-sans, sans-serif" size="2">&nbsp;</font></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border:1px solid #d6d4d4;background-color:#f8f8f8;padding:7px 0">
+                                                    <table style="width:100%">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="padding:7px 0" width="10">&nbsp;</td>
+                                                                <td style="padding:7px 0">
+                                                                    <p style="border-bottom:1px solid #d6d4d4;margin:3px 0 7px;text-transform:uppercase;font-weight:500;font-size:18px;padding-bottom:10px"><font color="#555454" face="Open-sans, sans-serif" size="2">{'Delivery Information'|tr} </font></p>
+                                                                    <font color="#555454" face="Open-sans, sans-serif" size="2"><span style="color:#777"><span style="color:#333"><strong>{'Shipping Method'|tr} :</strong></span>{$saleorder->shipping_method_name}<br />
+                                                                            <br />
+                                                                            <span style="color:#333"><strong>{'Payment Method'|tr} :</strong></span>{$saleorder->payment_method_name}</span> </font></td>
+                                                                <td style="padding:7px 0" width="10">&nbsp;</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding:0!important">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                {if $saleorder->getShippingAddress()}
+                                                <td style="padding:7px 0">
+                                                    <table style="width:100%">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="border:1px solid #d6d4d4;background-color:#f8f8f8;padding:7px 0" width="310">
+                                                                    <table style="width:100%">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td style="padding:7px 0" width="10">&nbsp;</td>
+                                                                                <td style="padding:7px 0">
+                                                                                    <p style="border-bottom:1px solid #d6d4d4;margin:3px 0 7px;text-transform:uppercase;font-weight:500;font-size:18px;padding-bottom:10px"><font color="#555454" face="Open-sans, sans-serif" size="2">{'Shipping Address'|tr} </font></p>
+                                                                                    <font color="#555454" face="Open-sans, sans-serif" size="2"><span style="color:#777"><span style="font-weight:bold">{$saleorder->getShippingAddress()->getName()}</span><br />
+
+                                                                                            {$saleorder->getShippingAddress()->getStreet()}<br />
+                                                                                            {$saleorder->getShippingAddress()->getZipCode()}-{$saleorder->getShippingAddress()->getCity()}<br />
+                                                                                            {$saleorder->getShippingAddress()->getProvince()}<br />
+                                                                                            {$saleorder->getShippingAddress()->getCountry()}</td>
+                                                                                        </span> </font></td>
+                                                                                <td style="padding:7px 0" width="10">&nbsp;</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                                {/if}
+                                                                <td style="padding:7px 0" width="20">&nbsp;</td>
+                                                                {if $saleorder->getInvoiceAddress()}
+                                                                <td style="border:1px solid #d6d4d4;background-color:#f8f8f8;padding:7px 0" width="310">
+                                                                    <table style="width:100%">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td style="padding:7px 0" width="10">&nbsp;</td>
+                                                                                <td style="padding:7px 0">
+                                                                                    <p style="border-bottom:1px solid #d6d4d4;margin:3px 0 7px;text-transform:uppercase;font-weight:500;font-size:18px;padding-bottom:10px"><font color="#555454" face="Open-sans, sans-serif" size="2">{'Invoice Address'|tr} </font></p>
+                                                                                    <font color="#555454" face="Open-sans, sans-serif" size="2"><span style="color:#777"><span style="font-weight:bold">{$saleorder->getInvoiceAddress()->getName()}</span><br />
+
+                                                                                            {$saleorder->getInvoiceAddress()->getStreet()}<br />
+                                                                                            {$saleorder->getInvoiceAddress()->getZipCode()}-{$saleorder->getInvoiceAddress()->getCity()}<br />
+                                                                                            {$saleorder->getInvoiceAddress()->getProvince()}<br />
+                                                                                            {$saleorder->getInvoiceAddress()->getCountry()}</td>
+                                                                                        </span> </font></td>
+                                                                                {/if} 
+                                                                                <td style="padding:7px 0" width="10">&nbsp;</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding:0!important">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding:0!important">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-top-width: 4px; border-top-style: solid; border-top-color: rgb(51, 51, 51); padding: 7px 0px; text-align: center;"><span dir="ltr">&copy; 2016 <a href="" style="color:#337ff1" target="_blank">amhsoft.com </a> . All Rights Reserved - Powered By <a href="" style="color:#337ff1" target="_blank">Blueshop 3.0</a></span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td style="width:20px;padding:7px 0">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </body>
+            </html>
+            {/if}

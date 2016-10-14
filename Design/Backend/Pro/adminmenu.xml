@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<menu>
+    <adminmenu>
+        <group>
+            <name>Online Store</name>
+            <modules>
+                <module>Product</module>
+                <module>Payment</module>
+                <module>Shipping</module>
+                <module>Coupon</module>
+                <module>Hosting</module>
+                <module>Rating</module>
+            </modules>
+        </group>
+        <group>
+            <name>Sales Management</name>
+            <modules>
+                <module>Crm</module>
+                <module>Saleorder</module>
+                <module>Invoice</module>
+            </modules>
+        </group>
+        <group>
+            <name>Cms</name>
+            <modules>
+                <module>Cms</module>
+                <module>Banner</module>
+                <module>Doc</module>
+                <module>Faq</module>
+            </modules>
+        </group>
+        <group>
+            <name>Administration</name>
+            <modules>
+                <module>User</module>
+            </modules>
+        </group>
+        <group>
+            <name>System</name>
+            <modules>
+                <module>User</module>
+                <module>Setting</module>
+                <module>Webmail</module>
+                <module>Backup</module>
+                <module>Workflow</module>
+            </modules>
+        </group>
+	 <group>
+            <name>Newsletter</name>
+            <modules>
+                <module>Newsletter</module>
+            </modules>
+        </group>
+        
+       
+    </adminmenu>
+</menu>

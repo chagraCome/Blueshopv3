@@ -1,0 +1,5 @@
+ <ul class="menu_vert_list">
+  {foreach $area_cms_menus->fetchByBoxId($block_id) as $menu}
+  <li><a href="{$menu->getLink()}"{if $menu->target == '_blank'} target="_blank"{/if}>{$menu->title}</a></li>
+  {/foreach}
+</ul> 

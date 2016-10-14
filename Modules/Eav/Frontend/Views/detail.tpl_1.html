@@ -1,0 +1,212 @@
+{literal}
+<style>
+
+  .product {
+    background-color: white;
+    padding-top: 10px;
+    width: 100%;
+    font-size: 11px;
+  }
+  .product-left{
+    float: left;
+    width: 350px;
+  }
+  .product-right{
+    width: auto;
+    margin-left: 350px;
+    display: block;
+  }
+  .product-description{
+    clear: both;
+  }
+
+  .product-attributes li{
+    list-style: none;
+    padding: 2px 0
+  }
+  .product-attributes li span{
+    font-weight: bold;
+  }
+  .product-price{font: bold 16px Arial; color: red}
+  .productThumbs {
+    clear: both;
+  }
+  .productitem{
+    width: 215px;
+    background-color: white;
+    float: left;
+    font-size: 11px;
+  }
+  .itemprice{color: red; font-weight: bold}
+  .itemtitle{color: #4C6B86;}
+  .product-related {
+    clear:both;}
+  .product-review {
+    clear:both;
+  }  
+  .comments-infos{
+    font-family: 'HelveticaNeueLTStd55Roman', Arial ;
+    font-size: 10px;
+    border-top: 1px solid #EEE;
+
+  }
+  .comment {
+    background-color:#EEE; 
+    padding: 10px;
+    margin-bottom: 24px;
+    display: block;
+    -webkit-margin-start: 40px;
+    width: 450px;
+
+  }
+</style>
+{/literal}
+
+  <div class="product">
+    <div class="product-left">
+      <img class="imageshadow" src="/projects/crm/media/product/image/17_2.jpg"/>
+    </div>
+    <div class="product-right">
+      <a class="active silver_odd">Product Name .....</a>
+      <ul class="product-attributes">
+        <li><span>Regular price:</span> <span class="product-price">99 €</span></li>
+        <li><span>Discount:</span> 99</li>
+        <li><span>Availalbility:</span> 99</li>
+        <li>Available To :03/07/2013</li>
+        <li><span>Regular price:</span> 99</li>
+      </ul> 
+
+      {*
+      <a class="active">Table Price</a>
+      <table border="1">
+        <tr>
+          <td>Min.Quantity  </td>
+          <td>Price</td>    
+          <td>Discount</td>  
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>80</td>    
+          <td>Save 20%</td>  
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>70</td>    
+          <td>Save 33%</td>  
+        </tr>
+        <tr>
+          <td>>10</td>
+          <td>60</td>    
+          <td>Save 45%</td>  
+        </tr>
+      </table>
+*}
+      <div class="select-box">
+        <div class="select_color">
+          Color : <select name="selectColor"> 
+            <option value="BLACK" >BLACK</option>
+            <option value="WHITE" >WHITE</option>
+            <option value="RED" >RED</option>
+          </select>
+        </div>
+
+
+        <div class="select-size">
+          Size : <select name="selectSize"> 
+            <option value="50" >50</option>
+            <option value="60" >60</option>
+            <option value="70" >70</option>
+          </select>
+        </div>
+        <br />
+        <form name="buynow_form" method="post" action=""> 
+          <button class="button-general bblue" type="submit">Buy Now</button>
+          <button class="button-general bred" type="submit">Buy Now</button>
+          <button class="button-general bsilver" type="submit">Buy Now</button>
+          <button class="button-general bgreen" type="submit">Buy Now</button>
+        </form>
+      </div>
+    </div>
+    <div class="productThumbs">
+
+      <img src="/projects/crm/media/_thumbs/53_1.jpg" height="60px" style="border: solid 1px gray;"/>
+      <img src="/projects/crm/media/_thumbs/53_2.jpg" height="60px" style="border: solid 1px gray;"/>
+      <img src="/projects/crm/media/_thumbs/53_3.jpg" height="60px" style="border: solid 1px gray;"/>
+      <img src="/projects/crm/media/_thumbs/53_4.jpg" height="60px" style="border: solid 1px gray;"/>
+    </div>
+  </div>
+
+  <div class="product-description">
+    <a class="active">Produktinformationen:</a>
+    <p class="full-description">Dieses Herren Sweatshirt mit Troyer-Kragen 
+      der Marke "bpc bonprix collection" wird schnell zum Lieblingsstück. 
+      Mit dem praktischen und vielseitigen Troyer-Kragen kann das Sweatshirt 
+      sowohl offen zum klassischen Hemd als auch als Rolli geschlossen getragen
+      werden, innen weich angeraut, Länge in Gr. 48/50 ca. 70 cm. 60% Baumwolle, 
+      40% Polyester.</p>
+  </div>
+  <div class="product-related">
+    <a class="active">Das passt dazu:</a>
+    <div class="productitem">
+      <div class="spanner">
+        <img src="media/product/image/bww197x07.jpg" height="220px"  /><br />
+        <div class="itemtitle">Das ist ein neues Product</div>
+        <div class="itemprice">125.0000</div>
+      </div>
+    </div>
+    <div class="productitem">
+      <div class="spanner">
+        <img src="media/product/image/bww197x07.jpg" height="220px"  /><br />
+      </div>
+      <div class="itemtitle">Das ist ein neues Product</div>
+      <div class="itemprice">125.0000</div>
+    </div>
+
+    <div class="productitem">
+      <div class="spanner">
+        <img src="media/product/image/bww197x07.jpg" height="220px"  /><br />
+      </div>
+      <div class="itemtitle">Das ist ein neues Product</div>
+      <div class="itemprice">125.0000</div>
+    </div>
+
+    <div class="productitem">
+      <div class="spanner">
+        <img src="media/product/image/bww197x07.jpg" height="220px"  /><br />
+      </div>
+      <div class="itemtitle">Das ist ein neues Product</div>
+      <div class="itemprice">125.0000</div>
+    </div>
+  </div>
+  <div class="product-review">
+    <a class="active">Customer Reviews</a>
+
+    <p class="comments-infos">1. Today 25/04/2012, 13:24 By Amir Cherif</p>
+    <p class="comment">This is good how can i buy it please !</p>
+    <p class="comments-infos">2. Today 25/04/2012, 13:24 By Amir Cherif</p>
+    <p class="comment">Dieses Herren Sweatshirt mit Troyer-Kragen 
+      der Marke "bpc bonprix collection"</p>
+    <p class="comments-infos">3. Today 25/04/2012, 13:24 By Amir Cherif</p>
+    <p class="comment">This is good how can i buy it please !</p>
+    <p class="comments-infos">4. Today 25/04/2012, 13:24 By Amir Cherif</p>
+    <p class="comment">This is good how can i buy it please !</p>
+    <p class="comments-infos">5. Today 25/04/2012, 13:24 By Amir Cherif</p>
+    <p class="comment">Dieses Herren Sweatshirt mit Troyer-Kragen 
+      der Marke "bpc bonprix collection"Dieses Herren Sweatshirt mit Troyer-Kragen 
+      der Marke "bpc bonprix collection"</p>
+
+    <form name="review" action="" class="form-general">
+      <label for="firstname">Name</label>
+      <input name="firstname" id="firstname" value="" />
+      <label for="firstname">Subject</label>
+      <input name="firstname" id="firstname" value="" />
+      <label for="firstname">Comment</label>
+      <textarea cols="40">Please fill your comment</textarea>
+      <br />
+      <button name="send" class="button-general bblue" type="submit">Send Review</button>
+    </form>
+  </div>
+
+
+
+

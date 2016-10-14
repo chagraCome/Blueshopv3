@@ -1,0 +1,22 @@
+<fieldset>
+    <legend>{'Information'|tr}</legend>
+    <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+    <legend>
+        <span class="edit"><a href="admin.php?module=crm&page=contact-modify&id={$smarty.get.id}">{'Edit contact'|tr}</a></span>|
+        <span class="add"><a href="admin.php?module=crm&page=contact-add">{'Add new contact'|tr}</a></span>|
+        <span class="list"><a href="admin.php?module=crm&page=contact-list">{'List contacts'|tr}</a></span>|
+        {if $account_id}
+        <span class="list"><a href="admin.php?module=crm&page=account-detail&id={$account_id}">{'go to account'|tr}</a></span> 
+        {else}
+        <span class="add"><a href="admin.php?module=crm&page=contact-detail&event=convert&id={$smarty.get.id}">{'Convert to account'|tr}</a></span> 
+        {/if}
+        {if Amhsoft_System_Module_Manager::isModuleInstalled('Opportunity')}
+        <span class="list"><a href="admin.php?module=crm&page=contact-history&id={$smarty.get.id}">{'History'|tr}</a></span> 
+        {/if}
+    </legend>
+    <div class="panel">
+        {$panel->Render()}
+    </div>
+</fieldset>

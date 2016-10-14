@@ -1,0 +1,17 @@
+{if $product->getRelatedProducts()}
+<div class="clearfix">
+    <h2 class="color_dark tt_uppercase f_left m_bottom_15 f_mxs_none">{'Related Products'|tr}</h2>
+    <div class="f_right clearfix nav_buttons_wrap f_mxs_none m_mxs_bottom_5">
+
+        <button class="button_type_7 bg_cs_hover box_s_none f_size_ex_large t_align_c bg_light_color_1 f_left tr_delay_hover r_corners rp_prev">{if $current_lang == 'ar'}<i class="fa fa-angle-right"></i>{else}<i class="fa fa-angle-left"></i>{/if}</button>
+
+        <button class="button_type_7 bg_cs_hover box_s_none f_size_ex_large t_align_c bg_light_color_1 f_left m_left_5 tr_delay_hover r_corners rp_next">{if $current_lang == 'ar'}<i class="fa fa-angle-left"></i>{else}<i class="fa fa-angle-right"></i>{/if}</button>
+    </div>
+</div>
+<div class="related_projects m_bottom_15 m_sm_bottom_0 m_xs_bottom_15">
+    {foreach $product->getRelatedProducts() as $item}
+    {include file='Modules/Product/Frontend/Views/Item3.html'}
+    {/foreach}
+</div>
+<hr class="divider_type_3 m_bottom_15">
+{/if}

@@ -1,0 +1,809 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cms deutsch\n"
+"POT-Creation-Date: 2015-08-24 15:23+0200\n"
+"PO-Revision-Date: 2015-08-24 15:23+0200\n"
+"Last-Translator: Amir Cherif <amir.cherif@amhsoft.com>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: Backend/Boot.php:42 Backend/Boot.php:69 Frontend/Boot.php:50
+msgid "Content Management"
+msgstr "Cms"
+
+#: Backend/Boot.php:44 Frontend/Boot.php:52
+msgid "Add Block"
+msgstr "Neuen Block hinzufügen"
+
+#: Backend/Boot.php:45 Frontend/Boot.php:53
+msgid "Manage Blocks"
+msgstr "Blöcke verwalten"
+
+#: Backend/Boot.php:46 Frontend/Boot.php:54
+msgid "Add Page"
+msgstr "Neue Seite hinzufügen"
+
+#: Backend/Boot.php:47 Backend/Controllers/Page/List.php:31
+#: Frontend/Boot.php:55
+msgid "Manage Pages"
+msgstr "Seiten verwalten"
+
+#: Backend/Boot.php:48 Frontend/Boot.php:56
+msgid "Add Menu Point"
+msgstr "Neuen Menüpunkt hinzufügen"
+
+#: Backend/Boot.php:49 Frontend/Boot.php:57
+msgid "Manage Menu Points"
+msgstr "Menüpunkte verwalten"
+
+#: Backend/Boot.php:70
+msgid "Select Box Content Design"
+msgstr "Design für Blcokinhalt wählen"
+
+#: Backend/Boot.php:71
+msgid "List all Boxes"
+msgstr "Alle Blöcke auflisten"
+
+#: Backend/Boot.php:72
+msgid "Add new Box"
+msgstr "Neuen Block hinzufügen"
+
+#: Backend/Boot.php:73
+msgid "Show Box Information"
+msgstr "Block Informationen anzeigen"
+
+#: Backend/Boot.php:74
+msgid "Modify Box"
+msgstr "Block ändern"
+
+#: Backend/Boot.php:75
+msgid "Delete Box"
+msgstr "Block löschen"
+
+#: Backend/Boot.php:76
+msgid "Set Box Offline"
+msgstr "Block offline setzen"
+
+#: Backend/Boot.php:77
+msgid "Set Box Online"
+msgstr "Block online setzen"
+
+#: Backend/Boot.php:78
+msgid "List all Menu Items"
+msgstr "Alle Menüs auflisten"
+
+#: Backend/Boot.php:79
+msgid "Add new Menu Item"
+msgstr "Neuen Menüpunk hinzufügen"
+
+#: Backend/Boot.php:80
+msgid "Modify Menu Item"
+msgstr "Menüpunkt ändern"
+
+#: Backend/Boot.php:81
+msgid "Delete Menu Item"
+msgstr "Menüpunkt löschen"
+
+#: Backend/Boot.php:82
+msgid "Set Menu Item Offline"
+msgstr "Menüpunkt offline setzen"
+
+#: Backend/Boot.php:83
+msgid "Set Menu Item Online"
+msgstr "Menüpunkt online setzen"
+
+#: Backend/Boot.php:84
+msgid "Select Page Content Design"
+msgstr "Design für Seiteninhalt wählen"
+
+#: Backend/Boot.php:85 key_words_html.php:76 key_words_html.php:100
+#: key_words_html.php:106 key_words_html.php:111 key_words_html.php:115
+msgid "List Pages"
+msgstr "Alle Seiten auflisten"
+
+#: Backend/Boot.php:86 Backend/Controllers/Page/Preadd.php:33
+#: key_words_html.php:77 key_words_html.php:98 key_words_html.php:104
+#: key_words_html.php:110
+msgid "Add new Page"
+msgstr "Neue Seite hinzufügen"
+
+#: Backend/Boot.php:87
+msgid "Modify Page"
+msgstr "Seite ändern"
+
+#: Backend/Boot.php:88
+msgid "Delete Page"
+msgstr "Seite löschen"
+
+#: Backend/Boot.php:89
+msgid "Set Page Offline"
+msgstr "Seite offline setzen"
+
+#: Backend/Boot.php:90
+msgid "Set Page Online"
+msgstr "Seite online setzen"
+
+#: Backend/Boot.php:91
+msgid "Design Pages"
+msgstr "Seiten entwerfen"
+
+#: Backend/Controllers/Box/Add.php:61
+msgid "Add new Text Box"
+msgstr "Textblock hinzufügen"
+
+#: Backend/Controllers/Box/List.php:40 I18N/key_words_html.php:8
+#: key_words_html.php:9 key_words_html.php:27 key_words_html.php:30
+msgid "List Blocks"
+msgstr "Alle Blöcke auflisten"
+
+#: Backend/Controllers/Box/Modify.php:33
+msgid "Edit Block"
+msgstr "Block ändern"
+
+#: Backend/Controllers/Box/Modify.php:64 Backend/Controllers/Menu/Add.php:74
+#: Backend/Controllers/Menu/Modify.php:81 Backend/Controllers/Page/Add.php:50
+#: Backend/Controllers/Page/Modify.php:59
+msgid "Please check inputs."
+msgstr "Bitte Ihre Eingaben überprüfen"
+
+#: Backend/Controllers/Box/Preadd.php:25
+msgid "Select your Design"
+msgstr "Design wählen"
+
+#: Backend/Controllers/Menu/Add.php:33
+msgid "Create new Menu Item"
+msgstr "Neuen Menüpunkt erstellen"
+
+#: Backend/Controllers/Menu/List.php:40
+msgid "List Menu Items"
+msgstr "Alle Menüpunkte auflisten"
+
+#: Backend/Controllers/Menu/Modify.php:33
+msgid "Edit Menu Point"
+msgstr "Menüpunkt ändern"
+
+#: Backend/Controllers/Page/Add.php:34
+msgid "Create new Page"
+msgstr "Neue Seite erstellen"
+
+#: Backend/Controllers/Page/Add.php:59
+msgid "Page was successully added"
+msgstr "Seite wurde erfolgreich hinzugefügt"
+
+#: Backend/Controllers/Page/Design.php:40
+msgid "Frontend management"
+msgstr "Frontend verwalten"
+
+#: Backend/Controllers/Page/Fixed.php:30
+msgid "Manage Fixed Pages"
+msgstr "Feste Seiten verwalten"
+
+#: Backend/Controllers/Page/Fixed.php:32 Backend/Controllers/Page/List.php:33
+msgid "Failed to delete this page because this page is fixed"
+msgstr "Die Seite kann nicht geändert werden, da sie eine feste Seite ist"
+
+#: Backend/Controllers/Page/Modify.php:33
+msgid "Edit Page"
+msgstr "Seite ändern"
+
+#: Backend/Controllers/Page/Quicklist.php:46
+msgid "Page Name"
+msgstr "Seitenname"
+
+#: Backend/Controllers/Page/Quicklist.php:51 Grids/Page/DataGridView.php:43
+msgid "Website"
+msgstr "Website"
+
+#: Backend/Controllers/Page/Quicklist.php:53 Forms/MainMenu/Form.php:49
+#: Forms/Page/Form.php:115 Grids/Page/DataGridView.php:74
+msgid "Site"
+msgstr "Webseite"
+
+#: Backend/Controllers/Page/Quicklist.php:58 Grids/MainMenu/DataGridView.php:40
+#: Grids/Menu/DataGridView.php:62 Grids/Site/DataGridView.php:40
+msgid "Status"
+msgstr "Status"
+
+#: Backend/Controllers/Page/Quicklist.php:95
+msgid "Select a Page"
+msgstr "Seite wählen"
+
+#: Forms/Box/Form.php:51
+msgid "General Informations"
+msgstr ""
+
+#: Forms/Box/Form.php:52 Forms/Menu/Form.php:70 Forms/Page/Form.php:88
+#: key_words_html.php:32 key_words_html.php:41
+msgid "Title"
+msgstr "Titel"
+
+#: Forms/Box/Form.php:55 key_words_html.php:33 key_words_html.php:43
+msgid "Content"
+msgstr "Inhalt"
+
+#: Forms/Box/Form.php:57 Forms/MainMenu/Form.php:48 Forms/Menu/Form.php:88
+#: Forms/Page/Form.php:103 Forms/Site/Form.php:68 I18N/key_words_html.php:13
+#: I18N/key_words_html.php:14 key_words_html.php:18 key_words_html.php:19
+msgid "Online"
+msgstr "Online"
+
+#: Forms/Box/Form.php:58 Forms/Page/Form.php:104
+msgid "With Border"
+msgstr "Mit Rahmen"
+
+#: Forms/Box/Form.php:65
+msgid "Template File"
+msgstr "Vorlagendatei"
+
+#: Forms/Box/Form.php:68 Forms/MainMenu/Form.php:55 Forms/Menu/Form.php:96
+#: Forms/Page/Form.php:113 Forms/Site/Form.php:83
+msgid "Save"
+msgstr "Speichern"
+
+#: Forms/Box/Form.php:70 Forms/Menu/Form.php:123
+msgid "Navigation"
+msgstr ""
+
+#: Forms/MainMenu/Form.php:45 Grids/MainMenu/DataGridView.php:39
+msgid "Main Menu Name"
+msgstr "Hauptmenü Name"
+
+#: Forms/Menu/Form.php:69
+msgid "Menu Point Data"
+msgstr "Menüpunkt Daten"
+
+#: Forms/Menu/Form.php:74
+msgid "Alias"
+msgstr "Alias"
+
+#: Forms/Menu/Form.php:76
+msgid "Sort ID"
+msgstr "SortierID"
+
+#: Forms/Menu/Form.php:78
+msgid "Extern Url"
+msgstr "Externe URL"
+
+#: Forms/Menu/Form.php:81
+msgid "Select intern Page"
+msgstr "Interne Seite wählen"
+
+#: Forms/Menu/Form.php:85 Grids/Menu/DataGridView.php:65
+#: Grids/Menu/DataGridView.php:91
+msgid "Main Menu"
+msgstr "Hauptmenü"
+
+#: Forms/Menu/Form.php:89
+msgid "Target"
+msgstr "Ziel"
+
+#: Forms/Menu/Form.php:90
+msgid "blank"
+msgstr ""
+
+#: Forms/Menu/Form.php:90
+msgid "self"
+msgstr ""
+
+#: Forms/Menu/Form.php:91
+msgid "Parent"
+msgstr "Unter"
+
+#: Forms/Menu/Form.php:113 Grids/Menu/DataGridView.php:61
+msgid "Product Category"
+msgstr "Produktkategorie"
+
+#: Forms/Menu/Form.php:118
+msgid "You can link this menu to product category"
+msgstr "Sie können dieses Menü mit einer Produktkategorie verbinden"
+
+#: Forms/Page/Form.php:84 Grids/Page/DataGridView.php:39
+msgid "Page Title"
+msgstr "Seitentitel"
+
+#: Forms/Page/Form.php:85
+msgid "Search Engine"
+msgstr "Suchmachine"
+
+#: Forms/Page/Form.php:86
+msgid "Page Content"
+msgstr "Seiteninhalt"
+
+#: Forms/Page/Form.php:87
+msgid "Page Settings"
+msgstr "Seiteneinstellungen"
+
+#: Forms/Page/Form.php:92
+msgid "Page Name (intern)"
+msgstr "Seitenname (intern)"
+
+#: Forms/Page/Form.php:95
+msgid "Meta Keywords"
+msgstr "Meta Schlüsselwörter"
+
+#: Forms/Page/Form.php:98
+msgid "comma separated keywords"
+msgstr "Schlüsselwörter (durch Komma getrennt)"
+
+#: Forms/Page/Form.php:99
+msgid "Meta Description"
+msgstr "Meta Beschreibung"
+
+#: Forms/Page/Form.php:101
+msgid "Html Content"
+msgstr "HTML Inhalt"
+
+#: Forms/Page/Form.php:106
+msgid "Layout"
+msgstr "Layout"
+
+#: Forms/Page/Form.php:108
+msgid "Author Name"
+msgstr "Autor Name"
+
+#: Forms/Page/Form.php:110
+msgid "Update Author Name"
+msgstr "Autor Name aktualisieren"
+
+#: Forms/Page/Form.php:112
+msgid "Inherit Design from Site"
+msgstr "Entwurf von Webseite erben"
+
+#: Forms/Site/Form.php:64
+msgid "Site Settings"
+msgstr "Webseiteneinstellungen"
+
+#: Forms/Site/Form.php:65 Grids/Site/DataGridView.php:39
+msgid "Site Name"
+msgstr "Webseitenname"
+
+#: Forms/Site/Form.php:69
+msgid "Site Title"
+msgstr "Webseitentitel"
+
+#: Forms/Site/Form.php:71
+msgid "Root Directory"
+msgstr "Hauptverzeichnis"
+
+#: Forms/Site/Form.php:72
+msgid "Width"
+msgstr "Breite"
+
+#: Forms/Site/Form.php:73
+msgid "Select Site Style"
+msgstr "Webseitenstil auswählen"
+
+#: Forms/Site/Form.php:76
+msgid "Require Login"
+msgstr "Anmeldung erforderlich"
+
+#: Forms/Site/Form.php:77
+msgid "Description"
+msgstr "Beschreibung"
+
+#: Forms/Site/Form.php:79
+msgid "Select Homepage"
+msgstr "Homepage wählen"
+
+#: Frontend/Boot.php:58
+msgid "Manage Menu Blocks"
+msgstr "Menüblöcke verwalten"
+
+#: Frontend/Boot.php:59
+msgid "Manage Sites"
+msgstr "Webseiten verwalten"
+
+#: Grids/BannerImageDataGridView.php:35 Grids/MainMenu/DataGridView.php:48
+#: Grids/Menu/DataGridView.php:71 Grids/Page/DataGridView.php:45
+#: Grids/Site/DataGridView.php:53 key_words_html.php:12 key_words_html.php:17
+msgid "Edit"
+msgstr "Ändern"
+
+#: Grids/BannerImageDataGridView.php:39 Grids/MainMenu/DataGridView.php:43
+#: Grids/Menu/DataGridView.php:66 Grids/Page/DataGridView.php:53
+#: Grids/Site/DataGridView.php:48 I18N/key_words_html.php:17
+#: I18N/key_words_html.php:18 key_words_html.php:14 key_words_html.php:22
+#: key_words_html.php:23
+msgid "Delete"
+msgstr "Löschen"
+
+#: Grids/Menu/DataGridView.php:59
+msgid "Menu item name"
+msgstr "Menüpunkt-Name"
+
+#: Grids/Menu/DataGridView.php:60
+msgid "URL"
+msgstr "URL"
+
+#: Grids/Page/DataGridView.php:49 key_words_html.php:13
+msgid "State"
+msgstr "Status"
+
+#: Grids/Page/DataGridView.php:58 Grids/Site/DataGridView.php:57
+msgid "Modify Design"
+msgstr "Design ändern"
+
+#: Grids/Site/DataGridView.php:43
+msgid "Set as default"
+msgstr "Als Standart festlegen"
+
+#: Grids/Site/DataGridView.php:44
+msgid "Default"
+msgstr "Standart"
+
+#: I18N/key_words_html.php:3 I18N/key_words_html.php:6
+#: I18N/key_words_html.php:20 I18N/key_words_html.php:22
+#: I18N/key_words_html.php:25 I18N/key_words_html.php:27
+#: I18N/key_words_html.php:29 I18N/key_words_html.php:31
+#: I18N/key_words_html.php:33 I18N/key_words_html.php:35
+#: I18N/key_words_html.php:38 I18N/key_words_html.php:50
+#: I18N/key_words_html.php:52 I18N/key_words_html.php:58
+#: I18N/key_words_html.php:60 key_words_html.php:3 key_words_html.php:7
+#: key_words_html.php:25 key_words_html.php:29 key_words_html.php:50
+#: key_words_html.php:54 key_words_html.php:58 key_words_html.php:62
+#: key_words_html.php:67 key_words_html.php:71 key_words_html.php:79
+#: key_words_html.php:97 key_words_html.php:103 key_words_html.php:109
+#: key_words_html.php:113 key_words_html.php:119 key_words_html.php:123
+#: key_words_html.php:139
+msgid "Information"
+msgstr "Informationen"
+
+#: I18N/key_words_html.php:4 key_words_html.php:8 key_words_html.php:26
+msgid "Add new Block"
+msgstr "Neuen Block hinzufügen"
+
+#: I18N/key_words_html.php:7
+msgid "Add new box"
+msgstr "Neuen Block hinzufügen"
+
+#: I18N/key_words_html.php:9
+msgid "Box Name"
+msgstr "Blockname"
+
+#: I18N/key_words_html.php:10
+msgid "Box Type"
+msgstr "Blockart"
+
+#: I18N/key_words_html.php:11 key_words_html.php:15
+msgid "File"
+msgstr "Datei"
+
+#: I18N/key_words_html.php:12 key_words_html.php:16
+msgid "Text"
+msgstr "Text"
+
+#: I18N/key_words_html.php:15 I18N/key_words_html.php:16 key_words_html.php:20
+#: key_words_html.php:21
+msgid "Offline"
+msgstr "Offline"
+
+#: I18N/key_words_html.php:23
+msgid "List boxes"
+msgstr "Alle Blöcke auflisten"
+
+#: I18N/key_words_html.php:39 key_words_html.php:80 key_words_html.php:124
+msgid "Design Settings"
+msgstr "Designseinstellungen"
+
+#: I18N/key_words_html.php:40 I18N/key_words_html.php:61 key_words_html.php:81
+#: key_words_html.php:125
+msgid "Boxes and Banners"
+msgstr "Blöcke und Banner"
+
+#: I18N/key_words_html.php:41 I18N/key_words_html.php:42
+#: I18N/key_words_html.php:43 I18N/key_words_html.php:44
+#: I18N/key_words_html.php:45 I18N/key_words_html.php:46
+#: I18N/key_words_html.php:47 I18N/key_words_html.php:62
+#: I18N/key_words_html.php:63 I18N/key_words_html.php:64
+#: I18N/key_words_html.php:65 I18N/key_words_html.php:66
+#: I18N/key_words_html.php:67 key_words_html.php:84 key_words_html.php:85
+#: key_words_html.php:89 key_words_html.php:90 key_words_html.php:92
+#: key_words_html.php:93 key_words_html.php:95 key_words_html.php:128
+#: key_words_html.php:129 key_words_html.php:133 key_words_html.php:134
+#: key_words_html.php:135 key_words_html.php:137
+msgid "edit"
+msgstr "Ändern"
+
+#: I18N/key_words_html.php:53
+msgid "Add new Menu"
+msgstr "Neues Menü hinzufügen"
+
+#: I18N/key_words_html.php:54
+msgid "List of pages"
+msgstr "Alle Seiten auflisten"
+
+#: I18N/key_words_html.php:55
+msgid "choose your design"
+msgstr "Design wählen"
+
+#: I18N/key_words_html.php:71
+msgid "My Account"
+msgstr "Mein Account"
+
+#: I18N/key_words_html.php:72
+msgid "Add Your Motor Now"
+msgstr "Ihren Motor jetzt hinzufügen"
+
+#: I18N/key_words_html.php:74
+msgid "Menu 1"
+msgstr ""
+
+#: I18N/key_words_html.php:75
+msgid "Menu 2"
+msgstr ""
+
+#: I18N/key_words_html.php:76
+msgid "Menu 3"
+msgstr ""
+
+#: I18N/key_words_html.php:77
+msgid "Menu 4"
+msgstr ""
+
+#: I18N/key_words_html.php:78
+msgid "Submenu 1"
+msgstr ""
+
+#: I18N/key_words_html.php:79
+msgid "Submenu 2"
+msgstr ""
+
+#: I18N/key_words_html.php:80
+msgid "Menu 5"
+msgstr ""
+
+#: I18N/key_words_html.php:81 key_words_html.php:34
+msgid "Categorys"
+msgstr ""
+
+#: I18N/key_words_html.php:82
+msgid "Cms Module"
+msgstr "Cms Module"
+
+#: Models/Box/Model.php:191
+msgid "Variable Block"
+msgstr "Variabler Block"
+
+#: Models/Box/Model.php:194
+msgid "Text Block"
+msgstr "Textblock"
+
+#: Models/Box/Model.php:197
+msgid "Horizontal Menu Block"
+msgstr "Horizontaler Menüblock"
+
+#: Models/Box/Model.php:200
+msgid "Vertical Menu Block"
+msgstr "Verticaler Menüblock"
+
+#: Models/Box/Model.php:203
+msgid "Page Box Block"
+msgstr "Seitenblock"
+
+#: Models/Box/Model.php:205
+msgid "Block"
+msgstr "Block"
+
+#: key_words_html.php:4
+msgid "List Block"
+msgstr "Alle Blöcke auflisten"
+
+#: key_words_html.php:5
+msgid "Add new Text Block"
+msgstr "Textblock hinzufügen"
+
+#: key_words_html.php:10
+msgid "Block Name"
+msgstr "Name des Blocks"
+
+#: key_words_html.php:11
+msgid "Block Type"
+msgstr "Art des Blocks"
+
+#: key_words_html.php:31
+msgid "Vertical Block"
+msgstr "Vertikaler Menüblock"
+
+#: key_words_html.php:35 key_words_html.php:36 key_words_html.php:37
+#: key_words_html.php:38 key_words_html.php:39 key_words_html.php:40
+#: key_words_html.php:45 key_words_html.php:46 key_words_html.php:47
+msgid "Category"
+msgstr "Kategorie"
+
+#: key_words_html.php:42
+msgid "Horizontal Block"
+msgstr "Horizontaler Menüblock"
+
+#: key_words_html.php:44
+msgid "All Categories"
+msgstr "Alle Kategorien"
+
+#: key_words_html.php:48
+msgid "Megamenu"
+msgstr ""
+
+#: key_words_html.php:51 key_words_html.php:55 key_words_html.php:63
+msgid "Add new Main Menu"
+msgstr "Neues Hauptmenü hinzufügen"
+
+#: key_words_html.php:52
+msgid "List Main Menu"
+msgstr "Alle Hauptmenüs auflisten"
+
+#: key_words_html.php:56
+msgid "List Menu Item"
+msgstr "Alle Menüs auflisten"
+
+#: key_words_html.php:59
+msgid "Add new main menu"
+msgstr "Neues Hauptmenü hinzufügen"
+
+#: key_words_html.php:60
+msgid "List main menu"
+msgstr "Alle Hauptmenüs auflisten"
+
+#: key_words_html.php:64 key_words_html.php:73 key_words_html.php:99
+#: key_words_html.php:105
+msgid "List Menu Points"
+msgstr "Menüpunkte auflisten"
+
+#: key_words_html.php:65
+msgid "Add New Menu Points"
+msgstr "Neuen Menüpunkt hinzufügen"
+
+#: key_words_html.php:68 key_words_html.php:72 key_words_html.php:75
+#: key_words_html.php:114
+msgid "Add new Menu Point"
+msgstr "Neuen Menüpunkt hinzufügen"
+
+#: key_words_html.php:69
+msgid "List Main Menus"
+msgstr "Alle Hauptmenüs auflisten"
+
+#: key_words_html.php:82
+msgid "Unsed Elements"
+msgstr ""
+
+#: key_words_html.php:83 key_words_html.php:127
+msgid "Header"
+msgstr "Header"
+
+#: key_words_html.php:86 key_words_html.php:130
+msgid "Left"
+msgstr "Links"
+
+#: key_words_html.php:87 key_words_html.php:131
+msgid "Center"
+msgstr "Mitte"
+
+#: key_words_html.php:88 key_words_html.php:132
+msgid "Right"
+msgstr "Rechts"
+
+#: key_words_html.php:91
+msgid "main content"
+msgstr ""
+
+#: key_words_html.php:94 key_words_html.php:136
+msgid "Footer"
+msgstr "Footer"
+
+#: key_words_html.php:101 key_words_html.php:107
+msgid "List Fixed Pages"
+msgstr "Alle festen Seiten auflisten"
+
+#: key_words_html.php:116
+msgid "Choose your design"
+msgstr "Entwurf wählen"
+
+#: key_words_html.php:120 key_words_html.php:140
+msgid "Add new Site"
+msgstr "Neue Webseite hinzufügen"
+
+#: key_words_html.php:121 key_words_html.php:141
+msgid "List Sites"
+msgstr "Alle Webseiten auflisten"
+
+#: key_words_html.php:126
+msgid "Unused Elements"
+msgstr "Ungenutzte Elemente"
+
+#: key_words_html.php:143
+msgid "Add new site"
+msgstr "Neue Webseite hinzufügen"
+
+#: key_words_html.php:144
+msgid "List sites"
+msgstr "Alle Webseiten auflisten"
+
+#: key_words_html.php:152
+msgid "Sitemap"
+msgstr ""
+
+#~ msgid "List all Main Menus"
+#~ msgstr "Alle Hauptmenüs auflisten"
+
+#~ msgid "Modify Main Menu"
+#~ msgstr "Hauptmenü ändern"
+
+#~ msgid "Delete Main Menu"
+#~ msgstr "Hauptmenü löschen"
+
+#~ msgid "Set Main Menu Offline"
+#~ msgstr "Hauptmenü offline setzen"
+
+#~ msgid "Set Main Menu Online"
+#~ msgstr "Hauptmenü online setzen"
+
+#~ msgid "Show Quicklist"
+#~ msgstr "Zeige die schnelle Liste"
+
+#~ msgid "List all Sites"
+#~ msgstr "Alle Webseiten auflisten"
+
+#~ msgid "Modify Site"
+#~ msgstr "Webseite ändern"
+
+#~ msgid "Delete Site"
+#~ msgstr "Website löschen"
+
+#~ msgid "Design Sites"
+#~ msgstr "Websitenedesign"
+
+#~ msgid "Create new Main Menu"
+#~ msgstr "Neues Hauptmenü erstellen"
+
+#~ msgid "Main Menu was successully added"
+#~ msgstr "Hauptmenü wurde erfolgreich hinzugefügt"
+
+#~ msgid "Main Menu Data"
+#~ msgstr "Hauptmenü Daten"
+
+#~ msgid "Edit Main Menu"
+#~ msgstr "Hauptmenü ändern"
+
+#~ msgid "Action was successfully done"
+#~ msgstr "Aktion erfolgreich ausgeführt"
+
+#~ msgid "Create new Site"
+#~ msgstr "Neue Webseite erstellen"
+
+#~ msgid "Site was successully added"
+#~ msgstr "Webseite wurde erfolgreich hinzugefügt"
+
+#~ msgid "Edit Site"
+#~ msgstr "Webseite ändern"
+
+#, fuzzy
+#~ msgid "List of Pages"
+#~ msgstr "Alle Seiten auflisten"
+
+#~ msgid "Home page"
+#~ msgstr "Homepage"
+
+#~ msgid "List New Menu Points"
+#~ msgstr "Menüpunkt ändern"
+
+#~ msgid "Manage Menus"
+#~ msgstr "Menüs verwalten"
+
+#~ msgid "Add new Mainmenu"
+#~ msgstr "Neues Hauptmenü hinzufügen"
+
+#~ msgid "Edit main menu"
+#~ msgstr "Hauptmenü editieren"
+
+#~ msgid "List menus"
+#~ msgstr "Alle Menüs auflisten"
+
+#~ msgid "Meta Title"
+#~ msgstr "Meta Titel"

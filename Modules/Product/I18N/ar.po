@@ -1,0 +1,1441 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: modules\n"
+"POT-Creation-Date: 2014-05-24 10:20+0100\n"
+"PO-Revision-Date: 2014-05-24 10:29+0100\n"
+"Last-Translator: Montassar <montassarelaid@gmail.com>\n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../Backend/Boot.php:34
+msgid "Inventory"
+msgstr "المخزن"
+
+#: ../Backend/Boot.php:36
+msgid "Manage Categories"
+msgstr "ادارة الاقسام"
+
+#: ../Backend/Boot.php:37
+msgid "Add a Category"
+msgstr "إضافة قسم"
+
+#: ../Backend/Boot.php:38
+msgid "Manage Products"
+msgstr "ادارة المنتجات"
+
+#: ../Backend/Boot.php:39 ../Backend/Boot.php:71
+msgid "Group Edit"
+msgstr "تعديل جماعي للمنتجات"
+
+#: ../Backend/Boot.php:40
+msgid "Add a new Product"
+msgstr "اضافة منتج جديد"
+
+#: ../Backend/Boot.php:41
+msgid "Manage Manufactures"
+msgstr "ادارة الماركات"
+
+#: ../Backend/Boot.php:42
+msgid "Manage Product Sets"
+msgstr "ادارة مجموعات المنتج"
+
+#: ../Backend/Boot.php:43
+msgid "Manage Product Attributes"
+msgstr "ادارة خصائص المنتج"
+
+#: ../Backend/Boot.php:44
+msgid "Products Settings"
+msgstr "اعدادات المنتج"
+
+#: ../Backend/Boot.php:52
+msgid "Product Module"
+msgstr "إدارة المخزن "
+
+#: ../Backend/Boot.php:53
+msgid "Add Product Category"
+msgstr "اضافة قسم جديد "
+
+#: ../Backend/Boot.php:54
+msgid "Delete Product Category"
+msgstr "حذف قسم "
+
+#: ../Backend/Boot.php:55
+#, fuzzy
+msgid "List all Product Category"
+msgstr "قائمةالاقسام"
+
+#: ../Backend/Boot.php:56
+msgid "Modify Product Category"
+msgstr "التعديل على الأقسام "
+
+#: ../Backend/Boot.php:57
+msgid "Offline Product Category"
+msgstr "تعطيل قسم "
+
+#: ../Backend/Boot.php:58
+msgid "Online Product Category"
+msgstr "تفعيل قسم "
+
+#: ../Backend/Boot.php:59
+msgid "Sort Product Category"
+msgstr "ترتيب الأقسام "
+
+#: ../Backend/Boot.php:60
+#, fuzzy
+msgid "Add Product Document"
+msgstr "اضافة وثيقة للمنتج"
+
+#: ../Backend/Boot.php:61
+msgid "Delete Product Document"
+msgstr "حذف وثيقة من المنتج"
+
+#: ../Backend/Boot.php:62
+msgid "Detail Product Document"
+msgstr "تفاصيل وثائق المنتج"
+
+#: ../Backend/Boot.php:63
+msgid "Add Product Image"
+msgstr "اضافة صورة للمنتج"
+
+#: ../Backend/Boot.php:64
+msgid "Delete Product Image"
+msgstr "حذف صورة من المنتج"
+
+#: ../Backend/Boot.php:65
+#, fuzzy
+msgid "List all Product Image"
+msgstr "قائمة صور المنتج"
+
+#: ../Backend/Boot.php:66
+msgid "Modify Product Image"
+msgstr "التعديل على صورة المنتج"
+
+#: ../Backend/Boot.php:67
+msgid "Modify Product Price"
+msgstr "التعديل على سعر المنتج"
+
+#: ../Backend/Boot.php:68
+msgid "List  Products"
+msgstr "قائمة المنتجات"
+
+#: ../Backend/Boot.php:69
+msgid "Delete Product"
+msgstr "حذف المنتج"
+
+#: ../Backend/Boot.php:70
+msgid "Modify Product"
+msgstr "تعديل المنتج"
+
+#: ../Backend/Boot.php:72 ../Backend/Controllers/Product/Detail.php:43
+msgid "Product Details"
+msgstr "تفاصيل المنتج"
+
+#: ../Backend/Boot.php:73
+msgid "Set Product Online"
+msgstr "تفعيل المنتج"
+
+#: ../Backend/Boot.php:74
+msgid "Set Product Offline"
+msgstr "تعطيل المنتج"
+
+#: ../Backend/Boot.php:75
+msgid "Manage Product Media"
+msgstr "ادارة الوسائل الاعلامية"
+
+#: ../Backend/Boot.php:76
+msgid "Manage Grouped Product"
+msgstr "ادارة المنتجات المجمٌعة"
+
+#: ../Backend/Boot.php:77
+msgid "Product Quicklist"
+msgstr "قائمة المنتجات السريعة"
+
+#: ../Backend/Boot.php:78
+msgid "Marketing Product"
+msgstr "منتج تسويقي"
+
+#: ../Backend/Boot.php:79
+#: ../Backend/Controllers/Product/Offlineproduct.php:112
+#: ../key_words_html.php:101 ../key_words_html.php:148
+#: ../key_words_html.php:178 ../key_words_html.php:185
+msgid "List Offline Products"
+msgstr "قائمة المنتجات المُعطلة"
+
+#: ../Backend/Boot.php:80
+#: ../Backend/Controllers/Product/Specialproduct.php:111
+#: ../key_words_html.php:102 ../key_words_html.php:149
+#: ../key_words_html.php:179 ../key_words_html.php:186
+msgid "List Special Products"
+msgstr "قائمة المنتجات الخاصة"
+
+#: ../Backend/Boot.php:81
+msgid "Manage Product Configuration"
+msgstr "ادارة تكوين المنتج"
+
+#: ../Backend/Boot.php:82
+msgid "Setting Product"
+msgstr "إعدادات المنتج"
+
+#: ../Backend/Controllers/Category/Add.php:28
+msgid "Add new product category"
+msgstr "اضافة قسم جديد"
+
+#: ../Backend/Controllers/Category/Add.php:49
+#: ../Backend/Controllers/Category/Modify.php:72
+#: ../Backend/Controllers/Document/Add.php:62
+#: ../Backend/Controllers/Image/Add.php:56
+#: ../Backend/Controllers/Image/Modify.php:63
+#: ../Backend/Controllers/Manufacturer/Add.php:47
+#: ../Backend/Controllers/Manufacturer/Modify.php:65
+#: ../Backend/Controllers/Price/Modify.php:69
+#: ../Backend/Controllers/Product/Add.php:81
+#: ../Backend/Controllers/Product/Modify.php:65
+msgid "Please check inputs."
+msgstr " الرجاء التأكد من المعلومات"
+
+#: ../Backend/Controllers/Category/List.php:30
+msgid "List categories"
+msgstr "قائمة الاقسام"
+
+#: ../Backend/Controllers/Category/Modify.php:32
+msgid "Modify product category"
+msgstr "تعديل القسم"
+
+#: ../Backend/Controllers/Category/Sort.php:28 ../key_words_html.php:11
+#: ../key_words_html.php:21
+msgid "Sort Categories"
+msgstr "ترتيب الأقسام"
+
+#: ../Backend/Controllers/Document/Add.php:32
+msgid "Add a new Product Document"
+msgstr "اضافة وثيقة للمنتج"
+
+#: ../Backend/Controllers/Document/Add.php:60
+msgid "Document was successully added"
+msgstr "تم اضافة الوثيقة بنجاح"
+
+#: ../Backend/Controllers/Document/Detail.php:37
+msgid "Document Details"
+msgstr "تفاصيل الوثيقة"
+
+#: ../Backend/Controllers/Image/Add.php:33
+msgid "Add new Product Image"
+msgstr "اضافة صورة منتج"
+
+#: ../Backend/Controllers/Image/List.php:36
+msgid "List Images"
+msgstr "قائمة الصور"
+
+#: ../Backend/Controllers/Image/Modify.php:33
+msgid "Edit Product Image"
+msgstr "تعديل صورة المنتج"
+
+#: ../Backend/Controllers/Manufacturer/Add.php:30
+msgid "Add new Manufacturer"
+msgstr "اضافة ماركة جديدة"
+
+#: ../Backend/Controllers/Manufacturer/List.php:39
+msgid "List all manufacturers"
+msgstr "قائمة الماركات"
+
+#: ../Backend/Controllers/Manufacturer/Modify.php:29
+msgid "Modify Manufacturer"
+msgstr "التعديل على الماركة"
+
+#: ../Backend/Controllers/Price/Modify.php:42
+#: ../Backend/Controllers/Price/Price.php:42
+msgid "Product Prices"
+msgstr "اسعار المنتج"
+
+#: ../Backend/Controllers/Price/Modify.php:48
+#: ../Backend/Controllers/Price/Price.php:71
+#: ../Backend/Controllers/Product/Detail.php:66
+#: ../Backend/Controllers/Product/Grouped.php:74
+#: ../Backend/Controllers/Product/List.php:62
+#: ../Backend/Controllers/Product/List.php:69
+#: ../Backend/Controllers/Product/Marketing.php:93
+#: ../Backend/Controllers/Product/Marketing.php:109
+#: ../Backend/Controllers/Product/Marketing.php:125
+#: ../Backend/Controllers/Product/Offlineproduct.php:60
+#: ../Backend/Controllers/Product/Offlineproduct.php:65
+#: ../Backend/Controllers/Product/Specialproduct.php:60
+#: ../Backend/Controllers/Product/Specialproduct.php:65
+#: ../Forms/Price/Form.php:59 ../Grids/Category/DataGridView.php:47
+#: ../Grids/Document/DataGridView.php:42 ../Grids/Image/DataGridView.php:49
+#: ../Grids/Manufacturer/DataGridView.php:51
+#: ../Grids/Product/DataGridView.php:61
+msgid "Delete"
+msgstr "حذف"
+
+#: ../Backend/Controllers/Price/Price.php:49 ../Forms/Price/Form.php:36
+#: ../key_words_html.php:49 ../key_words_html.php:59 ../key_words_html.php:89
+#: ../key_words_html.php:109 ../key_words_html.php:122
+#: ../key_words_html.php:139 ../key_words_html.php:166
+msgid "Prices"
+msgstr "الأسعار"
+
+#: ../Backend/Controllers/Price/Price.php:50
+#: ../Backend/Controllers/Price/Price.php:69
+#: ../Backend/Controllers/Product/Quicklist.php:67
+#: ../Filter/Attribute/Dantelamark/MultiFilter.php:431
+#: ../Filter/Attribute/Dav/MultiFilter.php:429
+#: ../Filter/Attribute/Filter.php:351 ../Filter/Attribute/MultiFilter.php:436
+#: ../Forms/Price/Form.php:37 ../Forms/Price/Form.php:57
+#: ../Grids/Product/DataGridView.php:48
+#: ../Grids/Product/Multi/DataGridView.php:47 ../Panels/Product/Panel.php:68
+#: ../key_words_html.php:206 ../key_words_html.php:269
+#: ../key_words_html.php:276
+msgid "Price"
+msgstr "السعر"
+
+#: ../Backend/Controllers/Price/Price.php:53 ../Forms/Price/Form.php:40
+#: ../Panels/Product/Panel.php:71
+msgid "Special Price"
+msgstr "سعر العرض"
+
+#: ../Backend/Controllers/Price/Price.php:56 ../Forms/Price/Form.php:43
+msgid "Date From"
+msgstr "تاريخ العرض يبدا من"
+
+#: ../Backend/Controllers/Price/Price.php:60 ../Forms/Price/Form.php:47
+msgid "Date To"
+msgstr "تاريخ العرض صالح الى غاية"
+
+#: ../Backend/Controllers/Price/Price.php:64 ../Forms/Price/Form.php:51
+msgid "Table Price"
+msgstr "جدول الأسعار"
+
+#: ../Backend/Controllers/Price/Price.php:67
+#: ../Backend/Controllers/Product/Quicklist.php:65 ../Forms/Price/Form.php:55
+#: ../Grids/Product/DataGridView.php:52
+#: ../Grids/Product/Multi/DataGridView.php:53 ../Panels/Product/Panel.php:76
+#: ../key_words_html.php:76 ../key_words_html.php:207
+#: ../key_words_html.php:277
+msgid "Quantity"
+msgstr "الكمية"
+
+#: ../Backend/Controllers/Price/Price.php:84
+#: ../Backend/Controllers/Product/Configuration.php:134
+#: ../Forms/Category/Form.php:92 ../Forms/Document/Form.php:71
+#: ../Forms/Image/Form.php:91 ../Forms/Manufacturer/Form.php:66
+#: ../Forms/Price/Form.php:64 ../Forms/Product/Form.php:127
+#: ../key_words_html.php:93 ../key_words_html.php:113
+#: ../key_words_html.php:126 ../key_words_html.php:170
+msgid "Navigation"
+msgstr "التّصفح"
+
+#: ../Backend/Controllers/Price/Price.php:85
+#: ../Backend/Controllers/Product/Modify/Multi/List.php:102
+#: ../Backend/Controllers/Setting.php:104
+#: ../Backend/Controllers/Setting.php:108
+#: ../Backend/Controllers/Setting.php:149 ../Forms/Category/Form.php:67
+#: ../Forms/Comment/Form.php:65 ../Forms/Document/Form.php:59
+#: ../Forms/Image/Form.php:79 ../Forms/Manufacturer/Form.php:63
+#: ../key_words_html.php:22 ../key_words_html.php:78 ../key_words_html.php:209
+#: ../key_words_html.php:279
+msgid "Save"
+msgstr "حفظ"
+
+#: ../Backend/Controllers/Product/Add.php:30
+msgid "Add new product"
+msgstr "اضافة منتج جديد"
+
+#: ../Backend/Controllers/Product/Configuration.php:40
+msgid "Product Configurations"
+msgstr "تكوين المنتج"
+
+#: ../Backend/Controllers/Product/Configuration.php:97
+msgid "Configuration Attributes"
+msgstr "خصائص التكوين"
+
+#: ../Backend/Controllers/Product/Configuration.php:109
+msgid "Configurable Products"
+msgstr "منتجات مُكوٌنة"
+
+#: ../Backend/Controllers/Product/Configuration.php:135
+msgid "Save Configuration"
+msgstr "حفظ التكوين"
+
+#: ../Backend/Controllers/Product/Grouped.php:47
+msgid "Manage Grouped Products"
+msgstr "ادارة المنتجات المجمٌعة"
+
+#: ../Backend/Controllers/Product/Grouped.php:72 ../key_words_html.php:48
+#: ../key_words_html.php:58 ../key_words_html.php:80 ../key_words_html.php:88
+#: ../key_words_html.php:108 ../key_words_html.php:121
+#: ../key_words_html.php:138 ../key_words_html.php:165
+msgid "Grouped Products"
+msgstr "منتجات مجمٌعة"
+
+#: ../Backend/Controllers/Product/Grouped.php:82
+msgid "Select Product"
+msgstr "اختر منتج"
+
+#: ../Backend/Controllers/Product/List.php:59
+#: ../Backend/Controllers/Product/Offlineproduct.php:56
+#: ../Backend/Controllers/Product/Specialproduct.php:56
+msgid "Duplication"
+msgstr "مضاعفة"
+
+#: ../Backend/Controllers/Product/List.php:60
+#: ../Backend/Controllers/Product/Offlineproduct.php:57
+#: ../Backend/Controllers/Product/Specialproduct.php:57
+msgid "Set Online"
+msgstr "تفعيل "
+
+#: ../Backend/Controllers/Product/List.php:61
+#: ../Backend/Controllers/Product/Offlineproduct.php:58
+#: ../Backend/Controllers/Product/Specialproduct.php:58
+msgid "Set Offline"
+msgstr "تعطيل "
+
+#: ../Backend/Controllers/Product/List.php:115
+#: ../Backend/Controllers/Report/Sales/Most.php:53
+msgid "List all products"
+msgstr "قائمة جميع المنتجات"
+
+#: ../Backend/Controllers/Product/Marketing.php:64
+#: ../Backend/Controllers/Product/Media.php:64
+msgid "Manage Media"
+msgstr "ادارة وسائل الاعلام"
+
+#: ../Backend/Controllers/Product/Marketing.php:91
+msgid "Related Products"
+msgstr "المنتجات المتعلقة"
+
+#: ../Backend/Controllers/Product/Marketing.php:102
+#: ../Backend/Controllers/Product/Marketing.php:118
+#: ../Backend/Controllers/Product/Marketing.php:134
+#: ../Backend/Controllers/Product/Prepare.php:32 ../key_words_html.php:4
+#: ../key_words_html.php:34 ../key_words_html.php:45 ../key_words_html.php:55
+#: ../key_words_html.php:98 ../key_words_html.php:131
+#: ../key_words_html.php:135 ../key_words_html.php:145
+#: ../key_words_html.php:152 ../key_words_html.php:154
+#: ../key_words_html.php:158 ../key_words_html.php:175
+#: ../key_words_html.php:182 ../key_words_html.php:189
+msgid "Add new Product"
+msgstr "اضافة منتج جديد"
+
+#: ../Backend/Controllers/Product/Marketing.php:107
+msgid "Cross Selling"
+msgstr "منتجات مختارة"
+
+#: ../Backend/Controllers/Product/Marketing.php:123
+msgid "Up Selling"
+msgstr "منتجات مشابهة"
+
+#: ../Backend/Controllers/Product/Media.php:114 ../key_words_html.php:81
+msgid "Product Images"
+msgstr "صور المنتج"
+
+#: ../Backend/Controllers/Product/Media.php:120 ../key_words_html.php:29
+msgid "Add new Image"
+msgstr "اضافة صورة جديدة"
+
+#: ../Backend/Controllers/Product/Media.php:142 ../key_words_html.php:82
+#: ../key_words_html.php:222
+msgid "Product Documents"
+msgstr "وثائق المتج"
+
+#: ../Backend/Controllers/Product/Media.php:146
+msgid "Add new Document"
+msgstr "اضافة وثيقة"
+
+#: ../Backend/Controllers/Product/Modify.php:31
+msgid "Modify product"
+msgstr "تعديل المنتج"
+
+#: ../Backend/Controllers/Product/Modify/Multi/List.php:40
+msgid "Modify all products"
+msgstr "تعديل جماعي للمنتجات"
+
+#: ../Backend/Controllers/Product/Modify/Multi/List.php:90
+#, fuzzy
+msgid "Failed to update product"
+msgstr "فشل في تحديث المنتج"
+
+#: ../Backend/Controllers/Product/Offlineproduct.php:59
+#: ../Backend/Controllers/Product/Specialproduct.php:59
+#: ../Grids/Category/DataGridView.php:43 ../Grids/Image/DataGridView.php:46
+#: ../Grids/Manufacturer/DataGridView.php:44
+#: ../Grids/Product/DataGridView.php:57
+msgid "Edit"
+msgstr "تعديل"
+
+#: ../Backend/Controllers/Product/Prepare.php:44
+msgid "Product Type"
+msgstr "نوع المنتج"
+
+#: ../Backend/Controllers/Product/Prepare.php:46
+msgid "Simple Product"
+msgstr "منتج بسيط"
+
+#: ../Backend/Controllers/Product/Prepare.php:47
+msgid "Service Product"
+msgstr "منتج خدماتي"
+
+#: ../Backend/Controllers/Product/Prepare.php:48
+msgid "Grouped Product"
+msgstr "منتجات مجمٌعة"
+
+#: ../Backend/Controllers/Product/Prepare.php:55
+msgid "Attribute Set"
+msgstr "مجموعة الخصائص"
+
+#: ../Backend/Controllers/Product/Prepare.php:57
+msgid "Default Attribute Set"
+msgstr "مجموعة الخصائص الافتراضية"
+
+#: ../Backend/Controllers/Product/Prepare.php:62 ../Forms/Price/Form.php:70
+#: ../Forms/Product/Form.php:105 ../key_words_html.php:95
+#: ../key_words_html.php:115 ../key_words_html.php:128
+#: ../key_words_html.php:172
+msgid "Next Step"
+msgstr "الخطوة القادمة"
+
+#: ../Backend/Controllers/Product/Quicklist.php:55
+#: ../Forms/Document/Form.php:54 ../Grids/Image/DataGridView.php:37
+#: ../Grids/Product/DataGridView.php:37
+#: ../Grids/Product/Multi/DataGridView.php:37
+msgid "Image"
+msgstr "الصورة"
+
+#: ../Backend/Controllers/Product/Quicklist.php:59 ../key_words_html.php:200
+#: ../key_words_html.php:243 ../key_words_html.php:295
+msgid "Product Number"
+msgstr "رقم المنتج"
+
+#: ../Backend/Controllers/Product/Quicklist.php:62
+msgid "Product Name"
+msgstr "اسم المنتج"
+
+#: ../Backend/Controllers/Product/Quicklist.php:146
+msgid "Select a product"
+msgstr "اختر منتج"
+
+#: ../Backend/Controllers/Product/Recommended.php:30
+#: ../Backend/Controllers/Product/Recommended.php:60
+msgid "List Recommended products"
+msgstr "قائمة المنتجات الموصى بها"
+
+#: ../Backend/Controllers/Product/Recommended.php:39
+msgid "Unassign"
+msgstr "إلغاء"
+
+#: ../Backend/Controllers/Product/Recommended.php:47
+msgid "Add Product"
+msgstr "اضافة منتج "
+
+#: ../Backend/Controllers/Product/Shipping.php:47
+msgid "Manage Shipping Options"
+msgstr "ادارة اعدادات الشحن"
+
+#: ../Backend/Controllers/Product/Shipping.php:58
+#: ../Backend/Controllers/Setting.php:118
+#: ../Backend/Controllers/Setting.php:128
+msgid "Data was successfully saved"
+msgstr "تم حفظ البيانات بنجاح"
+
+#: ../Backend/Controllers/Product/Shipping.php:78
+msgid "Allowed Shipping methods"
+msgstr "وسائل الشحن المسموح بها"
+
+#: ../Backend/Controllers/Product/Shipping.php:79
+msgid "Shipping Method"
+msgstr "وسائل الشحن"
+
+#: ../Backend/Controllers/Product/Shipping.php:87
+msgid "Apply Changes"
+msgstr "تطبيق التغييرات"
+
+#: ../Backend/Controllers/Report/Sales/Most.php:43
+msgid "Sales Count"
+msgstr "عدد المبيعات"
+
+#: ../Backend/Controllers/Setting.php:31
+msgid "Product Settings"
+msgstr "اعدادات المنتج"
+
+#: ../Backend/Controllers/Setting.php:48
+msgid "Product List Frontend"
+msgstr "قائمة المتجات في الواجهة الخارجية للمتجر"
+
+#: ../Backend/Controllers/Setting.php:51 ../key_words_html.php:249
+#: ../key_words_html.php:260
+msgid "Products per page"
+msgstr "عدد المنتجات في الصفحة الواحدة"
+
+#: ../Backend/Controllers/Setting.php:56
+msgid "Display Title"
+msgstr "إظهار العنوان"
+
+#: ../Backend/Controllers/Setting.php:59
+msgid "Display Price"
+msgstr "إظهار الثمن"
+
+#: ../Backend/Controllers/Setting.php:62
+msgid "Display Quantity"
+msgstr "إظهار الكمية"
+
+#: ../Backend/Controllers/Setting.php:65
+msgid "Display Mode"
+msgstr "طريقة العرض"
+
+#: ../Backend/Controllers/Setting.php:72
+msgid "Product Image Settings"
+msgstr "اعدادات صور المنتج"
+
+#: ../Backend/Controllers/Setting.php:74
+msgid "Image Width (Pixel)"
+msgstr "عرض الصورة بالبكسل"
+
+#: ../Backend/Controllers/Setting.php:79
+msgid "Image Height (Pixel)"
+msgstr "ارتفاع الصورة بالبكسل"
+
+#: ../Backend/Controllers/Setting.php:84
+msgid "Image Thumb Width (Pixel)"
+msgstr "عرض الصورة الصغييرة بالبكسل"
+
+#: ../Backend/Controllers/Setting.php:89
+msgid "Image Thumb Height (Pixel)"
+msgstr "ارتفاع الصورة الصغيرة بالبكسل"
+
+#: ../Backend/Controllers/Setting.php:96
+msgid "Shopping Cart & Stock Management"
+msgstr "سلة التسوق وادارة المخزون"
+
+#: ../Backend/Controllers/Setting.php:98
+msgid "Enable Auto Stock Management?"
+msgstr "تفعيل ادارة المخزون التلقائية"
+
+#: ../Backend/Controllers/Setting.php:101
+msgid "Display Products when Quantity is null?"
+msgstr "استعراض المنتج عندما تنتهي كميته"
+
+#: ../Backend/Controllers/Setting.php:138
+msgid "Record Numbering"
+msgstr "الترقيم"
+
+#: ../Backend/Controllers/Setting.php:139
+msgid "Prefix"
+msgstr "حروف"
+
+#: ../Backend/Controllers/Setting.php:140
+msgid "Like: PROD"
+msgstr "مثل PROD"
+
+#: ../Backend/Controllers/Setting.php:145
+msgid "Start Record"
+msgstr "الترقيم يبدأ من"
+
+#: ../Forms/Category/Form.php:53 ../Forms/Document/Form.php:51
+#: ../Forms/Image/Form.php:60 ../Forms/Manufacturer/Form.php:36
+#: ../Forms/Sendtofreind/Form.php:53 ../Grids/Category/DataGridView.php:37
+#: ../Grids/Manufacturer/DataGridView.php:34 ../Panels/Category/Panel.php:52
+msgid "Name"
+msgstr "الاسم"
+
+#: ../Forms/Category/Form.php:56
+msgid "Parent Category"
+msgstr "القسم الرئيسي"
+
+#: ../Forms/Category/Form.php:62 ../Grids/Category/DataGridView.php:39
+#: ../Panels/Category/Panel.php:54
+msgid "Sort Id"
+msgstr "رقم الترتيب"
+
+#: ../Forms/Category/Form.php:64 ../Grids/Category/DataGridView.php:40
+#: ../Grids/Category/DataGridView.php:64 ../Grids/Product/DataGridView.php:93
+#: ../Panels/Category/Panel.php:55
+msgid "State"
+msgstr "تفعيل"
+
+#: ../Forms/Category/Form.php:65 ../Forms/Manufacturer/Form.php:46
+#: ../Forms/Manufacturer/Form.php:49 ../key_words_html.php:272
+msgid "Description"
+msgstr "الوصف"
+
+#: ../Forms/Category/Form.php:70
+msgid "Category Logo"
+msgstr "شعار القسم"
+
+#: ../Forms/Category/Form.php:74 ../Forms/Manufacturer/Form.php:53
+msgid "Logo"
+msgstr "الشعار"
+
+#: ../Forms/Category/Form.php:76 ../Forms/Category/Form.php:78
+msgid "Category Banner"
+msgstr "لافتة القسم"
+
+#: ../Forms/Category/Form.php:83 ../Forms/Document/Form.php:65
+#: ../Forms/Image/Form.php:81 ../Forms/Manufacturer/Form.php:35
+msgid "General Informations"
+msgstr "معلومات عامة"
+
+#: ../Forms/Comment/Form.php:53 ../Forms/Sendtofreind/Form.php:73
+#: ../Panels/Comment/Panel.php:55
+msgid "Subject"
+msgstr "الموضوع"
+
+#: ../Forms/Comment/Form.php:55 ../Panels/Comment/Panel.php:67
+msgid "Comment"
+msgstr "التعليق"
+
+#: ../Forms/Comment/Form.php:57 ../Forms/Document/Form.php:58
+#: ../Forms/Image/Form.php:73 ../Grids/Image/DataGridView.php:43
+#: ../Panels/Comment/Panel.php:56
+msgid "Public"
+msgstr "عمومي"
+
+#: ../Forms/Comment/Form.php:58 ../Panels/Comment/Panel.php:57
+msgid "Author"
+msgstr "اسم الكاتب"
+
+#: ../Forms/Comment/Form.php:60 ../Grids/Image/DataGridView.php:45
+#: ../Panels/Comment/Panel.php:58
+msgid "Insert Date"
+msgstr "تاريخ الإنشاء"
+
+#: ../Forms/Comment/Form.php:62
+msgid "Product "
+msgstr "المنتج"
+
+#: ../Forms/Document/Form.php:54
+msgid "Document"
+msgstr "الوثيقة"
+
+#: ../Forms/Document/Form.php:54
+msgid "Zip File"
+msgstr "ملف مضغوط"
+
+#: ../Forms/Document/Form.php:54
+msgid "Software"
+msgstr "البرنامج"
+
+#: ../Forms/Document/Form.php:55 ../Grids/Image/DataGridView.php:41
+msgid "Type"
+msgstr "النوع"
+
+#: ../Forms/Document/Form.php:61
+msgid "File to upload"
+msgstr "رفع الملف"
+
+#: ../Forms/Image/Form.php:63
+msgid "Image to upload"
+msgstr "رفع الصورة"
+
+#: ../Forms/Image/Form.php:66
+msgid "Important for the search engines (image search)"
+msgstr "مهم جدا لمحركات البحث, خاصة عند البحث عن الصور"
+
+#: ../Forms/Image/Form.php:67
+msgid "Max Width (Pixel)"
+msgstr "اقصى حد للعرض بالبكسل"
+
+#: ../Forms/Image/Form.php:70
+msgid "Max Height (Pixel)"
+msgstr "اقصى ارتفاع بالبكسل"
+
+#: ../Forms/Image/Form.php:74
+msgid "if not public, the image will not be appear in the frontend"
+msgstr "ان لم تكن الصورة عمومية فانها لن تظهر في الواجهة الخارجية للمتجر"
+
+#: ../Forms/Image/Form.php:75
+msgid "Remote URL"
+msgstr "رابط خارجي"
+
+#: ../Forms/Image/Form.php:78
+msgid "Note: by using remote url, the uploaded image will be ignored!"
+msgstr "ملاحظة: عند اضافة رابط صورة فان الصورة المحمٌلة سيتم تجاهلها"
+
+#: ../Forms/Image/Form.php:86
+msgid "Size Informations"
+msgstr "معلومات الحجم"
+
+#: ../Forms/Manufacturer/Form.php:41
+msgid "Page"
+msgstr "الصفحة"
+
+#: ../Forms/Manufacturer/Form.php:56
+msgid "Manufacturer Logo"
+msgstr "شعار الماركة"
+
+#: ../Forms/Price/Form.php:67 ../key_words_html.php:94
+#: ../key_words_html.php:114 ../key_words_html.php:127
+#: ../key_words_html.php:171
+msgid "Previous Step"
+msgstr "الخطوة السابقة"
+
+#: ../Forms/Product/Form.php:77 ../Grids/Product/DataGridView.php:41
+#: ../Grids/Product/Multi/DataGridView.php:41 ../Panels/Product/Panel.php:66
+msgid "Title"
+msgstr "الاسم"
+
+#: ../Forms/Product/Form.php:82 ../Grids/Product/DataGridView.php:44
+#: ../Grids/Product/Multi/DataGridView.php:44 ../Panels/Product/Panel.php:67
+msgid "Number"
+msgstr "الرقم"
+
+#: ../Forms/Product/Form.php:87 ../Grids/Product/DataGridView.php:84
+#: ../Grids/Product/Multi/DataGridView.php:49 ../Panels/Product/Panel.php:69
+#: ../key_words_html.php:201
+msgid "Category"
+msgstr "القسم"
+
+#: ../Forms/Product/Form.php:93
+msgid "Manufacturer"
+msgstr "الماركات"
+
+#: ../Forms/Product/Form.php:98
+msgid "Mark as new Product"
+msgstr "تصنيف منتج جديد"
+
+#: ../Forms/Product/Form.php:99
+msgid "Show In Home"
+msgstr "المشاهدة في الصفحة الرئيسية"
+
+#: ../Forms/Product/Form.php:103
+msgid "Short Description"
+msgstr "وصف قصير"
+
+#: ../Forms/Product/Form.php:107 ../Panels/Product/Panel.php:64
+#: ../key_words_html.php:79 ../key_words_html.php:224
+msgid "Product Information"
+msgstr "معلومات المنتج"
+
+#: ../Forms/Product/Form.php:114
+msgid "Stock Management"
+msgstr "ادارة المخزون"
+
+#: ../Forms/Product/Form.php:115
+msgid "Manage Stock for this Product"
+msgstr "ادارة مخزون هذا المنتج"
+
+#: ../Forms/Product/Form.php:117
+msgid "Available Quantity"
+msgstr "الكمية المتاحة"
+
+#: ../Forms/Product/Form.php:123 ../Panels/Product/Panel.php:87
+msgid "Product Description"
+msgstr "وصف المنتج"
+
+#: ../Forms/Product/Form.php:159
+msgid "Attributes"
+msgstr "الخصائص"
+
+#: ../Forms/Sendtofreind/Form.php:58
+msgid "Email"
+msgstr "البريد الالكتروني"
+
+#: ../Forms/Sendtofreind/Form.php:63
+msgid "Your freinds name"
+msgstr "اسم صديقك"
+
+#: ../Forms/Sendtofreind/Form.php:68
+msgid "Your freinds email"
+msgstr "بريد صديقك الالكتروني"
+
+#: ../Forms/Sendtofreind/Form.php:78
+msgid "Message"
+msgstr "رسالة"
+
+#: ../Forms/Sendtofreind/Form.php:80
+msgid "Send"
+msgstr "ارسل"
+
+#: ../Frontend/Boot.php:143 ../Frontend/Controllers/-Override/List.php:87
+#: ../Frontend/Controllers/-Override/List.php:99
+#: ../Frontend/Controllers/-Override/Offer.php:41
+#: ../Frontend/Controllers/List.php:80 ../Frontend/Controllers/List.php:91
+#: ../Frontend/Controllers/Override1/List.php:88
+#: ../Frontend/Controllers/Override1/List.php:100
+#: ../Frontend/Controllers/Override1/Offer.php:41
+msgid "Categories"
+msgstr "الاقسام"
+
+#: ../Frontend/Controllers/Sendtofriend.php:80
+msgid "Best Regards"
+msgstr "مع أطيب التحيات"
+
+#: ../Grids/Category/DataGridView.php:38 ../Panels/Category/Panel.php:53
+msgid "Parent"
+msgstr "تحت"
+
+#: ../Grids/Document/DataGridView.php:35
+msgid "Document Name"
+msgstr "اسم الوثيقة"
+
+#: ../Grids/Document/DataGridView.php:37
+msgid "Document Type"
+msgstr "نوع الوثيقة"
+
+#: ../Grids/Document/DataGridView.php:38
+msgid "Download"
+msgstr "تحميل"
+
+#: ../Grids/Image/DataGridView.php:36
+msgid "Image Name"
+msgstr "اسم الصورة"
+
+#: ../Grids/Image/DataGridView.php:42
+msgid "Extension"
+msgstr "امتداد"
+
+#: ../Grids/Image/DataGridView.php:44
+msgid "RemoteURL"
+msgstr "رابط خارجي"
+
+#: ../Grids/Manufacturer/DataGridView.php:39
+msgid "Home Page"
+msgstr "الصفحة الرئيسية"
+
+#: ../Grids/Product/DataGridView.php:46
+msgid "Product Category"
+msgstr "قسم المنتج"
+
+#: ../Grids/Product/DataGridView.php:47
+msgid "User"
+msgstr "المستخدم"
+
+#: ../Grids/Product/DataGridView.php:50
+msgid "Discount"
+msgstr "التخفيض"
+
+#: ../Grids/Product/DataGridView.php:54
+#, fuzzy
+msgid "Online"
+msgstr "تفعيل "
+
+#: ../Models/Document/Model.php:233 ../Models/Image/Model.php:434
+msgid "file cannote be uploaded"
+msgstr "لا يمكن رفع الملف"
+
+#: ../Models/Notification/Model.php:23
+msgid "Product Quantity Alert"
+msgstr "انذار نفاذ الكمية"
+
+#: ../Models/Product/Model.php:834 ../Models/Product/Model.php:864
+msgid "Product was deleted"
+msgstr "تم حذف المنتج"
+
+#: ../Models/Product/Model.php:841 ../Models/Product/Model.php:871
+msgid "Given quantity must be greater than 0"
+msgstr "الكمية المضافة يجب ان تكون اكبر من 0"
+
+#: ../Models/Product/Model.php:874
+#, php-format
+msgid "No enougth quantity for %s, max quantity is %s"
+msgstr "لا توجد كمية كافية لهذا المنتج %s, اقصى كمية هي: %s"
+
+#: ../Panels/Category/Panel.php:50
+msgid "Product Category Information"
+msgstr "معلومات قسم المنتج"
+
+#: ../Panels/Category/Panel.php:60
+msgid "Product Category Description"
+msgstr "وصف قسم المنتج"
+
+#: ../Panels/Category/Panel.php:62
+msgid "Description "
+msgstr "الوصف"
+
+#: ../Panels/Comment/Panel.php:53
+msgid "Product Comment Information"
+msgstr "معلومات تعليق المنتج"
+
+#: ../Panels/Comment/Panel.php:59 ../key_words_html.php:287
+msgid "Product"
+msgstr "المنتج"
+
+#: ../Panels/Comment/Panel.php:65
+msgid "Product Comment Description"
+msgstr "تفاصيل تعليق المنتج"
+
+#: ../Panels/Product/Panel.php:70
+msgid "Status"
+msgstr "الحالة"
+
+#: ../Panels/Product/Panel.php:72
+#, fuzzy
+msgid "Special Price To"
+msgstr "سعر العرض صالح الى غاية"
+
+#: ../Panels/Product/Panel.php:73 ../Panels/Product/Panel.php:75
+msgid "Special Price From"
+msgstr "سعر العرض يبدأ من"
+
+#: ../Panels/Product/Panel.php:74
+msgid "Manage Stock"
+msgstr "إدارة المخزون"
+
+#: ../key_words_html.php:3 ../key_words_html.php:7 ../key_words_html.php:13
+#: ../key_words_html.php:17 ../key_words_html.php:24 ../key_words_html.php:26
+#: ../key_words_html.php:28 ../key_words_html.php:31 ../key_words_html.php:33
+#: ../key_words_html.php:37 ../key_words_html.php:41 ../key_words_html.php:44
+#: ../key_words_html.php:54 ../key_words_html.php:64 ../key_words_html.php:72
+#: ../key_words_html.php:84 ../key_words_html.php:97 ../key_words_html.php:104
+#: ../key_words_html.php:117 ../key_words_html.php:130
+#: ../key_words_html.php:134 ../key_words_html.php:144
+#: ../key_words_html.php:151 ../key_words_html.php:157
+#: ../key_words_html.php:161 ../key_words_html.php:174
+#: ../key_words_html.php:181 ../key_words_html.php:188
+msgid "Information"
+msgstr "اعلام"
+
+#: ../key_words_html.php:5 ../key_words_html.php:15 ../key_words_html.php:19
+msgid "List Categories"
+msgstr "قائمة الاقسام"
+
+#: ../key_words_html.php:8 ../key_words_html.php:14 ../key_words_html.php:18
+msgid "Add new Category"
+msgstr "اضافة قسم جديد"
+
+#: ../key_words_html.php:9 ../key_words_html.php:39 ../key_words_html.php:46
+#: ../key_words_html.php:56 ../key_words_html.php:66 ../key_words_html.php:74
+#: ../key_words_html.php:86 ../key_words_html.php:99 ../key_words_html.php:106
+#: ../key_words_html.php:119 ../key_words_html.php:132
+#: ../key_words_html.php:136 ../key_words_html.php:146
+#: ../key_words_html.php:153 ../key_words_html.php:159
+#: ../key_words_html.php:163 ../key_words_html.php:176
+#: ../key_words_html.php:183 ../key_words_html.php:190
+msgid "List Products"
+msgstr "قائمة المنتجات"
+
+#: ../key_words_html.php:10 ../key_words_html.php:20
+msgid "Category List"
+msgstr "قائمة الاقسام"
+
+#: ../key_words_html.php:35
+#, fuzzy
+msgid "List All Manufacture"
+msgstr "قائمة الماركات"
+
+#: ../key_words_html.php:38 ../key_words_html.php:42
+#, fuzzy
+msgid "Add new manufacturer"
+msgstr "اضافة ماركة جديدة"
+
+#: ../key_words_html.php:47 ../key_words_html.php:57 ../key_words_html.php:67
+#: ../key_words_html.php:87 ../key_words_html.php:107
+#: ../key_words_html.php:120 ../key_words_html.php:137
+#: ../key_words_html.php:164 ../key_words_html.php:270
+msgid "General information"
+msgstr "معلومات عامة"
+
+#: ../key_words_html.php:50 ../key_words_html.php:60 ../key_words_html.php:68
+#: ../key_words_html.php:90 ../key_words_html.php:110
+#: ../key_words_html.php:123 ../key_words_html.php:140
+#: ../key_words_html.php:167
+msgid "Shipping Options"
+msgstr "خيارات الشحن"
+
+#: ../key_words_html.php:51 ../key_words_html.php:61 ../key_words_html.php:69
+#: ../key_words_html.php:91 ../key_words_html.php:111
+#: ../key_words_html.php:124 ../key_words_html.php:141
+#: ../key_words_html.php:168
+msgid "Marketing"
+msgstr "التسويق"
+
+#: ../key_words_html.php:52 ../key_words_html.php:62 ../key_words_html.php:70
+#: ../key_words_html.php:92 ../key_words_html.php:112
+#: ../key_words_html.php:125 ../key_words_html.php:142
+#: ../key_words_html.php:169
+msgid "Configuration"
+msgstr "التكوين"
+
+#: ../key_words_html.php:65 ../key_words_html.php:73 ../key_words_html.php:85
+#: ../key_words_html.php:105 ../key_words_html.php:118
+#: ../key_words_html.php:162
+msgid "Edit Product"
+msgstr "تعديل المنتج"
+
+#: ../key_words_html.php:75
+msgid "Table Prices"
+msgstr "جدول الأسعار"
+
+#: ../key_words_html.php:77 ../key_words_html.php:208
+#: ../key_words_html.php:278
+msgid "Unit Price"
+msgstr "سعر الوحدة"
+
+#: ../key_words_html.php:100 ../key_words_html.php:147
+#: ../key_words_html.php:177 ../key_words_html.php:184
+msgid "List All Products"
+msgstr "قائمة جميع المنتجات"
+
+#: ../key_words_html.php:193
+msgid "Compare Products"
+msgstr "مقارنة المنتجات"
+
+#: ../key_words_html.php:194 ../key_words_html.php:195
+#: ../key_words_html.php:196 ../key_words_html.php:197
+msgid "Add to Cart"
+msgstr "اضف الى سلة التسوق"
+
+#: ../key_words_html.php:199
+msgid "Home"
+msgstr "الصفحة الرئيسية"
+
+#: ../key_words_html.php:202 ../key_words_html.php:244
+#: ../key_words_html.php:273 ../key_words_html.php:296
+msgid "Old Price"
+msgstr "السعر القديم"
+
+#: ../key_words_html.php:203 ../key_words_html.php:245
+#: ../key_words_html.php:274 ../key_words_html.php:297
+msgid "From"
+msgstr "من"
+
+#: ../key_words_html.php:204 ../key_words_html.php:246
+#: ../key_words_html.php:275 ../key_words_html.php:298
+msgid "To"
+msgstr "إلى"
+
+#: ../key_words_html.php:205 ../key_words_html.php:290
+msgid "SALE"
+msgstr ""
+
+#: ../key_words_html.php:210
+#, fuzzy
+msgid "Get Quotation"
+msgstr " طلب عرض أسعار "
+
+#: ../key_words_html.php:211 ../key_words_html.php:240
+msgid "Buy Now"
+msgstr "اشتري الآن"
+
+#: ../key_words_html.php:212
+msgid "Print"
+msgstr "طباعة"
+
+#: ../key_words_html.php:213 ../key_words_html.php:281
+msgid "Send to friend"
+msgstr "ارسل لصديق"
+
+#: ../key_words_html.php:214
+msgid "Delete bookmark"
+msgstr "حذف من قائمة رغباتي"
+
+#: ../key_words_html.php:215
+msgid "Add bookmark"
+msgstr "اضافة الى قائمة رغباتي"
+
+#: ../key_words_html.php:216
+msgid "Add to Facebook"
+msgstr "انشر في الفيس بوك"
+
+#: ../key_words_html.php:217
+msgid "Add to Twitter"
+msgstr "انشر في توتر"
+
+#: ../key_words_html.php:220
+msgid "Selected products"
+msgstr "منتجات مختارة"
+
+#: ../key_words_html.php:226
+msgid "Products included in the offer"
+msgstr "المنتجات المدرجة في العرض"
+
+#: ../key_words_html.php:227
+msgid "Included in the offer"
+msgstr "مدرج في العرض"
+
+#: ../key_words_html.php:228
+msgid "Unit price"
+msgstr "سعر الوحدة"
+
+#: ../key_words_html.php:230
+msgid "image thumb"
+msgstr "صورة المنتج"
+
+#: ../key_words_html.php:232
+msgid "May be also interessant"
+msgstr "منتجات قد تهمك"
+
+#: ../key_words_html.php:234
+msgid "Similar Products"
+msgstr "منتجات مشابهة"
+
+#: ../key_words_html.php:236 ../key_words_html.php:238
+#: ../key_words_html.php:241 ../key_words_html.php:247
+#: ../key_words_html.php:299
+msgid "Details"
+msgstr "التفاصيل"
+
+#: ../key_words_html.php:250 ../key_words_html.php:261
+msgid "Sort by"
+msgstr "ترتيب حسب"
+
+#: ../key_words_html.php:251 ../key_words_html.php:262
+msgid "Please select"
+msgstr "الرجاء الاختيار"
+
+#: ../key_words_html.php:252 ../key_words_html.php:263
+msgid "Price Ascending"
+msgstr "سعر تصاعدي"
+
+#: ../key_words_html.php:253 ../key_words_html.php:264
+msgid "Price Descending"
+msgstr "سعر تنازلي"
+
+#: ../key_words_html.php:254 ../key_words_html.php:265
+msgid "Result"
+msgstr "النتيجة"
+
+#: ../key_words_html.php:255 ../key_words_html.php:266
+msgid "from"
+msgstr "من"
+
+#: ../key_words_html.php:256 ../key_words_html.php:258
+#: ../key_words_html.php:267 ../key_words_html.php:294
+msgid "No Products available"
+msgstr "لا توجد منتجات"
+
+#: ../key_words_html.php:271
+msgid "Product number"
+msgstr "رقم المنتج"
+
+#: ../key_words_html.php:284
+msgid "Preview"
+msgstr "مشاهدة"
+
+#: ../key_words_html.php:286
+#, fuzzy
+msgid "Wish List"
+msgstr "قائمة المفضلة"
+
+#: ../key_words_html.php:288
+msgid "Item price"
+msgstr "السعر "
+
+#: ../key_words_html.php:289
+msgid "Remove"
+msgstr "حذف"
+
+#: ../key_words_html.php:291
+msgid "Your wishlist is empty"
+msgstr "قائمة المفضلة فارغة"
+
+#: ../key_words_html.php:293
+msgid "List product need quotation"
+msgstr "قائمة المنتجات التي تستوجب عرض أسعار"
+
+#: ../key_words_html.php:300
+msgid "Request Quotation"
+msgstr " طلب عرض أسعار "
+
+#: ../key_words_html.php:301
+#, fuzzy
+msgid "List Manufactures"
+msgstr "قائمة الماركات"
+
+#: ../key_words_html.php:309
+msgid "Images & Documents"
+msgstr "صور و وثائق"
+
+#: ../key_words_html.php:310
+msgid "Product Multi Upload Images"
+msgstr "رفع جماعي للصور"
+
+#, fuzzy
+#~ msgid "Product Price"
+#~ msgstr "اسعار المنتج"
+
+#, fuzzy
+#~ msgid "Send to Freind"
+#~ msgstr "ارسل لصديق"
+
+#~ msgid "list product with null prices"
+#~ msgstr "قائمة المنتجات ذات  أسعار فارغة"
+
+#, fuzzy
+#~ msgid "List Product"
+#~ msgstr "قائمة المنتجات"
+
+#~ msgid "Alert when Quantity less than"
+#~ msgstr "تنبيه عندما تكون الكمية اقل من"
+
+#~ msgid "Please give Email(s) separated with (,) "
+#~ msgstr "الرجاء إستعمال (،) بين العناوين الإلكترونية"
+
+#, fuzzy
+#~ msgid "Prepare Add Product"
+#~ msgstr "تحضير إضافة المنتج"
+
+#, fuzzy
+#~ msgid "Add new Product (Price)"
+#~ msgstr "اضافة منتج جديد"
+
+#, fuzzy
+#~ msgid "Add new Product (Shipping)"
+#~ msgstr "اضافة منتج جديد"
+
+#, fuzzy
+#~ msgid "List Product Document"
+#~ msgstr "وثائق المتج"
+
+#, fuzzy
+#~ msgid "Modify Product Document"
+#~ msgstr "تعديل وثيقة المنتج"
+
+#~ msgid "List Category"
+#~ msgstr "قائمة الاقسام"
+
+#~ msgid "Delete Category"
+#~ msgstr "حذف القسم"
+
+#~ msgid "Modify Category"
+#~ msgstr "تعديل القسم"
+
+#~ msgid "Sort Category"
+#~ msgstr "ترتيب الاقسام"
+
+#~ msgid "Set Category Online"
+#~ msgstr "تفعيل القسم"
+
+#~ msgid "Set Category Offline"
+#~ msgstr "تعطيل القسم"
+
+#~ msgid "ZeroList Product"
+#~ msgstr " قائمة المنتجات ذات الأسعار الفارغة"
+
+#~ msgid "Please give Email(s) separated with \\\",\\\""
+#~ msgstr "الرجاء إستعمال \";\" بين العناوين الإلكترونية"
+
+#, fuzzy
+#~ msgid "Please give Email(s) separateds with \\\",\\\""
+#~ msgstr "الرجاء إستعمال \";\" بين العناوين الإلكترونية"
+
+#~ msgid "No"
+#~ msgstr "لا"
+
+#~ msgid "Delete price"
+#~ msgstr "حذف السعر"
+
+#~ msgid "Total"
+#~ msgstr "المجموع"
+
+#~ msgid "Continue"
+#~ msgstr "واصل"
+
+#, fuzzy
+#~ msgid "Product Detail"
+#~ msgstr "تفاصيل المنتج"
+
+#~ msgid "Add Product Attributes"
+#~ msgstr "اضافة خصائص المنتج"
+
+#~ msgid "List all Products"
+#~ msgstr "قائمة جميع المنتجات"
+
+#, fuzzy
+#~ msgid "List all Mainmenus"
+#~ msgstr "قائمة جميع المجموعات"
+
+#, fuzzy
+#~ msgid "Add new Mainmenu"
+#~ msgstr "اضافة صفحة جديدة"
+
+#, fuzzy
+#~ msgid "Modify Mainmenu"
+#~ msgstr "تعديل حسابي"
+
+#, fuzzy
+#~ msgid "Delete Mainmenu"
+#~ msgstr "حذف المجموعة"
+
+#, fuzzy
+#~ msgid "Set Mainmenu Offline"
+#~ msgstr "تعطيل الخطة"
+
+#, fuzzy
+#~ msgid "Set Mainmenu Online"
+#~ msgstr "تفعيل الخطة"
+
+#, fuzzy
+#~ msgid "List all Menus"
+#~ msgstr "قائمة جميع القوائم الرئيسية"
+
+#, fuzzy
+#~ msgid "Delete Menu"
+#~ msgstr "حذف القائمة الرئيسية"
+
+#, fuzzy
+#~ msgid "Set Menu Offline"
+#~ msgstr "تعطيل القائمة الرئيسية"
+
+#, fuzzy
+#~ msgid "Set Menu Online"
+#~ msgstr "تفعيل القائمة الرئيسية"
+
+#, fuzzy
+#~ msgid "Select Page Content Design"
+#~ msgstr "اختر تصميم محتوى الصفحة"
+
+#, fuzzy
+#~ msgid "List all Pages"
+#~ msgstr "قائمة جميع الصفحات"
+
+#, fuzzy
+#~ msgid "Add new Page"
+#~ msgstr "اضافة صفحة جديدة"
+
+#, fuzzy
+#~ msgid "Modify Page"
+#~ msgstr "تعديل الصفحة"
+
+#, fuzzy
+#~ msgid "Design Pages"
+#~ msgstr "تصميم الصفحات"
+
+#, fuzzy
+#~ msgid "Show Qiucklist"
+#~ msgstr "مشاهدة قائمة سريعة"
+
+#, fuzzy
+#~ msgid "List all Sites"
+#~ msgstr "قائمة جميع المواقع"
+
+#, fuzzy
+#~ msgid "Add new Site"
+#~ msgstr "اضافة موقع جديدة"
+
+#, fuzzy
+#~ msgid "Modify Site"
+#~ msgstr "تعديل الموقع"
+
+#, fuzzy
+#~ msgid "Design Sites"
+#~ msgstr "تصميم المواقع"
+
+#, fuzzy
+#~ msgid "List projects"
+#~ msgstr "قائمة المشاريع"
+
+#, fuzzy
+#~ msgid "Create new Product Image"
+#~ msgstr "إنشاء صورة المنتج"
+
+#, fuzzy
+#~ msgid "Add new Request"
+#~ msgstr "إضافة طلب جديد"
+
+#, fuzzy
+#~ msgid "List Requests"
+#~ msgstr "قائمة التبليغات"
+
+#, fuzzy
+#~ msgid "Add new Project"
+#~ msgstr "اضافة مشروع جديد"
+
+#~ msgid "Customers bought also"
+#~ msgstr "العملاء قاموا ايضا بشراء المنتجات التالية"

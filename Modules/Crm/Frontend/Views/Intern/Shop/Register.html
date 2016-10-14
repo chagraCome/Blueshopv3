@@ -1,0 +1,13 @@
+{$breadcrumb}
+<div class="page_content_offset">
+    <div class="container">
+        <div class="row clearfix">
+            <!--left content column-->
+            <section>
+                <h2 class="tt_uppercase color_dark m_bottom_30">{'Open a new account'|tr}</h2>
+                {if $registration_message}<div style=" border: 1px solid #FFE7A1; background-color: #ffc; padding: 6px; font-weight: bold">{$registration_message}</div>{/if}
+                {$quickregform->Render()}
+            </section>
+        </div>
+    </div>
+</div>

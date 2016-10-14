@@ -1,0 +1,73 @@
+{$breadcrumb}
+<div style="height: 20px"></div>
+<div class="amh-container">
+    <h2 class="tt_uppercase color_dark m_bottom_30">{'Welcome'|tr}</h2>
+    {'Welcome'|tr} {$loggedaccount->getName()}<br />
+    {'Account Number'|tr}: {$loggedaccount->getNumber()}
+</div>
+
+<div class="amh-container account-home">
+    <div class="amh-1_3 amh-left">
+        <h2 class="tt_uppercase color_dark amh-text-left-rp">{'My Account'|tr}</h2>
+        <ul>
+            <li><a href="index.php?module=crm&page=intern-shop-account"><i class="fa fa-user"></i>&nbsp;{'Profile'|tr}</a></li>
+            <li><a href="index.php?module=crm&page=intern-shop-changepassword"><i class="fa fa-user-secret"></i>&nbsp;{'Change Password'|tr}</a></li>
+            <li><a href="index.php?module=crm&page=intern-shop-address-list"><i class="fa fa-table"></i>&nbsp;{'Manage Addresses'|tr}</a></li>
+            <li><a href="index.php?module=crm&page=intern-shop-policy"><i class="fa fa-file"></i>&nbsp;{'Policy'|tr}</a></li>
+        </ul>
+    </div>
+    <div class="amh-1_3 amh-left accountquotationinvoice">
+        <h2 class="tt_uppercase color_dark m_top_20_responsive amh-text-left-rp">{'Sales Order'|tr} & {'Invoices'|tr}</h2>
+        <ul>
+            <li><a href="index.php?module=saleorder&page=list&event=open"><i class="fa fa-folder-open"></i>&nbsp;{'Open Sales Orders'|tr}({$countOpenSaleOrder|default:0})</a></li>
+            <li><a href="index.php?module=saleorder&page=list&event=paid"><i class="fa fa-bank"></i>&nbsp;{'Paid Sales Orders'|tr}({$countPaidSaleOrder|default:0})</a></li>
+            <li><a href="index.php?module=saleorder&page=list&event=shipped"><i class="fa fa-ship"></i>&nbsp;{'Shipped Sales Orders'|tr}({$countShippedSaleOrder|default:0})</a></li>
+            <li><a href="index.php?module=saleorder&page=list"><i class="fa fa-table"></i>&nbsp;{'All Sales Orders'|tr}({$countAllSaleOrder|default:0})</a></li>
+        </ul>
+    </div>
+    <div class="amh-1_3 amh-right">
+        <h2 class="tt_uppercase color_dark m_top_20_responsive amh-text-left-rp">{'Settings'|tr}</h2>
+        <ul>
+            <li><a href="index.php?module=crm&page=intern-shop-newsletter"><i class="fa fa-mail-forward"></i>&nbsp;{'Newsletters'|tr}</a></li>
+            <li><a href="index.php?module=crm&page=contact"><i class="fa fa-envelope"></i>&nbsp;{'Contact Shop owner'|tr}</a></li>
+        </ul>
+    </div>
+</div>
+<div style="height: 20px"></div>
+<div class="amh-container">
+    <h2 class="tt_uppercase color_dark amh-text-left-rp">{'Latest Sales Orders'|tr}</h2>
+
+    {while $saleorder = $salesOrders->fetch() }
+    <div class="amh-container amh-row">
+        
+        <div class="amh-4_5 amh-left">
+            <h2 style="color:  #2daae1;margin-top: 10px;font-size: 16px;">{'Sales Order Number'|tr} : {$saleorder->number}</h2>
+            {'Total Price'|tr} : {$saleorder->total_price|price}<br />
+            {'State'|tr} : {$saleorder->getSaleorderState()}<br />
+            {'Date'|tr} : {$saleorder->insertat}<br />
+        </div>
+        <div class="amh-1_5 amh-right  amh-text-right  amh-text-left-rp">
+            {if !$saleorder->isPaid() && $saleorder->showFrontendLinks()}
+            <a href="index.php?module=cart&page=paynow&id={$saleorder->id}&type=so"><i class="fa fa-bank"></i>&nbsp;{'Pay Now'|tr}</a><br />
+            {/if}
+            {if $saleorder->showFrontendLinks()}
+            <a  href="index.php?module=saleorder&page=cancel&id={$saleorder->id}"><i class="fa fa-remove"></i>&nbsp;{'Cancel Sales Order'|tr}</a><br />
+            {/if}
+            <div class="amh-only-desktop"> <a  href="javascript:popup('index.php?module=saleorder&page=details&id={$saleorder->id}&event=print', 800,600)"><i class="fa fa-print"></i>&nbsp;{'Print'|tr}</a><br /></div>
+            {if $saleorder->showFrontendLinks()}
+            <a href="index.php?module=crm&page=intern-shop-confirmpayment&sale_order_id={$saleorder->id}"><i class="fa fa-arrow-circle-o-right"></i>&nbsp;{'Confirm Payment'|tr}</a><br />
+            {/if}
+            <a href="index.php?module=saleorder&page=details&id={$saleorder->id}"><i class="fa fa-file-text-o"></i>&nbsp;{'Details'|tr}</a>
+        </div>
+       
+    </div>
+    {assign var="salesorderfound" value="yes"}
+    {/while}
+    {if !$salesorderfound}
+    <p>{'There is no Sales Orders'|tr}</p>
+    {else}
+    <div style="height: 20px"></div>
+    <div><i class="fa fa-table"></i>&nbsp;<a href="index.php?module=saleorder&page=list">{'See all my Sales Orders'|tr}</a></div>
+    {/if}
+</div>
+<div style="height: 100px"></div>

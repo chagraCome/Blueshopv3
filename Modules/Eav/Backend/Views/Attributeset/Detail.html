@@ -1,0 +1,59 @@
+<fieldset>
+    <legend>{'Information'|tr}</legend>
+    <div class="{$class}" id="message">{$message}</div>
+</fieldset>
+
+<fieldset>
+    <legend>{'Manage Attributes'|tr}</legend>
+
+    <div class="panel">
+        {fieldset name="design_boxes" title='Manage Attributes'|tr}
+        <input type="hidden" id="id" name="id" value="{$smarty.get.id}" />
+        <input type="hidden" id="entity" name="entity" value="&{$smarty.get.entity}" />
+      
+            <table border="0" width="60%" style="border: 1px solid gray">
+                <tr>
+                    <td class="position-name">{'Unsed Attributes'|tr}</td>
+                    <td class="position-name">{$setname} {'Attributes'|tr}</td>
+                </tr>
+                <tr>
+                    <td valign="top" >
+                        <!-- unused -->
+                        <div class="column ui-sortable" id="unused" style="border: 1px dotted gray; min-height: 300px">
+                            {foreach $unusedattributes as $attribute}
+                            <div id="attribute_{$attribute->getId()}" style="margin: 5px;">
+                                <div style="padding: 3px" class="portlet-header ui-widget-header ui-corner-all">{$attribute->getName()}</div>
+                            </div>
+                            {/foreach}
+                        </div>
+                        <!-- end unused -->
+                    </td>
+                    <td valign="top" >
+                        <div class="attributes_view" >{'General Attributes'|tr}</div>
+                        <div class="column ui-sortable attributes_cot" id="view_0" >
+                            {foreach $generalattributes as $attribute}
+                            <div id="attribute_{$attribute->getId()}" style="margin: 5px;">
+                                <div class="portlet-header ui-widget-header ui-corner-all" style="padding: 3px">{$attribute->getName()}</div>
+                            </div>
+                            {/foreach}
+                        </div>
+
+                        {foreach $views as $view}
+                        <div class="attributes_view">{$view->getName()}</div>
+                        <div class="column ui-sortable attributes_cot" id="view_{$view->getId()}">
+                            {foreach $view->getAttributes() as $attribute}
+                            <div id="attribute_{$attribute->getId()}" style="margin: 5px;">
+                                <div class="portlet-header ui-widget-header ui-corner-all" style="padding: 3px">{$attribute->getName()}</div>
+                            </div>
+                            {/foreach}
+                        </div>
+                        {/foreach}
+                    </td>
+                </tr>
+            </table>
+
+            {/fieldset}
+        </div>
+
+    <!-- end content -->
+</fieldset>

@@ -1,0 +1,44 @@
+    {if $error_message}<div style="  border: 1px solid #4E3307; background-color: #000000; padding: 6px; font-weight: bold">{$error_message}</div>{/if}
+<br/>
+
+<div class="core_content" style="min-height: 38px;">
+   <h1>{'Account'|tr}<a href="index.php?module=cart&page=checkout-account" class="cart_edit"><img src="Design/Frontend/Souldrops/Layout/Default/images/modify-icon.png"/></a></h1>
+</div>
+<br />
+<div class="core_content" style="min-height: 38px;">
+
+   <h1>{'Invoice'|tr} & {'Shipping Address'|tr}<a href="index.php?module=cart&page=checkout-address"  class="cart_edit"><img src="Design/Frontend/Souldrops/Layout/Default/images/modify-icon.png"/></a></h1>
+</div>
+<br />
+<div class="core_content" style="min-height: 43px;">
+   <h1>{'Shipping Method'|tr}</h1>
+    <div style="padding: 10px;">
+        <form name="shipping_form" action="" method="post">
+            <table style="width: 100%">
+
+
+                {foreach $shippings as $shipping}
+                <tr>
+                    <td><label><input type="radio" name="shipping_id" value="{$shipping->getId()}" {if $selectedshipping == $shipping->getId()}checked="checked"{/if} /> {$shipping->getTitle()}</label><br />{$shipping->getDescription()|htmlspecialchars_decode}</td>
+                    <td style="width: 200px">{$shipping->shippingType->getName()}<br />{'Shipping Cost'|tr}: {$shipping->shipping_cost|price}{if $shipping->hasLogo()}<br /><img src="{$shipping->getLogoSrc()}"  style="max-height: 80px; max-width: 150px"/>{/if}</td>
+                </tr>
+                <tr>
+                    <td colspan="3"><hr style="border: 1px solid #e8e8e8" /></td>
+                </tr>
+
+                {/foreach}
+            </table>
+
+            <br />
+            <input class="Button continue" type="submit" name="continue" value="{'Continue'|tr}" />
+        </form>
+    </div>
+</div>
+<br />
+<div class="core_content" style="min-height: 38px;">
+   <h1>{'Payment Method'|tr}</h1>
+</div>
+<br />
+<div class="core_content" style="min-height: 38px;">
+   <h1>{'Preview Order'|tr}</h1>
+</div>

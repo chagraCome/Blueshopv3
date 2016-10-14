@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cms module\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-14 15:21+0100\n"
+"PO-Revision-Date: 2011-07-14 15:33+0100\n"
+"Last-Translator: \n"
+"Language-Team:  <amir.cherif@amhsoft.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: SAUDI ARABIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: frontend/controllers/login.class.php:56
+msgid "Please enter your username and password."
+msgstr "الرجاء اضافة كلمة المرور و اسم المستخدم"
+
+#: frontend/controllers/login.class.php:71
+msgid "Login failed."
+msgstr "لم يتم الدخول"
+
+#: frontend/controllers/data.class.php:36
+msgid "Please fill the marked fields!"
+msgstr "الرجاء ادخال المعلومات المطلوبة"
+
+#: frontend/controllers/register.class.php:48
+msgid "Please check your input."
+msgstr " الرجاء التأكد من المدخلات"
+
+#: frontend/controllers/register.class.php:53
+msgid "Please choose a new username."
+msgstr "الرجاء اضافة اسم مستخدم جديد"
+
+#: frontend/controllers/changepassword.class.php:31
+msgid "Password changed successfully."
+msgstr "تم تغيير كلمة المرور بنجاح"
+
+#: frontend/controllers/changepassword.class.php:44
+msgid "Please use a valid password."
+msgstr "الرجاء اختيار كلمة مرور صحيحة"
+
+#: frontend/controllers/changepassword.class.php:51
+msgid "Passwords are not identical."
+msgstr "كلمتا المرور غير متطابقتان"
+
+#: backend/translation_en.remove.php:4
+msgid "Actions"
+msgstr "العمليات"
+
+#: backend/translation_en.remove.php:5
+msgid "Add new Customer"
+msgstr "اضافة عميل جديد"
+
+#: backend/translation_en.remove.php:6
+msgid "Address"
+msgstr "العنوان"
+
+#: backend/translation_en.remove.php:7
+msgid "All requests will be deleted on Baleil"
+msgstr "All requests will be deleted on Baleil"
+
+#: backend/translation_en.remove.php:8
+msgid "City"
+msgstr "المدينة"
+
+#: backend/translation_en.remove.php:9
+msgid "Company information"
+msgstr "معلومات الشركة"
+
+#: backend/translation_en.remove.php:10
+msgid "Company name"
+msgstr "اسم الشركة"
+
+#: backend/translation_en.remove.php:11
+msgid "Country"
+msgstr "البلد"
+
+#: backend/translation_en.remove.php:12
+msgid "Customer"
+msgstr "عميل"
+
+#: backend/translation_en.remove.php:13
+msgid "Customers"
+msgstr "العملاء"
+
+#: backend/translation_en.remove.php:14
+msgid "Data communication"
+msgstr "معلومات الاتصال"
+
+#: backend/translation_en.remove.php:15
+msgid "Delete"
+msgstr "حذف"
+
+#: backend/translation_en.remove.php:16
+msgid "Delete Customer"
+msgstr "حذف العميل"
+
+#: backend/translation_en.remove.php:17
+msgid "E-Mail"
+msgstr "البريد الالكتروني"
+
+#: backend/translation_en.remove.php:18
+msgid "Edit"
+msgstr "تعديل"
+
+#: backend/translation_en.remove.php:19
+msgid "Employee"
+msgstr "موظف"
+
+#: backend/translation_en.remove.php:20
+msgid "Fax"
+msgstr "الفاكس"
+
+#: backend/translation_en.remove.php:21
+msgid "First Name/ Last Name"
+msgstr "الاسم بالكامل"
+
+#: backend/translation_en.remove.php:22
+msgid "Hide the customer"
+msgstr ""
+
+#: backend/translation_en.remove.php:23
+msgid "Information"
+msgstr "معلومات"
+
+#: backend/translation_en.remove.php:24
+#, fuzzy
+msgid "Lastname"
+msgstr "اسم العائلة"
+
+#: backend/translation_en.remove.php:25
+msgid "Last Name"
+msgstr "اسم العائلة"
+
+#: backend/translation_en.remove.php:26
+msgid "List customers"
+msgstr "قائمة العلملاء"
+
+#: backend/translation_en.remove.php:27
+#: backend/controllers/users.class.php:14
+msgid "List users"
+msgstr "قائمة المستخدمين"
+
+#: backend/translation_en.remove.php:28
+msgid "Login Information"
+msgstr "معلومات الدخول"
+
+#: backend/translation_en.remove.php:29
+msgid "Mobile"
+msgstr "الجوال"
+
+#: backend/translation_en.remove.php:30
+msgid "Name"
+msgstr "الاسم"
+
+#: backend/translation_en.remove.php:31
+msgid "Navigation"
+msgstr "التصفح"
+
+#: backend/translation_en.remove.php:32
+msgid "necessary"
+msgstr "ضروري"
+
+#: backend/translation_en.remove.php:33
+msgid "Notes"
+msgstr "ملاحظة"
+
+#: backend/translation_en.remove.php:34
+msgid "Offline"
+msgstr "معطّل"
+
+#: backend/translation_en.remove.php:35
+msgid "Online"
+msgstr "مفعّل"
+
+#: backend/translation_en.remove.php:36
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: backend/translation_en.remove.php:37
+msgid "Personal Data"
+msgstr "معلومات شخصية"
+
+#: backend/translation_en.remove.php:38
+msgid "Personal information"
+msgstr "المعلومات الشخصية"
+
+#: backend/translation_en.remove.php:39
+msgid "Phon"
+msgstr "الهاتف"
+
+#: backend/translation_en.remove.php:40
+msgid "Phone Number"
+msgstr "رقم الهاتف"
+
+#: backend/translation_en.remove.php:41
+msgid "Postal Code"
+msgstr "الرمز البريدي"
+
+#: backend/translation_en.remove.php:42
+#, fuzzy
+msgid "Postal code"
+msgstr "الرمز البريدي"
+
+#: backend/translation_en.remove.php:43
+msgid "Really want to permanently delete the customer?"
+msgstr "هل تريد فعلا حذف العميل"
+
+#: backend/translation_en.remove.php:44
+msgid "Re Password"
+msgstr "اعادة كلمية المرور"
+
+#: backend/translation_en.remove.php:45
+msgid "Save"
+msgstr "حفظ"
+
+#: backend/translation_en.remove.php:46
+#, fuzzy
+msgid "Save data"
+msgstr "حفظ"
+
+#: backend/translation_en.remove.php:47
+#, fuzzy
+msgid "Save Data"
+msgstr "معلومات المستخدمين"
+
+#: backend/translation_en.remove.php:48
+msgid "Search"
+msgstr "بحث"
+
+#: backend/translation_en.remove.php:49
+#, fuzzy
+msgid "Search customer"
+msgstr "عميل"
+
+#: backend/translation_en.remove.php:50
+#, fuzzy
+msgid "Send E-Mail"
+msgstr "البريد الالكتروني"
+
+#: backend/translation_en.remove.php:51
+msgid "Settings"
+msgstr "اعدادات"
+
+#: backend/translation_en.remove.php:52
+msgid "Telephone"
+msgstr "هاتف"
+
+#: backend/translation_en.remove.php:53
+msgid "Type"
+msgstr "الصنف"
+
+#: backend/translation_en.remove.php:54
+msgid "User Data"
+msgstr "معلومات المستخدمين"
+
+#: backend/translation_en.remove.php:55
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: backend/translation_en.remove.php:56
+#: backend/menu.inc.php:19
+#: backend/menu.inc.php:20
+#: backend/menu.inc.php:21
+#: backend/menu.inc.php:22
+msgid "Users"
+msgstr "المستخدمين"
+
+#: backend/translation_en.remove.php:57
+msgid "What is the data that you want to appear on the registration form? And what is necessary to them?"
+msgstr "ماهي المعلومات التي تريد اضهارها في نموذج التسجيل و ماهو الضروري منها"
+
+#: backend/menu.inc.php:19
+msgid "Add a new Administrator"
+msgstr "اضافة مدير جديد"
+
+#: backend/menu.inc.php:20
+msgid "Add a new Employee"
+msgstr "اضافة موظف جديد"
+
+#: backend/menu.inc.php:21
+msgid "Users List"
+msgstr "قائمة المستخدمين"
+
+#: backend/menu.inc.php:22
+#: backend/controllers/customers.class.php:47
+msgid "Customers List"
+msgstr "قائمة العملاء"
+
+#: backend/controllers/login.class.php:59
+#, fuzzy
+msgid "Please check your input!"
+msgstr "لا يمكن الحفظ المعلومات, الرجاء التأكد من المدخلات"
+
+#: backend/controllers/registersettings.class.php:18
+msgid "Modify registration formular."
+msgstr "تعديل نموذج التسجيل"
+
+#: backend/controllers/registersettings.class.php:26
+#, fuzzy
+msgid "Data saved successfully."
+msgstr "تم حفظ البيانات بنجاح"
+
+#: backend/controllers/employee.class.php:18
+msgid "List of Employees"
+msgstr "قائمة الموظفين"
+
+#: backend/controllers/addcustomer.class.php:39
+#, fuzzy
+msgid "Edit Customer"
+msgstr "عميل"
+
+#: backend/controllers/addcustomer.class.php:86
+#: backend/controllers/addemployee.class.php:73
+#: backend/controllers/addadmin.class.php:75
+msgid "Data was successfully saved."
+msgstr "تم حفظ البيانات بنجاح"
+
+#: backend/controllers/addcustomer.class.php:93
+#: backend/controllers/addemployee.class.php:80
+#, fuzzy
+msgid "Please check your inputs, data cannot be saved."
+msgstr "لا يمكن الحفظ المعلومات, الرجاء التأكد من المدخلات"
+
+#: backend/controllers/addemployee.class.php:37
+msgid "Add new Employee"
+msgstr "اضافة موظف جديد"
+
+#: backend/controllers/addemployee.class.php:40
+#, fuzzy
+msgid "Edit Employee"
+msgstr "موظف"
+
+#: backend/controllers/addadmin.class.php:37
+msgid "Add Administrator"
+msgstr "اضافة مدير"
+
+#: backend/controllers/addadmin.class.php:40
+#, fuzzy
+msgid "Edit Administrator"
+msgstr "اضافة مدير"
+
+#: backend/controllers/addadmin.class.php:82
+#, fuzzy
+msgid "Please check you inputs, data cannot be saved."
+msgstr "لا يمكن الحفظ المعلومات, الرجاء التأكد من المدخلات"
+

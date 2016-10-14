@@ -1,0 +1,14 @@
+//TODO: remove me
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+  <legend>
+    <span class="edit"><a href="admin.php?module=shipping&page=shipping-modify&id={$smarty.get.id}">{'Edit Shipping Methods'|tr}</a></span> | 
+    <span class="list"><a href="admin.php?module=shipping&page=shipping-list">{'List Shipping Methods'|tr}</a></span> 
+  </legend>
+  <div class="panel">
+    {$panel->Render()}
+  </div>
+</fieldset>

@@ -1,0 +1,5 @@
+<ul id="nav" class="filter_ul categories">
+  {foreach $mainCategory as $cat}
+  <li class="dd"><a  href="index.php?module=product&page=list&cat={$cat->id}">{$cat->name}</a></li>
+  {/foreach}
+</ul>

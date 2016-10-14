@@ -1,0 +1,23 @@
+<script type="text/javascript">
+
+  $(function() {
+
+    var data = {$daily_revenue_json};
+
+    $.plot("#placeholder_daily", [data], {
+      series: {
+        bars: {
+          show: true,
+          barWidth: 0.6,
+          align: "center"
+        }
+      },
+      xaxis: {
+        mode: "categories",
+        tickLength: 0
+      }
+    });
+  });
+
+</script>
+<div id="placeholder_daily"  style="height: 190px"></div>

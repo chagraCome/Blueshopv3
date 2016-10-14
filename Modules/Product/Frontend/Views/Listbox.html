@@ -1,0 +1,10 @@
+<div class="category">
+{foreach $category as $cat}
+<div class="girls-c">
+    <a href="{$cat->getUrl()}"><img src="{$cat->getLogoSrc()}" alt="" title="shop for girls&#39; clothes"></a>
+    <div class="text-girls-c">
+     {$cat->getName()}
+    </div>
+</div>
+{/foreach}
+</div>

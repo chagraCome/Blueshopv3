@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <name>Setting</name>
+  <businessname>Settings Module</businessname>
+  <version>1.5.0</version>
+  <build>3890</build>
+  <builddate>2012-12-05 08:03:48</builddate>
+  <description>Settings Module: Manage global settings like application name, google analytics ...
+</description>
+  <updates>
+    <update>
+      <version>1.5.4</version>
+      <build>1</build>
+      <builddate>2014-01-30 12:38:39</builddate>
+      <description></description>
+    </update>
+    <update>
+      <version>1.6</version>
+      <build>1</build>
+      <builddate>2014-03-10 14:30:39</builddate>
+      <description>add print header and footer</description>
+    </update>
+  </updates>
+</module>

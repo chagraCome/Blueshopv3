@@ -1,0 +1,927 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Saleorder\n"
+"POT-Creation-Date: 2014-04-18 10:58+0100\n"
+"PO-Revision-Date: 2014-04-18 13:45+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _t;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../key_words_html.php:3 ../key_words_html.php:7 ../key_words_html.php:12
+#: ../key_words_html.php:18 ../key_words_html.php:21 ../key_words_html.php:29
+#: ../key_words_html.php:32 ../key_words_html.php:37 ../key_words_html.php:41
+#: ../key_words_html.php:45 ../key_words_html.php:49 ../key_words_html.php:53
+msgid "Information"
+msgstr "Informations"
+
+#: ../key_words_html.php:4
+msgid "List Sales Order comments"
+msgstr "liste de Commentaire"
+
+#: ../key_words_html.php:8
+msgid "Add a new Quotation"
+msgstr "Ajouter un nouveau Devis"
+
+#: ../key_words_html.php:9
+msgid "List Quotations"
+msgstr "Liste Devis"
+
+#: ../key_words_html.php:13
+msgid "Add Item"
+msgstr "Ajouter un élément"
+
+#: ../key_words_html.php:19 ../key_words_html.php:24 ../key_words_html.php:34
+#: ../key_words_html.php:39 ../key_words_html.php:43 ../key_words_html.php:47
+#: ../key_words_html.php:51 ../key_words_html.php:55
+#: ../Backend/Controllers/Saleorder/List.php:39
+msgid "List Sales Orders"
+msgstr "Liste du commandes"
+
+#: ../key_words_html.php:22 ../Backend/Controllers/Saleorder/Modify.php:34
+msgid "Edit Sales Order"
+msgstr "Modifier commande"
+
+#: ../key_words_html.php:23 ../key_words_html.php:30 ../key_words_html.php:33
+#: ../key_words_html.php:38 ../key_words_html.php:42 ../key_words_html.php:46
+#: ../key_words_html.php:50 ../key_words_html.php:54
+msgid "Add new Sales Order"
+msgstr "Ajouter une nouvelle commande"
+
+#: ../key_words_html.php:25
+msgid "Convert To Invoice"
+msgstr "Convertir à facturer"
+
+#: ../key_words_html.php:26 ../key_words_html.php:111
+#: ../key_words_html.php:114
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../key_words_html.php:27
+msgid "Ok"
+msgstr "Ok"
+
+#: ../key_words_html.php:57
+msgid "Cancel Sales Order"
+msgstr "Annuler la Commande"
+
+#: ../key_words_html.php:59 ../key_words_html.php:102
+#: ../Backend/Controllers/Saleorder/Details.php:457
+#: ../Frontend/Controllers/Comment/Add.php:64
+msgid "Add new Comment"
+msgstr "Ajouter un commentaire"
+
+#: ../key_words_html.php:61
+msgid "Comment Details"
+msgstr "Détails du commentaire"
+
+#: ../key_words_html.php:62 ../key_words_html.php:65
+#: ../Grids/Comment/DataGridView.php:27 ../Panels/Comment/Panel.php:30
+msgid "Author Name"
+msgstr "Nom de l'auteur"
+
+#: ../key_words_html.php:63 ../key_words_html.php:66
+msgid "Posted on"
+msgstr "Publié le"
+
+#: ../key_words_html.php:64 ../key_words_html.php:67
+#: ../Forms/Cancel/Form.php:33 ../Panels/Comment/Panel.php:42
+msgid "Message"
+msgstr "Message"
+
+#: ../key_words_html.php:68
+msgid "Add new Replay"
+msgstr "Ajouter une nouvelle réponse"
+
+#: ../key_words_html.php:70 ../key_words_html.php:105
+#: ../key_words_html.php:117 ../Backend/Controllers/Saleorder/Quicklist.php:60
+#: ../Grids/DataGridView.php:32
+msgid "Number"
+msgstr "Nombre"
+
+#: ../key_words_html.php:71 ../key_words_html.php:118 ../Backend/Boot.php:93
+msgid "Date Time"
+msgstr "Date "
+
+#: ../key_words_html.php:72 ../key_words_html.php:90 ../key_words_html.php:119
+#: ../key_words_html.php:135 ../Backend/Controllers/Saleorder/Details.php:416
+#: ../Forms/Form.php:110 ../Forms/Item/Form.php:77
+#: ../Grids/Item/DataGridView.php:34 ../Panels/Panel.php:119
+msgid "Discount"
+msgstr "Réduction"
+
+#: ../key_words_html.php:73 ../key_words_html.php:120
+#: ../Backend/Controllers/Saleorder/Quicklist.php:61
+#: ../Grids/DataGridView.php:33
+msgid "Total Price"
+msgstr "Prix ​​total"
+
+#: ../key_words_html.php:74 ../key_words_html.php:92
+msgid "Pay Now"
+msgstr "Payer maintenant"
+
+#: ../key_words_html.php:75 ../key_words_html.php:121
+msgid "Payment Method Name"
+msgstr "Nom de la méthode de paiement"
+
+#: ../key_words_html.php:76 ../key_words_html.php:122
+msgid "Shipping Method Name"
+msgstr "Nom de la méthode de livraison"
+
+#: ../key_words_html.php:77 ../key_words_html.php:110
+#: ../key_words_html.php:113
+msgid "Print"
+msgstr "Imprimer"
+
+#: ../key_words_html.php:78 ../key_words_html.php:123 ../Panels/Panel.php:92
+msgid "Invoice Address"
+msgstr "Adresse de facturation"
+
+#: ../key_words_html.php:79 ../key_words_html.php:124 ../Panels/Panel.php:90
+msgid "Shipping Address"
+msgstr "Adresse de livraison"
+
+#: ../key_words_html.php:80 ../key_words_html.php:125
+#: ../Backend/Controllers/Saleorder/Details.php:387
+msgid "Sales Order Items"
+msgstr "Les Elémént du Commande"
+
+#: ../key_words_html.php:81 ../key_words_html.php:126
+msgid "Product Number"
+msgstr "Numéro de produit"
+
+#: ../key_words_html.php:82 ../key_words_html.php:127
+msgid "Product Name"
+msgstr "Nom du produit"
+
+#: ../key_words_html.php:83 ../key_words_html.php:128
+msgid "Product Description"
+msgstr "Description du produit"
+
+#: ../key_words_html.php:84 ../key_words_html.php:129
+#: ../Grids/Item/DataGridView.php:33
+msgid "Unit Price"
+msgstr "Prix unitaire"
+
+#: ../key_words_html.php:85 ../key_words_html.php:130
+#: ../Forms/Item/Form.php:81 ../Grids/Item/DataGridView.php:31
+#: ../Panels/Item/Panel.php:62
+msgid "Quantity"
+msgstr "Quantité"
+
+#: ../key_words_html.php:86 ../key_words_html.php:87 ../key_words_html.php:131
+#: ../key_words_html.php:132 ../Backend/Controllers/Saleorder/Details.php:415
+#: ../Grids/Item/DataGridView.php:35
+msgid "Sub Total"
+msgstr "Sous totale"
+
+#: ../key_words_html.php:88 ../key_words_html.php:133
+#: ../Backend/Controllers/Saleorder/Details.php:417
+msgid "Shipping Cost"
+msgstr "Coût de livraison"
+
+#: ../key_words_html.php:89 ../key_words_html.php:134
+#: ../Backend/Controllers/Saleorder/Details.php:418
+msgid "Handling Fee"
+msgstr "Frais de traitement"
+
+#: ../key_words_html.php:91 ../key_words_html.php:136
+msgid "Total"
+msgstr "Totale"
+
+#: ../key_words_html.php:93
+msgid "Confirm Payment"
+msgstr "Confirmer le paiement"
+
+#: ../key_words_html.php:94 ../Backend/Controllers/Saleorder/Details.php:426
+msgid "Sales Order Documents"
+msgstr "Documents de Commande"
+
+#: ../key_words_html.php:95 ../Backend/Controllers/Saleorder/Quicklist.php:57
+#: ../Forms/Document/Form.php:45 ../Forms/State/Form.php:32
+#: ../Grids/DataGridView.php:29 ../Grids/State/DataGridView.php:30
+msgid "Name"
+msgstr "Nom"
+
+#: ../key_words_html.php:96 ../key_words_html.php:97
+msgid "Download"
+msgstr "Télécharger"
+
+#: ../key_words_html.php:98
+msgid "No document found"
+msgstr "Aucun document trouvé"
+
+#: ../key_words_html.php:99 ../Backend/Boot.php:44
+#: ../Backend/Controllers/Saleorder/Details.php:450
+msgid "Sales Order Comments"
+msgstr "les Commentaire du Commande"
+
+#: ../key_words_html.php:100
+msgid "Date"
+msgstr "Date"
+
+#: ../key_words_html.php:101
+msgid "No comment found"
+msgstr "Aucun commentaire trouvé"
+
+#: ../key_words_html.php:103
+msgid "Back to Sales Order"
+msgstr "Retour à la commande "
+
+#: ../key_words_html.php:106
+msgid "Grand Total Amount"
+msgstr " Montant Total"
+
+#: ../key_words_html.php:107
+msgid "DateTime"
+msgstr "Date"
+
+#: ../key_words_html.php:108 ../Backend/Controllers/Saleorder/Quicklist.php:63
+#: ../Backend/Controllers/Saleorder/Quicklist.php:84
+#: ../Grids/DataGridView.php:35 ../Grids/DataGridView.php:82
+msgid "State"
+msgstr "Satut"
+
+#: ../key_words_html.php:109 ../key_words_html.php:112 ../Backend/Boot.php:95
+msgid "Details"
+msgstr "Détails"
+
+#: ../key_words_html.php:115
+msgid "No Sales Order found"
+msgstr "Pas de commande trouvé"
+
+#: ../key_words_html.php:138
+msgid "We have received your confirm payment"
+msgstr "Nous avons reçu votre confirmation de paiement"
+
+#: ../key_words_html.php:139
+msgid "Back to Sales Order List"
+msgstr "Retour à la liste de commandes "
+
+#: ../Backend/Boot.php:37 ../Forms/Updatestate/Form.php:38
+msgid "Sales Order"
+msgstr "Commande"
+
+#: ../Backend/Boot.php:38
+msgid "Today Sales Order"
+msgstr "Commande d'Aujourd'hui"
+
+#: ../Backend/Boot.php:39
+msgid "Accepted Sales Order"
+msgstr "les Commande accepté "
+
+#: ../Backend/Boot.php:40
+msgid "Open Sales Order"
+msgstr "Commande Ouvert"
+
+#: ../Backend/Boot.php:41
+msgid "Created Sales Order"
+msgstr "Commande crée "
+
+#: ../Backend/Boot.php:42
+msgid "Manage Sales Order"
+msgstr "Gérer Commande"
+
+#: ../Backend/Boot.php:43
+msgid "Add a new Sales Order"
+msgstr "Ajouter une nouvelle commande "
+
+#: ../Backend/Boot.php:45
+msgid "Settings"
+msgstr "Paramètres"
+
+#: ../Backend/Boot.php:49
+msgid "Sales Order Module"
+msgstr "Module commande "
+
+#: ../Backend/Boot.php:50
+msgid "List Sales Order Comment"
+msgstr "liste de Commentaire"
+
+#: ../Backend/Boot.php:51
+msgid "Add Sales Order Document"
+msgstr "Ajouter document"
+
+#: ../Backend/Boot.php:52
+msgid "Delete Sales Order Document"
+msgstr "Supprimer document"
+
+#: ../Backend/Boot.php:53
+msgid "Details Sales Order Document"
+msgstr "Détails de document"
+
+#: ../Backend/Boot.php:54
+msgid "Generate Sales Order Document"
+msgstr "Générer document"
+
+#: ../Backend/Boot.php:55
+msgid "Add Sales Order Item"
+msgstr "Ajouter Elémént"
+
+#: ../Backend/Boot.php:56
+msgid "Delet Sales Order Item"
+msgstr "Supprimer l'élément"
+
+#: ../Backend/Boot.php:57
+msgid "List Sales Order Item"
+msgstr "Liste des Elémént"
+
+#: ../Backend/Boot.php:58
+msgid "Modify Sales Order Item"
+msgstr "Modifier l'élément"
+
+#: ../Backend/Boot.php:59
+msgid "Add Sales Order "
+msgstr "Ajouter Commande"
+
+#: ../Backend/Boot.php:60
+msgid "Delete Sales Order "
+msgstr "Ajouter une commande "
+
+#: ../Backend/Boot.php:61
+msgid "Details Sales Order "
+msgstr "Détails du Commande"
+
+#: ../Backend/Boot.php:62
+msgid "List Sales Order "
+msgstr "Liste de Commande"
+
+#: ../Backend/Boot.php:63
+msgid "Modify Sales Order "
+msgstr "Modifier Commande"
+
+#: ../Backend/Boot.php:64
+msgid "Update Sales Order State"
+msgstr "Mise à jour d'état"
+
+#: ../Backend/Boot.php:65
+msgid "Add Sales Order State"
+msgstr "Ajouter état"
+
+#: ../Backend/Boot.php:66
+msgid "Delete Sales Order State"
+msgstr "supprimer état "
+
+#: ../Backend/Boot.php:67
+msgid "List Sales Order State"
+msgstr "liste des états"
+
+#: ../Backend/Boot.php:68
+msgid "Modify Sales Order State"
+msgstr "Modifier l'état de  Commande"
+
+#: ../Backend/Boot.php:69
+msgid "Quicklist Sales Order"
+msgstr "Liste rapide de commande "
+
+#: ../Backend/Boot.php:70
+msgid "Setting Sales Order "
+msgstr "Paramètre du commandes"
+
+#: ../Backend/Boot.php:93
+msgid "Item"
+msgstr "Element "
+
+#: ../Backend/Boot.php:93
+msgid "Link"
+msgstr "Lien"
+
+#: ../Backend/Controllers/Setting.php:29
+msgid "Sales Order Settings"
+msgstr " Paramètres de Commande"
+
+#: ../Backend/Controllers/Setting.php:33 ../Forms/Updatestate/Form.php:40
+#: ../Panels/Panel.php:120
+msgid "Sales Order State"
+msgstr "l'État de commandes "
+
+#: ../Backend/Controllers/Setting.php:42
+msgid "Record Numbering"
+msgstr "Numérotation des enregistrements"
+
+#: ../Backend/Controllers/Setting.php:43
+msgid "Prefix"
+msgstr "Préfixe"
+
+#: ../Backend/Controllers/Setting.php:44
+msgid "Like: SO"
+msgstr "Comme: SO"
+
+#: ../Backend/Controllers/Setting.php:50
+msgid "Start Record"
+msgstr "Début de l'enregistrement"
+
+#: ../Backend/Controllers/Setting.php:55 ../Backend/Controllers/Setting.php:80
+#: ../Backend/Controllers/Setting.php:130 ../Forms/Form.php:129
+#: ../Forms/Comment/Form.php:50 ../Forms/Document/Form.php:59
+#: ../Forms/Item/Form.php:87 ../Forms/State/Form.php:36
+#: ../Forms/Updatestate/Form.php:79
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: ../Backend/Controllers/Setting.php:68
+msgid "Manage Notifications Emails"
+msgstr "Gérer les  notifications e-mails"
+
+#: ../Backend/Controllers/Setting.php:73
+msgid "Use this email to send notifications"
+msgstr "Utilisez cet e-mail pour envoyer des notifications"
+
+#: ../Backend/Controllers/Setting.php:88
+msgid "Sales Order Notification Settings"
+msgstr "Paramètres de notification"
+
+#: ../Backend/Controllers/Setting.php:104
+msgid "Sales Order Prints Settings"
+msgstr "Paramétre d'impression"
+
+#: ../Backend/Controllers/Setting.php:128
+msgid "Action"
+msgstr "Navigation"
+
+#: ../Backend/Controllers/Setting.php:146
+#: ../Backend/Controllers/Setting.php:170
+msgid "Data was successfully saved"
+msgstr "Les données ont été sauvegardées avec succès"
+
+#: ../Backend/Controllers/Comment/List.php:41
+msgid "Go To Sales Order"
+msgstr "Aller à Commande"
+
+#: ../Backend/Controllers/Comment/List.php:51
+msgid "List all comments"
+msgstr "liste de tous commentaires"
+
+#: ../Backend/Controllers/Document/Add.php:37
+msgid "Add a new Document"
+msgstr "Ajouter un nouveau document"
+
+#: ../Backend/Controllers/Document/Add.php:72
+#: ../Backend/Controllers/Item/Add.php:60
+#: ../Backend/Controllers/Item/Modify.php:115
+#: ../Backend/Controllers/Saleorder/Add.php:95
+#: ../Backend/Controllers/Saleorder/Modify.php:101
+#: ../Backend/Controllers/Saleorder/Updatestate.php:94
+#: ../Backend/Controllers/State/Add.php:49
+#: ../Backend/Controllers/State/Modify.php:60
+#: ../Frontend/Controllers/Comment/Add.php:88
+msgid "Please check inputs."
+msgstr "S'il vous plaît vérifier les entrées."
+
+#: ../Backend/Controllers/Document/Detail.php:42
+msgid "Document Details"
+msgstr "Détails du document"
+
+#: ../Backend/Controllers/Document/Generate.php:33
+msgid "Generate a pdf document"
+msgstr "Générer un document pdf"
+
+#: ../Backend/Controllers/Item/Add.php:41
+msgid "Create new Sales Order Item"
+msgstr "Créer une nouvelle Commande"
+
+#: ../Backend/Controllers/Item/Add.php:69
+msgid "Sales Order Item was successully added"
+msgstr "Elément a été ajouté avec succès"
+
+#: ../Backend/Controllers/Item/List.php:36
+msgid "List Sales Orders Items"
+msgstr "liste des éléments"
+
+#: ../Backend/Controllers/Item/Modify.php:32
+msgid "Edit Sales Order Item"
+msgstr "Modifier commande"
+
+#: ../Backend/Controllers/Saleorder/Add.php:45
+msgid "Create new Sales Order"
+msgstr "Créer une nouvelle commande"
+
+#: ../Backend/Controllers/Saleorder/Add.php:105
+msgid "Sales Order was successully added"
+msgstr "Commande a été ajouté avec succès"
+
+#: ../Backend/Controllers/Saleorder/Details.php:50
+msgid "Modify State"
+msgstr "Modifier l'état"
+
+#: ../Backend/Controllers/Saleorder/Details.php:51
+msgid "Sales Order Details"
+msgstr "Détails du commande"
+
+#: ../Backend/Controllers/Saleorder/Details.php:58
+msgid "Related Invoices"
+msgstr "Les factures liées"
+
+#: ../Backend/Controllers/Saleorder/Details.php:61
+#: ../Backend/Controllers/Saleorder/Details.php:118
+msgid "Unassign"
+msgstr "Unassign"
+
+#: ../Backend/Controllers/Saleorder/Details.php:73
+msgid "Link Invoice"
+msgstr "lien facture"
+
+#: ../Backend/Controllers/Saleorder/Details.php:114
+msgid "Related Quotation"
+msgstr "Devis liées"
+
+#: ../Backend/Controllers/Saleorder/Details.php:137
+msgid "Link Quotation"
+msgstr "lien devis"
+
+#: ../Backend/Controllers/Saleorder/Details.php:176
+msgid "Related Tasks"
+msgstr "Tâches liées"
+
+#: ../Backend/Controllers/Saleorder/Details.php:184
+msgid "Add New Task"
+msgstr "Ajouter une nouvelle tâche"
+
+#: ../Backend/Controllers/Saleorder/Details.php:197
+msgid "Related Tasks History"
+msgstr "histoire de tache liée "
+
+#: ../Backend/Controllers/Saleorder/Details.php:234
+msgid "Related Processes"
+msgstr "Les processus liés"
+
+#: ../Backend/Controllers/Saleorder/Details.php:235
+msgid "Create Process"
+msgstr "Créer processus"
+
+#: ../Backend/Controllers/Saleorder/Details.php:262
+msgid ""
+"Cannot convert sales order to invoice, please change state to accepted before"
+msgstr ""
+"Vous ne pouvez pas convertir la commande  à facturer, s'il vous plaît "
+"changer le statut  à accepté avant"
+
+#: ../Backend/Controllers/Saleorder/Details.php:281
+#: ../Backend/Controllers/Saleorder/Details.php:285
+msgid "Modify"
+msgstr "Modifier"
+
+#: ../Backend/Controllers/Saleorder/Details.php:391
+msgid "Add Product"
+msgstr "Ajouter un produit"
+
+#: ../Backend/Controllers/Saleorder/Details.php:396
+msgid "Add Custom Item"
+msgstr "Ajouter état "
+
+#: ../Backend/Controllers/Saleorder/Details.php:419 ../Panels/Panel.php:106
+msgid "Grand Total"
+msgstr "total"
+
+#: ../Backend/Controllers/Saleorder/Details.php:434
+msgid "Add Document"
+msgstr "Ajouter un document"
+
+#: ../Backend/Controllers/Saleorder/Details.php:437
+msgid "Generate PDF"
+msgstr "Générer PDF"
+
+#: ../Backend/Controllers/Saleorder/Details.php:478
+msgid "Related Emails"
+msgstr "Emails liées"
+
+#: ../Backend/Controllers/Saleorder/Details.php:481
+msgid "Add New Email"
+msgstr "Ajouter un nouvel e-mail"
+
+#: ../Backend/Controllers/Saleorder/Quicklist.php:42
+msgid "List saleorder"
+msgstr "Liste du Commande"
+
+#: ../Backend/Controllers/Saleorder/Quicklist.php:66
+#: ../Grids/DataGridView.php:46 ../Panels/Panel.php:117
+msgid "Created Time"
+msgstr "Date de création "
+
+#: ../Backend/Controllers/Saleorder/Updatestate.php:35
+msgid "Update Sales Order state"
+msgstr "Mettre à jour l'état"
+
+#: ../Backend/Controllers/State/Add.php:33
+msgid "Create new Sales Order State"
+msgstr "Créer un nouveau état de Commande"
+
+#: ../Backend/Controllers/State/List.php:36
+msgid "List Sales Orders States"
+msgstr "liste d'etat de Commande "
+
+#: ../Backend/Controllers/State/Modify.php:32
+msgid "Edit Sales Order State"
+msgstr "Modifier l'État du commande"
+
+#: ../Forms/Form.php:84 ../Forms/Updatestate/Form.php:62
+#: ../Forms/Updatestate/Form.php:64 ../Panels/Panel.php:104
+msgid "Subject"
+msgstr "Sujet"
+
+#: ../Forms/Form.php:89
+msgid "Sales Order No."
+msgstr "Nombre"
+
+#: ../Forms/Form.php:93 ../Panels/Panel.php:163 ../Panels/Panel.php:164
+msgid "Payment Log"
+msgstr "Log de paiment"
+
+#: ../Forms/Form.php:96 ../Grids/DataGridView.php:43 ../Panels/Panel.php:108
+msgid "Assigned To"
+msgstr "Assignée à"
+
+#: ../Forms/Form.php:100 ../Grids/DataGridView.php:88
+msgid "Account"
+msgstr "Compte"
+
+#: ../Forms/Form.php:105 ../Panels/Panel.php:114
+msgid "Shipping Method"
+msgstr "Méthode  de livraison"
+
+#: ../Forms/Form.php:112
+#, php-format
+msgid "Like 30% or 30 (Fixed or percent)"
+msgstr "Comme 30% ou 30 (fixe ou pour cent)"
+
+#: ../Forms/Form.php:114 ../Panels/Panel.php:115
+msgid "Due Date"
+msgstr "Date d'échéance"
+
+#: ../Forms/Form.php:117
+msgid "Descrtiption"
+msgstr "Descrtiption"
+
+#: ../Forms/Form.php:120 ../Grids/DataGridView.php:45 ../Panels/Panel.php:113
+msgid "Payment Method"
+msgstr "Méthodes de Paiement"
+
+#: ../Forms/Form.php:126 ../Panels/Panel.php:155 ../Panels/Panel.php:156
+msgid "Policy"
+msgstr "Les Conditions"
+
+#: ../Forms/Form.php:131
+msgid "General Informations"
+msgstr "Informations générales"
+
+#: ../Forms/Form.php:139
+msgid "Descriptions"
+msgstr "Descriptions"
+
+#: ../Forms/Form.php:142
+msgid "Discount Informations"
+msgstr "Informations de réduction"
+
+#: ../Forms/Cancel/Form.php:37
+msgid "Security Code"
+msgstr "Code de sécurité"
+
+#: ../Forms/Cancel/Form.php:41
+msgid "Submit"
+msgstr "Envoyer"
+
+#: ../Forms/Comment/Form.php:46
+msgid "Comment"
+msgstr "Commentaire"
+
+#: ../Forms/Comment/Form.php:49
+msgid "Is Public"
+msgstr "Publique"
+
+#: ../Forms/Document/Form.php:49
+msgid "Document"
+msgstr "Document"
+
+#: ../Forms/Document/Form.php:49
+msgid "Image"
+msgstr "Image"
+
+#: ../Forms/Document/Form.php:49
+msgid "Zip File"
+msgstr "Fichier ZIP"
+
+#: ../Forms/Document/Form.php:49
+msgid "Software"
+msgstr "Logiciel"
+
+#: ../Forms/Document/Form.php:51
+msgid "Type"
+msgstr "Type"
+
+#: ../Forms/Document/Form.php:57 ../Grids/Document/DataGridView.php:51
+#: ../Panels/Comment/Panel.php:34
+msgid "Public"
+msgstr "Public"
+
+#: ../Forms/Document/Form.php:63
+msgid "File to upload"
+msgstr "Fichier à télécharger"
+
+#: ../Forms/Item/Form.php:58 ../Grids/Item/DataGridView.php:29
+msgid "Item No"
+msgstr "Numéro d'Elémént"
+
+#: ../Forms/Item/Form.php:63 ../Grids/Item/DataGridView.php:30
+#: ../Panels/Item/Panel.php:59
+msgid "Item Name"
+msgstr "Nom de l'élément"
+
+#: ../Forms/Item/Form.php:69 ../Panels/Item/Panel.php:60
+msgid "Item Description"
+msgstr "Description de l'élément"
+
+#: ../Forms/Item/Form.php:72 ../Panels/Item/Panel.php:61
+msgid "Price"
+msgstr "Prix"
+
+#: ../Forms/Item/Form.php:79
+msgid "20 "
+msgstr "20 "
+
+#: ../Forms/Updatestate/Form.php:46
+msgid "Select from template"
+msgstr "Sélectionnez à partir du template"
+
+#: ../Forms/Updatestate/Form.php:61
+msgid "Email Content"
+msgstr "Contenu  email"
+
+#: ../Forms/Updatestate/Form.php:70
+msgid "Content"
+msgstr "Contenu"
+
+#: ../Forms/Updatestate/Form.php:74
+msgid "Notifications"
+msgstr "Notifications"
+
+#: ../Forms/Updatestate/Form.php:75
+msgid "Notify Customer"
+msgstr "Notifier le Client"
+
+#: ../Forms/Updatestate/Form.php:78
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../Frontend/Controllers/Cancel.php:66
+msgid "Your saleorder was successfully canceled"
+msgstr "Votre commande a été annulée avec succès"
+
+#: ../Frontend/Controllers/Cancel.php:68
+msgid "Please verify input"
+msgstr "S'il vous plaît vérifier entrée"
+
+#: ../Grids/DataGridView.php:38 ../Panels/Panel.php:112
+msgid "Creator Name"
+msgstr "Nom du Créateur"
+
+#: ../Grids/DataGridView.php:40 ../Panels/Panel.php:109
+msgid "Related To"
+msgstr "Liés à"
+
+#: ../Grids/DataGridView.php:48 ../Grids/Comment/DataGridView.php:36
+#: ../Grids/Document/DataGridView.php:54 ../Grids/Item/DataGridView.php:36
+#: ../Grids/State/DataGridView.php:31
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../Grids/DataGridView.php:54 ../Grids/Comment/DataGridView.php:40
+#: ../Grids/Document/DataGridView.php:60 ../Grids/Item/DataGridView.php:42
+#: ../Grids/State/DataGridView.php:34
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../Grids/DataGridView.php:96
+msgid "User"
+msgstr "Utilisateur"
+
+#: ../Grids/DataGridView.php:110 ../Panels/Panel.php:116
+msgid "Payment"
+msgstr "Paiement"
+
+#: ../Grids/Comment/DataGridView.php:33 ../Panels/Comment/Panel.php:31
+msgid "Insert Date"
+msgstr "Date d'insertion "
+
+#: ../Grids/Comment/DataGridView.php:34 ../Panels/Comment/Panel.php:32
+msgid "Account Seen"
+msgstr "Visualisée par Compte"
+
+#: ../Grids/Comment/DataGridView.php:35 ../Panels/Comment/Panel.php:33
+msgid "Admin Seen"
+msgstr "Visualisée par l'administrateur"
+
+#: ../Grids/Document/DataGridView.php:37
+msgid "Document Name"
+msgstr "Nom du document"
+
+#: ../Grids/Document/DataGridView.php:42
+msgid "Mail"
+msgstr "Email"
+
+#: ../Grids/Document/DataGridView.php:49
+msgid "Document Type"
+msgstr "Type de document"
+
+#: ../Grids/Item/DataGridView.php:32 ../Panels/Panel.php:149
+#: ../Panels/Panel.php:150
+msgid "Description"
+msgstr "Description"
+
+#: ../Models/Model.php:776
+#, php-format
+msgid "Online Order %s"
+msgstr "Commandes en ligne %s"
+
+#: ../Models/Model.php:918
+msgid "Your sales order was paid"
+msgstr "Votre commande  a été payée"
+
+#: ../Models/Model.php:919
+msgid "Your Sales order was paid"
+msgstr "Votre commande  a été payée"
+
+#: ../Models/Model.php:947
+msgid "Your sales order was canceled"
+msgstr "Votre commande a été annulée"
+
+#: ../Models/Model.php:948
+msgid "Your Sales order was canceled"
+msgstr "Votre commande a été annulée"
+
+#: ../Models/Model.php:960
+msgid "Your sales order was not paid"
+msgstr "Votre commande  n'a pas été payé"
+
+#: ../Models/Model.php:961
+msgid "Your Sales order was not paid"
+msgstr "Votre commande  n'a pas été payé"
+
+#: ../Models/Document/Model.php:214
+msgid "file cannote be uploaded"
+msgstr "Fichier ne peut être téléchargé"
+
+#: ../Models/Notification/Model.php:34 ../Models/Notification/Model.php:60
+msgid "Comment On"
+msgstr "Commentaire sur"
+
+#: ../Models/Notification/Model.php:34 ../Models/Notification/Model.php:60
+msgid "Saleorder"
+msgstr "Commande"
+
+#: ../Models/Notification/Model.php:34 ../Models/Notification/Model.php:60
+msgid "No"
+msgstr "Non"
+
+#: ../Panels/Panel.php:101
+msgid "Sales Order Information"
+msgstr "Informations du commande"
+
+#: ../Panels/Panel.php:105
+msgid "Sales Order No"
+msgstr "Nombre"
+
+#: ../Panels/Panel.php:107
+msgid "Sales Order Discount Type"
+msgstr "Type de remise des commandes"
+
+#: ../Panels/Panel.php:111
+msgid "Account name"
+msgstr "Nom du compte"
+
+#: ../Panels/Panel.php:118
+msgid "Modified Time"
+msgstr "Date de modification"
+
+#: ../Panels/Panel.php:121
+msgid "Change State"
+msgstr "changer l'État"
+
+#: ../Panels/Comment/Panel.php:27
+msgid "Sales Order Comment Information"
+msgstr "Informations de commentaire"
+
+#: ../Panels/Comment/Panel.php:41
+msgid "Comment Messgae"
+msgstr "Message du Commentaire"
+
+#: ../Panels/Item/Panel.php:57
+msgid "Sales Order Item Information"
+msgstr "Informations sur l'élément"
+
+#: ../Panels/Item/Panel.php:63
+msgid "Related Item"
+msgstr "Elémént liées"
+
+#: ../Panels/Item/Panel.php:64
+msgid "Related Sales Order"
+msgstr "Commande liée "
+
+#: ../Panels/Item/Panel.php:65
+msgid "Related project"
+msgstr "Projet lié"

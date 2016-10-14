@@ -1,0 +1,54 @@
+<fieldset>
+    <legend>{'Information'|tr}</legend>
+    <div class="{$class}">{$message}</div>
+</fieldset>
+<fieldset>
+    <legend>
+        <span class="add"><a href="admin.php?module=crm&page=account-add">{'Add new Account'|tr}</a></span> 
+    </legend>
+    <div class="panel">
+        {$widget->Render()}
+        <div id="canvas"></div>
+    </div>
+</fieldset>
+
+{literal}
+<script>
+var redraw, g, renderer;
+
+/* only do all this when document has finished loading (needed for RaphaelJS) */
+window.onload = function() {
+    
+    var width = $(document).width() - 400;
+    var height = 400;
+    
+    g = new Graph();
+
+g.edgeFactory.template.style.directed = true;
+
+    /* add a simple node */
+    g.addNode("18", {label: "Comment"}); 
+    g.addNode("6", {label: "Account"});
+    
+    g.addNode("19", {label: "Comment2"});
+     g.addNode("5", {label: "العربية"});
+    g.addNode("7", {label: "Opportunity"});
+
+
+ g.addEdge("7", "19", {label : "Created by faras"});
+   
+    g.addEdge("7", "18", {label : "Created by faras"});
+    
+      g.addEdge("6", "7", {label : "Created by faras"});
+ g.addEdge("6", "5", {label : "Created by faras"});
+    
+
+    /* layout the graph using the Spring layout implementation */
+    var layouter = new Graph.Layout.Spring(g);
+    
+    /* draw the graph using the RaphaelJS draw implementation */
+    new Graph.Renderer.Raphael('canvas', g, width, height);
+
+};
+</script>
+{/literal}

@@ -1,0 +1,2788 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Crm\n"
+"POT-Creation-Date: 2014-03-26 09:55+0100\n"
+"PO-Revision-Date: 2014-05-02 11:37+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: key_words_html.php:22 ../key_words_html.php:305 ../key_words_html.php:344
+#: ../Backend/Boot.php:91 ../I18N/key_words_html.php:22
+msgid "Modify Account"
+msgstr "Modifier le Compte"
+
+#: key_words_html.php:24 key_words_html.php:59 key_words_html.php:74
+#: ../key_words_html.php:251 ../key_words_html.php:307
+#: ../key_words_html.php:327 ../key_words_html.php:352
+#: ../key_words_html.php:368 ../key_words_html.php:449
+#: ../I18N/key_words_html.php:24 ../I18N/key_words_html.php:59
+#: ../I18N/key_words_html.php:74
+msgid "Change Password"
+msgstr "Changer Mot de pass"
+
+#: key_words_html.php:26 key_words_html.php:29 key_words_html.php:34
+#: key_words_html.php:37 ../key_words_html.php:3 ../key_words_html.php:6
+#: ../key_words_html.php:9 ../key_words_html.php:13 ../key_words_html.php:19
+#: ../key_words_html.php:23 ../key_words_html.php:27 ../key_words_html.php:31
+#: ../key_words_html.php:34 ../key_words_html.php:38 ../key_words_html.php:42
+#: ../key_words_html.php:45 ../key_words_html.php:50 ../key_words_html.php:54
+#: ../key_words_html.php:58 ../key_words_html.php:62 ../key_words_html.php:66
+#: ../key_words_html.php:70 ../key_words_html.php:74 ../key_words_html.php:81
+#: ../key_words_html.php:84 ../key_words_html.php:91 ../key_words_html.php:95
+#: ../key_words_html.php:99 ../key_words_html.php:103
+#: ../key_words_html.php:106 ../key_words_html.php:110
+#: ../key_words_html.php:113 ../key_words_html.php:118
+#: ../key_words_html.php:122 ../key_words_html.php:126
+#: ../key_words_html.php:130 ../key_words_html.php:134
+#: ../key_words_html.php:138 ../key_words_html.php:142
+#: ../key_words_html.php:149 ../key_words_html.php:155
+#: ../key_words_html.php:161 ../key_words_html.php:169
+#: ../key_words_html.php:172 ../key_words_html.php:179
+#: ../key_words_html.php:183 ../key_words_html.php:186
+#: ../key_words_html.php:190 ../key_words_html.php:193
+#: ../key_words_html.php:198 ../key_words_html.php:202
+#: ../key_words_html.php:206 ../key_words_html.php:210
+#: ../key_words_html.php:217 ../key_words_html.php:223
+#: ../key_words_html.php:229 ../key_words_html.php:235
+#: ../key_words_html.php:240 ../key_words_html.php:285
+#: ../key_words_html.php:288 ../key_words_html.php:293
+#: ../key_words_html.php:296 ../I18N/key_words_html.php:26
+#: ../I18N/key_words_html.php:29 ../I18N/key_words_html.php:34
+#: ../I18N/key_words_html.php:37
+msgid "Information"
+msgstr "Information"
+
+#: key_words_html.php:27 key_words_html.php:32 key_words_html.php:39
+#: ../key_words_html.php:286 ../key_words_html.php:291
+#: ../key_words_html.php:298 ../I18N/key_words_html.php:27
+#: ../I18N/key_words_html.php:32 ../I18N/key_words_html.php:39
+msgid "List Contacts"
+msgstr "Liste des Contacts"
+
+#: key_words_html.php:30 ../key_words_html.php:289
+#: ../Frontend/Controllers/Contact/Modify.php:39 ../I18N/key_words_html.php:30
+msgid "Edit Contact"
+msgstr "Modifier Contact"
+
+#: key_words_html.php:31 key_words_html.php:35 key_words_html.php:38
+#: ../key_words_html.php:290 ../key_words_html.php:294
+#: ../key_words_html.php:297 ../Backend/Boot.php:113
+#: ../I18N/key_words_html.php:31 ../I18N/key_words_html.php:35
+#: ../I18N/key_words_html.php:38
+msgid "Add new Contact"
+msgstr "Ajouter contact"
+
+#: key_words_html.php:41 ../key_words_html.php:300 ../key_words_html.php:309
+#: ../key_words_html.php:356 ../Forms/ContactUs/Form.php:86
+#: ../I18N/key_words_html.php:41
+msgid "Contact Us"
+msgstr "Contactez-nous"
+
+#: key_words_html.php:43 ../key_words_html.php:302 ../key_words_html.php:311
+#: ../I18N/key_words_html.php:43
+msgid "Contact Form submited"
+msgstr "Formulaire de contact soumis"
+
+#: key_words_html.php:44 ../key_words_html.php:303 ../key_words_html.php:312
+#: ../I18N/key_words_html.php:44
+msgid "Back to home"
+msgstr "Retour à l'accueil"
+
+#: key_words_html.php:46 ../key_words_html.php:314
+#: ../I18N/key_words_html.php:46
+msgid "Welcome to Motorssouq"
+msgstr ""
+
+#: key_words_html.php:47 ../key_words_html.php:315
+#: ../I18N/key_words_html.php:47
+msgid "Quick links"
+msgstr "liens rapides"
+
+#: key_words_html.php:48 ../key_words_html.php:316
+#: ../I18N/key_words_html.php:48
+msgid "To reset your password click here"
+msgstr "Pour réinitialiser votre mot de passe cliquez ici"
+
+#: key_words_html.php:49 ../key_words_html.php:317
+#: ../I18N/key_words_html.php:49
+msgid "Login to your Panel"
+msgstr "Connectez-vous à votre panneau"
+
+#: key_words_html.php:51 ../key_words_html.php:319 ../key_words_html.php:358
+#: ../key_words_html.php:433 ../I18N/key_words_html.php:51
+msgid "Reset Password"
+msgstr "Réinitialiser mot passe"
+
+#: key_words_html.php:52 ../key_words_html.php:320
+#: ../I18N/key_words_html.php:52
+msgid "Please enter your email"
+msgstr "S'il vous plaît, entrez votre e-mail"
+
+#: key_words_html.php:53 ../key_words_html.php:321
+#: ../Forms/Request/Contact/Form.php:84 ../I18N/key_words_html.php:53
+msgid "Send"
+msgstr "Envoyer"
+
+#: key_words_html.php:55 ../key_words_html.php:323 ../key_words_html.php:361
+#: ../I18N/key_words_html.php:55
+msgid "Reset Password Success"
+msgstr "Définir mot de passe a réussi"
+
+#: key_words_html.php:57 key_words_html.php:72 ../key_words_html.php:325
+#: ../key_words_html.php:447 ../I18N/key_words_html.php:57
+#: ../I18N/key_words_html.php:72
+msgid "Customer Control Panel"
+msgstr "Panneau de configuration de client"
+
+#: key_words_html.php:58 key_words_html.php:73 ../key_words_html.php:326
+#: ../key_words_html.php:448 ../I18N/key_words_html.php:58
+#: ../I18N/key_words_html.php:73
+msgid "My Data"
+msgstr "Mes informations"
+
+#: key_words_html.php:60 key_words_html.php:75 ../key_words_html.php:328
+#: ../key_words_html.php:450 ../Frontend/Controllers/Mobile/Intern.php:75
+#: ../I18N/key_words_html.php:60 ../I18N/key_words_html.php:75
+msgid "My Cars"
+msgstr ""
+
+#: key_words_html.php:61 key_words_html.php:76 ../key_words_html.php:329
+#: ../key_words_html.php:451
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:124
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:131
+#: ../Frontend/Controllers/Mobile/Intern.php:73 ../I18N/key_words_html.php:61
+#: ../I18N/key_words_html.php:76
+msgid "Insert Car"
+msgstr ""
+
+#: key_words_html.php:62 key_words_html.php:77 ../key_words_html.php:330
+#: ../key_words_html.php:452 ../I18N/key_words_html.php:62
+#: ../I18N/key_words_html.php:77
+msgid "My Bikes"
+msgstr ""
+
+#: key_words_html.php:63 key_words_html.php:78 ../key_words_html.php:331
+#: ../key_words_html.php:453
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:128
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:131
+#: ../I18N/key_words_html.php:63 ../I18N/key_words_html.php:78
+msgid "Insert Bike"
+msgstr ""
+
+#: key_words_html.php:64 ../I18N/key_words_html.php:64
+msgid "Add Vehicle Child"
+msgstr ""
+
+#: key_words_html.php:65 ../I18N/key_words_html.php:65
+msgid "List Vehicle Child"
+msgstr ""
+
+#: key_words_html.php:66 key_words_html.php:79 ../key_words_html.php:334
+#: ../key_words_html.php:454 ../I18N/key_words_html.php:66
+#: ../I18N/key_words_html.php:79
+msgid "Request Car"
+msgstr ""
+
+#: key_words_html.php:67 key_words_html.php:80 ../key_words_html.php:335
+#: ../key_words_html.php:455 ../Frontend/Controllers/Mobile/Intern.php:76
+#: ../I18N/key_words_html.php:67 ../I18N/key_words_html.php:80
+msgid "Logout"
+msgstr "Déconnexion"
+
+#: key_words_html.php:69 ../key_words_html.php:337 ../key_words_html.php:416
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:77
+#: ../Frontend/Controllers/Intern/Shop/Login.php:78
+#: ../I18N/key_words_html.php:69
+msgid "Account Area"
+msgstr "Mon Compte"
+
+#: key_words_html.php:70 ../Forms/Account/Group/Form.php:39
+#: ../I18N/key_words_html.php:70
+msgid "Group Name"
+msgstr "Nom du group"
+
+#: key_words_html.php:83 ../key_words_html.php:339
+#: ../I18N/key_words_html.php:83
+msgid "Change Password Success"
+msgstr "Définir mot de passe a réussi"
+
+#: key_words_html.php:85 ../key_words_html.php:341
+#: ../I18N/key_words_html.php:85
+msgid "Register new User"
+msgstr "Enregistrer un nouveau utilisateur"
+
+#: key_words_html.php:86 ../key_words_html.php:342
+#: ../I18N/key_words_html.php:86
+msgid "Dear visitor please verify inputs"
+msgstr "Cher visiteur s'il vous plaît vérifier les entrées"
+
+#: key_words_html.php:87 ../key_words_html.php:511
+#: ../Backend/Controllers/Account/Detail.php:87 ../I18N/key_words_html.php:87
+msgid "Related Tickets"
+msgstr "Les tickets Liées"
+
+#: key_words_html.php:88 ../key_words_html.php:514
+#: ../Backend/Controllers/Account/Detail.php:98 ../I18N/key_words_html.php:88
+msgid "Add New Ticket"
+msgstr "Ajouter un nouveau ticket"
+
+#: ../key_words_html.php:4 ../key_words_html.php:7 ../key_words_html.php:10
+#: ../key_words_html.php:16 ../key_words_html.php:21 ../key_words_html.php:25
+#: ../key_words_html.php:47 ../Backend/Controllers/Account/Quicklist.php:39
+#: ../Backend/Controllers/Account/Address/Quicklist.php:45
+msgid "List Accounts"
+msgstr "Liste des Comptes"
+
+#: ../key_words_html.php:14 ../Backend/Controllers/Account/Modify.php:37
+#: ../Frontend/Controllers/Intern/Motorssouq/Account.php:39
+#: ../Frontend/Controllers/Intern/Shop/Account.php:43
+msgid "Edit Account"
+msgstr "Modifier le Compte"
+
+#: ../key_words_html.php:15 ../key_words_html.php:28 ../key_words_html.php:43
+#: ../key_words_html.php:46 ../Backend/Boot.php:89
+#: ../Backend/Controllers/Account/Group/Detail.php:66
+msgid "Add new Account"
+msgstr "Ajouter un Compte"
+
+#: ../key_words_html.php:17
+msgid "History"
+msgstr "History"
+
+#: ../key_words_html.php:20 ../key_words_html.php:24
+msgid "Add a new Account"
+msgstr "Ajouter un compte"
+
+#: ../key_words_html.php:29 ../key_words_html.php:40
+#: ../Backend/Controllers/Account/Group/List.php:44
+msgid "List Account Groups"
+msgstr "Liste Groupes de compte"
+
+#: ../key_words_html.php:32
+msgid "Edit Account Group"
+msgstr "Modifier les Groupes de compte"
+
+#: ../key_words_html.php:35 ../key_words_html.php:104 ../Backend/Boot.php:123
+msgid "Add new Group"
+msgstr "Ajouter un groupe"
+
+#: ../key_words_html.php:36
+msgid "List Groups"
+msgstr "Liste des groupes"
+
+#: ../key_words_html.php:39 ../key_words_html.php:150
+msgid "Add new Account Group"
+msgstr "Ajouter Groupe de compte"
+
+#: ../key_words_html.php:51 ../key_words_html.php:55 ../key_words_html.php:59
+#: ../key_words_html.php:218 ../Backend/Controllers/Account/Source/Add.php:33
+msgid "Add new Account Source"
+msgstr "Ajouter un source de compte"
+
+#: ../key_words_html.php:52 ../key_words_html.php:56 ../key_words_html.php:60
+msgid "List Account Source"
+msgstr "Liste des sources du compte"
+
+#: ../key_words_html.php:63 ../key_words_html.php:67 ../key_words_html.php:71
+#: ../key_words_html.php:236
+msgid "Add new Account Stage"
+msgstr "Ajouter une nouvelle étape de compte"
+
+#: ../key_words_html.php:64 ../key_words_html.php:68 ../key_words_html.php:72
+msgid "List Account Stage"
+msgstr "Liste des Etape de compte"
+
+#: ../key_words_html.php:75 ../key_words_html.php:143
+#: ../key_words_html.php:211
+msgid "Manage Email templates"
+msgstr "Gérer les templates de e-mail"
+
+#: ../key_words_html.php:76
+msgid "Mail server settings"
+msgstr "Paramètres du serveur de messagerie"
+
+#: ../key_words_html.php:77 ../key_words_html.php:145
+#: ../key_words_html.php:213
+msgid "Account Settings"
+msgstr "Paramètres du compte"
+
+#: ../key_words_html.php:78 ../key_words_html.php:146
+#: ../key_words_html.php:214
+msgid "Contact Settings"
+msgstr "Paramètres de contact"
+
+#: ../key_words_html.php:79 ../key_words_html.php:147
+#: ../key_words_html.php:215
+msgid "Lead Settings"
+msgstr "Paramètres d'interesses"
+
+#: ../key_words_html.php:82 ../key_words_html.php:87 ../key_words_html.php:115
+#: ../Backend/Controllers/Contact/Quicklist.php:39
+msgid "List contacts"
+msgstr "Liste des Contact"
+
+#: ../key_words_html.php:85 ../Backend/Controllers/Contact/Modify.php:37
+msgid "Edit contact"
+msgstr "Modifier le contact"
+
+#: ../key_words_html.php:86 ../key_words_html.php:100
+#: ../key_words_html.php:111 ../key_words_html.php:114
+msgid "Add new contact"
+msgstr "Ajouter un contact"
+
+#: ../key_words_html.php:88
+msgid "go to account"
+msgstr "Aller au compte"
+
+#: ../key_words_html.php:89 ../key_words_html.php:177
+msgid "Convert to account"
+msgstr "Convertir en compte"
+
+#: ../key_words_html.php:92 ../key_words_html.php:96
+msgid "Add a new Contact"
+msgstr "Ajouter un contact"
+
+#: ../key_words_html.php:93 ../key_words_html.php:97
+msgid "List Contact"
+msgstr "Liste des contacts"
+
+#: ../key_words_html.php:101
+msgid "List contact Groups"
+msgstr "Liste des groupe de contact"
+
+#: ../key_words_html.php:107
+msgid "Add new contact Group"
+msgstr "Ajouter un group de contacte"
+
+#: ../key_words_html.php:108
+msgid "List Contact Groups"
+msgstr "Liste des groupe de contact"
+
+#: ../key_words_html.php:119 ../key_words_html.php:123
+#: ../key_words_html.php:127 ../key_words_html.php:224
+#: ../Backend/Controllers/Contact/Source/Add.php:33
+msgid "Add new Contact Source"
+msgstr "Ajouter source de contact"
+
+#: ../key_words_html.php:120 ../key_words_html.php:124
+#: ../key_words_html.php:128
+msgid "List Contact Source"
+msgstr "Liste des sources de contact"
+
+#: ../key_words_html.php:131 ../key_words_html.php:135
+#: ../key_words_html.php:139 ../key_words_html.php:241
+msgid "Add new Contact Stage"
+msgstr "Ajouter une etape de contact"
+
+#: ../key_words_html.php:132 ../key_words_html.php:136
+#: ../key_words_html.php:140
+msgid "List Contact Stage"
+msgstr "Liste des Etapes de contact"
+
+#: ../key_words_html.php:144 ../key_words_html.php:212
+msgid "Mail Server Settings"
+msgstr "Paramètres du serveur de messagerie"
+
+#: ../key_words_html.php:151 ../key_words_html.php:157
+#: ../key_words_html.php:163 ../Backend/Boot.php:95 ../Backend/Boot.php:110
+#: ../Forms/Account/Form.php:109
+msgid "Account Group"
+msgstr "Groupe de compte"
+
+#: ../key_words_html.php:152 ../key_words_html.php:158
+#: ../key_words_html.php:164 ../Forms/Contact/Form.php:95
+msgid "Contact Group"
+msgstr "Groupe de Contact"
+
+#: ../key_words_html.php:153 ../key_words_html.php:159
+#: ../key_words_html.php:165 ../Forms/Lead/Form.php:100
+msgid "Lead Group"
+msgstr "Groupe d'interessé"
+
+#: ../key_words_html.php:156
+msgid "Add new Contact Group"
+msgstr "Ajouter un groupe de contact"
+
+#: ../key_words_html.php:162 ../key_words_html.php:184
+#: ../key_words_html.php:187
+msgid "Add new Lead Group"
+msgstr "Ajouter un Groupe d'interessé"
+
+#: ../key_words_html.php:170 ../key_words_html.php:175
+#: ../key_words_html.php:195 ../Backend/Controllers/Lead/Quicklist.php:39
+msgid "List Leads"
+msgstr "Liste d'interessés"
+
+#: ../key_words_html.php:173 ../Backend/Controllers/Account/Lead/Modify.php:37
+#: ../Backend/Controllers/Lead/Modify.php:38
+msgid "Edit Lead"
+msgstr "Modifier intéressé"
+
+#: ../key_words_html.php:174 ../key_words_html.php:180
+#: ../key_words_html.php:191 ../key_words_html.php:194 ../Backend/Boot.php:118
+msgid "Add new Lead"
+msgstr "Ajouter intéressé"
+
+#: ../key_words_html.php:176
+msgid "Convert to contact"
+msgstr "Convertir au contact"
+
+#: ../key_words_html.php:181 ../key_words_html.php:188
+msgid "List Lead Groups"
+msgstr "Liste Groupe d'interessé"
+
+#: ../key_words_html.php:199 ../key_words_html.php:203
+#: ../key_words_html.php:207 ../key_words_html.php:230
+#: ../Backend/Controllers/Lead/Source/Add.php:35
+msgid "Add new Lead Source"
+msgstr "Ajouter Sources d'interessé"
+
+#: ../key_words_html.php:200 ../key_words_html.php:204
+#: ../key_words_html.php:208
+msgid "List Lead Source"
+msgstr "Liste source d'interessé"
+
+#: ../key_words_html.php:219 ../key_words_html.php:225
+#: ../key_words_html.php:231 ../Backend/Boot.php:94 ../Backend/Boot.php:109
+msgid "Account Source"
+msgstr "Source de compte"
+
+#: ../key_words_html.php:220 ../key_words_html.php:226
+#: ../key_words_html.php:232
+msgid "Contact Source"
+msgstr "Source de Contact"
+
+#: ../key_words_html.php:221 ../key_words_html.php:227
+#: ../key_words_html.php:233
+msgid "Lead Source"
+msgstr "Sources d'intéressées"
+
+#: ../key_words_html.php:237 ../key_words_html.php:242
+msgid "Account Stage"
+msgstr "Etape de Compte"
+
+#: ../key_words_html.php:238 ../key_words_html.php:243
+msgid "Contact Stage"
+msgstr "Etape de contact"
+
+#: ../key_words_html.php:245 ../key_words_html.php:513
+#: ../Forms/Account/Login/Form.php:49
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:98
+#: ../Frontend/Controllers/Intern/Shop/Login.php:96
+msgid "Login"
+msgstr "Connexion"
+
+#: ../key_words_html.php:247 ../key_words_html.php:363
+#: ../key_words_html.php:366
+msgid "My Account"
+msgstr "Mon compte"
+
+#: ../key_words_html.php:248
+msgid "Home"
+msgstr "Page d'accueil"
+
+#: ../key_words_html.php:249
+msgid "Account Information"
+msgstr "Information du Compte"
+
+#: ../key_words_html.php:250 ../key_words_html.php:369
+#: ../Frontend/Controllers/Intern/Shop/Address/List.php:47
+msgid "Manage Addresses"
+msgstr "Gérer les adresses"
+
+#: ../key_words_html.php:252 ../key_words_html.php:371
+msgid "Sales Order"
+msgstr "Ordre d'achat"
+
+#: ../key_words_html.php:253 ../key_words_html.php:372
+msgid "Invoices"
+msgstr "Factures"
+
+#: ../key_words_html.php:254 ../key_words_html.php:379
+#: ../key_words_html.php:437 ../Backend/Boot.php:45
+msgid "Settings"
+msgstr "Paramètres"
+
+#: ../key_words_html.php:255
+msgid "Contact Shop Owner"
+msgstr "Contact le Propriétaire"
+
+#: ../key_words_html.php:256 ../key_words_html.php:420
+msgid "Newsletter Subscription"
+msgstr "abonnement du newsletter"
+
+#: ../key_words_html.php:257 ../key_words_html.php:370
+msgid "Policy"
+msgstr "politique"
+
+#: ../key_words_html.php:259
+msgid "To serve with distinction and to achieve the target in the preparation"
+msgstr ""
+"Pour servir avec distinction et pour atteindre l'objectif dans la préparation"
+
+#: ../key_words_html.php:260
+msgid "which aims to find out the nature of work in your company"
+msgstr "qui vise à savoir la nature du travail dans votre entreprise"
+
+#: ../key_words_html.php:261 ../Backend/Controllers/Account/Detail.php:311
+#: ../Backend/Controllers/Account/Quicklist.php:50
+#: ../Backend/Controllers/Account/Address/Quicklist.php:56
+#: ../Backend/Controllers/Contact/Quicklist.php:50
+#: ../Backend/Controllers/Lead/Quicklist.php:50
+#: ../Forms/Account/Source/Form.php:31 ../Forms/Confirm/Payment/Form.php:57
+#: ../Forms/Contact/Form.php:74 ../Forms/Contact/Group/Form.php:33
+#: ../Forms/Contact/Source/Form.php:31 ../Forms/Document/Form.php:43
+#: ../Forms/Lead/Form.php:79 ../Forms/Lead/Group/Form.php:33
+#: ../Forms/Lead/Source/Form.php:31
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:56
+#: ../Grids/Account/DataGridView.php:30
+#: ../Grids/Account/Document/DataGridView.php:37
+#: ../Grids/Account/Group/DataGridView.php:30
+#: ../Grids/Account/Source/DataGridView.php:31
+#: ../Grids/Address/DataGridView.php:35
+#: ../Grids/Contact/Document/DataGridView.php:31
+#: ../Grids/Contact/Group/DataGridView.php:29
+#: ../Grids/Contact/Source/DataGridView.php:32
+#: ../Grids/Lead/Group/DataGridView.php:30
+#: ../Grids/Lead/Source/DataGridView.php:32
+#: ../Models/Notification/Account/Model.php:292 ../Panels/Account/Panel.php:68
+#: ../Panels/Account/Group/Panel.php:38 ../Panels/Address/Panel.php:53
+msgid "Name"
+msgstr "Nom"
+
+#: ../key_words_html.php:262 ../Backend/Controllers/Account/Quicklist.php:53
+#: ../Backend/Controllers/Contact/Quicklist.php:53
+#: ../Backend/Controllers/Lead/Quicklist.php:53 ../Forms/Account/Form.php:133
+#: ../Forms/Account/Dealer/Form.php:88 ../Forms/Account/Private/Form.php:78
+#: ../Forms/Confirm/Payment/Form.php:61 ../Forms/Contact/Form.php:79
+#: ../Forms/ContactUs/Form.php:68 ../Forms/Customer/Form.php:82
+#: ../Forms/Forgotpassword/Form.php:34 ../Forms/Lead/Form.php:86
+#: ../Forms/Request/Contact/Form.php:69 ../Forms/Request/Demo/Form.php:70
+#: ../Forms/Resetpassword/Form.php:36
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:57
+#: ../Grids/Account/DataGridView.php:40 ../Grids/Contact/DataGridView.php:36
+#: ../Grids/Lead/DataGridView.php:39
+#: ../Models/Notification/Account/Model.php:293 ../Panels/Account/Panel.php:74
+#: ../Panels/Contact/Panel.php:85 ../Panels/Lead/Panel.php:85
+msgid "Email"
+msgstr "Email"
+
+#: ../key_words_html.php:263 ../Backend/Controllers/Account/Quicklist.php:55
+#: ../Forms/Account/Form.php:131 ../Forms/Account/Dealer/Form.php:85
+#: ../Forms/Account/Private/Form.php:74 ../Forms/Confirm/Payment/Form.php:65
+#: ../Forms/Contact/Form.php:83 ../Forms/ContactUs/Form.php:65
+#: ../Forms/Customer/Form.php:80 ../Forms/Lead/Form.php:90
+#: ../Forms/Request/Contact/Form.php:66 ../Forms/Request/Demo/Form.php:67
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:58
+#: ../Grids/Account/DataGridView.php:36 ../Grids/Contact/DataGridView.php:38
+#: ../Models/Notification/Account/Model.php:294 ../Panels/Account/Panel.php:73
+#: ../Panels/Lead/Panel.php:86
+msgid "Mobile"
+msgstr "Mobile"
+
+#: ../key_words_html.php:264 ../Forms/Request/Contact/Form.php:80
+#: ../Forms/Request/Demo/Form.php:83
+msgid "Company Url"
+msgstr "Url du Société"
+
+#: ../key_words_html.php:265
+msgid "What are the products you want to sell it on your shop"
+msgstr "Quels sont les produits que vous souhaitez vendre sur votre boutique"
+
+#: ../key_words_html.php:266
+msgid "How many products do you want to sell your shop"
+msgstr "Combien de produits que vous voulez vendre votre magasin"
+
+#: ../key_words_html.php:267
+msgid "Do you have a list of excel containing products"
+msgstr "Avez-vous une liste de Excel contenant des produits"
+
+#: ../key_words_html.php:268 ../key_words_html.php:269
+#: ../key_words_html.php:275 ../key_words_html.php:276
+#: ../key_words_html.php:279 ../key_words_html.php:280
+msgid "Yes"
+msgstr "Oui"
+
+#: ../key_words_html.php:270 ../key_words_html.php:271
+#: ../key_words_html.php:277 ../key_words_html.php:278
+#: ../key_words_html.php:281 ../key_words_html.php:282
+msgid "No"
+msgstr "Non"
+
+#: ../key_words_html.php:272
+msgid "Do you have a model to shop"
+msgstr "Avez-vous un modèle de magasiner"
+
+#: ../key_words_html.php:273
+msgid "What are the payment methods you want to use"
+msgstr "Quelles sont les méthodes de paiement que vous souhaitez utiliser"
+
+#: ../key_words_html.php:274
+msgid "what are the domains that you"
+msgstr "Quels sont vos  domaines "
+
+#: ../key_words_html.php:283 ../Forms/ContactUs/Form.php:77
+#: ../Forms/Forgotpassword/Form.php:42 ../Forms/Request/Demo/Form.php:87
+#: ../Forms/Resetpassword/Form.php:49
+#: ../Frontend/Controllers/Intern/Shop/Changepassword.php:48
+msgid "Submit"
+msgstr "Soumettre"
+
+#: ../key_words_html.php:332
+msgid "Add Plate"
+msgstr ""
+
+#: ../key_words_html.php:333
+msgid "List Plates"
+msgstr ""
+
+#: ../key_words_html.php:346
+msgid "Account Activation"
+msgstr "Activation du Compte"
+
+#: ../key_words_html.php:349
+#: ../Frontend/Controllers/Intern/Shop/Address/Add.php:38
+msgid "Add new Address"
+msgstr "Ajouter une Address"
+
+#: ../key_words_html.php:354 ../key_words_html.php:388
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:75
+msgid "Confirm Payment"
+msgstr "Confirmer le paiement"
+
+#: ../key_words_html.php:359
+msgid "Please wait until resetting password"
+msgstr "S'il vous plaît patienter jusqu'à la  remise du mot de passe"
+
+#: ../key_words_html.php:364
+msgid "Welcome"
+msgstr "Bienvenue"
+
+#: ../key_words_html.php:365
+msgid "Account Number"
+msgstr "Numéro de compte"
+
+#: ../key_words_html.php:367
+msgid "Profile"
+msgstr "Profile"
+
+#: ../key_words_html.php:373
+msgid "Open Sales Orders"
+msgstr "Les Commande ouvert"
+
+#: ../key_words_html.php:374
+msgid "Pending Sales Orders"
+msgstr "Les Commande en attendant"
+
+#: ../key_words_html.php:375
+msgid "Paid Sales Orders"
+msgstr "Les Commande payé"
+
+#: ../key_words_html.php:376
+msgid "All Sales Orders"
+msgstr "Liste des Commande"
+
+#: ../key_words_html.php:377
+msgid "My Quotation"
+msgstr "Mes devis"
+
+#: ../key_words_html.php:378
+msgid "List Quotation"
+msgstr "Liste des Devis"
+
+#: ../key_words_html.php:380
+msgid "Newsletters"
+msgstr "Newsletter"
+
+#: ../key_words_html.php:381
+msgid "Contact Shop owner"
+msgstr "Contacter le Propriétaire "
+
+#: ../key_words_html.php:382
+msgid "Latest Sales Orders"
+msgstr "Dernières Commande"
+
+#: ../key_words_html.php:383
+msgid "Sales Order Number"
+msgstr "Numero de Commande"
+
+#: ../key_words_html.php:384
+msgid "Pay Now"
+msgstr "Payer maintenant"
+
+#: ../key_words_html.php:385 ../key_words_html.php:395
+#: ../key_words_html.php:404
+msgid "Date"
+msgstr "Date"
+
+#: ../key_words_html.php:386
+msgid "Cancel Sales Order"
+msgstr "Annuler la Commande"
+
+#: ../key_words_html.php:387 ../key_words_html.php:396
+#: ../key_words_html.php:405
+msgid "Total Price"
+msgstr "Prix Total"
+
+#: ../key_words_html.php:389 ../key_words_html.php:398
+msgid "State"
+msgstr "Etat"
+
+#: ../key_words_html.php:390 ../key_words_html.php:399
+#: ../key_words_html.php:406 ../Backend/Boot.php:142 ../Backend/Boot.php:164
+#: ../Backend/Boot.php:186
+msgid "Details"
+msgstr "Détails"
+
+#: ../key_words_html.php:391
+msgid "There is no Sales Orders"
+msgstr "Y a pas  de Commande"
+
+#: ../key_words_html.php:392
+msgid "See all my Sales Orders"
+msgstr "Liste de Commande"
+
+#: ../key_words_html.php:393
+msgid "My Quotations"
+msgstr "Devis"
+
+#: ../key_words_html.php:394
+msgid "Quotation Number"
+msgstr "Numero de devis"
+
+#: ../key_words_html.php:397
+msgid "Accept"
+msgstr "Accepter"
+
+#: ../key_words_html.php:400
+msgid "There is no quotaions"
+msgstr "Y a pas de devis"
+
+#: ../key_words_html.php:401
+msgid "See All Quotations"
+msgstr "Liste des devis"
+
+#: ../key_words_html.php:402
+msgid "My Invoices"
+msgstr "Facture"
+
+#: ../key_words_html.php:403
+msgid "Invoice Number"
+msgstr "Numero de Facture"
+
+#: ../key_words_html.php:407
+msgid "There is no invoices"
+msgstr "Y a pas des Factures"
+
+#: ../key_words_html.php:408
+msgid "See All Invoices"
+msgstr "Liste des factures"
+
+#: ../key_words_html.php:409
+msgid "Shipped Sales Orders"
+msgstr "Liste de commande Expédié"
+
+#: ../key_words_html.php:411
+msgid "Your Invoices"
+msgstr "Vos factures"
+
+#: ../key_words_html.php:413
+msgid "New Customer"
+msgstr "Nouveau client"
+
+#: ../key_words_html.php:414
+msgid "Register Account"
+msgstr "Je m'inscris"
+
+#: ../key_words_html.php:415
+msgid "Continue"
+msgstr "Continuer"
+
+#: ../key_words_html.php:418
+msgid "Your Messages"
+msgstr "Votre Message"
+
+#: ../key_words_html.php:421
+msgid "Enter your email address"
+msgstr "Entrez votre adresse e-mail"
+
+#: ../key_words_html.php:422
+msgid "Email Address"
+msgstr "Adresse e-mail"
+
+#: ../key_words_html.php:423
+msgid "SUBSCRIBE"
+msgstr "ABONNEZ-VOUS"
+
+#: ../key_words_html.php:425
+msgid "Shop Policy"
+msgstr "Politique de la boutique"
+
+#: ../key_words_html.php:427
+msgid "Your Quotations"
+msgstr "Les Devis"
+
+#: ../key_words_html.php:429
+msgid "Open a new account"
+msgstr "Ouvrir un nouveau compte"
+
+#: ../key_words_html.php:431
+msgid "Resend Activation Code"
+msgstr "Renvoyer le code d'activation"
+
+#: ../key_words_html.php:435
+msgid "Your Sales Order"
+msgstr "Les Commande"
+
+#: ../key_words_html.php:439
+msgid "My Products"
+msgstr "Mes Produits"
+
+#: ../key_words_html.php:440
+msgid "Add smartphone"
+msgstr "Ajouter un smartphone"
+
+#: ../key_words_html.php:441
+msgid "My smartphones"
+msgstr "Mes Smartphones"
+
+#: ../key_words_html.php:442
+msgid "My tablets"
+msgstr ""
+
+#: ../key_words_html.php:443
+msgid "Add tablets"
+msgstr ""
+
+#: ../key_words_html.php:444
+msgid "My accessories"
+msgstr ""
+
+#: ../key_words_html.php:445
+msgid "Add accessory"
+msgstr ""
+
+#: ../key_words_html.php:460
+msgid "Contact request was saved"
+msgstr "Demande de contact a été enregistré"
+
+#: ../key_words_html.php:461
+msgid "Your contact request was saved"
+msgstr "Votre demande de contact a été enregistré"
+
+#: ../key_words_html.php:512
+msgid "Content Management"
+msgstr "Gestion de contenu"
+
+#: ../key_words_html.php:515
+msgid "Get Last 5 Leads"
+msgstr "Obtenez 5 dernières interessés"
+
+#: ../key_words_html.php:516
+msgid "Get Last 5 Contacts"
+msgstr "Obtenez 5 dernières Contact"
+
+#: ../key_words_html.php:517 ../Panels/Account/Panel.php:82
+msgid "Updated At"
+msgstr "Mise à jour à"
+
+#: ../key_words_html.php:518
+msgid "VCart"
+msgstr "VCart"
+
+#: ../Backend/Boot.php:38
+msgid "CRM"
+msgstr "Crm"
+
+#: ../Backend/Boot.php:40 ../Backend/Controllers/Account/List.php:45
+msgid "Manage Accounts"
+msgstr "Gérer les comptes"
+
+#: ../Backend/Boot.php:41 ../Frontend/Controllers/Contact/List.php:45
+msgid "Manage Contacts"
+msgstr "Gérer les contacts"
+
+#: ../Backend/Boot.php:42 ../Backend/Controllers/Account/Lead/List.php:41
+#: ../Backend/Controllers/Lead/List.php:42
+msgid "Manage Leads"
+msgstr "Gérer les interessés"
+
+#: ../Backend/Boot.php:43
+#: ../Backend/Controllers/Account/Contact/Group/List.php:42
+#: ../Backend/Controllers/Account/Lead/Group/List.php:42
+#: ../Backend/Controllers/Contact/Group/List.php:42
+#: ../Backend/Controllers/Lead/Group/List.php:42
+msgid "Manage Groups"
+msgstr "Gérer les groups"
+
+#: ../Backend/Boot.php:44
+msgid "Manage Sources"
+msgstr "Gérer les sources"
+
+#: ../Backend/Boot.php:86
+msgid "Crm Module"
+msgstr "CRM"
+
+#: ../Backend/Boot.php:87
+msgid "Set Crm Settings"
+msgstr "Définir des paramètres d'Crm"
+
+#: ../Backend/Boot.php:88
+msgid "List all Accounts"
+msgstr "Liste des Coumptes"
+
+#: ../Backend/Boot.php:90
+msgid "Show Account Information"
+msgstr "Afficher les information du compte"
+
+#: ../Backend/Boot.php:92
+msgid "Delete Accoount"
+msgstr "Effacer le compte"
+
+#: ../Backend/Boot.php:93
+msgid "Account Quicklist"
+msgstr "Liste rapide des Comptes"
+
+#: ../Backend/Boot.php:96
+msgid "Add Account address"
+msgstr "Ajouter Address pour un compte"
+
+#: ../Backend/Boot.php:97
+msgid "Modify Account address"
+msgstr "Modifier l'adresse du compte"
+
+#: ../Backend/Boot.php:98
+msgid "List Account address"
+msgstr "Liste des adresse du compte"
+
+#: ../Backend/Boot.php:99
+msgid "Delete Account address"
+msgstr "Effacer l'adresse du compte"
+
+#: ../Backend/Boot.php:100
+msgid "Add Account Document"
+msgstr "Ajouter un Document"
+
+#: ../Backend/Boot.php:101
+msgid "Modify Account Document"
+msgstr "Modifier le document"
+
+#: ../Backend/Boot.php:102
+msgid "List Account Document"
+msgstr "Liste  Document du Compte"
+
+#: ../Backend/Boot.php:103
+msgid "Delete Account Document"
+msgstr "Effacer le document du compte"
+
+#: ../Backend/Boot.php:104
+msgid "Detail Account Document"
+msgstr "Details du document"
+
+#: ../Backend/Boot.php:105
+msgid "Add Contact Document"
+msgstr "Ajouter Document"
+
+#: ../Backend/Boot.php:106
+msgid "Modify Contact Document"
+msgstr "Modifier Document"
+
+#: ../Backend/Boot.php:107
+msgid "List Contact Document"
+msgstr "Liste Document"
+
+#: ../Backend/Boot.php:108
+msgid "Delete Contact Document"
+msgstr "Effacer Document"
+
+#: ../Backend/Boot.php:111
+msgid "List all Contacts"
+msgstr "Liste des Contact"
+
+#: ../Backend/Boot.php:112
+msgid "Show Contacts Quicklist"
+msgstr "Afficher Liste rapide des contact"
+
+#: ../Backend/Boot.php:114
+msgid "Show Contact Information"
+msgstr "Afficher les information di contact"
+
+#: ../Backend/Boot.php:115
+msgid "Modify Contact"
+msgstr "Modifier Contact"
+
+#: ../Backend/Boot.php:116
+msgid "Delete Contact"
+msgstr "Delete contact"
+
+#: ../Backend/Boot.php:117
+msgid "List all Leads"
+msgstr "Liste des interessés"
+
+#: ../Backend/Boot.php:119
+msgid "Show Lead Information"
+msgstr "Afficher les information des interessés"
+
+#: ../Backend/Boot.php:120
+msgid "Modify Lead"
+msgstr "Modifier l'interessés"
+
+#: ../Backend/Boot.php:121
+msgid "Delete Lead"
+msgstr "Effacer l'interessés"
+
+#: ../Backend/Boot.php:122
+msgid "List all Groups"
+msgstr "liste des Groupes"
+
+#: ../Backend/Boot.php:124
+msgid "Modify Group"
+msgstr "Modifier le Groupe"
+
+#: ../Backend/Boot.php:125
+msgid "Delete Group"
+msgstr "Effacer le Group"
+
+#: ../Backend/Boot.php:126
+msgid "Add new Message"
+msgstr "Ajouter Message"
+
+#: ../Backend/Boot.php:127
+msgid "Modify Message"
+msgstr "Modifer Message"
+
+#: ../Backend/Boot.php:128
+msgid "Delete Message"
+msgstr "Effacer Message"
+
+#: ../Backend/Boot.php:140 ../Backend/Boot.php:162 ../Backend/Boot.php:184
+msgid "Item"
+msgstr "Elements"
+
+#: ../Backend/Boot.php:140 ../Backend/Boot.php:162 ../Backend/Boot.php:184
+msgid "Date Time"
+msgstr "Date et Heure"
+
+#: ../Backend/Boot.php:140 ../Backend/Boot.php:162 ../Backend/Boot.php:184
+msgid "Link"
+msgstr "lien"
+
+#: ../Backend/Controllers/Accountsetting.php:35
+#: ../Backend/Controllers/Contactsetting.php:34
+#: ../Backend/Controllers/Leadsetting.php:34
+msgid "CRM Settings"
+msgstr "Paramétre de CRM"
+
+#: ../Backend/Controllers/Accountsetting.php:48
+msgid "Account Notification Settings"
+msgstr "parametre de notification des Comptes"
+
+#: ../Backend/Controllers/Accountsetting.php:50
+msgid "General Settings"
+msgstr "Paramétre Génerale"
+
+#: ../Backend/Controllers/Accountsetting.php:51
+msgid "Show all related contacts quotations , saleorders , emails"
+msgstr "Afficher tous les contacts, devis, bons de commande, e-mails liées"
+
+#: ../Backend/Controllers/Accountsetting.php:52
+msgid "Use this email to send notifications"
+msgstr "Utilisez cet e-mail pour envoyer des notifications"
+
+#: ../Backend/Controllers/Accountsetting.php:58
+msgid "Send Email On Account Registered"
+msgstr "Envoyez un email lor d'enregistrement du compte "
+
+#: ../Backend/Controllers/Accountsetting.php:59
+msgid "Send Sms On Account Registered"
+msgstr "Envoyer des SMS quand le compte est enregistré"
+
+#: ../Backend/Controllers/Accountsetting.php:60
+msgid "Send Email On Password Changed"
+msgstr "Envoyer des mails quand le mot de pass est changé"
+
+#: ../Backend/Controllers/Accountsetting.php:61
+msgid "Send Sms On Password Changed"
+msgstr "Envoyer des SMS quand le mot de pass est changé"
+
+#: ../Backend/Controllers/Accountsetting.php:62
+msgid "Use Account Activation on Registration"
+msgstr "Utilisez l'activation des comptes lors de l'enregistrement"
+
+#: ../Backend/Controllers/Accountsetting.php:63
+msgid "Activation Method"
+msgstr "Les Mode d'activation"
+
+#: ../Backend/Controllers/Accountsetting.php:65
+msgid "EMAIL"
+msgstr "Email"
+
+#: ../Backend/Controllers/Accountsetting.php:65
+msgid "SMS"
+msgstr "SMS"
+
+#: ../Backend/Controllers/Accountsetting.php:75
+msgid "Registration Notification"
+msgstr "Enregistrer les Notification"
+
+#: ../Backend/Controllers/Accountsetting.php:76
+msgid "Use Email Template on Account Registration"
+msgstr "Utilisez le modèle d'Email suivant lorsque vous vous inscriver"
+
+#: ../Backend/Controllers/Accountsetting.php:79
+msgid "Use Sms Template on Account Registration"
+msgstr "Utilisez le modèle sms suivant lorsque vous vous inscriver"
+
+#: ../Backend/Controllers/Accountsetting.php:82
+msgid "Please Note That SMS Text is limited by service provider"
+msgstr ""
+"S'il vous plaît n'oubliez pas que SMS est limitée par le prestataire de "
+"services"
+
+#: ../Backend/Controllers/Accountsetting.php:86
+msgid "Account Activation Notification"
+msgstr "Notification d'activation de compte"
+
+#: ../Backend/Controllers/Accountsetting.php:87
+msgid "Use Template to Send Email Activation"
+msgstr "Utilisez ce modèle pour envoyer un email d'activation"
+
+#: ../Backend/Controllers/Accountsetting.php:90
+#: ../Backend/Controllers/Accountsetting.php:101
+#: ../Backend/Controllers/Accountsetting.php:108
+#: ../Backend/Controllers/Accountsetting.php:123
+msgid "Manage Email Templates"
+msgstr "Gérer Modèles Email"
+
+#: ../Backend/Controllers/Accountsetting.php:91
+msgid "Use Template to Send SMS Activation"
+msgstr "Utilisation ce Model pour activer le compte"
+
+#: ../Backend/Controllers/Accountsetting.php:97
+msgid "Forgot Password Notification"
+msgstr "Mot de passe oublié notification"
+
+#: ../Backend/Controllers/Accountsetting.php:98
+msgid "Use Template on Forgot Password Action"
+msgstr "Utilisez ce modèle sur Mot de passe oublié"
+
+#: ../Backend/Controllers/Accountsetting.php:104
+msgid "Password Changed Notification"
+msgstr "Notification du Mot de passe modifié"
+
+#: ../Backend/Controllers/Accountsetting.php:105
+msgid "Use Template on Password Changed"
+msgstr "Utilisez ce modèle sur Mot de passe modifié"
+
+#: ../Backend/Controllers/Accountsetting.php:111
+msgid "Webmaster Notificaitons"
+msgstr "Notification du Webmaster"
+
+#: ../Backend/Controllers/Accountsetting.php:112
+msgid "Notify Admin on account registred"
+msgstr "Avertissez-Admin pour  un compte enregistré"
+
+#: ../Backend/Controllers/Accountsetting.php:113
+msgid "Use Template to notidy Admin"
+msgstr "Utilisez ce modèle pour notifier admin"
+
+#: ../Backend/Controllers/Accountsetting.php:119
+msgid "Send Password Email Template"
+msgstr "Model pour envoyé mot de passe"
+
+#: ../Backend/Controllers/Accountsetting.php:120
+msgid "Use Template to send password"
+msgstr "Utilisez ce modèle pour envoyer le mot de passe"
+
+#: ../Backend/Controllers/Accountsetting.php:126
+msgid "Privacy Policy"
+msgstr "Politique de confidentialité"
+
+#: ../Backend/Controllers/Accountsetting.php:127
+msgid "Privacy Policy Text"
+msgstr "Politique de confidentialité"
+
+#: ../Backend/Controllers/Accountsetting.php:130
+msgid "Enable Privacy Policy"
+msgstr "Activer Politique de confidentialité"
+
+#: ../Backend/Controllers/Accountsetting.php:133
+#: ../Backend/Controllers/Contactsetting.php:53 ../Forms/Account/Form.php:187
+#: ../Forms/Account/Group/Form.php:44 ../Forms/Account/Source/Form.php:35
+#: ../Forms/Contact/Form.php:118 ../Forms/Contact/Group/Form.php:36
+#: ../Forms/Contact/Source/Form.php:35 ../Forms/Lead/Group/Form.php:36
+#: ../Forms/Lead/Source/Form.php:36
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../Backend/Controllers/Accountsetting.php:134
+#: ../Backend/Controllers/Accountsetting.php:173
+#: ../Backend/Controllers/Contactsetting.php:54
+#: ../Backend/Controllers/Contactsetting.php:92
+#: ../Backend/Controllers/Leadsetting.php:71 ../Forms/Account/Form.php:161
+#: ../Forms/Account/Group/Form.php:45 ../Forms/Account/Source/Form.php:36
+#: ../Forms/Address/Form.php:68 ../Forms/ChangePassword/Form.php:49
+#: ../Forms/Contact/Form.php:87 ../Forms/Contact/Group/Form.php:37
+#: ../Forms/Contact/Source/Form.php:36 ../Forms/Document/Form.php:51
+#: ../Forms/Lead/Form.php:92 ../Forms/Lead/Group/Form.php:37
+#: ../Forms/Lead/Source/Form.php:37 ../Forms/MailInbox/Form.php:53
+#: ../Frontend/Controllers/Intern/Shop/Account.php:41
+msgid "Save"
+msgstr "Sauver"
+
+#: ../Backend/Controllers/Accountsetting.php:144
+#: ../Backend/Controllers/Accountsetting.php:153
+#: ../Backend/Controllers/Contactsetting.php:65
+#: ../Backend/Controllers/Contactsetting.php:74
+#: ../Backend/Controllers/Leadsetting.php:52
+msgid "Data was successfully saved"
+msgstr "Les données ont été sauvegardées avec succès"
+
+#: ../Backend/Controllers/Accountsetting.php:162
+msgid "Account Record Numbering"
+msgstr "Numero du compte"
+
+#: ../Backend/Controllers/Accountsetting.php:163
+#: ../Backend/Controllers/Contactsetting.php:82
+#: ../Backend/Controllers/Leadsetting.php:61
+msgid "Prefix"
+msgstr "préfixe"
+
+#: ../Backend/Controllers/Accountsetting.php:164
+msgid "Like: A"
+msgstr "Comme: A"
+
+#: ../Backend/Controllers/Accountsetting.php:169
+#: ../Backend/Controllers/Contactsetting.php:88
+#: ../Backend/Controllers/Leadsetting.php:67
+msgid "Start Record"
+msgstr "début de l'enregistrement"
+
+#: ../Backend/Controllers/Contactsetting.php:47
+msgid "Contact Notification Settings"
+msgstr "Paramètres de notification du contact"
+
+#: ../Backend/Controllers/Contactsetting.php:49
+msgid "Use Email Template To reply Customer after contact us submit"
+msgstr ""
+"Utiliser un modèle électronique est de répondre aux demandes des clients "
+"après l'envoi"
+
+#: ../Backend/Controllers/Contactsetting.php:81
+msgid "Contact Record Numbering"
+msgstr "numérotation du contact"
+
+#: ../Backend/Controllers/Contactsetting.php:83
+msgid "Like: C"
+msgstr "Comme:C"
+
+#: ../Backend/Controllers/Leadsetting.php:60
+msgid "Lead Record Numbering"
+msgstr "numérotation d'interessés"
+
+#: ../Backend/Controllers/Leadsetting.php:62
+msgid "Like: L"
+msgstr "Comme: L"
+
+#: ../Backend/Controllers/Account/Add.php:37
+#: ../Backend/Controllers/Account/Quickadd.php:50
+msgid "Add Account"
+msgstr "Ajouter un compte"
+
+#: ../Backend/Controllers/Account/Add.php:74
+#: ../Backend/Controllers/Account/Document/Add.php:59
+msgid "Account was successully added"
+msgstr "Compte a été ajouté avec succès"
+
+#: ../Backend/Controllers/Account/Add.php:77
+#: ../Backend/Controllers/Account/Modify.php:87
+#: ../Backend/Controllers/Account/Quickadd.php:89
+#: ../Backend/Controllers/Account/Contact/Group/Add.php:54
+#: ../Backend/Controllers/Account/Contact/Group/Modify.php:64
+#: ../Backend/Controllers/Account/Document/Add.php:61
+#: ../Backend/Controllers/Account/Group/Add.php:57
+#: ../Backend/Controllers/Account/Group/Modify.php:67
+#: ../Backend/Controllers/Account/Inbox/Add.php:69
+#: ../Backend/Controllers/Account/Inbox/Modify.php:65
+#: ../Backend/Controllers/Account/Lead/Add.php:50
+#: ../Backend/Controllers/Account/Lead/Modify.php:66
+#: ../Backend/Controllers/Account/Lead/Group/Add.php:54
+#: ../Backend/Controllers/Account/Lead/Group/Modify.php:64
+#: ../Backend/Controllers/Account/Source/Add.php:49
+#: ../Backend/Controllers/Account/Source/Modify.php:59
+#: ../Backend/Controllers/Contact/Add.php:53
+#: ../Backend/Controllers/Contact/Modify.php:66
+#: ../Backend/Controllers/Contact/Quickadd.php:57
+#: ../Backend/Controllers/Contact/Document/Add.php:61
+#: ../Backend/Controllers/Contact/Group/Add.php:54
+#: ../Backend/Controllers/Contact/Group/Modify.php:64
+#: ../Backend/Controllers/Contact/Source/Add.php:49
+#: ../Backend/Controllers/Contact/Source/Modify.php:59
+#: ../Backend/Controllers/Inbox/Add.php:69
+#: ../Backend/Controllers/Inbox/Modify.php:64
+#: ../Backend/Controllers/Lead/Add.php:53
+#: ../Backend/Controllers/Lead/Modify.php:68
+#: ../Backend/Controllers/Lead/Quickadd.php:57
+#: ../Backend/Controllers/Lead/Group/Add.php:54
+#: ../Backend/Controllers/Lead/Group/Modify.php:64
+#: ../Backend/Controllers/Lead/Source/Add.php:51
+#: ../Backend/Controllers/Lead/Source/Modify.php:64
+#: ../Frontend/Controllers/Contact/Modify.php:66
+#: ../Frontend/Controllers/Intern/Motorssouq/Account.php:69
+#: ../Frontend/Controllers/Intern/Shop/Account.php:71
+#: ../Frontend/Controllers/Intern/Shop/Address/Add.php:54
+#: ../Frontend/Controllers/Intern/Shop/Address/Modify.php:68
+msgid "Please check inputs."
+msgstr "S'il vous plaît vérifier les entrées."
+
+#: ../Backend/Controllers/Account/Detail.php:36
+msgid "Account Details"
+msgstr "Details du compte"
+
+#: ../Backend/Controllers/Account/Detail.php:54
+msgid "Related Invoices"
+msgstr "Factures lié"
+
+#: ../Backend/Controllers/Account/Detail.php:60
+msgid "Add New Invoice"
+msgstr "Ajouter une facture"
+
+#: ../Backend/Controllers/Account/Detail.php:71
+#: ../Backend/Controllers/Contact/Detail.php:90
+msgid "Related Tasks"
+msgstr "tâches lié"
+
+#: ../Backend/Controllers/Account/Detail.php:77
+#: ../Backend/Controllers/Contact/Detail.php:97
+msgid "Add New Task"
+msgstr "Ajouter une tâche"
+
+#: ../Backend/Controllers/Account/Detail.php:109
+#: ../Backend/Controllers/Contact/Detail.php:108
+msgid "Tasks History"
+msgstr "historique des tâches"
+
+#: ../Backend/Controllers/Account/Detail.php:120
+#: ../Backend/Controllers/Contact/Detail.php:203
+msgid "Related Documents"
+msgstr "Document lié"
+
+#: ../Backend/Controllers/Account/Detail.php:125
+#: ../Backend/Controllers/Contact/Detail.php:208
+msgid "Add new Document"
+msgstr "Ajouter un nouveau document"
+
+#: ../Backend/Controllers/Account/Detail.php:127
+#: ../Backend/Controllers/Account/Document/Generate.php:55
+#: ../Backend/Controllers/Contact/Detail.php:210
+#: ../Backend/Controllers/Contact/Document/Generate.php:55
+msgid "Generate PDF"
+msgstr "générer PDF"
+
+#: ../Backend/Controllers/Account/Detail.php:150
+#: ../Backend/Controllers/Contact/Detail.php:171
+msgid "Related Sales Order"
+msgstr "Ordre d'achat lié"
+
+#: ../Backend/Controllers/Account/Detail.php:154
+#: ../Backend/Controllers/Contact/Detail.php:175
+msgid "Add New Saleorder"
+msgstr "Ajouter ordre d'achat"
+
+#: ../Backend/Controllers/Account/Detail.php:173
+#: ../Backend/Controllers/Contact/Detail.php:155
+msgid "Related Quotations"
+msgstr "Devis lié"
+
+#: ../Backend/Controllers/Account/Detail.php:176
+#: ../Backend/Controllers/Contact/Detail.php:158
+msgid "Add New Quotation"
+msgstr "Ajouter Devis"
+
+#: ../Backend/Controllers/Account/Detail.php:195
+#: ../Backend/Controllers/Contact/Detail.php:192
+#: ../Backend/Controllers/Lead/Detail.php:81
+msgid "Related Emails"
+msgstr "Email lié"
+
+#: ../Backend/Controllers/Account/Detail.php:198
+#: ../Backend/Controllers/Contact/Detail.php:195
+#: ../Backend/Controllers/Lead/Detail.php:84
+msgid "Add New Email"
+msgstr "Ajouter un nouvel e-mail"
+
+#: ../Backend/Controllers/Account/Detail.php:238
+msgid "Account was successufully assigned to this account"
+msgstr "Compte a été assigné avec succès à ce compte"
+
+#: ../Backend/Controllers/Account/Detail.php:240
+msgid "Cannot assign this contact"
+msgstr "Vous ne pouvez pas céder le présent contrat"
+
+#: ../Backend/Controllers/Account/Detail.php:253
+msgid "Related Contacts"
+msgstr "Contact lié"
+
+#: ../Backend/Controllers/Account/Detail.php:261
+msgid "Unassign"
+msgstr "annulation"
+
+#: ../Backend/Controllers/Account/Detail.php:267
+msgid "Add New Contact"
+msgstr "ajouter Contact"
+
+#: ../Backend/Controllers/Account/Detail.php:286
+#: ../Backend/Controllers/Contact/Detail.php:75
+msgid "Related Opportunity"
+msgstr "opportunité lié"
+
+#: ../Backend/Controllers/Account/Detail.php:290
+#: ../Backend/Controllers/Contact/Detail.php:79
+msgid "Add New Opportunity"
+msgstr "Ajouter opportunité"
+
+#: ../Backend/Controllers/Account/Detail.php:301
+#: ../Backend/Controllers/Account/Lead/Detail.php:61
+#: ../Backend/Controllers/Contact/Detail.php:136
+#: ../Backend/Controllers/Lead/Detail.php:62
+msgid "Related Processes"
+msgstr "processus lié"
+
+#: ../Backend/Controllers/Account/Detail.php:302
+#: ../Backend/Controllers/Account/Lead/Detail.php:62
+#: ../Backend/Controllers/Contact/Detail.php:137
+#: ../Backend/Controllers/Lead/Detail.php:63
+msgid "Create Process"
+msgstr "Ajouter processus"
+
+#: ../Backend/Controllers/Account/Detail.php:310
+msgid "Address Book"
+msgstr "carnet d'adresses"
+
+#: ../Backend/Controllers/Account/Detail.php:311
+#: ../Backend/Controllers/Account/Address/Quicklist.php:59
+#: ../Forms/Account/Form.php:151 ../Forms/Address/Form.php:54
+#: ../Panels/Account/Panel.php:79 ../Panels/Address/Panel.php:57
+msgid "Street"
+msgstr "Rue"
+
+#: ../Backend/Controllers/Account/Detail.php:311
+#: ../Backend/Controllers/Account/Address/Quicklist.php:61
+#: ../Forms/Account/Form.php:149 ../Forms/Account/Private/Form.php:87
+#: ../Forms/Address/Form.php:59 ../Forms/Customer/Form.php:97
+#: ../Panels/Account/Panel.php:78 ../Panels/Address/Panel.php:56
+msgid "City"
+msgstr "Ville"
+
+#: ../Backend/Controllers/Account/Detail.php:311
+#: ../Backend/Controllers/Account/Address/Quicklist.php:63
+#: ../Forms/Account/Form.php:141 ../Forms/Account/Private/Form.php:81
+#: ../Forms/Address/Form.php:63 ../Forms/Customer/Form.php:87
+#: ../Grids/Account/DataGridView.php:42 ../Grids/Address/DataGridView.php:38
+#: ../Panels/Account/Panel.php:76 ../Panels/Address/Panel.php:54
+msgid "Country"
+msgstr "pays"
+
+#: ../Backend/Controllers/Account/Detail.php:313
+#: ../Grids/Account/DataGridView.php:48
+#: ../Grids/Account/Group/DataGridView.php:34
+#: ../Grids/Account/Source/DataGridView.php:34
+#: ../Grids/Address/DataGridView.php:41 ../Grids/Contact/DataGridView.php:44
+#: ../Grids/Contact/Group/DataGridView.php:30
+#: ../Grids/Contact/Source/DataGridView.php:35
+#: ../Grids/Lead/DataGridView.php:45 ../Grids/Lead/Group/DataGridView.php:31
+#: ../Grids/Lead/Source/DataGridView.php:35
+#: ../Grids/MailInbox/DataGridView.php:34
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../Backend/Controllers/Account/Detail.php:316
+#: ../Grids/Account/DataGridView.php:51
+#: ../Grids/Account/Document/DataGridView.php:44
+#: ../Grids/Account/Group/DataGridView.php:38
+#: ../Grids/Account/Source/DataGridView.php:39
+#: ../Grids/Address/DataGridView.php:46 ../Grids/Contact/DataGridView.php:48
+#: ../Grids/Contact/Document/DataGridView.php:38
+#: ../Grids/Contact/Group/DataGridView.php:34
+#: ../Grids/Contact/Source/DataGridView.php:40
+#: ../Grids/Lead/DataGridView.php:49 ../Grids/Lead/Group/DataGridView.php:35
+#: ../Grids/Lead/Source/DataGridView.php:40
+#: ../Grids/MailInbox/DataGridView.php:39
+#: ../Models/Import/Account/Model.php:30
+msgid "Delete"
+msgstr "Effacer"
+
+#: ../Backend/Controllers/Account/Detail.php:322
+msgid "Add New Address"
+msgstr "Ajouter adresse"
+
+#: ../Backend/Controllers/Account/Address/Add.php:46
+msgid "Add Address"
+msgstr "Ajouter adresse"
+
+#: ../Backend/Controllers/Account/Address/Add.php:57
+#: ../Backend/Controllers/Account/Address/Modify.php:63
+msgid "Data can not be saved"
+msgstr "Les données ne peuvent pas être enregistrées"
+
+#: ../Backend/Controllers/Account/Address/Add.php:60
+#: ../Backend/Controllers/Account/Address/Modify.php:66
+msgid "Please check your inputs"
+msgstr "S'il vous plaît vérifier vos entrées"
+
+#: ../Backend/Controllers/Account/Address/Modify.php:52
+msgid "Manage Address"
+msgstr "Gérer les Adresses"
+
+#: ../Backend/Controllers/Account/Contact/Group/Add.php:38
+#: ../Backend/Controllers/Account/Lead/Group/Add.php:38
+#: ../Backend/Controllers/Lead/Group/Add.php:38
+msgid "Create new Leads Group"
+msgstr "Ajouter un Groupe d'interssé"
+
+#: ../Backend/Controllers/Account/Contact/Group/Add.php:63
+#: ../Backend/Controllers/Account/Lead/Group/Add.php:63
+msgid "lead group was successully added"
+msgstr "groupe de tête a été ajouté avec succès"
+
+#: ../Backend/Controllers/Account/Contact/Group/Modify.php:37
+#: ../Backend/Controllers/Account/Lead/Group/Modify.php:37
+#: ../Backend/Controllers/Lead/Group/Modify.php:37
+msgid "Edit lead group"
+msgstr "Modifier  Groupe d'interessé"
+
+#: ../Backend/Controllers/Account/Document/Add.php:32
+msgid "Add a new Account Document"
+msgstr "Ajouter un nouveau document"
+
+#: ../Backend/Controllers/Account/Document/Detail.php:36
+#: ../Backend/Controllers/Contact/Document/Detail.php:36
+msgid "Document Details"
+msgstr "Détails du document"
+
+#: ../Backend/Controllers/Account/Document/Generate.php:32
+#: ../Backend/Controllers/Contact/Document/Generate.php:32
+msgid "Generate a pdf document"
+msgstr "générer PDF"
+
+#: ../Backend/Controllers/Account/Document/Generate.php:45
+#: ../Backend/Controllers/Contact/Document/Generate.php:45
+msgid "Template"
+msgstr "Template"
+
+#: ../Backend/Controllers/Account/Document/Generate.php:46
+#: ../Backend/Controllers/Account/Document/Generate.php:52
+#: ../Backend/Controllers/Contact/Document/Generate.php:46
+#: ../Backend/Controllers/Contact/Document/Generate.php:52
+msgid "Content"
+msgstr "Contenu"
+
+#: ../Backend/Controllers/Account/Document/Generate.php:48
+#: ../Backend/Controllers/Contact/Document/Generate.php:48
+msgid "Select from template"
+msgstr "Sélectionnez à partir du modèle"
+
+#: ../Backend/Controllers/Account/Document/Generate.php:54
+#: ../Backend/Controllers/Contact/Document/Generate.php:54
+#: ../Forms/Document/Form.php:50 ../Grids/Account/Document/DataGridView.php:38
+#: ../Grids/Contact/Document/DataGridView.php:32
+msgid "Public"
+msgstr "Public"
+
+#: ../Backend/Controllers/Account/Group/Add.php:38
+msgid "Create new Account Group"
+msgstr "Créer un nouveau groupe de compte"
+
+#: ../Backend/Controllers/Account/Group/detail.class.php:50
+msgid "user Group Details"
+msgstr "Détails de groupe d'utilisateur"
+
+#: ../Backend/Controllers/Account/Group/detail.class.php:54
+msgid "Users"
+msgstr "utilisateurs"
+
+#: ../Backend/Controllers/Account/Group/detail.class.php:58
+msgid "Add new User"
+msgstr "Ajouter un  utilisateur"
+
+#: ../Backend/Controllers/Account/Group/Detail.php:41
+msgid "Group Details"
+msgstr "Details de groupe"
+
+#: ../Backend/Controllers/Account/Group/Detail.php:60
+msgid "Accounts"
+msgstr "Compte"
+
+#: ../Backend/Controllers/Account/Group/List.php:34
+msgid "Action successfuly executed"
+msgstr "Action exécutée avec succès"
+
+#: ../Backend/Controllers/Account/Group/List.php:36
+msgid "Cannot Execute Action"
+msgstr "Vous ne pouvez pas exécuter d'action"
+
+#: ../Backend/Controllers/Account/Group/Modify.php:37
+msgid "Edit Group"
+msgstr "Modifier Groupe"
+
+#: ../Backend/Controllers/Account/Inbox/Add.php:38
+#: ../Backend/Controllers/Inbox/Add.php:38
+msgid "Create new Inbox"
+msgstr "Créer un nouveau Boîte de réception"
+
+#: ../Backend/Controllers/Account/Inbox/Add.php:78
+#: ../Backend/Controllers/Inbox/Add.php:78
+msgid "Inbox was successully added"
+msgstr "Boîte de réception a été ajouté avec succès"
+
+#: ../Backend/Controllers/Account/Inbox/Modify.php:37
+#: ../Backend/Controllers/Inbox/Modify.php:37
+msgid "Edit Inbox"
+msgstr "Modifier Boîte de réception"
+
+#: ../Backend/Controllers/Account/Lead/Add.php:33
+#: ../Backend/Controllers/Lead/Add.php:33
+#: ../Backend/Controllers/Lead/Quickadd.php:37
+msgid "Add Lead"
+msgstr "Ajouter interessé"
+
+#: ../Backend/Controllers/Account/Lead/Add.php:48
+msgid "Lead was successully added"
+msgstr "L'iteressé a été ajouté avec succès"
+
+#: ../Backend/Controllers/Account/Lead/Detail.php:46
+#: ../Backend/Controllers/Lead/Detail.php:46
+msgid "Lead Details"
+msgstr "Detail de l'interessé"
+
+#: ../Backend/Controllers/Account/Lead/Detail.php:77
+#: ../Backend/Controllers/Lead/Detail.php:99
+#: ../Backend/Controllers/Lead/Detail.php:111
+msgid "Failed to convert this lead"
+msgstr "Impossible de convertir cet interess"
+
+#: ../Backend/Controllers/Account/Source/List.php:42
+msgid "List All Account source"
+msgstr "Liste source des comptes"
+
+#: ../Backend/Controllers/Account/Source/Modify.php:32
+#: ../Backend/Controllers/Contact/Source/Modify.php:32
+#: ../Backend/Controllers/Lead/Source/Modify.php:37
+msgid "Modify Source"
+msgstr "Modifier Source"
+
+#: ../Backend/Controllers/Contact/Add.php:33
+msgid "Add contact"
+msgstr "Ajouter contact"
+
+#: ../Backend/Controllers/Contact/Detail.php:48
+#: ../Frontend/Controllers/Contact/Details.php:44
+msgid "Contact Details"
+msgstr "Details du contact"
+
+#: ../Backend/Controllers/Contact/Detail.php:127
+msgid "Failed to convert this contact"
+msgstr "Impossible de convertir ce contact"
+
+#: ../Backend/Controllers/Contact/List.php:46
+msgid "Manage contacts"
+msgstr "Gérer les Contact"
+
+#: ../Backend/Controllers/Contact/Quickadd.php:37
+msgid "Add Contact"
+msgstr "Ajouter un Contact"
+
+#: ../Backend/Controllers/Contact/Quicklist.php:55
+#: ../Backend/Controllers/Lead/Quicklist.php:55 ../Forms/Contact/Form.php:77
+#: ../Forms/Lead/Form.php:82 ../Panels/Contact/Panel.php:84
+#: ../Panels/Lead/Panel.php:84
+msgid "Phone"
+msgstr "Phone"
+
+#: ../Backend/Controllers/Contact/Document/Add.php:32
+msgid "Add a new Contact Document"
+msgstr "Ajouter un nouveau document"
+
+#: ../Backend/Controllers/Contact/Document/Add.php:59
+msgid "Contact was successully added"
+msgstr "Le contact a été ajouté avec succès"
+
+#: ../Backend/Controllers/Contact/Group/Add.php:38
+msgid "Create new contacts Group"
+msgstr "Ajouter un groupe de contact"
+
+#: ../Backend/Controllers/Contact/Group/Modify.php:37
+msgid "Edit contact group"
+msgstr "Modifier Groupe"
+
+#: ../Backend/Controllers/Contact/Source/List.php:42
+msgid "List All Contact source"
+msgstr "Liste des source de contact"
+
+#: ../Backend/Controllers/Group/Account.php:35
+msgid "Manage Account Groups"
+msgstr "Gérer les Groupe ds Compte"
+
+#: ../Backend/Controllers/Group/Account.php:41
+msgid "Account Groups"
+msgstr "Groupe des comptes"
+
+#: ../Backend/Controllers/Group/Account.php:43
+#: ../Backend/Controllers/Group/Contact.php:43
+#: ../Backend/Controllers/Group/Lead.php:43
+msgid "Add New Group"
+msgstr "Ajouter Groupe"
+
+#: ../Backend/Controllers/Group/Contact.php:35
+msgid "Manage Contact Groups"
+msgstr "Gérer groupe de contact"
+
+#: ../Backend/Controllers/Group/Contact.php:41
+#: ../Grids/Contact/DataGridView.php:71
+msgid "Contact Groups"
+msgstr "Groupe de contact"
+
+#: ../Backend/Controllers/Group/Lead.php:35
+msgid "Manage Lead Groups"
+msgstr "Gérer les Groupe d'interessé"
+
+#: ../Backend/Controllers/Group/Lead.php:41
+msgid "Lead Groups"
+msgstr "Groupe d'interessé"
+
+#: ../Backend/Controllers/Lead/Source/List.php:42
+msgid "List All Lead source"
+msgstr "Liste des source d'interessé"
+
+#: ../Backend/Controllers/Source/Account.php:35
+msgid "Manage Account Sources"
+msgstr "Gérer les sources du compte"
+
+#: ../Backend/Controllers/Source/Account.php:40
+msgid "Account Sources"
+msgstr "source du compte"
+
+#: ../Backend/Controllers/Source/Account.php:42
+#: ../Backend/Controllers/Source/Contact.php:42
+#: ../Backend/Controllers/Source/Lead.php:42
+msgid "Add New Source"
+msgstr "Ajouter Sources"
+
+#: ../Backend/Controllers/Source/Contact.php:35
+msgid "Manage Contact Sources"
+msgstr "Gérer les sources du contact"
+
+#: ../Backend/Controllers/Source/Contact.php:40
+msgid "Contact Sources"
+msgstr "Sources du contact"
+
+#: ../Backend/Controllers/Source/Lead.php:35
+msgid "Manage Lead Sources"
+msgstr "Gérer sources d'interessé"
+
+#: ../Backend/Controllers/Source/Lead.php:40
+msgid "Lead Sources"
+msgstr "Sources d'interessé"
+
+#: ../Forms/Account/Form.php:93 ../Forms/Account/Form.php:103
+msgid "Dealer Logo"
+msgstr "Logo du vendeur"
+
+#: ../Forms/Account/Form.php:99 ../Forms/Contact/Form.php:69
+#: ../Forms/Lead/Form.php:72 ../Grids/Account/DataGridView.php:33
+#: ../Grids/Contact/DataGridView.php:30 ../Grids/Lead/DataGridView.php:31
+#: ../Panels/Account/Panel.php:71
+msgid "Number"
+msgstr "Numero"
+
+#: ../Forms/Account/Form.php:112 ../Forms/Contact/Form.php:99
+#: ../Forms/Customer/Form.php:141 ../Forms/Lead/Form.php:104
+#: ../Grids/Account/DataGridView.php:38 ../Grids/Account/DataGridView.php:82
+#: ../Grids/Contact/DataGridView.php:42
+msgid "Source"
+msgstr "Source"
+
+#: ../Forms/Account/Form.php:116
+msgid "Fullname"
+msgstr "Nome et prénom"
+
+#: ../Forms/Account/Form.php:121 ../Forms/Request/Contact/Form.php:74
+#: ../Forms/Request/Demo/Form.php:75
+msgid "Company Name"
+msgstr "Nom de l'entreprise"
+
+#: ../Forms/Account/Form.php:124
+msgid "Company Web Site"
+msgstr "Site web de l'entreprise"
+
+#: ../Forms/Account/Form.php:127 ../Forms/Account/Dealer/Form.php:74
+#: ../Forms/Account/Login/Form.php:42 ../Forms/ChangePassword/Form.php:38
+#: ../Forms/Customer/Form.php:69
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:89
+#: ../Frontend/Controllers/Intern/Shop/Login.php:88
+msgid "Password"
+msgstr "Mote de pass"
+
+#: ../Forms/Account/Form.php:129 ../Panels/Account/Panel.php:72
+msgid "Telefon"
+msgstr "Télephone"
+
+#: ../Forms/Account/Form.php:138
+msgid "E-mail2"
+msgstr "Email 2"
+
+#: ../Forms/Account/Form.php:147 ../Forms/Account/Private/Form.php:84
+#: ../Forms/Address/Form.php:61 ../Forms/Customer/Form.php:93
+#: ../Panels/Account/Panel.php:77 ../Panels/Address/Panel.php:55
+msgid "Province"
+msgstr "province"
+
+#: ../Forms/Account/Form.php:154
+msgid "ZipCode"
+msgstr "ZipCode"
+
+#: ../Forms/Account/Form.php:157 ../Forms/Contact/Form.php:113
+#: ../Forms/Lead/Form.php:120
+msgid "Notices"
+msgstr "Remarque"
+
+#: ../Forms/Account/Form.php:159
+msgid "Send Password"
+msgstr "Envoyer Mot de passe"
+
+#: ../Forms/Account/Form.php:160
+msgid "Can Login"
+msgstr "Vous pouver vous identifier"
+
+#: ../Forms/Account/Form.php:163 ../Forms/Contact/Form.php:103
+#: ../Forms/Lead/Form.php:108
+msgid "General Informations"
+msgstr "Informations générales"
+
+#: ../Forms/Account/Form.php:176
+msgid "Address Informations"
+msgstr "information des adresses"
+
+#: ../Forms/Account/Form.php:182
+msgid "Picture"
+msgstr "Image"
+
+#: ../Forms/Account/Activation/Form.php:36 ../Forms/Account/Login/Form.php:36
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:82
+#: ../Frontend/Controllers/Intern/Shop/Login.php:81
+msgid "Email Adress"
+msgstr "Email adresse"
+
+#: ../Forms/Account/Activation/Form.php:40
+#: ../Forms/Account/Activation/Form.php:45 ../Forms/Account/Login/Form.php:40
+#: ../Forms/Account/Login/Form.php:45
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:86
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:92
+#: ../Frontend/Controllers/Intern/Shop/Login.php:86
+#: ../Frontend/Controllers/Intern/Shop/Login.php:92
+msgid "Required"
+msgstr "requis"
+
+#: ../Forms/Account/Activation/Form.php:42
+msgid "Activation Code"
+msgstr "Code d'activation"
+
+#: ../Forms/Account/Activation/Form.php:47
+msgid "Resend Activation Code ?"
+msgstr "Envoiyé le code d'activation de nouveau"
+
+#: ../Forms/Account/Activation/Form.php:50
+msgid "Activate"
+msgstr "Activer"
+
+#: ../Forms/Account/Activation/Form.php:53 ../Forms/Account/Dealer/Form.php:94
+#: ../Forms/Confirm/Payment/Form.php:98 ../Forms/ContactUs/Form.php:75
+#: ../Forms/Customer/Form.php:109 ../Forms/Forgotpassword/Form.php:40
+#: ../Forms/Request/Contact/Form.php:82 ../Forms/Request/Contact/Form.php:96
+#: ../Forms/Request/Demo/Form.php:85 ../Forms/Request/Demo/Form.php:100
+#: ../Forms/Resetpassword/Form.php:47
+msgid "Security Code"
+msgstr "code de sécurité"
+
+#: ../Forms/Account/Dealer/Form.php:69 ../Forms/Account/Private/Form.php:69
+#: ../Forms/ContactUs/Form.php:60 ../Forms/Customer/Form.php:64
+#: ../Forms/Request/Contact/Form.php:61 ../Forms/Request/Demo/Form.php:62
+msgid "Contact Name"
+msgstr "Nom de contact"
+
+#: ../Forms/Account/Dealer/Form.php:79 ../Forms/Customer/Form.php:74
+msgid "Re-Password"
+msgstr "Ecrire Mot de passe de nouveau"
+
+#: ../Forms/Account/Dealer/Form.php:96
+msgid "Register Now!"
+msgstr "Inscrivez-vous maintenant!"
+
+#: ../Forms/Account/Dealer/Form.php:97 ../Forms/Account/Private/Form.php:91
+msgid "Registration Informations"
+msgstr "Informations d'inscription"
+
+#: ../Forms/Account/Dealer/Form.php:112
+msgid "Why Registration"
+msgstr "Pourquoi l'enregistrement"
+
+#: ../Forms/Account/Dealer/Form.php:129
+msgid "Advertise"
+msgstr "announce"
+
+#: ../Forms/Account/Dealer/Form.php:139 ../Forms/Customer/Form.php:154
+msgid "Passwords are not identicals"
+msgstr "Les mots de passe ne sont pas identiques"
+
+#: ../Forms/Account/Group/Form.php:38
+msgid "Add Account Group"
+msgstr "Ajouter groupe de compte"
+
+#: ../Forms/Account/Group/Form.php:43
+msgid "Default Group"
+msgstr "Groupe par défaut"
+
+#: ../Forms/Account/Login/Form.php:47
+msgid "Forgot Password?"
+msgstr "Mot de passe oublié?"
+
+#: ../Forms/Account/Private/Form.php:90
+msgid "Save Contact Informations!"
+msgstr "Sauver information di contact"
+
+#: ../Forms/Account/Source/Form.php:30
+msgid "Add Account Source"
+msgstr "Ajouter sources de contact"
+
+#: ../Forms/Address/Form.php:50
+msgid "Person Name"
+msgstr "Nom"
+
+#: ../Forms/Address/Form.php:57
+msgid "Zip Code/PBOX"
+msgstr "ZipCode"
+
+#: ../Forms/ChangePassword/Form.php:41 ../Forms/Resetpassword/Form.php:41
+#: ../Frontend/Controllers/Intern/Shop/Changepassword.php:38
+#: ../Models/Notification/Account/Model.php:274
+msgid "New Password"
+msgstr "nouveau mot de passe"
+
+#: ../Forms/ChangePassword/Form.php:45
+msgid "Confirm Password"
+msgstr "Confirmer mot de passe"
+
+#: ../Forms/Confirm/Payment/Form.php:69
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:60
+msgid "Payment Method"
+msgstr "Mode de paiement"
+
+#: ../Forms/Confirm/Payment/Form.php:72
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:63
+msgid "Payment Date Time"
+msgstr "Date de payment"
+
+#: ../Forms/Confirm/Payment/Form.php:76
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:61
+msgid "Bank Account Number"
+msgstr "Numero du banque pour le compte"
+
+#: ../Forms/Confirm/Payment/Form.php:80
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:59
+msgid "Transferred Amount"
+msgstr "Montant transféré"
+
+#: ../Forms/Confirm/Payment/Form.php:84
+msgid "Bank Transaction Id."
+msgstr "identifian du Transaction de la Banque "
+
+#: ../Forms/Confirm/Payment/Form.php:87
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:64
+#: ../Models/Notification/Account/Model.php:300
+msgid "Description"
+msgstr "Description"
+
+#: ../Forms/Confirm/Payment/Form.php:91
+msgid "Upload"
+msgstr "Télécharger"
+
+#: ../Forms/Confirm/Payment/Form.php:102
+msgid "Save!"
+msgstr "Sauver"
+
+#: ../Forms/Contact/Form.php:72 ../Forms/Lead/Form.php:75
+#: ../Panels/Account/Panel.php:69
+msgid "Company"
+msgstr "entreprise"
+
+#: ../Forms/Contact/Form.php:85 ../Forms/Lead/Form.php:77
+#: ../Panels/Account/Panel.php:70
+msgid "Company Website"
+msgstr "site web de l 'entreprise"
+
+#: ../Forms/Contact/Form.php:89 ../Forms/Contact/Form.php:93
+#: ../Forms/Lead/Form.php:94 ../Forms/Lead/Form.php:98
+msgid "Account"
+msgstr "Compte"
+
+#: ../Forms/Contact/Form.php:114 ../Forms/Lead/Form.php:121
+#: ../Panels/Account/Panel.php:98 ../Panels/Account/Panel.php:100
+#: ../Panels/Contact/Panel.php:97 ../Panels/Contact/Panel.php:99
+#: ../Panels/Lead/Panel.php:100 ../Panels/Lead/Panel.php:102
+msgid "Notice"
+msgstr "remarquer"
+
+#: ../Forms/Contact/Group/Form.php:32
+msgid "Add Contact Group"
+msgstr "Ajouter Groupe de contact"
+
+#: ../Forms/Contact/Source/Form.php:30
+msgid "Add Contact Source"
+msgstr "Ajouter source de contact"
+
+#: ../Forms/ContactUs/Form.php:73 ../Forms/Request/Contact/Form.php:78
+#: ../Forms/Request/Demo/Form.php:81 ../Panels/MailInbox/Panel.php:63
+msgid "Message"
+msgstr "Message"
+
+#: ../Forms/ContactUs/Form.php:78
+msgid "Contact Form"
+msgstr "Contact a partir de"
+
+#: ../Forms/ContactUs/Form.php:87
+msgid "contact_text"
+msgstr "Contact page texte"
+
+#: ../Forms/Customer/Form.php:101
+msgid "Postal Code"
+msgstr "Code Postal"
+
+#: ../Forms/Customer/Form.php:105
+msgid "Street Name /House Nr."
+msgstr "Nom de la rue / Maison Nr."
+
+#: ../Forms/Customer/Form.php:111
+msgid "Save and Continue!"
+msgstr "Sauvegarder et continuer!"
+
+#: ../Forms/Customer/Form.php:112
+msgid "Your Personal Details"
+msgstr "Vos détails personnels"
+
+#: ../Forms/Customer/Form.php:116
+msgid "Your Address Details"
+msgstr "Votre Détails adresse "
+
+#: ../Forms/Customer/Form.php:122
+msgid "Your Password"
+msgstr "Votre Mot de passe"
+
+#: ../Forms/Customer/Form.php:129
+msgid "I have read the Privacy Policy."
+msgstr "J'ai lu la politique de confidentialité."
+
+#: ../Forms/Customer/Form.php:132
+msgid "Please confirm the privacy poilicy"
+msgstr "S'il vous plaît confirmer la politique de confidentialité"
+
+#: ../Forms/Customer/Form.php:136
+msgid "Register Now"
+msgstr "Inscrivez-vous maintenant"
+
+#: ../Forms/Customer/Form.php:146
+msgid "Please select"
+msgstr "S'il vous plaît sélectionnez"
+
+#: ../Forms/Document/Form.php:46
+msgid "Document"
+msgstr "Document"
+
+#: ../Forms/Document/Form.php:46
+msgid "Image"
+msgstr "image"
+
+#: ../Forms/Document/Form.php:46
+msgid "Zip File"
+msgstr "Fichier Zip"
+
+#: ../Forms/Document/Form.php:46
+msgid "Software"
+msgstr "logiciel"
+
+#: ../Forms/Document/Form.php:47
+msgid "Type"
+msgstr "Type"
+
+#: ../Forms/Document/Form.php:53
+msgid "File to upload"
+msgstr "Fichier à télécharger"
+
+#: ../Forms/Lead/Form.php:84 ../Panels/Lead/Panel.php:87
+msgid "Fax"
+msgstr "Fax"
+
+#: ../Forms/Lead/Group/Form.php:32
+msgid "Add Lead Group"
+msgstr "Ajouter Groupe d'interessé"
+
+#: ../Forms/Lead/Source/Form.php:30
+msgid "Add Lead Source"
+msgstr "Ajouter source d'interessé"
+
+#: ../Forms/Lead/Source/Form.php:34
+msgid "For exemple google"
+msgstr "Exemple Google"
+
+#: ../Forms/MailInbox/Form.php:42 ../Grids/MailInbox/DataGridView.php:30
+#: ../Panels/MailInbox/Panel.php:53
+msgid "Subject"
+msgstr "Sujet"
+
+#: ../Forms/MailInbox/Form.php:45
+msgid "To"
+msgstr "à"
+
+#: ../Forms/MailInbox/Form.php:47
+msgid "CC "
+msgstr "CC"
+
+#: ../Forms/MailInbox/Form.php:49
+msgid "BCC"
+msgstr "Bcc"
+
+#: ../Forms/MailInbox/Form.php:51
+msgid "Message Content"
+msgstr "Contenu de message"
+
+#: ../Forms/Request/Contact/Form.php:76 ../Forms/Request/Demo/Form.php:77
+msgid "Best Call Time"
+msgstr "Meilleur temps d'appel"
+
+#: ../Forms/Request/Contact/Form.php:86 ../Forms/Request/Demo/Form.php:89
+msgid "Person Informations"
+msgstr "Information "
+
+#: ../Forms/Request/Contact/Form.php:91 ../Forms/Request/Demo/Form.php:94
+msgid "Company Informations"
+msgstr "Information de l'entreprise"
+
+#: ../Forms/Request/Contact/Form.php:94 ../Forms/Request/Demo/Form.php:98
+msgid "Messages"
+msgstr "Message"
+
+#: ../Forms/Request/Demo/Form.php:79
+msgid "Commerce Type"
+msgstr "Type de commerce"
+
+#: ../Forms/Resetpassword/Form.php:44
+#: ../Frontend/Controllers/Intern/Shop/Changepassword.php:42
+msgid "Re-enter Password"
+msgstr "Entrer la Mot de passe une autre fois"
+
+#: ../Frontend/Controllers/Business.php:24
+msgid "Form analysis"
+msgstr "Analyse de formulaire"
+
+#: ../Frontend/Controllers/Business.php:33
+msgid "Form analysis Submitted"
+msgstr "Analyse de formulaire Soumis"
+
+#: ../Frontend/Controllers/Business.php:97
+#: ../Models/Notification/Account/Model.php:237
+msgid "invalid email address"
+msgstr "adresse e-mail non valide"
+
+#: ../Frontend/Controllers/Contact/Details.php:59
+msgid "Tickets"
+msgstr "Ticket"
+
+#: ../Frontend/Controllers/Contact/Details.php:61
+msgid "Add Ticket"
+msgstr "Ajouter Ticket"
+
+#: ../Frontend/Controllers/Contact/Details.php:75
+msgid "Quotations"
+msgstr "Devis"
+
+#: ../Frontend/Controllers/Contact/Details.php:77
+msgid "Add Quotation"
+msgstr "Ajouter Devis"
+
+#: ../Frontend/Controllers/Contact/Details.php:87
+msgid "Products"
+msgstr "Produits"
+
+#: ../Frontend/Controllers/Contact/Details.php:107
+msgid "Projects"
+msgstr "Projets"
+
+#: ../Frontend/Controllers/Contact/Details.php:109
+msgid "Add Project"
+msgstr "Ajouter un projet"
+
+#: ../Frontend/Controllers/Contact/Details.php:122
+msgid "Tasks"
+msgstr "Taches"
+
+#: ../Frontend/Controllers/Contact/Details.php:124
+#: ../Frontend/Controllers/Contact/Details.php:137
+msgid "Add Task"
+msgstr "Ajouter une Taches"
+
+#: ../Frontend/Controllers/Contact/Details.php:135
+msgid "Hosting"
+msgstr "Hébergement"
+
+#: ../Frontend/Controllers/Contact/Details.php:144
+msgid "Mail Inbox Panel"
+msgstr "boîte de réception"
+
+#: ../Frontend/Controllers/Contact/Details.php:147
+msgid "Add Email"
+msgstr "Ajouter Email"
+
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:43
+#: ../Frontend/Controllers/Intern/Shop/Login.php:43
+msgid "You are successufly registred please login to start your work !"
+msgstr ""
+"Vous êtes inscrit avec succès s'il vous plaît vous connecter pour commencer "
+"le travail!"
+
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:67
+#: ../Frontend/Controllers/Intern/Shop/Login.php:68
+#: ../Frontend/Controllers/Mobile/Login.php:48
+#: ../Frontend/Controllers/Mobile/Login.php:79
+msgid "Login or password incorrect!"
+msgstr "Connectez-vous ou mot de passe incorrect!"
+
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:78
+msgid "Quick Services"
+msgstr "service rapide"
+
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:95
+#: ../Frontend/Controllers/Intern/Shop/Login.php:94
+msgid "Forgot Your Password?"
+msgstr "Vous avez oublié votre mot de passe?"
+
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:100
+#: ../Frontend/Controllers/Intern/Shop/Login.php:97
+msgid "open a new Account"
+msgstr "ouvrir un nouveau compte"
+
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:112
+msgid "Your account in Motors Souq will"
+msgstr ""
+
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:113
+msgid "1. Allow you to manage your Motors and Motors requests."
+msgstr ""
+
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:114
+msgid "2. View comments on your cars."
+msgstr "مشاهدة تعليقات الزوار على مركباتك"
+
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:115
+msgid "3. Receive instant notifications about new updates and activities."
+msgstr " تلقي إشعارات فورية حول الأنشطة والتحديثات الجديدة ."
+
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:116
+msgid "4. Add cars."
+msgstr "اضافة سيارة"
+
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:117
+msgid "5. Add Motor Bikes."
+msgstr " اضافة دراجة نارية"
+
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:118
+msgid "6. Receive latest news and hot deals."
+msgstr " تلقي آخر الأخبار والعروض الحصرية."
+
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:119
+msgid "7. Life stats for your ads."
+msgstr "احصائيات مباشرة لإعلاناتك"
+
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:141
+msgid "Don't want to register? add your motor in less than 60 seconds!!"
+msgstr "لا تريد التسجيل؟ يمكنك اضافة دراجتك او سيارتك في أقل من 60 ثانية!"
+
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:144
+msgid "Once you submit your post in Motors Souq"
+msgstr "بمجرد تأكيد مشاركتك في موترز سوق"
+
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:145
+msgid "1. Your Motor will be sent to your car make seekers & dealers."
+msgstr "1. سيتم ارسالة سياراتك الى الباحثين عن السيارات وتجار السيارات"
+
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:146
+msgid "2. Your Motor ad will posted in all Motors Souq media channels."
+msgstr "2. سيتم نشر اعلانك في جميع شبكات التسويق الإلكتروني الخاصة بموتورز سوق"
+
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:147
+msgid "3. Your Motor ad will be posted to over 100,000 visitor to the site."
+msgstr "3. سوف يتم نشر إعلانك لأكثر من 100،000 زائر للموقع."
+
+#: ../Frontend/Controllers/Intern/Motorssouq/Login.php:148
+msgid "Dont mis the high Opportunities to sell your motor in 24 hours."
+msgstr "لا تدع الفرصة تفوتك في بيع مركبتك خلال 24 ساعة!"
+
+#: ../Frontend/Controllers/Intern/Shop/Activation.php:48
+#: ../Frontend/Controllers/Intern/Shop/Activation.php:59
+msgid ""
+"Cannot activate this Account , activation code is expired or Account is "
+"already activated"
+msgstr ""
+"Vous ne pouvez pas activer ce compte, code d'activation est expiré ou compte "
+"est déjà activé"
+
+#: ../Frontend/Controllers/Intern/Shop/Activation.php:55
+msgid "Your Account is activated now , please login"
+msgstr "Votre compte est activé, s'il vous plaît de vous identifier"
+
+#: ../Frontend/Controllers/Intern/Shop/Changepassword.php:34
+msgid "Old Password"
+msgstr "ancien mot de passe"
+
+#: ../Frontend/Controllers/Intern/Shop/Changepassword.php:72
+msgid ""
+"Faild to change password , new password and rentred password doesnt match"
+msgstr ""
+"Impossible de changer le mot de passe, mot de passe et le mot de passe ne "
+"correspondent pas rentred"
+
+#: ../Frontend/Controllers/Intern/Shop/Changepassword.php:79
+msgid "Password was changed !"
+msgstr "Mot de passe a été changé!"
+
+#: ../Frontend/Controllers/Intern/Shop/Changepassword.php:81
+msgid "Old Password not correct !"
+msgstr "Ancien mot de passe incorrect!"
+
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:62
+msgid "Bank Transaction Id"
+msgstr "Identifiant du transmission de  la banque"
+
+#: ../Frontend/Controllers/Intern/Shop/Confirmpayment.php:68
+msgid "Please verify inputs"
+msgstr "S'il vous plaît vérifier les entrées"
+
+#: ../Frontend/Controllers/Intern/Shop/Newsletter.php:39
+#: ../Frontend/Controllers/Intern/Shop/Newsletter.php:51
+msgid "Please Enter a valid email"
+msgstr "S'il vous plaît entrer une adresse email valide"
+
+#: ../Frontend/Controllers/Intern/Shop/Newsletter.php:47
+msgid "Following email is already registered in the newsletter system."
+msgstr "Suite email est déjà enregistrée dans le système de newsletter."
+
+#: ../Frontend/Controllers/Intern/Shop/Newsletter.php:70
+msgid ""
+"The following E-Mail-Address has been successfully added to our newsletter"
+msgstr ""
+"L'adresse e-mail ci-dessous a été ajouté avec succès à notre newsletter"
+
+#: ../Frontend/Controllers/Intern/Shop/Newsletter.php:72
+msgid "Cannot Registred Email"
+msgstr "Vous ne pouvez pas inscrit Email"
+
+#: ../Frontend/Controllers/Intern/Shop/Register.php:93
+msgid "Cannot Register account please try again"
+msgstr "Vous ne pouvez pas compte S'inscrire s'il vous plaît essayer à nouveau"
+
+#: ../Frontend/Controllers/Intern/Shop/Resend.php:47
+msgid "Cannot Find account, please check your email"
+msgstr "Impossible de trouver compte, s'il vous plaît vérifier votre e-mail"
+
+#: ../Frontend/Controllers/Intern/Shop/Resend.php:51
+msgid "This account is already activated"
+msgstr "Ce compte est déjà activé"
+
+#: ../Frontend/Controllers/Intern/Shop/Resend.php:59
+msgid ""
+"New Activation code was sent to your email , please check your mail box and "
+"try to activate your account"
+msgstr ""
+"Nouveau code d'activation a été envoyé à votre adresse email, s'il vous "
+"plaît vérifier votre boîte mail et essayer d'activer votre compte"
+
+#: ../Frontend/Controllers/Intern/Shop/Resend.php:61
+msgid "Error while sending a new activation code please try again later"
+msgstr ""
+"Erreur lors de l'envoi d'un nouveau code d'activation s'il vous plaît "
+"essayer à nouveau plus tard"
+
+#: ../Frontend/Controllers/Intern/Shop/Resetpassword.php:57
+msgid "Your Password was changed"
+msgstr "Votre mot de passe a été changé"
+
+#: ../Frontend/Controllers/Intern/Shop/Resetpassword.php:59
+msgid "Password not identical"
+msgstr "Mot de passe non identiques"
+
+#: ../Frontend/Controllers/Intern/Shop/Address/Modify.php:36
+msgid "Modify Address"
+msgstr "Modifier les Adresses"
+
+#: ../Frontend/Controllers/Mobile/Intern.php:66
+msgid "Search Car"
+msgstr ""
+
+#: ../Frontend/Controllers/Mobile/Intern.php:67
+msgid "Contact us"
+msgstr "Contactez-nous"
+
+#: ../Frontend/Controllers/Mobile/Intern.php:68
+msgid "About us"
+msgstr "À propos de nous"
+
+#: ../Frontend/Controllers/Request/Contact.php:33 ../Models/Contact.php:30
+msgid "Request Contact"
+msgstr "Demande de contact"
+
+#: ../Frontend/Controllers/Request/Demo.php:33
+msgid "Request Demo"
+msgstr "Demande Demo"
+
+#: ../Grids/Account/DataGridView.php:44 ../Grids/Contact/DataGridView.php:40
+msgid "Register Date"
+msgstr "date d'enregistrement"
+
+#: ../Grids/Account/DataGridView.php:46 ../Grids/Account/DataGridView.php:75
+#: ../Grids/Contact/DataGridView.php:53
+msgid "Group"
+msgstr "Groupe"
+
+#: ../Grids/Account/DataGridView.php:55
+msgid "Status"
+msgstr "Etat"
+
+#: ../Grids/Account/Document/DataGridView.php:35
+#: ../Grids/Contact/Document/DataGridView.php:29
+msgid "Download"
+msgstr "Telecharger"
+
+#: ../Grids/Account/Document/DataGridView.php:39
+#: ../Grids/Contact/Document/DataGridView.php:33
+msgid "Mail"
+msgstr "Mail"
+
+#: ../Grids/Account/Group/DataGridView.php:43
+msgid "Set as default"
+msgstr "Définir par défaut"
+
+#: ../Grids/Account/Group/DataGridView.php:45
+#: ../Panels/Account/Group/Panel.php:40
+msgid "Default"
+msgstr "Défaut"
+
+#: ../Grids/Contact/DataGridView.php:33
+msgid "Full Name"
+msgstr "nom et prénom"
+
+#: ../Grids/Contact/DataGridView.php:81
+msgid "contact source"
+msgstr "Source du Contact"
+
+#: ../Grids/Lead/DataGridView.php:34
+msgid "Insert Date"
+msgstr "Date d'insertion"
+
+#: ../Grids/Lead/DataGridView.php:36 ../Panels/Contact/Panel.php:81
+#: ../Panels/Lead/Panel.php:81
+msgid "First Name"
+msgstr "Prénom"
+
+#: ../Grids/Lead/DataGridView.php:41
+msgid "Telephone"
+msgstr "Telephone"
+
+#: ../Grids/Lead/DataGridView.php:43
+msgid "Insert at"
+msgstr "Inserer le"
+
+#: ../Grids/MailInbox/DataGridView.php:31 ../Panels/MailInbox/Panel.php:55
+msgid "Send Date"
+msgstr "date D'envoi"
+
+#: ../Grids/MailInbox/DataGridView.php:32 ../Panels/MailInbox/Panel.php:54
+msgid "Create Date"
+msgstr "Date de creation"
+
+#: ../Grids/MailInbox/DataGridView.php:33
+#: ../Grids/MailInbox/DataGridView.php:60 ../Panels/MailInbox/Panel.php:56
+msgid "User"
+msgstr "utilisateur"
+
+#: ../Grids/MailInbox/DataGridView.php:55
+msgid "Lead"
+msgstr "Interessé"
+
+#: ../Models/Account/Document/Model.php:226
+#: ../Models/Contact/Document/Model.php:226
+msgid "file cannote be uploaded"
+msgstr "Le fichier ne peut être téléchargé"
+
+#: ../Models/Notification/Account/Model.php:70
+#: ../Models/Notification/Account/Model.php:95
+#: ../Models/Notification/Account/Model.php:138
+#, php-format
+msgid "Dear %s"
+msgstr "Cher %s"
+
+#: ../Models/Notification/Account/Model.php:72
+msgid "Welcome to our Shop"
+msgstr "Bienvenue sur notre boutique"
+
+#: ../Models/Notification/Account/Model.php:94
+msgid "Welcome To Our Shop"
+msgstr "Bienvenue sur notre boutique"
+
+#: ../Models/Notification/Account/Model.php:97
+msgid "Welcome to our Shop, we wish you happy times"
+msgstr ""
+"Bienvenue dans notre boutique, nous vous souhaitons des moments heureux"
+
+#: ../Models/Notification/Account/Model.php:99
+#: ../Models/Notification/Account/Model.php:277
+#: ../Models/Notification/Account/Model.php:301
+msgid "Best Regards"
+msgstr "Cordialement"
+
+#: ../Models/Notification/Account/Model.php:139
+#, php-format
+msgid "Activation code is %s"
+msgstr "Code d'activation est %s"
+
+#: ../Models/Notification/Account/Model.php:204
+msgid "Reset password"
+msgstr "réinitialiser le mot de passe"
+
+#: ../Models/Notification/Account/Model.php:206
+msgid "Dear customer you can reset your password through the following link"
+msgstr ""
+"Cher client, vous pouvez réinitialiser votre mot de passe via le lien suivant"
+
+#: ../Models/Notification/Account/Model.php:208
+msgid "Best regards"
+msgstr "Cordialement"
+
+#: ../Models/Notification/Account/Model.php:275
+msgid "Dear"
+msgstr "Chere"
+
+#: ../Models/Notification/Account/Model.php:276
+msgid "Your new Password is"
+msgstr "Votre nouveau mot de passe est"
+
+#: ../Models/Notification/Account/Model.php:284
+msgid "Dear Webmaster"
+msgstr "Cher Webmaster"
+
+#: ../Models/Notification/Account/Model.php:285
+msgid "New Payment confirmation for a Sales Order"
+msgstr "Confirmation pour payment d'order d'achat "
+
+#: ../Models/Notification/Account/Model.php:286
+msgid "Sales Order informations"
+msgstr "Information d'ordre d'achat"
+
+#: ../Models/Notification/Account/Model.php:287
+msgid "Sales Order title"
+msgstr "Titre d'ordre d'achat"
+
+#: ../Models/Notification/Account/Model.php:288
+msgid "Sales Order amount"
+msgstr "montont d'ordre d'achat"
+
+#: ../Models/Notification/Account/Model.php:289
+msgid "Sales Order number"
+msgstr "Numero d'ordre d'achat"
+
+#: ../Models/Notification/Account/Model.php:291
+msgid "Confirm Payment informations"
+msgstr "Confirmer l'information de payment"
+
+#: ../Models/Notification/Account/Model.php:295
+msgid "Transferred amount"
+msgstr "Montant a transferer"
+
+#: ../Models/Notification/Account/Model.php:296
+msgid "Bank Account number"
+msgstr "Numero du compte du banque"
+
+#: ../Models/Notification/Account/Model.php:297
+msgid "Transaction id"
+msgstr "identifian de transaction"
+
+#: ../Models/Notification/Account/Model.php:298
+msgid "Payment Method name"
+msgstr "Nome du Mode de paiement"
+
+#: ../Models/Notification/Account/Model.php:299
+msgid "Payment done at"
+msgstr "Payment effectuer a"
+
+#: ../Models/Notification/Account/Model.php:302
+msgid "Sales Order Payment confirmation"
+msgstr "Confirmation de payment d'ordre d'achat"
+
+#: ../Panels/Account/Panel.php:66
+msgid "Person Information"
+msgstr "Information"
+
+#: ../Panels/Account/Panel.php:75
+msgid "Email 2"
+msgstr "Email 2"
+
+#: ../Panels/Account/Panel.php:80
+msgid "Zipcode"
+msgstr "Zip code"
+
+#: ../Panels/Account/Panel.php:81
+msgid "Created At"
+msgstr "Cree le"
+
+#: ../Panels/Account/Group/Panel.php:36
+msgid "Group Information"
+msgstr "Information du groupe"
+
+#: ../Panels/Account/Group/Panel.php:39
+msgid "Alias"
+msgstr "Alias"
+
+#: ../Panels/Address/Panel.php:58
+msgid "Zip Code"
+msgstr "Zipe code"
+
+#: ../Panels/Contact/Panel.php:77
+msgid "contact Information"
+msgstr "Information du contact"
+
+#: ../Panels/Contact/Panel.php:79 ../Panels/Lead/Panel.php:80
+msgid "Company "
+msgstr "entreprise"
+
+#: ../Panels/Contact/Panel.php:80
+msgid "Company Website "
+msgstr "Site web d'entreprise"
+
+#: ../Panels/Contact/Panel.php:82 ../Panels/Lead/Panel.php:82
+msgid "Last Name"
+msgstr "Nom"
+
+#: ../Panels/Contact/Panel.php:83 ../Panels/Lead/Panel.php:83
+msgid "Date of Birth"
+msgstr "Date de naissance"
+
+#: ../Panels/Contact/Panel.php:86 ../Panels/Lead/Panel.php:88
+msgid "Create Date Time"
+msgstr "Date de cration"
+
+#: ../Panels/Contact/Panel.php:87 ../Panels/Lead/Panel.php:89
+msgid "Update Date Time"
+msgstr "Date de mise ajour"
+
+#: ../Panels/Lead/Panel.php:78
+msgid "Lead Information"
+msgstr "information de l'interessé"
+
+#: ../Panels/MailInbox/Panel.php:51
+msgid "General Information"
+msgstr "Information General"
+
+#: ../Panels/MailInbox/Panel.php:57
+msgid "Person"
+msgstr "Personne"
+
+#: ../Panels/MailInbox/Panel.php:65
+msgid "Paragraph content"
+msgstr "Contenu de paragraphe"
+
+#, fuzzy
+#~ msgid "Account Invoices Details"
+#~ msgstr "تفاصيل الحساب"
+
+#, fuzzy
+#~ msgid "Account Quotation Details"
+#~ msgstr "تفاصيل الحساب"
+
+#, fuzzy
+#~ msgid "Related Quotation"
+#~ msgstr " عروض الاسعار المتعلقة"
+
+#~ msgid "Manage Stages"
+#~ msgstr "إدارة المراحل"
+
+#~ msgid "List All Account stage"
+#~ msgstr "قائمة جميع مراحل الحسابات"
+
+#~ msgid "Modify Stage"
+#~ msgstr "تعديل مرحلة"
+
+#~ msgid "List All Contact stage"
+#~ msgstr "قائمة  جميع  مراحل جهات الاتصال"
+
+#~ msgid "Manage Account Stages"
+#~ msgstr "إدارة مراحل الحسابات"
+
+#~ msgid "Account Stages"
+#~ msgstr " مراحل الحساب"
+
+#~ msgid "Add New Stage"
+#~ msgstr "اضافة مرحلة جديدة"
+
+#~ msgid "Manage Contact Stages"
+#~ msgstr "إدارة مراحل جهات الاتصال"
+
+#~ msgid "Contact Stages"
+#~ msgstr " مراحل جهة الاتصال"
+
+#~ msgid "Stage"
+#~ msgstr "المرحلة"
+
+#~ msgid "Assigned To Group"
+#~ msgstr " موجه الى مجموعة"
+
+#~ msgid "Add Contact Stage"
+#~ msgstr "اضافة مرحلة جهة اتصال"
+
+#, fuzzy
+#~ msgid "By Creating an account"
+#~ msgstr "شاهده صاحب الحساب"
+
+#~ msgid "you will be able to shop faster"
+#~ msgstr "ترغب في ربطها بمتجرك الإلكتروني؟"
+
+#, fuzzy
+#~ msgid "be up to date on an orders status and keep track of the orders"
+#~ msgstr "و تتبع شحناتكم و طلباتكم"
+
+#~ msgid "E-mail"
+#~ msgstr "الريد الالكتروني"
+
+#, fuzzy
+#~ msgid "Conatct Us Form Submitted"
+#~ msgstr "تم اعتماد طلبكم"
+
+#, fuzzy
+#~ msgid "Dear Wemaster"
+#~ msgstr "عزيزي العميل"
+
+#, fuzzy
+#~ msgid "New Contact form was submited"
+#~ msgstr "تم اعتماد طلبكم"
+
+#~ msgid "Informations"
+#~ msgstr "معلومات"
+
+#, fuzzy
+#~ msgid "Best Regards "
+#~ msgstr "مع خالص التحية والتقدير"

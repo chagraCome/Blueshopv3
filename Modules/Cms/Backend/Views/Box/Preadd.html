@@ -1,0 +1,84 @@
+<fieldset>
+  <legend>{'Information'|tr}</legend>
+  <div class="{$class}" id="message">{$message}</div>
+</fieldset>
+<fieldset>
+  <legend>
+    <!-- begin action --><span class="add"><a href="admin.php?module=cms&page=box-list">{'List Blocks'|tr}</a></span><!-- end action -->
+  </legend>
+  <div class="panel">
+    {fieldset name="add_box" title='Vertical Block'|tr}
+    <a href="admin.php?module=cms&page=box-add&layout=2">
+      <div class="page_layout">
+        <table width="99%" border="0">
+          <tr>
+            <td style="height: 20px">{'Title'|tr}</td>
+          </tr>
+          <tr>
+            <td style="height: 125px" valign="top">{'Content'|tr}</td>
+          </tr>
+        </table>
+      </div>
+    </a>
+    <a href="admin.php?module=cms&page=box-add&layout=11">
+      <div class="page_layout">
+        <table width="99%" border="0">
+          <tr>
+            <td style="height: 20px">{'Categorys'|tr}</td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>{'Category'|tr} 1</li>
+                <li>{'Category'|tr} 2</li>
+                <li>{'Category'|tr} 3</li>
+                <li>{'Category'|tr} 4</li>
+                <li>{'Category'|tr} 5</li>
+                <li>{'Category'|tr} 6</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </a>
+    <a href="admin.php?module=cms&page=mainmenu-add&type=vertical">
+      <div class="page_layout">
+        <table width="99%" border="0">
+          <tr>
+            <td style="height: 20px">{'Title'|tr}</td>
+          </tr>
+          <tr>
+            <td style="height: 125px" valign="top">
+              <ul>
+                <li>{'Menu 1'|tr}</li>
+                <li>{'Menu 3'|tr}</li>
+                <li>{'Menu 4'|tr}
+                  <ul>
+                    <li>{'Submenu 1'|tr}</li>
+                    <li>{'Submenu 2'|tr}</li>
+                  </ul>
+                </li>
+                <li>{'Menu 5'|tr}</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </a>
+
+    {/fieldset}
+    {*fieldset name="add_box" title='Horizontal Block'|tr}
+    <a href="admin.php?module=cms&page=box-add&layout=6">
+      <div class="page_layout" style="width: 100%">
+        <table width="100%" border="0">
+          <tr>
+            <td style="height: 150px" valign="top">{'Content'|tr}</td>
+          </tr>
+        </table>
+      </div>
+    </a>
+   
+    {/fieldset*}
+    <!-- end content -->
+  </div>
+</fieldset>
