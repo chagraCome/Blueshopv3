@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-10-14 13:25:32
+<?php /* Smarty version Smarty-3.1.18, created on 2017-04-10 01:30:48
          compiled from "Design\Frontend\Hide1\brands.tpl.html" */ ?>
-<?php /*%%SmartyHeaderCode:102735800cebc6811c1-21131834%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2669958eab618762908-55618596%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'b243950f5c33b1a33cc195732499b948aac20592' => 
     array (
       0 => 'Design\\Frontend\\Hide1\\brands.tpl.html',
-      1 => 1476199512,
+      1 => 1476455446,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '102735800cebc6811c1-21131834',
+  'nocache_hash' => '2669958eab618762908-55618596',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5800cebc702066_75515879',
+  'unifunc' => 'content_58eab618847619_51062019',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5800cebc702066_75515879')) {function content_5800cebc702066_75515879($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58eab618847619_51062019')) {function content_58eab618847619_51062019($_smarty_tpl) {?>
 	<!-- PRODUCT-TAB-CAROSUL-AREA-END -->
 <!--product brands-->
 <div class="logo-brand-area">

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-10-14 13:29:49
+<?php /* Smarty version Smarty-3.1.18, created on 2017-04-10 00:49:07
          compiled from "Design\Frontend\Hide1\header.tpl.html" */ ?>
-<?php /*%%SmartyHeaderCode:152135800cfbddea7b8-94369988%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:416158eaba63ed73c7-14069441%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'df23690d1bd199a224e48716f389886f0b43cff5' => 
     array (
       0 => 'Design\\Frontend\\Hide1\\header.tpl.html',
-      1 => 1476441372,
+      1 => 1476461860,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '152135800cfbddea7b8-94369988',
+  'nocache_hash' => '416158eaba63ed73c7-14069441',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5800cfbe0d6db8_05793029',
+  'unifunc' => 'content_58eaba640756b8_58362915',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5800cfbe0d6db8_05793029')) {function content_5800cfbe0d6db8_05793029($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_tr')) include 'C:\\wamp\\www\\blueshopv3\\Amhsoft\\Libraries\\View\\Smarty\\Lib\\plugins\\amhsoft\\modifier.tr.php';
+<?php if ($_valid && !is_callable('content_58eaba640756b8_58362915')) {function content_58eaba640756b8_58362915($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_tr')) include 'C:\\wamp\\www\\Blueshopv3\\Amhsoft\\Libraries\\View\\Smarty\\Lib\\plugins\\amhsoft\\modifier.tr.php';
 ?><header class="header-area">
     <!-- TOP-LINK START-->
     <div class="top-link">
@@ -204,8 +204,9 @@ $_smarty_tpl->tpl_vars['local']->_loop = true;
 
 
     <!-- MOBILE-MENU-AREA END -->
+    <?php echo $_smarty_tpl->getSubTemplate ('menu_top.tpl.html', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
 </header>
-<?php echo $_smarty_tpl->getSubTemplate ('menu_top.tpl.html', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 
 
